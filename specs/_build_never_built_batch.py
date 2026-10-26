@@ -637,11 +637,14 @@ def _restructure(spec):
              [_mv(S(3, 0), "Camera flies up fast past the three glowing glass buildings inside the "
                            "spiral.")]),
             ("The bottom one turns once a year.", "1 / YEAR", "Large hall, murmuring assembly",
-             [S(4, 0)]),
+             [_mv(S(4, 0), "Camera orbits fast around the giant glass cube hall as it turns, light "
+                           "sweeping across the rows of seats.")]),
             ("The middle one... once a month.", "1 / MONTH", "Typewriters clacking, office murmur",
-             [S(5, 0)]),
+             [_mv(S(5, 0), "Camera circles quickly around the turning glass pyramid of offices, "
+                           "workers at desks sliding past.")]),
             ("And the top one... once every day.", "1 / DAY", "Radio static, ticking clock",
-             [S(6, 0)]),
+             [_mv(S(6, 0), "The glass cylinder spins visibly as the camera orbits it fast, lights "
+                           "streaking, the city far below wheeling past.")]),
             ("It was never built.", None, "Fog over a river, lapping water",
              [_mv(S(7, 0), "Fog rolls along the river, a lone boat drifts past, lamps flicker.")]),
             ("But if it had been...", None, "Night city ambience, wind", [S(8, 0)]),
@@ -654,7 +657,9 @@ def _restructure(spec):
     elif sid == "006_newton_cenotaph":
         L = [
             ("A sphere as big as the one in Las Vegas... drawn in 1784.", None,
-             "Wind through cypress trees, distant birds", [S(0, 0)]),
+             "Wind through cypress trees, distant birds",
+             [_mv(S(0, 0), "Fast dramatic aerial swoop circling the colossal sphere, cypress trees "
+                           "rushing past in the foreground, tiny figures below.", 5)]),
             ("And what he planned inside it... is even stranger.", None,
              "Deep echoing silence, a single low drone",
              [_mv(S(2, 0), "Camera dives down the shaft of light toward the tomb, dust swirling "
@@ -670,10 +675,16 @@ def _restructure(spec):
             ("By day, sunlight through tiny holes in the shell...", None,
              "Vast echoing chamber, soft wind", [S(3, 0)]),
             ("...would turn the inside into a night sky.", None, "Night ambience, soft crickets",
-             [_mv(S(4, 0), "Camera turns and rises as thousands of points of starlight glitter and "
-                           "twinkle across the dome.")]),
+             [_mv(shot("Inside a colossal stone dome, thousands of bright sparkling points of daylight "
+                       "shine through tiny holes like a dense starry night sky, the Milky Way-like "
+                       "band of light clearly visible, a tiny figure standing below looking up.",
+                       "pan_up"),
+                  "Camera turns and rises as the bright points of starlight glitter and twinkle "
+                  "across the dome.")]),
             ("At night, a giant glowing orb... would light it like the sun.", None,
-             "Low warm hum, soft resonance", [S(5, 0)]),
+             "Low warm hum, soft resonance",
+             [_mv(S(5, 0), "Camera circles fast around the glowing orb as its golden light flares and "
+                           "pulses across the curved walls.")]),
             ("It was never built.", None, "Morning mist, distant birds",
              [_mv(S(6, 0), "Mist rolls across the empty field, the cypress trees sway in the wind.")]),
             ("Two hundred and thirty-nine years later, Las Vegas opened a sphere almost the same size.",
@@ -711,7 +722,7 @@ if __name__ == "__main__":
     for spec in SPECS:
         if only and not any(spec["id"].startswith(o) for o in only):
             continue
-        spec = {**spec, "status": "ready-retention"} if only else spec
+        spec = {**spec, "status": "ready-retention-fix"} if only else spec
         path = HERE / f"{spec['id']}.json"
         path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
         n_shots = sum(len(l["shots"]) for l in spec["lines"])

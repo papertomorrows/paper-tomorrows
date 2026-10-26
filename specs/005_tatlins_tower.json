@@ -80,7 +80,7 @@
         {
           "prompt": "A massive glass cube hall inside an iron frame, a grand assembly room with rows of seats, slowly rotating, constructivist design.",
           "move": "push_in",
-          "motion": "The whole glass cube hall slowly rotates, light sliding across the seats. The iron frame stays rigid.",
+          "motion": "Camera orbits fast around the giant glass cube hall as it turns, light sweeping across the rows of seats. Structures keep their shape.",
           "motion_seconds": 3
         }
       ],
@@ -93,7 +93,7 @@
         {
           "prompt": "A glass pyramid of offices inside a giant iron spiral, desks and typewriters, 1920s workers, light through angled glass.",
           "move": "push_in",
-          "motion": "Workers type at their desks as the glass pyramid slowly turns, light angles shifting. The iron frame stays rigid.",
+          "motion": "Camera circles quickly around the turning glass pyramid of offices, workers at desks sliding past. Structures keep their shape.",
           "motion_seconds": 3
         }
       ],
@@ -106,7 +106,8 @@
         {
           "prompt": "A glowing glass cylinder high inside an iron spiral tower, an information centre with radio equipment and screens, the city far below.",
           "move": "push_in",
-          "motion": "The glass cylinder turns slowly, light sweeping across it, the city far below. The architecture stays rigid and unchanged."
+          "motion": "The glass cylinder spins visibly as the camera orbits it fast, lights streaking, the city far below wheeling past. Structures keep their shape.",
+          "motion_seconds": 3
         }
       ],
       "callout": "1 / DAY"
@@ -165,5 +166,5 @@
       "speed": 0.97
     }
   },
-  "status": "ready-retention"
+  "status": "ready-retention-fix"
 }

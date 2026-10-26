@@ -9,7 +9,8 @@
         {
           "prompt": "A colossal smooth stone sphere resting on a tiered circular base ringed with tall dark cypress trees, tiny 18th-century figures at its foot, dramatic sky.",
           "move": "pull_out",
-          "motion": "Camera pulls back and rises to reveal the full size of the colossal sphere, cypress trees swaying, clouds drifting. The architecture stays rigid and unchanged."
+          "motion": "Fast dramatic aerial swoop circling the colossal sphere, cypress trees rushing past in the foreground, tiny figures below. Structures keep their shape.",
+          "motion_seconds": 5
         }
       ]
     },
@@ -66,9 +67,9 @@
       "ambience": "Night ambience, soft crickets",
       "shots": [
         {
-          "prompt": "The inside of an immense dark dome glittering with thousands of points of light like a star-filled night sky, a tiny figure standing below.",
-          "move": "pull_out",
-          "motion": "Camera turns and rises as thousands of points of starlight glitter and twinkle across the dome. Structures keep their shape.",
+          "prompt": "Inside a colossal stone dome, thousands of bright sparkling points of daylight shine through tiny holes like a dense starry night sky, the Milky Way-like band of light clearly visible, a tiny figure standing below looking up.",
+          "move": "pan_up",
+          "motion": "Camera turns and rises as the bright points of starlight glitter and twinkle across the dome. Structures keep their shape.",
           "motion_seconds": 3
         }
       ]
@@ -80,7 +81,8 @@
         {
           "prompt": "A huge glowing orb suspended in the centre of a vast dark spherical hall, lighting the curved stone walls golden, a tiny visitor below.",
           "move": "push_in",
-          "motion": "The glowing orb pulses softly, golden light rippling across the curved walls. The architecture stays rigid and unchanged."
+          "motion": "Camera circles fast around the glowing orb as its golden light flares and pulses across the curved walls. Structures keep their shape.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -145,5 +147,5 @@
       "speed": 0.97
     }
   },
-  "status": "ready-retention"
+  "status": "ready-retention-fix"
 }

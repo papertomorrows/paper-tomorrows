@@ -78,7 +78,8 @@ HERO_MOTION_PROMPT = (
     "city lights twinkle, water ripples. The architecture stays rigid and unchanged."
 )
 
-LABEL = "CONCEPT VISUALIZATION  ·  NEVER BUILT"
+LABEL = "AI CONCEPT VISUALIZATION"
+LABEL_SECONDS = 3.0
 
 W, H, FPS = 1080, 1920, 30
 
@@ -207,13 +208,13 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,DejaVu Sans,82,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,7,2,2,80,80,620,1
-Style: Label,DejaVu Sans,30,&H00E6E6E6,&H00E6E6E6,&H00000000,&H00000000,1,0,0,0,100,100,4,0,1,2,0,8,60,60,150,1
+Style: Caption,DejaVu Sans,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,6,2,2,80,80,430,1
+Style: Label,DejaVu Sans,26,&H00E6E6E6,&H00E6E6E6,&H00000000,&H00000000,1,0,0,0,100,100,4,0,1,2,0,8,60,60,150,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
-    lines = [f"Dialogue: 1,{ass_time(0)},{ass_time(total)},Label,,0,0,0,,{LABEL}"]
+    lines = [f"Dialogue: 1,{ass_time(0)},{ass_time(LABEL_SECONDS)},Label,,0,0,0,,{{\\fad(200,500)}}{LABEL}"]
     for s, e, t in chunks:
         lines.append(
             f"Dialogue: 0,{ass_time(s)},{ass_time(e)},Caption,,0,0,0,,{{\\fad(60,60)}}{t}"

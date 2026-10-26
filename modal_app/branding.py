@@ -15,18 +15,22 @@ COMMON = (
 )
 
 OPTIONS = {
-    "A_needle_on_paper": (
-        "A single slender needle-shaped skyscraper rising out of a folded sheet of aged "
-        "cream drafting paper, glowing gold at its spire, painterly cinematic lighting. "
+    "C1_full_bleed": (
+        "An open book seen from the front, a miniature city of folded and cut paper "
+        "towers rising from its pages, the tallest a slender needle-shaped spire in the "
+        "centre, lit warm gold from inside the book. The book and city fill most of the "
+        "frame. Solid deep navy background reaching every edge and corner. "
     ),
-    "B_gold_blueprint": (
-        "Elegant fine gold line drawing of a slender needle-shaped tower with faint "
-        "architectural construction lines and a compass circle around it, like a "
-        "luxurious blueprint emblem. "
+    "C2_bold_silhouette": (
+        "An open book with just five bold folded-paper towers rising from its pages, a "
+        "tall needle-shaped spire in the middle, simple strong shapes, glowing gold light "
+        "spilling up from the pages. Close framing, the book fills the lower half and the "
+        "spire reaches near the top. Solid deep navy background reaching every edge. "
     ),
-    "C_paper_city": (
-        "A miniature futuristic skyline of tall towers made of folded and cut paper, "
-        "standing on an open book, lit warm gold from below, soft cinematic shadows. "
+    "C3_night_spire": (
+        "An open book glowing gold from within, a single slender folded-paper needle tower "
+        "rising from its centre surrounded by a few smaller paper towers, faint stars in a "
+        "deep navy night sky that fills the whole frame to every edge, soft cinematic light. "
     ),
 }
 
@@ -39,7 +43,7 @@ def generate(name: str, prompt: str) -> tuple[str, bytes]:
     res = fal_client.subscribe(
         "fal-ai/flux-2-pro",
         arguments={"prompt": prompt + COMMON, "image_size": "square_hd",
-                   "seed": 2026, "output_format": "png"},
+                   "seed": 2027, "output_format": "png"},
     )
     return name, requests.get(res["images"][0]["url"], timeout=120).content
 

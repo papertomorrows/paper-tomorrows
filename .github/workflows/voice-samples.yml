@@ -30,12 +30,12 @@ jobs:
         run: |
           set -o pipefail
           modal run modal_app/voice_samples.py 2>&1 | tee run_output.txt
-          RESULT=$(grep -E "SAVED|VOICE SAMPLES OK" run_output.txt | tr '\n' ' ' || true)
+          RESULT=$(grep -E "KEY CHECK|FAILED|SAVED|VOICE SAMPLES OK" run_output.txt | tr '\n' ' ' || true)
           echo "::notice title=Result::${RESULT}"
       - name: Report error line
         if: failure()
         run: |
-          ERR=$(grep -E "Error|error|No ElevenLabs key|401|403" run_output.txt | tail -3 | tr '\n' ' ' | sed 's/xi-api-key[^ ]*//g')
+          ERR=$(grep -E "KEY CHECK|FAILED|No ElevenLabs key|No voice samples|Error" run_output.txt | tail -6 | tr '\n' ' ')
           echo "::error title=Failure::${ERR}"
       - name: Commit audio to the repository
         if: success()

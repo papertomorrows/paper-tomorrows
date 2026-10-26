@@ -25,6 +25,14 @@ NARRATION = (
 PREFERRED = ["George", "Brian", "Daniel", "Bill", "Adam", "Charlotte"]
 MAX_VOICES = 4
 
+# Used only if the key cannot list voices (premade ElevenLabs voice IDs).
+FALLBACK_VOICES = {
+    "George": "JBFqnCBsd6RMkjVDRZzb",
+    "Brian": "nPczCjzI2devNBz1zQrb",
+    "Daniel": "onwK4e9ZLuTAKqWW03F9",
+    "Bill": "pqHfZKP75CvOlQylNhV4",
+}
+
 
 @app.function(image=image, timeout=600)
 def synthesize() -> list[tuple[str, bytes]]:
@@ -33,15 +41,26 @@ def synthesize() -> list[tuple[str, bytes]]:
     key = os.environ["XI_KEY"]
     headers = {"xi-api-key": key}
 
+    def detail(resp) -> str:
+        try:
+            d = resp.json().get("detail", {})
+            if isinstance(d, dict):
+                return f"{d.get('status', '')} {d.get('message', '')}".strip()
+            return str(d)[:200]
+        except Exception:
+            return resp.text[:200]
+
     voices = requests.get(
         "https://api.elevenlabs.io/v1/voices", headers=headers, timeout=60
     )
-    voices.raise_for_status()
-    available = {v["name"].split(" ")[0]: v["voice_id"] for v in voices.json()["voices"]}
-
-    chosen = [(n, available[n]) for n in PREFERRED if n in available][:MAX_VOICES]
-    if not chosen:
-        chosen = list(available.items())[:MAX_VOICES]
+    if voices.ok:
+        available = {v["name"].split(" ")[0]: v["voice_id"] for v in voices.json()["voices"]}
+        chosen = [(n, available[n]) for n in PREFERRED if n in available][:MAX_VOICES]
+        if not chosen:
+            chosen = list(available.items())[:MAX_VOICES]
+    else:
+        print(f"VOICE LIST FAILED {voices.status_code}: {detail(voices)}")
+        chosen = list(FALLBACK_VOICES.items())
 
     results = []
     for name, voice_id in chosen:
@@ -52,7 +71,9 @@ def synthesize() -> list[tuple[str, bytes]]:
             json={"text": NARRATION, "model_id": "eleven_multilingual_v2"},
             timeout=120,
         )
-        r.raise_for_status()
+        if not r.ok:
+            print(f"TTS FAILED {r.status_code} for {name}: {detail(r)}")
+            continue
         results.append((name, r.content))
     return results
 
@@ -64,10 +85,15 @@ def main():
         raise SystemExit("No ElevenLabs key found in ELEVENLABS_API_KEY or ELEVENLABS")
     secret = modal.Secret.from_dict({"XI_KEY": key})
 
+    print(f"KEY CHECK: length {len(key)}, starts with '{key[:3]}'")
+
     out_dir = pathlib.Path("outputs/voice_samples")
     out_dir.mkdir(parents=True, exist_ok=True)
-    for i, (name, data) in enumerate(synthesize.with_options(secrets=[secret]).remote(), 1):
+    results = synthesize.with_options(secrets=[secret]).remote()
+    for i, (name, data) in enumerate(results, 1):
         path = out_dir / f"voice_{i}_{name}.mp3"
         path.write_bytes(data)
         print(f"SAVED {path} ({len(data) // 1024} KB)")
+    if not results:
+        raise SystemExit("No voice samples were produced")
     print("VOICE SAMPLES OK")

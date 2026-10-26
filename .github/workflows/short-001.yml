@@ -1,0 +1,55 @@
+name: Short 001 (mile-high skyscraper)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "modal_app/first_short.py"
+      - ".github/workflows/short-001.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Modal client
+        run: pip install modal
+      - name: Sync API keys into Modal's secret store
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+          XI_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS }}
+        run: |
+          modal secret create paper-tomorrows-keys \
+            FAL_KEY="$FAL_KEY" XI_KEY="$XI_KEY" --force > /dev/null
+          echo "keys synced"
+      - name: Produce the short on Modal
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          set -o pipefail
+          modal run modal_app/first_short.py 2>&1 | tee run_output.txt
+          RESULT=$(grep -E "SHORT OK|FAILED" run_output.txt | tr '\n' ' ' || true)
+          echo "::notice title=Result::${RESULT}"
+      - name: Report error
+        if: failure()
+        run: |
+          ERR=$(grep -E "Error|FAILED|failed|Traceback" run_output.txt 2>/dev/null | tail -8 | tr '\n' ' ' | cut -c1-900)
+          echo "::error title=Failure::${ERR}"
+      - name: Commit outputs
+        if: success()
+        run: |
+          git config user.name "paper-tomorrows-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/shorts/001_mile_high
+          git commit -m "Add short 001 [skip ci]" || echo "nothing to commit"
+          git push

@@ -1,7 +1,7 @@
 # Short #006 - Boullée's Cenotaph for Newton
 
 ## Title options (1 = recommended)
-1. The Las Vegas Sphere Was Designed in 1784
+1. A Sphere as Big as the Las Vegas Sphere, Drawn in 1784
 2. In 1784, an Architect Designed a Sphere for Isaac Newton
 3. The 150-Metre Sphere That Turned Day Into Night
 

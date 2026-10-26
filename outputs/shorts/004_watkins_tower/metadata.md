@@ -1,7 +1,7 @@
 # Short #004 - Watkin's Tower: London's Eiffel Tower
 
 ## Title options (1 = recommended)
-1. London Tried to Beat the Eiffel Tower. It Failed.
+1. London Tried to Beat the Eiffel Tower. It Ended With Dynamite.
 2. The Tower That Would Have Been Taller Than the Eiffel Tower
 3. Why Wembley Stadium Sits on a Failed Tower
 

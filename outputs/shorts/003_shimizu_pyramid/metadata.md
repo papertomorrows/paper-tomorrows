@@ -1,7 +1,7 @@
 # Short #003 - The Shimizu Mega-City Pyramid
 
 ## Title options (1 = recommended)
-1. Japan Designed a Pyramid 14 Times Taller Than Giza
+1. This Pyramid Would Be Taller Than Two Burj Khalifas
 2. A City for a Million People Inside One Pyramid
 3. The 2-Kilometre Pyramid Japan Never Built
 

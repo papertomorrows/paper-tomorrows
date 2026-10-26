@@ -516,13 +516,202 @@ for spec in SPECS:
         _restructure_002(spec)
 
 
+
+# ------------------------------------------------------------------ retention structure (003-006)
+VOICE_RETENTION = {"voice_settings": {"stability": 0.35, "similarity_boost": 0.80, "style": 0.45,
+                                      "use_speaker_boost": True, "speed": 0.97}}
+LIFE = "Structures keep their shape."
+
+
+def _mv(shot_, motion, secs=3):
+    shot_ = dict(shot_); shot_["motion"] = motion + " " + LIFE; shot_["motion_seconds"] = secs
+    return shot_
+
+
+def _restructure(spec):
+    old = spec["lines"]
+    S = lambda li, si: dict(old[li]["shots"][si])
+    sid = spec["id"]
+    if sid == "003_shimizu_pyramid":
+        L = [
+            ("This pyramid... would be taller than two Burj Khalifas stacked on top of each other.", None,
+             "Deep wind howling high above the sea, distant waves",
+             [S(0, 0), _mv(S(8, 0), "Camera rises fast past the skyscraper and keeps climbing up the "
+                                    "face of the giant lattice pyramid into the clouds.")]),
+            ("A million people... would live inside it.", "1,000,000",
+             "Vast echoing interior, distant crowd murmur, soft wind", [S(2, 0)]),
+            ("And the craziest part... is how it would be built.", None,
+             "Low electric hum, mechanical whirring",
+             [_mv(S(5, 1), "Camera glides fast along the glowing black cable as pulses of light race "
+                           "through it.")]),
+            ("Japanese builder Shimizu designed it for Tokyo Bay.", None,
+             "Harbour ambience, boat engines, gulls, light wind",
+             [_mv(S(1, 0), "Fast low aerial flight across the bay toward the giant pyramid, boats "
+                           "speeding past below, clouds streaming around its peak.")]),
+            ("Two thousand and four metres tall.", "2,004 M", "Strong high-altitude wind",
+             [_mv(S(1, 1), "Camera races straight up along the lattice edge, struts flashing past, "
+                           "bursting through the clouds.")]),
+            ("Thirty-storey skyscrapers... hanging inside it on cables.", None,
+             "Creaking cables, wind through a steel frame, distant city hum",
+             [_mv(S(3, 0), "Camera swoops between the hanging towers, people crossing sky bridges, "
+                           "light beams sweeping."),
+              _mv(S(3, 1), "Camera spirals around the thick cable as it strains, clouds rushing past "
+                           "outside the frame.")]),
+            ("Moving walkways. Sloping elevators. Robot pods racing through the frame.", None,
+             "Futuristic transit whoosh, footsteps, soft chimes",
+             [_mv(S(4, 0), "Camera flies fast alongside the moving walkways and gliding elevators, "
+                           "crowds riding past."), S(4, 1)]),
+            ("Robots would build it... for eighty years. With materials still being invented.", "80 YEARS",
+             "Construction robots, welding sparks, heavy machinery over the sea",
+             [_mv(S(5, 0), "Robot arms swing fast and lock a dark strut into place, a shower of "
+                           "welding sparks, the sea churning below.")]),
+            ("It was never built.", None, "Calm water, distant foghorn", [S(6, 0)]),
+            ("But if it had been...", None, "Night wind, distant city hum", [S(7, 0)]),
+            ("A million lives, above the clouds... all inside one pyramid.", None,
+             "High wind above the clouds, soft sunrise birdsong",
+             [_mv(S(8, 1), "Camera pushes fast through the struts out into the open sky above a sea "
+                           "of clouds at sunrise.")]),
+        ]
+        title = "1. This Pyramid Would Be Taller Than Two Burj Khalifas"
+    elif sid == "004_watkins_tower":
+        L = [
+            ("London tried to build a tower... taller than the Eiffel Tower.", None,
+             "Victorian crowd chatter, wind, flags flapping", [S(0, 0)]),
+            ("It ended... with dynamite.", None, "Distant rumble, debris falling", [S(6, 0)]),
+            ("In 1890, railway tycoon Edward Watkin wanted London to win.", None,
+             "Steam train arriving, hissing steam, station bell", [S(1, 0)]),
+            ("His tower would rise forty-six metres higher than Paris.", "+46 M", "High wind, flags",
+             [_mv(S(1, 1), "Camera rises fast between the two towers, sweeping up past the summit of "
+                           "the shorter one toward the top of the taller one.")]),
+            ("A hotel. Theatres. Turkish baths... all in the sky.", None,
+             "Elegant Victorian restaurant, cutlery, string quartet, murmuring diners",
+             [_mv(S(2, 0), "Camera glides fast through the sky restaurant past the diners toward the "
+                           "windows and the clouds below."),
+              _mv(S(2, 1), "Camera pushes fast through swirling steam toward the bright window.")]),
+            ("Work began in 1893.", None, "Hammering rivets, clanging iron, workers shouting",
+             [_mv(S(3, 0), "Sparks fly as workers hammer glowing rivets, a crane swings a girder fast "
+                           "overhead.")]),
+            ("But the money ran out... and the ground began to sink.", None,
+             "Heavy rain, wind, creaking timber",
+             [S(4, 0), _mv(S(4, 1), "Heavy rain lashes the abandoned site, a flash of lightning, the "
+                                    "tarp whipping in the wind.")]),
+            ("It reached forty-seven metres. Less than one-seventh of the plan.", "47 M",
+             "Empty park, cold wind, distant crows",
+             [_mv(S(5, 0), "Camera rises from the stubby iron base up through the ghostly outline of "
+                           "the planned tower, high into the sky.")]),
+            ("So they blew it up.", None, "Dynamite blast, debris and dust",
+             [_mv(S(3, 1), "A blast of dust and smoke erupts from the short iron structure, debris "
+                           "flying, workers and horses scattering.")]),
+            ("Today, Wembley Stadium stands on the same spot.", None,
+             "Huge stadium crowd roar, chanting",
+             [_mv(S(7, 0), "Fast drone flight over the stadium toward the giant arch, crowds streaming "
+                           "in below.")]),
+            ("But if it had been finished... it would still be the tallest structure in London.", None,
+             "Night city wind, distant traffic",
+             [S(8, 0), _mv(S(8, 1), "Camera pulls back fast from the observation deck, revealing the "
+                                    "vast glowing city spreading in every direction.")]),
+        ]
+        title = "1. London Tried to Beat the Eiffel Tower. It Ended With Dynamite."
+    elif sid == "005_tatlins_tower":
+        cylinder = shot("Close-up of a glowing glass cylinder high inside a dark iron spiral tower at "
+                        "night, a ring of lights around it like a clock face, the city far below.",
+                        "push_in")
+        L = [
+            ("This tower was designed... with rooms that spin.", None,
+             "Deep metallic groan, storm wind", [S(0, 0)]),
+            ("One of them... would turn all the way around, every single day.", None,
+             "Slow mechanical rotation, ticking gears",
+             [_mv(cylinder, "The glass cylinder turns steadily, the ring of lights sweeping around, "
+                            "camera circling it.")]),
+            ("Russia, 1920. The artist Vladimir Tatlin designs a monument.", None,
+             "River ambience, distant ship horn, wind", [S(2, 0)]),
+            ("Four hundred metres of iron, glass and steel.", "400 M", "High wind, iron creaking",
+             [_mv(S(1, 0), "Camera rises fast up the spiral, overtaking the smaller lattice tower and "
+                           "climbing into the sunset sky.")]),
+            ("Taller than the Eiffel Tower. Tilted like the Earth's axis.", None,
+             "Wind whistling through iron beams",
+             [_mv(S(1, 1), "Camera races along the curving iron beam as it spirals upward, sunset "
+                           "light flaring.")]),
+            ("Inside: three giant glass buildings, stacked.", None,
+             "Echoing hall, soft machinery hum",
+             [_mv(S(3, 0), "Camera flies up fast past the three glowing glass buildings inside the "
+                           "spiral.")]),
+            ("The bottom one turns once a year.", "1 / YEAR", "Large hall, murmuring assembly",
+             [S(4, 0)]),
+            ("The middle one... once a month.", "1 / MONTH", "Typewriters clacking, office murmur",
+             [S(5, 0)]),
+            ("And the top one... once every day.", "1 / DAY", "Radio static, ticking clock",
+             [S(6, 0)]),
+            ("It was never built.", None, "Fog over a river, lapping water",
+             [_mv(S(7, 0), "Fog rolls along the river, a lone boat drifts past, lamps flicker.")]),
+            ("But if it had been...", None, "Night city ambience, wind", [S(8, 0)]),
+            ("...Saint Petersburg would have a skyline that never stands still.", None,
+             "Night river, gentle water, distant bells",
+             [_mv(S(8, 1), "Camera sweeps low over the river toward the glowing spiral tower, "
+                           "reflections rippling, a boat cutting through them.")]),
+        ]
+        title = "1. This Tower Was Designed to Spin. Once a Day."
+    elif sid == "006_newton_cenotaph":
+        L = [
+            ("A sphere as big as the one in Las Vegas... drawn in 1784.", None,
+             "Wind through cypress trees, distant birds", [S(0, 0)]),
+            ("And what he planned inside it... is even stranger.", None,
+             "Deep echoing silence, a single low drone",
+             [_mv(S(2, 0), "Camera dives down the shaft of light toward the tomb, dust swirling "
+                           "around it.")]),
+            ("French architect Étienne-Louis Boullée designed it for Isaac Newton.", None,
+             "Quill scratching on parchment, candle crackle",
+             [_mv(S(1, 1), "Camera glides fast across the parchment drawing as warm light sweeps "
+                           "over the sphere.")]),
+            ("A hollow sphere, one hundred and fifty metres across.", "150 M",
+             "Wind, mist, distant voices",
+             [_mv(S(1, 0), "Camera rises fast up the curve of the giant sphere, tiny figures below, "
+                           "mist swirling.")]),
+            ("By day, sunlight through tiny holes in the shell...", None,
+             "Vast echoing chamber, soft wind", [S(3, 0)]),
+            ("...would turn the inside into a night sky.", None, "Night ambience, soft crickets",
+             [_mv(S(4, 0), "Camera turns and rises as thousands of points of starlight glitter and "
+                           "twinkle across the dome.")]),
+            ("At night, a giant glowing orb... would light it like the sun.", None,
+             "Low warm hum, soft resonance", [S(5, 0)]),
+            ("It was never built.", None, "Morning mist, distant birds",
+             [_mv(S(6, 0), "Mist rolls across the empty field, the cypress trees sway in the wind.")]),
+            ("Two hundred and thirty-nine years later, Las Vegas opened a sphere almost the same size.",
+             "239 YEARS", "Busy Las Vegas street, crowd, traffic, distant music",
+             [_mv(S(7, 0), "Fast drone flight toward the glowing sphere as patterns of light ripple "
+                           "across its surface, crowds below."),
+              _mv(S(7, 1), "Camera pulls back slowly between the two spheres as the sky darkens.")]),
+            ("Now imagine standing inside the original... a whole sky, built for one man.", None,
+             "Vast echoing chamber, soft celestial tones", [S(8, 0)]),
+        ]
+        title = "1. A Sphere as Big as the Las Vegas Sphere, Drawn in 1784"
+    else:
+        return
+    spec["lines"] = []
+    for text, callout, amb, shots_ in L:
+        line = {"text": text, "ambience": amb, "shots": shots_}
+        if callout:
+            line["callout"] = callout
+        spec["lines"].append(line)
+    never = next(i for i, l in enumerate(spec["lines"]) if l["text"].startswith("It was never built")
+                 or l["text"].startswith("So they blew it up"))
+    spec["sfx"] = {"riser_into_lines": [never], "impact_on_lines": [never]}
+    spec["settings"] = VOICE_RETENTION
+    first_title = spec["metadata"].split("\n")[3]
+    spec["metadata"] = spec["metadata"].replace(first_title, title, 1)
+
+
+for spec in SPECS:
+    _restructure(spec)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:]
     for spec in SPECS:
         if only and not any(spec["id"].startswith(o) for o in only):
             continue
-        spec = {**spec, "status": "ready-retention-test"} if only else spec
+        spec = {**spec, "status": "ready-retention"} if only else spec
         path = HERE / f"{spec['id']}.json"
         path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
         n_shots = sum(len(l["shots"]) for l in spec["lines"])

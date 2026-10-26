@@ -3,7 +3,8 @@
   "seed_base": 1920,
   "lines": [
     {
-      "text": "In 1920, an artist designed a tower... where the buildings inside would spin.",
+      "text": "This tower was designed... with rooms that spin.",
+      "ambience": "Deep metallic groan, storm wind",
       "shots": [
         {
           "prompt": "A colossal leaning double spiral of dark iron rising into a stormy sky, glass buildings glowing inside it, constructivist style, dramatic low angle.",
@@ -13,20 +14,20 @@
       ]
     },
     {
-      "text": "Four hundred metres of iron, glass and steel. Taller than the Eiffel Tower.",
+      "text": "One of them... would turn all the way around, every single day.",
+      "ambience": "Slow mechanical rotation, ticking gears",
       "shots": [
         {
-          "prompt": "A giant leaning spiral iron tower beside a smaller Eiffel-like lattice tower for scale, the spiral much taller, dusk sky.",
-          "move": "pan_up"
-        },
-        {
-          "prompt": "Close view of massive riveted iron spiral beams curving upward, early 20th century industrial detail, red sunset light.",
-          "move": "pan_up"
+          "prompt": "Close-up of a glowing glass cylinder high inside a dark iron spiral tower at night, a ring of lights around it like a clock face, the city far below.",
+          "move": "push_in",
+          "motion": "The glass cylinder turns steadily, the ring of lights sweeping around, camera circling it. Structures keep their shape.",
+          "motion_seconds": 3
         }
       ]
     },
     {
-      "text": "A giant twin spiral, tilted like the Earth's axis... over the city of Petrograd.",
+      "text": "Russia, 1920. The artist Vladimir Tatlin designs a monument.",
+      "ambience": "River ambience, distant ship horn, wind",
       "shots": [
         {
           "prompt": "A colossal leaning iron spiral tower rising over the river and classical palaces of 1920s Petrograd, misty morning, ships on the river.",
@@ -36,18 +37,45 @@
       ]
     },
     {
-      "text": "Inside, three glass buildings... stacked on top of each other.",
+      "text": "Four hundred metres of iron, glass and steel.",
+      "ambience": "High wind, iron creaking",
       "shots": [
         {
-          "prompt": "Inside a giant iron spiral, three huge glass buildings stacked vertically: a cube at the bottom, a pyramid in the middle, a cylinder above, glowing.",
+          "prompt": "A giant leaning spiral iron tower beside a smaller Eiffel-like lattice tower for scale, the spiral much taller, dusk sky.",
           "move": "pan_up",
-          "motion": "Camera rises slowly past the three glowing glass buildings inside the spiral. Buildings and structures stay rigid and unchanged.",
+          "motion": "Camera rises fast up the spiral, overtaking the smaller lattice tower and climbing into the sunset sky. Structures keep their shape.",
+          "motion_seconds": 3
+        }
+      ],
+      "callout": "400 M"
+    },
+    {
+      "text": "Taller than the Eiffel Tower. Tilted like the Earth's axis.",
+      "ambience": "Wind whistling through iron beams",
+      "shots": [
+        {
+          "prompt": "Close view of massive riveted iron spiral beams curving upward, early 20th century industrial detail, red sunset light.",
+          "move": "pan_up",
+          "motion": "Camera races along the curving iron beam as it spirals upward, sunset light flaring. Structures keep their shape.",
           "motion_seconds": 3
         }
       ]
     },
     {
-      "text": "The bottom one would turn once a year.",
+      "text": "Inside: three giant glass buildings, stacked.",
+      "ambience": "Echoing hall, soft machinery hum",
+      "shots": [
+        {
+          "prompt": "Inside a giant iron spiral, three huge glass buildings stacked vertically: a cube at the bottom, a pyramid in the middle, a cylinder above, glowing.",
+          "move": "pan_up",
+          "motion": "Camera flies up fast past the three glowing glass buildings inside the spiral. Structures keep their shape.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "The bottom one turns once a year.",
+      "ambience": "Large hall, murmuring assembly",
       "shots": [
         {
           "prompt": "A massive glass cube hall inside an iron frame, a grand assembly room with rows of seats, slowly rotating, constructivist design.",
@@ -55,10 +83,12 @@
           "motion": "The whole glass cube hall slowly rotates, light sliding across the seats. The iron frame stays rigid.",
           "motion_seconds": 3
         }
-      ]
+      ],
+      "callout": "1 / YEAR"
     },
     {
       "text": "The middle one... once a month.",
+      "ambience": "Typewriters clacking, office murmur",
       "shots": [
         {
           "prompt": "A glass pyramid of offices inside a giant iron spiral, desks and typewriters, 1920s workers, light through angled glass.",
@@ -66,39 +96,52 @@
           "motion": "Workers type at their desks as the glass pyramid slowly turns, light angles shifting. The iron frame stays rigid.",
           "motion_seconds": 3
         }
-      ]
+      ],
+      "callout": "1 / MONTH"
     },
     {
-      "text": "And the top one... once a day.",
+      "text": "And the top one... once every day.",
+      "ambience": "Radio static, ticking clock",
       "shots": [
         {
           "prompt": "A glowing glass cylinder high inside an iron spiral tower, an information centre with radio equipment and screens, the city far below.",
           "move": "push_in",
           "motion": "The glass cylinder turns slowly, light sweeping across it, the city far below. The architecture stays rigid and unchanged."
         }
-      ]
+      ],
+      "callout": "1 / DAY"
     },
     {
       "text": "It was never built.",
+      "ambience": "Fog over a river, lapping water",
       "shots": [
         {
           "prompt": "An empty riverside in Petrograd at dusk, fog over the water, classical buildings, nothing towering above the skyline.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Fog rolls along the river, a lone boat drifts past, lamps flicker. Structures keep their shape.",
+          "motion_seconds": 3
         }
       ]
     },
     {
-      "text": "But imagine, for a moment... that it was.",
+      "text": "But if it had been...",
+      "ambience": "Night city ambience, wind",
       "shots": [
         {
           "prompt": "Present-day Saint Petersburg at dusk seen across the river, a colossal 400-metre leaning iron spiral tower with glowing glass buildings inside, towering over the historic skyline.",
           "move": "push_in",
           "motion": "Slow upward crane shot rising along the iron spiral, the glass blocks inside glowing and slowly turning, city lights twinkling. The architecture stays rigid and unchanged."
-        },
+        }
+      ]
+    },
+    {
+      "text": "...Saint Petersburg would have a skyline that never stands still.",
+      "ambience": "Night river, gentle water, distant bells",
+      "shots": [
         {
           "prompt": "The glowing spiral tower reflected in a river at night, historic palaces along the bank, still water.",
           "move": "pull_out",
-          "motion": "Reflections ripple on the river, the glowing tower's lights shimmer, a boat glides past. Buildings and structures stay rigid and unchanged.",
+          "motion": "Camera sweeps low over the river toward the glowing spiral tower, reflections rippling, a boat cutting through them. Structures keep their shape.",
           "motion_seconds": 3
         }
       ]
@@ -106,12 +149,21 @@
   ],
   "sfx": {
     "riser_into_lines": [
-      7
+      9
     ],
     "impact_on_lines": [
-      7
+      9
     ]
   },
   "metadata": "# Short #005 - Tatlin's Tower: The Tower That Spun\n\n## Title options (1 = recommended)\n1. This Tower Was Designed to Spin. Once a Day.\n2. The 400-Metre Spinning Tower That Was Never Built\n3. In 1920, They Designed a Tower With Rotating Buildings Inside\n\n## Description\nFour hundred metres of iron and glass. Three buildings inside, each turning at its own speed: once a year, once a month, once a day.\n\nVladimir Tatlin designed the Monument to the Third International in 1919-1920 for Petrograd (now Saint Petersburg). It was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Tatlin's Tower\n- Sainsbury Centre: Model of the Monument to the Third International\n\n#neverbuilt #tatlin #constructivism #architecture #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready-motion"
+  "settings": {
+    "voice_settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.8,
+      "style": 0.45,
+      "use_speaker_boost": true,
+      "speed": 0.97
+    }
+  },
+  "status": "ready-retention"
 }

@@ -3,62 +3,97 @@
   "seed_base": 2110,
   "lines": [
     {
-      "text": "Japan designed a pyramid... about fourteen times taller than Giza.",
+      "text": "This pyramid... would be taller than two Burj Khalifas stacked on top of each other.",
+      "ambience": "Deep wind howling high above the sea, distant waves",
       "shots": [
         {
           "prompt": "A colossal glass and steel lattice pyramid rising out of Tokyo Bay, so tall its peak pierces the clouds, tiny ships on the water at its base, dawn light.",
           "move": "pan_up",
           "motion": "Camera rises fast up the face of the colossal lattice pyramid from the water toward its cloud-wrapped peak. The architecture stays rigid and unchanged."
-        }
-      ]
-    },
-    {
-      "text": "Two thousand metres high. Rising out of Tokyo Bay.",
-      "shots": [
-        {
-          "prompt": "The Tokyo skyline seen across the bay, dwarfed by a gigantic open-frame pyramid on the water, its upper half above the clouds, golden hour.",
-          "move": "pull_out",
-          "motion": "Clouds drift slowly past the upper half of the pyramid, boats cross the bay, light shifts. Buildings and structures stay rigid and unchanged.",
-          "motion_seconds": 3
         },
         {
-          "prompt": "Looking straight up one edge of a vast pyramid made of a geometric steel lattice, the edges converging far into the sky.",
-          "move": "pan_up"
+          "prompt": "Very wide shot from far across Tokyo Bay: a colossal see-through pyramid made of an open steel lattice, its peak high above the clouds. At its base stands a modern skyscraper that looks tiny next to it, reaching only a small fraction of the pyramid's height. Dramatic dusk sky, the whole pyramid visible.",
+          "move": "pull_out",
+          "motion": "Camera rises fast past the skyscraper and keeps climbing up the face of the giant lattice pyramid into the clouds. Structures keep their shape.",
+          "motion_seconds": 3
         }
       ]
     },
     {
-      "text": "A single structure... for one million people.",
+      "text": "A million people... would live inside it.",
+      "ambience": "Vast echoing interior, distant crowd murmur, soft wind",
       "shots": [
         {
           "prompt": "Inside a gigantic pyramid made of open lattice, a vast airy space filled with suspended towers, gardens and light, small crowds far below.",
           "move": "push_in",
           "motion": "Slow drifting camera through the vast interior of the lattice pyramid, light beams shifting, tiny transit pods gliding along the struts. The architecture stays rigid and unchanged."
         }
-      ]
+      ],
+      "callout": "1,000,000"
     },
     {
-      "text": "Thirty-storey skyscrapers... hanging inside the frame.",
+      "text": "And the craziest part... is how it would be built.",
+      "ambience": "Low electric hum, mechanical whirring",
       "shots": [
         {
-          "prompt": "Several 30-storey skyscrapers suspended by cables inside a giant pyramid lattice, hanging in mid-air with lit windows, people on sky bridges.",
-          "move": "pan_down",
-          "motion": "Tiny people walk across the sky bridges between the hanging towers, light beams shift slowly. Buildings and structures stay rigid and unchanged.",
+          "prompt": "Macro view of a glowing black carbon nanotube cable, futuristic laboratory light, shallow depth of field.",
+          "move": "push_in",
+          "motion": "Camera glides fast along the glowing black cable as pulses of light race through it. Structures keep their shape.",
           "motion_seconds": 3
-        },
-        {
-          "prompt": "Close-up of thick dark cables holding a skyscraper in the air inside a geometric frame, clouds visible through the lattice.",
-          "move": "pan_up"
         }
       ]
     },
     {
-      "text": "Moving walkways. Inclined elevators. Robot pods running through the struts.",
+      "text": "Japanese builder Shimizu designed it for Tokyo Bay.",
+      "ambience": "Harbour ambience, boat engines, gulls, light wind",
+      "shots": [
+        {
+          "prompt": "The Tokyo skyline seen across the bay, dwarfed by a gigantic open-frame pyramid on the water, its upper half above the clouds, golden hour.",
+          "move": "pull_out",
+          "motion": "Fast low aerial flight across the bay toward the giant pyramid, boats speeding past below, clouds streaming around its peak. Structures keep their shape.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Two thousand and four metres tall.",
+      "ambience": "Strong high-altitude wind",
+      "shots": [
+        {
+          "prompt": "Looking straight up one edge of a vast pyramid made of a geometric steel lattice, the edges converging far into the sky.",
+          "move": "pan_up",
+          "motion": "Camera races straight up along the lattice edge, struts flashing past, bursting through the clouds. Structures keep their shape.",
+          "motion_seconds": 3
+        }
+      ],
+      "callout": "2,004 M"
+    },
+    {
+      "text": "Thirty-storey skyscrapers... hanging inside it on cables.",
+      "ambience": "Creaking cables, wind through a steel frame, distant city hum",
+      "shots": [
+        {
+          "prompt": "Several 30-storey skyscrapers suspended by cables inside a giant pyramid lattice, hanging in mid-air with lit windows, people on sky bridges.",
+          "move": "pan_down",
+          "motion": "Camera swoops between the hanging towers, people crossing sky bridges, light beams sweeping. Structures keep their shape.",
+          "motion_seconds": 3
+        },
+        {
+          "prompt": "Close-up of thick dark cables holding a skyscraper in the air inside a geometric frame, clouds visible through the lattice.",
+          "move": "pan_up",
+          "motion": "Camera spirals around the thick cable as it strains, clouds rushing past outside the frame. Structures keep their shape.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Moving walkways. Sloping elevators. Robot pods racing through the frame.",
+      "ambience": "Futuristic transit whoosh, footsteps, soft chimes",
       "shots": [
         {
           "prompt": "Futuristic accelerating walkways and inclined glass elevators inside a colossal lattice structure, people travelling, warm light.",
           "move": "push_in",
-          "motion": "The walkways move steadily, glass elevators glide up the incline, people ride along. Buildings and structures stay rigid and unchanged.",
+          "motion": "Camera flies fast alongside the moving walkways and gliding elevators, crowds riding past. Structures keep their shape.",
           "motion_seconds": 3
         },
         {
@@ -69,22 +104,21 @@
       ]
     },
     {
-      "text": "Building it would take eighty years... and materials still being invented.",
+      "text": "Robots would build it... for eighty years. With materials still being invented.",
+      "ambience": "Construction robots, welding sparks, heavy machinery over the sea",
       "shots": [
         {
           "prompt": "Robotic construction arms assembling a gigantic lattice of dark carbon struts over the sea, a half-finished pyramid frame, overcast sky.",
           "move": "pull_out",
-          "motion": "Robotic arms swing and lift a dark strut into place, sparks of welding light, sea moving below. Buildings and structures stay rigid and unchanged.",
+          "motion": "Robot arms swing fast and lock a dark strut into place, a shower of welding sparks, the sea churning below. Structures keep their shape.",
           "motion_seconds": 3
-        },
-        {
-          "prompt": "Macro view of a glowing black carbon nanotube cable, futuristic laboratory light, shallow depth of field.",
-          "move": "push_in"
         }
-      ]
+      ],
+      "callout": "80 YEARS"
     },
     {
       "text": "It was never built.",
+      "ambience": "Calm water, distant foghorn",
       "shots": [
         {
           "prompt": "Present-day Tokyo Bay at dusk, calm water, distant city lights, empty horizon where nothing rises, soft fog.",
@@ -95,7 +129,8 @@
       ]
     },
     {
-      "text": "But imagine, for a moment... that it was.",
+      "text": "But if it had been...",
+      "ambience": "Night wind, distant city hum",
       "shots": [
         {
           "prompt": "Present-day Tokyo at night seen from the bay, a colossal glowing lattice pyramid two kilometres tall rising from the water, its upper half above the clouds, millions of lights inside.",
@@ -105,16 +140,13 @@
       ]
     },
     {
-      "text": "It would be more than twice as tall as anything on Earth.",
+      "text": "A million lives, above the clouds... all inside one pyramid.",
+      "ambience": "High wind above the clouds, soft sunrise birdsong",
       "shots": [
-        {
-          "prompt": "Very wide shot from far across Tokyo Bay: a colossal see-through pyramid made of an open steel lattice, its peak high above the clouds. At its base stands a modern skyscraper that looks tiny next to it, reaching only a small fraction of the pyramid's height. Dramatic dusk sky, the whole pyramid visible.",
-          "move": "pull_out"
-        },
         {
           "prompt": "View from inside the top of a two-kilometre open steel lattice pyramid, looking out through the geometric struts over a sea of clouds at sunrise, Mount Fuji in the distance. Steel framework, not stone.",
           "move": "push_in",
-          "motion": "Camera pushes slowly forward between the struts toward the view, clouds drift below, sunrise glow grows. Buildings and structures stay rigid and unchanged.",
+          "motion": "Camera pushes fast through the struts out into the open sky above a sea of clouds at sunrise. Structures keep their shape.",
           "motion_seconds": 3
         }
       ]
@@ -122,12 +154,21 @@
   ],
   "sfx": {
     "riser_into_lines": [
-      6
+      8
     ],
     "impact_on_lines": [
-      6
+      8
     ]
   },
-  "metadata": "# Short #003 - The Shimizu Mega-City Pyramid\n\n## Title options (1 = recommended)\n1. Japan Designed a Pyramid 14 Times Taller Than Giza\n2. A City for a Million People Inside One Pyramid\n3. The 2-Kilometre Pyramid Japan Never Built\n\n## Description\nTwo kilometres high. A million residents. Skyscrapers hanging inside the frame.\n\nJapan's Shimizu Corporation designed the Mega-City Pyramid for Tokyo Bay: a 2,004-metre structure with suspended 30-storey towers and transit pods running through its struts. It needs materials that are still being researched, and it was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Shimizu Mega-City Pyramid\n\n#neverbuilt #tokyo #megaprojects #futurecity #architecture\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready-motion"
+  "metadata": "# Short #003 - The Shimizu Mega-City Pyramid\n\n## Title options (1 = recommended)\n1. This Pyramid Would Be Taller Than Two Burj Khalifas\n2. A City for a Million People Inside One Pyramid\n3. The 2-Kilometre Pyramid Japan Never Built\n\n## Description\nTwo kilometres high. A million residents. Skyscrapers hanging inside the frame.\n\nJapan's Shimizu Corporation designed the Mega-City Pyramid for Tokyo Bay: a 2,004-metre structure with suspended 30-storey towers and transit pods running through its struts. It needs materials that are still being researched, and it was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Shimizu Mega-City Pyramid\n\n#neverbuilt #tokyo #megaprojects #futurecity #architecture\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
+  "settings": {
+    "voice_settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.8,
+      "style": 0.45,
+      "use_speaker_boost": true,
+      "speed": 0.97
+    }
+  },
+  "status": "ready-retention"
 }

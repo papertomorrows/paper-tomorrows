@@ -54,3 +54,15 @@ that differed between sources were softened in the script.
 | Hollow sphere 150 m | OK | Physics World, Wikipedia |
 | Day: holes become stars; night: glowing light like a sun | OK | Physics World, Studio Matrx (Wikipedia summary inconsistent) |
 | ~240 years later, Las Vegas | OK | Sphere opened September 2023 (TPR) |
+
+## Retention rewrite (2026-10-26) - new or changed claims
+| Short | Claim | Status | Source / note |
+|---|---|---|---|
+| 002 | One dam would lower the entire Mediterranean | OK | Whole sea lowered (100 m west, 200 m east) - Gizmodo |
+| 003 | Taller than two Burj Khalifas stacked | OK | 2,004 m vs 2 x 828 m = 1,656 m |
+| 003 | Japanese builder Shimizu, Tokyo Bay | OK | Wikipedia (Shimizu Corporation) |
+| 003 | Robots would build it, 80 years | OK | Wikipedia: robotic construction; 2030-2110 |
+| 004 | Edward Watkin, 1890 | OK | Wikipedia (Sir Edward Watkin); 1890 competition |
+| 004 | Would still be the tallest structure in London | OK | ~358 m planned vs The Shard 310 m |
+| 005 | Russia, 1920, Vladimir Tatlin | OK | Wikipedia (1919-20, Petrograd) |
+| 006 | 239 years later Las Vegas opened a sphere almost the same size | OK | 1784 -> Sphere opened Sept 2023; ~150 m vs 157 m wide |

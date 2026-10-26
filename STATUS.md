@@ -35,6 +35,10 @@ Last updated: 2026-10-26
   `PaperTomorrows_upload_guide.txt` (titles, descriptions, tags, first comments).
   Planned upload order: 006, 002, 004, 003, 005 (one per day).
 
+## Owner rules
+- Produce at most 2 shorts per day (owner's rule from 2026-10-26). Confirm with owner before each paid run.
+- Owner reviews videos before they are saved to the owner's PC.
+
 ## Next
 - 007-012 (Yesterday's Tomorrow): specs + fact checks written
   (`specs/_build_yesterdays_tomorrow_batch.py`, `specs/FACTCHECK_007-012.md`) in the OLD structure.

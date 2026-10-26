@@ -434,19 +434,19 @@ def produce() -> dict:
             f"afade=t=in:st=0:d=1.0,afade=t=out:st={total - 1.5:.2f}:d=1.5[bed];"
             f"[bed][key]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[ducked];"
             f"[voice][ducked]amix=inputs=2:duration=first:normalize=0,"
-            f"afade=t=out:st={total - 0.8:.2f}:d=0.8,alimiter=limit=0.95[a]"
+            f"afade=t=out:st={total - 0.8:.2f}:d=0.8,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
         )
         inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3"),
                   "-i", str(work / "music.mp3")]
     else:
-        audio_graph = f"[1:a]apad,atrim=0:{total:.2f},afade=t=out:st={total - 0.8:.2f}:d=0.8[a]"
+        audio_graph = f"[1:a]apad,atrim=0:{total:.2f},afade=t=out:st={total - 0.8:.2f}:d=0.8,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
         inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3")]
     run(["ffmpeg", "-y", *inputs,
          "-filter_complex", f"[0:v]{grade}[v];{audio_graph}",
          "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}",
          "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "10M",
          "-bufsize", "20M", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(final)])
+         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(final)])
 
     return {
         "short": final.read_bytes(),

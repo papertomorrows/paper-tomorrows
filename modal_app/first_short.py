@@ -146,6 +146,35 @@ def narrate(text: str) -> tuple[bytes, dict]:
     return base64.b64decode(data["audio_base64"]), data["alignment"]
 
 
+
+MUSIC_PROMPT = (
+    "Slow cinematic ambient underscore, warm analog synth pads, soft low strings, "
+    "gentle sense of wonder and mystery, documentary score, no drums, no vocals, "
+    "steady and calm, 70 bpm"
+)
+
+
+@app.function(image=image, timeout=900, secrets=[KEYS])
+def generate_music(seconds: int) -> bytes:
+    import fal_client
+    import requests
+
+    last_exc = None
+    for args in (
+        {"prompt": MUSIC_PROMPT, "seconds_total": seconds},
+        {"prompt": MUSIC_PROMPT, "duration": seconds},
+        {"prompt": MUSIC_PROMPT},
+    ):
+        try:
+            res = fal_client.subscribe("fal-ai/stable-audio-25/text-to-audio", arguments=args)
+            audio = res.get("audio") or res.get("audio_file") or res.get("output")
+            url = audio["url"] if isinstance(audio, dict) else audio
+            return requests.get(url, timeout=120).content
+        except Exception as exc:
+            print(f"music attempt failed ({list(args)}): {str(exc)[:200]}")
+            last_exc = exc
+    raise RuntimeError(f"music generation failed: {last_exc}")
+
 # ---------------------------------------------------------------- editing helpers
 
 def ass_time(t: float) -> str:
@@ -286,7 +315,7 @@ def produce() -> dict:
             urls[i] = url_file.read_text() if url_file.exists() else ""
         else:
             todo.append((i, s[1]))
-    for idx, url, data in generate_image.starmap(todo):
+    for idx, url, data in (generate_image.starmap(todo) if todo else []):
         images[idx], urls[idx] = data, url
         name = f"scene_{idx:02d}_{key(SCENES[idx][1] + STYLE)}"
         (CACHE_DIR / f"{name}.jpg").write_bytes(data)
@@ -298,6 +327,9 @@ def produce() -> dict:
 
     # 3: hero motion shot from the hero scene image
     hero_idx = next(i for i, s in enumerate(SCENES) if s[2] == "hero")
+    music_name = f"music_{key(MUSIC_PROMPT)}.mp3"
+    music_call = None if cached(music_name) else generate_music.spawn(45)
+    print("STEP images done")
     hero_name = f"hero_{key(SCENES[hero_idx][1] + STYLE + HERO_MOTION_PROMPT)}.mp4"
     hero_call = None
     if not cached(hero_name):
@@ -382,10 +414,35 @@ def produce() -> dict:
         f"subtitles={work / 'captions.ass'}:fontsdir=/usr/share/fonts/truetype/dejavu,"
         f"fade=t=in:st=0:d=0.3,fade=t=out:st={total - 0.6:.2f}:d=0.6"
     )
+    music_ok = True
+    try:
+        if music_call is not None:
+            (CACHE_DIR / music_name).write_bytes(music_call.get())
+            CACHE.commit()
+        (work / "music.mp3").write_bytes((CACHE_DIR / music_name).read_bytes())
+    except Exception as exc:
+        print(f"MUSIC FAILED, continuing without music: {str(exc)[:300]}")
+        music_ok = False
+    print("STEP music done")
+
     final = work / "short.mp4"
-    run(["ffmpeg", "-y", "-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3"),
-         "-filter_complex",
-         f"[0:v]{grade}[v];[1:a]apad,atrim=0:{total:.2f},afade=t=out:st={total - 0.8:.2f}:d=0.8[a]",
+    if music_ok:
+        # music sits low and ducks further whenever the narrator speaks
+        audio_graph = (
+            f"[1:a]apad,atrim=0:{total:.2f},asplit=2[voice][key];"
+            f"[2:a]aloop=loop=-1:size=2e9,atrim=0:{total:.2f},volume=0.22,"
+            f"afade=t=in:st=0:d=1.0,afade=t=out:st={total - 1.5:.2f}:d=1.5[bed];"
+            f"[bed][key]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[ducked];"
+            f"[voice][ducked]amix=inputs=2:duration=first:normalize=0,"
+            f"afade=t=out:st={total - 0.8:.2f}:d=0.8,alimiter=limit=0.95[a]"
+        )
+        inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3"),
+                  "-i", str(work / "music.mp3")]
+    else:
+        audio_graph = f"[1:a]apad,atrim=0:{total:.2f},afade=t=out:st={total - 0.8:.2f}:d=0.8[a]"
+        inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3")]
+    run(["ffmpeg", "-y", *inputs,
+         "-filter_complex", f"[0:v]{grade}[v];{audio_graph}",
          "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}",
          "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "10M",
          "-bufsize", "20M", "-pix_fmt", "yuv420p",
@@ -399,6 +456,7 @@ def produce() -> dict:
         "scene_starts": [round(s, 2) for s in scene_starts],
         "duration": round(total, 2),
         "hero_ok": hero_ok,
+        "music_ok": music_ok,
     }
 
 
@@ -442,7 +500,7 @@ def main():
         (out / "scenes" / f"scene_{int(i):02d}.jpg").write_bytes(data)
     (out / "metadata.md").write_text(METADATA)
     (out / "timing.json").write_text(json.dumps(
-        {k: result[k] for k in ("captions", "scene_starts", "duration", "hero_ok")}, indent=1
+        {k: result[k] for k in ("captions", "scene_starts", "duration", "hero_ok", "music_ok")}, indent=1
     ))
     print(f"SHORT OK duration={result['duration']}s hero_ok={result['hero_ok']} "
-          f"size={len(result['short']) // 1024}KB")
+          f"music_ok={result['music_ok']} size={len(result['short']) // 1024}KB")

@@ -1,7 +1,7 @@
 # Short #002 - Atlantropa: The Plan to Drain the Mediterranean
 
 ## Title options (1 = recommended)
-1. In the 1920s, Someone Planned to Drain the Mediterranean
+1. This One Dam Would Have Lowered the Entire Mediterranean
 2. The Dam That Would Have Shrunk the Mediterranean Sea
 3. One Dam Would Have Lowered the Mediterranean by 200 Metres
 

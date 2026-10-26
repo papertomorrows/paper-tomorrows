@@ -1,0 +1,47 @@
+name: Voice samples
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "modal_app/voice_samples.py"
+      - ".github/workflows/voice-samples.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Modal client
+        run: pip install modal
+      - name: Generate voice samples on Modal
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS: ${{ secrets.ELEVENLABS }}
+        run: |
+          set -o pipefail
+          modal run modal_app/voice_samples.py 2>&1 | tee run_output.txt
+          RESULT=$(grep -E "SAVED|VOICE SAMPLES OK" run_output.txt | tr '\n' ' ' || true)
+          echo "::notice title=Result::${RESULT}"
+      - name: Report error line
+        if: failure()
+        run: |
+          ERR=$(grep -E "Error|error|No ElevenLabs key|401|403" run_output.txt | tail -3 | tr '\n' ' ' | sed 's/xi-api-key[^ ]*//g')
+          echo "::error title=Failure::${ERR}"
+      - name: Commit audio to the repository
+        if: success()
+        run: |
+          git config user.name "paper-tomorrows-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/voice_samples
+          git commit -m "Add voice samples [skip ci]" || echo "nothing to commit"
+          git push

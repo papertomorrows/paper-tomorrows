@@ -1,0 +1,114 @@
+{
+  "id": "008_moon_flights_club",
+  "seed_base": 1968,
+  "lines": [
+    {
+      "text": "Ninety-three thousand people... signed up for a flight to the Moon.",
+      "shots": [
+        {
+          "prompt": "A sleek 1960s passenger spaceplane in blue and white airline livery soaring above the curve of the Earth toward a bright Moon, retro-futuristic, cinematic. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The spaceplane glides forward toward the Moon, Earth's glow sliding beneath it. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Not with NASA. With an airline.",
+      "shots": [
+        {
+          "prompt": "A glamorous 1960s airline ticket counter, travellers in sixties fashion queueing, a large poster of the Moon on the wall. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "Travellers shuffle forward in the queue, an agent stamps a ticket. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "In 1968, Pan Am started a club... called First Moon Flights.",
+      "shots": [
+        {
+          "prompt": "A 1968 airline office with a long row of filing cabinets and a typist preparing membership cards, a model spaceplane on the desk. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The typist types quickly, papers move, a ceiling fan turns. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Membership was free.",
+      "shots": [
+        {
+          "prompt": "Close-up of a hand holding a blank 1960s membership card with a small spaceplane illustration, a family kitchen table behind. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "And the first flight was expected... around the year two thousand.",
+      "shots": [
+        {
+          "prompt": "A 1960s family in their living room looking at a wall calendar showing a distant future year, the Moon visible through the window. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The family smiles and points out the window at the Moon, curtains move. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        },
+        {
+          "prompt": "A retro-futuristic lunar spaceport with a domed terminal and a passenger spaceplane parked on the grey surface, Earth in the black sky. No logos, no brand names, no readable text.",
+          "move": "pan_up",
+          "motion": "Lights blink on the terminal, the spaceplane's engines glow softly. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "In 1971, the club stopped taking new names.",
+      "shots": [
+        {
+          "prompt": "A 1970s office being cleared out, a stack of membership cards in a closed cardboard box, fading light. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "Twenty years later... Pan Am itself was gone.",
+      "shots": [
+        {
+          "prompt": "An empty abandoned airport terminal at dusk, rows of vacant seats, departure boards dark, dust in the air. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "Dust drifts through shafts of fading light in the empty terminal. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "But imagine, for a moment... boarding that flight.",
+      "shots": [
+        {
+          "prompt": "Inside a 1960s-style passenger spaceplane cabin, passengers in sixties fashion looking out of round windows at the Earth below, a flight attendant serving drinks, warm cabin light. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The cabin drifts gently, passengers turn to the windows as Earth slides past, a glass floats in low gravity. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Today, those cards hang in museums.",
+      "shots": [
+        {
+          "prompt": "A museum display case lit softly, holding a single 1960s spaceflight membership card and a small spaceplane model, visitors reflected in the glass. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #008 - Pan Am's First Moon Flights Club\n\n## Title options (1 = recommended)\n1. 93,000 People Booked a Flight to the Moon. With an Airline.\n2. Pan Am Took Reservations for Flights to the Moon\n3. The Airline That Sold Tickets to the Moon\n\n## Description\nPan Am issued more than 93,000 free \"First Moon Flights\" club cards between 1968 and 1971, with the first flight expected around the year 2000. The airline stopped taking new names in 1971 and declared bankruptcy in 1991. Some of the cards are now in museum collections.\n\nVisuals are AI-generated concept art, not photographs or historical footage.\n\nSources:\n- Smithsonian National Air and Space Museum: \"Were you a member of the First Moon Flights Club?\"\n- National Endowment for the Humanities: \"Long before SpaceX, Pan Am was booking flights to the Moon\"\n\n#YesterdaysTomorrow #PanAm #Moon #SpaceTravel #History\n\n## Tags\npan am moon flights, first moon flights club, pan am moon, flights to the moon, space tourism history, pan am, moon tourism, 1960s future, retrofuturism, how people imagined the future, space age, past predictions\n\n## First comment (post from the channel)\nWould you have signed up for the first flight to the Moon?\n\n## Playlist\nYesterday's Tomorrow: How the Past Imagined the Future\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education; video, title and description language: English\n"
+}

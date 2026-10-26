@@ -1,0 +1,110 @@
+{
+  "id": "012_miracle_kitchen",
+  "seed_base": 1959,
+  "lines": [
+    {
+      "text": "In 1959, America showed the Soviet Union... the kitchen of the future.",
+      "shots": [
+        {
+          "prompt": "A gleaming retro-futuristic 1950s kitchen in pastel colours with chrome appliances, a small round robot floor cleaner gliding across the tiles, visitors in fifties clothing watching from a rope line. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The little robot glides across the shining floor, visitors lean in to watch. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "A robot that cleaned the floor... all by itself.",
+      "shots": [
+        {
+          "prompt": "Close-up of a small domed 1950s robot floor cleaner with blinking lights polishing a checkerboard floor. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The robot turns and polishes the floor, its lights blinking. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "A dishwasher that rolled... to the dining table.",
+      "shots": [
+        {
+          "prompt": "A chrome 1950s dishwasher unit gliding along a track in the floor toward a dining table set with dishes, a smiling housewife watching. No logos, no brand names, no readable text.",
+          "move": "pan_down",
+          "motion": "The dishwasher rolls smoothly along its track to the table. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Push-button controls... for everything.",
+      "shots": [
+        {
+          "prompt": "A 1950s control panel full of colourful push buttons and small lights built into a pastel kitchen wall, a finger pressing a button. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "A finger presses a button and the panel lights up in sequence. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "And a planning centre... like a computer for the home.",
+      "shots": [
+        {
+          "prompt": "A 1950s home planning centre desk with a small screen, dials and blinking lights built into a kitchen, a woman reading a printout. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The screen flickers, lights blink across the console. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "It looked like magic.",
+      "shots": [
+        {
+          "prompt": "Faces of amazed visitors in 1950s clothing watching a demonstration, mouths open, warm exhibition light. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "But there was a secret.",
+      "shots": [
+        {
+          "prompt": "A large mirror on the wall of a 1950s show kitchen, faint shadowy outline of a man barely visible behind the glass, ominous lighting. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "Behind a mirror... a man was steering the robot by radio.",
+      "shots": [
+        {
+          "prompt": "Behind a two-way mirror, a man in a 1950s shirt and tie sits at a radio control box with joysticks, watching the kitchen through the glass, the visitors unaware. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The man works the joysticks, through the glass the robot turns on cue. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Today... the robot really does clean the floor by itself.",
+      "shots": [
+        {
+          "prompt": "A modern bright apartment where a round robot vacuum cleans the floor alone, sunlight through the window, nobody around. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The robot vacuum glides across the floor and turns, sunlight shifting. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #012 - The Miracle Kitchen of 1959\n\n## Title options (1 = recommended)\n1. The 1950s Kitchen of the Future Had a Secret\n2. This 1959 Robot Floor Cleaner Was Secretly Remote-Controlled\n3. The Miracle Kitchen America Showed the Soviet Union\n\n## Description\nRCA/Whirlpool's Miracle Kitchen, shown at the 1959 American National Exhibition in Moscow, featured a robot floor cleaner, a dishwasher that rolled to the table, push-button controls and a home planning centre. The robot and the dishwasher were not automatic: a person behind a two-way mirror operated them by radio.\n\nVisuals are AI-generated concept art, not photographs or historical footage.\n\nSources:\n- Gizmodo: \"The 1950s Miracle Kitchen of the Future Had Its Own Robot\"\n- Whirlpool Corporation: \"The future is now\" (museum exhibit)\n\n#YesterdaysTomorrow #KitchenOfTheFuture #1950s #Retrofuturism #History\n\n## Tags\nmiracle kitchen, rca whirlpool miracle kitchen, kitchen of the future, 1950s kitchen of the future, 1959 american national exhibition moscow, robot floor cleaner 1959, before roomba, retrofuturism, 1950s future, how people imagined the future, past predictions, cold war kitchen\n\n## First comment (post from the channel)\nWould you have believed the robot was real?\n\n## Playlist\nYesterday's Tomorrow: How the Past Imagined the Future\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education; video, title and description language: English\n"
+}

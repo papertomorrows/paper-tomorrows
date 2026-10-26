@@ -1,0 +1,120 @@
+{
+  "id": "007_predictions_1900",
+  "seed_base": 1900,
+  "lines": [
+    {
+      "text": "In 1900, an American magazine made twenty-eight predictions about our world.",
+      "shots": [
+        {
+          "prompt": "A Victorian family in 1900 clothing standing at a parlour window, gazing at a glowing vision of a futuristic city floating in the night sky outside, warm gaslight inside, cinematic. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The glowing future city shimmers and lights pulse in the sky, curtains stir, camera pushes slowly toward the window. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Strawberries... as large as apples.",
+      "shots": [
+        {
+          "prompt": "An Edwardian market stall piled with enormous strawberries the size of apples, amazed shoppers in hats, morning light. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "Shoppers lean in and lift a giant strawberry, awnings flutter. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "No more mosquitoes. No more flies.",
+      "shots": [
+        {
+          "prompt": "A peaceful Edwardian summer evening picnic beside a calm marsh, people relaxed in white clothes, golden light, perfectly still air. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "Reeds sway gently, light glints on the water, a parasol turns slowly. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "And everybody would walk ten miles a day.",
+      "shots": [
+        {
+          "prompt": "A long country road crowded with Edwardian people of all ages walking briskly into the distance, dust in the sunlight. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The crowd strides steadily down the road, dust rising in the sunlight. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Wrong. Wrong. And very wrong.",
+      "shots": [
+        {
+          "prompt": "A present-day man asleep on a sofa scrolling his phone, a takeaway box beside him, dim room, humorous cinematic tone. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "But then... photographs, sent from any distance.",
+      "shots": [
+        {
+          "prompt": "An early 1900s telegraph office, a brass machine slowly printing a photograph line by line onto paper, an operator watching in awe, lamp light. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The machine prints the photograph line by line, the operator leans in. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        },
+        {
+          "prompt": "Close-up of a hand holding a modern smartphone showing a photo just received, warm evening light, shallow depth of field. No logos, no brand names, no readable text.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "Telephones... reaching around the world.",
+      "shots": [
+        {
+          "prompt": "A Victorian woman speaking into a candlestick telephone, glowing lines of light from the phone stretching across a large globe beside her. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "Lines of light race across the globe from the telephone, the woman smiles. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Ready-cooked meals... you could simply buy.",
+      "shots": [
+        {
+          "prompt": "A 1900 shop window filled with hot ready-made meals in boxes, steam rising, customers in bowler hats queueing. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        },
+        {
+          "prompt": "A modern delivery rider on a scooter at night in rain with a food bag, neon reflections on wet streets. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The scooter rides past through the rain, neon lights streaking. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Not bad... for 1900.",
+      "shots": [
+        {
+          "prompt": "A Victorian gentleman in 1900 clothes standing on a present-day city street at night, looking up in wonder at glowing skyscrapers, people with phones passing him. No logos, no brand names, no readable text.",
+          "move": "pan_up",
+          "motion": "Slow upward crane from the astonished Victorian man to the glowing skyline, people flowing past. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      5
+    ],
+    "impact_on_lines": [
+      5
+    ]
+  },
+  "metadata": "# Short #007 - Predictions from 1900 About the Year 2000\n\n## Title options (1 = recommended)\n1. In 1900, They Predicted Our World. Some Came True.\n2. 28 Predictions From 1900 About Today\n3. What People in 1900 Thought the Year 2000 Would Look Like\n\n## Description\nIn December 1900, the Ladies' Home Journal published \"What May Happen in the Next Hundred Years\" by engineer John Elfreth Watkins Jr.: 28 predictions about the year 2000. Some missed (no C, X or Q in the alphabet, strawberries as large as apples, everybody walking ten miles a day). Others came true: photographs telegraphed from any distance, telephones around the world, ready-cooked meals bought from shops.\n\nVisuals are AI-generated concept art, not photographs or historical footage.\n\nSources:\n- Open Culture: \"In 1900, Ladies' Home Journal Publishes 28 Predictions for the Year 2000\"\n- Scanalyst: list of the article's prediction headings\n- Wikipedia: J. Elfreth Watkins\n\n#YesterdaysTomorrow #Predictions #Year2000 #History #Future\n\n## Tags\npredictions from 1900, year 2000 predictions, ladies home journal 1900, john elfreth watkins, what may happen in the next hundred years, past predictions, how people imagined the future, retrofuturism, predictions that came true, history of the future, 1900s, futurism\n\n## First comment (post from the channel)\nWhich 1900 prediction would you most want to come true?\n\n## Playlist\nYesterday's Tomorrow: How the Past Imagined the Future\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education; video, title and description language: English\n"
+}

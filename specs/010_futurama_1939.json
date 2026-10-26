@@ -1,0 +1,116 @@
+{
+  "id": "010_futurama_1939",
+  "seed_base": 1939,
+  "lines": [
+    {
+      "text": "In 1939, people waited in long lines... to see the year 1960.",
+      "shots": [
+        {
+          "prompt": "A huge crowd in 1939 clothing queueing outside a sweeping streamline-moderne exhibition pavilion at a world's fair, flags and banners, bright summer sky. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The crowd shuffles forward, flags flutter, camera rises over the queue. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "It was called Futurama.",
+      "shots": [
+        {
+          "prompt": "Inside a dark 1939 exhibition hall, a vast glowing miniature landscape of a future city stretching into the distance, visitors silhouetted. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "Tiny lights twinkle across the miniature city, visitors lean forward. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "A model of America's future... one acre wide.",
+      "shots": [
+        {
+          "prompt": "A colossal detailed miniature model of a futuristic American landscape with cities, farms, rivers and highways, seen from above, warm exhibition light. No logos, no brand names, no readable text.",
+          "move": "pan_up",
+          "motion": "Camera glides smoothly over the enormous model like an aircraft. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Half a million buildings. Fifty thousand cars.",
+      "shots": [
+        {
+          "prompt": "Macro view of a miniature futuristic city with streamlined skyscrapers and thousands of tiny cars on elevated roads. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "Tiny model cars glide along the miniature roads between the towers. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Visitors rode in moving chairs... gliding high above it.",
+      "shots": [
+        {
+          "prompt": "1939 visitors seated in a row of moving armchairs travelling on a track above a giant illuminated model landscape, faces lit with wonder. No logos, no brand names, no readable text.",
+          "move": "pan_down",
+          "motion": "The chairs glide slowly along the track above the glowing model. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Up to thirty thousand people a day.",
+      "shots": [
+        {
+          "prompt": "Aerial view of a 1939 world's fair with an enormous line of people winding around a futuristic pavilion, crowds everywhere. No logos, no brand names, no readable text.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "Its giant highways... looked like science fiction.",
+      "shots": [
+        {
+          "prompt": "Close view of the miniature model's wide multi-lane highways sweeping through curved interchanges between skyscrapers, tiny streamlined cars. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "Tiny cars stream along the curving lanes of the model highway. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Less than twenty years later... America began building its interstate highways.",
+      "shots": [
+        {
+          "prompt": "A real 1950s highway construction site, bulldozers and workers laying a wide new concrete road across open country, dust and sunlight. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "Bulldozers push earth, trucks roll past, dust drifts in the sun. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        },
+        {
+          "prompt": "Present-day aerial view of a vast highway interchange at sunset, streams of car lights flowing through looping ramps. No logos, no brand names, no readable text.",
+          "move": "pan_up",
+          "motion": "Rivers of car lights flow through the looping interchange at dusk. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "The future... had been on display all along.",
+      "shots": [
+        {
+          "prompt": "A 1939 visitor's hand holding a small souvenir pin over a photo-like view of a modern highway city, past and present blending, warm light. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      7
+    ],
+    "impact_on_lines": [
+      7
+    ]
+  },
+  "metadata": "# Short #010 - Futurama: The 1939 World's Fair Vision of 1960\n\n## Title options (1 = recommended)\n1. In 1939, Millions Lined Up to See the Year 1960\n2. Futurama: The 1939 Model That Predicted America's Highways\n3. The One-Acre Model of the Future From the 1939 World's Fair\n\n## Description\nFuturama, designed by Norman Bel Geddes for General Motors at the 1939 New York World's Fair, showed America around 1960: a one-acre model with more than 500,000 buildings and about 50,000 cars, viewed from moving chairs. Up to 30,000 people a day waited in line. Its vision of a national expressway network is widely credited with influencing the Interstate Highway System.\n\nVisuals are AI-generated concept art, not photographs or historical footage.\n\nSources:\n- Wikipedia: Futurama (New York World's Fair)\n- Harry Ransom Center: \"I Have Seen the Future\"\n\n#YesterdaysTomorrow #Futurama #WorldsFair #1939 #History\n\n## Tags\nfuturama 1939, 1939 world's fair, new york world's fair, norman bel geddes, general motors futurama, world of tomorrow, interstate highway history, how people imagined the future, retrofuturism, 1930s future, past predictions, streamline moderne\n\n## First comment (post from the channel)\nWhich 1939 idea of the future would you have lined up to see?\n\n## Playlist\nYesterday's Tomorrow: How the Past Imagined the Future\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education; video, title and description language: English\n"
+}

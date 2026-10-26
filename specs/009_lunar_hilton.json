@@ -1,0 +1,116 @@
+{
+  "id": "009_lunar_hilton",
+  "seed_base": 1967,
+  "lines": [
+    {
+      "text": "In 1967, Hilton planned a hotel... on the Moon.",
+      "shots": [
+        {
+          "prompt": "A glowing retro-futuristic hotel entrance dome on the grey lunar surface at night, the Earth hanging in the black sky, soft warm light from the doors. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "Camera glides low over the lunar dust toward the glowing entrance, the Earth shining above. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Built thirty feet underground... to keep the temperature steady.",
+      "shots": [
+        {
+          "prompt": "Cross-section view of a hotel buried beneath the lunar surface, three levels lit warmly underground, grey rock above, Earth in the sky. No logos, no brand names, no readable text.",
+          "move": "pan_down",
+          "motion": "Camera descends slowly from the surface through the rock to the lit levels below. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "A hundred rooms... decorated just like hotels on Earth.",
+      "shots": [
+        {
+          "prompt": "A 1960s hotel room with patterned carpet, a neatly made bed and a lamp, but the window shows the grey lunar landscape and the Earth. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The lamp glows, a curtain sways slightly, Earth drifts in the window. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        },
+        {
+          "prompt": "A long 1960s hotel corridor carved under the Moon, numbered doors, warm lighting, a guest in a sixties suit walking. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The guest walks slowly down the corridor, lights reflecting. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "A lounge. A piano bar. And a dome for watching the stars.",
+      "shots": [
+        {
+          "prompt": "A stylish 1960s lounge with a piano bar under a glass observation dome on the Moon, guests with cocktails, the stars and Earth above. No logos, no brand names, no readable text.",
+          "move": "pull_out",
+          "motion": "The pianist plays, guests raise glasses, stars glitter through the dome. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Drinks... at the push of a button.",
+      "shots": [
+        {
+          "prompt": "A retro-futuristic bar console with chrome buttons, a cocktail glass filling automatically beneath a nozzle, 1960s styling. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "A finger presses a glowing button and the glass fills with a bright drink. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "Even the kitchen... would run on nuclear power.",
+      "shots": [
+        {
+          "prompt": "A gleaming automated 1960s kitchen under the Moon with chrome machines and a glowing blue reactor core behind glass, robot arms cooking. No logos, no brand names, no readable text.",
+          "move": "pan_up",
+          "motion": "Robot arms stir and plate food, the blue core pulses softly. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 3
+        }
+      ]
+    },
+    {
+      "text": "It was never built.",
+      "shots": [
+        {
+          "prompt": "An empty, untouched lunar plain under black sky, footprint-free grey dust, the Earth small on the horizon. No logos, no brand names, no readable text.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "But imagine, for a moment... checking in.",
+      "shots": [
+        {
+          "prompt": "A 1960s hotel lobby beneath the Moon's surface, a guest in a sixties suit at the front desk receiving a key, a huge round window behind showing the Earth hanging above grey lunar hills. No logos, no brand names, no readable text.",
+          "move": "push_in",
+          "motion": "The receptionist hands over the key, the guest turns to the giant window as the camera pushes toward the Earth. Buildings and machines keep their shape; no warping.",
+          "motion_seconds": 5
+        }
+      ]
+    },
+    {
+      "text": "Hilton even made room keys for it.",
+      "shots": [
+        {
+          "prompt": "Close-up of an old brass hotel room key with a tag shaped like a crescent Moon resting on velvet, soft spotlight. No logos, no brand names, no readable text.",
+          "move": "push_in"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #009 - The Lunar Hilton\n\n## Title options (1 = recommended)\n1. In 1967, Hilton Planned a Hotel on the Moon\n2. The Moon Hotel With a Piano Bar\n3. Hilton's Plan for a Hotel 30 Feet Under the Moon\n\n## Description\nIn a 1967 speech, Barron Hilton described a Lunar Hilton: a hotel about 30 feet below the Moon's surface with 100 rooms, a lounge, a piano bar, an observation dome, drinks at the push of a button and a nuclear-powered kitchen. It was never built, but Hilton handed out promotional room keys for it.\n\nVisuals are AI-generated concept art, not photographs or historical footage.\n\nSources:\n- Supercluster: \"Space was always the plan for Hilton\"\n- CNN Travel: Hilton hotel on the Moon\n\n#YesterdaysTomorrow #Moon #Hilton #SpaceAge #History\n\n## Tags\nlunar hilton, hilton on the moon, hotel on the moon, moon hotel, barron hilton, space hotel, 1967 moon hotel, space tourism history, retrofuturism, space age, how people imagined the future, past predictions\n\n## First comment (post from the channel)\nWould you book a room 30 feet under the Moon?\n\n## Playlist\nYesterday's Tomorrow: How the Past Imagined the Future\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education; video, title and description language: English\n"
+}

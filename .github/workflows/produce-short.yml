@@ -63,9 +63,16 @@ jobs:
           PIDS=()
           for SPEC in ${{ steps.pick.outputs.specs }}; do
             NAME=$(basename "$SPEC" .json)
-            ( timeout 2700 modal run modal_app/pipeline.py --spec "$SPEC" > "log_$NAME.txt" 2>&1 ) &
+            (
+              for TRY in 1 2 3; do
+                timeout 2700 modal run modal_app/pipeline.py --spec "$SPEC" > "log_$NAME.txt" 2>&1 && exit 0
+                grep -qi "rate limit" "log_$NAME.txt" || exit 1
+                echo "rate limited, retrying $NAME (try $TRY)"; sleep $((30 * TRY))
+              done
+              exit 1
+            ) &
             PIDS+=($!)
-            sleep 5
+            sleep 20
           done
           for PID in "${PIDS[@]}"; do wait "$PID" || FAILS=$((FAILS+1)); done
           cat log_*.txt >> run_output.txt

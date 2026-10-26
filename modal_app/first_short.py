@@ -81,6 +81,8 @@ LABEL = "CONCEPT VISUALIZATION  ·  NEVER BUILT"
 W, H, FPS = 1080, 1920, 30
 
 KEYS = modal.Secret.from_name("paper-tomorrows-keys")
+CACHE = modal.Volume.from_name("paper-tomorrows-cache", create_if_missing=True)
+CACHE_DIR = pathlib.Path("/cache/short_001")
 
 
 # ---------------------------------------------------------------- generation
@@ -241,7 +243,8 @@ def run(cmd: list[str]) -> None:
 
 # ---------------------------------------------------------------- production
 
-@app.function(image=image, timeout=3000, cpu=4.0, memory=4096, secrets=[KEYS])
+@app.function(image=image, timeout=3000, cpu=4.0, memory=4096, secrets=[KEYS],
+              volumes={"/cache": CACHE})
 def produce() -> dict:
     import json
     import subprocess
@@ -252,19 +255,46 @@ def produce() -> dict:
     lines = [s[0] for s in SCENES]
     narration_text = " ".join(lines)
 
-    # 1+2: narration and images in parallel
-    narration_call = narrate.spawn(narration_text)
-    images = {}
-    urls = {}
-    for idx, url, data in generate_image.starmap([(i, s[1]) for i, s in enumerate(SCENES)]):
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cached = lambda name: (CACHE_DIR / name).exists()
+
+    # 1+2: narration and images in parallel (reuse anything already generated)
+    narration_call = None
+    if not (cached("narration.mp3") and cached("alignment.json")):
+        narration_call = narrate.spawn(narration_text)
+
+    images, urls = {}, {}
+    todo = []
+    for i, s in enumerate(SCENES):
+        if cached(f"scene_{i:02d}.jpg"):
+            images[i] = (CACHE_DIR / f"scene_{i:02d}.jpg").read_bytes()
+            url_file = CACHE_DIR / f"scene_{i:02d}.url"
+            urls[i] = url_file.read_text() if url_file.exists() else ""
+        else:
+            todo.append((i, s[1]))
+    for idx, url, data in generate_image.starmap(todo):
         images[idx], urls[idx] = data, url
+        (CACHE_DIR / f"scene_{idx:02d}.jpg").write_bytes(data)
+        (CACHE_DIR / f"scene_{idx:02d}.url").write_text(url)
+    CACHE.commit()
+    for idx, data in images.items():
         (work / f"scene_{idx:02d}.jpg").write_bytes(data)
+    print(f"GENERATED {len(todo)} new images, reused {len(SCENES) - len(todo)}")
 
     # 3: hero motion shot from the hero scene image
     hero_idx = next(i for i, s in enumerate(SCENES) if s[2] == "hero")
-    hero_call = generate_hero_clip.spawn(urls[hero_idx])
+    hero_call = None
+    if not cached("hero.mp4"):
+        hero_call = generate_hero_clip.spawn(urls[hero_idx])
 
-    audio, align = narration_call.get()
+    if narration_call is not None:
+        audio, align = narration_call.get()
+        (CACHE_DIR / "narration.mp3").write_bytes(audio)
+        (CACHE_DIR / "alignment.json").write_text(json.dumps(align))
+        CACHE.commit()
+    else:
+        audio = (CACHE_DIR / "narration.mp3").read_bytes()
+        align = json.loads((CACHE_DIR / "alignment.json").read_text())
     (work / "narration.mp3").write_bytes(audio)
     audio_len = float(
         subprocess.run(
@@ -291,7 +321,10 @@ def produce() -> dict:
     hero_path = work / "hero.mp4"
     hero_ok = True
     try:
-        hero_path.write_bytes(hero_call.get())
+        if hero_call is not None:
+            (CACHE_DIR / "hero.mp4").write_bytes(hero_call.get())
+            CACHE.commit()
+        hero_path.write_bytes((CACHE_DIR / "hero.mp4").read_bytes())
     except Exception as exc:
         print(f"HERO CLIP FAILED, using camera move instead: {exc}")
         hero_ok = False
@@ -329,7 +362,7 @@ def produce() -> dict:
     grade = (
         "eq=contrast=1.06:saturation=0.95,"
         "vignette=PI/5,"
-        "noise=alls=6:allf=t,"
+        "noise=alls=3:allf=t,"
         f"subtitles={work / 'captions.ass'}:fontsdir=/usr/share/fonts/truetype/dejavu,"
         f"fade=t=in:st=0:d=0.3,fade=t=out:st={total - 0.6:.2f}:d=0.6"
     )
@@ -338,7 +371,8 @@ def produce() -> dict:
          "-filter_complex",
          f"[0:v]{grade}[v];[1:a]apad,atrim=0:{total:.2f},afade=t=out:st={total - 0.8:.2f}:d=0.8[a]",
          "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
+         "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "10M",
+         "-bufsize", "20M", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(final)])
 
     return {

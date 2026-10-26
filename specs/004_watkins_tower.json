@@ -1,0 +1,121 @@
+{
+  "id": "004_watkins_tower",
+  "seed_base": 1890,
+  "lines": [
+    {
+      "text": "In 1890, London wanted to beat the Eiffel Tower.",
+      "shots": [
+        {
+          "prompt": "A towering Victorian iron lattice tower, taller and broader than the Eiffel Tower, rising over green parkland outside London, crowds in Victorian dress, dramatic clouds.",
+          "move": "pan_up",
+          "motion": "Camera sweeps up the iron lattice of the giant tower toward its summit, clouds racing past, flags fluttering. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "A railway tycoon planned a tower... forty-six metres taller.",
+      "shots": [
+        {
+          "prompt": "A Victorian railway station with a steam train arriving, a gigantic iron tower under construction visible beyond the platform, steam and smoke.",
+          "move": "push_in",
+          "motion": "A steam train pulls in, smoke billowing, the giant tower looming behind. The architecture stays rigid and unchanged."
+        },
+        {
+          "prompt": "Two iron towers side by side for comparison at dusk, the left one noticeably taller and wider at the base, Victorian style.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "A hotel. Theatres. Turkish baths... all in the sky.",
+      "shots": [
+        {
+          "prompt": "An ornate Victorian theatre and restaurant on an observation deck high inside an iron tower, gas lamps, views of the countryside far below.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "A luxurious Victorian Turkish bath with tiled arches and steam, windows showing clouds outside, high in a tower.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "Work began in 1893.",
+      "shots": [
+        {
+          "prompt": "Victorian workers in caps riveting giant iron girders on a construction site, cranes and scaffolding, the base of a huge tower rising.",
+          "move": "pan_up"
+        },
+        {
+          "prompt": "The four massive iron legs of an unfinished tower in a muddy field, workers and horses below, overcast sky.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "But the money ran out... and the ground began to sink.",
+      "shots": [
+        {
+          "prompt": "Close-up of a cracked concrete foundation under an iron tower leg, muddy waterlogged ground, tilted planks, grey light.",
+          "move": "push_in",
+          "motion": "Mud slowly oozes into the widening crack, water seeping, a plank tilts. The iron stays rigid and unchanged."
+        },
+        {
+          "prompt": "An abandoned Victorian construction site with idle cranes and rusting girders, rain, empty.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "It reached forty-seven metres. Less than one-seventh of the plan.",
+      "shots": [
+        {
+          "prompt": "A stubby unfinished iron tower base only a few storeys high in an empty park, a faint ghostly outline of the full planned tower rising far above it into the sky.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "So they blew it up.",
+      "shots": [
+        {
+          "prompt": "A dynamite demolition of a Victorian iron tower base, a burst of smoke and dust, iron girders collapsing, sepia tones, early 1900s.",
+          "move": "push_in",
+          "motion": "A burst of dust and smoke as the iron structure collapses, debris falling, smoke billowing outward."
+        }
+      ]
+    },
+    {
+      "text": "Today, Wembley Stadium stands on the same spot.",
+      "shots": [
+        {
+          "prompt": "A modern stadium with a giant white arch at dusk, lit up, crowds arriving, wide aerial view.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "But imagine, for a moment... that the tower was finished.",
+      "shots": [
+        {
+          "prompt": "Present-day London skyline at dusk seen from a distance, a colossal Victorian iron lattice tower towering over everything near a modern stadium, lights glowing on its iron frame.",
+          "move": "push_in",
+          "motion": "Slow upward crane shot rising along the giant iron tower, city lights twinkling, clouds drifting. The architecture stays rigid and unchanged."
+        },
+        {
+          "prompt": "View from the top observation deck of a giant Victorian iron tower over modern London at night, glowing city stretching to the horizon.",
+          "move": "pull_out"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #004 - Watkin's Tower: London's Eiffel Tower\n\n## Title options (1 = recommended)\n1. London Tried to Beat the Eiffel Tower. It Failed.\n2. The Tower That Would Have Been Taller Than the Eiffel Tower\n3. Why Wembley Stadium Sits on a Failed Tower\n\n## Description\nTaller than the Eiffel Tower. A hotel, theatres and Turkish baths in the sky.\n\nIn the 1890s, railway entrepreneur Sir Edward Watkin began building a tower at Wembley Park, planned to rise about 46 metres higher than the Eiffel Tower. The money ran out and the foundations subsided at 47 metres. The stump was demolished with dynamite in 1904-1907, and Wembley Stadium now stands on the site. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Watkin's Tower\n\n#neverbuilt #london #wembley #eiffeltower #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n"
+}

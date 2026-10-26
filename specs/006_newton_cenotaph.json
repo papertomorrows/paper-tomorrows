@@ -1,0 +1,108 @@
+{
+  "id": "006_newton_cenotaph",
+  "seed_base": 1784,
+  "lines": [
+    {
+      "text": "In 1784, a French architect designed a monument... about the size of the Las Vegas Sphere.",
+      "shots": [
+        {
+          "prompt": "A colossal smooth stone sphere resting on a tiered circular base ringed with tall dark cypress trees, tiny 18th-century figures at its foot, dramatic sky.",
+          "move": "pull_out",
+          "motion": "Camera pulls back and rises to reveal the full size of the colossal sphere, cypress trees swaying, clouds drifting. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "A hollow sphere... one hundred and fifty metres across.",
+      "shots": [
+        {
+          "prompt": "A vast stone sphere seen from below its curve, people in 18th-century clothes tiny beside it, cypress trees, morning mist.",
+          "move": "pan_up"
+        },
+        {
+          "prompt": "Architectural cross-section style painting of a giant hollow sphere on a stepped base, warm parchment tones, neoclassical.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "A memorial for Isaac Newton.",
+      "shots": [
+        {
+          "prompt": "A single small stone sarcophagus alone on the floor of an immense dark spherical hall, a shaft of light falling on it.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "By day, sunlight through tiny holes...",
+      "shots": [
+        {
+          "prompt": "Inside a colossal dark stone sphere, hundreds of thin beams of daylight shining through tiny holes in the curved ceiling.",
+          "move": "pan_up",
+          "motion": "Beams of sunlight slowly shift and shimmer through the tiny holes, dust floating in the light. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "...would turn it into a sky full of stars.",
+      "shots": [
+        {
+          "prompt": "The inside of an immense dark dome glittering with thousands of points of light like a star-filled night sky, a tiny figure standing below.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "At night, a glowing orb would hang inside... like a sun.",
+      "shots": [
+        {
+          "prompt": "A huge glowing orb suspended in the centre of a vast dark spherical hall, lighting the curved stone walls golden, a tiny visitor below.",
+          "move": "push_in",
+          "motion": "The glowing orb pulses softly, golden light rippling across the curved walls. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "It was never built.",
+      "shots": [
+        {
+          "prompt": "An empty misty field at dawn with a few cypress trees, no monument, 18th-century countryside, quiet.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "Almost two hundred and forty years later... Las Vegas built one almost the same size.",
+      "shots": [
+        {
+          "prompt": "A giant glowing spherical entertainment venue at night in a desert city, its surface lit with colourful light, crowds below, generic modern design.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "An old neoclassical sphere design and a modern glowing sphere side by side at dusk, the same size, desert and cypress trees blending.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "Now imagine standing inside the original.",
+      "shots": [
+        {
+          "prompt": "A lone visitor standing on the floor of a colossal stone sphere whose dome is filled with glittering starlight, awe-inspiring scale.",
+          "move": "pan_up",
+          "motion": "Slow upward crane from the tiny visitor toward the star-filled dome, the points of light twinkling. The architecture stays rigid and unchanged."
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #006 - Boullée's Cenotaph for Newton\n\n## Title options (1 = recommended)\n1. The Las Vegas Sphere Was Designed in 1784\n2. In 1784, an Architect Designed a Sphere for Isaac Newton\n3. The 150-Metre Sphere That Turned Day Into Night\n\n## Description\nA hollow sphere 150 metres across. By day, sunlight through tiny holes turned the inside into a sky full of stars. By night, a giant glowing orb hung in the centre.\n\nFrench architect Étienne-Louis Boullée designed this cenotaph for Isaac Newton in 1784. It was never built. Almost 240 years later, a sphere of nearly the same size opened in Las Vegas. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Physics World: \"The Las Vegas Sphere and its curious link with Isaac Newton\"\n- Wikipedia: Étienne-Louis Boullée\n\n#neverbuilt #isaacnewton #lasvegassphere #architecture #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n"
+}

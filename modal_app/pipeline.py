@@ -311,6 +311,8 @@ def produce(spec: dict) -> dict:
 
     cache = pathlib.Path("/cache") / spec["id"]
     cache.mkdir(parents=True, exist_ok=True)
+    shared = pathlib.Path("/cache") / "_shared"
+    shared.mkdir(parents=True, exist_ok=True)
     legacy = pathlib.Path("/cache") / spec["legacy_cache"] if spec.get("legacy_cache") else None
     work = pathlib.Path("/tmp/short")
     work.mkdir(parents=True, exist_ok=True)
@@ -368,14 +370,21 @@ def produce(spec: dict) -> dict:
             url_file = cache / f"{v['name']}.url"
             motion_calls[k] = generate_motion.spawn(url_file.read_text(), v["motion"])
 
+    # music and sound effects are shared across the channel (one copy per prompt)
+    for old_dir in ("001_mile_high", "short_001"):
+        for f in (pathlib.Path("/cache") / old_dir).glob("music_*.mp3"):
+            if not (shared / f.name).exists():
+                (shared / f.name).write_bytes(f.read_bytes())
+        for f in (pathlib.Path("/cache") / old_dir).glob("sfx_*.mp3"):
+            if not (shared / f.name).exists():
+                (shared / f.name).write_bytes(f.read_bytes())
     music_name = f"music_{key(music_prompt)}.mp3"
-    adopt(music_name, music_name)
-    music_call = None if have(music_name) else generate_audio.spawn(music_prompt, 45)
+    music_call = None if (shared / music_name).exists() else generate_audio.spawn(music_prompt, 45)
 
     sfx_calls = {}
     for sname, (prompt, secs) in SFX_PROMPTS.items():
         fname = f"sfx_{sname}_{key(prompt)}.mp3"
-        if not have(fname):
+        if not (shared / fname).exists():
             sfx_calls[sname] = (fname, generate_audio.spawn(prompt, secs))
 
     # ---- collect narration
@@ -414,8 +423,8 @@ def produce(spec: dict) -> dict:
     music_ok = True
     try:
         if music_call is not None:
-            (cache / music_name).write_bytes(music_call.get())
-        (work / "music.mp3").write_bytes((cache / music_name).read_bytes())
+            (shared / music_name).write_bytes(music_call.get())
+        (work / "music.mp3").write_bytes((shared / music_name).read_bytes())
     except Exception as exc:
         print(f"MUSIC FAILED: {str(exc)[:200]}")
         music_ok = False
@@ -424,8 +433,8 @@ def produce(spec: dict) -> dict:
         fname = f"sfx_{sname}_{key(prompt)}.mp3"
         try:
             if sname in sfx_calls:
-                (cache / fname).write_bytes(sfx_calls[sname][1].get())
-            (work / f"sfx_{sname}.mp3").write_bytes((cache / fname).read_bytes())
+                (shared / fname).write_bytes(sfx_calls[sname][1].get())
+            (work / f"sfx_{sname}.mp3").write_bytes((shared / fname).read_bytes())
             sfx_files[sname] = work / f"sfx_{sname}.mp3"
         except Exception as exc:
             print(f"SFX FAILED {sname}: {str(exc)[:200]}")

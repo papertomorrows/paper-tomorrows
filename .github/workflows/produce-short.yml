@@ -58,20 +58,30 @@ jobs:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
         run: |
-          set -o pipefail
           : > run_output.txt
+          FAILS=0
+          PIDS=()
           for SPEC in ${{ steps.pick.outputs.specs }}; do
-            timeout 2400 modal run modal_app/pipeline.py --spec "$SPEC" 2>&1 | tee -a run_output.txt
+            NAME=$(basename "$SPEC" .json)
+            ( timeout 2700 modal run modal_app/pipeline.py --spec "$SPEC" > "log_$NAME.txt" 2>&1 ) &
+            PIDS+=($!)
+            sleep 5
           done
-          RESULT=$(grep -E "SHORT OK|FAILED" run_output.txt | tr '\n' ' ' | cut -c1-900 || true)
-          echo "::notice title=Result::${RESULT}"
+          for PID in "${PIDS[@]}"; do wait "$PID" || FAILS=$((FAILS+1)); done
+          cat log_*.txt >> run_output.txt
+          for L in log_*.txt; do
+            R=$(grep -E "SHORT OK" "$L" | cut -c1-300 || true)
+            if [ -n "$R" ]; then echo "::notice title=Result::${R}"; else
+              E=$( (grep -E "Error|FAILED|failed|STEP" "$L"; tail -3 "$L") | tail -6 | tr '\n' ' ' | cut -c1-600)
+              echo "::error title=Failure::${L}: ${E}"; fi
+          done
+          [ "$FAILS" -eq 0 ]
       - name: Report error
         if: failure()
         run: |
-          ERR=$( (grep -E "Error|FAILED|failed|Traceback|STEP" run_output.txt 2>/dev/null; tail -4 run_output.txt) | tail -10 | tr '\n' ' ' | cut -c1-900)
-          echo "::error title=Failure::${ERR}"
+          echo "see per-short errors above"
       - name: Commit outputs
-        if: success()
+        if: always()
         run: |
           git config user.name "paper-tomorrows-bot"
           git config user.email "actions@users.noreply.github.com"

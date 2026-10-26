@@ -1,0 +1,121 @@
+{
+  "id": "002_atlantropa",
+  "seed_base": 1928,
+  "lines": [
+    {
+      "text": "In the 1920s, a German architect wanted to drain part of the Mediterranean Sea.",
+      "shots": [
+        {
+          "prompt": "High aerial view of a rocky Mediterranean coastline at golden hour where the sea has dropped far below the old shoreline, exposing wet pale cliffs and an old harbour standing high and dry above the water.",
+          "move": "push_in",
+          "motion": "The sea level visibly drops, water draining down the exposed cliffs and pulling away from the stranded harbour, camera slowly descends. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "One dam. Across the Strait of Gibraltar. Thirty-five kilometres long.",
+      "shots": [
+        {
+          "prompt": "A colossal concrete dam stretching across the Strait of Gibraltar from Europe to Africa, huge Atlantic waves breaking against its outer wall, the Rock of Gibraltar on one side, wide aerial view at dusk.",
+          "move": "pan_up",
+          "motion": "Camera glides fast along the top of the endless dam, Atlantic waves crashing and spraying against the wall. The architecture stays rigid and unchanged."
+        },
+        {
+          "prompt": "Close view of the towering face of a gigantic 1930s-style concrete dam with art deco details, tiny figures of workers on top for scale, sea spray.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "Close it... and the sea would slowly sink.",
+      "shots": [
+        {
+          "prompt": "Enormous steel sluice gates in a giant dam slowly closing, water churning below, dramatic low angle, 1930s industrial design.",
+          "move": "push_in"
+        },
+        {
+          "prompt": "Fishing boats resting on mud in a Mediterranean harbour as the water has retreated far out, old stone town behind, hazy sunlight.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "Up to two hundred metres lower.",
+      "shots": [
+        {
+          "prompt": "Looking down a tall coastal cliff with a pale band marking the old sea level high above, the new sea far below, tiny ships for scale.",
+          "move": "pan_down",
+          "motion": "Camera tilts slowly down the cliff face from the old waterline to the sea far below, gulls wheeling. The cliffs stay rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "More than six hundred thousand square kilometres of brand-new land.",
+      "shots": [
+        {
+          "prompt": "Vast new farmland and young towns spreading across a former seabed, irrigation canals glinting, the shrunken blue sea on the horizon, aerial.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "A new 1930s-style city with white modernist buildings built on land that was once the sea floor, old coastal cliffs rising behind it.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "And power stations... for all of Europe and Africa.",
+      "shots": [
+        {
+          "prompt": "A giant hydroelectric power station at the foot of a colossal dam at night, water thundering out of spillways, lights glowing.",
+          "move": "push_in",
+          "motion": "Water thunders out of the spillways in great white plumes, mist rising, lights glowing. The architecture stays rigid and unchanged."
+        },
+        {
+          "prompt": "Rows of tall electricity pylons marching across a newly dried plain toward distant cities at dusk.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "It was never built.",
+      "shots": [
+        {
+          "prompt": "Calm present-day Strait of Gibraltar at dusk, open water between two coastlines, a single ferry, no dam, soft haze.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "But imagine, for a moment... that it was.",
+      "shots": [
+        {
+          "prompt": "Present-day aerial view over the Strait of Gibraltar with a colossal dam joining Europe and Africa, the Atlantic high on the left, the Mediterranean visibly far lower on the right, modern cities glowing along the new coastline at dusk.",
+          "move": "push_in",
+          "motion": "Slow majestic flight over the dam toward the lowered Mediterranean, city lights twinkling, waves rolling against the Atlantic side. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "The coastline of southern Europe... would be unrecognisable.",
+      "shots": [
+        {
+          "prompt": "A satellite-style view of southern Europe at night where the Mediterranean has shrunk and new land glows with city lights along a redrawn coastline.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "A historic Mediterranean port city now standing far inland, a long canal leading to the distant sea, warm evening light.",
+          "move": "push_in"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #002 - Atlantropa: The Plan to Drain the Mediterranean\n\n## Title options (1 = recommended)\n1. In the 1920s, Someone Planned to Drain the Mediterranean\n2. The Dam That Would Have Shrunk the Mediterranean Sea\n3. One Dam Would Have Lowered the Mediterranean by 200 Metres\n\n## Description\nA dam across the Strait of Gibraltar. A sea up to 200 metres lower. More than 600,000 square kilometres of new land.\n\nIn the late 1920s, German architect Herman Sörgel began promoting Atlantropa: a plan to dam the Strait of Gibraltar and partly drain the Mediterranean Sea (about 100 metres in the west, 200 in the east), with hydroelectric power for Europe and Africa. It was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Cabinet Magazine: \"Herman Sörgel's plan to drain the Mediterranean\"\n- Gizmodo: \"The insane 1920s plan to dam the Mediterranean\"\n\n#neverbuilt #atlantropa #mediterranean #megaprojects #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n"
+}

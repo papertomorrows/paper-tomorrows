@@ -1,0 +1,120 @@
+{
+  "id": "003_shimizu_pyramid",
+  "seed_base": 2110,
+  "lines": [
+    {
+      "text": "Japan designed a pyramid... about fourteen times taller than Giza.",
+      "shots": [
+        {
+          "prompt": "A colossal glass and steel lattice pyramid rising out of Tokyo Bay, so tall its peak pierces the clouds, tiny ships on the water at its base, dawn light.",
+          "move": "pan_up",
+          "motion": "Camera rises fast up the face of the colossal lattice pyramid from the water toward its cloud-wrapped peak. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "Two thousand metres high. Rising out of Tokyo Bay.",
+      "shots": [
+        {
+          "prompt": "The Tokyo skyline seen across the bay, dwarfed by a gigantic open-frame pyramid on the water, its upper half above the clouds, golden hour.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "Looking straight up one edge of a vast pyramid made of a geometric steel lattice, the edges converging far into the sky.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "A single structure... for one million people.",
+      "shots": [
+        {
+          "prompt": "Inside a gigantic pyramid made of open lattice, a vast airy space filled with suspended towers, gardens and light, small crowds far below.",
+          "move": "push_in",
+          "motion": "Slow drifting camera through the vast interior of the lattice pyramid, light beams shifting, tiny transit pods gliding along the struts. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "Thirty-storey skyscrapers... hanging inside the frame.",
+      "shots": [
+        {
+          "prompt": "Several 30-storey skyscrapers suspended by cables inside a giant pyramid lattice, hanging in mid-air with lit windows, people on sky bridges.",
+          "move": "pan_down"
+        },
+        {
+          "prompt": "Close-up of thick dark cables holding a skyscraper in the air inside a geometric frame, clouds visible through the lattice.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "Moving walkways. Inclined elevators. Robot pods running through the struts.",
+      "shots": [
+        {
+          "prompt": "Futuristic accelerating walkways and inclined glass elevators inside a colossal lattice structure, people travelling, warm light.",
+          "move": "push_in"
+        },
+        {
+          "prompt": "Small automated transit pods racing along the inside of giant steel struts in a pyramid city, motion blur, bright interior.",
+          "move": "pan_up",
+          "motion": "Transit pods race along the struts, light streaks behind them, camera follows smoothly. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "Building it would take eighty years... and materials still being invented.",
+      "shots": [
+        {
+          "prompt": "Robotic construction arms assembling a gigantic lattice of dark carbon struts over the sea, a half-finished pyramid frame, overcast sky.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "Macro view of a glowing black carbon nanotube cable, futuristic laboratory light, shallow depth of field.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "It was never built.",
+      "shots": [
+        {
+          "prompt": "Present-day Tokyo Bay at dusk, calm water, distant city lights, empty horizon where nothing rises, soft fog.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "But imagine, for a moment... that it was.",
+      "shots": [
+        {
+          "prompt": "Present-day Tokyo at night seen from the bay, a colossal glowing lattice pyramid two kilometres tall rising from the water, its upper half above the clouds, millions of lights inside.",
+          "move": "push_in",
+          "motion": "Slow upward crane shot rising along the glowing pyramid, clouds drifting around its middle, lights twinkling inside. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "It would be more than twice as tall as anything on Earth.",
+      "shots": [
+        {
+          "prompt": "A colossal pyramid beside a modern supertall skyscraper for scale, the pyramid more than twice as tall, dramatic sky.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "View from the peak of a two-kilometre pyramid above the clouds at sunrise, Mount Fuji in the distance.",
+          "move": "push_in"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
+  },
+  "metadata": "# Short #003 - The Shimizu Mega-City Pyramid\n\n## Title options (1 = recommended)\n1. Japan Designed a Pyramid 14 Times Taller Than Giza\n2. A City for a Million People Inside One Pyramid\n3. The 2-Kilometre Pyramid Japan Never Built\n\n## Description\nTwo kilometres high. A million residents. Skyscrapers hanging inside the frame.\n\nJapan's Shimizu Corporation designed the Mega-City Pyramid for Tokyo Bay: a 2,004-metre structure with suspended 30-storey towers and transit pods running through its struts. It needs materials that are still being researched, and it was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Shimizu Mega-City Pyramid\n\n#neverbuilt #tokyo #megaprojects #futurecity #architecture\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "001_mile_high",
+  "legacy_cache": "short_001",
+  "seed_base": 1956,
+  "lines": [
+    {
+      "text": "One mile.",
+      "shots": [
+        {
+          "prompt": "Extreme low-angle view looking straight up a slender needle-shaped skyscraper of steel and glass whose top disappears into the clouds.",
+          "move": "push_in",
+          "motion": "Slow dramatic upward tilt along the glass tower toward its peak as clouds rush past overhead. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "That's how tall Frank Lloyd Wright wanted to build... in 1956.",
+      "shots": [
+        {
+          "prompt": "A 1950s architect's drafting table under a warm desk lamp, a huge vertical drawing of a needle-shaped skyscraper pinned above it, pencils and rulers.",
+          "move": "pan_up"
+        },
+        {
+          "prompt": "Close-up of a pencil sketching the outline of an enormous needle-shaped skyscraper on cream drafting paper, 1950s, warm lamp light, shallow depth of field.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "Five hundred and twenty-eight floors.",
+      "shots": [
+        {
+          "prompt": "Looking straight up the side of an impossibly tall tapering tower, hundreds of floors of glass and gold fins converging to a vanishing point in the sky.",
+          "move": "pan_up"
+        },
+        {
+          "prompt": "View from beside the upper floors of an impossibly tall needle tower, the city of Chicago tiny far below, clouds drifting at eye level.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "Seventy-six elevators... powered by atomic energy.",
+      "shots": [
+        {
+          "prompt": "Inside a vast vertical shaft of a 1950s retro-futuristic tower, glowing elevator cabs racing upward on rails, atomic-age design, blue light.",
+          "move": "push_in"
+        },
+        {
+          "prompt": "A sleek retro-futuristic 1950s elevator cab with a glowing atomic-blue core streaking upward inside a glass shaft, motion streaks of light.",
+          "move": "pan_up"
+        }
+      ]
+    },
+    {
+      "text": "Room for a hundred thousand people... working in the sky.",
+      "shots": [
+        {
+          "prompt": "1950s offices high inside a skyscraper above the clouds at sunrise, silhouettes of office workers at desks beside panoramic windows, a sea of clouds below.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "A 1950s businessman in a suit and hat standing at a floor-to-ceiling window, looking out over a sea of clouds from an office a mile above the ground, seen from behind.",
+          "move": "push_in"
+        }
+      ]
+    },
+    {
+      "text": "Parking for fifteen thousand cars. And a hundred helicopters.",
+      "shots": [
+        {
+          "prompt": "The base of a colossal tower with vast curved parking terraces full of 1950s cars, several 1950s helicopters landing on round pads, aerial view.",
+          "move": "push_in"
+        },
+        {
+          "prompt": "A row of 1950s helicopters resting on circular landing pads that jut out from the side of a colossal tower, seen from above, clouds below.",
+          "move": "pan_down"
+        }
+      ]
+    },
+    {
+      "text": "It was never built.",
+      "shots": [
+        {
+          "prompt": "An empty lakeside lot in 1950s Chicago at dusk, drifting fog, a single street lamp, the faint ghostly outline of a giant tower barely visible in the mist.",
+          "move": "pull_out"
+        }
+      ]
+    },
+    {
+      "text": "But imagine, for a moment... that it was.",
+      "shots": [
+        {
+          "prompt": "Present-day Chicago skyline at dusk seen from Lake Michigan. In the centre stands one impossibly tall, slender, needle-shaped tower, five times taller than every other skyscraper around it. Its middle is wrapped in clouds and its glowing spire pierces far above the cloud layer near the top of the frame. The ordinary skyscrapers look tiny at its base. Full height of the needle tower visible.",
+          "move": "push_in",
+          "motion": "Slow, smooth upward crane shot rising along the tower, clouds drift gently, city lights twinkle, water ripples. The architecture stays rigid and unchanged."
+        }
+      ]
+    },
+    {
+      "text": "Even today, it would stand nearly twice as tall as the tallest building ever finished.",
+      "shots": [
+        {
+          "prompt": "A mile-high needle tower beside a modern supertall skyscraper for scale, the needle tower nearly twice as tall, dramatic dusk sky, city lights below.",
+          "move": "pull_out"
+        },
+        {
+          "prompt": "A city skyline at dusk where every modern skyscraper reaches only halfway up a single glowing mile-high needle tower, wide shot from across the water.",
+          "move": "push_in"
+        }
+      ]
+    }
+  ],
+  "sfx": {
+    "riser_into_lines": [6],
+    "impact_on_lines": [6]
+  },
+  "metadata": "# Short #001 - The Mile-High Skyscraper\n\n## Title options\n1. Chicago Almost Built a Mile-High Skyscraper\n2. This 1956 Skyscraper Would Still Be the Tallest on Earth\n3. Frank Lloyd Wright Wanted to Build One Mile Into the Sky\n\n## Description\nIn 1956, Frank Lloyd Wright unveiled \"The Illinois\": a skyscraper one mile tall,\nwith 528 floors, 76 atomic-powered elevators and workspace for about 100,000 people.\nIt was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real building.\n\nSources:\n- ASCE Civil Engineering magazine: \"Visualization unveiled for unbuilt Frank Lloyd Wright tower\" (2023)\n- Wikipedia: The Illinois\n\n#neverbuilt #architecture #franklloydwright #chicago #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n"
+}

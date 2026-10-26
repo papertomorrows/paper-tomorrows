@@ -1,0 +1,81 @@
+name: Produce short
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Spec file, e.g. specs/001_mile_high.json"
+        required: true
+  push:
+    paths:
+      - "specs/**.json"
+      - "modal_app/pipeline.py"
+      - ".github/workflows/produce-short.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: produce-short
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Modal client
+        run: pip install modal
+      - name: Decide which specs to produce
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.spec }}" ]; then
+            SPECS="${{ github.event.inputs.spec }}"
+          else
+            SPECS=$(git diff --name-only HEAD~1 HEAD -- 'specs/*.json' | tr '\n' ' ')
+            if [ -z "$SPECS" ]; then SPECS=$(ls specs/*.json | tr '\n' ' '); fi
+          fi
+          echo "specs=$SPECS" >> "$GITHUB_OUTPUT"
+          echo "Producing: $SPECS"
+      - name: Sync API keys into Modal's secret store
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+          XI_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS }}
+        run: |
+          modal secret create paper-tomorrows-keys \
+            FAL_KEY="$FAL_KEY" XI_KEY="$XI_KEY" --force > /dev/null
+          echo "keys synced"
+      - name: Produce on Modal
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          set -o pipefail
+          : > run_output.txt
+          for SPEC in ${{ steps.pick.outputs.specs }}; do
+            timeout 2400 modal run modal_app/pipeline.py --spec "$SPEC" 2>&1 | tee -a run_output.txt
+          done
+          RESULT=$(grep -E "SHORT OK|FAILED" run_output.txt | tr '\n' ' ' | cut -c1-900 || true)
+          echo "::notice title=Result::${RESULT}"
+      - name: Report error
+        if: failure()
+        run: |
+          ERR=$( (grep -E "Error|FAILED|failed|Traceback|STEP" run_output.txt 2>/dev/null; tail -4 run_output.txt) | tail -10 | tr '\n' ' ' | cut -c1-900)
+          echo "::error title=Failure::${ERR}"
+      - name: Commit outputs
+        if: success()
+        run: |
+          git config user.name "paper-tomorrows-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/shorts
+          git commit -m "Add produced shorts [skip ci]" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push

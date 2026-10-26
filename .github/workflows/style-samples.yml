@@ -1,0 +1,40 @@
+name: Style samples
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "modal_app/style_samples.py"
+      - ".github/workflows/style-samples.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Modal client
+        run: pip install modal
+      - name: Generate samples on Modal
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: |
+          set -o pipefail
+          modal run modal_app/style_samples.py | tee run_output.txt
+          RESULT=$(grep -c "SAVED" run_output.txt || true)
+          echo "::notice title=Result::style samples saved: ${RESULT}"
+      - name: Commit images to the repository
+        run: |
+          git config user.name "paper-tomorrows-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/style_samples
+          git commit -m "Add style samples [skip ci]" || echo "nothing to commit"
+          git push

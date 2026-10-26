@@ -63,9 +63,11 @@ SCENES = [
      "An empty lakeside lot in 1950s Chicago at dusk, drifting fog, a single street "
      "lamp, the faint ghostly outline of a giant tower barely visible in the mist.", "pull_out"),
     ("But imagine, for a moment... that it was.",
-     "Present-day Chicago skyline at dusk seen from Lake Michigan, a mile-high slender "
-     "tower rising far above every modern skyscraper, its lights glowing, clouds "
-     "wrapping its middle.", "hero"),
+     "Present-day Chicago skyline at dusk seen from Lake Michigan. In the centre stands "
+     "one impossibly tall, slender, needle-shaped tower, five times taller than every "
+     "other skyscraper around it. Its middle is wrapped in clouds and its glowing spire "
+     "pierces far above the cloud layer near the top of the frame. The ordinary "
+     "skyscrapers look tiny at its base. Full height of the needle tower visible.", "hero"),
     ("Even today, it would stand nearly twice as tall as the tallest building ever finished.",
      "A mile-high needle tower beside a modern supertall skyscraper for scale, the "
      "needle tower nearly twice as tall, dramatic dusk sky, city lights below.", "pull_out"),
@@ -189,7 +191,8 @@ def caption_chunks(words):
     for i, c in enumerate(chunks):
         start = c[0][1]
         end = chunks[i + 1][0][1] if i + 1 < len(chunks) else c[-1][2] + 0.4
-        text = " ".join(x[0] for x in c).replace("...", "").strip(" .").upper()
+        text = " ".join(x[0] for x in c).replace("...", "").replace(",", "")
+        text = text.strip(" .").upper()
         text = text.replace("{", "").replace("}", "")
         out.append((start, end, text))
     return out
@@ -246,8 +249,11 @@ def run(cmd: list[str]) -> None:
 @app.function(image=image, timeout=3000, cpu=4.0, memory=4096, secrets=[KEYS],
               volumes={"/cache": CACHE})
 def produce() -> dict:
+    import hashlib
     import json
     import subprocess
+
+    key = lambda text: hashlib.sha1(text.encode()).hexdigest()[:10]
 
     work = pathlib.Path("/tmp/short")
     work.mkdir(parents=True, exist_ok=True)
@@ -266,16 +272,24 @@ def produce() -> dict:
     images, urls = {}, {}
     todo = []
     for i, s in enumerate(SCENES):
-        if cached(f"scene_{i:02d}.jpg"):
-            images[i] = (CACHE_DIR / f"scene_{i:02d}.jpg").read_bytes()
-            url_file = CACHE_DIR / f"scene_{i:02d}.url"
+        name = f"scene_{i:02d}_{key(s[1] + STYLE)}"
+        legacy = CACHE_DIR / f"scene_{i:02d}.jpg"  # files from before prompt-keyed caching
+        if not cached(f"{name}.jpg") and legacy.exists() and s[2] != "hero":
+            (CACHE_DIR / f"{name}.jpg").write_bytes(legacy.read_bytes())
+            old_url = CACHE_DIR / f"scene_{i:02d}.url"
+            if old_url.exists():
+                (CACHE_DIR / f"{name}.url").write_text(old_url.read_text())
+        if cached(f"{name}.jpg"):
+            images[i] = (CACHE_DIR / f"{name}.jpg").read_bytes()
+            url_file = CACHE_DIR / f"{name}.url"
             urls[i] = url_file.read_text() if url_file.exists() else ""
         else:
             todo.append((i, s[1]))
     for idx, url, data in generate_image.starmap(todo):
         images[idx], urls[idx] = data, url
-        (CACHE_DIR / f"scene_{idx:02d}.jpg").write_bytes(data)
-        (CACHE_DIR / f"scene_{idx:02d}.url").write_text(url)
+        name = f"scene_{idx:02d}_{key(SCENES[idx][1] + STYLE)}"
+        (CACHE_DIR / f"{name}.jpg").write_bytes(data)
+        (CACHE_DIR / f"{name}.url").write_text(url)
     CACHE.commit()
     for idx, data in images.items():
         (work / f"scene_{idx:02d}.jpg").write_bytes(data)
@@ -283,8 +297,9 @@ def produce() -> dict:
 
     # 3: hero motion shot from the hero scene image
     hero_idx = next(i for i, s in enumerate(SCENES) if s[2] == "hero")
+    hero_name = f"hero_{key(SCENES[hero_idx][1] + STYLE + HERO_MOTION_PROMPT)}.mp4"
     hero_call = None
-    if not cached("hero.mp4"):
+    if not cached(hero_name):
         hero_call = generate_hero_clip.spawn(urls[hero_idx])
 
     if narration_call is not None:
@@ -322,9 +337,9 @@ def produce() -> dict:
     hero_ok = True
     try:
         if hero_call is not None:
-            (CACHE_DIR / "hero.mp4").write_bytes(hero_call.get())
+            (CACHE_DIR / hero_name).write_bytes(hero_call.get())
             CACHE.commit()
-        hero_path.write_bytes((CACHE_DIR / "hero.mp4").read_bytes())
+        hero_path.write_bytes((CACHE_DIR / hero_name).read_bytes())
     except Exception as exc:
         print(f"HERO CLIP FAILED, using camera move instead: {exc}")
         hero_ok = False

@@ -448,13 +448,81 @@ for spec in SPECS:
         shot_["motion"] = motion
 
 
+
+# ------------------------------------------------------------------ retention structure (002 test)
+def _restructure_002(spec):
+    old = spec["lines"]
+    S = lambda li, si: dict(old[li]["shots"][si])          # reuse = cache hit
+
+    def moving(shot_, motion, secs=3):
+        shot_ = dict(shot_); shot_["motion"] = motion; shot_["motion_seconds"] = secs
+        return shot_
+
+    life = "Structures keep their shape."
+    architect = shot("A 1920s architect in a waistcoat leaning over a huge drafting table covered with a "
+                     "map of the Mediterranean, a long dam drawn across the Strait of Gibraltar, warm "
+                     "lamp light, blueprints and pencils, cinematic.", "push_in")
+    spec["lines"] = [
+        {"text": "This one dam... would have lowered the entire Mediterranean Sea.",
+         "ambience": "Huge ocean waves crashing against a concrete sea wall, strong wind and spray",
+         "shots": [S(1, 0), S(0, 0)]},
+        {"text": "Wait until you see what Europe would look like today.",
+         "ambience": "Deep low cinematic rumble, high wind, distant city hum",
+         "shots": [moving(S(8, 0), "Camera rushes down from high above toward the glowing redrawn "
+                                   "coastline, city lights flickering below, clouds racing past. " + life)]},
+        {"text": "In the 1920s, a German architect proposed it.",
+         "ambience": "Quiet 1920s office, pencil scratching on paper, clock ticking, rain on a window",
+         "shots": [moving(architect, "The architect's pencil sweeps along the dam line on the map, the "
+                                     "lamp flickers, papers stir, the camera pushes in. " + life)]},
+        {"text": "A wall across the Strait of Gibraltar. Thirty-five kilometres long.",
+         "callout": "35 KM",
+         "ambience": "Ocean waves pounding a giant dam, seagulls crying, strong wind",
+         "shots": [moving(S(1, 1), "Camera tilts fast up the towering dam face as spray bursts upward, "
+                                   "tiny workers walk along the top, gulls wheel past. " + life)]},
+        {"text": "Close it... and the sea would sink, up to two hundred metres.",
+         "callout": "\u2212200 M",
+         "ambience": "Rushing water thundering through giant sluice gates, deep rumble",
+         "shots": [S(2, 0), S(3, 0)]},
+        {"text": "More than six hundred thousand square kilometres of new land.",
+         "callout": "600,000 KM\u00b2",
+         "ambience": "Open countryside, birdsong, light wind, distant train",
+         "shots": [S(4, 0), moving(S(4, 1), "Camera glides down a busy boulevard of the white 1930s city, "
+                                            "cars and pedestrians moving, flags fluttering in the sun. " + life)]},
+        {"text": "Power for all of Europe and Africa.",
+         "ambience": "Roaring waterfall spillway and deep electrical hum",
+         "shots": [S(5, 0), moving(S(5, 1), "Camera races along the line of pylons as pulses of light run "
+                                            "through the cables, a train speeds past below at dusk. " + life)]},
+        {"text": "It was never built.",
+         "ambience": "Calm sea, gentle waves, a distant ship horn",
+         "shots": [S(6, 0)]},
+        {"text": "But if it had been...",
+         "ambience": "Wind over the sea at dusk, distant city hum",
+         "shots": [S(7, 0)]},
+        {"text": "The coastline of southern Europe would be unrecognisable. All because of one dam.",
+         "ambience": "Harbour ambience, water lapping, seagulls, distant church bells",
+         "shots": [S(8, 1), moving(S(1, 0), "Slow sweeping pull back revealing the full length of the "
+                                            "colossal dam at dusk, waves rolling against it. " + life)]},
+    ]
+    spec["sfx"] = {"riser_into_lines": [7], "impact_on_lines": [7]}
+    spec["settings"] = {"voice_settings": {"stability": 0.35, "similarity_boost": 0.80, "style": 0.45,
+                                           "use_speaker_boost": True, "speed": 0.97}}
+    spec["metadata"] = spec["metadata"].replace(
+        "1. In the 1920s, Someone Planned to Drain the Mediterranean",
+        "1. This One Dam Would Have Lowered the Entire Mediterranean")
+
+
+for spec in SPECS:
+    if spec["id"] == "002_atlantropa":
+        _restructure_002(spec)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:]
     for spec in SPECS:
         if only and not any(spec["id"].startswith(o) for o in only):
             continue
-        spec = {**spec, "status": "ready-dynamic"} if only else spec
+        spec = {**spec, "status": "ready-retention-test"} if only else spec
         path = HERE / f"{spec['id']}.json"
         path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
         n_shots = sum(len(l["shots"]) for l in spec["lines"])

@@ -51,6 +51,10 @@ DEFAULTS = {
     "label_seconds": 3.0,
     "min_split_seconds": 2.4,   # a line shorter than this keeps a single shot
     "min_first_shot": 2.4,      # the opening shot always lasts at least this long
+    "punch_in": False,          # zoom-in on cuts (off: felt like shaking)
+    "impact_shake": True,       # short shake on the "never built" impact only
+    "grade": "vivid",           # "vivid" (livelier) or "muted" (original look)
+    "ambience_level": 0.30,
 }
 
 SFX_PROMPTS = {
@@ -210,7 +214,7 @@ def caption_chunks(words):
     return chunks
 
 
-def build_ass(chunks, label: str, label_seconds: float) -> str:
+def build_ass(chunks, label: str, label_seconds: float, callouts=()) -> str:
     gold = "&H3CC8FF&"   # #FFC83C in ASS BGR order
     white = "&HFFFFFF&"
     header = f"""[Script Info]
@@ -223,6 +227,7 @@ WrapStyle: 2
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,DejaVu Sans,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,1,0,1,6,2,2,80,80,430,1
 Style: Label,DejaVu Sans,26,&H00E6E6E6,&H00E6E6E6,&H00000000,&H00000000,1,0,0,0,100,100,4,0,1,2,0,8,60,60,150,1
+Style: Callout,DejaVu Sans,150,&H003CC8FF,&H003CC8FF,&H00000000,&H96000000,1,0,0,0,100,100,2,0,1,9,4,5,40,40,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -231,6 +236,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     if label:
         events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(label_seconds)},Label,,0,0,0,,"
                       f"{{\\fad(200,500)}}{label}")
+    for start, end, text in callouts:
+        text = text.replace("{", "").replace("}", "")
+        # pop in big, settle, then fade; sits above the centre of the frame
+        events.append(
+            f"Dialogue: 2,{ass_time(start)},{ass_time(end)},Callout,,0,0,0,,"
+            f"{{\\pos({W // 2},{int(H * 0.36)})\\fad(80,250)\\fscx135\\fscy135"
+            f"\\t(0,180,\\fscx100\\fscy100)}}{text}")
     plain = []
     for ci, chunk in enumerate(chunks):
         chunk_end = chunks[ci + 1][0][1] if ci + 1 < len(chunks) else chunk[-1][2] + 0.4
@@ -413,6 +425,14 @@ def produce(spec: dict) -> dict:
     music_name = f"music_{key(music_prompt)}.mp3"
     music_call = None if (shared / music_name).exists() else generate_audio.spawn(music_prompt, 45)
 
+    amb_calls = {}
+    for line in lines:
+        ap = line.get("ambience")
+        if ap:
+            fname = f"amb_{key(ap)}.mp3"
+            if not (shared / fname).exists() and fname not in amb_calls:
+                amb_calls[fname] = generate_audio.spawn(ap + ", ambience, no music, no voice", 12)
+
     sfx_calls = {}
     for sname, (prompt, secs) in SFX_PROMPTS.items():
         fname = f"sfx_{sname}_{key(prompt)}.mp3"
@@ -473,6 +493,11 @@ def produce(spec: dict) -> dict:
             sfx_files[sname] = work / f"sfx_{sname}.mp3"
         except Exception as exc:
             print(f"SFX FAILED {sname}: {str(exc)[:200]}")
+    for fname, call in amb_calls.items():
+        try:
+            (shared / fname).write_bytes(call.get())
+        except Exception as exc:
+            print(f"AMBIENCE FAILED {fname}: {str(exc)[:200]}")
     CACHE.commit()
     print("STEP assets ready")
 
@@ -484,7 +509,7 @@ def produce(spec: dict) -> dict:
         f0, f1 = int(round(s * FPS)), int(round(e * FPS))
         frames = max(f1 - f0, 1)
         seg = work / f"seg_{n:02d}.mp4"
-        punch = ("," + punch_filter()) if (cfg.get("punch_in", True) and n > 0
+        punch = ("," + punch_filter()) if (cfg.get("punch_in", False) and n > 0
                                             and li != shots[n - 1][0]) else ""
         if motion_ok.get((li, si)):
             src = work / f"motion_{n}.mp4"
@@ -512,7 +537,13 @@ def produce(spec: dict) -> dict:
     # ---- captions
     words = words_from_alignment(align)
     chunks = caption_chunks(words)
-    ass, plain_captions = build_ass(chunks, cfg["label"], cfg["label_seconds"])
+    bounds = line_starts + [total]
+    callouts = []
+    for li, line in enumerate(lines):
+        if line.get("callout"):
+            st = bounds[li] + float(line.get("callout_delay", 0.35))
+            callouts.append((st, min(st + 1.8, bounds[li + 1] + 0.2), line["callout"]))
+    ass, plain_captions = build_ass(chunks, cfg["label"], cfg["label_seconds"], callouts)
     (work / "captions.ass").write_text(ass)
 
     # ---- sound-effect cue times
@@ -534,7 +565,7 @@ def produce(spec: dict) -> dict:
 
     # ---- final mix and grade
     inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3")]
-    graph = [f"[1:a]apad,atrim=0:{total},asplit=2[voice][key]"]
+    graph = [f"[1:a]apad,atrim=0:{total},asplit=3[voice][key][key2]"]
     mix = ["[voice]"]
     nxt = 2
     if music_ok:
@@ -547,6 +578,29 @@ def produce(spec: dict) -> dict:
         nxt += 1
     else:
         graph.append("[key]anullsink")
+    amb_labels = []
+    bounds = line_starts + [total]
+    for li, line in enumerate(lines):
+        ap = line.get("ambience")
+        f = shared / f"amb_{key(ap)}.mp3" if ap else None
+        if not f or not f.exists():
+            continue
+        st, en = bounds[li], min(bounds[li + 1] + 0.3, total)
+        d = max(en - st, 0.3)
+        inputs += ["-i", str(f)]
+        graph.append(
+            f"[{nxt}:a]aloop=loop=-1:size=2e9,atrim=0:{d:.2f},"
+            f"afade=t=in:st=0:d=0.15,afade=t=out:st={max(d - 0.3, 0):.2f}:d=0.3,"
+            f"volume={cfg['ambience_level']},adelay=delays={int(st * 1000)}:all=1[amb{li}]")
+        amb_labels.append(f"[amb{li}]")
+        nxt += 1
+    if amb_labels:
+        graph.append("".join(amb_labels) + f"amix=inputs={len(amb_labels)}:normalize=0:duration=longest,"
+                     f"apad,atrim=0:{total}[ambmix]")
+        graph.append("[ambmix][key2]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[ambd]")
+        mix.append("[ambd]")
+    else:
+        graph.append("[key2]anullsink")
     for sname, times in cues.items():
         if sname not in sfx_files or not times:
             continue
@@ -571,7 +625,9 @@ def produce(spec: dict) -> dict:
                  f"scale={W}:{H},")
     grade = (
         shake +
-        "eq=contrast=1.06:saturation=0.95,vignette=PI/5,noise=alls=3:allf=t,"
+        ("eq=contrast=1.10:saturation=1.18:gamma=1.03,vignette=PI/7,noise=alls=2:allf=t,"
+         if cfg.get("grade", "vivid") == "vivid" else
+         "eq=contrast=1.06:saturation=0.95,vignette=PI/5,noise=alls=3:allf=t,") +
         f"subtitles={work / 'captions.ass'}:fontsdir=/usr/share/fonts/truetype/dejavu,"
         f"fade=t=in:st=0:d=0.3,fade=t=out:st={total - 0.6:.2f}:d=0.6"
     )

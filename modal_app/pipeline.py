@@ -265,6 +265,36 @@ def camera_filter(move: str, frames: int) -> str:
     )
 
 
+
+def punch_filter(strength: float = 0.10, dur: float = 0.25) -> str:
+    """Quick zoom-in that settles at the start of a segment (a cut with energy)."""
+    f = f"(1+{strength}*max(0,1-t/{dur}))"
+    return (f"scale=w='trunc(iw*{f}/2)*2':h='trunc(ih*{f}/2)*2':eval=frame,"
+            f"crop={W}:{H}")
+
+
+def motion_score(path) -> float:
+    """Average pixel change between sampled frames (0-255). Higher = more movement."""
+    import subprocess
+
+    w, h, n = 64, 114, 7
+    dur = media_duration(path) or 3.0
+    frames = []
+    for i in range(n):
+        t = dur * (0.05 + 0.9 * i / (n - 1))
+        raw = subprocess.run(
+            ["ffmpeg", "-v", "error", "-ss", f"{t:.2f}", "-i", str(path), "-frames:v", "1",
+             "-vf", f"scale={w}:{h},format=gray", "-f", "rawvideo", "-"],
+            capture_output=True).stdout
+        if len(raw) == w * h:
+            frames.append(raw)
+    if len(frames) < 2:
+        return 0.0
+    diffs = [sum(abs(a - b) for a, b in zip(f1, f2)) / (w * h)
+             for f1, f2 in zip(frames, frames[1:])]
+    return round(sum(diffs) / len(diffs), 2)
+
+
 def plan_shots(lines, line_starts, total, cfg):
     """Returns a list of (line_index, shot_index, start, end)."""
     bounds = line_starts + [total]
@@ -422,6 +452,9 @@ def produce(spec: dict) -> dict:
     for k, v in shot_specs.items():
         if v.get("motion_file") and have(v["motion_file"]):
             motion_ok[k] = True
+    motion_scores = {f"{k[0]}:{k[1]}": motion_score(cache / shot_specs[k]["motion_file"])
+                     for k in motion_ok}
+    print("MOTION SCORES", motion_scores)
     music_ok = True
     try:
         if music_call is not None:
@@ -451,6 +484,8 @@ def produce(spec: dict) -> dict:
         f0, f1 = int(round(s * FPS)), int(round(e * FPS))
         frames = max(f1 - f0, 1)
         seg = work / f"seg_{n:02d}.mp4"
+        punch = ("," + punch_filter()) if (cfg.get("punch_in", True) and n > 0
+                                            and li != shots[n - 1][0]) else ""
         if motion_ok.get((li, si)):
             src = work / f"motion_{n}.mp4"
             src.write_bytes((cache / v["motion_file"]).read_bytes())
@@ -458,14 +493,14 @@ def produce(spec: dict) -> dict:
             speed = min(max(clip_len / max(e - s, 0.1), 1.0), 2.0)
             vf = (f"setpts=PTS/{speed:.3f},"
                   f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
-                  f"tpad=stop_mode=clone:stop_duration=15,format=yuv420p")
+                  f"tpad=stop_mode=clone:stop_duration=15,format=yuv420p{punch}")
             run(["ffmpeg", "-y", "-i", str(src), "-vf", vf, "-frames:v", str(frames), "-an",
                  "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(seg)])
         else:
             img = work / f"img_{n}.jpg"
             img.write_bytes((cache / f"{v['name']}.jpg").read_bytes())
             run(["ffmpeg", "-y", "-i", str(img), "-vf",
-                 camera_filter(v.get("move", "push_in"), frames), "-frames:v", str(frames),
+                 camera_filter(v.get("move", "push_in"), frames) + punch, "-frames:v", str(frames),
                  "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(seg)])
         seg_paths.append(seg)
         if n > 0 and li != shots[n - 1][0]:
@@ -525,7 +560,16 @@ def produce(spec: dict) -> dict:
     graph.append(
         "".join(mix) + f"amix=inputs={len(mix)}:duration=first:normalize=0,"
         f"afade=t=out:st={total - 0.8:.2f}:d=0.8,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+    shake = ""
+    if cfg.get("impact_shake", True) and impact_t:
+        def term(axis_amp, freq):
+            parts = [f"if(between(t,{t:.2f},{t + 0.45:.2f}),{axis_amp}*sin(t*{freq})*(1-(t-{t:.2f})/0.45),0)"
+                     for t in impact_t]
+            return "+".join(parts)
+        shake = (f"crop=w=iw-48:h=ih-48:x='24+{term(20, 70)}':y='24+{term(16, 83)}',"
+                 f"scale={W}:{H},")
     grade = (
+        shake +
         "eq=contrast=1.06:saturation=0.95,vignette=PI/5,noise=alls=3:allf=t,"
         f"subtitles={work / 'captions.ass'}:fontsdir=/usr/share/fonts/truetype/dejavu,"
         f"fade=t=in:st=0:d=0.3,fade=t=out:st={total - 0.6:.2f}:d=0.6"
@@ -548,6 +592,7 @@ def produce(spec: dict) -> dict:
             "shots": [(li, si, round(s, 2), round(e, 2)) for li, si, s, e in shots],
             "motion_ok": sorted(f"{k[0]}:{k[1]}" for k in motion_ok),
             "music_ok": music_ok,
+            "motion_scores": motion_scores,
             "sfx": {k: [round(t, 2) for t in v] for k, v in cues.items() if k in sfx_files},
             "sfx_missing": sorted(set(SFX_PROMPTS) - set(sfx_files)),
             "captions": plain_captions,

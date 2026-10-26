@@ -8,7 +8,7 @@
         {
           "prompt": "High aerial view of a rocky Mediterranean coastline at golden hour where the sea has dropped far below the old shoreline, exposing wet pale cliffs and an old harbour standing high and dry above the water.",
           "move": "push_in",
-          "motion": "The sea level visibly drops, water draining down the exposed cliffs and pulling away from the stranded harbour, camera slowly descends. The architecture stays rigid and unchanged."
+          "motion": "Fast dramatic aerial swoop diving down the cliffs toward the stranded harbour, the sea rushing away from the shore, waves pulling back hard. Structures keep their shape."
         }
       ]
     },
@@ -18,7 +18,7 @@
         {
           "prompt": "A colossal concrete dam stretching across the Strait of Gibraltar from Europe to Africa, huge Atlantic waves breaking against its outer wall, the Rock of Gibraltar on one side, wide aerial view at dusk.",
           "move": "pan_up",
-          "motion": "Camera glides fast along the top of the endless dam, Atlantic waves crashing and spraying against the wall. The architecture stays rigid and unchanged."
+          "motion": "Fast low drone flight racing along the top of the dam just above the water, huge Atlantic waves smashing into the wall and exploding into spray. Structures keep their shape."
         },
         {
           "prompt": "Close view of the towering face of a gigantic 1930s-style concrete dam with art deco details, tiny figures of workers on top for scale, sea spray.",
@@ -32,13 +32,13 @@
         {
           "prompt": "Enormous steel sluice gates in a giant dam slowly closing, water churning below, dramatic low angle, 1930s industrial design.",
           "move": "push_in",
-          "motion": "The huge sluice gates grind slowly shut, water churning and foaming below. Buildings and structures stay rigid and unchanged.",
+          "motion": "The giant gates slam down and a torrent of water explodes beneath them, the camera pushes in fast through flying spray. Structures keep their shape.",
           "motion_seconds": 3
         },
         {
           "prompt": "Fishing boats resting on mud in a Mediterranean harbour as the water has retreated far out, old stone town behind, hazy sunlight.",
           "move": "pull_out",
-          "motion": "Shallow water slowly retreats across the mud, the beached boats settle and tilt slightly, haze drifts. Buildings and structures stay rigid and unchanged.",
+          "motion": "Camera flies fast and low over the mud between the stranded boats toward the old town, a flock of seagulls bursts into flight. Structures keep their shape.",
           "motion_seconds": 3
         }
       ]
@@ -49,7 +49,7 @@
         {
           "prompt": "Looking down a tall coastal cliff with a pale band marking the old sea level high above, the new sea far below, tiny ships for scale.",
           "move": "pan_down",
-          "motion": "Camera tilts slowly down the cliff face from the old waterline to the sea far below, gulls wheeling. The cliffs stay rigid and unchanged."
+          "motion": "Camera plunges fast straight down the cliff face from the old waterline to the sea far below, gulls swirling past the lens. Structures keep their shape."
         }
       ]
     },
@@ -59,7 +59,7 @@
         {
           "prompt": "Vast new farmland and young towns spreading across a former seabed, irrigation canals glinting, the shrunken blue sea on the horizon, aerial.",
           "move": "pull_out",
-          "motion": "Camera glides forward over the new fields, cloud shadows sweep across the land, canals glint. Buildings and structures stay rigid and unchanged.",
+          "motion": "Fast low flyover skimming across the new fields, a train races along a track below, cloud shadows sweep quickly across the land. Structures keep their shape.",
           "motion_seconds": 3
         },
         {
@@ -74,7 +74,7 @@
         {
           "prompt": "A giant hydroelectric power station at the foot of a colossal dam at night, water thundering out of spillways, lights glowing.",
           "move": "push_in",
-          "motion": "Water thunders out of the spillways in great white plumes, mist rising, lights glowing. The architecture stays rigid and unchanged."
+          "motion": "Camera rushes toward the roaring spillways, massive white water thundering out, mist billowing over the lens. Structures keep their shape."
         },
         {
           "prompt": "Rows of tall electricity pylons marching across a newly dried plain toward distant cities at dusk.",
@@ -88,7 +88,7 @@
         {
           "prompt": "Calm present-day Strait of Gibraltar at dusk, open water between two coastlines, a single ferry, no dam, soft haze.",
           "move": "pull_out",
-          "motion": "The ferry moves slowly across the strait, gentle waves roll, mist drifts over the water.",
+          "motion": "Camera orbits around the lone ferry as it cuts through the waves at dusk, spray and wake churning behind it.",
           "motion_seconds": 3
         }
       ]
@@ -99,7 +99,7 @@
         {
           "prompt": "Present-day aerial view over the Strait of Gibraltar with a colossal dam joining Europe and Africa, the Atlantic high on the left, the Mediterranean visibly far lower on the right, modern cities glowing along the new coastline at dusk.",
           "move": "push_in",
-          "motion": "Slow majestic flight over the dam toward the lowered Mediterranean, city lights twinkling, waves rolling against the Atlantic side. The architecture stays rigid and unchanged."
+          "motion": "Epic fast flight over the dam toward the lowered sea, the camera banks and dives, city lights streaking below. Structures keep their shape."
         }
       ]
     },
@@ -113,7 +113,7 @@
         {
           "prompt": "A historic Mediterranean port city now standing far inland, a long canal leading to the distant sea, warm evening light.",
           "move": "push_in",
-          "motion": "Small boats move along the long canal toward the distant sea, lights flicker on in the town. Buildings and structures stay rigid and unchanged.",
+          "motion": "Fast flight down the long canal between the buildings toward the distant sea, boats passing quickly beneath. Structures keep their shape.",
           "motion_seconds": 3
         }
       ]
@@ -128,5 +128,5 @@
     ]
   },
   "metadata": "# Short #002 - Atlantropa: The Plan to Drain the Mediterranean\n\n## Title options (1 = recommended)\n1. In the 1920s, Someone Planned to Drain the Mediterranean\n2. The Dam That Would Have Shrunk the Mediterranean Sea\n3. One Dam Would Have Lowered the Mediterranean by 200 Metres\n\n## Description\nA dam across the Strait of Gibraltar. A sea up to 200 metres lower. More than 600,000 square kilometres of new land.\n\nIn the late 1920s, German architect Herman Sörgel began promoting Atlantropa: a plan to dam the Strait of Gibraltar and partly drain the Mediterranean Sea (about 100 metres in the west, 200 in the east), with hydroelectric power for Europe and Africa. It was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Cabinet Magazine: \"Herman Sörgel's plan to drain the Mediterranean\"\n- Gizmodo: \"The insane 1920s plan to dam the Mediterranean\"\n\n#neverbuilt #atlantropa #mediterranean #megaprojects #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready-motion"
+  "status": "ready-dynamic"
 }

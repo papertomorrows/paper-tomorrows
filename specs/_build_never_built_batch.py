@@ -424,13 +424,37 @@ for spec in SPECS:
             shot_["motion_seconds"] = 3
 
 
+
+# ------------------------------------------------------------------ dynamic motion (big camera moves)
+SHAPE = "Structures keep their shape."
+DYNAMIC = {
+    "002_atlantropa": {
+        (0, 0): "Fast dramatic aerial swoop diving down the cliffs toward the stranded harbour, the sea rushing away from the shore, waves pulling back hard. " + SHAPE,
+        (1, 0): "Fast low drone flight racing along the top of the dam just above the water, huge Atlantic waves smashing into the wall and exploding into spray. " + SHAPE,
+        (2, 0): "The giant gates slam down and a torrent of water explodes beneath them, the camera pushes in fast through flying spray. " + SHAPE,
+        (2, 1): "Camera flies fast and low over the mud between the stranded boats toward the old town, a flock of seagulls bursts into flight. " + SHAPE,
+        (3, 0): "Camera plunges fast straight down the cliff face from the old waterline to the sea far below, gulls swirling past the lens. " + SHAPE,
+        (4, 0): "Fast low flyover skimming across the new fields, a train races along a track below, cloud shadows sweep quickly across the land. " + SHAPE,
+        (5, 0): "Camera rushes toward the roaring spillways, massive white water thundering out, mist billowing over the lens. " + SHAPE,
+        (6, 0): "Camera orbits around the lone ferry as it cuts through the waves at dusk, spray and wake churning behind it.",
+        (7, 0): "Epic fast flight over the dam toward the lowered sea, the camera banks and dives, city lights streaking below. " + SHAPE,
+        (8, 1): "Fast flight down the long canal between the buildings toward the distant sea, boats passing quickly beneath. " + SHAPE,
+    },
+}
+for spec in SPECS:
+    for (li, si), motion in DYNAMIC.get(spec["id"], {}).items():
+        shot_ = spec["lines"][li]["shots"][si]
+        assert shot_.get("motion"), (spec["id"], li, si)
+        shot_["motion"] = motion
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:]
     for spec in SPECS:
         if only and not any(spec["id"].startswith(o) for o in only):
             continue
-        spec = {**spec, "status": "ready-motion"} if only else spec
+        spec = {**spec, "status": "ready-dynamic"} if only else spec
         path = HERE / f"{spec['id']}.json"
         path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
         n_shots = sum(len(l["shots"]) for l in spec["lines"])

@@ -17,7 +17,9 @@
       "shots": [
         {
           "prompt": "The Tokyo skyline seen across the bay, dwarfed by a gigantic open-frame pyramid on the water, its upper half above the clouds, golden hour.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Clouds drift slowly past the upper half of the pyramid, boats cross the bay, light shifts. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "Looking straight up one edge of a vast pyramid made of a geometric steel lattice, the edges converging far into the sky.",
@@ -40,7 +42,9 @@
       "shots": [
         {
           "prompt": "Several 30-storey skyscrapers suspended by cables inside a giant pyramid lattice, hanging in mid-air with lit windows, people on sky bridges.",
-          "move": "pan_down"
+          "move": "pan_down",
+          "motion": "Tiny people walk across the sky bridges between the hanging towers, light beams shift slowly. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "Close-up of thick dark cables holding a skyscraper in the air inside a geometric frame, clouds visible through the lattice.",
@@ -53,7 +57,9 @@
       "shots": [
         {
           "prompt": "Futuristic accelerating walkways and inclined glass elevators inside a colossal lattice structure, people travelling, warm light.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "The walkways move steadily, glass elevators glide up the incline, people ride along. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "Small automated transit pods racing along the inside of giant steel struts in a pyramid city, motion blur, bright interior.",
@@ -67,7 +73,9 @@
       "shots": [
         {
           "prompt": "Robotic construction arms assembling a gigantic lattice of dark carbon struts over the sea, a half-finished pyramid frame, overcast sky.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Robotic arms swing and lift a dark strut into place, sparks of welding light, sea moving below. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "Macro view of a glowing black carbon nanotube cable, futuristic laboratory light, shallow depth of field.",
@@ -80,7 +88,9 @@
       "shots": [
         {
           "prompt": "Present-day Tokyo Bay at dusk, calm water, distant city lights, empty horizon where nothing rises, soft fog.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Fog drifts slowly over the calm water, city lights twinkle on the horizon, small ripples.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -103,7 +113,9 @@
         },
         {
           "prompt": "View from inside the top of a two-kilometre open steel lattice pyramid, looking out through the geometric struts over a sea of clouds at sunrise, Mount Fuji in the distance. Steel framework, not stone.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "Camera pushes slowly forward between the struts toward the view, clouds drift below, sunrise glow grows. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     }
@@ -117,5 +129,5 @@
     ]
   },
   "metadata": "# Short #003 - The Shimizu Mega-City Pyramid\n\n## Title options (1 = recommended)\n1. Japan Designed a Pyramid 14 Times Taller Than Giza\n2. A City for a Million People Inside One Pyramid\n3. The 2-Kilometre Pyramid Japan Never Built\n\n## Description\nTwo kilometres high. A million residents. Skyscrapers hanging inside the frame.\n\nJapan's Shimizu Corporation designed the Mega-City Pyramid for Tokyo Bay: a 2,004-metre structure with suspended 30-storey towers and transit pods running through its struts. It needs materials that are still being researched, and it was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Shimizu Mega-City Pyramid\n\n#neverbuilt #tokyo #megaprojects #futurecity #architecture\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready-fix"
+  "status": "ready-motion"
 }

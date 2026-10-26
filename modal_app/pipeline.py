@@ -91,7 +91,7 @@ def generate_image(prompt: str, seed: int) -> tuple[str, bytes]:
 
 
 @app.function(image=image, timeout=1500, secrets=[KEYS])
-def generate_motion(image_url: str, motion_prompt: str) -> bytes:
+def generate_motion(image_url: str, motion_prompt: str, seconds: int = 5) -> bytes:
     import fal_client
     import requests
 
@@ -100,7 +100,7 @@ def generate_motion(image_url: str, motion_prompt: str) -> bytes:
         arguments={
             "start_image_url": image_url,
             "prompt": motion_prompt,
-            "duration": "5",
+            "duration": str(seconds),
             "generate_audio": False,
             "negative_prompt": MOTION_NEGATIVE,
         },
@@ -362,13 +362,15 @@ def produce(spec: dict) -> dict:
     for k, v in shot_specs.items():
         if not v.get("motion"):
             continue
-        mkey = key(lines[k[0]]["shots"][k[1]]["prompt"] + style + v["motion"])
+        secs = int(v.get("motion_seconds", 5))
+        mkey = key(lines[k[0]]["shots"][k[1]]["prompt"] + style + v["motion"]
+                   + ("" if secs == 5 else f"|{secs}s"))
         mname = f"motion_{mkey}.mp4"
         adopt(mname, f"hero_{mkey}.mp4")
         v["motion_file"] = mname
         if not have(mname):
             url_file = cache / f"{v['name']}.url"
-            motion_calls[k] = generate_motion.spawn(url_file.read_text(), v["motion"])
+            motion_calls[k] = generate_motion.spawn(url_file.read_text(), v["motion"], secs)
 
     # music and sound effects are shared across the channel (one copy per prompt)
     for old_dir in ("001_mile_high", "short_001"):

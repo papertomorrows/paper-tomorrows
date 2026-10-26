@@ -40,7 +40,9 @@
       "shots": [
         {
           "prompt": "Inside a giant iron spiral, three huge glass buildings stacked vertically: a cube at the bottom, a pyramid in the middle, a cylinder above, glowing.",
-          "move": "pan_up"
+          "move": "pan_up",
+          "motion": "Camera rises slowly past the three glowing glass buildings inside the spiral. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -49,7 +51,9 @@
       "shots": [
         {
           "prompt": "A massive glass cube hall inside an iron frame, a grand assembly room with rows of seats, slowly rotating, constructivist design.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "The whole glass cube hall slowly rotates, light sliding across the seats. The iron frame stays rigid.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -58,7 +62,9 @@
       "shots": [
         {
           "prompt": "A glass pyramid of offices inside a giant iron spiral, desks and typewriters, 1920s workers, light through angled glass.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "Workers type at their desks as the glass pyramid slowly turns, light angles shifting. The iron frame stays rigid.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -91,7 +97,9 @@
         },
         {
           "prompt": "The glowing spiral tower reflected in a river at night, historic palaces along the bank, still water.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Reflections ripple on the river, the glowing tower's lights shimmer, a boat glides past. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     }
@@ -105,5 +113,5 @@
     ]
   },
   "metadata": "# Short #005 - Tatlin's Tower: The Tower That Spun\n\n## Title options (1 = recommended)\n1. This Tower Was Designed to Spin. Once a Day.\n2. The 400-Metre Spinning Tower That Was Never Built\n3. In 1920, They Designed a Tower With Rotating Buildings Inside\n\n## Description\nFour hundred metres of iron and glass. Three buildings inside, each turning at its own speed: once a year, once a month, once a day.\n\nVladimir Tatlin designed the Monument to the Third International in 1919-1920 for Petrograd (now Saint Petersburg). It was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Tatlin's Tower\n- Sainsbury Centre: Model of the Monument to the Third International\n\n#neverbuilt #tatlin #constructivism #architecture #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready"
+  "status": "ready-motion"
 }

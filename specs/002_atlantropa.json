@@ -31,11 +31,15 @@
       "shots": [
         {
           "prompt": "Enormous steel sluice gates in a giant dam slowly closing, water churning below, dramatic low angle, 1930s industrial design.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "The huge sluice gates grind slowly shut, water churning and foaming below. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "Fishing boats resting on mud in a Mediterranean harbour as the water has retreated far out, old stone town behind, hazy sunlight.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Shallow water slowly retreats across the mud, the beached boats settle and tilt slightly, haze drifts. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -54,7 +58,9 @@
       "shots": [
         {
           "prompt": "Vast new farmland and young towns spreading across a former seabed, irrigation canals glinting, the shrunken blue sea on the horizon, aerial.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Camera glides forward over the new fields, cloud shadows sweep across the land, canals glint. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "A new 1930s-style city with white modernist buildings built on land that was once the sea floor, old coastal cliffs rising behind it.",
@@ -81,7 +87,9 @@
       "shots": [
         {
           "prompt": "Calm present-day Strait of Gibraltar at dusk, open water between two coastlines, a single ferry, no dam, soft haze.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "The ferry moves slowly across the strait, gentle waves roll, mist drifts over the water.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -104,7 +112,9 @@
         },
         {
           "prompt": "A historic Mediterranean port city now standing far inland, a long canal leading to the distant sea, warm evening light.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "Small boats move along the long canal toward the distant sea, lights flicker on in the town. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     }
@@ -118,5 +128,5 @@
     ]
   },
   "metadata": "# Short #002 - Atlantropa: The Plan to Drain the Mediterranean\n\n## Title options (1 = recommended)\n1. In the 1920s, Someone Planned to Drain the Mediterranean\n2. The Dam That Would Have Shrunk the Mediterranean Sea\n3. One Dam Would Have Lowered the Mediterranean by 200 Metres\n\n## Description\nA dam across the Strait of Gibraltar. A sea up to 200 metres lower. More than 600,000 square kilometres of new land.\n\nIn the late 1920s, German architect Herman Sörgel began promoting Atlantropa: a plan to dam the Strait of Gibraltar and partly drain the Mediterranean Sea (about 100 metres in the west, 200 in the east), with hydroelectric power for Europe and Africa. It was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Cabinet Magazine: \"Herman Sörgel's plan to drain the Mediterranean\"\n- Gizmodo: \"The insane 1920s plan to dam the Mediterranean\"\n\n#neverbuilt #atlantropa #mediterranean #megaprojects #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready"
+  "status": "ready-motion"
 }

@@ -386,13 +386,51 @@ SPECS.append({
         ["#neverbuilt", "#isaacnewton", "#lasvegassphere", "#architecture", "#history"]),
 })
 
+
+# ------------------------------------------------------------------ extra 3-second motion shots
+STILL = "Buildings and structures stay rigid and unchanged."
+MORE_MOTION = {
+    ("002_atlantropa", 2, 0): "The huge sluice gates grind slowly shut, water churning and foaming below. " + STILL,
+    ("002_atlantropa", 2, 1): "Shallow water slowly retreats across the mud, the beached boats settle and tilt slightly, haze drifts. " + STILL,
+    ("002_atlantropa", 4, 0): "Camera glides forward over the new fields, cloud shadows sweep across the land, canals glint. " + STILL,
+    ("002_atlantropa", 6, 0): "The ferry moves slowly across the strait, gentle waves roll, mist drifts over the water.",
+    ("002_atlantropa", 8, 1): "Small boats move along the long canal toward the distant sea, lights flicker on in the town. " + STILL,
+    ("003_shimizu_pyramid", 1, 0): "Clouds drift slowly past the upper half of the pyramid, boats cross the bay, light shifts. " + STILL,
+    ("003_shimizu_pyramid", 3, 0): "Tiny people walk across the sky bridges between the hanging towers, light beams shift slowly. " + STILL,
+    ("003_shimizu_pyramid", 4, 0): "The walkways move steadily, glass elevators glide up the incline, people ride along. " + STILL,
+    ("003_shimizu_pyramid", 5, 0): "Robotic arms swing and lift a dark strut into place, sparks of welding light, sea moving below. " + STILL,
+    ("003_shimizu_pyramid", 6, 0): "Fog drifts slowly over the calm water, city lights twinkle on the horizon, small ripples.",
+    ("003_shimizu_pyramid", 8, 1): "Camera pushes slowly forward between the struts toward the view, clouds drift below, sunrise glow grows. " + STILL,
+    ("004_watkins_tower", 2, 0): "Gas lamps flicker, diners move between the tables, clouds drift far below the windows. " + STILL,
+    ("004_watkins_tower", 2, 1): "Steam swirls and rises slowly through the tiled arches, light shimmers on the water. " + STILL,
+    ("004_watkins_tower", 3, 0): "Workers swing hammers onto glowing rivets, sparks fly, a crane slowly lifts a girder. " + STILL,
+    ("004_watkins_tower", 4, 1): "Rain falls steadily, puddles ripple, a loose tarp flaps in the wind. " + STILL,
+    ("004_watkins_tower", 7, 0): "Crowds stream toward the stadium, lights shimmer along the giant arch, camera pulls back slowly. " + STILL,
+    ("005_tatlins_tower", 3, 0): "Camera rises slowly past the three glowing glass buildings inside the spiral. " + STILL,
+    ("005_tatlins_tower", 4, 0): "The whole glass cube hall slowly rotates, light sliding across the seats. The iron frame stays rigid.",
+    ("005_tatlins_tower", 5, 0): "Workers type at their desks as the glass pyramid slowly turns, light angles shifting. The iron frame stays rigid.",
+    ("005_tatlins_tower", 8, 1): "Reflections ripple on the river, the glowing tower's lights shimmer, a boat glides past. " + STILL,
+    ("006_newton_cenotaph", 1, 0): "Mist drifts around the base, tiny figures walk, camera tilts slowly up the curve of the sphere. " + STILL,
+    ("006_newton_cenotaph", 2, 0): "The shaft of light shimmers, dust floats through it, camera pushes slowly toward the tomb. " + STILL,
+    ("006_newton_cenotaph", 4, 0): "The points of starlight twinkle across the dome as the camera rises slowly. " + STILL,
+    ("006_newton_cenotaph", 7, 0): "Patterns of light ripple across the giant sphere's surface, crowds walk below. " + STILL,
+}
+for spec in SPECS:
+    for (sid, li, si), motion in MORE_MOTION.items():
+        if spec["id"] == sid:
+            shot_ = spec["lines"][li]["shots"][si]
+            assert not shot_.get("motion"), (sid, li, si)
+            shot_["motion"] = motion
+            shot_["motion_seconds"] = 3
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:]
     for spec in SPECS:
         if only and not any(spec["id"].startswith(o) for o in only):
             continue
-        spec = {**spec, "status": "ready-fix"} if only else spec
+        spec = {**spec, "status": "ready-motion"} if only else spec
         path = HERE / f"{spec['id']}.json"
         path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
         n_shots = sum(len(l["shots"]) for l in spec["lines"])

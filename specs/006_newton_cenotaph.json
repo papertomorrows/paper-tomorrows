@@ -17,7 +17,9 @@
       "shots": [
         {
           "prompt": "A vast stone sphere seen from below its curve, people in 18th-century clothes tiny beside it, cypress trees, morning mist.",
-          "move": "pan_up"
+          "move": "pan_up",
+          "motion": "Mist drifts around the base, tiny figures walk, camera tilts slowly up the curve of the sphere. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "Neoclassical architectural elevation drawing on aged parchment of a giant plain smooth sphere resting directly on a low stepped circular base ringed with cypress trees, tiny human figures for scale, no other buildings.",
@@ -30,7 +32,9 @@
       "shots": [
         {
           "prompt": "A single small stone sarcophagus alone on the floor of an immense dark spherical hall, a shaft of light falling on it.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "The shaft of light shimmers, dust floats through it, camera pushes slowly toward the tomb. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -49,7 +53,9 @@
       "shots": [
         {
           "prompt": "The inside of an immense dark dome glittering with thousands of points of light like a star-filled night sky, a tiny figure standing below.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "The points of starlight twinkle across the dome as the camera rises slowly. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         }
       ]
     },
@@ -77,7 +83,9 @@
       "shots": [
         {
           "prompt": "A giant glowing spherical entertainment venue at night in a desert city, its surface lit with colourful light, crowds below, generic modern design.",
-          "move": "pull_out"
+          "move": "pull_out",
+          "motion": "Patterns of light ripple across the giant sphere's surface, crowds walk below. Buildings and structures stay rigid and unchanged.",
+          "motion_seconds": 3
         },
         {
           "prompt": "An old neoclassical sphere design and a modern glowing sphere side by side at dusk, the same size, desert and cypress trees blending.",
@@ -105,5 +113,5 @@
     ]
   },
   "metadata": "# Short #006 - Boullée's Cenotaph for Newton\n\n## Title options (1 = recommended)\n1. The Las Vegas Sphere Was Designed in 1784\n2. In 1784, an Architect Designed a Sphere for Isaac Newton\n3. The 150-Metre Sphere That Turned Day Into Night\n\n## Description\nA hollow sphere 150 metres across. By day, sunlight through tiny holes turned the inside into a sky full of stars. By night, a giant glowing orb hung in the centre.\n\nFrench architect Étienne-Louis Boullée designed this cenotaph for Isaac Newton in 1784. It was never built. Almost 240 years later, a sphere of nearly the same size opened in Las Vegas. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Physics World: \"The Las Vegas Sphere and its curious link with Isaac Newton\"\n- Wikipedia: Étienne-Louis Boullée\n\n#neverbuilt #isaacnewton #lasvegassphere #architecture #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready-fix"
+  "status": "ready-motion"
 }

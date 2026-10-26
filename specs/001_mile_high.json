@@ -9,7 +9,7 @@
         {
           "prompt": "Extreme low-angle view looking straight up a slender needle-shaped skyscraper of steel and glass whose top disappears into the clouds.",
           "move": "push_in",
-          "motion": "Slow dramatic upward tilt along the glass tower toward its peak as clouds rush past overhead. The architecture stays rigid and unchanged."
+          "motion": "Fast dramatic camera rise sweeping up the glass tower toward its peak, clouds racing past the camera, strong sense of speed and height. The architecture stays rigid and unchanged."
         }
       ]
     },
@@ -48,7 +48,8 @@
         },
         {
           "prompt": "A sleek retro-futuristic 1950s elevator cab with a glowing atomic-blue core streaking upward inside a glass shaft, motion streaks of light.",
-          "move": "pan_up"
+          "move": "pan_up",
+          "motion": "The glowing elevator cab shoots rapidly upward through the glass shaft, light streaks racing past, the camera follows it up. The architecture stays rigid and unchanged."
         }
       ]
     },
@@ -74,7 +75,8 @@
         },
         {
           "prompt": "A row of 1950s helicopters resting on circular landing pads that jut out from the side of a colossal tower, seen from above, clouds below.",
-          "move": "pan_down"
+          "move": "pan_down",
+          "motion": "Helicopter rotors spin and one helicopter lifts off from its pad, clouds drift below, the camera slowly drifts sideways. The tower stays rigid and unchanged."
         }
       ]
     },
@@ -106,14 +108,19 @@
         },
         {
           "prompt": "A city skyline at dusk where every modern skyscraper reaches only halfway up a single glowing mile-high needle tower, wide shot from across the water.",
-          "move": "push_in"
+          "move": "push_in",
+          "motion": "Slow dramatic push-in across the water toward the glowing mile-high tower, city lights flicker, reflections shimmer on the water. The architecture stays rigid and unchanged."
         }
       ]
     }
   ],
   "sfx": {
-    "riser_into_lines": [6],
-    "impact_on_lines": [6]
+    "riser_into_lines": [
+      6
+    ],
+    "impact_on_lines": [
+      6
+    ]
   },
   "metadata": "# Short #001 - The Mile-High Skyscraper\n\n## Title options\n1. Chicago Almost Built a Mile-High Skyscraper\n2. This 1956 Skyscraper Would Still Be the Tallest on Earth\n3. Frank Lloyd Wright Wanted to Build One Mile Into the Sky\n\n## Description\nIn 1956, Frank Lloyd Wright unveiled \"The Illinois\": a skyscraper one mile tall,\nwith 528 floors, 76 atomic-powered elevators and workspace for about 100,000 people.\nIt was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real building.\n\nSources:\n- ASCE Civil Engineering magazine: \"Visualization unveiled for unbuilt Frank Lloyd Wright tower\" (2023)\n- Wikipedia: The Illinois\n\n#neverbuilt #architecture #franklloydwright #chicago #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n"
 }

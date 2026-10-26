@@ -443,7 +443,10 @@ def produce(spec: dict) -> dict:
         if motion_ok.get((li, si)):
             src = work / f"motion_{n}.mp4"
             src.write_bytes((cache / v["motion_file"]).read_bytes())
-            vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
+            clip_len = media_duration(src) or 5.0
+            speed = min(max(clip_len / max(e - s, 0.1), 1.0), 2.0)
+            vf = (f"setpts=PTS/{speed:.3f},"
+                  f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
                   f"tpad=stop_mode=clone:stop_duration=15,format=yuv420p")
             run(["ffmpeg", "-y", "-i", str(src), "-vf", vf, "-frames:v", str(frames), "-an",
                  "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(seg)])
@@ -454,7 +457,7 @@ def produce(spec: dict) -> dict:
                  camera_filter(v.get("move", "push_in"), frames), "-frames:v", str(frames),
                  "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(seg)])
         seg_paths.append(seg)
-        if n > 0:
+        if n > 0 and li != shots[n - 1][0]:
             cut_times.append(s)
     (work / "concat.txt").write_text("".join(f"file '{p}'\n" for p in seg_paths))
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "concat.txt"),
@@ -481,7 +484,7 @@ def produce(spec: dict) -> dict:
     for t in cut_times:
         if all(abs(t - b) > 0.6 for b in busy):
             cues["whoosh"].append(max(t - 0.15, 0))
-    levels = {"whoosh": 0.30, "impact": 0.55, "riser": 0.40}
+    levels = {"whoosh": 0.12, "impact": 0.55, "riser": 0.35}
 
     # ---- final mix and grade
     inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3")]

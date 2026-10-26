@@ -22,4 +22,8 @@ jobs:
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
-        run: modal run modal_app/connection_check.py
+        run: |
+          set -o pipefail
+          modal run modal_app/connection_check.py | tee run_output.txt
+          RESULT=$(grep "CONNECTION CHECK OK" run_output.txt || echo "no result line")
+          echo "::notice title=Result::${RESULT}"

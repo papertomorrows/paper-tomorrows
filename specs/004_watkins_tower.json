@@ -43,11 +43,11 @@
       "text": "Work began in 1893.",
       "shots": [
         {
-          "prompt": "Victorian workers in caps riveting giant iron girders on a construction site, cranes and scaffolding, the base of a huge tower rising.",
-          "move": "pan_up"
+          "prompt": "Victorian workers in caps riveting giant iron girders at ground level, the first low stage of a tower only a few storeys high, a wide iron platform on four broad legs, nothing built above it yet, wooden scaffolding, overcast sky.",
+          "move": "push_in"
         },
         {
-          "prompt": "The four massive iron legs of an unfinished tower in a muddy field, workers and horses below, overcast sky.",
+          "prompt": "Wide view of a muddy Victorian park with a short unfinished iron structure only about fifty metres tall, a flat iron platform on four legs, no tower above it, workers and horses below, overcast sky.",
           "move": "pull_out"
         }
       ]
@@ -118,5 +118,5 @@
     ]
   },
   "metadata": "# Short #004 - Watkin's Tower: London's Eiffel Tower\n\n## Title options (1 = recommended)\n1. London Tried to Beat the Eiffel Tower. It Failed.\n2. The Tower That Would Have Been Taller Than the Eiffel Tower\n3. Why Wembley Stadium Sits on a Failed Tower\n\n## Description\nTaller than the Eiffel Tower. A hotel, theatres and Turkish baths in the sky.\n\nIn the 1890s, railway entrepreneur Sir Edward Watkin began building a tower at Wembley Park, planned to rise about 46 metres higher than the Eiffel Tower. The money ran out and the foundations subsided at 47 metres. The stump was demolished with dynamite in 1904-1907, and Wembley Stadium now stands on the site. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Watkin's Tower\n\n#neverbuilt #london #wembley #eiffeltower #history\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready-retry"
+  "status": "ready-fix"
 }

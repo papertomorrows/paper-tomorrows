@@ -205,10 +205,13 @@ SPECS.append({
                    shot("A luxurious Victorian Turkish bath with tiled arches and steam, windows "
                         "showing clouds outside, high in a tower.", "push_in")]},
         {"text": "Work began in 1893.",
-         "shots": [shot("Victorian workers in caps riveting giant iron girders on a construction "
-                        "site, cranes and scaffolding, the base of a huge tower rising.", "pan_up"),
-                   shot("The four massive iron legs of an unfinished tower in a muddy field, "
-                        "workers and horses below, overcast sky.", "pull_out")]},
+         "shots": [shot("Victorian workers in caps riveting giant iron girders at ground level, the first "
+                        "low stage of a tower only a few storeys high, a wide iron platform on four "
+                        "broad legs, nothing built above it yet, wooden scaffolding, overcast sky.",
+                        "push_in"),
+                   shot("Wide view of a muddy Victorian park with a short unfinished iron structure only "
+                        "about fifty metres tall, a flat iron platform on four legs, no tower above "
+                        "it, workers and horses below, overcast sky.", "pull_out")]},
         {"text": "But the money ran out... and the ground began to sink.",
          "shots": [shot("Close-up of a cracked concrete foundation under an iron tower leg, "
                         "muddy waterlogged ground, tilted planks, grey light.", "push_in",

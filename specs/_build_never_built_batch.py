@@ -437,7 +437,7 @@ DYNAMIC = {
         (4, 0): "Fast low flyover skimming across the new fields, a train races along a track below, cloud shadows sweep quickly across the land. " + SHAPE,
         (5, 0): "Camera rushes toward the roaring spillways, massive white water thundering out, mist billowing over the lens. " + SHAPE,
         (6, 0): "Camera orbits around the lone ferry as it cuts through the waves at dusk, spray and wake churning behind it.",
-        (7, 0): "Epic fast flight over the dam toward the lowered sea, the camera banks and dives, city lights streaking below. " + SHAPE,
+        (7, 0): "Majestic sweeping flight forward along the dam, steady and smooth but fast, rising slightly to reveal the lowered sea and the glowing new coastline ahead, city lights twinkling. " + SHAPE,
         (8, 1): "Fast flight down the long canal between the buildings toward the distant sea, boats passing quickly beneath. " + SHAPE,
     },
 }

@@ -98,7 +98,7 @@
       "text": "It would be more than twice as tall as anything on Earth.",
       "shots": [
         {
-          "prompt": "A colossal see-through pyramid made of an open steel lattice of geometric struts, not stone, standing in Tokyo Bay beside a modern supertall skyscraper that reaches less than half its height, dramatic dusk sky.",
+          "prompt": "Very wide shot from far across Tokyo Bay: a colossal see-through pyramid made of an open steel lattice, its peak high above the clouds. At its base stands a modern skyscraper that looks tiny next to it, reaching only a small fraction of the pyramid's height. Dramatic dusk sky, the whole pyramid visible.",
           "move": "pull_out"
         },
         {

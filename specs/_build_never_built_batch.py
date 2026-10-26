@@ -157,9 +157,10 @@ SPECS.append({
                         "Slow upward crane shot rising along the glowing pyramid, clouds "
                         "drifting around its middle, lights twinkling inside. " + KEEP)]},
         {"text": "It would be more than twice as tall as anything on Earth.",
-         "shots": [shot("A colossal see-through pyramid made of an open steel lattice of geometric struts, "
-                        "not stone, standing in Tokyo Bay beside a modern supertall skyscraper that "
-                        "reaches less than half its height, dramatic dusk sky.", "pull_out"),
+         "shots": [shot("Very wide shot from far across Tokyo Bay: a colossal see-through pyramid made of an "
+                        "open steel lattice, its peak high above the clouds. At its base stands a modern "
+                        "skyscraper that looks tiny next to it, reaching only a small fraction of the "
+                        "pyramid's height. Dramatic dusk sky, the whole pyramid visible.", "pull_out"),
                    shot("View from inside the top of a two-kilometre open steel lattice pyramid, looking "
                         "out through the geometric struts over a sea of clouds at sunrise, Mount Fuji "
                         "in the distance. Steel framework, not stone.", "push_in")]},

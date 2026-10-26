@@ -1,0 +1,38 @@
+name: Branding
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "modal_app/branding.py"
+      - ".github/workflows/branding.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  branding:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install modal
+      - name: Generate on Modal
+        env:
+          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+        run: |
+          set -o pipefail
+          modal run modal_app/branding.py 2>&1 | tee run_output.txt
+          echo "::notice title=Result::$(grep -E 'SAVED|OK|Error' run_output.txt | tr '\n' ' ' | cut -c1-500)"
+      - name: Commit images
+        run: |
+          git config user.name "paper-tomorrows-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add outputs/branding
+          git commit -m "Add branding candidates [skip ci]" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push

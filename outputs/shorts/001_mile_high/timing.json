@@ -1,0 +1,167 @@
+{
+ "captions": [
+  [
+   0.0,
+   1.2,
+   "ONE MILE"
+  ],
+  [
+   1.2,
+   2.25,
+   "THAT'S HOW TALL"
+  ],
+  [
+   2.25,
+   3.16,
+   "FRANK LLOYD WRIGHT"
+  ],
+  [
+   3.16,
+   4.42,
+   "WANTED TO BUILD"
+  ],
+  [
+   4.42,
+   6.37,
+   "IN 1956"
+  ],
+  [
+   6.37,
+   7.28,
+   "FIVE HUNDRED AND"
+  ],
+  [
+   7.28,
+   8.94,
+   "TWENTY-EIGHT FLOORS"
+  ],
+  [
+   8.94,
+   10.79,
+   "SEVENTY-SIX ELEVATORS"
+  ],
+  [
+   10.79,
+   11.83,
+   "POWERED BY ATOMIC"
+  ],
+  [
+   11.83,
+   12.89,
+   "ENERGY"
+  ],
+  [
+   12.89,
+   13.5,
+   "ROOM FOR A"
+  ],
+  [
+   13.5,
+   14.22,
+   "HUNDRED THOUSAND"
+  ],
+  [
+   14.22,
+   15.23,
+   "PEOPLE"
+  ],
+  [
+   15.23,
+   15.78,
+   "WORKING IN THE"
+  ],
+  [
+   15.78,
+   16.93,
+   "SKY"
+  ],
+  [
+   16.93,
+   18.1,
+   "PARKING FOR FIFTEEN"
+  ],
+  [
+   18.1,
+   19.54,
+   "THOUSAND CARS"
+  ],
+  [
+   19.54,
+   20.13,
+   "AND A HUNDRED"
+  ],
+  [
+   20.13,
+   21.27,
+   "HELICOPTERS"
+  ],
+  [
+   21.27,
+   22.05,
+   "IT WAS NEVER"
+  ],
+  [
+   22.05,
+   22.99,
+   "BUILT"
+  ],
+  [
+   22.99,
+   23.92,
+   "BUT IMAGINE,"
+  ],
+  [
+   23.92,
+   25.18,
+   "FOR A MOMENT"
+  ],
+  [
+   25.18,
+   26.41,
+   "THAT IT WAS"
+  ],
+  [
+   26.41,
+   27.04,
+   "EVEN TODAY,"
+  ],
+  [
+   27.04,
+   27.55,
+   "IT WOULD STAND"
+  ],
+  [
+   27.55,
+   28.32,
+   "NEARLY TWICE AS"
+  ],
+  [
+   28.32,
+   28.8,
+   "TALL AS THE"
+  ],
+  [
+   28.8,
+   29.44,
+   "TALLEST BUILDING"
+  ],
+  [
+   29.44,
+   30.77,
+   "EVER FINISHED"
+  ]
+ ],
+ "scene_starts": [
+  0.0,
+  1.12,
+  6.29,
+  8.86,
+  12.81,
+  16.85,
+  21.19,
+  22.91,
+  26.33
+ ],
+ "duration": 31.61,
+ "hero_ok": true
+}

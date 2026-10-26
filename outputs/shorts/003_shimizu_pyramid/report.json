@@ -88,9 +88,15 @@
  ],
  "motion_ok": [
   "0:0",
+  "1:0",
   "2:0",
+  "3:0",
+  "4:0",
   "4:1",
-  "7:0"
+  "5:0",
+  "6:0",
+  "7:0",
+  "8:1"
  ],
  "music_ok": true,
  "sfx": {
@@ -273,5 +279,5 @@
    "ANYTHING ON EARTH"
   ]
  ],
- "images_generated": 1
+ "images_generated": 0
 }

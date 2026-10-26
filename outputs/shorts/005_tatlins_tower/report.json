@@ -71,8 +71,12 @@
  "motion_ok": [
   "0:0",
   "2:0",
+  "3:0",
+  "4:0",
+  "5:0",
   "6:0",
-  "8:0"
+  "8:0",
+  "8:1"
  ],
  "music_ok": true,
  "sfx": {
@@ -260,5 +264,5 @@
    "THAT IT WAS"
   ]
  ],
- "images_generated": 11
+ "images_generated": 0
 }

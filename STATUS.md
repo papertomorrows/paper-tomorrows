@@ -47,3 +47,13 @@ Last updated: 2026-10-26
   Rewrite them in the retention template (as done for 002-006 in `_build_never_built_batch.py`),
   then get owner confirmation and mark `ready`. Budget ~US$45; owner should top up fal first.
 - Track per short: viewed-vs-swiped %, average % viewed, likes; compare 001 (old) vs new format.
+- COST TEST (next session, needs owner permission + quoted cost first): keep EVERY shot moving (owner says
+  fewer moving shots = boring). Use the premium model (Kling v3 Pro) only for hook + climax shots and a
+  cheaper image-to-video model on fal for the other shots. Render the same short in both versions and
+  show them side by side so the owner can judge. Goal: ~US$4-5 per short.
+- Second channel research (next session): check YouTube/TikTok directly for channels doing
+  "1990s TV news / sports broadcast format + weird true history stories". Owner wants a fresh topic with
+  dopamine-heavy editing.
+- TikTok-specific channel: later, after Paper Tomorrows data. First confirm whether South Korea is
+  eligible for the TikTok Creator Rewards Program (needs 1 min+ videos, 10k followers, 100k views/30 days).
+- Owner will cross-post the same shorts to Instagram Reels, Threads and TikTok (AI label on).

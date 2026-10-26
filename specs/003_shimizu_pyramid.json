@@ -98,11 +98,11 @@
       "text": "It would be more than twice as tall as anything on Earth.",
       "shots": [
         {
-          "prompt": "A colossal pyramid beside a modern supertall skyscraper for scale, the pyramid more than twice as tall, dramatic sky.",
+          "prompt": "A colossal see-through pyramid made of an open steel lattice of geometric struts, not stone, standing in Tokyo Bay beside a modern supertall skyscraper that reaches less than half its height, dramatic dusk sky.",
           "move": "pull_out"
         },
         {
-          "prompt": "View from the peak of a two-kilometre pyramid above the clouds at sunrise, Mount Fuji in the distance.",
+          "prompt": "View from inside the top of a two-kilometre open steel lattice pyramid, looking out through the geometric struts over a sea of clouds at sunrise, Mount Fuji in the distance. Steel framework, not stone.",
           "move": "push_in"
         }
       ]
@@ -117,5 +117,5 @@
     ]
   },
   "metadata": "# Short #003 - The Shimizu Mega-City Pyramid\n\n## Title options (1 = recommended)\n1. Japan Designed a Pyramid 14 Times Taller Than Giza\n2. A City for a Million People Inside One Pyramid\n3. The 2-Kilometre Pyramid Japan Never Built\n\n## Description\nTwo kilometres high. A million residents. Skyscrapers hanging inside the frame.\n\nJapan's Shimizu Corporation designed the Mega-City Pyramid for Tokyo Bay: a 2,004-metre structure with suspended 30-storey towers and transit pods running through its struts. It needs materials that are still being researched, and it was never built. This is a concept visualization of what might have been.\n\nVisuals are AI-generated concept art, not photographs or plans of a real structure.\n\nSources:\n- Wikipedia: Shimizu Mega-City Pyramid\n\n#neverbuilt #tokyo #megaprojects #futurecity #architecture\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES (realistic AI-generated scenes)\n- Made for kids: No\n- Category: Education, language: English\n",
-  "status": "ready"
+  "status": "ready-fix"
 }

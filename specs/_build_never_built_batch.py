@@ -157,10 +157,12 @@ SPECS.append({
                         "Slow upward crane shot rising along the glowing pyramid, clouds "
                         "drifting around its middle, lights twinkling inside. " + KEEP)]},
         {"text": "It would be more than twice as tall as anything on Earth.",
-         "shots": [shot("A colossal pyramid beside a modern supertall skyscraper for scale, the "
-                        "pyramid more than twice as tall, dramatic sky.", "pull_out"),
-                   shot("View from the peak of a two-kilometre pyramid above the clouds at "
-                        "sunrise, Mount Fuji in the distance.", "push_in")]},
+         "shots": [shot("A colossal see-through pyramid made of an open steel lattice of geometric struts, "
+                        "not stone, standing in Tokyo Bay beside a modern supertall skyscraper that "
+                        "reaches less than half its height, dramatic dusk sky.", "pull_out"),
+                   shot("View from inside the top of a two-kilometre open steel lattice pyramid, looking "
+                        "out through the geometric struts over a sea of clouds at sunrise, Mount Fuji "
+                        "in the distance. Steel framework, not stone.", "push_in")]},
     ],
     "sfx": {"riser_into_lines": [6], "impact_on_lines": [6]},
     "metadata": metadata(
@@ -327,8 +329,9 @@ SPECS.append({
         {"text": "A hollow sphere... one hundred and fifty metres across.",
          "shots": [shot("A vast stone sphere seen from below its curve, people in 18th-century "
                         "clothes tiny beside it, cypress trees, morning mist.", "pan_up"),
-                   shot("Architectural cross-section style painting of a giant hollow sphere on "
-                        "a stepped base, warm parchment tones, neoclassical.", "push_in")]},
+                   shot("Neoclassical architectural elevation drawing on aged parchment of a giant plain "
+                        "smooth sphere resting directly on a low stepped circular base ringed with "
+                        "cypress trees, tiny human figures for scale, no other buildings.", "push_in")]},
         {"text": "A memorial for Isaac Newton.",
          "shots": [shot("A single small stone sarcophagus alone on the floor of an immense dark "
                         "spherical hall, a shaft of light falling on it.", "push_in")]},
@@ -356,10 +359,12 @@ SPECS.append({
                    shot("An old neoclassical sphere design and a modern glowing sphere side by side "
                         "at dusk, the same size, desert and cypress trees blending.", "push_in")]},
         {"text": "Now imagine standing inside the original.",
-         "shots": [shot("A lone visitor standing on the floor of a colossal stone sphere whose "
-                        "dome is filled with glittering starlight, awe-inspiring scale.", "pan_up",
-                        "Slow upward crane from the tiny visitor toward the star-filled dome, the "
-                        "points of light twinkling. " + KEEP)]},
+         "shots": [shot("Inside a colossal hollow stone sphere: the entire curved interior wall all around "
+                        "is pierced by thousands of tiny holes shining like stars, so the visitor "
+                        "seems to stand inside the night sky, one tiny lone figure at the bottom "
+                        "centre, awe-inspiring scale.", "pan_up",
+                        "Slow upward crane from the tiny visitor up into the star-filled curved "
+                        "dome, the points of light twinkling and glinting. " + KEEP)]},
     ],
     "sfx": {"riser_into_lines": [6], "impact_on_lines": [6]},
     "metadata": metadata(
@@ -378,7 +383,12 @@ SPECS.append({
 })
 
 if __name__ == "__main__":
+    import sys
+    only = sys.argv[1:]
     for spec in SPECS:
+        if only and not any(spec["id"].startswith(o) for o in only):
+            continue
+        spec = {**spec, "status": "ready-fix"} if only else spec
         path = HERE / f"{spec['id']}.json"
         path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
         n_shots = sum(len(l["shots"]) for l in spec["lines"])

@@ -36,7 +36,9 @@ Last updated: 2026-10-26
   Planned upload order: 006, 002, 004, 003, 005 (one per day).
 
 ## Owner rules
-- Produce at most 2 shorts per day (owner's rule from 2026-10-26). Confirm with owner before each paid run.
+- NEVER start any video production (never set a spec to `ready`, never run the pipeline) without asking
+  the owner first and getting explicit permission for that specific run. No exceptions.
+- Produce at most 2 shorts per day (owner's rule from 2026-10-26).
 - Owner reviews videos before they are saved to the owner's PC.
 
 ## Next

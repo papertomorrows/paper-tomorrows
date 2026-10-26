@@ -36,14 +36,24 @@ jobs:
         id: pick
         run: |
           if [ -n "${{ github.event.inputs.spec }}" ]; then
-            SPECS="${{ github.event.inputs.spec }}"
+            CANDIDATES="${{ github.event.inputs.spec }}"
           else
-            SPECS=$(git diff --name-only HEAD~1 HEAD -- 'specs/*.json' | tr '\n' ' ')
-            if [ -z "$SPECS" ]; then SPECS=$(ls specs/*.json | tr '\n' ' '); fi
+            CANDIDATES=$(git diff --name-only HEAD~1 HEAD -- 'specs/*.json' | tr '\n' ' ')
           fi
+          SPECS=""
+          for F in $CANDIDATES; do
+            [ -f "$F" ] || continue
+            if python3 -c "import json,sys; sys.exit(0 if str(json.load(open('$F')).get('status','')).startswith('ready') else 1)"; then
+              SPECS="$SPECS $F"
+            fi
+          done
           echo "specs=$SPECS" >> "$GITHUB_OUTPUT"
           echo "Producing: $SPECS"
+      - name: Stop if nothing is marked ready
+        if: steps.pick.outputs.specs == ''
+        run: echo "No spec marked ready - nothing to produce."
       - name: Sync API keys into Modal's secret store
+        if: steps.pick.outputs.specs != ''
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
@@ -54,6 +64,7 @@ jobs:
             FAL_KEY="$FAL_KEY" XI_KEY="$XI_KEY" --force > /dev/null
           echo "keys synced"
       - name: Produce on Modal
+        if: steps.pick.outputs.specs != ''
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}

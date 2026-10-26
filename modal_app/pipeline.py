@@ -530,7 +530,7 @@ def produce(spec: dict) -> dict:
     for t in cut_times:
         if all(abs(t - b) > 0.6 for b in busy):
             cues["whoosh"].append(max(t - 0.15, 0))
-    levels = {"whoosh": 0.12, "impact": 0.55, "riser": 0.35}
+    levels = {"whoosh": 0.04, "impact": 0.55, "riser": 0.35}
 
     # ---- final mix and grade
     inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3")]
@@ -552,7 +552,8 @@ def produce(spec: dict) -> dict:
             continue
         inputs += ["-i", str(sfx_files[sname])]
         labels = [f"[{sname}{i}]" for i in range(len(times))]
-        graph.append(f"[{nxt}:a]volume={levels[sname]},asplit={len(times)}" + "".join(labels))
+        soften = "lowpass=f=2500," if sname == "whoosh" else ""
+        graph.append(f"[{nxt}:a]{soften}volume={levels[sname]},asplit={len(times)}" + "".join(labels))
         for i, t in enumerate(times):
             graph.append(f"[{sname}{i}]adelay=delays={int(t * 1000)}:all=1[{sname}d{i}]")
             mix.append(f"[{sname}d{i}]")

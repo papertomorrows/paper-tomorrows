@@ -64,6 +64,8 @@ SFX_PROMPTS = {
                "no music, no voice", 4),
     "riser": ("Slow rising cinematic tension riser building suspense, sound effect, "
               "no music, no voice", 4),
+    "heartbeat": ("Tense deep human heartbeat sound effect, thumping heartbeat that gradually gets "
+                  "faster and louder, no music, no voice", 30),
 }
 
 MOTION_NEGATIVE = "warping, melting, bending buildings, morphing, blur, distortion, text"
@@ -624,6 +626,18 @@ def produce(spec: dict) -> dict:
         for i, t in enumerate(times):
             graph.append(f"[{sname}{i}]adelay=delays={int(t * 1000)}:all=1[{sname}d{i}]")
             mix.append(f"[{sname}d{i}]")
+        nxt += 1
+    hb = sfx_cfg.get("heartbeat_lines")
+    if hb and "heartbeat" in sfx_files and hb[0] < len(lines):
+        hs = line_starts[hb[0]]
+        he = line_starts[hb[1]] if hb[1] < len(lines) else total
+        hd = max(he - hs, 0.5)
+        inputs += ["-i", str(sfx_files["heartbeat"])]
+        graph.append(
+            f"[{nxt}:a]aloop=loop=-1:size=2e9,atrim=0:{hd:.2f},"
+            f"volume='0.12+0.38*t/{hd:.2f}':eval=frame,"
+            f"afade=t=out:st={max(hd - 0.2, 0):.2f}:d=0.2,adelay=delays={int(hs * 1000)}:all=1[hbeat]")
+        mix.append("[hbeat]")
         nxt += 1
     graph.append(
         "".join(mix) + f"amix=inputs={len(mix)}:duration=first:normalize=0,"

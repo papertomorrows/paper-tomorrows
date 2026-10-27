@@ -7,151 +7,203 @@
    "text": "In three hours... this ship will burn.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, grinning nervously into the camera beside a long slanted window of a 1930s airship promenade deck, clouds and coastline far below behind him.",
-     "move": "pull_out"
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, looking straight into the camera with a tense, serious, worried expression, jaw tight, beside a long slanted window of a 1930s airship promenade deck, clouds and coastline far below behind him.",
+     "move": "pull_out",
+     "motion": "The camera slowly pulls back as the man stares into it, his breath visible, clouds drifting past the window behind him, the airship gently swaying. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "kling",
+     "motion_seconds": 5
     }
    ],
-   "callout": "3:00:00"
+   "callout": "3:00:00",
+   "callout_y": 0.17,
+   "ambience": "Deep steady drone of airship engines, soft wind against the hull, quiet murmur of passengers and clinking glasses"
   },
   {
    "text": "And I'm the only one on board who knows.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, leaning close to the camera with a worried look, elegant 1930s passengers laughing and chatting behind him in a warm airship lounge.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "The man glances nervously over his shoulder at the laughing passengers, who keep chatting and raising their glasses, warm lamps flicker. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Deep steady drone of airship engines, soft wind against the hull, quiet murmur of passengers and clinking glasses"
   },
   {
    "text": "Ninety-seven people. A ship almost as long as the Titanic.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, standing on a grass field pointing up, the colossal silver hull of the Hindenburg airship filling the sky above him.",
-     "move": "pan_up"
+     "move": "pan_up",
+     "motion": "The colossal silver airship glides slowly overhead from left to right, its shadow sweeping across the field, the man tracking it with his pointing hand. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
    ],
-   "callout": "97"
+   "callout": "97",
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   },
   {
    "text": "Held up by hydrogen. One spark...",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, on a narrow catwalk inside the giant hull of a 1930s airship, enormous gas cells and aluminium girders behind him, nervous expression.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "The camera moves forward along the narrow catwalk, the enormous gas cells gently breathing and shifting, dust drifting in shafts of light. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Huge hollow creaking metal structure, wind whistling, deep engine hum echoing"
   },
   {
    "text": "...and they're smoking.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, staring at the camera in disbelief inside a small 1930s airship smoking room, a man in a suit behind him lighting a cigar from a table-mounted electric lighter.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "The gentleman lights the cigar, a glowing tip and a curl of smoke rising, the man stares in disbelief. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Deep steady drone of airship engines, soft wind against the hull, quiet murmur of passengers and clinking glasses"
   },
   {
    "text": "I warn the steward. He laughs.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, talking urgently to a 1930s airship steward in a white jacket who is laughing politely, holding a silver tray of cocktails.",
-     "move": "pull_out"
+     "move": "pull_out",
+     "motion": "The steward laughs and shakes his head, the cocktails on the tray trembling, the man gestures urgently. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
    ],
-   "callout": "2:10:00"
+   "callout": "2:10:00",
+   "ambience": "Deep steady drone of airship engines, soft wind against the hull, quiet murmur of passengers and clinking glasses"
   },
   {
    "text": "I bang on the captain's door. Nothing.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pounding his fist on a closed polished wooden door in a narrow 1930s airship corridor, desperate expression, warm wall lamps.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "The man pounds his fist on the door again and again, the wall lamps flickering, the camera shaking slightly. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Deep steady drone of airship engines, soft wind against the hull, quiet murmur of passengers and clinking glasses"
   },
   {
    "text": "Storms. We circle. The clock keeps running.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pressed against an airship window, dark thunderstorm clouds and lightning outside, rain streaking the glass, tense expression.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "Lightning flashes outside the window, rain streaks across the glass, the man flinches and stares out. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
    ],
-   "callout": "0:45:00"
+   "callout": "0:45:00",
+   "ambience": "Heavy rain on glass, rolling thunder, wind gusts, engine drone"
   },
   {
    "text": "Seven twenty-five. The landing ropes drop.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, at an airship window at dusk, behind him a tall mooring mast and ground crew on a wet airfield far below.",
-     "move": "pan_up"
+     "move": "pan_up",
+     "motion": "Landing ropes drop from the airship toward the ground crew, who run to grab them, the mooring mast getting closer. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
    ],
-   "callout": "0:00:30"
+   "callout": "0:00:30",
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   },
   {
    "text": "I open a window. Just in case.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pushing open a long slanted airship window at dusk, wind blowing his hair, the wet airfield and ground crew not far below, determined expression.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "The man pushes the window wide open, wind rushing in and blowing his hair, the airfield sliding past below. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   },
   {
    "text": "Then... the glow.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, turning around in shock at the window, a faint orange glow appearing near the airship's tail behind him.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "An orange glow flares and spreads near the tail, the man turns sharply toward it, light flickering on his face. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   },
   {
    "text": "About thirty seconds. That's all it takes.",
    "shots": [
     {
      "prompt": "A giant silver airship at dusk engulfed in towering orange flames from the tail forward, its stern sinking toward a wet airfield, the fabric skin burning away to reveal the metal frame, ground crew running away in the foreground, no explosion cloud, no airplanes.",
-     "move": "pull_out"
+     "move": "pull_out",
+     "motion": "Flames race forward along the hull, the stern sinks toward the ground, the fabric burns away revealing the metal frame, ground crew sprint away from the camera. No explosion cloud, no aircraft.",
+     "motion_model": "kling",
+     "motion_seconds": 5
     }
-   ]
+   ],
+   "ambience": "Roaring fire, crackling flames, groaning metal, distant shouting, wind"
   },
   {
    "text": "I jump.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, mid-leap from the low open window of an airship gondola toward the wet sand of an airfield, orange firelight and smoke above him, motion blur, heroic action shot.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "The man leaps from the low window and drops toward the wet sand in slow motion, firelight and smoke above him, he lands and rolls away. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "kling",
+     "motion_seconds": 5
     }
-   ]
+   ],
+   "ambience": "Roaring fire, crackling flames, groaning metal, distant shouting, wind"
   },
   {
    "text": "Sixty-two people survive. Thirty-six don't.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, standing silent with his head down in front of the smoking skeletal frame of a burned airship on a dark airfield at night.",
-     "move": "pull_out"
+     "move": "pull_out",
+     "motion": "Smoke drifts slowly across the burned skeletal frame, searchlight beams sweep through the haze, the man stands still with his head down. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
    ],
-   "callout": "62 SURVIVE"
+   "callout": "62 SURVIVE",
+   "ambience": "Roaring fire, crackling flames, groaning metal, distant shouting, wind"
   },
   {
    "text": "The flying hotel never flies again. And neither does that future.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, walking alone through a vast empty airship hangar at dawn, huge doors open onto a misty airfield.",
-     "move": "pan_up"
+     "move": "pan_up",
+     "motion": "The man walks slowly forward through the vast empty hangar, morning mist drifting through the open doors. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   },
   {
    "text": "Where should I go next?",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, looking into the camera with a small smile, clouds rushing past behind him at sunrise.",
-     "move": "push_in"
+     "move": "push_in",
+     "motion": "Clouds rush past behind the man as he looks into the camera and gives a small smile, golden sunrise light. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "fast"
     }
-   ]
+   ],
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   }
  ],
  "sfx": {
@@ -173,6 +225,6 @@
   "impact_shake": false
  },
  "metadata": "# Short #007 - Time Travel #1: The Last Flight of the Hindenburg\n\n## Title\nI Had 3 Hours to Save the Hindenburg | Time Travel #1\n\n## Description\nMay 6, 1937. The Hindenburg, almost as long as the Titanic and lifted by hydrogen, comes in to land at Lakehurst, New Jersey after storms kept it circling for hours. At 7:25 p.m. fire appears near the tail. In roughly half a minute the ship is destroyed. 62 of the 97 people aboard survive; 36 people die. The era of passenger airships ends with it.\n\nA time-travel dramatization: the visit is fiction, the history is real. Visuals are AI-generated, not real footage.\n\nSources:\n- Airships.net: The Hindenburg's Interior\n- Migflug: Hindenburg Disaster 1937\n\n#TimeTravel #Hindenburg #History #Airship #1937\n\n## First comment\nWhere should I time travel next?\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES\n- Made for kids: No; Category: Education; Language: English (United States)\n",
- "status": "draft-preview-v2-done",
+ "status": "ready-full-v1",
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm"
 }

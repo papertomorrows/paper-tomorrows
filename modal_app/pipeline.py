@@ -95,9 +95,19 @@ def generate_image(prompt: str, seed: int) -> tuple[str, bytes]:
 
 
 @app.function(image=image, timeout=1500, secrets=[KEYS])
-def generate_motion(image_url: str, motion_prompt: str, seconds: int = 5) -> bytes:
+def generate_motion(image_url: str, motion_prompt: str, seconds: int = 5,
+                    model: str = "kling") -> bytes:
     import fal_client
     import requests
+
+    if model == "fast":
+        # cheaper clip for supporting shots: MiniMax Hailuo 2.3 Fast (768p, 6 s = $0.19)
+        res = fal_client.subscribe(
+            "fal-ai/minimax/hailuo-2.3-fast/standard/image-to-video",
+            arguments={"image_url": image_url, "prompt": motion_prompt,
+                       "duration": "6", "prompt_optimizer": False},
+        )
+        return requests.get(res["video"]["url"], timeout=300).content
 
     res = fal_client.subscribe(
         "fal-ai/kling-video/v3/pro/image-to-video",
@@ -236,12 +246,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     if label:
         events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(label_seconds)},Label,,0,0,0,,"
                       f"{{\\fad(200,500)}}{label}")
-    for start, end, text in callouts:
+    for start, end, text, cy in callouts:
         text = text.replace("{", "").replace("}", "")
         # pop in big, settle, then fade; sits above the centre of the frame
         events.append(
             f"Dialogue: 2,{ass_time(start)},{ass_time(end)},Callout,,0,0,0,,"
-            f"{{\\pos({W // 2},{int(H * 0.36)})\\fad(80,250)\\fscx135\\fscy135"
+            f"{{\\pos({W // 2},{int(H * cy)})\\fad(80,250)\\fscx135\\fscy135"
             f"\\t(0,180,\\fscx100\\fscy100)}}{text}")
     plain = []
     for ci, chunk in enumerate(chunks):
@@ -404,15 +414,16 @@ def produce(spec: dict) -> dict:
     for k, v in shot_specs.items():
         if not v.get("motion"):
             continue
-        secs = int(v.get("motion_seconds", 5))
+        model = v.get("motion_model", "kling")
+        secs = 6 if model == "fast" else int(v.get("motion_seconds", 5))
         mkey = key(lines[k[0]]["shots"][k[1]]["prompt"] + style + v["motion"]
-                   + ("" if secs == 5 else f"|{secs}s"))
+                   + ("" if secs == 5 else f"|{secs}s") + ("" if model == "kling" else f"|{model}"))
         mname = f"motion_{mkey}.mp4"
         adopt(mname, f"hero_{mkey}.mp4")
         v["motion_file"] = mname
         if not have(mname):
             url_file = cache / f"{v['name']}.url"
-            motion_calls[k] = generate_motion.spawn(url_file.read_text(), v["motion"], secs)
+            motion_calls[k] = generate_motion.spawn(url_file.read_text(), v["motion"], secs, model)
 
     # music and sound effects are shared across the channel (one copy per prompt)
     for old_dir in ("001_mile_high", "short_001"):
@@ -515,7 +526,8 @@ def produce(spec: dict) -> dict:
             src = work / f"motion_{n}.mp4"
             src.write_bytes((cache / v["motion_file"]).read_bytes())
             clip_len = media_duration(src) or 5.0
-            speed = min(max(clip_len / max(e - s, 0.1), 1.0), 2.0)
+            max_speed = float(v.get("max_speed", 1.4 if v.get("motion_model") == "fast" else 2.0))
+            speed = min(max(clip_len / max(e - s, 0.1), 1.0), max_speed)
             vf = (f"setpts=PTS/{speed:.3f},"
                   f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
                   f"tpad=stop_mode=clone:stop_duration=15,format=yuv420p{punch}")
@@ -542,7 +554,8 @@ def produce(spec: dict) -> dict:
     for li, line in enumerate(lines):
         if line.get("callout"):
             st = bounds[li] + float(line.get("callout_delay", 0.35))
-            callouts.append((st, min(st + 1.8, bounds[li + 1] + 0.2), line["callout"]))
+            callouts.append((st, min(st + 1.8, bounds[li + 1] + 0.2), line["callout"],
+                             float(line.get("callout_y", 0.36))))
     ass, plain_captions = build_ass(chunks, cfg["label"], cfg["label_seconds"], callouts)
     (work / "captions.ass").write_text(ass)
 

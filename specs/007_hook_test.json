@@ -1,0 +1,25 @@
+{
+ "id": "007_hook_test",
+ "images_only": true,
+ "seed_base": 1937,
+ "style": "Epic cinematic film still, dramatic chiaroscuro lighting, strong contrast, anamorphic lens look, rich teal-and-amber colour grade, high tension, blockbuster movie quality. Handheld selfie-style vlog shot, the camera held at arm's length. Photorealistic, period-accurate May 1937, cinematic natural lighting, shallow depth of field, subtle film grain, vertical composition. No text, no lettering, no signage, no swastikas, no flags, no watermark.",
+ "status": "ready-images",
+ "lines": [
+  {
+   "text": "A",
+   "shots": [
+    {
+     "prompt": "Extreme close-up selfie of a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, his face very close to the lens, his own arm stretched toward the viewer out of frame holding the phone, no camera and no phone visible in the picture, wide urgent terrified eyes, breathing hard, behind him through a long slanted airship window dark storm clouds and the enormous silver hull, dramatic red sunset light."
+    }
+   ]
+  },
+  {
+   "text": "B",
+   "shots": [
+    {
+     "prompt": "Close handheld selfie shot of a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pressed against a long slanted airship window, staring straight into the lens with an urgent, frightened expression, behind him outside the window the enormous silver hull of the airship and dark storm clouds lit by a blood-red sunset, rain on the glass, no camera and no phone visible."
+    }
+   ]
+  }
+ ]
+}

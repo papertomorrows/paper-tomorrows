@@ -674,6 +674,17 @@ def produce(spec: dict) -> dict:
 @app.local_entrypoint()
 def main(spec: str):
     spec_data = json.loads(pathlib.Path(spec).read_text())
+    if spec_data.get("images_only"):
+        # still images only (cheap look test): no voice, no video
+        out = pathlib.Path("outputs/shorts") / spec_data["id"] / "scenes"
+        out.mkdir(parents=True, exist_ok=True)
+        style = spec_data.get("style", DEFAULTS["style"])
+        jobs = [(f"{li:02d}_{si}", f"{sh['prompt']} {style}", int(spec_data.get("seed_base", 1000)) + li)
+                for li, line in enumerate(spec_data["lines"]) for si, sh in enumerate(line["shots"])]
+        for (name, _, _), (url, data) in zip(jobs, generate_image.starmap([(p, sd) for _, p, sd in jobs])):
+            (out / f"{name}.jpg").write_bytes(data)
+        print(f"SHORT OK id={spec_data['id']} images_only={len(jobs)}")
+        return
     result = produce.remote(spec_data)
 
     out = pathlib.Path("outputs/shorts") / spec_data["id"]

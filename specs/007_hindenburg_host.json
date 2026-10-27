@@ -141,8 +141,16 @@
      "move": "push_in",
      "motion": "Lightning bolts flash and fork across the sky around the airship, rain lashing, the ship pitching slightly in the wind, the camera pushes closer.",
      "motion_model": "fast"
+    },
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, close-up of his terrified face pressed near a rain-streaked airship window, lit by a blinding blue-white lightning flash, dark cabin around him.",
+     "move": "push_in",
+     "motion": "Lightning flashes again and again, lighting his terrified face in blue-white bursts, rain streams down the glass, he flinches. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "kling",
+     "motion_seconds": 3
     }
-   ]
+   ],
+   "callout": "0:10:00"
   },
   {
    "text": "Seven twenty-five. Ropes drop. Almost safe.",
@@ -151,6 +159,13 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, at an airship window at dusk, behind him a tall mooring mast and ground crew on a wet airfield far below.",
      "move": "pan_up",
      "motion": "Heavy landing ropes drop fast from the airship and slap onto the wet ground, ground crew sprint in from all sides to grab them, the camera tilts down quickly. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "kling",
+     "motion_seconds": 3
+    },
+    {
+     "prompt": "Smiling 1930s passengers in hats and coats leaning out of the long slanted windows of an airship gondola at dusk, waving happily down at a crowd on a wet airfield, warm cabin light behind them.",
+     "move": "push_in",
+     "motion": "The passengers wave and smile down at the crowd, one woman blows a kiss, hats and scarves flutter in the wind, the camera glides along the windows.",
      "motion_model": "kling",
      "motion_seconds": 3
     }
@@ -169,7 +184,8 @@
      "motion_seconds": 3
     }
    ],
-   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
+   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum",
+   "callout": "0:00:05"
   },
   {
    "text": "Then... the glow.",
@@ -234,30 +250,6 @@
      "motion_model": "fast"
     }
    ]
-  },
-  {
-   "text": "The flying hotel never flies again.",
-   "shots": [
-    {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, walking alone through a vast empty airship hangar at dawn, huge doors open onto a misty airfield.",
-     "move": "pan_up",
-     "motion": "The man walks slowly forward through the vast empty hangar, morning mist drifting through the open doors. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
-     "motion_model": "fast"
-    }
-   ],
-   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
-  },
-  {
-   "text": "Where should I go next?",
-   "shots": [
-    {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, looking into the camera with a small smile, clouds rushing past behind him at sunrise.",
-     "move": "push_in",
-     "motion": "Clouds rush past behind the man as he looks into the camera and gives a small smile, golden sunrise light. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
-     "motion_model": "fast"
-    }
-   ],
-   "ambience": "Open airfield at dusk, wind, distant shouting ground crew, ropes, engine hum"
   }
  ],
  "sfx": {
@@ -287,6 +279,6 @@
   "min_split_seconds": 1.4
  },
  "metadata": "# Short #007 - Time Travel #1: The Last Flight of the Hindenburg\n\n## Title\nI Had 3 Hours to Save the Hindenburg | Time Travel #1\n\n## Description\nMay 6, 1937. The Hindenburg, almost as long as the Titanic and lifted by hydrogen, comes in to land at Lakehurst, New Jersey after storms kept it circling for hours. At 7:25 p.m. fire appears near the tail. In roughly half a minute the ship is destroyed. 62 of the 97 people aboard survive; 36 people die. The era of passenger airships ends with it.\n\nA time-travel dramatization: the visit is fiction, the history is real. Visuals are AI-generated, not real footage.\n\nSources:\n- Airships.net: The Hindenburg's Interior\n- Migflug: Hindenburg Disaster 1937\n\n#TimeTravel #Hindenburg #History #Airship #1937\n\n## First comment\nWhere should I time travel next?\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES\n- Made for kids: No; Category: Education; Language: English (United States)\n",
- "status": "done-full-v5",
+ "status": "ready-full-v7",
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm"
 }

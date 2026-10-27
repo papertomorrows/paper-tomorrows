@@ -1,7 +1,7 @@
 {
  "id": "007_hindenburg_pov",
  "seed_base": 1937,
- "style": "First-person point-of-view shot, as if the viewer is standing there holding a phone camera. Photorealistic, period-accurate May 1937, cinematic natural lighting, shallow depth of field, subtle film grain, vertical composition. No text, no lettering, no signage, no swastikas, no flags, no watermark.",
+ "style": "Epic cinematic film still, dramatic chiaroscuro lighting, strong contrast, anamorphic lens look, rich teal-and-amber colour grade, high tension, blockbuster movie quality. First-person point-of-view shot, as if the viewer is standing there holding a phone camera. Photorealistic, period-accurate May 1937, cinematic natural lighting, shallow depth of field, subtle film grain, vertical composition. No text, no lettering, no signage, no swastikas, no flags, no watermark.",
  "lines": [
   {
    "text": "I'm on the Hindenburg.",
@@ -18,7 +18,7 @@
    "shots": [
     {
      "prompt": "A cosy 1930s airship lounge with elegant passengers in suits and dresses chatting and laughing, warm lamps, nobody looking at the camera.",
-     "move": "push_in"
+     "move": "pull_out"
     }
    ]
   },
@@ -27,7 +27,7 @@
    "shots": [
     {
      "prompt": "Looking straight up from the ground at the colossal silver hull of the Hindenburg airship passing overhead, filling the entire sky, tiny people below.",
-     "move": "push_in"
+     "move": "pan_up"
     }
    ],
    "callout": "245 m"
@@ -55,7 +55,7 @@
    "shots": [
     {
      "prompt": "A 1930s airship steward in a white jacket laughing politely at the camera, holding a silver tray with cocktails, airship bar behind him.",
-     "move": "push_in"
+     "move": "pull_out"
     }
    ]
   },
@@ -73,7 +73,7 @@
    "shots": [
     {
      "prompt": "Looking down from an airship window at a tall mooring mast and a crowd of ground crew on a wet airfield at dusk, ropes dropping from the ship.",
-     "move": "push_in"
+     "move": "pan_up"
     }
    ],
    "callout": "7:25 PM"
@@ -111,7 +111,7 @@
    "shots": [
     {
      "prompt": "The smoking skeletal frame of a burned airship lying on a dark airfield at night, searchlights cutting through the smoke, quiet and still.",
-     "move": "push_in"
+     "move": "pull_out"
     }
    ],
    "callout": "62 SURVIVE"
@@ -121,7 +121,7 @@
    "shots": [
     {
      "prompt": "A wide view of a vast empty airship hangar at dawn, its huge doors open onto a misty airfield, no airships anywhere.",
-     "move": "push_in"
+     "move": "pan_up"
     }
    ]
   },
@@ -154,5 +154,6 @@
   "impact_shake": false
  },
  "metadata": "# Short #007 - Time Travel #1: The Last Flight of the Hindenburg\n\n## Title\nI Time Traveled Onto the Hindenburg | Time Travel #1\n\n## Description\nMay 6, 1937. The Hindenburg, almost as long as the Titanic and lifted by hydrogen, comes in to land at Lakehurst, New Jersey after storms kept it circling for hours. At 7:25 p.m. fire appears near the tail. In roughly half a minute the ship is destroyed. 62 of the 97 people aboard survive; 36 people die. The era of passenger airships ends with it.\n\nA time-travel dramatization: the visit is fiction, the history is real. Visuals are AI-generated, not real footage.\n\nSources:\n- Airships.net: The Hindenburg's Interior\n- Migflug: Hindenburg Disaster 1937\n\n#TimeTravel #Hindenburg #History #Airship #1937\n\n## First comment\nWhere should I time travel next?\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES\n- Made for kids: No; Category: Education; Language: English (United States)\n",
- "status": "draft-preview"
+ "status": "ready-preview",
+ "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm"
 }

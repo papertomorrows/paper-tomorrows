@@ -1,6 +1,6 @@
 # Paper Tomorrows - project status (handoff)
 
-Last updated: 2026-10-26
+Last updated: 2026-10-27
 
 ## Channel
 - English YouTube Shorts channel "Paper Tomorrows" (@papertomorrows), brand channel.
@@ -39,11 +39,25 @@ Last updated: 2026-10-26
   `PaperTomorrows_upload_guide.txt` (titles, descriptions, tags, first comments).
   Planned upload order: 006, 002, 004, 003, 005 (one per day).
 
-## Lessons from 007 (Hindenburg, Time Travel #1)
-- Owner preferred v5 over v6: never reuse the same image/clip twice in one short (looks wrong);
-  narration speed max 1.10 (1.15 sounded robotic).
-- What worked: fire flash-forward as first frame, countdown callouts, host selfie character, action shots
-  (running, ducking, ropes, window) on Kling; cheap model only for camera/smoke/light moves.
+## HOUSE STYLE (owner approved 007 v7 on 2026-10-27: "make every video like this")
+Reference: `specs/007_hindenburg_host.json` (v7) + `outputs/shorts/007_hindenburg_host/`.
+1. First frame = the most shocking moment (flash-forward to the climax) + impact sound; first line 3-5
+   words with the key word first ("This ship burns tonight.").
+2. A real STORY, not a list of facts: recurring host character (same face: curly hair, round glasses,
+   green rain jacket; keep as-is, not "super handsome") who has a goal, tries, fails, escalates, acts.
+   History facts stay true and sourced; the host's actions are labelled as dramatization in the description.
+3. Escalation all the way: countdown callouts that speed up (3:00:00 ... 0:00:05), rising heartbeat bed
+   (`heartbeat_lines`), riser before the climax.
+4. Pace: a new picture every ~1-1.5 s in the second half; no shot over ~2.5 s unless it is the climax.
+5. End right after the climax (no epilogue, no "where next?" in the video; ask it in the pinned comment).
+   The cut back to the first frame makes the loop.
+6. Shots: any shot where a person DOES something -> Kling v3 Pro (3 s). Cheap model (Hailuo 2.3 Fast) only
+   for camera/smoke/light/landscape moves. No odd isolated close-ups (e.g. just a cigar). Host's
+   expression must match the line (never looks like joking in a serious beat).
+7. Never reuse the same image or clip twice in one short. Narration speed max 1.10 (1.15 = robotic).
+8. ~34-40 s total, ~20 shots. Expected cost ~US$5-6 per short once the script is right.
+9. Workflow: script -> cheap still preview (~$0.5-1) -> owner OK -> full production. Quote cost and get
+   permission before every paid run.
 
 ## Owner rules
 - NEVER start any video production (never set a spec to `ready`, never run the pipeline) without asking

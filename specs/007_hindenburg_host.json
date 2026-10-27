@@ -4,14 +4,29 @@
  "style": "Epic cinematic film still, dramatic chiaroscuro lighting, strong contrast, anamorphic lens look, rich teal-and-amber colour grade, high tension, blockbuster movie quality. Handheld selfie-style vlog shot, the camera held at arm's length. Photorealistic, period-accurate May 1937, cinematic natural lighting, shallow depth of field, subtle film grain, vertical composition. No text, no lettering, no signage, no swastikas, no flags, no watermark.",
  "lines": [
   {
-   "text": "In three hours... this ship will burn.",
+   "text": "This ship burns tonight.",
+   "callout": "MAY 6, 1937",
+   "ambience": "Roaring fire, crackling flames, groaning metal, distant shouting, wind",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, gripping the camera with one hand, his face very close to the lens, wide urgent eyes, breathing hard, behind him through a long slanted airship window dark storm clouds and the enormous silver hull, dramatic red sunset light.",
-     "move": "push_in",
-     "motion": "The camera rushes in toward the man's face as he leans closer and grips it, his eyes wide and urgent, storm clouds racing past the window behind him, the airship shuddering. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "prompt": "A giant silver airship at dusk engulfed in towering orange flames from the tail forward, its stern sinking toward a wet airfield, the fabric skin burning away to reveal the metal frame, ground crew running away in the foreground, no explosion cloud, no airplanes.",
+     "move": "pull_out",
+     "motion": "Flames race forward along the hull, the stern sinks toward the ground, the fabric burns away revealing the metal frame, ground crew sprint away from the camera. No explosion cloud, no aircraft.",
      "motion_model": "kling",
      "motion_seconds": 5
+    }
+   ]
+  },
+  {
+   "text": "In three hours.",
+   "shots": [
+    {
+     "prompt": "Close handheld selfie shot of a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pressed against a long slanted airship window, staring straight into the lens with an urgent, frightened expression, behind him outside the window the enormous silver hull of the airship and dark storm clouds lit by a blood-red sunset, rain on the glass, no camera and no phone visible.",
+     "seed": 1938,
+     "move": "push_in",
+     "motion": "Handheld selfie: the man stares into the lens with fear as rain runs down the window behind him, lightning flickers in the storm clouds, the red sunset glints on the huge silver hull, the camera trembles slightly. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_model": "kling",
+     "motion_seconds": 3
     }
    ],
    "callout": "3:00:00",
@@ -37,7 +52,8 @@
      "prompt": "Elegant 1930s passengers in long coats and hats walking up a steep gangway stairway into the gondola of a giant silver airship inside a vast hangar, crew in uniform helping them, warm floodlights.",
      "move": "pan_up",
      "motion": "The camera glides quickly up the stairway alongside the boarding passengers, coats moving, crew waving them on, floodlights flaring.",
-     "motion_model": "fast"
+     "motion_model": "fast",
+     "max_speed": 1.0
     },
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, standing on a grass field pointing up, the colossal silver hull of the Hindenburg airship filling the sky above him.",
@@ -229,12 +245,12 @@
  ],
  "sfx": {
   "riser_into_lines": [
-   10
+   11
   ],
   "impact_on_lines": [
    0,
-   11,
-   14
+   12,
+   15
   ]
  },
  "settings": {
@@ -245,9 +261,10 @@
    "use_speaker_boost": true,
    "speed": 0.97
   },
-  "impact_shake": false
+  "impact_shake": false,
+  "min_first_shot": 1.0
  },
  "metadata": "# Short #007 - Time Travel #1: The Last Flight of the Hindenburg\n\n## Title\nI Had 3 Hours to Save the Hindenburg | Time Travel #1\n\n## Description\nMay 6, 1937. The Hindenburg, almost as long as the Titanic and lifted by hydrogen, comes in to land at Lakehurst, New Jersey after storms kept it circling for hours. At 7:25 p.m. fire appears near the tail. In roughly half a minute the ship is destroyed. 62 of the 97 people aboard survive; 36 people die. The era of passenger airships ends with it.\n\nA time-travel dramatization: the visit is fiction, the history is real. Visuals are AI-generated, not real footage.\n\nSources:\n- Airships.net: The Hindenburg's Interior\n- Migflug: Hindenburg Disaster 1937\n\n#TimeTravel #Hindenburg #History #Airship #1937\n\n## First comment\nWhere should I time travel next?\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES\n- Made for kids: No; Category: Education; Language: English (United States)\n",
- "status": "done-full-v2",
+ "status": "ready-full-v3",
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm"
 }

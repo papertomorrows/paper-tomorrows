@@ -25,6 +25,10 @@ Last updated: 2026-10-26
    vivid grade; quiet softened transition whoosh; NO punch-in zoom on cuts (owner disliked);
    short shake only on the "never built" impact.
 5. Loop ending that leads back into the first line.
+6. HOOK RULES (lesson from data, 2026-10-27): 001 "One mile." + looking up a cloud-piercing tower = 65%
+   viewed-vs-swiped; 006 long first sentence ("A sphere as big as the one in Las Vegas... drawn in 1784.")
+   + plain stone ball = 37%. So: first line 2-4 words, the payoff word first; first shot must show scale /
+   shock instantly (tiny people, something filling the frame, looking up/down); no knowledge needed to get it.
 - Visual style C (cinematic matte painting). Label "AI CONCEPT VISUALIZATION" first 3 s.
 - Cost ~US$7.5 per new short (mostly motion clips).
 

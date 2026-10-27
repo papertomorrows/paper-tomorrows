@@ -39,6 +39,12 @@ Last updated: 2026-10-26
   `PaperTomorrows_upload_guide.txt` (titles, descriptions, tags, first comments).
   Planned upload order: 006, 002, 004, 003, 005 (one per day).
 
+## Lessons from 007 (Hindenburg, Time Travel #1)
+- Owner preferred v5 over v6: never reuse the same image/clip twice in one short (looks wrong);
+  narration speed max 1.10 (1.15 sounded robotic).
+- What worked: fire flash-forward as first frame, countdown callouts, host selfie character, action shots
+  (running, ducking, ropes, window) on Kling; cheap model only for camera/smoke/light moves.
+
 ## Owner rules
 - NEVER start any video production (never set a spec to `ready`, never run the pipeline) without asking
   the owner first and getting explicit permission for that specific run. No exceptions.

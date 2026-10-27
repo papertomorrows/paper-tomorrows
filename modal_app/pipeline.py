@@ -628,8 +628,8 @@ def produce(spec: dict) -> dict:
         ("eq=contrast=1.10:saturation=1.18:gamma=1.03,vignette=PI/7,noise=alls=2:allf=t,"
          if cfg.get("grade", "vivid") == "vivid" else
          "eq=contrast=1.06:saturation=0.95,vignette=PI/5,noise=alls=3:allf=t,") +
-        f"subtitles={work / 'captions.ass'}:fontsdir=/usr/share/fonts/truetype/dejavu,"
-        f"fade=t=in:st=0:d=0.3,fade=t=out:st={total - 0.6:.2f}:d=0.6"
+        f"subtitles={work / 'captions.ass'}:fontsdir=/usr/share/fonts/truetype/dejavu"
+        # no fade to black: the very first frame must already show the scene (hook rule)
     )
     final = work / "short.mp4"
     run(["ffmpeg", "-y", *inputs, "-filter_complex", f"[0:v]{grade}[v];" + ";".join(graph),

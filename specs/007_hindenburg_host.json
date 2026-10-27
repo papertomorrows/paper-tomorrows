@@ -4,36 +4,36 @@
  "style": "Epic cinematic film still, dramatic chiaroscuro lighting, strong contrast, anamorphic lens look, rich teal-and-amber colour grade, high tension, blockbuster movie quality. Handheld selfie-style vlog shot, the camera held at arm's length. Photorealistic, period-accurate May 1937, cinematic natural lighting, shallow depth of field, subtle film grain, vertical composition. No text, no lettering, no signage, no swastikas, no flags, no watermark.",
  "lines": [
   {
-   "text": "I'm on the Hindenburg.",
+   "text": "In three hours... this ship will burn.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, grinning into the camera beside a long slanted window of a 1930s airship promenade deck, clouds and coastline far below behind him.",
-     "move": "push_in"
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, grinning nervously into the camera beside a long slanted window of a 1930s airship promenade deck, clouds and coastline far below behind him.",
+     "move": "pull_out"
     }
    ],
-   "callout": "MAY 6, 1937"
+   "callout": "3:00:00"
   },
   {
-   "text": "And I know something... nobody here knows.",
+   "text": "And I'm the only one on board who knows.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, leaning close to the camera with a worried look, elegant 1930s passengers laughing and chatting behind him in a warm airship lounge.",
-     "move": "pull_out"
+     "move": "push_in"
     }
    ]
   },
   {
-   "text": "This ship is almost as long as the Titanic.",
+   "text": "Ninety-seven people. A ship almost as long as the Titanic.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, standing on a grass field pointing up, the colossal silver hull of the Hindenburg airship filling the sky above him.",
      "move": "pan_up"
     }
    ],
-   "callout": "245 m"
+   "callout": "97"
   },
   {
-   "text": "And it floats... on hydrogen.",
+   "text": "Held up by hydrogen. One spark...",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, on a narrow catwalk inside the giant hull of a 1930s airship, enormous gas cells and aluminium girders behind him, nervous expression.",
@@ -42,7 +42,7 @@
    ]
   },
   {
-   "text": "So... of course... there's a smoking room.",
+   "text": "...and they're smoking.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, staring at the camera in disbelief inside a small 1930s airship smoking room, a man in a suit behind him lighting a cigar from a table-mounted electric lighter.",
@@ -51,35 +51,55 @@
    ]
   },
   {
-   "text": "I tell the steward. He laughs.",
+   "text": "I warn the steward. He laughs.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, talking urgently to a 1930s airship steward in a white jacket who is laughing politely, holding a silver tray of cocktails.",
      "move": "pull_out"
     }
-   ]
+   ],
+   "callout": "2:10:00"
   },
   {
-   "text": "Storms. We circle for hours.",
+   "text": "I bang on the captain's door. Nothing.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pressed against an airship window, dark thunderstorm clouds and lightning outside, rain streaking the glass, tense expression.",
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pounding his fist on a closed polished wooden door in a narrow 1930s airship corridor, desperate expression, warm wall lamps.",
      "move": "push_in"
     }
    ]
   },
   {
-   "text": "Seven twenty-five p.m. We're finally landing.",
+   "text": "Storms. We circle. The clock keeps running.",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pressed against an airship window, dark thunderstorm clouds and lightning outside, rain streaking the glass, tense expression.",
+     "move": "push_in"
+    }
+   ],
+   "callout": "0:45:00"
+  },
+  {
+   "text": "Seven twenty-five. The landing ropes drop.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, at an airship window at dusk, behind him a tall mooring mast and ground crew on a wet airfield far below.",
      "move": "pan_up"
     }
    ],
-   "callout": "7:25 PM"
+   "callout": "0:00:30"
   },
   {
-   "text": "Then... a glow near the tail.",
+   "text": "I open a window. Just in case.",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pushing open a long slanted airship window at dusk, wind blowing his hair, the wet airfield and ground crew not far below, determined expression.",
+     "move": "push_in"
+    }
+   ]
+  },
+  {
+   "text": "Then... the glow.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, turning around in shock at the window, a faint orange glow appearing near the airship's tail behind him.",
@@ -88,26 +108,25 @@
    ]
   },
   {
-   "text": "In about thirty seconds... it's gone.",
+   "text": "About thirty seconds. That's all it takes.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, on the airfield at dusk, the airship behind him bursting into towering orange flames, ground crew running, his face lit orange.",
-     "move": "push_in"
+     "prompt": "A giant silver airship at dusk engulfed in towering orange flames from the tail forward, its stern sinking toward a wet airfield, the fabric skin burning away to reveal the metal frame, ground crew running away in the foreground, no explosion cloud, no airplanes.",
+     "move": "pull_out"
     }
-   ],
-   "callout": "~30 SECONDS"
+   ]
   },
   {
-   "text": "People jump from the windows.",
+   "text": "I jump.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, running toward the camera on a smoky airfield, silhouettes of people escaping a burning airship gondola behind him.",
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, mid-leap from the low open window of an airship gondola toward the wet sand of an airfield, orange firelight and smoke above him, motion blur, heroic action shot.",
      "move": "push_in"
     }
    ]
   },
   {
-   "text": "Sixty-two survive. Thirty-six don't.",
+   "text": "Sixty-two people survive. Thirty-six don't.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, standing silent with his head down in front of the smoking skeletal frame of a burned airship on a dark airfield at night.",
@@ -117,7 +136,7 @@
    "callout": "62 SURVIVE"
   },
   {
-   "text": "And the age of flying hotels... ends tonight.",
+   "text": "The flying hotel never flies again. And neither does that future.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, walking alone through a vast empty airship hangar at dawn, huge doors open onto a misty airfield.",
@@ -137,10 +156,10 @@
  ],
  "sfx": {
   "riser_into_lines": [
-   9
+   10
   ],
   "impact_on_lines": [
-   9
+   11
   ]
  },
  "settings": {
@@ -153,7 +172,7 @@
   },
   "impact_shake": false
  },
- "metadata": "# Short #007 - Time Travel #1: The Last Flight of the Hindenburg\n\n## Title\nI Time Traveled Onto the Hindenburg | Time Travel #1\n\n## Description\nMay 6, 1937. The Hindenburg, almost as long as the Titanic and lifted by hydrogen, comes in to land at Lakehurst, New Jersey after storms kept it circling for hours. At 7:25 p.m. fire appears near the tail. In roughly half a minute the ship is destroyed. 62 of the 97 people aboard survive; 36 people die. The era of passenger airships ends with it.\n\nA time-travel dramatization: the visit is fiction, the history is real. Visuals are AI-generated, not real footage.\n\nSources:\n- Airships.net: The Hindenburg's Interior\n- Migflug: Hindenburg Disaster 1937\n\n#TimeTravel #Hindenburg #History #Airship #1937\n\n## First comment\nWhere should I time travel next?\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES\n- Made for kids: No; Category: Education; Language: English (United States)\n",
- "status": "draft-preview",
+ "metadata": "# Short #007 - Time Travel #1: The Last Flight of the Hindenburg\n\n## Title\nI Had 3 Hours to Save the Hindenburg | Time Travel #1\n\n## Description\nMay 6, 1937. The Hindenburg, almost as long as the Titanic and lifted by hydrogen, comes in to land at Lakehurst, New Jersey after storms kept it circling for hours. At 7:25 p.m. fire appears near the tail. In roughly half a minute the ship is destroyed. 62 of the 97 people aboard survive; 36 people die. The era of passenger airships ends with it.\n\nA time-travel dramatization: the visit is fiction, the history is real. Visuals are AI-generated, not real footage.\n\nSources:\n- Airships.net: The Hindenburg's Interior\n- Migflug: Hindenburg Disaster 1937\n\n#TimeTravel #Hindenburg #History #Airship #1937\n\n## First comment\nWhere should I time travel next?\n\n## Upload checklist\n- Altered or synthetic content disclosure: YES\n- Made for kids: No; Category: Education; Language: English (United States)\n",
+ "status": "ready-preview-v2",
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm"
 }

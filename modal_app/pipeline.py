@@ -124,6 +124,20 @@ def generate_motion(image_url: str, motion_prompt: str, seconds: int = 5,
     return requests.get(res["video"]["url"], timeout=300).content
 
 
+@app.function(image=image, timeout=1500, secrets=[KEYS])
+def generate_avatar(image_url: str, audio: bytes, prompt: str) -> bytes:
+    """Talking host: lip-synced to the narration segment (Kling AI Avatar v2 Pro, $0.115/s)."""
+    import fal_client
+    import requests
+
+    audio_url = fal_client.upload(audio, "audio/mpeg")
+    res = fal_client.subscribe(
+        "fal-ai/kling-video/ai-avatar/v2/pro",
+        arguments={"image_url": image_url, "audio_url": audio_url, "prompt": prompt},
+    )
+    return requests.get(res["video"]["url"], timeout=300).content
+
+
 @app.function(image=image, timeout=600, secrets=[KEYS])
 def narrate(text: str, voice_id: str, model: str, settings: dict) -> tuple[bytes, dict]:
     import base64
@@ -473,6 +487,33 @@ def produce(spec: dict) -> dict:
         pos = idx + len(line["text"])
     line_starts = [0.0] + [max(char_starts[c] - 0.08, 0) for c in line_starts[1:]]
     total = round(audio_len + 1.2, 2)
+
+    # ---- talking-host shots (lip-synced to this line's narration)
+    avatar_calls = {}
+    for k, v in shot_specs.items():
+        if not v.get("avatar"):
+            continue
+        li = k[0]
+        st = line_starts[li]
+        en = line_starts[li + 1] if li + 1 < len(lines) else audio_len + 0.2
+        akey = key(v["prompt"] + style + nkey + lines[li]["text"] + "|avatar")
+        v["motion_file"] = f"avatar_{akey}.mp4"
+        v["max_speed"] = 1.0
+        if have(v["motion_file"]):
+            continue
+        seg = work / f"line_{li}.mp3"
+        run(["ffmpeg", "-y", "-ss", f"{st:.3f}", "-to", f"{en:.3f}", "-i", str(work / "narration.mp3"),
+             "-c:a", "libmp3lame", "-b:a", "192k", str(seg)])
+        avatar_calls[k] = generate_avatar.spawn(
+            (cache / f"{v['name']}.url").read_text(), seg.read_bytes(),
+            v.get("avatar_prompt", "The person talks to the camera like a vlogger, natural head movement "
+                                   "and expressions matching the words."))
+    for k, call in avatar_calls.items():
+        try:
+            (cache / shot_specs[k]["motion_file"]).write_bytes(call.get())
+            CACHE.commit()
+        except Exception as exc:
+            print(f"AVATAR FAILED for shot {k}: {str(exc)[:300]}")
 
     # ---- collect motion, music, sfx
     motion_ok = {}

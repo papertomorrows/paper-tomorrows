@@ -138,6 +138,26 @@ def generate_avatar(image_url: str, audio: bytes, prompt: str) -> bytes:
     return requests.get(res["video"]["url"], timeout=300).content
 
 
+@app.function(image=image, timeout=1800, secrets=[KEYS])
+def generate_talk_motion(image_url: str, audio: bytes, motion_prompt: str, seconds: int = 3) -> bytes:
+    """Talking host, natural body motion: Kling v3 Pro clip first, then lip-synced to the line."""
+    import fal_client
+    import requests
+
+    res = fal_client.subscribe(
+        "fal-ai/kling-video/v3/pro/image-to-video",
+        arguments={"start_image_url": image_url, "prompt": motion_prompt, "duration": str(seconds),
+                   "generate_audio": False, "negative_prompt": MOTION_NEGATIVE},
+    )
+    video_url = res["video"]["url"]
+    audio_url = fal_client.upload(audio, "audio/mpeg")
+    synced = fal_client.subscribe(
+        "fal-ai/kling-video/lipsync/audio-to-video",
+        arguments={"video_url": video_url, "audio_url": audio_url},
+    )
+    return requests.get(synced["video"]["url"], timeout=300).content
+
+
 @app.function(image=image, timeout=600, secrets=[KEYS])
 def narrate(text: str, voice_id: str, model: str, settings: dict) -> tuple[bytes, dict]:
     import base64
@@ -412,6 +432,8 @@ def produce(spec: dict) -> dict:
             name = f"img_{ikey}"
             adopt(f"{name}.jpg", f"scene_*_{ikey}.jpg")
             adopt(f"{name}.url", f"scene_*_{ikey}.url")
+            adopt(f"{name}.jpg", f"{name}.jpg")
+            adopt(f"{name}.url", f"{name}.url")
             shot_specs[(li, si)] = {
                 "name": name, "prompt": f"{prompt} {style}",
                 "seed": seed_base + li + 100 * si, **shot,
@@ -496,7 +518,8 @@ def produce(spec: dict) -> dict:
         li = k[0]
         st = line_starts[li]
         en = line_starts[li + 1] if li + 1 < len(lines) else audio_len + 0.2
-        akey = key(v["prompt"] + style + nkey + lines[li]["text"] + "|avatar")
+        akey = key(v["prompt"] + style + nkey + lines[li]["text"] + "|avatar"
+                   + (("|tm|" + v["talk_motion"]) if v.get("talk_motion") else ""))
         v["motion_file"] = f"avatar_{akey}.mp4"
         v["max_speed"] = 1.0
         if have(v["motion_file"]):
@@ -504,6 +527,11 @@ def produce(spec: dict) -> dict:
         seg = work / f"line_{li}.mp3"
         run(["ffmpeg", "-y", "-ss", f"{st:.3f}", "-to", f"{en:.3f}", "-i", str(work / "narration.mp3"),
              "-c:a", "libmp3lame", "-b:a", "192k", str(seg)])
+        if v.get("talk_motion"):
+            avatar_calls[k] = generate_talk_motion.spawn(
+                (cache / f"{v['name']}.url").read_text(), seg.read_bytes(), v["talk_motion"],
+                int(v.get("motion_seconds", 3)))
+            continue
         avatar_calls[k] = generate_avatar.spawn(
             (cache / f"{v['name']}.url").read_text(), seg.read_bytes(),
             v.get("avatar_prompt", "The person talks to the camera like a vlogger, natural head movement "
@@ -621,7 +649,9 @@ def produce(spec: dict) -> dict:
 
     # ---- final mix and grade
     inputs = ["-i", str(work / "joined.mp4"), "-i", str(work / "narration.mp3")]
-    graph = [f"[1:a]apad,atrim=0:{total},asplit=3[voice][key][key2]"]
+    vfx = ("highpass=f=110,lowpass=f=10000,aecho=0.8:0.5:28:0.10,"
+           if cfg.get("voice_fx") == "vlog" else "")
+    graph = [f"[1:a]{vfx}apad,atrim=0:{total},asplit=3[voice][key][key2]"]
     mix = ["[voice]"]
     nxt = 2
     if music_ok:

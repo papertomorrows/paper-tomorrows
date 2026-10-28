@@ -1,0 +1,49 @@
+{
+ "id": "talk_test",
+ "legacy_cache": "008_titanic",
+ "seed_base": 1912,
+ "style": "Epic cinematic film still, dramatic chiaroscuro lighting, strong contrast, anamorphic lens look, rich teal-and-amber colour grade, high tension, blockbuster movie quality. Handheld selfie-style vlog shot, the camera held at arm's length. Photorealistic, period-accurate April 1912, cinematic natural lighting, shallow depth of field, subtle film grain, vertical composition. No text, no lettering, no signage, no swastikas, no flags, no watermark.",
+ "label": "",
+ "lines": [
+  {
+   "text": "Wait. What's the name of this ship?",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, suddenly frowning, uneasy, turning toward a white ring lifebuoy hanging on the Titanic's deck rail at night, deck lamps glowing, holding the camera close.",
+     "move": "push_in",
+     "avatar": true,
+     "avatar_prompt": "Suddenly uneasy, frowning, glancing toward the lifebuoy then back at the camera. Natural head movement, lips synced to the words."
+    }
+   ],
+   "ambience": "Cold night wind on a ship deck, deep steady engine hum, calm sea"
+  },
+  {
+   "text": "Wait. What's the name of this ship?",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, suddenly frowning, uneasy, turning toward a white ring lifebuoy hanging on the Titanic's deck rail at night, deck lamps glowing, holding the camera close.",
+     "move": "push_in",
+     "avatar": true,
+     "talk_motion": "The man talks to the camera like a vlogger with natural body movement: he frowns, turns his head toward the lifebuoy, gestures with his free hand, then looks back at the camera uneasily, breath fogging, slight handheld camera sway. The man keeps the same face and clothes. Smooth realistic motion, no warping.",
+     "motion_seconds": 3
+    }
+   ],
+   "ambience": "Cold night wind on a ship deck, deep steady engine hum, calm sea"
+  }
+ ],
+ "settings": {
+  "voice_id": "iP95p4xoKVk53GoZ742B",
+  "voice_settings": {
+   "stability": 0.45,
+   "similarity_boost": 0.8,
+   "style": 0.35,
+   "use_speaker_boost": true,
+   "speed": 1.0
+  },
+  "voice_fx": "vlog",
+  "impact_shake": false,
+  "min_first_shot": 1.0
+ },
+ "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm",
+ "status": "ready-talk-test"
+}

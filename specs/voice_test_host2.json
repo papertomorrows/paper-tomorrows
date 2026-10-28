@@ -1,0 +1,73 @@
+{
+ "id": "voice_test_host2",
+ "voice_test": [
+  {
+   "name": "Roger",
+   "id": "CwhRBWXzGAHq8TQ4Fs17",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Eric",
+   "id": "cjVigY5qzO86Huf0OWal",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Harry",
+   "id": "SOYHLrjzK2X1ezoPC6cr",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Mark",
+   "id": "UgBBYS2sOqTuMpoF3BR0",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Liam_v3",
+   "id": "TX3LPaxmHKxFdv7VOQHJ",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   }
+  },
+  {
+   "name": "Chris_v3",
+   "id": "iP95p4xoKVk53GoZ742B",
+   "model": "eleven_v3",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+   }
+  }
+ ],
+ "text": "I just time traveled onto the most beautiful ship I've ever seen. ... Wait. What's the name of this ship? ... Titanic. ... And today is... April fourteenth.",
+ "status": "ready-voice-test-2"
+}

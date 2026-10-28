@@ -1,0 +1,47 @@
+{
+ "id": "lf001_never_built_six",
+ "voice_lines": [
+  {
+   "name": "intro",
+   "text": "These were real plans. Drawn by real architects. Some were even started. None of them were ever finished. Here are six buildings the world almost built."
+  },
+  {
+   "name": "n6",
+   "text": "Number six. A monument for Isaac Newton."
+  },
+  {
+   "name": "n5",
+   "text": "Number five. A tower with rooms that spin."
+  },
+  {
+   "name": "n4",
+   "text": "Number four. London's answer to the Eiffel Tower."
+  },
+  {
+   "name": "n3",
+   "text": "Number three. A city inside a pyramid."
+  },
+  {
+   "name": "n2",
+   "text": "Number two. The plan to lower the Mediterranean Sea."
+  },
+  {
+   "name": "n1",
+   "text": "And number one. A skyscraper one mile high."
+  },
+  {
+   "name": "outro",
+   "text": "Six futures that stayed on paper. Which one do you wish had been built? Tell me in the comments."
+  }
+ ],
+ "settings": {
+  "voice_settings": {
+   "stability": 0.35,
+   "similarity_boost": 0.8,
+   "style": 0.45,
+   "use_speaker_boost": true,
+   "speed": 0.97
+  }
+ },
+ "status": "ready-voice-lines"
+}

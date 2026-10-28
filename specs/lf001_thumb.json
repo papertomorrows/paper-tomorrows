@@ -1,0 +1,29 @@
+{
+ "id": "lf001_thumb",
+ "images_only": true,
+ "size": [
+  1920,
+  1080
+ ],
+ "seed_base": 2026,
+ "style": "Cinematic matte painting, painterly brushwork with near-photographic lighting, volumetric haze, dramatic, high contrast, vivid. No text, no lettering, no watermark.",
+ "status": "ready-images",
+ "lines": [
+  {
+   "text": "a",
+   "shots": [
+    {
+     "prompt": "Epic wide landscape composite of impossible unbuilt megastructures at golden hour: a needle skyscraper one mile tall piercing the clouds on the left, a colossal glass pyramid in a bay on the right, a giant dam across a strait in the distance, tiny cars and people for scale, dramatic sky, empty space in the upper middle for a headline."
+    }
+   ]
+  },
+  {
+   "text": "b",
+   "shots": [
+    {
+     "prompt": "Dramatic low-angle view of a slender needle-shaped skyscraper one mile tall rising far above the clouds over a 1950s American city at sunset, beside it the faint outline of a spiral iron tower, epic scale, empty dark sky on the left side for a headline."
+    }
+   ]
+  }
+ ]
+}

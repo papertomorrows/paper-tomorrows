@@ -78,14 +78,14 @@ def key(text: str) -> str:
 # ---------------------------------------------------------------- generators
 
 @app.function(image=image, timeout=900, secrets=[KEYS])
-def generate_image(prompt: str, seed: int) -> tuple[str, bytes]:
+def generate_image(prompt: str, seed: int, width: int = W, height: int = H) -> tuple[str, bytes]:
     import fal_client
     import requests
 
     args = {"prompt": prompt, "seed": seed, "output_format": "jpeg"}
     try:
         res = fal_client.subscribe(
-            "fal-ai/flux-2-pro", arguments={**args, "image_size": {"width": W, "height": H}}
+            "fal-ai/flux-2-pro", arguments={**args, "image_size": {"width": width, "height": height}}
         )
     except Exception as exc:
         print(f"custom size failed: {str(exc)[:200]}")
@@ -798,6 +798,18 @@ def produce(spec: dict) -> dict:
 @app.local_entrypoint()
 def main(spec: str):
     spec_data = json.loads(pathlib.Path(spec).read_text())
+    if spec_data.get("voice_lines"):
+        # separate narration clips for a long-form edit (ElevenLabs subscription only)
+        out = pathlib.Path("outputs/shorts") / spec_data["id"] / "voice"
+        out.mkdir(parents=True, exist_ok=True)
+        cfg = {**DEFAULTS, **spec_data.get("settings", {})}
+        jobs = spec_data["voice_lines"]
+        calls = [narrate.spawn(j["text"], cfg["voice_id"], cfg["voice_model"], cfg["voice_settings"]) for j in jobs]
+        for j, c in zip(jobs, calls):
+            audio, _ = c.get()
+            (out / f"{j['name']}.mp3").write_bytes(audio)
+        print(f"SHORT OK id={spec_data['id']} voice_lines={len(jobs)}")
+        return
     if spec_data.get("voice_test"):
         # voice samples only: same text in several voices (ElevenLabs subscription, no fal cost)
         out = pathlib.Path("outputs/shorts") / spec_data["id"]
@@ -820,7 +832,8 @@ def main(spec: str):
         style = spec_data.get("style", DEFAULTS["style"])
         jobs = [(f"{li:02d}_{si}", f"{sh['prompt']} {style}", int(spec_data.get("seed_base", 1000)) + li)
                 for li, line in enumerate(spec_data["lines"]) for si, sh in enumerate(line["shots"])]
-        for (name, _, _), (url, data) in zip(jobs, generate_image.starmap([(p, sd) for _, p, sd in jobs])):
+        iw, ih = spec_data.get("size", [W, H])
+        for (name, _, _), (url, data) in zip(jobs, generate_image.starmap([(p, sd, iw, ih) for _, p, sd in jobs])):
             (out / f"{name}.jpg").write_bytes(data)
         print(f"SHORT OK id={spec_data['id']} images_only={len(jobs)}")
         return

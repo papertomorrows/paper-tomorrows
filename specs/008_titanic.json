@@ -10,7 +10,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, beaming with wonder, taking a handheld selfie at the rail of the Titanic's sunny boat deck at golden sunset, the four giant buff-and-black funnels towering behind him, elegant 1912 passengers strolling, calm sea, a white ring lifebuoy with the black letters 'TITANIC' hanging on the rail right beside him.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Excited and full of wonder, talking like an enthusiastic travel vlogger, smiling. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Excited and full of wonder, talking like an enthusiastic travel vlogger, smiling. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man talks excitedly to the camera like a travel vlogger, turning to glance at the giant funnels behind him and back, gesturing with his free hand, wind in his hair. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 5
     }
    ],
    "callout": "APRIL 14, 1912",
@@ -42,7 +44,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, laughing softly while riding a 1912 mechanical exercise camel in the Titanic's wood-paneled gymnasium, holding the camera at arm's length, a steward in white flannels in the background.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Laughing softly and amused while gently rocking on the mechanical camel. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Laughing softly and amused while gently rocking on the mechanical camel. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man laughs and talks to the camera while gently rocking on the mechanical camel, holding on with one hand, the steward watching behind him. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 3
     }
    ],
    "ambience": "Elegant 1912 dining room ambience, clinking glasses and cutlery, soft string quartet far away, murmuring voices"
@@ -74,7 +78,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, smiling and raising a crystal glass of champagne toward the camera at a luxurious first-class dinner table in the Titanic's dining saloon, chandeliers glowing, elegant diners laughing behind him.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Happy and relaxed, raising the champagne glass toward the camera. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Happy and relaxed, raising the champagne glass toward the camera. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man talks happily to the camera, raises his champagne glass in a toast, takes a sip and smiles, diners laughing behind him. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 3
     }
    ],
    "ambience": "Elegant 1912 dining room ambience, clinking glasses and cutlery, soft string quartet far away, murmuring voices"
@@ -106,7 +112,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, relaxed and smiling, breath fogging, holding the camera on the Titanic's dark deck at night, behind him a perfectly flat black sea under countless stars with no moon, frost on the rail.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Relaxed and content, shivering slightly from the cold, breath fogging. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Relaxed and content, shivering slightly from the cold, breath fogging. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man talks to the camera, rubbing his cold hand, breath fogging, turns to look at the calm black sea and back, relaxed. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 5
     }
    ],
    "ambience": "Cold night wind on a ship deck, deep steady engine hum, calm sea"
@@ -118,7 +126,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, suddenly frowning, uneasy, turning toward a white ring lifebuoy hanging on the Titanic's deck rail at night, deck lamps glowing, holding the camera close.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Suddenly uneasy, frowning, glancing toward the lifebuoy then back at the camera. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Suddenly uneasy, frowning, glancing toward the lifebuoy then back at the camera. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man talks to the camera, frowns, turns his head toward the lifebuoy, gestures at it with his free hand, then looks back at the camera uneasily, breath fogging. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 3
     }
    ],
    "ambience": "Cold night wind on a ship deck, deep steady engine hum, calm sea"
@@ -142,7 +152,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, his face frozen in horror, eyes wide, his arm stretched toward the viewer as if holding a phone, no camera or phone visible, on the Titanic's dark frosty deck at night, deck lamps behind him, breath fogging.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Frozen in horror, speaking slowly, eyes wide, breathing fast. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Frozen in horror, speaking slowly, eyes wide, breathing fast. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man's face freezes in horror as he talks slowly to the camera, eyes widening, he glances around the dark deck, breathing fast. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 3
     }
    ],
    "callout": "11:39 PM",
@@ -208,7 +220,9 @@
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, on the tilting Titanic boat deck at night helping a frightened 1912 mother and her small son in coats into the last wooden lifeboat, the lifeboat beginning to lower, white distress rockets above, his face serious and gentle, no camera visible.",
      "move": "push_in",
      "avatar": true,
-     "avatar_prompt": "Serious, gentle and emotional, glancing at the mother and child as they leave. Natural head movement, lips synced to the words."
+     "avatar_prompt": "Serious, gentle and emotional, glancing at the mother and child as they leave. Natural head movement, lips synced to the words.",
+     "talk_motion": "The man talks to the camera with a serious, emotional face while helping the mother and boy into the lifeboat, then watches them lower away, distress rockets above. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
+     "motion_seconds": 5
     }
    ],
    "ambience": "Night on a sinking ship, creaking metal, rushing water, distant shouting crowd, wind"
@@ -282,17 +296,19 @@
  },
  "settings": {
   "voice_settings": {
-   "stability": 0.3,
+   "stability": 0.45,
    "similarity_boost": 0.8,
-   "style": 0.6,
+   "style": 0.35,
    "use_speaker_boost": true,
-   "speed": 1.1
+   "speed": 1.05
   },
   "impact_shake": false,
   "min_first_shot": 1.0,
-  "min_split_seconds": 1.4
+  "min_split_seconds": 1.4,
+  "voice_id": "iP95p4xoKVk53GoZ742B",
+  "voice_fx": "vlog"
  },
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm",
  "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: the Titanic had a heated saltwater swimming pool, a gym with a mechanical camel, and a 10-course last first-class dinner. seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. Chief baker Charles Joughin drank whisky, threw deck chairs overboard as rafts, and survived for hours in the freezing water. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died. Afterwards the rules changed: the 1914 SOLAS treaty required enough lifeboats for everyone aboard.\n\nWhat's dramatized: my visit, the mother and son, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
- "status": "done-full-v2"
+ "status": "ready-full-v3"
 }

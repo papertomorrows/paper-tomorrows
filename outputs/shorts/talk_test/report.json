@@ -1,0 +1,67 @@
+{
+ "duration": 5.51,
+ "shots": [
+  [
+   0,
+   0,
+   0.0,
+   2.23
+  ],
+  [
+   1,
+   0,
+   2.23,
+   5.51
+  ]
+ ],
+ "motion_ok": [
+  "0:0",
+  "1:0"
+ ],
+ "music_ok": true,
+ "motion_scores": {
+  "0:0": 2.98,
+  "1:0": 21.94
+ },
+ "sfx": {
+  "whoosh": [
+   2.08
+  ],
+  "impact": [],
+  "riser": []
+ },
+ "sfx_missing": [],
+ "captions": [
+  [
+   0.0,
+   0.78,
+   "WAIT"
+  ],
+  [
+   0.78,
+   1.33,
+   "WHAT'S THE NAME"
+  ],
+  [
+   1.33,
+   2.31,
+   "OF THIS SHIP?"
+  ],
+  [
+   2.31,
+   2.96,
+   "WAIT"
+  ],
+  [
+   2.96,
+   3.52,
+   "WHAT'S THE NAME"
+  ],
+  [
+   3.52,
+   4.67,
+   "OF THIS SHIP?"
+  ]
+ ],
+ "images_generated": 0
+}

@@ -14,10 +14,57 @@
    "callout": "APRIL 14, 1912"
   },
   {
-   "text": "I'm on the Titanic. Iceberg at eleven forty. I have to stop it.",
+   "text": "But first... wait. The Titanic has a swimming pool?",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, taking a handheld selfie at the rail of the Titanic's sunny boat deck in the late afternoon, four giant buff-and-black funnels behind him, elegant 1912 passengers strolling, his face tense, worried and determined, not smiling.",
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, grinning in amazed disbelief, taking a handheld selfie at the edge of the Titanic's elegant indoor heated saltwater swimming pool with blue-and-white tiles and brass lamps, 1912 swimmers in old-fashioned bathing suits behind him.",
+     "move": "push_in",
+     "talk": true
+    }
+   ]
+  },
+  {
+   "text": "A heated pool. A gym with a mechanical camel.",
+   "shots": [
+    {
+     "prompt": "The Titanic's elegant 1912 indoor saltwater swimming pool, glowing turquoise water, white tiled walls, brass fittings, steam rising.",
+     "move": "push_in"
+    },
+    {
+     "prompt": "The Titanic's 1912 first-class gymnasium on the boat deck: rowing machines, a mechanical horse and a mechanical camel, polished wood floor, large windows, a steward in white flannels.",
+     "move": "push_in"
+    }
+   ]
+  },
+  {
+   "text": "A camel. On a ship. In 1912.",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, laughing while riding a 1912 mechanical exercise camel in the Titanic's wood-paneled gymnasium, holding the camera at arm's length, a steward in white flannels watching in the background.",
+     "move": "push_in",
+     "talk": true
+    }
+   ]
+  },
+  {
+   "text": "Dinner? Ten courses. Oysters. Champagne ice.",
+   "shots": [
+    {
+     "prompt": "Close-up of a silver platter of fresh oysters on ice on a white linen table in the Titanic's grand first-class dining saloon, crystal glasses, warm chandelier light.",
+     "move": "push_in"
+    },
+    {
+     "prompt": "Elegant 1912 diners in evening dress clinking crystal glasses of champagne in the Titanic's grand first-class dining saloon, chandeliers glowing.",
+     "move": "push_in"
+    }
+   ],
+   "callout": "10 COURSES"
+  },
+  {
+   "text": "Then I check the date. April fourteenth.",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, his smile fading into horror as he stares into the camera at a luxurious first-class dinner table in the Titanic's dining saloon, elegant diners laughing behind him, chandelier light.",
      "move": "push_in",
      "talk": true
     }
@@ -40,16 +87,6 @@
    "callout": "7 WARNINGS"
   },
   {
-   "text": "Look up there. The lookouts don't even have binoculars.",
-   "shots": [
-    {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, whispering to the camera at night on the Titanic's foredeck, pointing up behind him at the crow's nest high on the foremast where two lookouts stand, breath fogging, frost on the rail.",
-     "move": "push_in",
-     "talk": true
-    }
-   ]
-  },
-  {
    "text": "I beg an officer. He laughs. Practically unsinkable.",
    "shots": [
     {
@@ -64,7 +101,7 @@
    "callout": "1:00:00"
   },
   {
-   "text": "Fine. If they won't listen, I'll save who I can.",
+   "text": "Fine. I'll save who I can.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, running along the Titanic's dark frosty promenade deck at night holding the camera, out of breath, determined expression, deck lamps streaking past.",
@@ -95,10 +132,6 @@
     {
      "prompt": "Low angle along the Titanic's black steel hull at night as the massive iceberg grinds along its side, sparks and water spraying.",
      "move": "push_in"
-    },
-    {
-     "prompt": "Close view at night along the Titanic's black steel hull as a towering iceberg scrapes past it, ice chunks crashing down, sparks of light on the water.",
-     "move": "push_in"
     }
    ]
   },
@@ -113,7 +146,7 @@
    ]
   },
   {
-   "text": "The first lifeboat leaves with twenty-eight people. Room for sixty-five.",
+   "text": "First lifeboat: twenty-eight people. Room for sixty-five.",
    "shots": [
     {
      "prompt": "A half-empty wooden lifeboat being lowered down the side of the Titanic at night on ropes and davits, only a few passengers in coats inside, empty seats visible, the giant hull towering above.",
@@ -152,24 +185,14 @@
    ]
   },
   {
-   "text": "There's a ship right there. Why isn't it coming?",
+   "text": "And the chief baker? Drinks whisky... and throws deck chairs overboard as rafts.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pointing desperately toward the faint lights of another steamship on the dark horizon at night from the Titanic's tilting deck, white distress rockets rising above, anguished expression.",
-     "move": "push_in",
-     "talk": true
-    }
-   ]
-  },
-  {
-   "text": "Its radio is off. Nobody's listening.",
-   "shots": [
-    {
-     "prompt": "A distant steamship sitting still on a black calm sea at night, its lights glowing, seen from far away, quiet and calm.",
+     "prompt": "A burly 1912 ship's baker in a white cook's jacket taking a long swig from a whisky bottle in the Titanic's dim galley at night, loaves of bread on the counter.",
      "move": "push_in"
     },
     {
-     "prompt": "A dark, empty 1912 ship's wireless cabin at night, the radio set switched off, headphones hanging unused on a hook, a single dim lamp.",
+     "prompt": "The same burly baker in a white cook's jacket heaving wooden deck chairs over the rail of the tilting Titanic into the black sea at night, chairs splashing below.",
      "move": "push_in"
     }
    ]
@@ -189,7 +212,7 @@
    "callout": "2:20 AM"
   },
   {
-   "text": "I couldn't stop it. About fifteen hundred people never come home.",
+   "text": "About fifteen hundred people die. The baker? He survives hours in the freezing water.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, sitting in a crowded lifeboat on the black sea at night, wrapped in a blanket, his face lit by a lantern, eyes wet, looking into the camera, other survivors huddled around him.",
@@ -203,16 +226,16 @@
  ],
  "sfx": {
   "riser_into_lines": [
-   14
+   16
   ],
   "impact_on_lines": [
    0,
-   7,
-   14
+   10,
+   16
   ],
   "heartbeat_lines": [
-   2,
-   6
+   6,
+   9
   ]
  },
  "settings": {
@@ -228,6 +251,6 @@
   "min_split_seconds": 1.4
  },
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm",
- "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died.\n\nWhat's dramatized: my visit, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
- "status": "done-preview-4"
+ "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: the Titanic had a heated saltwater swimming pool, a gym with a mechanical camel, and a 10-course last first-class dinner. seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. Chief baker Charles Joughin drank whisky, threw deck chairs overboard as rafts, and survived for hours in the freezing water. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died.\n\nWhat's dramatized: my visit, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
+ "status": "ready-preview-5"
 }

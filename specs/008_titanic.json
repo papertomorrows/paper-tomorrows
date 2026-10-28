@@ -12,7 +12,8 @@
      "avatar": true,
      "avatar_prompt": "Excited and full of wonder, talking like an enthusiastic travel vlogger, smiling. Natural head movement, lips synced to the words.",
      "talk_motion": "The man talks excitedly to the camera like a travel vlogger, turning to glance at the giant funnels behind him and back, gesturing with his free hand, wind in his hair. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
-     "motion_seconds": 5
+     "motion_seconds": 5,
+     "resync": true
     }
    ],
    "callout": "APRIL 14, 1912",
@@ -47,6 +48,12 @@
      "avatar_prompt": "Laughing softly and amused while gently rocking on the mechanical camel. Natural head movement, lips synced to the words.",
      "talk_motion": "The man laughs and talks to the camera while gently rocking on the mechanical camel, holding on with one hand, the steward watching behind him. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
      "motion_seconds": 3
+    },
+    {
+     "prompt": "The Titanic's 1912 first-class gymnasium on the boat deck: rowing machines, a mechanical horse and a mechanical camel, polished wood floor, large windows, a steward in white flannels.",
+     "move": "push_in",
+     "motion": "The camera glides slowly past the mechanical horse and camel, sunlight through the large windows, the steward adjusting a rowing machine.",
+     "motion_model": "fast"
     }
    ],
    "ambience": "Elegant 1912 dining room ambience, clinking glasses and cutlery, soft string quartet far away, murmuring voices"
@@ -80,7 +87,8 @@
      "avatar": true,
      "avatar_prompt": "Happy and relaxed, raising the champagne glass toward the camera. Natural head movement, lips synced to the words.",
      "talk_motion": "The man talks happily to the camera, raises his champagne glass in a toast, takes a sip and smiles, diners laughing behind him. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
-     "motion_seconds": 3
+     "motion_seconds": 3,
+     "resync": true
     }
    ],
    "ambience": "Elegant 1912 dining room ambience, clinking glasses and cutlery, soft string quartet far away, murmuring voices"
@@ -154,7 +162,8 @@
      "avatar": true,
      "avatar_prompt": "Frozen in horror, speaking slowly, eyes wide, breathing fast. Natural head movement, lips synced to the words.",
      "talk_motion": "The man's face freezes in horror as he talks slowly to the camera, eyes widening, he glances around the dark deck, breathing fast. The man keeps the same face and clothes. Smooth realistic motion, no warping, slight handheld camera sway.",
-     "motion_seconds": 3
+     "motion_seconds": 3,
+     "resync": true
     }
    ],
    "callout": "11:39 PM",
@@ -310,5 +319,5 @@
  },
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm",
  "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: the Titanic had a heated saltwater swimming pool, a gym with a mechanical camel, and a 10-course last first-class dinner. seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. Chief baker Charles Joughin drank whisky, threw deck chairs overboard as rafts, and survived for hours in the freezing water. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died. Afterwards the rules changed: the 1914 SOLAS treaty required enough lifeboats for everyone aboard.\n\nWhat's dramatized: my visit, the mother and son, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
- "status": "done-full-v3"
+ "status": "ready-full-v4"
 }

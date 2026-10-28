@@ -158,6 +158,20 @@ def generate_talk_motion(image_url: str, audio: bytes, motion_prompt: str, secon
     return requests.get(synced["video"]["url"], timeout=300).content
 
 
+@app.function(image=image, timeout=1800, secrets=[KEYS])
+def resync_lips(video: bytes, audio: bytes, model: str = "lipsync-2") -> bytes:
+    """Re-do only the mouth on an existing talking clip (Sync Lipsync 2; $3/min, pro $5/min)."""
+    import fal_client
+    import requests
+
+    endpoint = "fal-ai/sync-lipsync/v2/pro" if model == "lipsync-2-pro" else "fal-ai/sync-lipsync/v2"
+    res = fal_client.subscribe(endpoint, arguments={
+        "video_url": fal_client.upload(video, "video/mp4"),
+        "audio_url": fal_client.upload(audio, "audio/mpeg"),
+        "sync_mode": "cut_off"})
+    return requests.get(res["video"]["url"], timeout=300).content
+
+
 @app.function(image=image, timeout=600, secrets=[KEYS])
 def narrate(text: str, voice_id: str, model: str, settings: dict) -> tuple[bytes, dict]:
     import base64
@@ -542,6 +556,31 @@ def produce(spec: dict) -> dict:
             CACHE.commit()
         except Exception as exc:
             print(f"AVATAR FAILED for shot {k}: {str(exc)[:300]}")
+
+    # ---- optional better lip sync on finished talking clips
+    resync_calls = {}
+    for k, v in shot_specs.items():
+        if not (v.get("avatar") and v.get("resync")) or not have(v.get("motion_file", "")):
+            continue
+        li = k[0]
+        rname = "resync_" + v["motion_file"]
+        if not have(rname):
+            st = line_starts[li]
+            en = line_starts[li + 1] if li + 1 < len(lines) else audio_len + 0.2
+            seg = work / f"rs_{li}.mp3"
+            run(["ffmpeg", "-y", "-ss", f"{st:.3f}", "-to", f"{en:.3f}", "-i", str(work / "narration.mp3"),
+                 "-c:a", "libmp3lame", "-b:a", "192k", str(seg)])
+            resync_calls[k] = (rname, resync_lips.spawn((cache / v["motion_file"]).read_bytes(),
+                                                        seg.read_bytes(), v.get("resync_model", "lipsync-2")))
+        else:
+            v["motion_file"] = rname
+    for k, (rname, call) in resync_calls.items():
+        try:
+            (cache / rname).write_bytes(call.get())
+            CACHE.commit()
+            shot_specs[k]["motion_file"] = rname
+        except Exception as exc:
+            print(f"RESYNC FAILED for shot {k}: {str(exc)[:300]}")
 
     # ---- collect motion, music, sfx
     motion_ok = {}

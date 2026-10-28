@@ -59,6 +59,17 @@ Reference: `specs/007_hindenburg_host.json` (v7) + `outputs/shorts/007_hindenbur
 9. Workflow: script -> cheap still preview (~$0.5-1) -> owner OK -> full production. Quote cost and get
    permission before every paid run.
 
+## Lessons from 008 (Titanic, Time Travel #2)
+- Host voice is now Chris (iP95p4xoKVk53GoZ742B, eleven_multilingual_v2, speed 1.05) with `voice_fx: vlog`.
+- Talking scenes: Kling v3 Pro motion clip + lip sync (`talk_motion`) looks more natural than the photo
+  avatar. Keep the face roughly frontal WHILE speaking (head turns break lip sync); optional `resync`
+  (Sync lipsync-2, $3/min) for the most visible frontal shots.
+- Talking clips are keyed on the WHOLE narration: any text or voice change re-generates every talking
+  scene (~$0.5 each). Lock the script before making talking scenes.
+- Story that worked best on preview: dramatic irony (viewer knows, host doesn't), fun first half, turn,
+  tragedy, meaningful ending (no "I survived while others died").
+- Always quote the cost and get an explicit yes before each paid run, even after the owner picks an option.
+
 ## Owner rules
 - NEVER start any video production (never set a spec to `ready`, never run the pipeline) without asking
   the owner first and getting explicit permission for that specific run. No exceptions.

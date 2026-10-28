@@ -14,18 +14,18 @@
    "callout": "APRIL 14, 1912"
   },
   {
-   "text": "I'm on the Titanic. Everyone's celebrating. I'm counting.",
+   "text": "I'm on the Titanic. It hits an iceberg at eleven forty. I have to stop it.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, taking a handheld selfie at the rail of the Titanic's sunny boat deck in the late afternoon, four giant buff-and-black funnels behind him, elegant 1912 passengers strolling, his face tense and serious.",
-     "move": "push_in",
-     "avatar": true
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, taking a handheld selfie at the rail of the Titanic's sunny boat deck in the late afternoon, four giant buff-and-black funnels behind him, elegant 1912 passengers strolling, his face tense, worried and determined, not smiling.",
+     "move": "push_in"
     }
    ],
-   "callout": "4:40:00"
+   "callout": "4:40:00",
+   "callout_y": 0.17
   },
   {
-   "text": "Seven ice warnings reach the radio room.",
+   "text": "Seven ice warnings come in. Nobody slows down.",
    "shots": [
     {
      "prompt": "Inside the Titanic's cramped 1912 wireless room at night, a young operator in headphones tapping a Morse key, a pile of paper telegram slips spilling across the desk, blue electric sparks.",
@@ -35,26 +35,27 @@
    "callout": "7 WARNINGS"
   },
   {
-   "text": "Up in the crow's nest... no binoculars.",
+   "text": "The lookouts? No binoculars.",
    "shots": [
     {
-     "prompt": "Two lookouts in heavy wool coats in the Titanic's crow's nest high on the foremast at night, squinting into pitch-black freezing darkness with bare eyes, breath fogging, stars over a calm black sea.",
+     "prompt": "Looking up at the Titanic's crow's nest, a small round lookout platform high up on the tall foremast at night, two lookouts in heavy coats inside it squinting into the freezing darkness with bare eyes, stars above, rigging ropes, the dark sea far below.",
      "move": "push_in"
     }
    ]
   },
   {
-   "text": "It's freezing. Twenty-two knots. In the dark.",
+   "text": "We're racing through the ice. In the dark.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, close handheld selfie on the Titanic's dark deck at night, breath fogging in the freezing air, frost on the rail, deck lamps glowing behind him, urgent expression.",
      "move": "push_in"
     }
    ],
-   "callout": "22 KNOTS"
+   "callout": "22 KNOTS",
+   "callout_y": 0.17
   },
   {
-   "text": "I warn an officer. He smiles. Practically unsinkable.",
+   "text": "I beg an officer to slow down. He laughs. Practically unsinkable.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, pleading with a calm, smiling 1912 ship's officer in a dark uniform and cap on the Titanic's bridge wing at night, the officer gesturing reassuringly.",
@@ -64,23 +65,18 @@
    "callout": "1:00:00"
   },
   {
-   "text": "Eleven thirty-nine.",
+   "text": "Eleven forty. Iceberg, right ahead!",
    "shots": [
     {
-     "prompt": "A brass ship's clock on the wall of the Titanic's bridge at night showing 11:39, a quartermaster's hands on the large wooden wheel in the dark foreground.",
+     "prompt": "A brass ship's clock on the dark wood-paneled wall of the Titanic's bridge at night, its hands showing twenty to twelve, a dim lamp glow.",
      "move": "push_in"
-    }
-   ],
-   "callout": "0:01:00"
-  },
-  {
-   "text": "Three bells. Iceberg, right ahead!",
-   "shots": [
+    },
     {
      "prompt": "A lookout in the Titanic's crow's nest at night yanking the rope of the brass warning bell, shouting into the telephone, a huge pale iceberg looming out of the darkness straight ahead.",
      "move": "push_in"
     }
-   ]
+   ],
+   "callout": "11:40 PM"
   },
   {
    "text": "Too late.",
@@ -92,7 +88,7 @@
    ]
   },
   {
-   "text": "Ice on the deck. People play with it.",
+   "text": "Ice on the deck. People laugh and play with it. They have no idea.",
    "shots": [
     {
      "prompt": "1912 passengers in evening coats laughing and kicking chunks of ice around the Titanic's well deck at night under deck lamps, unaware, ice shards glittering.",
@@ -101,7 +97,7 @@
    ]
   },
   {
-   "text": "The first lifeboat leaves with twenty-eight people. It holds sixty-five.",
+   "text": "The first lifeboat leaves with twenty-eight people. Room for sixty-five.",
    "shots": [
     {
      "prompt": "A half-empty wooden lifeboat being lowered down the side of the Titanic at night on ropes and davits, only a few passengers in coats inside, empty seats visible, the giant hull towering above.",
@@ -111,14 +107,15 @@
    "callout": "28 / 65"
   },
   {
-   "text": "Twenty lifeboats. Over two thousand people. Do the math.",
+   "text": "Twenty lifeboats. Over two thousand people. Not enough seats.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, frantic selfie on the tilting Titanic boat deck at night amid a panicking crowd in life jackets and coats, crew holding people back near the lifeboats, white distress rockets bursting in the sky behind him.",
      "move": "push_in"
     }
    ],
-   "callout": "20 BOATS"
+   "callout": "20 BOATS",
+   "callout_y": 0.17
   },
   {
    "text": "The band keeps playing.",
@@ -130,10 +127,14 @@
    ]
   },
   {
-   "text": "A ship's lights, maybe ten miles away. Its radio operator... asleep.",
+   "text": "Another ship is close enough to see. Its radio is off.",
    "shots": [
     {
-     "prompt": "The faint lights of another steamship on the dark horizon seen across a black calm sea at night, and in the foreground a dark ship's radio cabin with a radio operator asleep in his bunk, headphones hung on the hook.",
+     "prompt": "The faint lights of another steamship on the dark horizon seen across a black calm sea at night from the Titanic's deck, white distress rockets rising into the sky.",
+     "move": "push_in"
+    },
+    {
+     "prompt": "A dark, empty 1912 ship's wireless cabin at night, the radio set switched off, headphones hanging unused on a hook, a single dim lamp.",
      "move": "push_in"
     }
    ]
@@ -149,28 +150,29 @@
    "callout": "2:20 AM"
   },
   {
-   "text": "About fifteen hundred people never make it home.",
+   "text": "I couldn't stop it. About fifteen hundred people never come home.",
    "shots": [
     {
      "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, sitting in a crowded lifeboat on the black sea at night, wrapped in a blanket, his face lit by a lantern, eyes wet, looking into the camera, other survivors huddled around him.",
      "move": "push_in"
     }
    ],
-   "callout": "~1,500 LOST"
+   "callout": "~1,500 LOST",
+   "callout_y": 0.17
   }
  ],
  "sfx": {
   "riser_into_lines": [
-   14
+   13
   ],
   "impact_on_lines": [
    0,
-   8,
-   14
+   7,
+   13
   ],
   "heartbeat_lines": [
    2,
-   7
+   6
   ]
  },
  "settings": {
@@ -187,5 +189,5 @@
  },
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm",
  "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died.\n\nWhat's dramatized: my visit, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
- "status": "done-preview"
+ "status": "ready-preview-3"
 }

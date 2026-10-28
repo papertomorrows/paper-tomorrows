@@ -1,0 +1,51 @@
+{
+ "id": "voice_test_host",
+ "voice_test": [
+  {
+   "name": "Liam",
+   "id": "TX3LPaxmHKxFdv7VOQHJ",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Will",
+   "id": "bIHbv24MWmeRgasZH58o",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Chris",
+   "id": "iP95p4xoKVk53GoZ742B",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  },
+  {
+   "name": "Charlie",
+   "id": "IKne3meq5aSn9XLyUdCD",
+   "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "use_speaker_boost": true,
+    "speed": 1.0
+   }
+  }
+ ],
+ "text": "I just time traveled onto the most beautiful ship I've ever seen. ... Wait. What's the name of this ship? ... Titanic. ... And today is... April fourteenth.",
+ "status": "ready-voice-test"
+}

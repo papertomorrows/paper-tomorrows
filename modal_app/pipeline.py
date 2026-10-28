@@ -729,6 +729,21 @@ def produce(spec: dict) -> dict:
 @app.local_entrypoint()
 def main(spec: str):
     spec_data = json.loads(pathlib.Path(spec).read_text())
+    if spec_data.get("voice_test"):
+        # voice samples only: same text in several voices (ElevenLabs subscription, no fal cost)
+        out = pathlib.Path("outputs/shorts") / spec_data["id"]
+        out.mkdir(parents=True, exist_ok=True)
+        jobs = spec_data["voice_test"]
+        calls = [narrate.spawn(spec_data["text"], v["id"], v.get("model", "eleven_multilingual_v2"),
+                               v.get("settings", DEFAULTS["voice_settings"])) for v in jobs]
+        for v, c in zip(jobs, calls):
+            try:
+                audio, _ = c.get()
+                (out / f"voice_{v['name']}.mp3").write_bytes(audio)
+            except Exception as exc:
+                print(f"VOICE FAILED {v['name']}: {str(exc)[:300]}")
+        print(f"SHORT OK id={spec_data['id']} voice_test={len(jobs)}")
+        return
     if spec_data.get("images_only"):
         # still images only (cheap look test): no voice, no video
         out = pathlib.Path("outputs/shorts") / spec_data["id"] / "scenes"

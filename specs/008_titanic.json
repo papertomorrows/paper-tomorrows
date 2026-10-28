@@ -118,7 +118,7 @@
    "text": "And today is... April fourteenth.",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, his face frozen in horror, eyes wide, slowly lowering the camera on the Titanic's dark frosty deck at night, deck lamps behind him, breath fogging.",
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, his face frozen in horror, eyes wide, his arm stretched toward the viewer as if holding a phone, no camera or phone visible, on the Titanic's dark frosty deck at night, deck lamps behind him, breath fogging.",
      "move": "push_in",
      "talk": true
     }
@@ -163,6 +163,16 @@
    "callout": "20 BOATS"
   },
   {
+   "text": "I give my seat to a mother and her little boy.",
+   "shots": [
+    {
+     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, on the tilting Titanic boat deck at night helping a frightened 1912 mother and her small son in coats into the last wooden lifeboat, the lifeboat beginning to lower, white distress rockets above, his face serious and gentle, no camera visible.",
+     "move": "push_in",
+     "talk": true
+    }
+   ]
+  },
+  {
    "text": "The band keeps playing.",
    "shots": [
     {
@@ -190,16 +200,14 @@
    "callout": "2:20 AM"
   },
   {
-   "text": "About fifteen hundred people never came home. And I was toasting champagne.",
+   "text": "About fifteen hundred people never came home. After that night, the rules changed. Lifeboats for everyone.",
+   "callout": "~1,500 LOST",
    "shots": [
     {
-     "prompt": "a modern time traveler, a man in his early 30s with short dark curly hair, light stubble, round wire glasses, wearing a dark green modern rain jacket over a grey hoodie, sitting in a crowded lifeboat on the black sea at night, wrapped in a blanket, his face lit by a lantern, eyes wet, looking into the camera, other survivors huddled around him.",
-     "move": "push_in",
-     "talk": true
+     "prompt": "A modern white cruise ship in bright daylight seen from the side, a long row of orange lifeboats hanging along its deck, calm blue sea, peaceful.",
+     "move": "pull_out"
     }
-   ],
-   "callout": "~1,500 LOST",
-   "callout_y": 0.17
+   ]
   }
  ],
  "sfx": {
@@ -209,7 +217,7 @@
   "impact_on_lines": [
    9,
    11,
-   15
+   16
   ],
   "heartbeat_lines": [
    5,
@@ -229,6 +237,6 @@
   "min_split_seconds": 1.4
  },
  "music_prompt": "Tense cinematic thriller underscore, low pulsing synth heartbeat, ticking clock rhythm, ominous deep strings slowly building suspense, dramatic and emotional, no vocals, 90 bpm",
- "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: the Titanic had a heated saltwater swimming pool, a gym with a mechanical camel, and a 10-course last first-class dinner. seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. Chief baker Charles Joughin drank whisky, threw deck chairs overboard as rafts, and survived for hours in the freezing water. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died.\n\nWhat's dramatized: my visit, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
- "status": "done-preview-6"
+ "metadata": "# Short #008 - Time Travel #2: The Titanic\n\n## Title\nI Had One Night to Save the Titanic | Time Travel #2\n\n## Description\nI time traveled onto the Titanic on April 14, 1912. I knew how it would end.\n\nWhat's real: the Titanic had a heated saltwater swimming pool, a gym with a mechanical camel, and a 10-course last first-class dinner. seven ice warnings reached Titanic's wireless operators. The lookouts had no binoculars. The ship was doing about 22 knots when lookout Frederick Fleet rang the bell three times and reported \"Iceberg, right ahead!\" at 11:40 p.m. Ice fell onto the deck. The first lifeboat left with about 28 people aboard; it could hold 65. There were 20 lifeboats for more than 2,200 people. The band kept playing. Chief baker Charles Joughin drank whisky, threw deck chairs overboard as rafts, and survived for hours in the freezing water. The nearest ship, the Californian, was roughly 10-12 miles away, and its radio operator had switched off his set and gone to bed. The Titanic sank at 2:20 a.m. on April 15. About 1,500 people died. Afterwards the rules changed: the 1914 SOLAS treaty required enough lifeboats for everyone aboard.\n\nWhat's dramatized: my visit, the mother and son, my warnings, the officer's words and the countdown. Visuals are AI-generated, not real footage.\n\nSources:\n- Wikipedia: Sinking of the Titanic\n- Royal Museums Greenwich: RMS Titanic facts\n\n#TimeTravel #Titanic #History #1912\n\n## First comment\nWhere should I time travel next? 👇\n",
+ "status": "ready-preview-7"
 }

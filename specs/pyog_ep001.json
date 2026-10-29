@@ -6,6 +6,8 @@
  "speed": 0.92,
  "seed": 2,
  "captions": true,
- "status": "ready-ep001-v4",
- "min_luma": 28
+ "status": "ready-ep001-v5",
+ "min_luma": 28,
+ "brand_mark": false,
+ "max_ai_fallbacks": 3
 }

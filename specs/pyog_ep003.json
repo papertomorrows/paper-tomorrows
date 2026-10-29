@@ -8,5 +8,7 @@
  "captions": true,
  "min_luma": 28,
  "max_ai_fallbacks": 5,
- "status": "hold-ep003"
+ "status": "hold-ep003",
+ "mark_text": "당신만의 게임",
+ "kicker_text": "당신만의 게임"
 }

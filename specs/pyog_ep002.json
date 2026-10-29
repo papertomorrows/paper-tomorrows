@@ -8,6 +8,8 @@
  "captions": true,
  "min_luma": 28,
  "max_ai_fallbacks": 3,
- "status": "ready-ep002-v3",
- "brand_mark": false
+ "status": "ready-ep002-v4",
+ "brand_mark": true,
+ "mark_text": "당신만의 게임",
+ "kicker_text": "당신만의 게임"
 }

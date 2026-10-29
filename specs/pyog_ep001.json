@@ -6,8 +6,10 @@
  "speed": 0.92,
  "seed": 2,
  "captions": true,
- "status": "ready-ep001-v5",
+ "status": "ready-ep001-v6",
  "min_luma": 28,
- "brand_mark": false,
- "max_ai_fallbacks": 3
+ "brand_mark": true,
+ "max_ai_fallbacks": 3,
+ "mark_text": "당신만의 게임",
+ "kicker_text": "당신만의 게임"
 }

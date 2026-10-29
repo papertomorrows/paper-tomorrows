@@ -94,7 +94,7 @@ Reference: `specs/007_hindenburg_host.json` (v7) + `outputs/shorts/007_hindenbur
 - Owner will cross-post the same shorts to Instagram Reels, Threads and TikTok (AI label on).
 
 ## PYOG bilingual plan (2026-10-29)
-- Two separate channels: English = "Play Your Own Game" (existing channel); Korean = new channel, Korean name not decided yet (KR renders use brand_mark=false until then).
+- Two separate channels: English = "Play Your Own Game" (existing channel); Korean = "당신만의 게임" (@당신만의게임); KR specs use mark_text + kicker_text "당신만의 게임". English channel handle is @playyourowngameplz.
 - Every episode: Korean version (voice Korean_CalmGentleman, speed 0.92, owner likes it, never change) + English adaptation (pyog/en/*.md, voice English_CaptivatingStoryteller "D", speed 0.95, lang English, spec id pyog_epXXX_en).
 - English is rewritten naturally, not literal; stock keywords partly different from KR.
 - Chapter title cards: yes for story/info episodes, NO for meditation/affirmation/sleep episodes.

@@ -92,3 +92,11 @@ Reference: `specs/007_hindenburg_host.json` (v7) + `outputs/shorts/007_hindenbur
 - TikTok-specific channel: later, after Paper Tomorrows data. First confirm whether South Korea is
   eligible for the TikTok Creator Rewards Program (needs 1 min+ videos, 10k followers, 100k views/30 days).
 - Owner will cross-post the same shorts to Instagram Reels, Threads and TikTok (AI label on).
+
+## PYOG bilingual plan (2026-10-29)
+- Two separate channels: English = "Play Your Own Game" (existing channel); Korean = new channel, Korean name not decided yet (KR renders use brand_mark=false until then).
+- Every episode: Korean version (voice Korean_CalmGentleman, speed 0.92, owner likes it, never change) + English adaptation (pyog/en/*.md, voice English_CaptivatingStoryteller "D", speed 0.95, lang English, spec id pyog_epXXX_en).
+- English is rewritten naturally, not literal; stock keywords partly different from KR.
+- Chapter title cards: yes for story/info episodes, NO for meditation/affirmation/sleep episodes.
+- Cost: EN voice ~$0.1 per 1k chars (~$0.45-0.65/ep), KR re-render with cached voice ~$0.3.
+- EP001+EP002 KR final and EN v1 delivered; EP003 on hold (status hold-ep003), needs EN script.

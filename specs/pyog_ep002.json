@@ -1,0 +1,12 @@
+{
+ "id": "pyog_ep002",
+ "script": "pyog/ep002_why_you_see_what_you_want.md",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "voice_id": "Korean_CalmGentleman",
+ "speed": 0.92,
+ "seed": 3,
+ "captions": true,
+ "min_luma": 28,
+ "max_ai_fallbacks": 5,
+ "status": "ready-ep002"
+}

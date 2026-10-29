@@ -109,16 +109,20 @@ jobs:
           path: outputs/longform
           if-no-files-found: ignore
           retention-days: 14
-      - name: Deliver long-form videos (latest only, split for git)
+      - name: Deliver long-form videos (kept per episode on the 'deliveries' branch)
         if: always()
         run: |
           [ -d outputs/longform ] || exit 0
-          mkdir -p /tmp/deliv && cp -r outputs/longform/* /tmp/deliv/
+          URL="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git clone -q --depth 1 -b deliveries "$URL" /tmp/deliv 2>/dev/null || (mkdir -p /tmp/deliv && git -C /tmp/deliv init -q)
+          for d in outputs/longform/*/; do
+            id=$(basename "$d"); rm -rf "/tmp/deliv/$id"; cp -r "$d" "/tmp/deliv/$id"
+            for f in /tmp/deliv/$id/*.mp4; do split -b 90m -d "$f" "$f.part"; rm "$f"; done
+          done
           cd /tmp/deliv
-          for f in $(find . -name "*.mp4"); do split -b 90m -d "$f" "$f.part"; rm "$f"; done
-          git init -q -b deliveries . && git add -A
-          git -c user.name=paper-tomorrows-bot -c user.email=actions@users.noreply.github.com commit -qm "latest long-form delivery"
-          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" deliveries
+          git checkout -q --orphan fresh && git add -A
+          git -c user.name=paper-tomorrows-bot -c user.email=actions@users.noreply.github.com commit -qm "long-form deliveries"
+          git push -qf "$URL" HEAD:deliveries
       - name: Commit outputs
         if: always()
         run: |

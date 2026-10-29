@@ -211,6 +211,12 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                       "soft volumetric light, peaceful spiritual atmosphere, no text, no watermark")
             f = cache / "stock" / f"ai_{key(prompt)}.jpg"
             if not f.exists():
+                if fallbacks >= int(spec.get("max_ai_fallbacks", 99)):
+                    pool = sec["clips"] or clip_files  # budget reached: reuse a clip instead of paying
+                    if pool:
+                        sec["clips"].append(pool[k % len(pool)])
+                        clip_files.append(pool[k % len(pool)])
+                        continue
                 f.write_bytes(fallback_image.remote(prompt, 100 + k))
                 fallbacks += 1
             clip_files.append(("image", f))

@@ -109,6 +109,16 @@ jobs:
           path: outputs/longform
           if-no-files-found: ignore
           retention-days: 14
+      - name: Deliver long-form videos (latest only, split for git)
+        if: always()
+        run: |
+          [ -d outputs/longform ] || exit 0
+          mkdir -p /tmp/deliv && cp -r outputs/longform/* /tmp/deliv/
+          cd /tmp/deliv
+          for f in $(find . -name "*.mp4"); do split -b 90m -d "$f" "$f.part"; rm "$f"; done
+          git init -q -b deliveries . && git add -A
+          git -c user.name=paper-tomorrows-bot -c user.email=actions@users.noreply.github.com commit -qm "latest long-form delivery"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" deliveries
       - name: Commit outputs
         if: always()
         run: |

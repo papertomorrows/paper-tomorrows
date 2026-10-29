@@ -835,10 +835,14 @@ def main(spec: str):
             except Exception as exc:
                 print(f"ASSET FAILED {name}: {str(exc)[:300]}")
         for i, c in enumerate(imgs):
-            try:
-                (out / f"img_{i:02d}.jpg").write_bytes(c.get()[1])
-            except Exception as exc:
-                print(f"ASSET FAILED img {i}: {str(exc)[:300]}")
+            for attempt in range(3):
+                try:
+                    data = c.get()[1] if attempt == 0 else generate_image.remote(
+                        f"{a['images'][i]} {a.get('style', '')}", 3000 + i, iw, ih)[1]
+                    (out / f"img_{i:02d}.jpg").write_bytes(data)
+                    break
+                except Exception as exc:
+                    print(f"ASSET FAILED img {i} try {attempt}: {str(exc)[:300]}")
         print(f"SHORT OK id={spec_data['id']} assets")
         return
     if spec_data.get("voice_lines"):

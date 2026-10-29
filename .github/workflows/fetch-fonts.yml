@@ -1,0 +1,25 @@
+name: Fetch brand fonts
+on:
+  push:
+    paths: [".github/workflows/fetch-fonts.yml"]
+permissions:
+  contents: write
+jobs:
+  fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p assets/fonts && cd assets/fonts
+          G=https://github.com/google/fonts/raw/main/ofl
+          curl -fsSL -o CormorantGaramond.ttf "$G/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf"
+          curl -fsSL -o CormorantGaramond-Italic.ttf "$G/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf"
+          curl -fsSL -o Inter.ttf "$G/inter/Inter%5Bopsz,wght%5D.ttf"
+          curl -fsSL -o GowunBatang-Regular.ttf "$G/gowunbatang/GowunBatang-Regular.ttf"
+          curl -fsSL -o GowunBatang-Bold.ttf "$G/gowunbatang/GowunBatang-Bold.ttf"
+          curl -fsSL -o Cinzel.ttf "$G/cinzel/Cinzel%5Bwght%5D.ttf"
+          for w in Thin Light Regular Medium SemiBold; do curl -fsSL -o Pretendard-$w.otf "https://github.com/orioncactus/pretendard/raw/main/packages/pretendard/dist/public/static/Pretendard-$w.otf"; done
+          ls -la
+      - run: |
+          git config user.name paper-tomorrows-bot; git config user.email actions@users.noreply.github.com
+          git add assets/fonts && git commit -m "Add brand fonts (OFL) [skip ci]" && git push

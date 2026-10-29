@@ -310,8 +310,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             a0 = 0.0 if si == 0 else sections[si - 1]["end"]
             ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Chap,,0,0,0,,"
                        f"{{\\pos({W // 2},{H // 2})\\fad(500,600)}}{sec['title']}")
-            ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Kick,,0,0,0,,"
-                       f"{{\\pos({W // 2},{H // 2 - 105})\\fad(500,600)}}PLAY YOUR OWN GAME")
+            kick = spec.get("kicker_text", "PLAY YOUR OWN GAME" if spec.get("brand_mark", True) else "")
+            if kick:
+                ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Kick,,0,0,0,,"
+                           f"{{\\pos({W // 2},{H // 2 - 105})\\fad(500,600)}}{kick}")
     if spec.get("brand_mark", True):
         ass.append(f"Dialogue: 2,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{spec.get('mark_text', 'Play Your Own Game')}")
     (work / "cap.ass").write_text("\n".join(ass))

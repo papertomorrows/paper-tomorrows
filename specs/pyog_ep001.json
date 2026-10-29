@@ -6,5 +6,6 @@
  "speed": 0.92,
  "seed": 2,
  "captions": true,
- "status": "ready-ep001-v2"
+ "status": "ready-ep001-v2b",
+ "min_luma": 28
 }

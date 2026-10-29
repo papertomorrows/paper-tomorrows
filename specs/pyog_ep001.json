@@ -1,0 +1,10 @@
+{
+ "id": "pyog_ep001",
+ "script": "pyog/ep001_npc_7_signs.md",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "voice_id": "Korean_CalmGentleman",
+ "speed": 0.92,
+ "seed": 1,
+ "captions": true,
+ "status": "ready-ep001"
+}

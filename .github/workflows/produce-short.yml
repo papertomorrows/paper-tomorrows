@@ -77,7 +77,9 @@ jobs:
             NAME=$(basename "$SPEC" .json)
             (
               for TRY in 1 2 3; do
-                timeout 2700 modal run modal_app/pipeline.py --spec "$SPEC" > "log_$NAME.txt" 2>&1 && exit 0
+                APP=modal_app/pipeline.py
+                case "$NAME" in pyog_ep*) APP=modal_app/pyog.py;; esac
+                timeout 2700 modal run "$APP" --spec "$SPEC" > "log_$NAME.txt" 2>&1 && exit 0
                 grep -qi "rate limit" "log_$NAME.txt" || exit 1
                 echo "rate limited, retrying $NAME (try $TRY)"; sleep $((30 * TRY))
               done
@@ -99,6 +101,14 @@ jobs:
         if: failure()
         run: |
           echo "see per-short errors above"
+      - name: Keep long-form videos as a download
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: longform
+          path: outputs/longform
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Commit outputs
         if: always()
         run: |

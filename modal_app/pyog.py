@@ -71,7 +71,7 @@ def parse_script(md: str):
     return sections
 
 
-def wrap(text: str, width: int = 24) -> str:
+def wrap(text: str, width: int = 22) -> str:
     words, lines, cur = text.split(" "), [], ""
     for w in words:
         if len(cur) + len(w) + 1 > width and cur:
@@ -158,37 +158,53 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
              "".join(f"[{i}:a]" for i in range(len(chunk_files))) +
              f"amix=inputs={len(chunk_files)}:normalize=0:duration=longest[m]", "-map", "[m]", str(nar)])
 
-    # ---- stock clips per section (Pixabay)
+    # ---- stock clips per section (Pixabay): most relevant first, skip near-black clips
     pkey = os.environ.get("PIXABAY_API_KEY", "")
-    used, clip_files, fallbacks = set(), [], 0
-    rng = random.Random(spec.get("seed", 7))
+    used, clip_files, fallbacks, dark = set(), [], 0, 0
+    min_luma = float(spec.get("min_luma", 55))
+
+    def luma(f):
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", "2", "-i", str(f), "-frames:v", "1", "-vf",
+                              "scale=64:36,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
+        return sum(raw) / max(len(raw), 1)
+
     for sec in sections:
         need = max(1, math.ceil((sec["end"] - sec["start"]) / CLIP))
-        cands = []
+        lists = []
         for kw in sec["visuals"] or ["calm nature"]:
+            hits = []
             try:
                 r = requests.get("https://pixabay.com/api/videos/", timeout=30, params={
-                    "key": pkey, "q": kw, "per_page": 20, "safesearch": "true", "video_type": "film"}).json()
+                    "key": pkey, "q": kw, "per_page": 30, "safesearch": "true", "video_type": "film",
+                    "order": "popular"}).json()
                 for h in r.get("hits", []):
                     v = h["videos"].get("large") or h["videos"].get("medium")
-                    if v and v.get("url") and h["duration"] >= CLIP + 1 and h["id"] not in used:
-                        cands.append((h["id"], v["url"], kw))
+                    if v and v.get("url") and h["duration"] >= CLIP + 2 and v.get("width", 1920) >= 1280:
+                        hits.append((h["id"], v["url"], kw))
             except Exception as exc:
                 print(f"PIXABAY FAILED '{kw}': {str(exc)[:200]}")
-        rng.shuffle(cands)
-        seen, picked = set(), []
-        for c in cands:
-            if c[0] not in seen and c[0] not in used:
-                seen.add(c[0])
-                picked.append(c)
-            if len(picked) == need:
-                break
-        for cid, url, kw in picked:
-            used.add(cid)
-            f = cache / "stock" / f"px_{cid}.mp4"
-            if not f.exists():
-                f.write_bytes(requests.get(url, timeout=300).content)
-            clip_files.append(("video", f))
+            lists.append(hits)
+        picked = []
+        depth = 0
+        while len(picked) < need and any(depth < len(l) for l in lists):
+            for l in lists:  # round-robin over keywords, best-ranked first
+                if depth < len(l) and len(picked) < need:
+                    cid, url, kw = l[depth]
+                    if cid in used:
+                        continue
+                    f = cache / "stock" / f"px_{cid}.mp4"
+                    if not f.exists():
+                        try:
+                            f.write_bytes(requests.get(url, timeout=300).content)
+                        except Exception:
+                            continue
+                    used.add(cid)
+                    if luma(f) < min_luma:
+                        dark += 1
+                        continue
+                    picked.append(f)
+            depth += 1
+        clip_files += [("video", f) for f in picked]
         for k in range(need - len(picked)):  # not enough stock: calm AI image instead
             prompt = (f"{(sec['visuals'] or ['calm cosmos'])[k % max(1, len(sec['visuals']))]}, cinematic, dreamy, "
                       "soft volumetric light, peaceful spiritual atmosphere, no text, no watermark")
@@ -197,6 +213,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 f.write_bytes(fallback_image.remote(prompt, 100 + k))
                 fallbacks += 1
             clip_files.append(("image", f))
+    print(f"STEP visuals: skipped {dark} dark clips")
     CACHE.commit()
     print(f"STEP visuals: {len(clip_files)} clips ({fallbacks} AI fallbacks)")
 
@@ -230,8 +247,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, "
            "Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, "
            "Alignment, MarginL, MarginR, MarginV, Encoding",
-           "Style: Cap,Noto Sans CJK KR,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,"
-           "2.5,2,2,160,160,90,1", "", "[Events]",
+           "Style: Cap,Noto Sans CJK KR,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,1,0,0,0,100,100,0,0,1,"
+           "3.5,2,2,140,140,80,1", "", "[Events]",
            "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     for st, en, tx in events:
         ass.append(f"Dialogue: 0,{ass_time(st)},{ass_time(en + 0.15)},Cap,,0,0,0,,{{\\fad(150,150)}}{wrap(tx)}")

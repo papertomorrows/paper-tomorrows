@@ -1,6 +1,6 @@
 # EP001 당신이 NPC로 살고 있다는 7가지 신호, 그리고 플레이어로 깨어나는 법
 
-<!-- section: intro | visuals: cosmos, lone person walking, city crowd -->
+<!-- section: intro | visuals: galaxy, milky way, starry sky, walking alone, city crowd -->
 어쩌면 당신은 지금, 다른 누군가가 정한 게임을 하고 있는지도 모릅니다.
 
 아침에 눈을 뜨면, 어제와 같은 길을 걷고, 어제와 같은 생각을 하고, 어제와 같은 걱정을 합니다. 마치... 정해진 대사만 반복하는 게임 속 캐릭터처럼요.
@@ -17,7 +17,7 @@
 
 정답을 알려드리려는 게 아닙니다. 그저, 거울 하나를 건네드리고 싶습니다. 천천히, 편안하게 들어주세요.
 
-<!-- section: sign1 | visuals: morning routine, clock, commuters, repetition -->
+<!-- section: sign1 | visuals: morning coffee, alarm clock, commuters, subway train, city traffic -->
 첫 번째 신호. 당신의 하루는, 대부분 자동으로 흘러갑니다.
 
 미국의 심리학자 웬디 우드는 사람들에게 하루 동안 자신이 무엇을 하고 있는지 기록하게 했습니다. 그 결과, 사람들이 하는 행동의 약 43퍼센트가 거의 매일, 같은 상황에서 반복되는 습관이었습니다.
@@ -30,7 +30,7 @@
 
 오늘, 단 한 번이라도 멈춰서 스스로에게 물어보세요. '나는 지금, 이것을 선택하고 있는가?' 그 짧은 질문이, 플레이어가 누르는 첫 번째 버튼입니다.
 
-<!-- section: sign2 | visuals: crowd, people following, mirror reflections -->
+<!-- section: sign2 | visuals: crowd walking, pedestrians, footsteps, flock of birds, city people -->
 두 번째 신호. 당신의 선택은, 대부분 다른 사람의 선택을 따라갑니다.
 
 1951년, 심리학자 솔로몬 애쉬는 아주 간단한 실험을 했습니다. 사람들에게 선 몇 개를 보여주고, 길이가 같은 선을 고르게 한 것이죠. 누구나 맞힐 수 있는 쉬운 문제였습니다.
@@ -43,7 +43,7 @@
 
 남들과 같은 선택을 하는 것이 틀린 건 아닙니다. 다만, 그것이 내 선택이었는지 아닌지는 알고 있어야 합니다. 플레이어는 남들과 같은 길을 가더라도, 그 길을 스스로 고릅니다.
 
-<!-- section: sign3 | visuals: rain on window, spiral, maze -->
+<!-- section: sign3 | visuals: rain window, waves, fog, thinking, clouds timelapse -->
 세 번째 신호. 당신은 같은 걱정을, 같은 방식으로 반복합니다.
 
 어제 했던 걱정을 오늘도 하고, 오늘 한 걱정을 내일도 합니다. 걱정은 늘 같은 곳에서 시작해서, 같은 곳에서 끝납니다.
@@ -54,7 +54,7 @@
 
 그 순간, 당신은 생각 속에 갇힌 캐릭터가 아니라, 그 생각을 바라보는 사람이 됩니다. 생각과 나 사이에, 아주 작은 공간이 생기는 거죠. 그 공간이 바로, 자유가 시작되는 곳입니다.
 
-<!-- section: sign4 | visuals: calendar pages, hourglass, dusty box -->
+<!-- section: sign4 | visuals: hourglass, clock, sunset timelapse, calendar, dust light -->
 네 번째 신호. 당신의 꿈은 언제나, '언젠가'에 있습니다.
 
 언젠가 여행을 가고, 언젠가 배우고 싶던 걸 배우고, 언젠가 하고 싶던 말을 하겠다고 생각합니다.
@@ -65,7 +65,7 @@
 
 꿈 전체를 오늘 이룰 필요는 없습니다. 오늘은 그 퀘스트의 첫 번째 칸 하나만, 열어보면 됩니다.
 
-<!-- section: sign5 | visuals: phone screen glow, puppet strings, ocean waves -->
+<!-- section: sign5 | visuals: smartphone, social media, ocean waves, storm sea, calm lake -->
 다섯 번째 신호. 당신의 기분은, 다른 사람의 반응에 따라 오르내립니다.
 
 누군가 칭찬하면 하루가 밝아지고, 누군가 무심하게 한 말에 하루가 무너집니다. 메시지에 답장이 늦으면 마음이 불안해지고, 좋아요 숫자에 따라 내 가치가 오르내리는 것 같습니다.
@@ -76,7 +76,7 @@
 
 오늘 누군가의 말에 마음이 흔들린다면, 잠시 숨을 고르고 이렇게 말해 보세요. '이 감정은 내가 느끼는 것이고, 이 감정을 어떻게 할지도 내가 정한다.' 조종기는, 원래 당신의 것이었습니다.
 
-<!-- section: sign6 | visuals: foggy forest path, crossroads, compass -->
+<!-- section: sign6 | visuals: foggy forest, forest path, compass, crossroads, mountain fog -->
 여섯 번째 신호. 누군가 '당신은 정말 무엇을 원하나요?'라고 물으면, 말문이 막힙니다.
 
 무엇을 해야 하는지는 잘 압니다. 무엇을 하면 안 되는지도 압니다. 그런데 정작, 내가 무엇을 원하는지는 잘 모르겠습니다.
@@ -87,7 +87,7 @@
 
 다시 듣는 방법은 의외로 단순합니다. 하루에 한 번, 아주 작은 것부터 스스로 골라 보세요. 점심 메뉴, 걷는 길, 듣는 음악. 작은 선택이 쌓이면, 내 목소리는 다시 조금씩 커집니다.
 
-<!-- section: sign7 | visuals: empty room with light, sunrise, open door -->
+<!-- section: sign7 | visuals: window light, sunrise, sunlight, empty room, open door -->
 그리고 일곱 번째 신호. 모든 게 괜찮은데도, 이상하게 마음 한구석이 공허합니다.
 
 해야 할 일은 하고 있고, 크게 잘못된 것도 없습니다. 그런데도 무언가 빠진 것 같은 느낌. 이 길이 아닌 것 같은, 설명하기 어려운 허전함.
@@ -98,7 +98,7 @@ NPC는 공허함을 느끼지 않습니다. 그저 정해진 대로 움직일 �
 
 그 목소리가 바로, 플레이어의 목소리입니다.
 
-<!-- section: player | visuals: person standing on mountain at dawn, light, stars -->
+<!-- section: player | visuals: mountain sunrise, hiking summit, meditation, sun rays, clouds sky -->
 그렇다면, 어떻게 플레이어로 깨어날 수 있을까요? 거창한 결심은 필요 없습니다. 세 가지만 기억하세요.
 
 첫째, 멈추세요. 하루에 단 몇 초라도, 자동으로 흘러가는 시간을 멈추고 지금 내가 무엇을 하고 있는지 바라봅니다. 깨어남은, 알아차림에서 시작됩니다.
@@ -107,7 +107,7 @@ NPC는 공허함을 느끼지 않습니다. 그저 정해진 대로 움직일 �
 
 셋째, 당신만의 퀘스트를 적어 보세요. 남들이 정해 준 목표가 아니라, 당신의 마음이 진짜로 끌리는 것. 한 줄이면 충분합니다. 그 한 줄이, 당신의 게임을 시작하는 첫 화면이 됩니다.
 
-<!-- section: outro | visuals: galaxy, person walking toward light, calm sea -->
+<!-- section: outro | visuals: galaxy, milky way, calm sea, sunset ocean, night sky -->
 기억하세요. 당신은 이 게임의 캐릭터가 아닙니다. 당신은 이 게임을 하는, 플레이어입니다.
 
 다른 사람의 게임을 잘하는 것도 의미가 있습니다. 하지만 언젠가는, 당신만의 게임을 플레이할 차례가 옵니다.

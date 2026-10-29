@@ -1,0 +1,12 @@
+{
+ "id": "pyog_en_voice",
+ "status": "ready-en-voice",
+ "assets": {
+  "text": "You buy a new car, and something strange happens. Suddenly, you see that car everywhere. Today, I'd like to tell you what is really happening inside your brain. So get comfortable, breathe, and listen.",
+  "voices": [
+   {"name": "deep_gentleman", "provider": "minimax", "voice_id": "English_Deep-VoicedGentleman", "speed": 0.95, "lang": "English"},
+   {"name": "gentle_man", "provider": "minimax", "voice_id": "English_Gentle-voiced_man", "speed": 0.95, "lang": "English"},
+   {"name": "patient_man", "provider": "minimax", "voice_id": "English_PatientMan", "speed": 0.95, "lang": "English"}
+  ]
+ }
+}

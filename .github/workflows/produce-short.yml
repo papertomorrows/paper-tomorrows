@@ -59,9 +59,10 @@ jobs:
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
           FAL_KEY: ${{ secrets.FAL_KEY }}
           XI_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           modal secret create paper-tomorrows-keys \
-            FAL_KEY="$FAL_KEY" XI_KEY="$XI_KEY" --force > /dev/null
+            FAL_KEY="$FAL_KEY" XI_KEY="$XI_KEY" PIXABAY_API_KEY="$PIXABAY_API_KEY" --force > /dev/null
           echo "keys synced"
       - name: Produce on Modal
         if: steps.pick.outputs.specs != ''

@@ -204,7 +204,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         continue
                     picked.append(f)
             depth += 1
-        clip_files += [("video", f) for f in picked]
+        sec["clips"] = [("video", f) for f in picked]
+        clip_files += sec["clips"]
         for k in range(need - len(picked)):  # not enough stock: calm AI image instead
             prompt = (f"{(sec['visuals'] or ['calm cosmos'])[k % max(1, len(sec['visuals']))]}, cinematic, dreamy, "
                       "soft volumetric light, peaceful spiritual atmosphere, no text, no watermark")
@@ -213,30 +214,36 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 f.write_bytes(fallback_image.remote(prompt, 100 + k))
                 fallbacks += 1
             clip_files.append(("image", f))
+            sec["clips"].append(("image", f))
     print(f"STEP visuals: skipped {dark} dark clips")
     CACHE.commit()
     print(f"STEP visuals: {len(clip_files)} clips ({fallbacks} AI fallbacks)")
 
-    # ---- render clips (each CLIP s, soft fades), then join
-    segs = []
-    n = math.ceil(total / CLIP)
-    for i in range(n):
-        kind, f = clip_files[i % len(clip_files)]
-        out = work / f"c{i:03d}.mp4"
-        fade = f"fade=t=in:st=0:d=0.6,fade=t=out:st={CLIP - 0.6}:d=0.6"
-        base = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},"
-                f"eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p")
-        if kind == "video":
-            run(["ffmpeg", "-y", "-ss", "1", "-t", str(CLIP), "-i", str(f), "-an", "-vf",
-                 f"setpts=1.15*PTS,{base}", "-t", str(CLIP), "-c:v", "libx264", "-preset", "veryfast",
-                 "-crf", "20", str(out)])
-        else:
-            fr = int(CLIP * FPS)
-            run(["ffmpeg", "-y", "-loop", "1", "-i", str(f), "-vf",
-                 f"scale=3840:2160,zoompan=z='min(1+0.08*on/{fr},1.08)':x='iw/2-(iw/zoom/2)':"
-                 f"y='ih/2-(ih/zoom/2)':d={fr}:s={W}x{H}:fps={FPS},{fade},format=yuv420p",
-                 "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
-        segs.append(out)
+    # ---- render clips section by section so pictures stay with their words
+    segs, i = [], 0
+    for si, sec in enumerate(sections):
+        a = 0.0 if si == 0 else sections[si - 1]["end"]
+        b = total if si == len(sections) - 1 else sec["end"]
+        clips = sec["clips"] or clip_files[:1]
+        d_each = (b - a) / len(clips)
+        for kind, f in clips:
+            D = round(d_each, 3)
+            out = work / f"c{i:03d}.mp4"
+            i += 1
+            fade = f"fade=t=in:st=0:d=0.6,fade=t=out:st={D - 0.6:.3f}:d=0.6"
+            base = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},"
+                    f"eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p")
+            fr = int(round(D * FPS))
+            if kind == "video":
+                run(["ffmpeg", "-y", "-ss", "1", "-i", str(f), "-an", "-vf",
+                     f"setpts=1.15*PTS,tpad=stop_mode=clone:stop_duration=10,{base}", "-frames:v", str(fr),
+                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
+            else:
+                run(["ffmpeg", "-y", "-loop", "1", "-i", str(f), "-vf",
+                     f"scale=3840:2160,zoompan=z='min(1+0.08*on/{fr},1.08)':x='iw/2-(iw/zoom/2)':"
+                     f"y='ih/2-(ih/zoom/2)':d={fr}:s={W}x{H}:fps={FPS},{fade},format=yuv420p",
+                     "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
+            segs.append(out)
     (work / "list.txt").write_text("".join(f"file '{s}'\n" for s in segs))
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-c", "copy",
          str(work / "joined.mp4")])

@@ -8,5 +8,5 @@
  "captions": true,
  "min_luma": 28,
  "max_ai_fallbacks": 5,
- "status": "waiting-fal-topup"
+ "status": "ready-ep002-retry"
 }

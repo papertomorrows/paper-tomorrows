@@ -168,6 +168,18 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                               "scale=64:36,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
         return sum(raw) / max(len(raw), 1)
 
+    def greenscreen(f):
+        # reject chroma-key footage: a large share of strongly green pixels in two sample frames
+        for t in ("1", "4"):
+            raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", t, "-i", str(f), "-frames:v", "1", "-vf",
+                                  "scale=64:36", "-pix_fmt", "rgb24", "-f", "rawvideo", "-"],
+                                 capture_output=True).stdout
+            px = [raw[i:i + 3] for i in range(0, len(raw) - 2, 3)]
+            green = sum(1 for r, g, b in px if g > 120 and g > r + 50 and g > b + 50)
+            if px and green / len(px) > 0.20:
+                return True
+        return False
+
     for sec in sections:
         need = max(1, math.ceil((sec["end"] - sec["start"]) / CLIP))
         lists = []
@@ -199,7 +211,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         except Exception:
                             continue
                     used.add(cid)
-                    if luma(f) < min_luma:
+                    if luma(f) < min_luma or greenscreen(f):
                         dark += 1
                         continue
                     picked.append(f)
@@ -221,7 +233,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 fallbacks += 1
             clip_files.append(("image", f))
             sec["clips"].append(("image", f))
-    print(f"STEP visuals: skipped {dark} dark clips")
+    print(f"STEP visuals: skipped {dark} dark/green-screen clips")
     CACHE.commit()
     print(f"STEP visuals: {len(clip_files)} clips ({fallbacks} AI fallbacks)")
 

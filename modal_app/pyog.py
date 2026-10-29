@@ -58,7 +58,12 @@ def parse_script(md: str):
     sections = []
     for block in re.split(r"<!--\s*section:", md)[1:]:
         head, body = block.split("-->", 1)
-        name, _, vis = head.partition("| visuals:")
+        fields = {}
+        for part in head.split("|")[1:]:
+            k, _, v = part.partition(":")
+            fields[k.strip()] = v.strip()
+        name = head.split("|")[0]
+        vis = fields.get("visuals", "")
         paras = [p.strip() for p in body.strip().split("\n\n") if p.strip()]
         sents = []
         for pi, p in enumerate(paras):
@@ -67,6 +72,8 @@ def parse_script(md: str):
             for si, s in enumerate(parts):
                 sents.append({"text": s, "para_end": si == len(parts) - 1})
         sections.append({"name": name.strip(), "visuals": [v.strip() for v in vis.split(",") if v.strip()],
+                         "title": fields.get("title", ""),
+                         "ai": [x.strip() for x in fields.get("ai", "").split(";") if x.strip()],
                          "sentences": sents})
     return sections
 
@@ -161,6 +168,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     # ---- stock clips per section (Pixabay): most relevant first, skip near-black clips
     pkey = os.environ.get("PIXABAY_API_KEY", "")
     used, clip_files, fallbacks, dark = set(), [], 0, 0
+    own_new, credits = [], {}
     min_luma = float(spec.get("min_luma", 55))
 
     def luma(f):
@@ -193,10 +201,11 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     v = h["videos"].get("large") or h["videos"].get("medium")
                     if v and v.get("url") and h["duration"] >= CLIP + 2 and v.get("width", 1920) >= 1280:
                         hits.append((h["id"], v["url"], kw))
+                        credits[h["id"]] = h.get("pageURL", f"https://pixabay.com/videos/id-{h['id']}/")
             except Exception as exc:
                 print(f"PIXABAY FAILED '{kw}': {str(exc)[:200]}")
             lists.append(hits)
-        picked = []
+        picked, picked_ids = [], []
         depth = 0
         while len(picked) < need and any(depth < len(l) for l in lists):
             for l in lists:  # round-robin over keywords, best-ranked first
@@ -215,9 +224,19 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         dark += 1
                         continue
                     picked.append(f)
+                    picked_ids.append(cid)
             depth += 1
-        sec["clips"] = [("video", f) for f in picked]
+        own = []
+        for k, prompt in enumerate(sec["ai"]):  # the channel's own images (always paid, a few per video)
+            full = f"{prompt}, {spec.get('ai_style', 'cinematic, dreamy, soft volumetric light, deep blue and warm gold, no text, no watermark')}"
+            f = cache / "stock" / f"own_{key(full)}.jpg"
+            if not f.exists():
+                f.write_bytes(fallback_image.remote(full, 500 + k))
+                own_new.append(prompt)
+            own.append(("image", f))
+        sec["clips"] = own + [("video", f) for f in picked]
         clip_files += sec["clips"]
+        sec["stock_ids"] = picked_ids
         for k in range(need - len(picked)):  # not enough stock: calm AI image instead
             prompt = (f"{(sec['visuals'] or ['calm cosmos'])[k % max(1, len(sec['visuals']))]}, cinematic, dreamy, "
                       "soft volumetric light, peaceful spiritual atmosphere, no text, no watermark")
@@ -273,10 +292,25 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
            "Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, "
            "Alignment, MarginL, MarginR, MarginV, Encoding",
            "Style: Cap,Noto Sans CJK KR,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,1,0,0,0,100,100,0,0,1,"
-           "3.5,2,2,140,140,80,1", "", "[Events]",
+           "3.5,2,2,140,140,80,1",
+           "Style: Chap,Noto Sans CJK KR,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,2,0,1,"
+           "3,3,5,160,160,0,1",
+           "Style: Kick,Noto Sans CJK KR,30,&H003CC8FF,&H003CC8FF,&H00000000,&H64000000,1,0,0,0,100,100,8,0,1,"
+           "1.5,1,5,160,160,150,1",
+           "Style: Mark,Noto Sans CJK KR,26,&HB4FFFFFF,&HB4FFFFFF,&HB4000000,&HFF000000,0,0,0,0,100,100,3,0,1,"
+           "1,0,9,50,50,40,1", "", "[Events]",
            "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     for st, en, tx in events:
         ass.append(f"Dialogue: 0,{ass_time(st)},{ass_time(en + 0.15)},Cap,,0,0,0,,{{\\fad(150,150)}}{wrap(tx)}")
+    for si, sec in enumerate(sections):
+        if sec["title"]:
+            a0 = 0.0 if si == 0 else sections[si - 1]["end"]
+            ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Chap,,0,0,0,,"
+                       f"{{\\pos({W // 2},{H // 2})\\fad(500,600)}}{sec['title']}")
+            ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Kick,,0,0,0,,"
+                       f"{{\\pos({W // 2},{H // 2 - 105})\\fad(500,600)}}PLAY YOUR OWN GAME")
+    if spec.get("brand_mark", True):
+        ass.append(f"Dialogue: 2,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,Play Your Own Game")
     (work / "cap.ass").write_text("\n".join(ass))
     srt = []
     for i, (st, en, tx) in enumerate(events, 1):
@@ -300,9 +334,12 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
          "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "medium",
          "-crf", "23", "-maxrate", "4M", "-bufsize", "8M", "-c:a", "aac", "-b:a", "160k",
          "-movflags", "+faststart", str(final)], )
-    return {"video": final.read_bytes(), "srt": "\n".join(srt),
+    credit_lines = [f"{sec['name']}: " + ", ".join(credits.get(c, str(c)) for c in sec.get("stock_ids", []))
+                    for sec in sections]
+    return {"video": final.read_bytes(), "srt": "\n".join(srt), "credits": "\n".join(credit_lines),
             "report": {"duration": round(total, 1), "sentences": len(events), "clips": len(clip_files),
-                       "ai_fallbacks": fallbacks, "chars": sum(len(e[2]) for e in events)}}
+                       "ai_fallbacks": fallbacks, "own_images_new": len(own_new),
+                       "chars": sum(len(e[2]) for e in events)}}
 
 
 @app.local_entrypoint()
@@ -316,4 +353,5 @@ def main(spec: str):
     (out / f"{s['id']}.mp4").write_bytes(r["video"])
     (out / f"{s['id']}.srt").write_text(r["srt"])
     (out / "report.json").write_text(json.dumps(r["report"], indent=1))
+    (out / "pixabay_credits.txt").write_text(r.get("credits", ""))
     print(f"SHORT OK id={s['id']} {r['report']} size={len(r['video']) // 1024}KB")

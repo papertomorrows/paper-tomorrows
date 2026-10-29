@@ -11,7 +11,7 @@
 
 어쩌면 이 이야기를 듣고 나면, 끌어당김이 더 이상 막연한 믿음이 아니라, 당신이 직접 다룰 수 있는 힘이 될지도 모릅니다. 천천히, 편안하게 들어주세요.
 
-<!-- section: illusion | visuals: newspaper reading, coffee shop, library books, city walking, window light -->
+<!-- section: illusion | visuals: newspaper reading, coffee shop, library books, city walking, window light | title: 빈도 착각 -->
 1994년, 미국의 한 신문에 독자 편지 하나가 실렸습니다.
 
 어떤 낯선 단어를 처음 들었는데, 그 뒤로 하루에도 몇 번씩 그 단어가 눈에 띈다는 이야기였습니다. 그러자 다른 독자들도 하나둘 편지를 보내왔습니다. 자신도 똑같은 경험을 했다고요.
@@ -20,7 +20,7 @@
 
 중요한 건, 세상이 바뀐 게 아니라는 점입니다. 그 차는, 그 단어는, 원래부터 거기 있었습니다. 바뀐 건, 그것을 알아보는 당신의 눈이었습니다.
 
-<!-- section: gorilla | visuals: basketball, people playing, eye closeup, focus, crowd -->
+<!-- section: gorilla | visuals: basketball, people playing, eye closeup, focus, crowd | title: 보이지 않는 고릴라 -->
 이 비밀을 보여주는 유명한 실험이 하나 있습니다.
 
 1999년, 심리학자 대니얼 사이먼스와 크리스토퍼 차브리스는 사람들에게 짧은 영상을 보여주었습니다. 흰 옷을 입은 사람들이 농구공을 주고받는 영상이었고, 참가자들이 할 일은 단 하나, 패스 횟수를 세는 것이었습니다.
@@ -31,7 +31,7 @@
 
 눈앞을 지나간 고릴라를 놓친 겁니다. 그들의 눈이 나빠서가 아닙니다. 그들의 뇌가, 패스를 세는 데 온 신경을 쏟고 있었기 때문입니다.
 
-<!-- section: filter | visuals: flashlight dark, lighthouse, spotlight, forest night, sunbeam forest -->
+<!-- section: filter | visuals: flashlight dark, lighthouse, spotlight, forest night, sunbeam forest | title: 뇌의 손전등 | ai: a hand holding a glowing flashlight whose beam is full of stars, cutting through a dark misty forest at night -->
 우리의 뇌는, 어둠 속을 비추는 손전등과 비슷합니다.
 
 매 순간 우리 주변에는 셀 수 없이 많은 소리와 색과 움직임이 있습니다. 그 모든 것을 다 받아들인다면, 우리는 아무것도 할 수 없을 겁니다.
@@ -42,7 +42,7 @@
 
 대부분의 시간 동안, 손전등은 습관과 걱정과 두려움이 들고 있습니다. 하지만 원래 그 손전등의 주인은, 바로 당신입니다.
 
-<!-- section: attraction | visuals: sunrise, flowers blooming, light rays, seeds sprouting, spring nature -->
+<!-- section: attraction | visuals: sunrise, flowers blooming, light rays, seeds sprouting, spring nature | title: 끌어당김, 다시 보기 | ai: a glowing golden path of light appearing in front of a person standing at a crossroads at dawn -->
 이제 끌어당김을 다시 바라볼 수 있습니다.
 
 당신이 무언가를 진심으로 원하고, 그것을 마음에 분명하게 그리면, 뇌의 손전등은 그쪽을 향하기 시작합니다.
@@ -53,7 +53,7 @@
 
 어쩌면 그것이, 끌어당김의 가장 현실적인 모습인지도 모릅니다.
 
-<!-- section: shadow | visuals: rain, storm clouds, dark clouds, sun breaking through clouds, rainbow -->
+<!-- section: shadow | visuals: rain, storm clouds, dark clouds, sun breaking through clouds, rainbow | title: 손전등의 그림자 -->
 그런데 이 손전등에는, 조심해야 할 그림자도 있습니다.
 
 손전등은 우리가 원하는 것만 비추지 않습니다. 우리가 두려워하는 것도, 똑같이 밝게 비춥니다.
@@ -64,7 +64,7 @@
 
 그 질문 하나만으로도, 빛의 방향은 조금씩 바뀌기 시작합니다.
 
-<!-- section: practice | visuals: writing journal, notebook pen, meditation, walking nature, morning light -->
+<!-- section: practice | visuals: writing journal, notebook pen, meditation, walking nature, morning light | title: 손전등을 돌리는 세 가지 방법 -->
 그렇다면, 손전등을 내가 원하는 쪽으로 돌리려면 어떻게 해야 할까요? 오늘부터 해 볼 수 있는 세 가지를 소개합니다.
 
 첫째, 원하는 것을 한 문장으로 적어 보세요. 막연한 바람은 흐릿한 빛을 만듭니다. '행복해지고 싶다'보다 '아침마다 나를 위한 시간을 30분 갖고 싶다'처럼, 분명할수록 빛은 선명해집니다.

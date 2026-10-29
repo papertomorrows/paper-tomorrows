@@ -34,12 +34,12 @@ def key(t: str) -> str:
 
 
 @app.function(image=image, timeout=600, secrets=[KEYS], max_containers=8)
-def tts(text: str, voice_id: str, speed: float) -> bytes:
+def tts(text: str, voice_id: str, speed: float, lang: str = "Korean") -> bytes:
     import fal_client
     import requests
 
     res = fal_client.subscribe("fal-ai/minimax/speech-2.8-hd", arguments={
-        "prompt": text, "language_boost": "Korean", "output_format": "url",
+        "prompt": text, "language_boost": lang, "output_format": "url",
         "voice_setting": {"voice_id": voice_id, "speed": speed, "vol": 1, "pitch": 0}})
     return requests.get(res["audio"]["url"], timeout=120).content
 
@@ -115,6 +115,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     work = pathlib.Path("/tmp/pyog")
     work.mkdir(parents=True, exist_ok=True)
     voice, speed = spec.get("voice_id", "Korean_CalmGentleman"), float(spec.get("speed", 0.92))
+    lang = spec.get("lang", "Korean")
+    wrap_w = 42 if lang == "English" else 22
+    cap_size = 62 if lang == "English" else 70
     sections = parse_script(script_md)
 
     # ---- voice: one clip per sentence (cached)
@@ -124,7 +127,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         s["file"] = cache / "tts" / f"{key(s['text'] + voice + str(speed))}.mp3"
         if not s["file"].exists():
             todo.append(s)
-    for s, audio in zip(todo, tts.starmap([(s["text"], voice, speed) for s in todo])):
+    for s, audio in zip(todo, tts.starmap([(s["text"], voice, speed, lang) for s in todo])):
         s["file"].write_bytes(audio)
     CACHE.commit()
     print(f"STEP voice: {len(todo)} new sentences, {len(allsent) - len(todo)} cached")
@@ -291,7 +294,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, "
            "Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, "
            "Alignment, MarginL, MarginR, MarginV, Encoding",
-           "Style: Cap,Noto Sans CJK KR,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,1,0,0,0,100,100,0,0,1,"
+           "Style: Cap,Noto Sans CJK KR," + str(cap_size) + ",&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,1,0,0,0,100,100,0,0,1,"
            "3.5,2,2,140,140,80,1",
            "Style: Chap,Noto Sans CJK KR,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,2,0,1,"
            "3,3,5,160,160,0,1",
@@ -301,7 +304,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
            "1,0,9,50,50,40,1", "", "[Events]",
            "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     for st, en, tx in events:
-        ass.append(f"Dialogue: 0,{ass_time(st)},{ass_time(en + 0.15)},Cap,,0,0,0,,{{\\fad(150,150)}}{wrap(tx)}")
+        ass.append(f"Dialogue: 0,{ass_time(st)},{ass_time(en + 0.15)},Cap,,0,0,0,,{{\\fad(150,150)}}{wrap(tx, wrap_w)}")
     for si, sec in enumerate(sections):
         if sec["title"]:
             a0 = 0.0 if si == 0 else sections[si - 1]["end"]
@@ -310,7 +313,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Kick,,0,0,0,,"
                        f"{{\\pos({W // 2},{H // 2 - 105})\\fad(500,600)}}PLAY YOUR OWN GAME")
     if spec.get("brand_mark", True):
-        ass.append(f"Dialogue: 2,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,Play Your Own Game")
+        ass.append(f"Dialogue: 2,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{spec.get('mark_text', 'Play Your Own Game')}")
     (work / "cap.ass").write_text("\n".join(ass))
     srt = []
     for i, (st, en, tx) in enumerate(events, 1):

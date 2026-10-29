@@ -1,0 +1,49 @@
+{
+ "id": "pyog_test1",
+ "status": "ready-assets",
+ "assets": {
+  "text": "어쩌면 당신은 지금, 다른 누군가가 정한 게임을 하고 있는지도 모릅니다.\n아침에 눈을 뜨면, 어제와 같은 길을 걷고, 어제와 같은 생각을 하고, 어제와 같은 걱정을 합니다.\n마치... 정해진 대사만 반복하는 게임 속 캐릭터처럼요.\n게임에서는 이런 캐릭터를 NPC라고 부릅니다. 스스로 선택하지 않는 존재. 누군가 짜 놓은 길을 따라 움직이는 존재.\n그런데 이상하지 않나요? 우리는 모두, 한 번쯤 이런 느낌을 받습니다.\n'이게 정말 내가 원하는 삶일까?'\n그 질문이 떠올랐다면, 그건 고장이 아닙니다. 그건 신호입니다.\n캐릭터가 아니라, 플레이어가 깨어나기 시작했다는 신호.\n오늘은 당신이 아직 NPC처럼 살고 있다는 일곱 가지 신호와, 그 게임에서 빠져나와 당신만의 게임을 시작하는 방법을 이야기해 보려 합니다.\n천천히, 편안하게 들어주세요.\n첫 번째 신호. 당신의 하루는, 대부분 자동으로 흘러갑니다.\n심리학자들은 우리가 매일 하는 행동의 상당 부분이 습관에서 나온다고 말합니다. 생각하지 않아도, 몸이 먼저 움직이는 것이죠.\n습관은 나쁜 것이 아닙니다. 하지만 하루 전체가 자동으로 흘러간다면, 그 하루의 주인은 누구일까요?\n오늘, 단 한 번이라도 멈춰서 스스로에게 물어보세요.\n'나는 지금, 이것을 선택하고 있는가?'\n그 짧은 질문이, 플레이어가 누르는 첫 번째 버튼입니다.",
+  "style": "Cinematic, dreamy, ethereal, soft volumetric light, deep cosmic blues and warm gold, gentle film grain, peaceful spiritual atmosphere. No text, no lettering, no watermark.",
+  "images": [
+   "A vast starry cosmos with a glowing nebula, a tiny human silhouette standing on a hill looking up, peaceful.",
+   "A lone person walking the same empty city street at dawn, repeated faint ghostly copies of the same person walking behind them, surreal.",
+   "A crowd of people walking in perfect identical lines through a grey city like video game characters, one person in the middle stopping and looking up.",
+   "A wooden puppet with golden strings rising up into soft clouds of light, symbolic, gentle.",
+   "A person sitting on a bed at sunrise looking out of a window thoughtfully, warm golden light, quiet morning.",
+   "A glowing doorway of light opening in a dark endless corridor, a silhouette stepping toward it.",
+   "A close-up of a human eye reflecting a galaxy, awakening, cinematic.",
+   "A single glowing game controller-like button made of light floating above an open palm in darkness, symbolic, magical."
+  ],
+  "size": [
+   1920,
+   1080
+  ],
+  "music": "Calm meditative ambient music, soft warm synth pads, gentle piano notes, slow, peaceful, spiritual, no drums, no vocals, 60 bpm",
+  "voices": [
+   {
+    "name": "minimax_calm_man",
+    "provider": "minimax",
+    "voice_id": "Korean_CalmGentleman",
+    "speed": 0.92
+   },
+   {
+    "name": "minimax_soothing_woman",
+    "provider": "minimax",
+    "voice_id": "Korean_SoothingLady",
+    "speed": 0.92
+   },
+   {
+    "name": "eleven_bill",
+    "provider": "eleven",
+    "voice_id": "pqHfZKP75CvOlQylNhV4",
+    "settings": {
+     "stability": 0.6,
+     "similarity_boost": 0.8,
+     "style": 0.2,
+     "use_speaker_boost": true,
+     "speed": 0.92
+    }
+   }
+  ]
+ }
+}

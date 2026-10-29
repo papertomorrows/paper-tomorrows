@@ -172,6 +172,18 @@ def resync_lips(video: bytes, audio: bytes, model: str = "lipsync-2") -> bytes:
     return requests.get(res["video"]["url"], timeout=300).content
 
 
+@app.function(image=image, timeout=900, secrets=[KEYS])
+def minimax_tts(text: str, voice_id: str, speed: float = 1.0) -> bytes:
+    """MiniMax Speech 2.8 HD via fal ($0.1 per 1,000 characters)."""
+    import fal_client
+    import requests
+
+    res = fal_client.subscribe("fal-ai/minimax/speech-2.8-hd", arguments={
+        "prompt": text, "language_boost": "Korean", "output_format": "url",
+        "voice_setting": {"voice_id": voice_id, "speed": speed, "vol": 1, "pitch": 0}})
+    return requests.get(res["audio"]["url"], timeout=300).content
+
+
 @app.function(image=image, timeout=600, secrets=[KEYS])
 def narrate(text: str, voice_id: str, model: str, settings: dict) -> tuple[bytes, dict]:
     import base64
@@ -798,6 +810,37 @@ def produce(spec: dict) -> dict:
 @app.local_entrypoint()
 def main(spec: str):
     spec_data = json.loads(pathlib.Path(spec).read_text())
+    if spec_data.get("assets"):
+        # raw assets for an edit done elsewhere: voices, images, music (no video)
+        out = pathlib.Path("outputs/shorts") / spec_data["id"]
+        out.mkdir(parents=True, exist_ok=True)
+        a = spec_data["assets"]
+        calls = {}
+        for v in a.get("voices", []):
+            if v["provider"] == "minimax":
+                calls[f"voice_{v['name']}.mp3"] = minimax_tts.spawn(a["text"], v["voice_id"], v.get("speed", 1.0))
+            else:
+                calls[f"voice_{v['name']}.mp3"] = narrate.spawn(a["text"], v["voice_id"],
+                                                                  v.get("model", "eleven_multilingual_v2"),
+                                                                  v.get("settings", DEFAULTS["voice_settings"]))
+        if a.get("music"):
+            calls["music.mp3"] = generate_audio.spawn(a["music"], 45)
+        iw, ih = a.get("size", [1920, 1080])
+        imgs = [generate_image.spawn(f"{p} {a.get('style', '')}", 3000 + i, iw, ih)
+                for i, p in enumerate(a.get("images", []))]
+        for name, c in calls.items():
+            try:
+                r = c.get()
+                (out / name).write_bytes(r[0] if isinstance(r, tuple) else r)
+            except Exception as exc:
+                print(f"ASSET FAILED {name}: {str(exc)[:300]}")
+        for i, c in enumerate(imgs):
+            try:
+                (out / f"img_{i:02d}.jpg").write_bytes(c.get()[1])
+            except Exception as exc:
+                print(f"ASSET FAILED img {i}: {str(exc)[:300]}")
+        print(f"SHORT OK id={spec_data['id']} assets")
+        return
     if spec_data.get("voice_lines"):
         # separate narration clips for a long-form edit (ElevenLabs subscription only)
         out = pathlib.Path("outputs/shorts") / spec_data["id"] / "voice"

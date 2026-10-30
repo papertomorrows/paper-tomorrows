@@ -1,0 +1,22 @@
+{
+ "id": "lf_002_atlantropa",
+ "script": "longform/lf002_atlantropa.md",
+ "music": "outputs/shorts/music_doc_bed/music.mp3",
+ "voice_provider": "eleven",
+ "voice_id": "nPczCjzI2devNBz1zQrb",
+ "voice_settings": {"stability": 0.38, "similarity_boost": 0.8, "style": 0.4, "use_speaker_boost": true, "speed": 0.95},
+ "speed": 0.95,
+ "lang": "English",
+ "captions": true,
+ "min_luma": 40,
+ "clip_seconds": 4.5,
+ "ken_burns": 0.12,
+ "max_ai_fallbacks": 6,
+ "ai_style": "cinematic matte painting, painterly brushwork with near-photographic lighting, volumetric haze, subtle film grain, muted gold and deep blue colour palette, epic sense of scale, wide 16:9 composition. No text, no lettering, no signage, no watermark.",
+ "brand_mark": true,
+ "mark_text": "Paper Tomorrows",
+ "kicker_text": "NEVER BUILT",
+ "label": "AI CONCEPT VISUALIZATION",
+ "label_seconds": 4,
+ "status": "ready-lf002-v1"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "pyog_brand_photo_banner",
+ "status": "ready-brand5",
+ "assets": {
+  "style": "Cinematic fine-art photograph, warm golden glow against deep blue-violet night, mystical and serene, shallow depth of field, rich film tones, high detail. No text, no letters, no watermark.",
+  "size": [
+   1920,
+   1080
+  ],
+  "images": [
+   "Wide panoramic desert dunes under the Milky Way with a warm glow on the horizon, calm empty space across the middle",
+   "Wide panoramic misty mountain ridges at sunrise bathed in golden light, layered haze, calm empty space across the middle",
+   "Wide panoramic glowing paper lanterns floating up into a deep blue night sky over a still lake, warm reflections, calm empty space across the middle"
+  ]
+ }
+}

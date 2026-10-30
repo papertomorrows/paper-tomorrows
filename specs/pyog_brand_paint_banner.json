@@ -1,0 +1,16 @@
+{
+ "id": "pyog_brand_paint_banner",
+ "status": "ready-brand5",
+ "assets": {
+  "style": "Painterly fine-art illustration, oil and gouache brushstrokes, warm mystical atmosphere, glowing amber and gold light against deep violet and indigo night, soft and serene, spiritual, highly detailed, masterpiece. No text, no letters, no watermark.",
+  "size": [
+   1920,
+   1080
+  ],
+  "images": [
+   "Wide panoramic landscape at twilight, soft rolling hills, warm amber glow along the horizon, violet starry sky, calm empty space across the middle",
+   "Wide panoramic calm sea at dusk with a shimmering path of golden light on the water, scattered stars, calm empty space across the middle",
+   "Wide panoramic soft nebula in warm rose, amber and gold tones drifting across a deep violet sky, dreamy, calm empty space across the middle"
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "id": "pyog_brand_photo_logo",
+ "status": "ready-brand5",
+ "assets": {
+  "style": "Cinematic fine-art photograph, warm golden glow against deep blue-violet night, mystical and serene, shallow depth of field, rich film tones, high detail. No text, no letters, no watermark.",
+  "size": [
+   1024,
+   1024
+  ],
+  "images": [
+   "A single candle flame glowing in darkness with warm bokeh, close-up, centered",
+   "Silhouette of a person standing on a hilltop looking up at the Milky Way, warm glow on the horizon, centered",
+   "A glowing warm orb of light floating just above an open palm in darkness, centered"
+  ]
+ }
+}

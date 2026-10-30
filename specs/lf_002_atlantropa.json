@@ -4,7 +4,13 @@
  "music": "outputs/shorts/music_doc_bed/music.mp3",
  "voice_provider": "eleven",
  "voice_id": "nPczCjzI2devNBz1zQrb",
- "voice_settings": {"stability": 0.38, "similarity_boost": 0.8, "style": 0.4, "use_speaker_boost": true, "speed": 0.95},
+ "voice_settings": {
+  "stability": 0.38,
+  "similarity_boost": 0.8,
+  "style": 0.4,
+  "use_speaker_boost": true,
+  "speed": 0.95
+ },
  "speed": 0.95,
  "lang": "English",
  "captions": true,
@@ -18,5 +24,36 @@
  "kicker_text": "NEVER BUILT",
  "label": "AI CONCEPT VISUALIZATION",
  "label_seconds": 4,
- "status": "ready-lf002-v2"
+ "status": "ready-lf002-v3",
+ "short_clips": {
+  "hook": [
+   "002_atlantropa/motion_a0a0baf38b.mp4",
+   "002_atlantropa/motion_db7305d20a.mp4",
+   "002_atlantropa/motion_0f7e0e37f8.mp4"
+  ],
+  "man": [
+   "002_atlantropa/motion_c3391ae342.mp4"
+  ],
+  "dam": [
+   "002_atlantropa/motion_9d17ff799f.mp4",
+   "002_atlantropa/motion_f5a51166c8.mp4",
+   "002_atlantropa/motion_47e753797c.mp4"
+  ],
+  "drain": [
+   "002_atlantropa/motion_fc44d2492e.mp4"
+  ],
+  "continent": [
+   "002_atlantropa/motion_e76977a0b8.mp4",
+   "002_atlantropa/motion_c29f592187.mp4",
+   "002_atlantropa/motion_d144e1dfaf.mp4"
+  ],
+  "shadow": [
+   "002_atlantropa/motion_5aaebf26ca.mp4"
+  ],
+  "outro": [
+   "002_atlantropa/motion_e51db8f34c.mp4",
+   "002_atlantropa/motion_adc623b6b0.mp4",
+   "002_atlantropa/motion_f01c5d974e.mp4"
+  ]
+ }
 }

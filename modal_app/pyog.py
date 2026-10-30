@@ -196,6 +196,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     pkey = os.environ.get("PIXABAY_API_KEY", "")
     used, clip_files, fallbacks, dark = set(), [], 0, 0
     own_new, credits = [], {}
+    reused_total = [0]
     min_luma = float(spec.get("min_luma", 55))
 
     def luma(f):
@@ -216,7 +217,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         return False
 
     for sec in sections:
-        need = max(1, math.ceil((sec["end"] - sec["start"]) / clip_s) - len(sec["ai"]))
+        reuse = [("vshort", pathlib.Path("/cache") / c) for c in spec.get("short_clips", {}).get(sec["name"], [])
+                 if (pathlib.Path("/cache") / c).exists()]
+        need = max(1, math.ceil((sec["end"] - sec["start"]) / clip_s) - len(sec["ai"]) - len(reuse))
+        reused_total[0] += len(reuse)
         lists = []
         for kw in sec["visuals"] or ["calm nature"]:
             hits = []
@@ -273,11 +277,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             own.append(("image", f))
         stock = [("video", f) for f in picked]
         mixed = []
-        for j in range(max(len(own), len(stock))):  # alternate own images and stock footage
-            if j < len(own):
-                mixed.append(own[j])
-            if j < len(stock):
-                mixed.append(stock[j])
+        for j in range(max(len(own), len(stock), len(reuse))):  # alternate reused shots, own images, stock
+            for group in (reuse, own, stock):
+                if j < len(group):
+                    mixed.append(group[j])
         sec["clips"] = mixed
         clip_files += sec["clips"]
         sec["stock_ids"] = picked_ids
@@ -331,7 +334,15 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             base = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},"
                     f"eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p")
             fr = int(round(D * FPS))
-            if kind == "video":
+            if kind == "vshort":  # vertical clip from a short: sharp in the middle, blurred copy behind
+                run(["ffmpeg", "-y", "-i", str(f), "-an", "-filter_complex",
+                     f"[0:v]setpts=1.1*PTS,tpad=stop_mode=clone:stop_duration=10,fps={FPS},split[a][b];"
+                     f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,"
+                     f"eq=brightness=-0.12:saturation=0.9[bg];[b]scale=-2:{H}[fg];"
+                     f"[bg][fg]overlay=(W-w)/2:0,setsar=1,eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p[v]",
+                     "-map", "[v]", "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                     str(out)])
+            elif kind == "video":
                 run(["ffmpeg", "-y", "-ss", "1", "-i", str(f), "-an", "-vf",
                      f"setpts=1.15*PTS,tpad=stop_mode=clone:stop_duration=10,{base}", "-frames:v", str(fr),
                      "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
@@ -403,7 +414,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     for sec in sections]
     return {"video": final.read_bytes(), "srt": "\n".join(srt), "credits": "\n".join(credit_lines),
             "report": {"duration": round(total, 1), "sentences": len(events), "clips": len(clip_files),
-                       "ai_fallbacks": fallbacks, "own_images_new": len(own_new),
+                       "ai_fallbacks": fallbacks, "own_images_new": len(own_new), "short_clips_reused": reused_total[0],
                        "chars": sum(len(e[2]) for e in events)}}
 
 

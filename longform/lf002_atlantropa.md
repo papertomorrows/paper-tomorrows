@@ -1,6 +1,6 @@
 # LF002 The Insane Plan to Drain the Mediterranean Sea (Atlantropa)
 
-<!-- section: hook | visuals: strait of gibraltar, ocean waves aerial, mediterranean sea aerial | ai: a colossal concrete dam stretching across the Strait of Gibraltar from Europe to Africa, huge Atlantic waves smashing against it, wide aerial view at dusk; the Mediterranean coastline with the sea dropped far below the old shore, an old harbour left high and dry on pale exposed cliffs, aerial view; a new land bridge between Europe and Africa glowing with roads and railway lines at night, seen from high above -->
+<!-- section: hook | visuals: strait of gibraltar, ocean waves aerial, mediterranean sea aerial | ai: a new land bridge between Europe and Africa glowing with roads and railway lines at night, seen from high above -->
 One dam.
 
 That was the whole plan. One wall of concrete across the Strait of Gibraltar, and the Mediterranean Sea would begin to disappear.
@@ -11,7 +11,7 @@ It sounds like science fiction. But for twenty-five years, one man worked on it 
 
 This is the story of Atlantropa. The greatest project that was never built.
 
-<!-- section: man | visuals: old map, vintage drawing, architect drawing, munich, fountain pen | title: The Man With the Map | ai: a 1920s architect in a waistcoat leaning over a huge drafting table covered with a map of the Mediterranean, warm lamp light, blueprints everywhere; a 1920s Munich street in the rain at dusk, trams and people with umbrellas, moody and cinematic; a hand drawing a long line across the Strait of Gibraltar on an old map with a fountain pen, close-up -->
+<!-- section: man | visuals: old map, vintage drawing, architect drawing, munich, fountain pen | title: The Man With the Map | ai: a 1920s Munich street in the rain at dusk, trams and people with umbrellas, moody and cinematic; a hand drawing a long line across the Strait of Gibraltar on an old map with a fountain pen, close-up -->
 His name was Herman Sörgel, an architect from Munich.
 
 In the years after the First World War, Europe was broken. Cities had been destroyed, economies had collapsed, and people feared that another war would come.
@@ -22,7 +22,7 @@ And he had a real example in front of him. Just next door, the Dutch were buildi
 
 In 1927, he started drawing. At first he called it Panropa. Later, he gave it the name that would follow him for the rest of his life. Atlantropa.
 
-<!-- section: dam | visuals: dam, hydroelectric dam, concrete construction, water turbine, dam spillway | title: The Wall Across Gibraltar | ai: a gigantic 1930s art deco concrete dam rising out of the sea at Gibraltar, tiny workers and cranes on top, dramatic clouds; the inside of a vast hydroelectric power hall with enormous turbines and tiny engineers, art deco lamps, cinematic; the Rock of Gibraltar beside a towering dam wall, ships waiting at a giant lock, golden hour -->
+<!-- section: dam | visuals: dam, hydroelectric dam, concrete construction, water turbine, dam spillway | title: The Wall Across Gibraltar | ai: the Rock of Gibraltar beside a towering dam wall, ships waiting at a giant lock, golden hour -->
 The heart of the plan was the dam.
 
 It would stretch around thirty-five kilometres across the Strait of Gibraltar, curving between Spain and Morocco. It would stand about three hundred metres high. Taller than any dam on Earth at the time.
@@ -33,7 +33,7 @@ And it would not be built in a few years. Sörgel imagined a project lasting mor
 
 But the dam was not only a wall. It was a machine. Water from the Atlantic would be allowed to pour back in through enormous turbines, turning the dam into one of the largest power stations ever imagined. Electricity for an entire continent.
 
-<!-- section: drain | visuals: dry riverbed, cracked earth, coastline aerial, cliffs sea, salt flats | title: Draining a Sea | ai: a Mediterranean bay where the water has slowly retreated, leaving fishing boats stranded on wet sand far below the old waterline; a giant second dam linking Sicily and Tunisia across the sea, seen from above, the water level clearly lower on one side; a massive dam closing the Dardanelles strait, the Black Sea held back on one side, aerial view at sunset -->
+<!-- section: drain | visuals: dry riverbed, cracked earth, coastline aerial, cliffs sea, salt flats | title: Draining a Sea | ai: a giant second dam linking Sicily and Tunisia across the sea, seen from above, the water level clearly lower on one side; a massive dam closing the Dardanelles strait, the Black Sea held back on one side, aerial view at sunset -->
 Here is the strange part. Sörgel did not need pumps to drain the Mediterranean.
 
 The sun would do it for him.
@@ -53,7 +53,7 @@ Then, about five and a half million years ago, the Atlantic broke back in throug
 
 Nature had already run Sörgel's experiment. And then it reversed it.
 
-<!-- section: continent | visuals: farmland aerial, new city aerial, railway bridge, highway night aerial, desert | title: A New Continent | ai: endless new farmland and gleaming new cities on the exposed former seabed of the Mediterranean, aerial view, utopian 1930s style; a giant road and railway bridge crossing from Sicily to Tunisia over the lowered sea, a train racing across, dramatic sky; a retro-futuristic 1930s poster style view of a united Europe and Africa as one supercontinent, glowing lines of power and railways -->
+<!-- section: continent | visuals: farmland aerial, new city aerial, railway bridge, highway night aerial, desert | title: A New Continent | ai: a giant road and railway bridge crossing from Sicily to Tunisia over the lowered sea, a train racing across, dramatic sky; a retro-futuristic 1930s poster style view of a united Europe and Africa as one supercontinent, glowing lines of power and railways -->
 And then, the land would appear.
 
 Around six hundred thousand square kilometres of new ground. More than the whole of France. Space for farms, for new cities, for millions of people.
@@ -62,7 +62,7 @@ A road and a railway would run from Europe, across Sicily, all the way to Africa
 
 And that was the real dream. Not just a dam, but a new continent. Atlantropa.
 
-<!-- section: shadow | visuals: harbor boats, old port, sand dunes, storm clouds, lonely boat | title: The Price Nobody Counted | ai: a great old port city left stranded inland, its harbour walls standing over dry land and the sea a thin line on the horizon, melancholic; a vast flooded river basin in central Africa with the jungle drowned under a man-made lake, ominous clouds -->
+<!-- section: shadow | visuals: harbor boats, old port, sand dunes, storm clouds, lonely boat | title: The Price Nobody Counted | ai: a vast flooded river basin in central Africa with the jungle drowned under a man-made lake, ominous clouds -->
 But the dream had a dark side.
 
 Great port cities would have been left stranded, far from the water they were built on. The climate of the whole region could have changed in ways no one understood.
@@ -84,7 +84,7 @@ On Christmas Day, 1952, Herman Sörgel was killed in a road accident. He had spe
 
 Eight years later, the Atlantropa Institute was quietly dissolved.
 
-<!-- section: outro | visuals: strait of gibraltar, container ship, ocean sunset, gibraltar rock | ai: the Strait of Gibraltar today at sunset, open water and ships passing peacefully, the Rock of Gibraltar glowing, with a faint ghostly outline of the giant dam that was never built -->
+<!-- section: outro | visuals: strait of gibraltar, container ship, ocean sunset, gibraltar rock -->
 Today, the Strait of Gibraltar is still open. Ships pass through it every day, and the Atlantic still pours quietly into the Mediterranean, just as it always has.
 
 But somewhere in an archive, the drawings are still there. The new coastlines. The bridges. The dam.

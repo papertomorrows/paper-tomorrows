@@ -24,7 +24,7 @@
  "kicker_text": "NEVER BUILT",
  "label": "AI CONCEPT VISUALIZATION",
  "label_seconds": 4,
- "status": "ready-lf002-v3",
+ "status": "ready-lf002-v4",
  "short_clips": {
   "hook": [
    "002_atlantropa/motion_a0a0baf38b.mp4",
@@ -55,5 +55,7 @@
    "002_atlantropa/motion_adc623b6b0.mp4",
    "002_atlantropa/motion_f01c5d974e.mp4"
   ]
- }
+ },
+ "short_fit": "crop",
+ "short_crop_y": 0.45
 }

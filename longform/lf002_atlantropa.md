@@ -11,7 +11,7 @@ It sounds like science fiction. But for twenty-five years, one man worked on it 
 
 This is the story of Atlantropa. The greatest project that was never built.
 
-<!-- section: man | visuals: old map, vintage drawing, architect drawing, munich, fountain pen | title: The Man With the Map | ai: a 1920s Munich street in the rain at dusk, trams and people with umbrellas, moody and cinematic >> a tram rolls past through the rain, people with umbrellas walk by, puddles ripple, camera slowly pushes forward; a hand drawing a long line across the Strait of Gibraltar on an old map with a fountain pen, close-up >> the pen moves steadily drawing a bold ink line across the strait, ink glistening, lamp light flickers -->
+<!-- section: man | visuals: vintage map, ink pen writing, rain street night, old documents | title: The Man With the Map | ai: a 1920s Munich street in the rain at dusk, trams and people with umbrellas, moody and cinematic >> a tram rolls past through the rain, people with umbrellas walk by, puddles ripple, camera slowly pushes forward; a hand drawing a long line across the Strait of Gibraltar on an old map with a fountain pen, close-up >> the pen moves steadily drawing a bold ink line across the strait, ink glistening, lamp light flickers -->
 His name was Herman Sörgel, an architect from Munich.
 
 In the years after the First World War, Europe was broken. Cities had been destroyed, economies had collapsed, and people feared that another war would come.
@@ -33,7 +33,7 @@ And it would not be built in a few years. Sörgel imagined a project lasting mor
 
 But the dam was not only a wall. It was a machine. Water from the Atlantic would be allowed to pour back in through enormous turbines, turning the dam into one of the largest power stations ever imagined. Electricity for an entire continent.
 
-<!-- section: drain | visuals: dry riverbed, cracked earth, coastline aerial, cliffs sea, salt flats | title: Draining a Sea | ai: a giant second dam linking Sicily and Tunisia across the sea, seen from above, the water level clearly lower on one side >> drone flies low along the top of the dam, water churning on the high side, mist rising; a massive dam closing the Dardanelles strait, the Black Sea held back on one side, aerial view at sunset -->
+<!-- section: drain | visuals: dry riverbed, cracked earth, coastline aerial, cliffs sea, low tide | title: Draining a Sea | ai: a giant second dam linking Sicily and Tunisia across the sea, seen from above, the water level clearly lower on one side >> drone flies low along the top of the dam, water churning on the high side, mist rising; a massive dam closing the Dardanelles strait, the Black Sea held back on one side, aerial view at sunset -->
 Here is the strange part. Sörgel did not need pumps to drain the Mediterranean.
 
 The sun would do it for him.
@@ -44,7 +44,7 @@ Sörgel planned more dams to control it. One between Sicily and Tunisia would sp
 
 The western basin would drop by about one hundred metres. The eastern basin, by about two hundred.
 
-<!-- section: once | visuals: salt flats, dry lake, waterfall huge, canyon, desert aerial | title: It Already Happened Once | ai: the Mediterranean basin almost completely dried out millions of years ago, a vast white salt desert with a few salty lakes under a harsh sun, aerial view >> slow aerial flight over the shimmering salt desert, heat haze rippling, dust blowing across the white ground; a colossal waterfall of Atlantic water bursting through the Strait of Gibraltar into a dry Mediterranean basin far below, apocalyptic scale, mist and rainbows >> the immense waterfall roars and surges forward, massive clouds of mist explode upward, water floods across the dry salt floor -->
+<!-- section: once | visuals: salt desert aerial, dry lake bed aerial, huge waterfall, canyon aerial | title: It Already Happened Once | ai: the Mediterranean basin almost completely dried out millions of years ago, a vast white salt desert with a few salty lakes under a harsh sun, aerial view >> slow aerial flight over the shimmering salt desert, heat haze rippling, dust blowing across the white ground; a colossal waterfall of Atlantic water bursting through the Strait of Gibraltar into a dry Mediterranean basin far below, apocalyptic scale, mist and rainbows >> the immense waterfall roars and surges forward, massive clouds of mist explode upward, water floods across the dry salt floor -->
 And here is something Sörgel could not have fully known. The Mediterranean has dried up before.
 
 Around six million years ago, long before humans, movements of the Earth closed the connection to the Atlantic. Cut off from the ocean, the sea evaporated. Scientists call it the Messinian salinity crisis. Much of the basin became a deep, scorching desert of salt, in places kilometres below today's sea level.
@@ -62,7 +62,7 @@ A road and a railway would run from Europe, across Sicily, all the way to Africa
 
 And that was the real dream. Not just a dam, but a new continent. Atlantropa.
 
-<!-- section: shadow | visuals: harbor boats, old port, sand dunes, storm clouds, lonely boat | title: The Price Nobody Counted | ai: a vast flooded river basin in central Africa with the jungle drowned under a man-made lake, ominous clouds >> water slowly rising through the drowned jungle, treetops disappearing, dark clouds rolling -->
+<!-- section: shadow | visuals: abandoned boat, stranded boat, dry lake bed, storm clouds | title: The Price Nobody Counted | ai: a vast flooded river basin in central Africa with the jungle drowned under a man-made lake, ominous clouds >> water slowly rising through the drowned jungle, treetops disappearing, dark clouds rolling -->
 But the dream had a dark side.
 
 Great port cities would have been left stranded, far from the water they were built on. The climate of the whole region could have changed in ways no one understood.

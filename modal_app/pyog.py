@@ -258,8 +258,18 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             full = f"{prompt}, {spec.get('ai_style', 'cinematic, dreamy, soft volumetric light, deep blue and warm gold, no text, no watermark')}"
             f = cache / "stock" / f"own_{key(full)}.jpg"
             if not f.exists():
-                f.write_bytes(fallback_image.remote(full, 500 + k))
+                img = None
+                for attempt, seed in enumerate((500 + k, 900 + k)):
+                    try:
+                        img = fallback_image.remote(full if attempt == 0 else f"{prompt}, cinematic painting, no text", seed)
+                        break
+                    except Exception as exc:
+                        print(f"OWN IMAGE FAILED (try {attempt + 1}) '{prompt[:80]}': {str(exc)[:1500]}")
+                if img is None:
+                    continue
+                f.write_bytes(img)
                 own_new.append(prompt)
+                CACHE.commit()
             own.append(("image", f))
         stock = [("video", f) for f in picked]
         mixed = []
@@ -283,7 +293,11 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         sec["clips"].append(pool[k % len(pool)])
                         clip_files.append(pool[k % len(pool)])
                         continue
-                f.write_bytes(fallback_image.remote(prompt, 100 + k))
+                try:
+                    f.write_bytes(fallback_image.remote(prompt, 100 + k))
+                except Exception as exc:
+                    print(f"FALLBACK IMAGE FAILED '{prompt[:80]}': {str(exc)[:1500]}")
+                    continue
                 fallbacks += 1
             clip_files.append(("image", f))
             sec["clips"].append(("image", f))

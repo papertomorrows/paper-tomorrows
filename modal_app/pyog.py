@@ -59,6 +59,19 @@ def tts_eleven(text: str, voice_id: str, settings: dict) -> bytes:
     return r.content
 
 
+@app.function(image=image, timeout=1500, secrets=[KEYS], max_containers=6)
+def animate(img: bytes, motion: str) -> bytes:
+    """Hailuo 2.3 Fast image-to-video (768p, 6 s, about $0.19)."""
+    import fal_client
+    import requests
+
+    url = fal_client.upload(img, "image/jpeg")
+    res = fal_client.subscribe("fal-ai/minimax/hailuo-2.3-fast/standard/image-to-video",
+                               arguments={"image_url": url, "prompt": motion, "duration": "6",
+                                          "prompt_optimizer": False})
+    return requests.get(res["video"]["url"], timeout=300).content
+
+
 @app.function(image=image, timeout=600, secrets=[KEYS])
 def fallback_image(prompt: str, seed: int) -> bytes:
     import fal_client
@@ -197,6 +210,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     used, clip_files, fallbacks, dark = set(), [], 0, 0
     own_new, credits = [], {}
     reused_total = [0]
+    anims_new = [0]
     min_luma = float(spec.get("min_luma", 55))
 
     def luma(f):
@@ -258,7 +272,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     picked_ids.append(cid)
             depth += 1
         own = []
-        for k, prompt in enumerate(sec["ai"]):  # the channel's own images (always paid, a few per video)
+        for k, item in enumerate(sec["ai"]):  # the channel's own images (always paid, a few per video)
+            prompt, _, motion = (x.strip() for x in item.partition(">>"))
             full = f"{prompt}, {spec.get('ai_style', 'cinematic, dreamy, soft volumetric light, deep blue and warm gold, no text, no watermark')}"
             f = cache / "stock" / f"own_{key(full)}.jpg"
             if not f.exists():
@@ -274,6 +289,18 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 f.write_bytes(img)
                 own_new.append(prompt)
                 CACHE.commit()
+            if motion:
+                mv = cache / "stock" / f"anim_{key(full + motion)}.mp4"
+                if not mv.exists():
+                    try:
+                        mv.write_bytes(animate.remote(f.read_bytes(), motion))
+                        anims_new[0] += 1
+                        CACHE.commit()
+                    except Exception as exc:
+                        print(f"ANIMATE FAILED '{prompt[:80]}': {str(exc)[:600]}")
+                if mv.exists():
+                    own.append(("video", mv))
+                    continue
             own.append(("image", f))
         stock = [("video", f) for f in picked]
         mixed = []
@@ -334,7 +361,13 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             base = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},"
                     f"eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p")
             fr = int(round(D * FPS))
-            if kind == "vshort":  # vertical clip from a short: sharp in the middle, blurred copy behind
+            if kind == "vshort" and spec.get("short_fit", "crop") == "crop":  # fill the wide frame
+                run(["ffmpeg", "-y", "-i", str(f), "-an", "-vf",
+                     f"setpts=1.1*PTS,tpad=stop_mode=clone:stop_duration=10,fps={FPS},"
+                     f"scale={W}:-2,crop={W}:{H}:0:(ih-{H})*{float(spec.get('short_crop_y', 0.45))},"
+                     f"setsar=1,eq=contrast=1.04:saturation=1.06,{fade},format=yuv420p",
+                     "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
+            elif kind == "vshort":  # vertical clip from a short: sharp in the middle, blurred copy behind
                 run(["ffmpeg", "-y", "-i", str(f), "-an", "-filter_complex",
                      f"[0:v]setpts=1.1*PTS,tpad=stop_mode=clone:stop_duration=10,fps={FPS},split[a][b];"
                      f"[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=40:4,"
@@ -414,7 +447,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     for sec in sections]
     return {"video": final.read_bytes(), "srt": "\n".join(srt), "credits": "\n".join(credit_lines),
             "report": {"duration": round(total, 1), "sentences": len(events), "clips": len(clip_files),
-                       "ai_fallbacks": fallbacks, "own_images_new": len(own_new), "short_clips_reused": reused_total[0],
+                       "ai_fallbacks": fallbacks, "own_images_new": len(own_new), "short_clips_reused": reused_total[0], "anims_new": anims_new[0],
                        "chars": sum(len(e[2]) for e in events)}}
 
 

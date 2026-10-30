@@ -100,3 +100,16 @@ Reference: `specs/007_hindenburg_host.json` (v7) + `outputs/shorts/007_hindenbur
 - Chapter title cards: yes for story/info episodes, NO for meditation/affirmation/sleep episodes.
 - Cost: EN voice ~$0.1 per 1k chars (~$0.45-0.65/ep), KR re-render with cached voice ~$0.3.
 - EP001+EP002 KR final and EN v1 delivered; EP003 on hold (status hold-ep003), needs EN script.
+
+## Paper Tomorrows LONG-FORM recipe (decided 2026-10-30, LF002 Atlantropa)
+Owner rule: "think through the optimal, best direction FIRST, then make it" (no trial-and-error spending).
+- Pipeline: modal_app/pyog.py, spec name lf_*, script in longform/*.md. Voice Brian (ElevenLabs, voice_provider eleven).
+- Visual mix per section, cuts every ~4.5 s:
+  1. Reuse the matching short's Kling motion clips (spec short_clips, cropped to fill 16:9) - free.
+  2. ~10-13 new moving scenes: AI still + Hailuo 2.3 Fast (ai item "image prompt >> motion", $0.25 each incl. image).
+  3. Period/people/city sections: `stock: no` + `paint:` prompts (AI stills with varied Ken Burns, $0.06 each).
+  4. Pixabay stock ONLY for era-neutral nature (sea, cliffs, desert, clouds, fields). Stock for "Munich", "dam",
+     "city", "archive", "film" etc. returned modern/off-topic footage - never again.
+- Brand: label "AI CONCEPT VISUALIZATION" 4 s, kicker "NEVER BUILT", mark "Paper Tomorrows", chapter cards.
+- Music bed: outputs/shorts/music_doc_bed/music.mp3 (reuse).
+- Target cost ~US$4 per episode, ~7-9 min. Quote and get approval before running.

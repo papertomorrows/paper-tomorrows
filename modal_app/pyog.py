@@ -44,6 +44,21 @@ def tts(text: str, voice_id: str, speed: float, lang: str = "Korean") -> bytes:
     return requests.get(res["audio"]["url"], timeout=120).content
 
 
+@app.function(image=image, timeout=600, secrets=[KEYS], max_containers=4)
+def tts_eleven(text: str, voice_id: str, settings: dict) -> bytes:
+    import os
+    import requests
+
+    r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+                      headers={"xi-api-key": os.environ["XI_KEY"], "Content-Type": "application/json"},
+                      params={"output_format": "mp3_44100_128"},
+                      json={"text": text, "model_id": "eleven_multilingual_v2", "voice_settings": settings},
+                      timeout=300)
+    if not r.ok:
+        raise RuntimeError(f"ElevenLabs {r.status_code}: {r.text[:300]}")
+    return r.content
+
+
 @app.function(image=image, timeout=600, secrets=[KEYS])
 def fallback_image(prompt: str, seed: int) -> bytes:
     import fal_client
@@ -116,6 +131,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     work.mkdir(parents=True, exist_ok=True)
     voice, speed = spec.get("voice_id", "Korean_CalmGentleman"), float(spec.get("speed", 0.92))
     lang = spec.get("lang", "Korean")
+    provider = spec.get("voice_provider", "minimax")
+    clip_s = float(spec.get("clip_seconds", CLIP))
     wrap_w = 42 if lang == "English" else 22
     cap_size = 62 if lang == "English" else 70
     sections = parse_script(script_md)
@@ -124,10 +141,17 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     allsent = [s for sec in sections for s in sec["sentences"]]
     todo = []
     for s in allsent:
-        s["file"] = cache / "tts" / f"{key(s['text'] + voice + str(speed))}.mp3"
+        tag = voice + str(speed) + (json.dumps(spec.get("voice_settings", {}), sort_keys=True) if provider == "eleven" else "")
+        s["file"] = cache / "tts" / f"{key(s['text'] + tag)}.mp3"
         if not s["file"].exists():
             todo.append(s)
-    for s, audio in zip(todo, tts.starmap([(s["text"], voice, speed, lang) for s in todo])):
+    if provider == "eleven":
+        vs = spec.get("voice_settings", {"stability": 0.35, "similarity_boost": 0.8, "style": 0.4,
+                                         "use_speaker_boost": True, "speed": 0.94})
+        audios = tts_eleven.starmap([(s["text"], voice, vs) for s in todo])
+    else:
+        audios = tts.starmap([(s["text"], voice, speed, lang) for s in todo])
+    for s, audio in zip(todo, audios):
         s["file"].write_bytes(audio)
     CACHE.commit()
     print(f"STEP voice: {len(todo)} new sentences, {len(allsent) - len(todo)} cached")
@@ -192,7 +216,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         return False
 
     for sec in sections:
-        need = max(1, math.ceil((sec["end"] - sec["start"]) / CLIP))
+        need = max(1, math.ceil((sec["end"] - sec["start"]) / clip_s) - len(sec["ai"]))
         lists = []
         for kw in sec["visuals"] or ["calm nature"]:
             hits = []
@@ -202,7 +226,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     "order": "popular"}).json()
                 for h in r.get("hits", []):
                     v = h["videos"].get("large") or h["videos"].get("medium")
-                    if v and v.get("url") and h["duration"] >= CLIP + 2 and v.get("width", 1920) >= 1280:
+                    if v and v.get("url") and h["duration"] >= clip_s + 2 and v.get("width", 1920) >= 1280:
                         hits.append((h["id"], v["url"], kw))
                         credits[h["id"]] = h.get("pageURL", f"https://pixabay.com/videos/id-{h['id']}/")
             except Exception as exc:
@@ -237,12 +261,20 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 f.write_bytes(fallback_image.remote(full, 500 + k))
                 own_new.append(prompt)
             own.append(("image", f))
-        sec["clips"] = own + [("video", f) for f in picked]
+        stock = [("video", f) for f in picked]
+        mixed = []
+        for j in range(max(len(own), len(stock))):  # alternate own images and stock footage
+            if j < len(own):
+                mixed.append(own[j])
+            if j < len(stock):
+                mixed.append(stock[j])
+        sec["clips"] = mixed
         clip_files += sec["clips"]
         sec["stock_ids"] = picked_ids
         for k in range(need - len(picked)):  # not enough stock: calm AI image instead
-            prompt = (f"{(sec['visuals'] or ['calm cosmos'])[k % max(1, len(sec['visuals']))]}, cinematic, dreamy, "
-                      "soft volumetric light, peaceful spiritual atmosphere, no text, no watermark")
+            prompt = (f"{(sec['visuals'] or ['calm cosmos'])[k % max(1, len(sec['visuals']))]}, "
+                      + spec.get("ai_style", "cinematic, dreamy, soft volumetric light, peaceful spiritual "
+                                             "atmosphere, no text, no watermark"))
             f = cache / "stock" / f"ai_{key(prompt)}.jpg"
             if not f.exists():
                 if fallbacks >= int(spec.get("max_ai_fallbacks", 99)):
@@ -258,6 +290,17 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     print(f"STEP visuals: skipped {dark} dark/green-screen clips")
     CACHE.commit()
     print(f"STEP visuals: {len(clip_files)} clips ({fallbacks} AI fallbacks)")
+
+    def kb(n, fr, z):
+        # vary the still-image motion: push in, pull out, drift left, drift right
+        mode = n % 4
+        if mode == 0:
+            return f"z='1+{z}*on/{fr}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+        if mode == 1:
+            return f"z='{1 + z}-{z}*on/{fr}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+        if mode == 2:
+            return f"z='{1 + z}':x='(iw-iw/zoom)*(1-on/{fr})':y='ih/2-(ih/zoom/2)'"
+        return f"z='{1 + z}':x='(iw-iw/zoom)*on/{fr}':y='ih/2-(ih/zoom/2)'"
 
     # ---- render clips section by section so pictures stay with their words
     segs, i = [], 0
@@ -280,8 +323,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                      "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
             else:
                 run(["ffmpeg", "-y", "-loop", "1", "-i", str(f), "-vf",
-                     f"scale=3840:2160,zoompan=z='min(1+0.08*on/{fr},1.08)':x='iw/2-(iw/zoom/2)':"
-                     f"y='ih/2-(ih/zoom/2)':d={fr}:s={W}x{H}:fps={FPS},{fade},format=yuv420p",
+                     f"scale=3840:2160,zoompan={kb(i, fr, float(spec.get('ken_burns', 0.08)))}:d={fr}:s={W}x{H}:fps={FPS},"
+                     f"{fade},format=yuv420p",
                      "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
             segs.append(out)
     (work / "list.txt").write_text("".join(f"file '{s}'\n" for s in segs))
@@ -314,6 +357,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             if kick:
                 ass.append(f"Dialogue: 1,{ass_time(a0 + 0.2)},{ass_time(a0 + 3.6)},Kick,,0,0,0,,"
                            f"{{\\pos({W // 2},{H // 2 - 105})\\fad(500,600)}}{kick}")
+    if spec.get("label"):
+        ass.append(f"Dialogue: 2,{ass_time(0)},{ass_time(float(spec.get('label_seconds', 4)))},Mark,,0,0,0,,"
+                   f"{{\\an7\\pos(50,40)\\fad(200,400)}}{spec['label']}")
     if spec.get("brand_mark", True):
         ass.append(f"Dialogue: 2,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{spec.get('mark_text', 'Play Your Own Game')}")
     (work / "cap.ass").write_text("\n".join(ass))

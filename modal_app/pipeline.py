@@ -825,7 +825,7 @@ def main(spec: str):
                                                                   v.get("model", "eleven_multilingual_v2"),
                                                                   v.get("settings", DEFAULTS["voice_settings"]))
         if a.get("music"):
-            calls["music.mp3"] = generate_audio.spawn(a["music"], 45)
+            calls["music.mp3"] = generate_audio.spawn(a["music"], int(a.get("music_seconds", 45)))
         iw, ih = a.get("size", [1920, 1080])
         imgs = [generate_image.spawn(f"{p} {a.get('style', '')}", 3000 + i, iw, ih)
                 for i, p in enumerate(a.get("images", []))]

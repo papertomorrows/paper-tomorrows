@@ -78,7 +78,7 @@ jobs:
             (
               for TRY in 1 2 3; do
                 APP=modal_app/pipeline.py
-                case "$NAME" in pyog_ep*) APP=modal_app/pyog.py;; esac
+                case "$NAME" in pyog_ep*|lf_*) APP=modal_app/pyog.py;; esac
                 timeout 2700 modal run "$APP" --spec "$SPEC" > "log_$NAME.txt" 2>&1 && exit 0
                 grep -qi "rate limit" "log_$NAME.txt" || exit 1
                 echo "rate limited, retrying $NAME (try $TRY)"; sleep $((30 * TRY))

@@ -17,14 +17,14 @@
  "min_luma": 40,
  "clip_seconds": 4.5,
  "ken_burns": 0.12,
- "max_ai_fallbacks": 6,
+ "max_ai_fallbacks": 22,
  "ai_style": "cinematic matte painting, painterly brushwork with near-photographic lighting, volumetric haze, subtle film grain, muted gold and deep blue colour palette, epic sense of scale, wide 16:9 composition. No text, no lettering, no signage, no watermark.",
  "brand_mark": true,
  "mark_text": "Paper Tomorrows",
  "kicker_text": "NEVER BUILT",
  "label": "AI CONCEPT VISUALIZATION",
  "label_seconds": 4,
- "status": "ready-lf002-v4",
+ "status": "ready-lf002-v5",
  "short_clips": {
   "hook": [
    "002_atlantropa/motion_a0a0baf38b.mp4",
@@ -57,5 +57,6 @@
   ]
  },
  "short_fit": "crop",
- "short_crop_y": 0.45
+ "short_crop_y": 0.45,
+ "paint_clip_seconds": 6
 }

@@ -102,6 +102,8 @@ def parse_script(md: str):
         sections.append({"name": name.strip(), "visuals": [v.strip() for v in vis.split(",") if v.strip()],
                          "title": fields.get("title", ""),
                          "ai": [x.strip() for x in fields.get("ai", "").split(";") if x.strip()],
+                         "paint": [x.strip() for x in fields.get("paint", "").split(";") if x.strip()],
+                         "stock": fields.get("stock", "yes").lower() != "no",
                          "sentences": sents})
     return sections
 
@@ -233,10 +235,11 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     for sec in sections:
         reuse = [("vshort", pathlib.Path("/cache") / c) for c in spec.get("short_clips", {}).get(sec["name"], [])
                  if (pathlib.Path("/cache") / c).exists()]
-        need = max(1, math.ceil((sec["end"] - sec["start"]) / clip_s) - len(sec["ai"]) - len(reuse))
+        sec_clip = clip_s if sec.get("stock", True) else float(spec.get("paint_clip_seconds", 6))
+        need = max(1, math.ceil((sec["end"] - sec["start"]) / sec_clip) - len(sec["ai"]) - len(reuse))
         reused_total[0] += len(reuse)
         lists = []
-        for kw in sec["visuals"] or ["calm nature"]:
+        for kw in (sec["visuals"] or ["calm nature"]) if sec.get("stock", True) else []:
             hits = []
             try:
                 r = requests.get("https://pixabay.com/api/videos/", timeout=30, params={
@@ -309,13 +312,15 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 if j < len(group):
                     mixed.append(group[j])
         sec["clips"] = mixed
+        sec["n_base"] = len(mixed)
         clip_files += sec["clips"]
         sec["stock_ids"] = picked_ids
         for k in range(need - len(picked)):  # not enough stock: calm AI image instead
-            prompt = (f"{(sec['visuals'] or ['calm cosmos'])[k % max(1, len(sec['visuals']))]}, "
+            pool_p = sec.get("paint") or sec["visuals"] or ["calm cosmos"]
+            prompt = (f"{pool_p[k % len(pool_p)]}, "
                       + spec.get("ai_style", "cinematic, dreamy, soft volumetric light, peaceful spiritual "
                                              "atmosphere, no text, no watermark"))
-            f = cache / "stock" / f"ai_{key(prompt)}.jpg"
+            f = cache / "stock" / f"ai_{key(prompt + ('' if k < len(pool_p) else str(k)))}.jpg"
             if not f.exists():
                 if fallbacks >= int(spec.get("max_ai_fallbacks", 99)):
                     pool = sec["clips"] or clip_files  # budget reached: reuse a clip instead of paying
@@ -331,6 +336,16 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 fallbacks += 1
             clip_files.append(("image", f))
             sec["clips"].append(("image", f))
+    for sec in sections:  # spread extra painted scenes between the moving shots
+        base, extra = sec["clips"][:sec.get("n_base", 0)], sec["clips"][sec.get("n_base", 0):]
+        if base and extra:
+            merged = []
+            for j in range(max(len(base), len(extra))):
+                if j < len(base):
+                    merged.append(base[j])
+                if j < len(extra):
+                    merged.append(extra[j])
+            sec["clips"] = merged
     print(f"STEP visuals: skipped {dark} dark/green-screen clips")
     CACHE.commit()
     print(f"STEP visuals: {len(clip_files)} clips ({fallbacks} AI fallbacks)")

@@ -26,7 +26,9 @@ image = (
 KEYS = modal.Secret.from_name("paper-tomorrows-keys")
 CACHE = modal.Volume.from_name("paper-tomorrows-cache", create_if_missing=True)
 W, H, FPS = 1920, 1080, 30
-CLIP = 7.0   # seconds each stock clip stays on screen
+CLIP = 7.0
+BLOCK_TAGS = ("cigarette", "smoking", "smoker", "tobacco", "cigar", "vape", "beer", "wine", "alcohol", "whisky",
+              "drunk", "gun", "weapon", "pistol", "rifle", "blood", "knife", "drug", "syringe", "pills")   # seconds each stock clip stays on screen
 
 
 def key(t: str) -> str:
@@ -247,6 +249,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     "order": "popular"}).json()
                 for h in r.get("hits", []):
                     v = h["videos"].get("large") or h["videos"].get("medium")
+                    tags = (h.get("tags") or "").lower()
+                    if any(w in tags for w in BLOCK_TAGS):  # never show smoking, drinking, weapons etc.
+                        continue
                     if v and v.get("url") and h["duration"] >= clip_s + 2 and v.get("width", 1920) >= 1280:
                         hits.append((h["id"], v["url"], kw))
                         credits[h["id"]] = h.get("pageURL", f"https://pixabay.com/videos/id-{h['id']}/")

@@ -95,7 +95,7 @@ Reference: `specs/007_hindenburg_host.json` (v7) + `outputs/shorts/007_hindenbur
 
 ## PYOG bilingual plan (2026-10-29)
 - Two separate channels: English = "Play Your Own Game" (existing channel); Korean = "당신만의 게임" (@당신만의게임); KR specs use mark_text + kicker_text "당신만의 게임". English channel handle is @playyourowngameplz.
-- Every episode: Korean version (voice Korean_CalmGentleman, speed 0.92, owner likes it, never change) + English adaptation (pyog/en/*.md, voice English_CaptivatingStoryteller "D", speed 0.95, lang English, spec id pyog_epXXX_en).
+- Every episode: Korean version (from EP003 on: voice Korean_IntellectualMan "M3", speed 0.92, warm conversational 해요체 script like a kind person explaining step by step; EP001-002 used Korean_CalmGentleman) + English adaptation (pyog/en/*.md, voice English_CaptivatingStoryteller "D", speed 0.95, lang English, spec id pyog_epXXX_en).
 - English is rewritten naturally, not literal; stock keywords partly different from KR.
 - Chapter title cards: yes for story/info episodes, NO for meditation/affirmation/sleep episodes.
 - Cost: EN voice ~$0.1 per 1k chars (~$0.45-0.65/ep), KR re-render with cached voice ~$0.3.
@@ -113,3 +113,6 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 - Brand: label "AI CONCEPT VISUALIZATION" 4 s, kicker "NEVER BUILT", mark "Paper Tomorrows", chapter cards.
 - Music bed: outputs/shorts/music_doc_bed/music.mp3 (reuse).
 - Target cost ~US$4 per episode, ~7-9 min. Quote and get approval before running.
+
+- KR channel (당신만의게임) script style from EP003: 해요체 (~이에요/~거든요/~잖아요), ask a question then pause and answer, explain hard ideas with everyday analogies. Voice M3 Korean_IntellectualMan (chosen 2026-10-31).
+- Keyword research method: YouTube autocomplete via suggestqueries (built-in browser on youtube.com, trustedTypes policy + JSONP).

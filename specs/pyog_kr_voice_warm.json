@@ -1,0 +1,79 @@
+{
+ "id": "pyog_kr_voice_warm",
+ "status": "ready-krvoice",
+ "assets": {
+  "text": "혹시 이런 경험 있으세요? 열심히 애쓸수록 오히려 일이 꼬이고, 마음을 내려놓았을 때 거짓말처럼 일이 풀리는 순간이요. 오늘은 그 이유를 아주 천천히, 하나씩 이야기해 볼게요. 편하게 들어 주세요.",
+  "voices": [
+   {
+    "name": "M1_current_calm_gentleman",
+    "provider": "minimax",
+    "voice_id": "Korean_CalmGentleman",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "M2_considerate_senior",
+    "provider": "minimax",
+    "voice_id": "Korean_ConsiderateSenior",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "M3_intellectual_man",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "M4_gentle_boss",
+    "provider": "minimax",
+    "voice_id": "Korean_GentleBoss",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "M5_wise_teacher",
+    "provider": "minimax",
+    "voice_id": "Korean_WiseTeacher",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "F1_gentle_woman",
+    "provider": "minimax",
+    "voice_id": "Korean_GentleWoman",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "F2_caring_woman",
+    "provider": "minimax",
+    "voice_id": "Korean_CaringWoman",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "F3_thoughtful_woman",
+    "provider": "minimax",
+    "voice_id": "Korean_ThoughtfulWoman",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "F4_soothing_lady",
+    "provider": "minimax",
+    "voice_id": "Korean_SoothingLady",
+    "speed": 0.92,
+    "lang": "Korean"
+   },
+   {
+    "name": "F5_calm_lady",
+    "provider": "minimax",
+    "voice_id": "Korean_CalmLady",
+    "speed": 0.92,
+    "lang": "Korean"
+   }
+  ]
+ }
+}

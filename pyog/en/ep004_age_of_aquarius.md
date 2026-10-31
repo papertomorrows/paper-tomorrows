@@ -52,6 +52,23 @@ That 2020 meeting becomes even more meaningful here. Jupiter and Saturn meet rou
 
 If the earth era was about possessions and material things, the air era is about ideas and information, relationships and consciousness. Which sounds a lot like the world we're living in right now.
 
+<!-- section: thrive | visuals: office workers, old factory, freelancer laptop, friends talking, sunrise city | title: The People Who Thrive Are Changing | ai: a split scene at dawn, on one side tired people climbing a tall grey stone staircase toward a single throne, on the other side people walking freely on open paths of light that connect to each other >> on the light side the paths gently glow and people walk toward each other, while the grey staircase slowly fades into mist -->
+But there's something important we need to talk about here.
+
+When an age changes, the kind of person who thrives changes too.
+
+Think about who did well in the Age of Pisces. The person who faithfully followed the set path. Who listened to authority. Who stayed in one company, one position, for decades. Who owned more, and kept what they knew to themselves. Those people built stable, successful lives.
+
+But in the Age of Aquarius, the rules shift. The set path keeps moving. Authorities can't give the answers they once did. And knowledge you keep to yourself goes out of date fast.
+
+The people who thrive in this age look different. They ask their own questions and find their own way. They keep learning for life. They draw strength from connection rather than standing alone. They don't hide who they really are. And they know how to share what they have.
+
+This may sound a little hard, but not everyone will cross this transition easily. The more tightly someone clings to the old ways, the more this change may feel like confusion and anxiety. Like the ground constantly shifting under their feet.
+
+But you don't need to worry. The kind of person who thrives in the Aquarian age isn't born that way. They're made through practice. And the fact that you're watching this right now is already the first step.
+
+So later in this video, I'll walk you through that practice, one step at a time. Stay with me until the end.
+
 <!-- section: bearer | visuals: water pouring, waterfall slow motion, river light, rain drops, ocean waves | title: You Are the Water Bearer | ai: a calm person kneeling by a quiet lake at dawn, gently pouring water of glowing light from an old clay jar, the light spreading across the water in rings >> glowing water pours slowly from the jar, rings of light spread across the lake, soft mist rises -->
 In the old images of Aquarius, a figure tips a jar and pours out water.
 
@@ -99,7 +116,7 @@ Maybe what we're feeling now is something like that. The old ways dissolving, ne
 So if your heart feels unsteady these days, please don't blame yourself. That feeling may simply mean you're awake enough to notice the change.
 
 <!-- section: ways | visuals: meditation sunrise, walking in nature, friends talking, writing journal, forest light, barefoot grass | title: Five Ways to Live Well in the Age of Aquarius | ai: many people standing on a hill at dawn, each holding a small glowing light, thin threads of golden light connecting them all into one gentle network >> the threads of golden light softly pulse and glow between the people as the sun rises behind them -->
-So how do we live well in a time like this? Just remember five things.
+So now, here are five ways to become the kind of person who thrives in the Age of Aquarius. They aren't difficult. Just start following them, one at a time, from today.
 
 One. Find stillness every day. In this age, information pours over us like water. And the voice within can only be heard in stillness. Even five minutes a day, close your eyes and watch your breath. In that quiet, the teacher within begins to speak.
 

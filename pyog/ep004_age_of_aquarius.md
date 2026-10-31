@@ -54,6 +54,23 @@
 
 땅의 시대가 소유와 물질의 시대였다면, 공기의 시대는 생각과 정보, 관계와 의식의 시대예요. 우리가 지금 느끼는 변화와 정확히 닮아 있죠.
 
+<!-- section: thrive | visuals: office workers, old factory, freelancer laptop, friends talking, sunrise city | title: 잘 사는 사람이 달라져요 | ai: a split scene at dawn, on one side tired people climbing a tall grey stone staircase toward a single throne, on the other side people walking freely on open paths of light that connect to each other >> on the light side the paths gently glow and people walk toward each other, while the grey staircase slowly fades into mist -->
+그런데요, 여기서 꼭 짚고 넘어가야 할 이야기가 있어요.
+
+시대가 바뀌면, 그 시대에 잘 사는 사람의 모습도 바뀐다는 거예요.
+
+물고기자리 시대에 잘 살던 사람을 떠올려 볼까요? 정해진 길을 성실하게 따르는 사람, 윗사람의 말을 잘 듣는 사람, 한 회사, 한 자리를 오래 지키는 사람, 그리고 남보다 더 많이 가지고, 더 많이 아는 것을 혼자 쥐고 있는 사람. 이런 사람이 안정적으로 잘 살았어요.
+
+그런데 물병자리 시대에는 이야기가 달라져요. 정해진 길이 계속 바뀌고, 권위는 예전만큼 답을 주지 못하고, 혼자 쥐고 있는 지식은 금방 낡아 버려요.
+
+이 시대에 잘 사는 사람은 이런 사람이에요. 스스로 묻고 스스로 길을 찾는 사람, 평생 배우는 사람, 혼자가 아니라 연결 속에서 힘을 얻는 사람, 자기다움을 숨기지 않는 사람, 그리고 가진 것을 나눌 줄 아는 사람.
+
+조금 냉정하게 들릴 수 있지만, 모두가 이 전환을 편안하게 건너지는 못해요. 옛 방식을 꽉 붙잡고 놓지 않으려는 사람일수록, 이 변화가 더 큰 혼란과 불안으로 다가올 수 있어요. 발밑의 땅이 계속 흔들리는 것처럼요.
+
+하지만 걱정하지 않으셔도 돼요. 물병자리 시대에 맞는 사람은 타고나는 게 아니라, 연습으로 만들어지거든요. 지금 이 영상을 보고 계신 것 자체가, 이미 그 첫걸음이에요.
+
+그래서 오늘 이 영상의 뒷부분에서, 그 연습을 하나씩 알려 드릴게요. 끝까지 함께해 주세요.
+
 <!-- section: bearer | visuals: water pouring, waterfall slow motion, river light, rain drops, ocean waves | title: 물병을 든 사람은, 바로 당신이에요 | ai: a calm person kneeling by a quiet lake at dawn, gently pouring water of glowing light from an old clay jar, the light spreading across the water in rings >> glowing water pours slowly from the jar, rings of light spread across the lake, soft mist rises -->
 물병자리를 그린 오래된 그림을 보면, 한 사람이 물병을 기울여 물을 붓고 있어요.
 
@@ -101,7 +118,7 @@
 그러니 지금 마음이 흔들린다면, 스스로를 탓하지 않으셨으면 좋겠어요. 그 흔들림은, 당신이 변화를 느낄 만큼 깨어 있다는 뜻이기도 하니까요.
 
 <!-- section: ways | visuals: meditation sunrise, walking in nature, friends talking, writing journal, forest light, barefoot grass | title: 물병자리 시대를 잘 사는 다섯 가지 방법 | ai: many people standing on a hill at dawn, each holding a small glowing light, thin threads of golden light connecting them all into one gentle network >> the threads of golden light softly pulse and glow between the people as the sun rises behind them -->
-그럼 이런 시대에, 우리는 어떻게 살면 좋을까요? 다섯 가지만 기억해 주세요.
+그럼 이제, 물병자리 시대에 잘 사는 사람이 되기 위한 다섯 가지 방법을 알려 드릴게요. 어렵지 않아요. 오늘부터 하나씩만 따라 해 보세요.
 
 첫째, 매일 잠깐이라도 고요해지세요. 물병자리 시대에는 정보가 물처럼 넘쳐요. 그럴수록 내 안의 목소리는 고요할 때만 들려요. 하루 5분이라도 눈을 감고 숨을 바라보세요. 그 고요 속에서, 밖의 소음이 아닌 안의 스승이 말을 걸어오기 시작해요.
 

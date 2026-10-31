@@ -10,14 +10,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - env:
-          XI: ${{ secrets.ELEVENLABS_API_KEY }}
+          XI: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS }}
         run: |
           mkdir -p outputs/voices
           for g in male female; do
             curl -s -H "xi-api-key: $XI" "https://api.elevenlabs.io/v1/shared-voices?page_size=60&language=ko&gender=$g&sort=usage_character_count_1y" \
               | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps([{k:v.get(k) for k in ('voice_id','public_owner_id','name','accent','age','descriptive','use_case','category','cloned_by_count','usage_character_count_1y','description','preview_url','verified_languages')} for v in d.get('voices',[])],ensure_ascii=False,indent=1))" > outputs/voices/ko_$g.json
           done
-          curl -s -H "xi-api-key: $XI" "https://api.elevenlabs.io/v1/user/subscription" | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps({k:d.get(k) for k in ('tier','character_count','character_limit','next_character_count_reset_unix','voice_limit','voice_slots_used')},indent=1))" > outputs/voices/subscription.json
+          curl -s -H "xi-api-key: $XI" "https://api.elevenlabs.io/v1/user/subscription" | tee outputs/voices/sub_raw.txt | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps({k:d.get(k) for k in ('tier','character_count','character_limit','next_character_count_reset_unix','voice_limit','voice_slots_used')},indent=1))" > outputs/voices/subscription.json
           ls -la outputs/voices; head -c 600 outputs/voices/subscription.json
       - run: |
           git config user.name paper-tomorrows-bot; git config user.email actions@users.noreply.github.com

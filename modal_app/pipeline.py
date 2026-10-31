@@ -818,8 +818,8 @@ def main(spec: str):
         calls = {}
         for v in a.get("voices", []):
             if v["provider"] == "minimax":
-                calls[f"voice_{v['name']}.mp3"] = minimax_tts.spawn(a["text"], v["voice_id"], v.get("speed", 1.0),
-                                                                     v.get("lang", "Korean"))
+                calls[f"voice_{v['name']}.mp3"] = minimax_tts.spawn(v.get("text", a.get("text", "")), v["voice_id"],
+                                                                     v.get("speed", 1.0), v.get("lang", "Korean"))
             else:
                 calls[f"voice_{v['name']}.mp3"] = narrate.spawn(a["text"], v["voice_id"],
                                                                   v.get("model", "eleven_multilingual_v2"),
@@ -827,6 +827,7 @@ def main(spec: str):
         if a.get("music"):
             calls["music.mp3"] = generate_audio.spawn(a["music"], int(a.get("music_seconds", 45)))
         iw, ih = a.get("size", [1920, 1080])
+        urls = {}
         imgs = [generate_image.spawn(f"{p} {a.get('style', '')}", 3000 + i, iw, ih)
                 for i, p in enumerate(a.get("images", []))]
         for name, c in calls.items():
@@ -841,9 +842,20 @@ def main(spec: str):
                     data = c.get()[1] if attempt == 0 else generate_image.remote(
                         f"{a['images'][i]} {a.get('style', '')}", 3000 + i, iw, ih)[1]
                     (out / f"img_{i:02d}.jpg").write_bytes(data)
+                    urls[i] = c.get()[0] if attempt == 0 else None
                     break
                 except Exception as exc:
                     print(f"ASSET FAILED img {i} try {attempt}: {str(exc)[:300]}")
+        anim_calls = {}
+        for k, an in enumerate(a.get("animate", [])):  # cheap motion clips (Hailuo 2.3 Fast, 6 s)
+            u = urls.get(an["image"])
+            if u:
+                anim_calls[f"anim_{an['image']:02d}.mp4"] = generate_motion.spawn(u, an["motion"], 6, "fast")
+        for name, c in anim_calls.items():
+            try:
+                (out / name).write_bytes(c.get())
+            except Exception as exc:
+                print(f"ASSET FAILED {name}: {str(exc)[:300]}")
         print(f"SHORT OK id={spec_data['id']} assets")
         return
     if spec_data.get("voice_lines"):

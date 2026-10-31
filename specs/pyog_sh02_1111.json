@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh02_1111",
- "status": "ready-sh1",
+ "status": "ready-sh2",
  "hook": "11:11 지금 봤다면, 절대 넘기지 마세요",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -8,75 +8,82 @@
    1080,
    1920
   ],
-  "images": [
-   "four glowing golden vertical lines of light standing like a doorway in a dark starry void, a tiny person in front of it",
-   "an old clock face glowing at eleven eleven in a dark room, light rays from the clock",
-   "a hand knocking on a huge ancient door made of stars, golden light leaking through the cracks",
-   "a woman with closed eyes and a peaceful face, golden light and tiny stars swirling around her head"
-  ],
-  "animate": [
-   {
-    "image": 0,
-    "motion": "the four lines of light pulse and grow brighter, sparks drift upward, the doorway slowly opens with light"
-   }
-  ],
   "voices": [
    {
     "name": "l00",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "이 영상이 지금 보였다면, <#0.3#> 우연이 아닐 수도 있어요."
+    "text": "이 영상이 지금 보였다면, <#0.3#> 우연이 아닐 수도 있어요.",
+    "caption": "이 영상이 지금 보였다면, 우연이 아닐 수도 있어요."
    },
    {
     "name": "l01",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "11시 11분. <#0.3#> 1111. <#0.3#> 자꾸 눈에 띄나요?"
+    "text": "열한 시 십일 분. <#0.3#> 일일일일. <#0.3#> 자꾸 눈에 띄나요?",
+    "caption": "11시 11분. 1111. 자꾸 눈에 띄나요?"
    },
    {
     "name": "l02",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "영적인 전통에서는 이걸, <#0.2#> 우주가 문을 두드리는 신호라고 불러요."
+    "text": "영적인 전통에서는 이걸, <#0.2#> 우주가 문을 두드리는 신호라고 불러요.",
+    "caption": "영적인 전통에서는 이걸, 우주가 문을 두드리는 신호라고 불러요."
    },
    {
     "name": "l03",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "이 숫자를 본 순간 떠올린 생각이, <#0.2#> 현실로 이어지기 시작한다고요."
+    "text": "이 숫자를 본 순간 떠올린 생각이, <#0.2#> 현실로 이어지기 시작한다고요.",
+    "caption": "이 숫자를 본 순간 떠올린 생각이, 현실로 이어지기 시작한다고요."
    },
    {
     "name": "l04",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "그래서 대부분의 사람들은, <#0.2#> 이 순간을 걱정하면서 흘려보내요."
+    "text": "그래서 대부분의 사람들은, <#0.2#> 이 순간을 걱정하면서 흘려보내요.",
+    "caption": "그래서 대부분의 사람들은, 이 순간을 걱정하면서 흘려보내요."
    },
    {
     "name": "l05",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "지금 3초만 눈을 감고, 원하는 걸 떠올리세요. <#0.4#> 하나. <#0.6#> 둘. <#0.6#> 셋."
+    "text": "지금 삼 초만 눈을 감고, 원하는 걸 떠올리세요. <#0.4#> 하나. <#0.6#> 둘. <#0.6#> 셋.",
+    "caption": "지금 3초만 눈을 감고, 원하는 걸 떠올리세요. 하나. 둘. 셋."
    },
    {
     "name": "l06",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "방금 떠올린 그거, <#0.2#> 댓글로 남겨 두세요."
+    "text": "방금 떠올린 그거, <#0.2#> 댓글로 남겨 두세요.",
+    "caption": "방금 떠올린 그거, 댓글로 남겨 두세요."
    }
   ]
- }
+ },
+ "images_done": [
+  "four glowing golden vertical lines of light standing like a doorway in a dark starry void, a tiny person in front of it",
+  "an old clock face glowing at eleven eleven in a dark room, light rays from the clock",
+  "a hand knocking on a huge ancient door made of stars, golden light leaking through the cracks",
+  "a woman with closed eyes and a peaceful face, golden light and tiny stars swirling around her head"
+ ],
+ "animate_done": [
+  {
+   "image": 0,
+   "motion": "the four lines of light pulse and grow brighter, sparks drift upward, the doorway slowly opens with light"
+  }
+ ]
 }

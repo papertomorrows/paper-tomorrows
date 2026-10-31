@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh03_3am",
- "status": "ready-sh1",
+ "status": "ready-sh2",
  "hook": "새벽 3시에 깨는 사람만 보세요",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -8,67 +8,73 @@
    1080,
    1920
   ],
-  "images": [
-   "a person sitting up in bed in a dark bedroom at night, moonlight through the window, a glowing clock showing 3:00",
-   "a thin veil of shimmering light hanging in a dark room like a curtain between worlds, soft glow",
-   "a quiet window at night with the moon and stars, a faint golden doorway of light in the sky",
-   "a person with closed eyes in bed bathed in soft golden light, peaceful, stars around"
-  ],
-  "animate": [
-   {
-    "image": 0,
-    "motion": "moonlight shifts slowly across the room, the curtain moves gently, the glowing clock flickers"
-   }
-  ],
   "voices": [
    {
     "name": "l00",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "새벽 3시. <#0.4#> 또 눈이 떠졌나요?"
+    "text": "새벽 세 시. <#0.4#> 또 눈이 떠졌나요?",
+    "caption": "새벽 3시. 또 눈이 떠졌나요?"
    },
    {
     "name": "l01",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "아무 이유 없이 매번 이 시간이라면, <#0.2#> 이건 그냥 넘길 일이 아니에요."
+    "text": "아무 이유 없이 매번 이 시간이라면, <#0.2#> 이건 그냥 넘길 일이 아니에요.",
+    "caption": "아무 이유 없이 매번 이 시간이라면, 이건 그냥 넘길 일이 아니에요."
    },
    {
     "name": "l02",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "영적인 전통에서는 새벽 3시를, <#0.2#> 영혼의 문이 가장 얇아지는 시간이라고 불러요."
+    "text": "영적인 전통에서는 새벽 세 시를, <#0.2#> 영혼의 문이 가장 얇아지는 시간이라고 불러요.",
+    "caption": "영적인 전통에서는 새벽 3시를, 영혼의 문이 가장 얇아지는 시간이라고 불러요."
    },
    {
     "name": "l03",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "이때 깨는 사람은, <#0.2#> 무언가를 알아차릴 준비가 된 사람이래요."
+    "text": "이때 깨는 사람은, <#0.2#> 무언가를 알아차릴 준비가 된 사람이래요.",
+    "caption": "이때 깨는 사람은, 무언가를 알아차릴 준비가 된 사람이래요."
    },
    {
     "name": "l04",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "다음에 깨면, 휴대폰 말고 눈을 감고 이렇게 물어보세요. <#0.4#> 나는 지금, 무엇을 알아야 하지?"
+    "text": "다음에 깨면, 휴대폰 말고 눈을 감고 이렇게 물어보세요. <#0.4#> 나는 지금, 무엇을 알아야 하지?",
+    "caption": "다음에 깨면, 휴대폰 말고 눈을 감고 이렇게 물어보세요. 나는 지금, 무엇을 알아야 하지?"
    },
    {
     "name": "l05",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "물론 잠 문제가 계속된다면, <#0.2#> 병원 진료도 꼭 받아 보세요."
+    "text": "물론 잠 문제가 계속된다면, <#0.2#> 병원 진료도 꼭 받아 보세요.",
+    "caption": "물론 잠 문제가 계속된다면, 병원 진료도 꼭 받아 보세요."
    }
   ]
- }
+ },
+ "images_done": [
+  "a person sitting up in bed in a dark bedroom at night, moonlight through the window, a glowing clock showing 3:00",
+  "a thin veil of shimmering light hanging in a dark room like a curtain between worlds, soft glow",
+  "a quiet window at night with the moon and stars, a faint golden doorway of light in the sky",
+  "a person with closed eyes in bed bathed in soft golden light, peaceful, stars around"
+ ],
+ "animate_done": [
+  {
+   "image": 0,
+   "motion": "moonlight shifts slowly across the room, the curtain moves gently, the glowing clock flickers"
+  }
+ ]
 }

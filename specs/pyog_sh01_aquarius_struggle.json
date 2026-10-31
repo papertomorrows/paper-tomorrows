@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh01_aquarius_struggle",
- "status": "ready-sh1",
+ "status": "ready-sh2",
  "hook": "이런 사람, 앞으로 버티기 힘들어집니다",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -8,67 +8,73 @@
    1080,
    1920
   ],
-  "images": [
-   "a lone person standing on a cliff at night as a giant glowing clock made of stars turns in the sky above",
-   "a grey crowd of identical people walking in lines under a stormy sky, one person stopping and looking up at golden light",
-   "golden sand slipping through tightly clenched fists, glowing particles escaping into the dark",
-   "a person stepping out of shadow into a beam of warm golden light, their silhouette glowing, hopeful"
-  ],
-  "animate": [
-   {
-    "image": 0,
-    "motion": "the giant clock of stars slowly turns, stars swirl around it, wind moves the person's coat"
-   }
-  ],
   "voices": [
    {
     "name": "l00",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "멈추세요. <#0.3#> 이 세 가지 중 하나라도 해당되면, 끝까지 보세요."
+    "text": "멈추세요. <#0.3#> 이 세 가지 중 하나라도 해당되면, 끝까지 보세요.",
+    "caption": "멈추세요. 이 세 가지 중 하나라도 해당되면, 끝까지 보세요."
    },
    {
     "name": "l01",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "2020년 12월, 하늘의 시계가 바뀌었어요. <#0.3#> 물병자리 시대가 시작된 거예요."
+    "text": "이천이십 년 십이월, 하늘의 시계가 바뀌었어요. <#0.3#> 물병자리 시대가 시작된 거예요.",
+    "caption": "2020년 12월, 하늘의 시계가 바뀌었어요. 물병자리 시대가 시작된 거예요."
    },
    {
     "name": "l02",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "첫째, 시키는 대로만 사는 사람. <#0.3#> 이제 정답을 정해 줄 사람은 없어요."
+    "text": "첫째, 시키는 대로만 사는 사람. <#0.3#> 이제 정답을 정해 줄 사람은 없어요.",
+    "caption": "첫째, 시키는 대로만 사는 사람. 이제 정답을 정해 줄 사람은 없어요."
    },
    {
     "name": "l03",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "둘째, 혼자 다 움켜쥐는 사람. <#0.3#> 이 시대엔 쥔 만큼 빠져나가요."
+    "text": "둘째, 혼자 다 움켜쥐는 사람. <#0.3#> 이 시대엔 쥔 만큼 빠져나가요.",
+    "caption": "둘째, 혼자 다 움켜쥐는 사람. 이 시대엔 쥔 만큼 빠져나가요."
    },
    {
     "name": "l04",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "셋째, 자기 목소리를 숨기는 사람. <#0.3#> 숨기는 순간, 당신 자리는 사라져요."
+    "text": "셋째, 자기 목소리를 숨기는 사람. <#0.3#> 숨기는 순간, 당신 자리는 사라져요.",
+    "caption": "셋째, 자기 목소리를 숨기는 사람. 숨기는 순간, 당신 자리는 사라져요."
    },
    {
     "name": "l05",
     "provider": "minimax",
-    "voice_id": "Korean_WiseElf",
-    "speed": 1.0,
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.97,
     "lang": "Korean",
-    "text": "몇 개 해당되셨나요? <#0.3#> 댓글에 숫자만 남겨 보세요."
+    "text": "몇 개 해당되셨나요? <#0.3#> 댓글에 숫자만 남겨 보세요.",
+    "caption": "몇 개 해당되셨나요? 댓글에 숫자만 남겨 보세요."
    }
   ]
- }
+ },
+ "images_done": [
+  "a lone person standing on a cliff at night as a giant glowing clock made of stars turns in the sky above",
+  "a grey crowd of identical people walking in lines under a stormy sky, one person stopping and looking up at golden light",
+  "golden sand slipping through tightly clenched fists, glowing particles escaping into the dark",
+  "a person stepping out of shadow into a beam of warm golden light, their silhouette glowing, hopeful"
+ ],
+ "animate_done": [
+  {
+   "image": 0,
+   "motion": "the giant clock of stars slowly turns, stars swirl around it, wind moves the person's coat"
+  }
+ ]
 }

@@ -1,0 +1,66 @@
+{
+ "id": "pyog_sh03en_3am",
+ "status": "ready-sh-en",
+ "lang": "English",
+ "hook": "Only for People Who Wake Up at 3 AM",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh03_3am",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Three A M. <#0.4#> Did you wake up again?",
+    "caption": "3 AM. Did you wake up again?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "If it happens at this exact hour for no reason, <#0.2#> don't brush it off.",
+    "caption": "If it happens at this exact hour for no reason, don't brush it off."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Spiritual traditions call three A M <#0.2#> the hour when the veil is thinnest.",
+    "caption": "Spiritual traditions call 3 AM the hour when the veil is thinnest."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "People who wake now <#0.2#> are said to be ready to notice something.",
+    "caption": "People who wake now are said to be ready to notice something."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Next time, skip your phone. <#0.3#> Close your eyes and ask, <#0.3#> what do I need to know right now?",
+    "caption": "Next time, skip your phone. Close your eyes and ask: what do I need to know right now?"
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "And of course, <#0.2#> if sleep problems continue, please see a doctor too.",
+    "caption": "And of course, if sleep problems continue, please see a doctor too."
+   }
+  ]
+ }
+}

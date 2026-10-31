@@ -1,0 +1,66 @@
+{
+ "id": "pyog_sh01en_aquarius_struggle",
+ "status": "ready-sh-en",
+ "lang": "English",
+ "hook": "These People Will Struggle in the Age of Aquarius",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh01_aquarius_struggle",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Stop. <#0.3#> If even one of these three fits you, watch to the end.",
+    "caption": "Stop. If even one of these three fits you, watch to the end."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "In December twenty twenty, the sky's clock changed. <#0.3#> The Age of Aquarius began.",
+    "caption": "In December 2020, the sky's clock changed. The Age of Aquarius began."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "One. People who only do what they're told. <#0.3#> No one's going to hand you the answers anymore.",
+    "caption": "One. People who only do what they're told. No one's going to hand you the answers anymore."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Two. People who grab and hold everything. <#0.3#> In this age, what you clutch slips away.",
+    "caption": "Two. People who grab and hold everything. In this age, what you clutch slips away."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Three. People who hide their own voice. <#0.3#> The moment you hide, your place disappears.",
+    "caption": "Three. People who hide their own voice. The moment you hide, your place disappears."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "How many fit you? <#0.3#> Just drop the number in the comments.",
+    "caption": "How many fit you? Just drop the number in the comments."
+   }
+  ]
+ }
+}

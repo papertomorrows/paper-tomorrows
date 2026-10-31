@@ -1,0 +1,75 @@
+{
+ "id": "pyog_sh02en_1111",
+ "status": "ready-sh-en",
+ "lang": "English",
+ "hook": "Seeing 11:11? Don't Ignore It",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh02_1111",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "If this video just appeared for you, <#0.3#> it might not be an accident.",
+    "caption": "If this video just appeared for you, it might not be an accident."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Eleven eleven. <#0.3#> One, one, one, one. <#0.3#> Do you keep seeing it?",
+    "caption": "11:11. 1111. Do you keep seeing it?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "In spiritual traditions, <#0.2#> it's called the universe knocking on your door.",
+    "caption": "In spiritual traditions, it's called the universe knocking on your door."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "The thought you have the moment you see it, <#0.2#> is said to start becoming real.",
+    "caption": "The thought you have the moment you see it is said to start becoming real."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "That's why most people <#0.2#> waste that moment worrying.",
+    "caption": "That's why most people waste that moment worrying."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Close your eyes for three seconds, and picture what you want. <#0.4#> One. <#0.6#> Two. <#0.6#> Three.",
+    "caption": "Close your eyes for 3 seconds and picture what you want. One. Two. Three."
+   },
+   {
+    "name": "l06",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.0,
+    "lang": "English",
+    "text": "Whatever you just pictured, <#0.2#> write it in the comments.",
+    "caption": "Whatever you just pictured, write it in the comments."
+   }
+  ]
+ }
+}

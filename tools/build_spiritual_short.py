@@ -37,6 +37,9 @@ def wrap_ko(t, w=13):
 def main(spec_path, out, music=None):
     spec = json.loads(pathlib.Path(spec_path).read_text())
     src = pathlib.Path("outputs/shorts") / spec["id"]
+    vis = pathlib.Path("outputs/shorts") / spec.get("reuse_images_from", spec["id"])  # paintings may come from another short
+    en = spec.get("lang") == "English"
+    wrap = (lambda t, w=13: "\\N".join(textwrap.wrap(t, 24 if w == 13 else 20))) if en else wrap_ko
     work = pathlib.Path("/tmp/spshort") / spec["id"]
     work.mkdir(parents=True, exist_ok=True)
     voices = spec["assets"]["voices"]
@@ -58,8 +61,8 @@ def main(spec_path, out, music=None):
          ";".join(fc) + ";" + "".join(f"[a{i}]" for i in range(len(parts))) +
          f"amix=inputs={len(parts)}:normalize=0,apad,atrim=0:{total:.2f}[m]", "-map", "[m]", str(work / "nar.wav")])
     # --- visuals: motion clip first, then paintings with alternating slow push / pull
-    imgs = sorted(src.glob("img_*.jpg"))
-    anim = src / "anim_00.mp4"
+    imgs = sorted(vis.glob("img_*.jpg"))
+    anim = vis / "anim_00.mp4"
     clips = []
     if anim.exists():
         clips.append(("video", anim))
@@ -99,10 +102,10 @@ def main(spec_path, out, music=None):
            "Style: Cap,Noto Sans CJK KR,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,1,0,0,0,100,100,0,0,1,5,3,8,70,70,1180,1",
            "Style: Brand,Noto Sans CJK KR,40,&H90FFFFFF,&H90FFFFFF,&H90000000,&H00000000,1,0,0,0,100,100,2,0,1,2,0,2,60,60,110,1",
            "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
-    ass.append(f"Dialogue: 2,{at(0)},{at(total)},Hook,,0,0,0,,{{\\fad(0,300)}}{wrap_ko(hook, 12)}")
+    ass.append(f"Dialogue: 2,{at(0)},{at(total)},Hook,,0,0,0,,{{\\fad(0,300)}}{wrap(hook, 12)}")
     ass.append(f"Dialogue: 1,{at(0)},{at(total)},Brand,,0,0,0,,{spec.get('brand', '당신만의 게임')}")
     for st, en, tx in events:
-        ass.append(f"Dialogue: 0,{at(st)},{at(en + 0.1)},Cap,,0,0,0,,{{\\fad(80,80)}}{wrap_ko(tx)}")
+        ass.append(f"Dialogue: 0,{at(st)},{at(en + 0.1)},Cap,,0,0,0,,{{\\fad(80,80)}}{wrap(tx)}")
     (work / "t.ass").write_text("\n".join(ass))
     music = music or "outputs/shorts/pyog_test1/music.mp3"
     run(["ffmpeg", "-y", "-i", str(work / "v.mp4"), "-i", str(work / "nar.wav"), "-stream_loop", "-1", "-i", music,

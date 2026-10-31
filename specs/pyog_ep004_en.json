@@ -9,5 +9,5 @@
  "captions": true,
  "min_luma": 28,
  "max_ai_fallbacks": 3,
- "status": "ready-en-v2"
+ "status": "ready-en-v3"
 }

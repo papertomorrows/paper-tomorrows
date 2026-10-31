@@ -65,7 +65,15 @@ The people who thrive in this age look different. They ask their own questions a
 
 This may sound a little hard, but not everyone will cross this transition easily. The more tightly someone clings to the old ways, the more this change may feel like confusion and anxiety. Like the ground constantly shifting under their feet.
 
-But you don't need to worry. The kind of person who thrives in the Aquarian age isn't born that way. They're made through practice. And the fact that you're watching this right now is already the first step.
+Now, please don't misunderstand. This isn't about throwing away who you are and forcing yourself to fit the Aquarian age.
+
+The Age of Pisces left us many good things. Sincerity. Deep faith. The patience to endure. Devotion to others. These stay precious roots, no matter how the age changes.
+
+It's simply about knowing what kind of age is beginning, and what kind of people will increasingly thrive in it. When you know which way the wind is blowing, you can decide how to set your sails.
+
+Keep your roots. And from them, grow new branches for the new age, one at a time.
+
+And you don't need to worry. The kind of person who thrives in the Aquarian age isn't born that way. They're made through practice. And the fact that you're watching this right now is already the first step.
 
 So later in this video, I'll walk you through that practice, one step at a time. Stay with me until the end.
 

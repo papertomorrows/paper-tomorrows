@@ -1,0 +1,58 @@
+{
+ "id": "pyog_kr_voice_natural",
+ "status": "ready-krvoice2",
+ "assets": {
+  "text": "혹시 이런 경험 있으세요? <#0.5#> 열심히 애쓸수록, 오히려 일이 꼬이고요. <#0.3#> 그런데 마음을 툭 내려놓았을 때, <#0.2#> 거짓말처럼 일이 풀리는 순간. <#0.5#> 오늘은 그 이유를, 아주 천천히 이야기해 볼게요. <#0.3#> 편하게 들어 주세요.",
+  "voices": [
+   {
+    "name": "N1_intellectual_senior",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualSenior",
+    "speed": 1.0,
+    "lang": "Korean"
+   },
+   {
+    "name": "N2_reliable_youth",
+    "provider": "minimax",
+    "voice_id": "Korean_ReliableYouth",
+    "speed": 1.0,
+    "lang": "Korean"
+   },
+   {
+    "name": "N3_cheerful_boyfriend",
+    "provider": "minimax",
+    "voice_id": "Korean_CheerfulBoyfriend",
+    "speed": 1.0,
+    "lang": "Korean"
+   },
+   {
+    "name": "N4_optimistic_youth",
+    "provider": "minimax",
+    "voice_id": "Korean_OptimisticYouth",
+    "speed": 1.0,
+    "lang": "Korean"
+   },
+   {
+    "name": "N5_wise_elf",
+    "provider": "minimax",
+    "voice_id": "Korean_WiseElf",
+    "speed": 1.0,
+    "lang": "Korean"
+   },
+   {
+    "name": "N6_M3_tuned",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean"
+   },
+   {
+    "name": "N7_calm_gentleman_tuned",
+    "provider": "minimax",
+    "voice_id": "Korean_CalmGentleman",
+    "speed": 1.0,
+    "lang": "Korean"
+   }
+  ]
+ }
+}

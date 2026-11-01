@@ -103,6 +103,23 @@ Five. You know a relationship is hurting you, but you can't seem to leave.
 
 How many fit you? Leave the number in the comments. If even one does, this video is for you.
 
+<!-- section: game | visuals: crowded subway, city rush hour, stock market screen, advertising billboards city, person walking away from crowd, open road sunrise | title: The Game You Never Agreed To | ai: a lone figure stepping off a giant glowing game board where countless tiny figures march in identical rows, walking toward an open golden horizon >> the figure slowly steps off the board onto soft golden ground, the marching figures keep moving behind in grey light, the horizon glows brighter -->
+But think about this for a moment.
+
+A better school. A better job. A bigger house. More followers. From the moment we're born, we're placed onto a game someone else already built.
+
+We didn't write the rules of that game. Advertising is designed to make us feel like we never have enough. The algorithms on our screens are designed to keep us comparing ourselves to others. Because that's how we buy more, stay longer, and wear ourselves out.
+
+And most people run their whole lives without ever realizing it's a game. On someone else's scoreboard, chasing someone else's idea of winning.
+
+But remember this. You never agreed to that game.
+
+Don't play a game you never agreed to. If that league doesn't make you happy, you can simply walk away. You don't need anyone's permission. You don't need to beat anyone.
+
+And to walk away from someone else's game, you have to know yourself. Because if you don't know what you truly want, you'll just end up in another game that belongs to someone else.
+
+Only people who know themselves can create their own game. A game where you write the rules, you keep the score, and you decide what winning means. And that's exactly why this channel is called Play Your Own Game.
+
 <!-- section: aquarius | visuals: night sky stars, milky way, constellation, waterfall, sunrise ocean | title: The Age of Aquarius Belongs to Those Who Love Themselves | ai: a radiant figure holding a large glowing vessel under a starry sky, the vessel overflowing with streams of golden light that pour down onto the earth below >> streams of golden light pour slowly from the overflowing vessel, stars twinkle, light spreads across the land below -->
 And this connects deeply to the age we're living in now.
 

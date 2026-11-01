@@ -103,6 +103,23 @@
 
 몇 개나 해당되나요? 댓글에 숫자로 남겨 주세요. 하나라도 해당된다면, 오늘 영상이 꼭 필요한 분이에요.
 
+<!-- section: game | visuals: crowded subway, city rush hour, stock market screen, advertising billboards city, person walking away from crowd, open road sunrise | title: 당신이 동의하지 않은 게임 | ai: a lone figure stepping off a giant glowing game board where countless tiny figures march in identical rows, walking toward an open golden horizon >> the figure slowly steps off the board onto soft golden ground, the marching figures keep moving behind in grey light, the horizon glows brighter -->
+그런데, 한번 생각해 보세요.
+
+더 좋은 학교, 더 좋은 직장, 더 비싼 집, 더 많은 팔로워. 우리는 태어나는 순간부터, 이미 누군가 만들어 놓은 게임 위에 올려져요.
+
+그 게임의 규칙은 우리가 정한 게 아니에요. 광고는 우리가 늘 부족하다고 느끼게 만들고, 화면 속 알고리즘은 우리가 끊임없이 남과 비교하게 만들어요. 그래야 더 사고, 더 머무르고, 더 지치니까요.
+
+그리고 대부분의 사람들은, 그게 게임이라는 사실조차 모른 채 평생을 뛰어요. 남이 정한 점수판 위에서, 남이 정한 승리를 위해서요.
+
+그런데 기억하세요. 당신은 그 게임에 동의한 적이 없어요.
+
+동의하지 않은 게임을, 플레이하지 마세요. 그 리그가 나를 행복하게 하지 않는다면, 그냥 걸어 나오면 그만이에요. 누구에게 허락받을 필요도, 누구를 이길 필요도 없어요.
+
+그리고 남의 게임에서 걸어 나오려면, 나를 알아야 해요. 내가 진짜 원하는 게 무엇인지 모르면, 결국 또 다른 남의 게임으로 옮겨 갈 뿐이니까요.
+
+나를 아는 사람만이, 나만의 게임을 만들 수 있어요. 규칙도, 점수도, 승리의 기준도, 내가 정하는 게임이요. 이 채널의 이름이 당신만의 게임인 이유가, 바로 이거예요.
+
 <!-- section: aquarius | visuals: night sky stars, milky way, constellation, waterfall, sunrise ocean | title: 물병자리 시대, 나를 사랑하는 사람의 시대 | ai: a radiant figure holding a large glowing vessel under a starry sky, the vessel overflowing with streams of golden light that pour down onto the earth below >> streams of golden light pour slowly from the overflowing vessel, stars twinkle, light spreads across the land below -->
 그리고 이건, 지금 우리가 사는 시대와도 깊이 이어져 있어요.
 

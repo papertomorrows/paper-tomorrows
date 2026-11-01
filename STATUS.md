@@ -116,3 +116,7 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 
 - KR channel (당신만의게임) script style from EP003: 해요체 (~이에요/~거든요/~잖아요), ask a question then pause and answer, explain hard ideas with everyday analogies. Voice M3 Korean_IntellectualMan (chosen 2026-10-31).
 - Keyword research method: YouTube autocomplete via suggestqueries (built-in browser on youtube.com, trustedTypes policy + JSONP).
+
+## Titles vs thumbnails (2026-11-01, user decision)
+- YouTube title and thumbnail text are always different and complementary: thumbnail pokes (e.g. "착하게 살수록 가난해진다?"), title opens a curiosity gap (e.g. "부자들이 돈보다 먼저 챙긴 단 한 가지"). Do not put the answer/keyword in the title; put search keywords in the description first line, tags and captions.
+- Narration speed for PYOG: 1.1 (long-form and shorts), shorts gap 0.15.

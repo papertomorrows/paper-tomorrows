@@ -1,11 +1,11 @@
-# EP006 (EN) Why Money, Love and Success Find People Who Truly Love Themselves | How to Love Yourself, Spiritually
+# EP006 (EN) What Rich People Take Care of Before Money | How to Love Yourself
 
 <!-- section: hook | visuals: woman looking mirror, sunrise person, golden light, city night lights, person walking alone | ai: a person standing in front of an old ornate mirror in a dark room, their reflection glowing with warm golden light while they themselves stand in shadow >> the golden light in the reflection slowly grows and spills out of the mirror toward the person, dust particles drift, candle flames flicker -->
 The people money seems to follow. The people who always find good relationships. The people whose lives somehow keep working out.
 
 They all share one thing. And it isn't talent. It isn't luck. It isn't even endless hard work.
 
-It's the way they treat themselves.
+The one thing rich people take care of before money. It's the way they treat themselves.
 
 But here's the surprising part. Most people do the exact opposite. We're endlessly kind to others, and brutally harsh with ourselves. We forgive other people's mistakes, but we carry our own for years.
 
@@ -83,6 +83,14 @@ When the director Bong Joon-ho accepted his Academy Award, he quoted the great M
 That's what it means to exist as yourself. Whatever you do, your individuality shows through it. Even doing the same work as others, you do it in a way only you can. And the world is drawn to what's real, not to what's copied.
 
 And living as yourself, you eventually discover the work that truly fits you, the work you truly love, the work that makes your soul glad. And you start doing it. Work that makes your soul glad doesn't wear you out. So you can do it for years. And doing it for years makes you deep. And that depth creates results no one else could. That's how you succeed by playing your own game.
+
+And when you listen to people who built real wealth, they say remarkably similar things.
+
+In his commencement speech at Stanford, Steve Jobs said: the only way to do great work is to love what you do. And if you haven't found it yet, keep looking.
+
+Warren Buffett, one of the greatest investors in the world, has said that he tap dances to work every morning. Not because of the money, but because he loves what he does.
+
+They didn't chase money first. First they knew themselves. They found the work that made their soul glad. They did it longer and deeper than anyone else. And that's how they became rich.
 
 And finally, happiness. People who love themselves don't hand the key to their happiness to someone else. Even without praise, even when no one notices, they know they're okay.
 

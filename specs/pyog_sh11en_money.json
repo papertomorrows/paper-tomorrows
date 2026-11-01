@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh11en_money",
- "status": "done-sh-ep006-en",
+ "status": "hold-sh11-fix",
  "lang": "English",
  "hook": "Chase Money and It Runs",
  "brand": "Play Your Own Game",
@@ -41,8 +41,8 @@
     "voice_id": "English_CaptivatingStoryteller",
     "speed": 1.1,
     "lang": "English",
-    "text": "Work your soul loves doesn't wear you out. <#0.2#> So you keep going, <#0.2#> you go deeper, <#0.2#> and you create what no one else can.",
-    "caption": "Work your soul loves doesn't wear you out. So you keep going, you go deeper, and you create what no one else can."
+    "text": "Live by your soul's mood, <#0.2#> and you'll feel joy, happiness and fullness from deep within. <#0.2#> And for someone that full, everything begins to flow.",
+    "caption": "Live by your soul's mood, and you'll feel joy, happiness and fullness from deep within. And for someone that full, everything begins to flow."
    },
    {
     "name": "l04",
@@ -50,8 +50,8 @@
     "voice_id": "English_CaptivatingStoryteller",
     "speed": 1.1,
     "lang": "English",
-    "text": "As Bong Joon-ho said, quoting Martin Scorsese, <#0.2#> the most personal is the most creative.",
-    "caption": "As Bong Joon-ho said, quoting Martin Scorsese, the most personal is the most creative."
+    "text": "Martin Scorsese said it best. <#0.2#> The most personal is the most creative.",
+    "caption": "Martin Scorsese said it best. The most personal is the most creative."
    },
    {
     "name": "l05",

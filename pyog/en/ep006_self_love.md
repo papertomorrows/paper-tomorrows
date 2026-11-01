@@ -78,11 +78,11 @@ Then, success. People who don't know themselves play someone else's game. They c
 
 But the more you know and love yourself, the more you begin to simply exist as yourself. Not imitating anyone. Just you, as you are.
 
-When the director Bong Joon-ho accepted his Academy Award, he quoted the great Martin Scorsese. The most personal is the most creative.
+The director Martin Scorsese once said: the most personal is the most creative.
 
 That's what it means to exist as yourself. Whatever you do, your individuality shows through it. Even doing the same work as others, you do it in a way only you can. And the world is drawn to what's real, not to what's copied.
 
-And living as yourself, you eventually discover the work that truly fits you, the work you truly love, the work that makes your soul glad. And you start doing it. Work that makes your soul glad doesn't wear you out. So you can do it for years. And doing it for years makes you deep. And that depth creates results no one else could. That's how you succeed by playing your own game.
+And living as yourself, you eventually discover the work that truly fits you, the work you truly love, the work that makes your soul glad. And you start doing it. And when you live by your soul's mood, you begin to exist from a place of deep joy, happiness and fullness, from the very core of who you are. And for someone that full, everything starts to flow. That's how you succeed by playing your own game.
 
 And when you listen to people who built real wealth, they say remarkably similar things.
 

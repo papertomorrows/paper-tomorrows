@@ -88,6 +88,21 @@
 
 물론 나를 사랑한다고 하루아침에 부자가 되는 건 아니에요. 하지만 삶의 방향이 바뀌어요. 그리고 방향이 바뀐 삶은, 시간이 지날수록 전혀 다른 곳에 도착해요.
 
+<!-- section: soul | visuals: woman smiling nature, sunlight forest, dancing in field, river flowing, flowers sunrise, child laughing | title: 영혼의 기분을 따라가면, 삶이 술술 풀려요 | ai: a person walking barefoot through a sunlit meadow with eyes half closed and a gentle smile, a soft golden ribbon of light flowing ahead of them like a stream guiding the way >> the golden ribbon of light flows gently forward like a stream, flowers sway, petals drift through the warm air -->
+그럼 나를 사랑하는 사람은, 하루하루를 어떻게 살까요?
+
+우리는 보통 머리로 계산하며 살아요. 이게 이득일까, 남들이 어떻게 볼까, 손해 보는 건 아닐까. 그런데 나를 사랑하는 사람은, 계산보다 느낌을 더 믿어요. 흔히 우뇌라고 부르는, 직관과 감각의 목소리요.
+
+그리고 매 순간, 내 영혼의 기분을 살펴요. 이 사람을 만나면 내 영혼이 가벼워지는지, 무거워지는지. 이 일을 하면 내 마음이 반짝이는지, 시들어 가는지.
+
+방법은 간단해요. 무언가를 정해야 할 때, 잠깐 눈을 감고 물어보세요. 지금 내 영혼은, 이걸 좋아할까? 가슴이 탁 트이고 가벼워진다면, 그게 답이에요. 숨이 막히고 무거워진다면, 그것도 답이에요.
+
+이렇게 영혼의 기분을 따라 살기 시작하면, 신기하게도 삶이 술술 풀리기 시작해요. 억지로 밀어붙이던 일들 대신, 자연스럽게 흐르는 일들이 찾아오거든요. 맞지 않는 문을 계속 두드리는 대신, 열려 있는 문으로 걸어가게 되니까요.
+
+그리고 어느 날 문득, 이런 마음이 들어요. 아, 정말 감사하다. 지금 이대로, 행복하다.
+
+꼭 큰 부자가 되지 않아도, 이미 행복한 사람이 되는 거예요. 그런데 재미있는 건요, 그렇게 영혼이 기뻐하는 일을 하며 감사하게 사는 사람에게, 부는 결국 따라와요. 쫓아갈 때는 도망가던 것들이, 내 길을 걸을 때는 알아서 찾아오는 거예요.
+
 <!-- section: signs | visuals: woman thinking, rain window, tired office worker, person alone night, phone night | title: 나를 사랑하지 못하는 사람의 다섯 가지 신호 -->
 그럼 혹시, 나는 나를 잘 사랑하고 있을까요? 다섯 가지만 확인해 보세요.
 
@@ -131,7 +146,7 @@
 
 나를 사랑하는 건 이기적인 게 아니에요. 내 물병을 먼저 채우는 거예요. 그래야 넘쳐흐르는 사랑을, 세상에 나눌 수 있으니까요.
 
-<!-- section: practice5 | visuals: morning journal, woman sleeping peacefully, walking nature, cup of tea window, sunrise bedroom | title: 오늘부터 나를 사랑하는 다섯 가지 방법 -->
+<!-- section: practice5 | visuals: morning journal, woman sleeping peacefully, walking nature, cup of tea window, sunrise bedroom | title: 오늘부터 나를 사랑하는 여섯 가지 방법 -->
 그럼 오늘부터, 이렇게 해 보세요.
 
 첫째, 나에게 하는 말을 바꾸세요. 실수했을 때, 가장 친한 친구에게 하듯이 말해 주세요. 괜찮아, 그럴 수 있어. 다시 하면 돼.
@@ -142,7 +157,9 @@
 
 넷째, 나와의 약속을 지키세요. 아주 작은 약속이면 돼요. 아침에 물 한 잔, 하루 십 분 산책. 나와의 약속을 지킬 때마다, 나를 믿는 힘이 자라요.
 
-다섯째, 잠들기 전에 오늘 잘한 일 세 가지를 떠올려 보세요. 아무리 작아도 괜찮아요. 오늘 하루를 버틴 것만으로도, 충분히 잘한 일이에요.
+다섯째, 하루에 한 번, 영혼의 기분을 물어보세요. 지금 내 영혼은 이걸 좋아할까? 그 답을 따라 작은 선택 하나를 해 보세요.
+
+여섯째, 잠들기 전에 오늘 잘한 일 세 가지와, 감사한 일 하나를 떠올려 보세요. 아무리 작아도 괜찮아요. 오늘 하루를 버틴 것만으로도, 충분히 잘한 일이에요.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: 지금, 함께 해 볼까요 -->
 그럼 지금, 삼 분만 함께 해 볼게요.

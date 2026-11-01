@@ -88,6 +88,21 @@ And finally, happiness. People who love themselves don't hand the key to their h
 
 Of course, loving yourself won't make you rich overnight. But it changes your direction. And a life with a new direction ends up somewhere completely different over time.
 
+<!-- section: soul | visuals: woman smiling nature, sunlight forest, dancing in field, river flowing, flowers sunrise, child laughing | title: Follow Your Soul's Mood, and Life Begins to Flow | ai: a person walking barefoot through a sunlit meadow with eyes half closed and a gentle smile, a soft golden ribbon of light flowing ahead of them like a stream guiding the way >> the golden ribbon of light flows gently forward like a stream, flowers sway, petals drift through the warm air -->
+So how do people who love themselves actually live, day to day?
+
+Most of us live by calculation. Is this worth it? What will people think? Am I losing out? But people who love themselves trust feeling more than calculation. The voice of intuition and sensation, what people often call the right brain.
+
+And in every moment, they check in on the mood of their soul. Does meeting this person make my soul feel lighter, or heavier? Does this work make my heart light up, or slowly wilt?
+
+It's simple. When you need to decide something, close your eyes for a moment and ask: would my soul love this? If your chest opens and you feel lighter, that's your answer. If you feel tight and heavy, that's your answer too.
+
+When you start living by your soul's mood, something remarkable happens. Life begins to flow. Instead of forcing things that resist you, things that flow naturally start to find you. Instead of knocking on doors that won't open, you walk through the ones that are already open.
+
+And one day, you'll notice a feeling rising in you. I'm so grateful. Right now, just as it is, I'm happy.
+
+You don't have to become rich to be happy. You already are. But here's the beautiful part. When you live with gratitude, doing the work your soul loves, wealth eventually follows. The things that ran away when you chased them begin to find you when you walk your own path.
+
 <!-- section: signs | visuals: woman thinking, rain window, tired office worker, person alone night, phone night | title: Five Signs You're Not Loving Yourself -->
 So, are you loving yourself well? Check these five signs.
 
@@ -131,7 +146,7 @@ Picture the symbol of Aquarius. The water bearer, pouring water onto the world. 
 
 Loving yourself isn't selfish. It's filling your own vessel first. Because only then can the love overflow, and be shared with the world.
 
-<!-- section: practice5 | visuals: morning journal, woman sleeping peacefully, walking nature, cup of tea window, sunrise bedroom | title: Five Ways to Love Yourself, Starting Today -->
+<!-- section: practice5 | visuals: morning journal, woman sleeping peacefully, walking nature, cup of tea window, sunrise bedroom | title: Six Ways to Love Yourself, Starting Today -->
 So starting today, try this.
 
 First, change the way you talk to yourself. When you make a mistake, speak to yourself the way you'd speak to your closest friend. It's okay. It happens. You can try again.
@@ -142,7 +157,9 @@ Third, practice saying no. Start small. Politely decline one request you don't r
 
 Fourth, keep your promises to yourself. Tiny ones are enough. A glass of water in the morning. A ten-minute walk. Every promise you keep to yourself grows your trust in yourself.
 
-Fifth, before you fall asleep, remember three things you did well today. However small. Simply getting through today is already something you did well.
+Fifth, once a day, ask about your soul's mood. Would my soul love this? Then make one small choice by that answer.
+
+Sixth, before you fall asleep, remember three things you did well today, and one thing you're grateful for. However small. Simply getting through today is already something you did well.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take three minutes together, right now.

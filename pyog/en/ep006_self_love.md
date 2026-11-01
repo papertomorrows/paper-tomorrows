@@ -82,7 +82,17 @@ The director Martin Scorsese once said: the most personal is the most creative.
 
 That's what it means to exist as yourself. Whatever you do, your individuality shows through it. Even doing the same work as others, you do it in a way only you can. And the world is drawn to what's real, not to what's copied.
 
-And living as yourself, you eventually discover the work that truly fits you, the work you truly love, the work that makes your soul glad. And you start doing it. And when you live by your soul's mood, you begin to exist from a place of deep joy, happiness and fullness, from the very core of who you are. And for someone that full, everything starts to flow. That's how you succeed by playing your own game.
+And living as yourself, at some point you realize something. There's work where you lose track of time. Work that leaves your heart glowing even after it's done. Work that makes your soul glad.
+
+And this is where a huge difference appears.
+
+Two people can live the exact same day. One spends it watching the clock, just getting through. The other spends the same hours filled with a joy that rises from within.
+
+When you do what makes your soul glad, you're not just working. You're existing as yourself. And someone who exists like that is joyful, happy and full, from the deepest part of who they are.
+
+That fullness can't be hidden. It shows in your eyes, in your voice, in everything you create. People feel it. They're drawn to it. They want to be part of it. And so opportunities, people, and yes, money, flow in, following that fullness.
+
+That's how you succeed by playing your own game. Not because you tried harder, but because you were fuller.
 
 And when you listen to people who built real wealth, they say remarkably similar things.
 
@@ -90,7 +100,7 @@ In his commencement speech at Stanford, Steve Jobs said: the only way to do grea
 
 Warren Buffett, one of the greatest investors in the world, has said that he tap dances to work every morning. Not because of the money, but because he loves what he does.
 
-They didn't chase money first. First they knew themselves. They found the work that made their soul glad. They did it longer and deeper than anyone else. And that's how they became rich.
+They didn't chase money first. First they knew themselves. They found the work that made their soul glad. They lived more fully in that work than anyone else. And that's how they became rich.
 
 And finally, happiness. People who love themselves don't hand the key to their happiness to someone else. Even without praise, even when no one notices, they know they're okay.
 

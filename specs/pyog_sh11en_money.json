@@ -41,8 +41,8 @@
     "voice_id": "English_CaptivatingStoryteller",
     "speed": 1.1,
     "lang": "English",
-    "text": "Live by your soul's mood, <#0.2#> and you'll feel joy, happiness and fullness from deep within. <#0.2#> And for someone that full, everything begins to flow.",
-    "caption": "Live by your soul's mood, and you'll feel joy, happiness and fullness from deep within. And for someone that full, everything begins to flow."
+    "text": "When you do what makes your soul glad, <#0.2#> you're not just working. You're existing as yourself.",
+    "caption": "When you do what makes your soul glad, you're not just working. You're existing as yourself."
    },
    {
     "name": "l04",
@@ -55,6 +55,15 @@
    },
    {
     "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "And someone who exists as themselves is joyful and full from within. <#0.2#> People, opportunities and money flow in, following that fullness.",
+    "caption": "And someone who exists as themselves is joyful and full from within. People, opportunities and money flow in, following that fullness."
+   },
+   {
+    "name": "l06",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
     "speed": 1.1,

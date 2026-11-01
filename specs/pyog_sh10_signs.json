@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh10_signs",
+ "status": "hold-sh-ep006",
+ "hook": "2개 이상이면, 스스로 운을 막는 중",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "이 중 두 개 이상이면, <#0.2#> 당신은 스스로 운을 막고 있어요.",
+    "caption": "이 중 2개 이상이면, 당신은 스스로 운을 막고 있어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "하나. <#0.2#> 칭찬을 들으면, 아니라고 손사래부터 친다.",
+    "caption": "1. 칭찬을 들으면, 아니라고 손사래부터 친다."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "둘. <#0.2#> 잘못한 게 없는데도, 미안하다는 말이 습관이다.",
+    "caption": "2. 잘못한 게 없는데도, 미안하다는 말이 습관이다."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "셋. <#0.2#> 쉬고 있으면, 이유 없이 죄책감이 든다.",
+    "caption": "3. 쉬고 있으면, 이유 없이 죄책감이 든다."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "넷. <#0.2#> 나를 아프게 하는 관계를, 떠나지 못한다.",
+    "caption": "4. 나를 아프게 하는 관계를, 떠나지 못한다."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "몇 개였나요? <#0.2#> 댓글에 숫자로 남겨 주세요. <#0.2#> 그리고 오늘부터, 나를 먼저 사랑해 주세요.",
+    "caption": "몇 개였나요? 댓글에 숫자로 남겨 주세요. 그리고 오늘부터, 나를 먼저 사랑해 주세요."
+   }
+  ],
+  "images": [
+   "a person standing in a dark room in front of a glowing golden door that is chained shut from the inside, holding the key",
+   "a person bowing their head and apologizing in a dim room, shadows of many people around them, heavy atmosphere",
+   "a person lying awake on a sofa feeling guilty, a faint clock glowing, grey heavy mist around them",
+   "the same person unlocking the chains on the golden door, warm golden light bursting through"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the chains on the golden door tremble slightly, light leaks through the cracks, dust floats in the dark room"
+   }
+  ]
+ }
+}

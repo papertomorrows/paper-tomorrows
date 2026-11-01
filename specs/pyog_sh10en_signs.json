@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh10en_signs",
+ "status": "hold-sh-ep006-en",
+ "lang": "English",
+ "hook": "2 or More? You're Blocking Your Own Luck",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh10_signs",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "If two or more of these fit you, <#0.2#> you're blocking your own luck.",
+    "caption": "If 2 or more of these fit you, you're blocking your own luck."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "One. <#0.2#> When someone compliments you, you wave it away.",
+    "caption": "1. When someone compliments you, you wave it away."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Two. <#0.2#> You say sorry out of habit, even when you did nothing wrong.",
+    "caption": "2. You say sorry out of habit, even when you did nothing wrong."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Three. <#0.2#> When you rest, you feel guilty for no reason.",
+    "caption": "3. When you rest, you feel guilty for no reason."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Four. <#0.2#> You can't leave a relationship that hurts you.",
+    "caption": "4. You can't leave a relationship that hurts you."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "How many? <#0.2#> Drop the number in the comments. <#0.2#> And starting today, love yourself first.",
+    "caption": "How many? Drop the number in the comments. And starting today, love yourself first."
+   }
+  ]
+ }
+}

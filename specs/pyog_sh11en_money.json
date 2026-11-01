@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh11en_money",
+ "status": "hold-sh-ep006-en",
+ "lang": "English",
+ "hook": "Why Money Runs When You Chase It",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh11_money",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "The harder you chase money, <#0.3#> the faster it runs.",
+    "caption": "The harder you chase money, the faster it runs."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "People who thrive check their soul's mood <#0.2#> before they calculate.",
+    "caption": "People who thrive check their soul's mood before they calculate."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Does this work make my soul lighter, <#0.2#> or heavier?",
+    "caption": "Does this work make my soul lighter, or heavier?"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Work your soul loves doesn't wear you out. <#0.2#> So you keep going, <#0.2#> you go deeper, <#0.2#> and you create what no one else can.",
+    "caption": "Work your soul loves doesn't wear you out. So you keep going, you go deeper, and you create what no one else can."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "As Bong Joon-ho said, quoting Martin Scorsese, <#0.2#> the most personal is the most creative.",
+    "caption": "As Bong Joon-ho said, quoting Martin Scorsese, the most personal is the most creative."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "What ran away when you chased it <#0.2#> finds you when you walk your own path.",
+    "caption": "What ran away when you chased it finds you when you walk your own path."
+   }
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh09en_game",
+ "status": "hold-sh-ep006-en",
+ "lang": "English",
+ "hook": "You Never Agreed to This Game",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh09_game",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Right now, <#0.2#> you're playing a game you never agreed to.",
+    "caption": "Right now, you're playing a game you never agreed to."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "A better school. A better job. A bigger house. More followers.",
+    "caption": "A better school. A better job. A bigger house. More followers."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Did you really write <#0.2#> these rules?",
+    "caption": "Did you really write these rules?"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Ads make you feel like you never have enough. <#0.2#> Algorithms keep you comparing yourself to everyone else.",
+    "caption": "Ads make you feel like you never have enough. Algorithms keep you comparing yourself to everyone else."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "If that league doesn't make you happy, <#0.2#> you can simply walk away.",
+    "caption": "If that league doesn't make you happy, you can simply walk away."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Stop playing their game. <#0.3#> Play your own.",
+    "caption": "Stop playing their game. Play your own."
+   }
+  ]
+ }
+}

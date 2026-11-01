@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh11_money",
+ "status": "hold-sh-ep006",
+ "hook": "돈을 쫓을수록 도망가는 이유",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "돈을 쫓을수록, <#0.3#> 돈은 도망가요.",
+    "caption": "돈을 쫓을수록, 돈은 도망가요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "잘 되는 사람들은, <#0.2#> 계산보다 영혼의 기분을 먼저 살펴요.",
+    "caption": "잘 되는 사람들은, 계산보다 영혼의 기분을 먼저 살펴요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "이 일을 하면 내 영혼이 가벼워지는지, <#0.2#> 무거워지는지.",
+    "caption": "이 일을 하면 내 영혼이 가벼워지는지, 무거워지는지."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "영혼이 기뻐하는 일은 지치지 않아요. <#0.2#> 그래서 오래 하고, <#0.2#> 깊어지고, <#0.2#> 결국 남다른 결과가 나와요.",
+    "caption": "영혼이 기뻐하는 일은 지치지 않아요. 그래서 오래 하고, 깊어지고, 결국 남다른 결과가 나와요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "봉준호 감독이 인용한 말처럼, <#0.2#> 가장 개인적인 것이, 가장 창의적인 거예요.",
+    "caption": "봉준호 감독이 인용한 말처럼, 가장 개인적인 것이, 가장 창의적인 거예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "쫓아갈 때 도망가던 것들이, <#0.2#> 내 길을 걸을 때는 알아서 찾아와요.",
+    "caption": "쫓아갈 때 도망가던 것들이, 내 길을 걸을 때는 알아서 찾아와요."
+   }
+  ],
+  "images": [
+   "a person desperately running after floating golden coins that drift away into a dark violet night sky",
+   "a person sitting calmly in a sunlit meadow with eyes closed, hand on heart, listening to their soul",
+   "a person happily painting at an easel in a glowing studio, golden light flowing from the canvas",
+   "a person walking a glowing golden path while golden coins and soft lights gently gather around them on their own"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the golden coins drift away faster as the person reaches for them, the night sky swirls softly"
+   }
+  ]
+ }
+}

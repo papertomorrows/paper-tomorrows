@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh04_heart",
- "status": "ready-sh-ep005",
+ "status": "done-sh-ep005",
  "hook": "이유 없이 두근거린다면, 이것부터",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -64,13 +64,13 @@
     "caption": "두근거림이 계속된다면 진료도 꼭 받아 보세요. 숨이 바꾸는 더 많은 이야기는, 채널 영상에서요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person in a dark city apartment at night clutching their chest, glowing red tangled threads of light around the heart",
    "a glowing human silhouette with a heart of tight red light slowly turning into calm blue light",
    "a person breathing out a long soft stream of silver light in a quiet dark room, calm",
    "a peaceful person with closed eyes under a night sky, soft golden light around the chest, relaxed shoulders"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the red threads of light pulse fast then slowly loosen and dim, city lights flicker outside the window"

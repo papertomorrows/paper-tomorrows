@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh05_478",
- "status": "ready-sh-ep005",
+ "status": "done-sh-ep005",
  "hook": "잠 안 올 때, 이 숫자만 기억하세요",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -64,13 +64,13 @@
     "caption": "딱 네 번만 해 보세요. 세다가 잊어버리면, 잠이 오고 있는 거예요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person lying awake in bed at night staring at a glowing phone screen, the room dark violet, moon outside",
    "three glowing golden numbers made of soft light floating above a quiet bed in the dark, dreamy",
    "a person sleeping peacefully in moonlight, a gentle silver glow rising and falling over their chest",
    "a calm night sky full of stars over a quiet sleeping house, soft golden window light"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the phone light flickers on the tired face, moonlight shifts slowly, the curtain moves gently"

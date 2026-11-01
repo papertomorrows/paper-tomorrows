@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh06_spirit",
- "status": "ready-sh-ep005",
+ "status": "done-sh-ep005",
  "hook": "'영혼'의 원래 뜻, 알면 소름 돋아요",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -64,13 +64,13 @@
     "caption": "지금, 숨을 한 번만 길게 내쉬어 보세요."
    }
   ],
-  "images": [
+  "images_done": [
    "an ancient stone temple at night with a glowing breath of golden mist rising from an altar into the stars",
    "an old parchment scroll glowing with soft golden light in a dark candlelit library, mystical",
    "four ancient robed figures from different lands standing far apart under one starry sky, each exhaling a soft glowing breath",
    "a glowing human figure with soft golden light flowing in and out of the chest, connected to the stars"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "golden mist rises slowly from the altar and drifts toward the stars, candle flames flicker"

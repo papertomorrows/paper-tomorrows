@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh10_signs",
- "status": "ready-sh-ep006",
+ "status": "done-sh-ep006",
  "hook": "2개 이상이면, 운을 막는 중",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "몇 개였나요? 댓글에 숫자로 남겨 주세요. 그리고 오늘부터, 나를 먼저 사랑해 주세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person standing in a dark room in front of a glowing golden door that is chained shut from the inside, holding the key",
    "a person bowing their head and apologizing in a dim room, shadows of many people around them, heavy atmosphere",
    "a person lying awake on a sofa feeling guilty, a faint clock glowing, grey heavy mist around them",
    "the same person unlocking the chains on the golden door, warm golden light bursting through"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the chains on the golden door tremble slightly, light leaks through the cracks, dust floats in the dark room"

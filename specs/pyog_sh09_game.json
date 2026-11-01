@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh09_game",
- "status": "ready-sh-ep006",
+ "status": "done-sh-ep006",
  "hook": "당신은 이 게임에 동의한 적 없다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "남의 게임 말고, 당신만의 게임을 플레이하세요."
    }
   ],
-  "images": [
+  "images_done": [
    "countless tiny grey figures marching in identical rows across a giant glowing game board under a dark sky, one figure stopping and looking up",
    "a giant shadowy hand placing small figures onto a glowing chessboard-like game board, ominous violet light",
    "a lone figure stepping off the edge of a giant game board onto soft golden ground, the grey crowd behind",
    "a person walking alone toward a radiant open golden horizon, free, wind and light around them"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the tiny grey figures march forward in rows, one figure slowly stops and turns its head up toward the light"

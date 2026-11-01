@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh11_money",
- "status": "ready-sh-ep006",
+ "status": "done-sh-ep006",
  "hook": "돈을 쫓을수록 도망간다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "쫓아갈 때 도망가던 것들이, 내 길을 걸을 때는 알아서 찾아와요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person desperately running after floating golden coins that drift away into a dark violet night sky",
    "a person sitting calmly in a sunlit meadow with eyes closed, hand on heart, listening to their soul",
    "a person happily painting at an easel in a glowing studio, golden light flowing from the canvas",
    "a person walking a glowing golden path while golden coins and soft lights gently gather around them on their own"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the golden coins drift away faster as the person reaches for them, the night sky swirls softly"

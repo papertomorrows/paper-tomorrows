@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh06_spirit",
+ "status": "hold-sh-ep005",
+ "hook": "'영혼'의 원래 뜻, 알면 소름 돋아요",
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "영혼이라는 단어, <#0.2#> 원래 무슨 뜻이었는지 아세요?",
+    "caption": "영혼이라는 단어, 원래 무슨 뜻이었는지 아세요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "영어 스피릿은, <#0.2#> 라틴어 스피리투스에서 왔어요. <#0.3#> 그 뜻은, <#0.5#> 숨.",
+    "caption": "영어 spirit ← 라틴어 spiritus. 그 뜻은… 숨."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "그리스어 프네우마, <#0.2#> 히브리어 루아흐, <#0.2#> 산스크리트어 프라나. <#0.3#> 전부, 숨이자 영혼이에요.",
+    "caption": "그리스어 프네우마, 히브리어 루아흐, 산스크리트어 프라나. 전부, 숨이자 영혼."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "서로 만난 적도 없는 문명들이, <#0.2#> 똑같은 걸 알고 있었던 거예요.",
+    "caption": "서로 만난 적도 없는 문명들이, 똑같은 걸 알고 있었던 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "지금 이 순간에도, <#0.2#> 당신의 영혼은 당신 안을 드나들고 있어요.",
+    "caption": "지금 이 순간에도, 당신의 영혼은 당신 안을 드나들고 있어요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "지금, <#0.2#> 숨을 한 번만 길게 내쉬어 보세요.",
+    "caption": "지금, 숨을 한 번만 길게 내쉬어 보세요."
+   }
+  ],
+  "images": [
+   "an ancient stone temple at night with a glowing breath of golden mist rising from an altar into the stars",
+   "an old parchment scroll glowing with soft golden light in a dark candlelit library, mystical",
+   "four ancient robed figures from different lands standing far apart under one starry sky, each exhaling a soft glowing breath",
+   "a glowing human figure with soft golden light flowing in and out of the chest, connected to the stars"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "golden mist rises slowly from the altar and drifts toward the stars, candle flames flicker"
+   }
+  ]
+ }
+}

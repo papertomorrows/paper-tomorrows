@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh05_478",
+ "status": "hold-sh-ep005",
+ "hook": "잠 안 올 때, 이 숫자만 기억하세요",
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "잠이 안 와서, <#0.2#> 또 휴대폰 보고 있죠?",
+    "caption": "잠이 안 와서, 또 휴대폰 보고 있죠?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "그거, <#0.2#> 잠을 더 멀리 쫓아내는 행동이에요.",
+    "caption": "그거, 잠을 더 멀리 쫓아내는 행동이에요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "대신 이 숫자만 기억하세요. <#0.4#> 사, <#0.2#> 칠, <#0.2#> 팔.",
+    "caption": "대신 이 숫자만 기억하세요. 4, 7, 8"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "넷을 세며 코로 들이쉬고, <#0.3#> 일곱을 세며 멈추고, <#0.3#> 여덟을 세며 입으로 내쉬기.",
+    "caption": "4초 들이쉬고 → 7초 멈추고 → 8초 내쉬기"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "긴 날숨이 몸에게 말해 줘요. <#0.2#> 이제 안전하다고, <#0.2#> 자도 된다고.",
+    "caption": "긴 날숨이 몸에게 말해 줘요. 이제 안전하다고, 자도 된다고."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "딱 네 번만 해 보세요. <#0.2#> 세다가 잊어버리면, <#0.2#> 잠이 오고 있는 거예요.",
+    "caption": "딱 네 번만 해 보세요. 세다가 잊어버리면, 잠이 오고 있는 거예요."
+   }
+  ],
+  "images": [
+   "a person lying awake in bed at night staring at a glowing phone screen, the room dark violet, moon outside",
+   "three glowing golden numbers made of soft light floating above a quiet bed in the dark, dreamy",
+   "a person sleeping peacefully in moonlight, a gentle silver glow rising and falling over their chest",
+   "a calm night sky full of stars over a quiet sleeping house, soft golden window light"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the phone light flickers on the tired face, moonlight shifts slowly, the curtain moves gently"
+   }
+  ]
+ }
+}

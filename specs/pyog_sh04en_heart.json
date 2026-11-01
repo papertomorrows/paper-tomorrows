@@ -1,0 +1,66 @@
+{
+ "id": "pyog_sh04en_heart",
+ "status": "hold-sh-ep005en",
+ "lang": "English",
+ "hook": "Heart Racing for No Reason? Do This First",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh04_heart",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Is your heart racing right now, <#0.2#> for no reason at all?",
+    "caption": "Is your heart racing right now, for no reason at all?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "The doctor says you're fine, <#0.2#> but your body feels like it's always in an emergency.",
+    "caption": "The doctor says you're fine, but your body feels like it's always in an emergency."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "That's your nervous system, <#0.2#> running with no brakes.",
+    "caption": "That's your nervous system, running with no brakes."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Try this. <#0.3#> Big breath in through your nose, <#0.3#> one more short sip on top, <#0.3#> then a long, slow exhale through your mouth.",
+    "caption": "Big inhale through the nose → one more short sip → long exhale through the mouth"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "In a Stanford study, <#0.2#> five minutes a day of this improved mood the most.",
+    "caption": "Stanford study: 5 minutes a day, the biggest mood boost"
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "If it keeps happening, please see a doctor. <#0.2#> And for more on what your breath can change, watch the full video on the channel.",
+    "caption": "If it keeps happening, please see a doctor. And for more on what your breath can change, watch the full video on the channel."
+   }
+  ]
+ }
+}

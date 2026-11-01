@@ -1,0 +1,66 @@
+{
+ "id": "pyog_sh06en_spirit",
+ "status": "hold-sh-ep005en",
+ "lang": "English",
+ "hook": "The Original Meaning of 'Spirit' Will Give You Chills",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh06_spirit",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Do you know what the word spirit <#0.2#> originally meant?",
+    "caption": "Do you know what the word spirit originally meant?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "It comes from the Latin spiritus. <#0.3#> And its meaning? <#0.5#> Breath.",
+    "caption": "From the Latin spiritus. Its meaning… breath."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "The Greek pneuma. <#0.2#> The Hebrew ruach. <#0.2#> The Sanskrit prana. <#0.3#> Every one of them means breath, <#0.2#> and spirit.",
+    "caption": "The Greek pneuma. The Hebrew ruach. The Sanskrit prana. Every one of them means breath, and spirit."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Civilizations that never met <#0.2#> all knew the same thing.",
+    "caption": "Civilizations that never met all knew the same thing."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Right now, in this very moment, <#0.2#> your spirit is moving in and out of you.",
+    "caption": "Right now, in this very moment, your spirit is moving in and out of you."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Take one long, slow breath out. <#0.2#> Right now.",
+    "caption": "Take one long, slow breath out. Right now."
+   }
+  ]
+ }
+}

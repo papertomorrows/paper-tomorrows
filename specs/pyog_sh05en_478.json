@@ -1,0 +1,66 @@
+{
+ "id": "pyog_sh05en_478",
+ "status": "hold-sh-ep005en",
+ "lang": "English",
+ "hook": "Can't Sleep? Remember These 3 Numbers",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh05_478",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Can't sleep, <#0.2#> so you're scrolling your phone again?",
+    "caption": "Can't sleep, so you're scrolling your phone again?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "That's exactly what pushes sleep further away.",
+    "caption": "That's exactly what pushes sleep further away."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Instead, remember three numbers. <#0.4#> Four. <#0.2#> Seven. <#0.2#> Eight.",
+    "caption": "Instead, remember three numbers: 4, 7, 8"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Breathe in through your nose for four, <#0.3#> hold for seven, <#0.3#> breathe out through your mouth for eight.",
+    "caption": "In for 4 → hold for 7 → out for 8"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "That long exhale tells your body, <#0.2#> you're safe now. <#0.2#> You can sleep.",
+    "caption": "That long exhale tells your body, you're safe now. You can sleep."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Just four rounds. <#0.2#> If you lose count, <#0.2#> sleep is already on its way.",
+    "caption": "Just four rounds. If you lose count, sleep is already on its way."
+   }
+  ]
+ }
+}

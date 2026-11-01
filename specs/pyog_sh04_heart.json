@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh04_heart",
+ "status": "hold-sh-ep005",
+ "hook": "이유 없이 두근거린다면, 이것부터",
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "지금, <#0.2#> 이유 없이 가슴이 두근거리나요?",
+    "caption": "지금, 이유 없이 가슴이 두근거리나요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "병원에선 아무 이상 없다는데, <#0.2#> 몸은 계속 비상 상태라면.",
+    "caption": "병원에선 아무 이상 없다는데, 몸은 계속 비상 상태라면."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "당신의 자율신경이, <#0.2#> 브레이크 없이 달리고 있는 거예요.",
+    "caption": "당신의 자율신경이, 브레이크 없이 달리고 있는 거예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "이렇게 해 보세요. <#0.3#> 코로 크게 들이쉬고, <#0.3#> 한 번 더 짧게 들이쉬고, <#0.3#> 입으로 길게, 길게 내쉬기.",
+    "caption": "코로 크게 들이쉬고 → 한 번 더 짧게 → 입으로 길게 내쉬기"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "스탠퍼드 연구에서, <#0.2#> 하루 오 분으로 기분이 가장 크게 좋아진 호흡법이에요.",
+    "caption": "스탠퍼드 연구: 하루 5분, 기분이 가장 크게 좋아진 호흡법"
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.0,
+    "lang": "Korean",
+    "text": "두근거림이 계속된다면 진료도 꼭 받아 보세요. <#0.2#> 숨이 바꾸는 더 많은 이야기는, 채널 영상에서요.",
+    "caption": "두근거림이 계속된다면 진료도 꼭 받아 보세요. 숨이 바꾸는 더 많은 이야기는, 채널 영상에서요."
+   }
+  ],
+  "images": [
+   "a person in a dark city apartment at night clutching their chest, glowing red tangled threads of light around the heart",
+   "a glowing human silhouette with a heart of tight red light slowly turning into calm blue light",
+   "a person breathing out a long soft stream of silver light in a quiet dark room, calm",
+   "a peaceful person with closed eyes under a night sky, soft golden light around the chest, relaxed shoulders"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the red threads of light pulse fast then slowly loosen and dim, city lights flicker outside the window"
+   }
+  ]
+ }
+}

@@ -1,7 +1,7 @@
 {
  "id": "pyog_sh07_mouth",
- "status": "ready-sh-ep005b",
- "hook": "입으로 숨 쉬는 사람, 꼭 보세요",
+ "status": "ready-sh-faster",
+ "hook": "입으로 숨 쉬면 늘 피곤한 이유",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
   "size": [
@@ -13,7 +13,7 @@
     "name": "l00",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "지금 혹시, <#0.2#> 입이 살짝 벌어져 있나요?",
     "caption": "지금 혹시, 입이 살짝 벌어져 있나요?"
@@ -22,7 +22,7 @@
     "name": "l01",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "입으로 숨 쉬는 습관, <#0.2#> 생각보다 많은 걸 빼앗아 가요.",
     "caption": "입으로 숨 쉬는 습관, 생각보다 많은 걸 빼앗아 가요."
@@ -31,7 +31,7 @@
     "name": "l02",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "코 옆 부비동에서는 혈관을 넓혀 주는 일산화질소가 만들어지는데요, <#0.2#> 입으로 쉬면 그냥 지나쳐 버려요.",
     "caption": "코 옆 부비동에서는 혈관을 넓혀 주는 일산화질소가 만들어지는데요, 입으로 쉬면 그냥 지나쳐 버려요."
@@ -40,7 +40,7 @@
     "name": "l03",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "밤에는 입이 마르고, <#0.2#> 코를 골기 쉽고, <#0.2#> 깊이 잠들기 어려워져요.",
     "caption": "밤에는 입이 마르고, 코를 골기 쉽고, 깊이 잠들기 어려워져요."
@@ -49,7 +49,7 @@
     "name": "l04",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "오늘 하루, 입을 다물고 코로만 숨 쉬어 보세요. <#0.3#> 몸이 먼저 알아차려요.",
     "caption": "오늘 하루, 입을 다물고 코로만 숨 쉬어 보세요. 몸이 먼저 알아차려요."
@@ -58,23 +58,24 @@
     "name": "l05",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "코가 자주 막히거나 코골이가 심하다면, <#0.2#> 진료도 꼭 받아 보세요.",
     "caption": "코가 자주 막히거나 코골이가 심하다면, 진료도 꼭 받아 보세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a tired person sitting alone at night with lips slightly parted, breathing through the mouth, dim blue light, heavy eyes",
    "a mystical anatomy illustration of a glowing human face in profile, soft golden air swirling gently into the nose and sinuses",
    "a person sleeping peacefully with a closed mouth, a soft silver stream of breath light flowing through the nose",
    "a calm person standing by a window in morning light, breathing in through the nose, golden mist flowing in"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the dim light flickers softly, the person's chest rises and falls with shallow quick breaths, dust floats in the air"
    }
   ]
- }
+ },
+ "gap": 0.15
 }

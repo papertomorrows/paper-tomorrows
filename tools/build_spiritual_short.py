@@ -44,7 +44,7 @@ def main(spec_path, out, music=None):
     work.mkdir(parents=True, exist_ok=True)
     voices = spec["assets"]["voices"]
     # --- narration: lines back to back with a short breath between them
-    gap, t, events, parts = 0.25, 0.3, [], []
+    gap, t, events, parts = spec.get("gap", 0.25), 0.3, [], []
     for v in voices:
         f = src / f"voice_{v['name']}.mp3"
         d = dur(f)

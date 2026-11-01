@@ -1,7 +1,7 @@
 {
  "id": "pyog_sh08_holding",
- "status": "ready-sh-ep005b",
- "hook": "지금 이 순간, 숨 참고 있어요",
+ "status": "ready-sh-faster",
+ "hook": "지금 숨 참고 있죠?",
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
   "size": [
@@ -13,7 +13,7 @@
     "name": "l00",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "이 영상을 보는 지금, <#0.2#> 당신은 숨을 참고 있을지도 몰라요.",
     "caption": "이 영상을 보는 지금, 당신은 숨을 참고 있을지도 몰라요."
@@ -22,7 +22,7 @@
     "name": "l01",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "화면을 볼 때, 메시지를 읽을 때, <#0.2#> 우리는 자기도 모르게 숨을 멈춰요.",
     "caption": "화면을 볼 때, 메시지를 읽을 때, 우리는 자기도 모르게 숨을 멈춰요."
@@ -31,7 +31,7 @@
     "name": "l02",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "숨이 얕아지고 멈추면, <#0.2#> 몸은 긴장을 풀지 못해요. <#0.2#> 그래서 하루 종일 피곤한 거예요.",
     "caption": "숨이 얕아지고 멈추면, 몸은 긴장을 풀지 못해요. 그래서 하루 종일 피곤한 거예요."
@@ -40,7 +40,7 @@
     "name": "l03",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "지금 어깨를 내리고, <#0.3#> 코로 천천히 들이쉬고, <#0.3#> 길게, 길게 내쉬어 보세요.",
     "caption": "어깨 내리고 → 코로 천천히 들이쉬고 → 길게 내쉬기"
@@ -49,7 +49,7 @@
     "name": "l04",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "한 시간에 한 번, <#0.2#> 이 숨 한 번이면 충분해요.",
     "caption": "한 시간에 한 번, 이 숨 한 번이면 충분해요."
@@ -58,23 +58,24 @@
     "name": "l05",
     "provider": "minimax",
     "voice_id": "Korean_IntellectualMan",
-    "speed": 1.0,
+    "speed": 1.08,
     "lang": "Korean",
     "text": "어때요? <#0.3#> 방금, 몸이 조금 풀렸죠?",
     "caption": "어때요? 방금, 몸이 조금 풀렸죠?"
    }
   ],
-  "images": [
+  "images_done": [
    "a person hunched over a glowing laptop late at night, shoulders tense, holding their breath, faint red lines of tension around the neck",
    "a person frozen while staring at a phone, time stopped, dust particles suspended in the air around them, eerie stillness",
    "a person dropping their shoulders and exhaling a long stream of soft golden light, deep relief",
    "a calm person at an open window at dawn, breathing deeply, gentle golden light and a soft breeze"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the laptop light flickers on the tense face, faint red lines pulse slowly around the neck, the person stays frozen"
    }
   ]
- }
+ },
+ "gap": 0.15
 }

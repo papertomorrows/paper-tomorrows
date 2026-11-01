@@ -1,8 +1,8 @@
 {
  "id": "pyog_sh08en_holding",
- "status": "hold-sh-ep005b-en",
+ "status": "ready-sh-faster",
  "lang": "English",
- "hook": "You're Holding Your Breath Right Now",
+ "hook": "You're Holding Your Breath. Right Now.",
  "brand": "Play Your Own Game",
  "reuse_images_from": "pyog_sh08_holding",
  "assets": {
@@ -11,7 +11,7 @@
     "name": "l00",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
-    "speed": 1.02,
+    "speed": 1.08,
     "lang": "English",
     "text": "While you're watching this, <#0.2#> you might be holding your breath.",
     "caption": "While you're watching this, you might be holding your breath."
@@ -20,7 +20,7 @@
     "name": "l01",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
-    "speed": 1.02,
+    "speed": 1.08,
     "lang": "English",
     "text": "When we stare at a screen or read a message, <#0.2#> we stop breathing without noticing.",
     "caption": "When we stare at a screen or read a message, we stop breathing without noticing."
@@ -29,7 +29,7 @@
     "name": "l02",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
-    "speed": 1.02,
+    "speed": 1.08,
     "lang": "English",
     "text": "When your breath gets shallow or stops, <#0.2#> your body can't let go of tension. <#0.2#> That's why you feel drained all day.",
     "caption": "When your breath gets shallow or stops, your body can't let go of tension. That's why you feel drained all day."
@@ -38,7 +38,7 @@
     "name": "l03",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
-    "speed": 1.02,
+    "speed": 1.08,
     "lang": "English",
     "text": "Drop your shoulders. <#0.3#> Breathe in slowly through your nose. <#0.3#> And breathe out, long and slow.",
     "caption": "Drop your shoulders → slow inhale through the nose → long exhale"
@@ -47,7 +47,7 @@
     "name": "l04",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
-    "speed": 1.02,
+    "speed": 1.08,
     "lang": "English",
     "text": "Once an hour, <#0.2#> that one breath is enough.",
     "caption": "Once an hour, that one breath is enough."
@@ -56,11 +56,12 @@
     "name": "l05",
     "provider": "minimax",
     "voice_id": "English_CaptivatingStoryteller",
-    "speed": 1.02,
+    "speed": 1.08,
     "lang": "English",
     "text": "How was that? <#0.3#> Your body just loosened a little, didn't it?",
     "caption": "How was that? Your body just loosened a little, didn't it?"
    }
   ]
- }
+ },
+ "gap": 0.15
 }

@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh11_money",
- "status": "hold-sh11-fix",
+ "status": "ready-sh11-v2",
  "hook": "돈을 쫓을수록 도망간다",
  "gap": 0.15,
  "assets": {

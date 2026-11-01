@@ -1,0 +1,66 @@
+{
+ "id": "pyog_sh07en_mouth",
+ "status": "hold-sh-ep005b-en",
+ "lang": "English",
+ "hook": "If You Breathe Through Your Mouth, Watch This",
+ "brand": "Play Your Own Game",
+ "reuse_images_from": "pyog_sh07_mouth",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Right now, <#0.2#> is your mouth slightly open?",
+    "caption": "Right now, is your mouth slightly open?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Breathing through your mouth <#0.2#> takes more from you than you think.",
+    "caption": "Breathing through your mouth takes more from you than you think."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Your sinuses make nitric oxide, a molecule that helps widen blood vessels. <#0.2#> Breathe through your mouth, and you skip it.",
+    "caption": "Your sinuses make nitric oxide, a molecule that helps widen blood vessels. Breathe through your mouth, and you skip it."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "At night, your mouth dries out, <#0.2#> snoring gets more likely, <#0.2#> and deep sleep gets harder.",
+    "caption": "At night, your mouth dries out, snoring gets more likely, and deep sleep gets harder."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "Today, close your mouth and breathe only through your nose. <#0.3#> Your body will notice first.",
+    "caption": "Today, close your mouth and breathe only through your nose. Your body will notice first."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.02,
+    "lang": "English",
+    "text": "If your nose is often blocked or you snore heavily, <#0.2#> please see a doctor.",
+    "caption": "If your nose is often blocked or you snore heavily, please see a doctor."
+   }
+  ]
+ }
+}

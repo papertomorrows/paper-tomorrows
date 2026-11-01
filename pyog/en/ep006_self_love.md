@@ -64,9 +64,25 @@ So now, let's talk about why people who love themselves end up with money, love 
 
 First, money. People who know their worth price their work fairly. They can say no to terms that diminish them. And when they fail, instead of tearing themselves down, they get back up and learn. In the end, money gathers around people who keep going and keep getting back up.
 
-Next, love. People who can't love themselves look for love out of lack. Out of loneliness, out of a need for approval, they stay even in relationships that hurt them. But people who love themselves love from fullness. So they leave what hurts them, and they connect with people who respect them. And Harvard's study of adult development, which has followed people's lives for more than eighty years, found that the strongest predictor of happiness and health wasn't money or fame. It was good relationships.
+Next, love. People who can't love themselves look for love out of lack. Out of loneliness, out of a need for approval, they stay even in relationships that hurt them. But people who love themselves love from fullness.
 
-Then, success. People who don't know themselves play someone else's game. They chase the success others defined, the life others envy, until they burn out. But people who know themselves play their own game. They focus on what they're truly good at and truly love, so they can keep going for years, and they end up creating something no one else could.
+And the more deeply you know yourself, the more something remarkable happens. You start to recognize the people who truly fit you. Because you know what you value, the people who value the same things stand out right away.
+
+And the opposite is true too. People who aren't right for you, people who come to you with bad intentions, you begin to see them without even trying. Their words are sweet, but something feels off. Where you once ignored that feeling, now you know it's a signal from your soul.
+
+That's why people who love themselves can set strong boundaries. They close the door on people who treat them carelessly, and open their hearts only to people who respect them. They leave what hurts them, and connect with the people who help them shine.
+
+Harvard's study of adult development, which has followed people's lives for more than eighty years, found that the strongest predictor of happiness and health wasn't money or fame. It was good relationships. And good relationships begin with knowing yourself.
+
+Then, success. People who don't know themselves play someone else's game. They chase the success others defined, the life others envy, until they burn out.
+
+But the more you know and love yourself, the more you begin to simply exist as yourself. Not imitating anyone. Just you, as you are.
+
+When the director Bong Joon-ho accepted his Academy Award, he quoted the great Martin Scorsese. The most personal is the most creative.
+
+That's what it means to exist as yourself. Whatever you do, your individuality shows through it. Even doing the same work as others, you do it in a way only you can. And the world is drawn to what's real, not to what's copied.
+
+And living as yourself, you eventually discover the work that truly fits you, the work you truly love, the work that makes your soul glad. And you start doing it. Work that makes your soul glad doesn't wear you out. So you can do it for years. And doing it for years makes you deep. And that depth creates results no one else could. That's how you succeed by playing your own game.
 
 And finally, happiness. People who love themselves don't hand the key to their happiness to someone else. Even without praise, even when no one notices, they know they're okay.
 

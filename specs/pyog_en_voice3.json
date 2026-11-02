@@ -1,0 +1,120 @@
+{
+ "id": "pyog_en_voice3",
+ "status": "ready-en-voice3",
+ "assets": {
+  "text": "For years, a nurse in Australia sat beside people in the final weeks of their lives. <#0.3#> And the number one regret she heard wasn't about money, <#0.2#> or success. <#0.4#> It was this. <#0.3#> I wish I'd had the courage to live a life true to myself, <#0.2#> not the life others expected of me. <#0.5#> The life you're living right now. <#0.3#> Did you really choose it?",
+  "voices": [
+   {
+    "name": "A_storyteller_current",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "B_deep_gentleman",
+    "provider": "minimax",
+    "voice_id": "English_Deep-VoicedGentleman",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "C_gentle_man",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "D_wise_scholar",
+    "provider": "minimax",
+    "voice_id": "English_WiseScholar",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "E_steady_mentor",
+    "provider": "minimax",
+    "voice_id": "English_Steadymentor",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "F_patient_man",
+    "provider": "minimax",
+    "voice_id": "English_PatientMan",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "G_magnetic_man",
+    "provider": "minimax",
+    "voice_id": "English_magnetic_voiced_man",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "H_trustworthy_man",
+    "provider": "minimax",
+    "voice_id": "English_Trustworth_Man",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "I_expressive_narrator",
+    "provider": "minimax",
+    "voice_id": "English_expressive_narrator",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "J_serene_woman",
+    "provider": "minimax",
+    "voice_id": "English_SereneWoman",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "K_wise_lady",
+    "provider": "minimax",
+    "voice_id": "English_Wiselady",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "L_calm_woman",
+    "provider": "minimax",
+    "voice_id": "English_CalmWoman",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "M_graceful_lady",
+    "provider": "minimax",
+    "voice_id": "English_Graceful_Lady",
+    "speed": 1.1,
+    "lang": "English"
+   },
+   {
+    "name": "N_eleven_brian",
+    "provider": "eleven",
+    "voice_id": "nPczCjzI2devNBz1zQrb"
+   },
+   {
+    "name": "O_eleven_george",
+    "provider": "eleven",
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb"
+   },
+   {
+    "name": "P_eleven_daniel",
+    "provider": "eleven",
+    "voice_id": "onwK4e9ZLuTAKqWW03F9"
+   },
+   {
+    "name": "Q_eleven_lily",
+    "provider": "eleven",
+    "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+   }
+  ]
+ }
+}

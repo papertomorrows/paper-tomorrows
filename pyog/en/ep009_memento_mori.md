@@ -1,173 +1,135 @@
-# EP009 (EN) The Doctor Said She Had One Week. That's When She Finally Started Living | Why Remembering Death Sets You Free
+# EP009 (EN) She Was Told She Had One Week. Then She Finally Started Living | Why Remembering Death Sets You Free
 
 <!-- section: hook | visuals: city old town night, woman window rain, hospital corridor light, piano keys, snow falling night | ai: a young woman sitting alone at a grand piano in a dim old hall at night, moonlight falling through tall windows, her fingers resting on the keys as soft golden light begins to rise from the piano >> soft golden light slowly rises from the piano keys and swirls around her, moonlight shifts, snow falls outside the tall windows -->
-If someone told you that you had exactly one week left. What would you do tomorrow?
+What if someone told you, today: you have exactly one week left.
 
-In Paulo Coelho's novel Veronika Decides to Die, there's a story like this.
+What would you do tomorrow?
 
-Veronika is twenty-four and lives in Slovenia. On the outside, she has everything. A job, youth, beauty. But every day feels the same, and empty.
+In Paulo Coelho's novel Veronika Decides to Die, Veronika is twenty-four. She has a job. She's young, beautiful. But every day feels the same, and empty.
 
-Exhausted by life, she tries to let go of it, and wakes up in a psychiatric hospital. There, a doctor tells her that her heart has been badly damaged, and she only has days left to live.
+Exhausted by life, she wakes up in a psychiatric hospital. And a doctor tells her: your heart is damaged. You only have days left.
 
-And from that moment, something strange happens. For the first time, Veronika truly starts to live.
+And from that very moment, Veronika truly starts to live, for the first time.
 
 Let me say this first. This isn't a story that encourages death. It's the opposite. It's about how remembering death is what finally lets us live. And if you're going through something really hard right now, I've put places you can reach out to in the description.
 
 <!-- section: veronika | visuals: piano playing hands, woman laughing, woman walking snow, moonlit window, candle light | title: What She Did When Time Ran Short -->
 Once Veronika believed she had only days left, she stopped caring what anyone thought.
 
-She played the piano in the middle of the night, a childhood dream she'd put away as unrealistic. She stopped holding back what she wanted to say. When she was angry, she showed it. When she loved something, she said so. And for the first time in her life, she truly fell in love.
+She played the piano in the middle of the night, a childhood dream she had put away. When she was angry, she showed it. When she loved something, she said so. And for the first time in her life, she truly fell in love.
 
-As death came closer, she came alive. Once she knew she had nothing left to lose, her fear disappeared.
+With nothing left to lose, her fear was gone.
 
-And at the end of the story, a surprising truth is revealed. Her heart was fine all along. The doctor had told her that on purpose, so she would finally live every moment for real.
+And at the end, a surprising truth comes out. Her heart was fine. The doctor told her that on purpose, so she would finally live.
 
-This story is asking all of us something. Do we really need death to stand right in front of us before we start to live?
+This story is asking us something. Do we really need death right in front of us before we start to live?
 
-<!-- section: mementomori | visuals: ancient rome statue, old library books, monk meditation, sunset hourglass, stars night sky | title: Memento Mori: Remember You Will Die | ai: an ancient Roman philosopher sitting by an oil lamp at night writing in a journal, an hourglass on the table glowing with golden sand, a window open to the starry sky >> the golden sand slowly falls through the hourglass, the oil lamp flame flickers, stars twinkle through the open window -->
-People long ago understood this.
+<!-- section: mementomori | visuals: ancient rome statue, sunset hourglass, old library books, stars night sky, candle light | title: Memento Mori: Remember You Will Die | ai: an hourglass glowing with golden sand on a wooden table by an open window at night, the starry sky outside, a single candle beside it >> the golden sand slowly falls through the hourglass, the candle flame flickers, stars twinkle through the open window -->
+In ancient Rome, it's said that when a victorious general paraded through the streets, someone behind him would whisper: memento mori. Remember that you, too, will die.
 
-It's said that in ancient Rome, as a victorious general paraded through the streets, someone behind him would whisper: memento mori. Remember that you, too, will die.
+Why remind someone of death at their most glorious moment?
 
-The Roman emperor and philosopher Marcus Aurelius wrote in his journal: you could leave life right now. Let that determine what you do, and say, and think.
+Steve Jobs gave the answer. Remembering that he would be dead soon was the most important tool he'd found for making the big choices in life. In the face of death, other people's expectations, pride, and the fear of failure all fall away. Only what truly matters is left.
 
-In his Stanford speech, Steve Jobs said something similar. Remembering that he would be dead soon was the most important tool he'd found for making the big choices in life. Because in the face of death, other people's expectations, pride, and the fear of failure all fall away, and only what truly matters remains.
+In one psychology study, people who imagined their own death became noticeably more grateful for life. The morning light they took for granted, the voices of their family, suddenly felt like gifts.
 
-Buddhism has a meditation on death too. Tibetan teachers say: you never know which will come first, tomorrow, or your next life.
+<!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, child laughing | title: Because It Ends, It's Beautiful | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
+That's why the old wisdom says: think of death not now and then, but every day.
 
-<!-- section: science | visuals: scientist lab, university campus, person journaling, sunrise window, family dinner warm | title: Thinking About Death Makes Life Feel Like a Gift -->
-Science has found this too.
+Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that thrill beneath them. It's because we know they'll fall in a few days that this moment is so beautiful.
 
-In a 2011 psychology study, people were asked to vividly imagine their own death. Afterward, their gratitude for life rose noticeably.
+If we lived forever, today would mean nothing. Tomorrow would come the same, and a thousand years from now.
 
-The things they usually took for granted, the morning light, the voice of someone they love, a warm meal, suddenly felt like gifts.
+But our days are numbered. So today is a single day that will never come again.
 
-Thinking about death doesn't make us depressed. It makes us see, sharply and clearly, how precious the things in our hands right now really are.
+Death isn't the enemy of life. It's the background that makes life shine.
 
-<!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, candle flame | title: Because Death Exists, Life Is Beautiful | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
-That's why the old wisdom teaches us to think of death not now and then, but every day.
+<!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, sunrise over darkness, stars night sky | title: Where There's Only Light, Light Can't Be Known | ai: a single small glowing light floating in a vast world made entirely of bright white light, barely visible, then a soft darkness gently opening around it so the small light suddenly shines warm and clear >> soft darkness slowly opens around the small light, the little light begins to shine brighter and warmer, faint stars appear in the new darkness -->
+But why does there have to be an end at all? Here's something really important.
 
-The Stoics reminded themselves each morning that today might be their last. And in Bhutan, a country known for its happiness, there's said to be a saying: think about death five times a day.
+Imagine a world with only cold. In that world, could we know what cold is?
 
-Why? Because it's death that gives life its value.
+We couldn't. There'd be no warmth to compare it to. The word cold, the feeling of cold, wouldn't even exist.
 
-Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that thrill standing beneath them. It's because we know they'll fall in a few days that the moment is so beautiful.
+There's a story like this. Long ago, in a place made entirely of light, there was a little light. The little light knew it was light. But it had never once felt it. Because everything around it was light too. Light inside light can't be seen.
 
-Sunsets. Fireworks. The years a child grows up. It's because they end that we look, we cherish, we love.
+So the little light made a wish. I want to truly experience that I am light. And for that, it needed something that was not light. It needed darkness.
 
-If we lived forever, today would mean nothing. Tomorrow would come the same, and the day after, and a thousand years from now. But our days are numbered. So today is a single day that will never come again.
+Many spiritual teachings say this is exactly why our souls came to Earth. Earth is a world split in two, a world of duality. Light and darkness. Warm and cold. Meeting and parting. Life and death.
 
-Death isn't the enemy of life. Death is the background that makes life shine.
+Knowing something and experiencing it are different. So we meet parting to experience love. We get bound to experience freedom. We come to a place with death to experience life.
 
-<!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, cherry blossoms, candle light | title: Even What We Love Most Can Be Lost | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
-But let's go a little deeper.
+Without what you are not, you can't experience who you are.
 
-It isn't only our own death we fear. Losing the people we love. Losing our health. Losing everything we've worked so hard to build. We live always afraid of losing.
-
-But if we're truly honest, everything we have will leave us one day. The people we love, our youth, this very moment. Buddhism calls this impermanence. Nothing lasts forever.
-
-The ancient Greek philosopher Epictetus said that when you kiss your child, remind yourself: this one I love is also someone who will one day be gone.
-
-That may sound cold. But it's the opposite. Only someone who accepts that they could lose anything at any time can love this moment with their whole heart. You hug them today. You say thank you today. You say sorry today. Because you know tomorrow isn't guaranteed.
-
-And your love becomes love held in an open palm, not a clenched fist. Not love that clings out of fear of losing, but love that celebrates being together right now.
-
-<!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, black and white contrast, sunrise over darkness | title: A World of Duality: We Know One Through the Other | ai: a single small candle flame burning in vast velvet darkness, the darkness around it making the flame shine brighter and warmer, faint stars appearing far away >> the candle flame flickers gently and grows warmer, the surrounding darkness deepens, distant stars slowly appear and twinkle -->
-Let's go a little deeper, spiritually.
-
-The Earth we live on is a world built on duality. Light and darkness. Being and not-being. Like and dislike. Right and wrong. Good and evil. Cold and hot. Life and death.
-
-Now imagine for a moment. What if there were only cold in this world?
-
-We wouldn't even know what cold is. With no heat to compare it to, cold would just be the way things are. There'd be no name for it, no feeling of it at all.
-
-Light is the same. Without darkness, we couldn't recognize light as light. A single candle in the dark looks so warm precisely because everything around it is dark.
-
-Lao Tzu said: when everyone in the world knows beauty as beauty, ugliness is already there. Being and non-being give birth to each other. Difficult and easy complete each other.
-
-Life and death are the same. Without death, we wouldn't know what it means to be alive. Life becomes life because death stands on the other side.
-
-So darkness, sorrow, and parting are the half this world needs. Because of that half, we can recognize light, joy, and meeting.
+So don't hate the darkness. The darkness came so your light could be seen.
 
 <!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: Good and Bad Are Something We Choose -->
-And this points to something very important.
+And this shows us one more thing.
 
-Whether something is good or bad, whether it has value or not, isn't a fixed answer that exists out there.
+At the source this world came from, everything simply is. There's no good and no bad. The labels good and bad are what we, experiencing this world of duality, put on things.
 
-There's an old Chinese story. An old farmer's horse ran away, and the villagers said, what bad luck. Then the horse came back with a wild horse, and they said, what good luck. His son rode the wild horse, fell, and broke his leg. Bad luck, they said. Then soldiers came to take young men to war, and his son was spared.
+There's an old Chinese story. An old farmer's horse ran away, and the villagers said, what bad luck. The horse came back with a wild horse, and they said, what good luck. His son fell from it and broke his leg. Bad luck. Then soldiers came to take young men to war, and his son was spared.
 
-So which was good, and which was bad?
+So which was good? There's no right answer.
 
-Shakespeare wrote in Hamlet: there is nothing either good or bad, but thinking makes it so.
-
-On this stage of duality called Earth, we, the ones experiencing life, are choosing to think and to feel that this is good, that is bad, this has value, that means nothing.
-
-Viktor Frankl, a psychiatrist who survived the Nazi camps, said that even when everything is taken from you, one freedom remains: the freedom to choose your attitude toward whatever happens.
+Whether something is good or bad, whether it has value or not, isn't fixed. We, the ones living this life on Earth, are choosing to think and feel that way.
 
 So whatever has happened to you, you can choose what it means. That's the greatest power we have in this game.
 
-<!-- section: dream | visuals: misty forest dream, light rays clouds, reflection lake, milky way, soap bubble light | title: All of This Is Real, and Also a Dream | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
-And the spiritual traditions take one more step.
+<!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: Even What We Love Most Can Be Lost | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
+Now, this part takes a little more courage.
 
-The Diamond Sutra says: all conditioned things are like a dream, an illusion, a bubble, a shadow.
+Everything we love will one day leave us. The people we love, our health, our youth, this very moment.
 
-Indian traditions call this world maya. A beautiful illusion that looks real, while veiling what is truly real.
+Does that sound cold? It's actually the opposite.
 
-That doesn't mean this life is meaningless. The joy, the tears, the love you feel right now are all real. Feel them for real. Live them for real.
+Only someone who accepts they could lose anything at any time can love right now with their whole heart. You hug them today. You say thank you today. You say sorry today. Because you know tomorrow isn't guaranteed.
 
-But at the same time, all of this is a dream. From the view of the larger you, the eternal you, this lifetime is a vivid dream, a game you've stepped into for a while.
+Not love that clings out of fear of losing, but love that celebrates being together now. Love held in an open palm.
 
-Picture a player completely immersed in a game. They laugh, they cry, they take on every challenge with their whole heart. But they know: this is a game. So when they lose, they don't collapse. When they fall, they get back up.
+<!-- section: dream | visuals: misty forest dream, reflection lake, light rays clouds, milky way, soap bubble light | title: Real, and Also a Dream | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
+And finally, there's one truth that ties all of this together.
 
-Someone who knows it's real and also a dream. That's the person who lives most freely.
+The joy, the tears, the love you feel right now are all real. Feel them for real. Live them for real.
 
-<!-- section: freedom | visuals: woman dancing field, open road sunrise, bird flying sky, person arms open mountain, ocean waves | title: What's Left When Fear Is Gone -->
-So what changes when you're no longer afraid of death?
+But at the same time, all of this is a dream. From the eyes of your eternal self, this lifetime is a vivid dream we've stepped into for a while. A game.
 
-Other people's opinions get smaller. On a stage that will one day disappear, there's no reason to cling to anyone's judgment.
+Picture a player completely absorbed in a game. They laugh, cry, take on every challenge with their whole heart. But they know: this is a game. So when they lose, they don't collapse. When they fall, they get back up.
 
-Failure stops being scary. The only thing you can truly lose in this game is never having lived as yourself.
+Someone who knows it's real and also a dream lives the most freely, the most as themselves. Other people's opinions, failure, it's all happening on a stage that will one day disappear.
 
-You start the things you've been putting off. Not someday. Today. Just like Veronika playing the piano in the middle of the night.
+<!-- section: practice | visuals: morning journal, sunrise window, hugging family, woman dancing field, calm night bedroom | title: Live Today Like the Last, but Lightly -->
+So starting today, try just four things.
 
-And above all, you live each day more as yourself. Someone who knows their time is limited has no time to live someone else's life.
+First, once each morning, think of death. Then ask: if today were my last day, would I want to do what I'm about to do?
 
-<!-- section: practice5 | visuals: morning journal, sunrise window, hugging family, walking nature, calm night bedroom | title: Six Ways to Live Today Like the Last, but Lightly -->
-So starting today, try this.
+Second, tell the people who matter, today. Thank you. I love you. I'm sorry. Don't put it off.
 
-First, every morning, think of death once. Then look in the mirror and ask: if today were the last day of my life, would I want to do what I'm about to do? If the answer is no for too many days in a row, it's time to change something.
+Third, do one thing a day like Veronika. One small thing you've held back because of other people's eyes. Do it today.
 
-Second, tell the people who matter, today. Thank you. I love you. I'm sorry. Don't wait. Tomorrow isn't promised.
-
-Third, be grateful by remembering you could lose it. The people beside you, your health, this very moment. Remember there'll come a day you miss them, and today will shine brighter.
-
-Fourth, do one thing a day like Veronika. One small thing you've always wanted to do but held back because of other people's eyes. Sing. Dance. Say the thing you've been wanting to say.
-
-Fifth, give one thing that happened today the meaning you choose. If it was hard, ask: what is this trying to teach me?
-
-Sixth, before you sleep, tell yourself: today, I lived fully. And when you open your eyes tomorrow, remember it isn't an ordinary morning. It's a day you've been given as a gift.
+Fourth, when something hard happens, ask: what light of mine did this darkness come to show?
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take three minutes together, right now.
 
 Sit comfortably and close your eyes. Breathe in slowly… and breathe out, long.
 
-Now, imagine that today is the last day of your life.
+Imagine that today is the last day of your life.
 
 Whose face comes to mind? Silently tell them: thank you. I love you.
 
-Now look back at the life you've walked so far. The good days and the days you fell. All of them are days you lived. Tell every one of them: you did well.
+Now look back at the life you've walked so far. The days you laughed and the days you fell. Every one of them showed your light. Tell all of them: you did well.
 
 Now, take a deep breath in… and as you slowly breathe out, open your eyes.
 
 You are still alive.
 
-Today isn't your last day. It's a day you've been given again, like a gift. How do you want to live it?
+Today isn't your last day. It's a day you've been given again, like a gift.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, golden field, milky way -->
 When Veronika believed death was near, she finally began to live. We don't have to wait for that. Remembering death, right now, is enough.
 
-Everything is real, and also a dream. So love more, fear less, and live more as yourself.
+It's beautiful because it ends. It shines because there is darkness. Everything is real, and also a dream. So love more, fear less, and live more as yourself.
 
 If today were your last day, write the one thing you'd most want to do in the comments. And then, do it today.
 

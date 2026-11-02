@@ -72,6 +72,29 @@
 
 그리고 넷째, 이게 가장 영적인 이유예요. 내려놓는 순간, 우리는 더 이상 혼자 애쓰지 않아요. 나보다 큰 흐름, 누군가는 우주라고, 누군가는 신이라고 부르는 그 흐름과 함께 일하기 시작해요. 내가 할 일을 하고, 나머지는 맡기는 거예요. 그때 우리는 혼자서는 상상도 못 했던 방식으로, 꿈에 닿게 돼요.
 
+<!-- section: heaven | visuals: ocean waves sunset, night sky stars, sunrise clouds, waterfall, milky way, lotus | title: 내가 있는 곳이 천국이 되는 순간 | ai: a person sitting peacefully in meditation where the sky is split between a golden sunrise on one side and a deep starry night on the other, both halves blending into one radiant circle of light around them >> the golden day and the starry night slowly swirl together into one glowing circle around the meditating figure, stars and sunlight mingle, soft light pulses -->
+그런데, 내려놓음에는 더 깊은 차원이 있어요.
+
+많은 영적 스승들은 이렇게 말해요. 천국은 죽어서 가는 장소가 아니라, 지금 여기서 들어갈 수 있는 마음의 상태라고요.
+
+그 상태는 어떤 걸까요? 지금 내 앞의 사람, 지금 내게 일어난 일을, 밀어내지 않고 있는 그대로 받아들이는 상태예요. 좋은 일도, 힘든 일도요.
+
+어떻게 그럴 수 있을까요? 결국, 모든 것은 하나이기 때문이에요.
+
+우리가 사는 지구는 물질의 세계예요. 그리고 이중성의 세계죠. 빛과 어둠, 좋음과 나쁨, 옳음과 그름이 나뉘어 있는 것처럼 보여요.
+
+하지만 이 물질세계가 태어나는 곳, 우주의 가장 깊은 근원은 달라요. 그곳은 모든 것이 있는 그대로 존재하는 곳, 나뉘기 전의 에너지 그 자체예요.
+
+바다를 떠올려 보세요. 파도는 높이 솟기도 하고, 깊이 꺼지기도 해요. 하지만 높은 파도도, 낮은 파도도, 모두 같은 바다예요.
+
+깊고, 높고, 넓은 눈으로 보면, 빛과 어둠은 서로 다르지 않아요. 어둠이 있어 별이 빛나고, 겨울이 있어 봄이 피어나요. 빛도, 어둠도, 모두 아름답고 모두 가치가 있어요. 내 인생에서 가장 아팠던 시간들까지도요.
+
+그렇게 모든 것을 받아들일 때, 내가 있는 곳이 바로 천국이 돼요. 그리고 이 상태에 가까워질수록, 소원은 훨씬 빠르게 이루어져요.
+
+왜냐하면, 더 이상 저항하지 않기 때문이에요. 무언가를 밀어내는 마음은, 나를 전체로부터 떼어 놓아요. 하지만 모든 것을 받아들이는 마음은, 나를 다시 전체와 하나로 이어 줘요. 그리고 전체와 하나가 된 사람의 소원은, 더 이상 나 혼자의 소원이 아니에요. 우주 전체가 함께 이루어 가는 소원이 되는 거예요.
+
+물론 받아들인다는 건, 나를 해치는 것을 참고 견디라는 뜻이 아니에요. 미워하고 저항하는 대신, 먼저 있는 그대로 바라보는 거예요. 그다음에, 지혜롭게 선택하는 거죠. 떠나야 할 곳은 평화롭게 떠나고, 지켜야 할 것은 평화롭게 지키면서요.
+
 <!-- section: notgiveup | visuals: woman thinking window, mountain climber, sunrise road, river rocks, steady walking | title: 내려놓음은 포기가 아니에요 -->
 그런데 여기서 꼭 짚고 넘어가야 할 게 있어요.
 
@@ -133,12 +156,14 @@
 
 나는 할 일을 할게요. 나머지는, 맡길게요.
 
+그리고 지금 이 순간을, 있는 그대로 받아들여 보세요. 지금 이대로, 괜찮아요. 지금 이 자리가, 천국이에요.
+
 천천히, 눈을 떠 보세요. 가벼워졌나요? 그 가벼움이, 소원이 이루어지는 길이에요.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, milky way, golden field -->
 꿈은 꽉 쥔 손이 아니라, 활짝 편 손바닥 위에 내려앉아요.
 
-생생하게 꿈꾸고, 오늘의 한 걸음을 걷고, 그리고 가볍게 내려놓으세요. 그 순간, 당신의 꿈은 이미 당신을 향해 오고 있어요.
+생생하게 꿈꾸고, 오늘의 한 걸음을 걷고, 그리고 가볍게 내려놓으세요. 지금 있는 곳을, 천국으로 만들면서요. 그 순간, 당신의 꿈은 이미 당신을 향해 오고 있어요.
 
 당신이 오늘 내려놓고 싶은 걱정 하나를, 댓글에 적어 주세요. 적는 순간, 조금 가벼워질 거예요.
 

@@ -72,6 +72,29 @@ Third, people are drawn to you. People are drawn to someone calm and at ease far
 
 And fourth, the most spiritual reason of all. The moment you let go, you're no longer struggling alone. You begin working with something larger than yourself. Some call it the universe, some call it God. You do your part, and you trust the rest. And that's when you reach your dreams in ways you could never have imagined on your own.
 
+<!-- section: heaven | visuals: ocean waves sunset, night sky stars, sunrise clouds, waterfall, milky way, lotus | title: When Where You Are Becomes Heaven | ai: a person sitting peacefully in meditation where the sky is split between a golden sunrise on one side and a deep starry night on the other, both halves blending into one radiant circle of light around them >> the golden day and the starry night slowly swirl together into one glowing circle around the meditating figure, stars and sunlight mingle, soft light pulses -->
+But there's an even deeper layer to letting go.
+
+Many spiritual teachers say that heaven isn't a place you go after you die. It's a state of being you can enter right here, right now.
+
+What kind of state? A state where you accept the person in front of you, and whatever is happening to you, exactly as it is, without pushing it away. The good and the hard alike.
+
+How is that possible? Because, in the end, everything is one.
+
+The Earth we live on is a material world. A world of duality. Light and darkness, good and bad, right and wrong all seem separate here.
+
+But the place this material world is born from, the deepest source of the universe, is different. It's where everything simply is. Pure energy, before anything was divided.
+
+Picture the ocean. Waves rise high, and fall deep. But the high wave and the low wave are both the same ocean.
+
+From a deep, high, and wide enough view, light and darkness aren't separate. Because of the darkness, the stars shine. Because of winter, spring blooms. Light and darkness are both beautiful, and both precious. Even the most painful chapters of your life.
+
+When you accept everything like this, the place where you are becomes heaven. And the closer you come to this state, the faster your wishes come true.
+
+Why? Because you're no longer resisting. A mind that pushes things away separates you from the whole. But a mind that accepts everything reconnects you with it. And when you're one with the whole, your wish is no longer just your wish. It becomes a wish the whole universe is helping to fulfill.
+
+Of course, accepting doesn't mean enduring what harms you. It means, instead of hating and resisting, first seeing things as they are. And then choosing wisely. Leaving what you need to leave, in peace. Protecting what you need to protect, in peace.
+
 <!-- section: notgiveup | visuals: woman thinking window, mountain climber, sunrise road, river rocks, steady walking | title: Letting Go Is Not Giving Up -->
 But there's something important to be clear about.
 
@@ -133,12 +156,14 @@ Take a deep breath in… and as you breathe out, long and slow, let the wish go.
 
 I'll do my part. I'll trust the rest.
 
+And now, accept this moment exactly as it is. Just as it is, it's okay. Right here is heaven.
+
 Slowly, open your eyes. Do you feel lighter? That lightness is the path your wish travels on.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, milky way, golden field -->
 Dreams don't land in a clenched fist. They land on an open palm.
 
-Dream vividly. Take today's step. And then, gently, let go. In that moment, your dream is already on its way to you.
+Dream vividly. Take today's step. And then, gently, let go. Turning the place where you are into heaven. In that moment, your dream is already on its way to you.
 
 Write one worry you want to let go of today in the comments. The moment you write it, you'll feel a little lighter.
 

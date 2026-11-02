@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh18_regret",
- "status": "ready-sh-ep008",
+ "status": "done-sh-ep008",
  "hook": "죽기 전 후회 1위",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "오늘, 작은 선택 하나만이라도 당신의 것으로 해 보세요."
    }
   ],
-  "images": [
+  "images_done": [
    "an elderly person lying peacefully in a softly lit room by a window at dusk, a gentle golden light falling on their face, contemplative",
    "a young person standing at a crossroads at dusk, one road full of watching faces in lit windows, the other a quiet golden path",
    "a person carrying a huge stack of heavy glowing boxes on their back, each box faintly shaped like a face, walking slowly in the dark",
    "the same person setting the boxes down and stepping lightly onto a golden path under a starry sky, free"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the dusk light slowly shifts across the elderly face, curtains move gently, dust floats in the golden beam"

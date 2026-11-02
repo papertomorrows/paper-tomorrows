@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh17_agent",
- "status": "ready-sh-ep008",
+ "status": "done-sh-ep008",
  "hook": "가족이 스미스 요원이 될 때",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "사랑은 그대로 두고, 다시 잠들지는 마세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person beginning to glow with golden light in a grey dreamlike city at night while familiar loving figures gently hold their arms, faint grey chains of light around them",
    "a warm family dinner table in a dim room, faces turned with concerned expressions toward one person whose chest glows softly gold",
    "a person gently loosening grey chains of light from their wrists, the loving figures still nearby, soft golden glow growing",
    "a person walking freely toward a radiant golden horizon, looking back with a gentle smile at the figures who wave softly"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the person's golden glow slowly grows brighter while the grey chains of light flicker, the figures hold on gently, the grey city shimmers"

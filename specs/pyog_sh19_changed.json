@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh19_changed",
- "status": "ready-sh-ep008",
+ "status": "done-sh-ep008",
  "hook": "'너 변했다'는 칭찬이다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "변했다는 말을 들었다면, 당신은 지금, 잘하고 있는 거예요."
    }
   ],
-  "images": [
+  "images_done": [
    "a group of friends at a dim table looking with surprise and disapproval at one person who glows with soft golden light",
    "a caterpillar cocoon hanging on a branch at night, glowing from within, cracks of golden light appearing",
    "a radiant butterfly of golden light emerging and spreading its wings under a starry sky",
    "a person walking forward with calm confidence, golden light around them, old grey silhouettes fading behind"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the friends at the table exchange glances, candle light flickers, the glowing person sits calmly as their light slowly brightens"

@@ -120,3 +120,7 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 ## Titles vs thumbnails (2026-11-01, user decision)
 - YouTube title and thumbnail text are always different and complementary: thumbnail pokes (e.g. "착하게 살수록 가난해진다?"), title opens a curiosity gap (e.g. "부자들이 돈보다 먼저 챙긴 단 한 가지"). Do not put the answer/keyword in the title; put search keywords in the description first line, tags and captions.
 - Narration speed for PYOG: 1.1 (long-form and shorts), shorts gap 0.15.
+
+## English voice (2026-11-03, user decision)
+- From EP009 on, Play Your Own Game (English) uses MiniMax `English_Gentle-voiced_man` (sample C), speed 1.1, for long-form and shorts. Previous voice English_CaptivatingStoryteller sounded too AI-like to the user. ElevenLabs Daniel was preferred but rejected for cost (needs Pro $99/mo for daily output).
+- Do not edit already-rendered specs with status "ready-*" (a diff re-triggers rendering); set the voice in new specs.

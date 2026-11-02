@@ -83,6 +83,23 @@
 
 나는 누군가의 딸도, 누군가의 아들도, 누군가의 학생도, 누군가의 친구도 아니에요. 그 모든 역할을 조용히 바라보는 의식이에요. 그 질문 끝에서 우리는 만나게 돼요. 어떤 기대도 닿지 않는, 고요하고 자유로운 진짜 나를요.
 
+<!-- section: agent | visuals: city crowd grey, people walking city night, family arguing, friends talking serious, couple silhouette, person walking away crowd | title: 사랑하는 사람이 스미스 요원이 될 때 | ai: a person beginning to glow with soft golden light in the middle of a grey dreamlike city, while several familiar warm figures around them gently hold their arms and shoulders, faint translucent chains of grey light trailing from their hands >> the person's golden glow slowly grows brighter, the grey chains of light flicker and loosen, the surrounding figures hold on gently, the grey city shimmers -->
+영화 매트릭스를 기억하시나요? 주인공 네오가 진실에 눈을 뜨려 할 때, 그를 끝까지 막아서는 존재가 있었어요. 스미스 요원이요.
+
+그런데 영화 속에서 모피어스는 이런 뜻의 말을 해요. 아직 매트릭스에서 깨어나지 못한 사람이라면, 누구든 요원이 될 수 있다고요. 지나가던 행인도, 경찰도, 언제든 요원으로 바뀌어 네오를 막아설 수 있었죠.
+
+우리 삶에서도 똑같은 일이 일어나요. 내가 진짜 나를 기억해 내고, 나로 존재하려고 할 때. 그걸 가장 먼저 막아서는 건, 놀랍게도 낯선 사람이 아니에요. 사랑하는 가족, 오랜 친구, 아끼는 지인, 그리고 연인일 때가 많아요.
+
+너 요즘 왜 그래. 현실적으로 생각해. 네가 그걸 어떻게 해. 예전의 너로 돌아와.
+
+그들은 나쁜 사람이 아니에요. 나를 해치려는 것도 아니고요. 다만 그들 역시 아직 같은 게임 안에 있기 때문에, 그 게임의 규칙이 그들의 입을 빌려 말하는 거예요. 내가 게임에서 걸어 나가려 할 때, 게임은 가장 가까운 사람을 통해 나를 붙잡으려 하거든요.
+
+그러니까 기억하세요. 그 순간 그들은 적이 아니라, 하나의 역할을 맡고 있는 거예요. 영혼의 관점에서 보면, 어쩌면 내가 얼마나 진심인지 확인시켜 주려고, 그 역할을 맡아 준 건지도 몰라요.
+
+그래서 우리는, 모든 것에서 더 자유로워지려고 해야 해요. 남의 기대에서도, 사랑하는 사람의 인정에서도, 그리고 예전의 나라는 이름표에서도요.
+
+사랑은 그대로 두세요. 하지만 그 사랑이, 나를 다시 잠들게 하는 이유가 되게 하지는 마세요. 사랑하면서도, 자유로울 수 있어요. 아니, 진짜 사랑은 원래 자유로운 거예요.
+
 <!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: 남의 기대 게임 속에 있다는 다섯 가지 신호 -->
 그럼 혹시, 나는 지금 이 게임 속에 있을까요? 다섯 가지만 확인해 보세요.
 

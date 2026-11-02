@@ -83,6 +83,23 @@ When other people's expectations start speaking, bring this question to mind. Wh
 
 I'm not just someone's daughter, someone's son, someone's student, or someone's friend. I'm the awareness quietly watching all of those roles. And at the end of that question, we meet something. The real self, quiet and free, that no expectation can ever reach.
 
+<!-- section: agent | visuals: city crowd grey, people walking city night, family arguing, friends talking serious, couple silhouette, person walking away crowd | title: When the People You Love Become Agent Smith | ai: a person beginning to glow with soft golden light in the middle of a grey dreamlike city, while several familiar warm figures around them gently hold their arms and shoulders, faint translucent chains of grey light trailing from their hands >> the person's golden glow slowly grows brighter, the grey chains of light flicker and loosen, the surrounding figures hold on gently, the grey city shimmers -->
+Remember the movie The Matrix? When Neo tries to wake up to the truth, there's one figure who keeps standing in his way. Agent Smith.
+
+But in the film, Morpheus says something along these lines: anyone who hasn't been unplugged from the Matrix can become an agent. A passerby, a police officer. Any of them could turn into an agent and block Neo's way.
+
+The same thing happens in our lives. When you start to remember who you really are, and try to exist as yourself, the first ones to stand in your way often aren't strangers. Surprisingly often, they're your family, your old friends, the people you care about, even your partner.
+
+What's gotten into you? Be realistic. You can't do that. Go back to the old you.
+
+They aren't bad people. They're not trying to hurt you. It's just that they're still inside the same game, so the rules of that game speak through them. When you try to walk out of the game, the game tries to hold on to you through the people closest to you.
+
+So remember this. In that moment, they're not your enemy. They're playing a role. And from the soul's point of view, maybe they took on that role to show you how serious you really are.
+
+That's why we have to keep becoming freer from everything. From other people's expectations. From the approval of the people we love. And from the label of who we used to be.
+
+Keep the love. But don't let that love become the reason you fall back asleep. You can love and be free at the same time. In fact, real love was always free.
+
 <!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: Five Signs You're Still Playing -->
 So, are you still playing this game? Check these five signs.
 

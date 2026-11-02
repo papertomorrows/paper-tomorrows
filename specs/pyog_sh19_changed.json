@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh19_changed",
+ "status": "hold-sh-ep008",
+ "hook": "'너 변했다'는 칭찬이다",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "요즘 주변에서, <#0.2#> 너 변했다는 말을 듣나요?",
+    "caption": "요즘 주변에서, 너 변했다는 말을 듣나요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그 말, <#0.3#> 상처받지 않아도 돼요.",
+    "caption": "그 말, 상처받지 않아도 돼요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그건 당신이, <#0.2#> 남이 정해 준 게임에서 걸어 나오고 있다는 신호예요.",
+    "caption": "그건 당신이, 남이 정해 준 게임에서 걸어 나오고 있다는 신호예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "애벌레가 나비가 될 때, <#0.2#> 예전 모습 그대로 있을 수는 없잖아요.",
+    "caption": "애벌레가 나비가 될 때, 예전 모습 그대로 있을 수는 없잖아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "변하지 않길 바라는 마음은, <#0.2#> 그들이 아직 같은 게임 안에 있기 때문이에요.",
+    "caption": "변하지 않길 바라는 마음은, 그들이 아직 같은 게임 안에 있기 때문이에요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "변했다는 말을 들었다면, <#0.3#> 당신은 지금, 잘하고 있는 거예요.",
+    "caption": "변했다는 말을 들었다면, 당신은 지금, 잘하고 있는 거예요."
+   }
+  ],
+  "images": [
+   "a group of friends at a dim table looking with surprise and disapproval at one person who glows with soft golden light",
+   "a caterpillar cocoon hanging on a branch at night, glowing from within, cracks of golden light appearing",
+   "a radiant butterfly of golden light emerging and spreading its wings under a starry sky",
+   "a person walking forward with calm confidence, golden light around them, old grey silhouettes fading behind"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the friends at the table exchange glances, candle light flickers, the glowing person sits calmly as their light slowly brightens"
+   }
+  ]
+ }
+}

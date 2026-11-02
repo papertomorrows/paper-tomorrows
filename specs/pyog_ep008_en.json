@@ -1,0 +1,13 @@
+{
+ "id": "pyog_ep008_en",
+ "script": "pyog/en/ep008_expectations.md",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "voice_id": "English_CaptivatingStoryteller",
+ "speed": 1.1,
+ "lang": "English",
+ "seed": 95,
+ "captions": true,
+ "min_luma": 28,
+ "max_ai_fallbacks": 3,
+ "status": "hold-ep008en-v1"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh19en_changed",
+ "status": "hold-sh-ep008-en",
+ "lang": "English",
+ "hook": "\"You've Changed\" Is a Compliment",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh19_changed",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Have people been telling you lately <#0.2#> that you've changed?",
+    "caption": "Have people been telling you lately that you've changed?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "You don't have to be hurt <#0.3#> by those words.",
+    "caption": "You don't have to be hurt by those words."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "It's a sign you're walking out <#0.2#> of a game someone else set up for you.",
+    "caption": "It's a sign you're walking out of a game someone else set up for you."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "When a caterpillar becomes a butterfly, <#0.2#> it can't stay the way it was.",
+    "caption": "When a caterpillar becomes a butterfly, it can't stay the way it was."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "People want you not to change <#0.2#> because they're still inside the same game.",
+    "caption": "People want you not to change because they're still inside the same game."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "If they say you've changed, <#0.3#> you're doing it right.",
+    "caption": "If they say you've changed, you're doing it right."
+   }
+  ]
+ }
+}

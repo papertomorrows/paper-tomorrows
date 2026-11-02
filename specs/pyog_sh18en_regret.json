@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh18en_regret",
+ "status": "hold-sh-ep008-en",
+ "lang": "English",
+ "hook": "The #1 Regret Before Dying",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh18_regret",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "A nurse in Australia <#0.2#> wrote down the regrets of people in their final days.",
+    "caption": "A nurse in Australia wrote down the regrets of people in their final days."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "The most common regret <#0.2#> wasn't about money or success.",
+    "caption": "The most common regret wasn't about money or success."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "It was this. <#0.3#> I wish I'd had the courage to live a life true to myself, not the life others expected of me.",
+    "caption": "It was this. I wish I'd had the courage to live a life true to myself, not the life others expected of me."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "The life you're living right now. <#0.3#> Did you really choose it?",
+    "caption": "The life you're living right now. Did you really choose it?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Other people's expectations <#0.2#> aren't yours to carry for life.",
+    "caption": "Other people's expectations aren't yours to carry for life."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Today, <#0.2#> make even one small choice truly your own.",
+    "caption": "Today, make even one small choice truly your own."
+   }
+  ]
+ }
+}

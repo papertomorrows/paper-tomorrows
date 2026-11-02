@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh18_regret",
+ "status": "hold-sh-ep008",
+ "hook": "죽기 전 후회 1위",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "호주의 한 간호사가, <#0.2#> 생의 마지막을 맞는 사람들의 후회를 기록했어요.",
+    "caption": "호주의 한 간호사가, 생의 마지막을 맞는 사람들의 후회를 기록했어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "가장 많이 한 후회는, <#0.2#> 돈도, 성공도 아니었어요.",
+    "caption": "가장 많이 한 후회는, 돈도, 성공도 아니었어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "남들이 기대하는 삶이 아니라, <#0.3#> 나 자신에게 진실한 삶을 살 용기가 있었더라면.",
+    "caption": "남들이 기대하는 삶이 아니라, 나 자신에게 진실한 삶을 살 용기가 있었더라면."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "지금 당신이 사는 이 인생, <#0.3#> 정말 당신이 고른 건가요?",
+    "caption": "지금 당신이 사는 이 인생, 정말 당신이 고른 건가요?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "남의 기대는, <#0.2#> 당신이 평생 짊어질 짐이 아니에요.",
+    "caption": "남의 기대는, 당신이 평생 짊어질 짐이 아니에요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "오늘, <#0.2#> 작은 선택 하나만이라도 당신의 것으로 해 보세요.",
+    "caption": "오늘, 작은 선택 하나만이라도 당신의 것으로 해 보세요."
+   }
+  ],
+  "images": [
+   "an elderly person lying peacefully in a softly lit room by a window at dusk, a gentle golden light falling on their face, contemplative",
+   "a young person standing at a crossroads at dusk, one road full of watching faces in lit windows, the other a quiet golden path",
+   "a person carrying a huge stack of heavy glowing boxes on their back, each box faintly shaped like a face, walking slowly in the dark",
+   "the same person setting the boxes down and stepping lightly onto a golden path under a starry sky, free"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the dusk light slowly shifts across the elderly face, curtains move gently, dust floats in the golden beam"
+   }
+  ]
+ }
+}

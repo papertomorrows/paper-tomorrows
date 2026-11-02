@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh17_agent",
+ "status": "hold-sh-ep008",
+ "hook": "가족이 스미스 요원이 될 때",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "당신이 진짜 나로 깨어나려 할 때, <#0.2#> 가장 먼저 막아서는 사람이 누군지 아세요?",
+    "caption": "당신이 진짜 나로 깨어나려 할 때, 가장 먼저 막아서는 사람이 누군지 아세요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "낯선 사람이 아니에요. <#0.3#> 사랑하는 가족, 친구, 그리고 연인이에요.",
+    "caption": "낯선 사람이 아니에요. 사랑하는 가족, 친구, 그리고 연인이에요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "너 요즘 왜 그래. <#0.2#> 현실적으로 생각해. <#0.2#> 예전의 너로 돌아와.",
+    "caption": "너 요즘 왜 그래. 현실적으로 생각해. 예전의 너로 돌아와."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "매트릭스의 스미스 요원처럼, <#0.2#> 아직 게임 안에 있는 사람은, 누구든 그 역할을 할 수 있어요.",
+    "caption": "매트릭스의 스미스 요원처럼, 아직 게임 안에 있는 사람은, 누구든 그 역할을 할 수 있어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그들은 적이 아니에요. <#0.2#> 게임의 규칙이, 그들의 입을 빌려 말하는 것뿐이에요.",
+    "caption": "그들은 적이 아니에요. 게임의 규칙이, 그들의 입을 빌려 말하는 것뿐이에요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "사랑은 그대로 두고, <#0.3#> 다시 잠들지는 마세요.",
+    "caption": "사랑은 그대로 두고, 다시 잠들지는 마세요."
+   }
+  ],
+  "images": [
+   "a person beginning to glow with golden light in a grey dreamlike city at night while familiar loving figures gently hold their arms, faint grey chains of light around them",
+   "a warm family dinner table in a dim room, faces turned with concerned expressions toward one person whose chest glows softly gold",
+   "a person gently loosening grey chains of light from their wrists, the loving figures still nearby, soft golden glow growing",
+   "a person walking freely toward a radiant golden horizon, looking back with a gentle smile at the figures who wave softly"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the person's golden glow slowly grows brighter while the grey chains of light flicker, the figures hold on gently, the grey city shimmers"
+   }
+  ]
+ }
+}

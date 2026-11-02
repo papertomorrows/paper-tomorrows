@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh17en_agent",
+ "status": "hold-sh-ep008-en",
+ "lang": "English",
+ "hook": "When Family Becomes Agent Smith",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh17_agent",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "When you start waking up as your true self, <#0.2#> do you know who stops you first?",
+    "caption": "When you start waking up as your true self, do you know who stops you first?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Not strangers. <#0.3#> Your family, your friends, the people you love.",
+    "caption": "Not strangers. Your family, your friends, the people you love."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "What's gotten into you? <#0.2#> Be realistic. <#0.2#> Go back to the old you.",
+    "caption": "What's gotten into you? Be realistic. Go back to the old you."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Like Agent Smith in The Matrix, <#0.2#> anyone still inside the game can play that role.",
+    "caption": "Like Agent Smith in The Matrix, anyone still inside the game can play that role."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "They're not your enemy. <#0.2#> The rules of the game are just speaking through them.",
+    "caption": "They're not your enemy. The rules of the game are just speaking through them."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Keep the love. <#0.3#> But don't fall back asleep.",
+    "caption": "Keep the love. But don't fall back asleep."
+   }
+  ]
+ }
+}

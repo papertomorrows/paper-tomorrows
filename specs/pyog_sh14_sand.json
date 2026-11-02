@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh14_sand",
+ "status": "hold-sh-ep007",
+ "hook": "간절할수록 멀어지는 이유",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "간절히 원할수록, <#0.2#> 이상하게 멀어진 적 있죠?",
+    "caption": "간절히 원할수록, 이상하게 멀어진 적 있죠?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "기다릴수록 연락은 안 오고, <#0.2#> 매달릴수록 멀어지고.",
+    "caption": "기다릴수록 연락은 안 오고, 매달릴수록 멀어지고."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "두려움에서 나온 간절함은, 속으로 이렇게 말해요. <#0.3#> 지금의 나는, 부족해.",
+    "caption": "두려움에서 나온 간절함은, 속으로 이렇게 말해요. 지금의 나는, 부족해."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "모래를 꽉 쥐면, <#0.2#> 손가락 사이로 다 빠져나가요.",
+    "caption": "모래를 꽉 쥐면, 손가락 사이로 다 빠져나가요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "손을 펴야, <#0.2#> 모래가 손바닥 위에 머물러요.",
+    "caption": "손을 펴야, 모래가 손바닥 위에 머물러요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "생생하게 꿈꾸고, 행동하고, <#0.3#> 그리고 가볍게 내려놓으세요.",
+    "caption": "생생하게 꿈꾸고, 행동하고, 그리고 가볍게 내려놓으세요."
+   }
+  ],
+  "images": [
+   "a person clutching a fistful of glowing golden sand that streams out between their fingers into the dark night",
+   "a person staring anxiously at a silent glowing phone in a dark room, waiting, tension in the air",
+   "two open palms holding a small mound of glowing golden sand that rests peacefully, soft light",
+   "a calm person standing in a starry desert at dawn with open arms, golden sand swirling gently around them like stardust"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "golden sand slowly streams out between the clenched fingers and drifts away into the dark, particles glitter"
+   }
+  ]
+ }
+}

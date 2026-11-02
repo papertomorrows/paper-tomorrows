@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh16en_game",
+ "status": "hold-sh-ep007-en",
+ "lang": "English",
+ "hook": "Hardship Isn't Game Over",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh16_game",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Is life hard right now? <#0.3#> Then try seeing it this way.",
+    "caption": "Is life hard right now? Then try seeing it this way."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Every game has obstacles, <#0.2#> and a boss to beat.",
+    "caption": "Every game has obstacles, and a boss to beat."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "A game with no obstacles at all <#0.2#> would be boring.",
+    "caption": "A game with no obstacles at all would be boring."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "A player doesn't quit at an obstacle. <#0.2#> They watch, change strategy, and level up.",
+    "caption": "A player doesn't quit at an obstacle. They watch, change strategy, and level up."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Hardship isn't game over. <#0.2#> It's the door to the next stage.",
+    "caption": "Hardship isn't game over. It's the door to the next stage."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "You set the rules of this game. <#0.3#> Play your own.",
+    "caption": "You set the rules of this game. Play your own."
+   }
+  ]
+ }
+}

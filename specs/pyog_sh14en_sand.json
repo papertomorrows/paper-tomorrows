@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh14en_sand",
+ "status": "hold-sh-ep007-en",
+ "lang": "English",
+ "hook": "Why Wanting Too Hard Pushes It Away",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh14_sand",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Ever notice that the more desperately you want something, <#0.2#> the further it goes?",
+    "caption": "Ever notice that the more desperately you want something, the further it goes?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "The more you wait, the less they call. <#0.2#> The more you cling, the faster it slips away.",
+    "caption": "The more you wait, the less they call. The more you cling, the faster it slips away."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Wanting that comes from fear quietly says: <#0.3#> I'm not enough as I am.",
+    "caption": "Wanting that comes from fear quietly says: I'm not enough as I am."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Squeeze a handful of sand, <#0.2#> and it slips right through your fingers.",
+    "caption": "Squeeze a handful of sand, and it slips right through your fingers."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Open your hand, <#0.2#> and the sand stays.",
+    "caption": "Open your hand, and the sand stays."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Dream vividly. Take action. <#0.3#> And then, gently, let go.",
+    "caption": "Dream vividly. Take action. And then, gently, let go."
+   }
+  ]
+ }
+}

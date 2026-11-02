@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh15_archer",
+ "status": "hold-sh-ep007",
+ "hook": "화살은 놓아야 날아간다",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "궁수는 과녁을 바라보고, <#0.2#> 온 힘을 다해 시위를 당겨요.",
+    "caption": "궁수는 과녁을 바라보고, 온 힘을 다해 시위를 당겨요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그런데, <#0.3#> 화살이 날아가려면, 마지막에 반드시 손을 놓아야 해요.",
+    "caption": "그런데, 화살이 날아가려면, 마지막에 반드시 손을 놓아야 해요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "끝까지 붙잡고 있으면, <#0.2#> 화살은 절대 과녁에 닿지 못해요.",
+    "caption": "끝까지 붙잡고 있으면, 화살은 절대 과녁에 닿지 못해요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "바가바드 기타는 말해요. <#0.2#> 너에게는 행동할 권리가 있을 뿐, 결과에 대한 권리는 없다.",
+    "caption": "바가바드 기타는 말해요. 너에게는 행동할 권리가 있을 뿐, 결과에 대한 권리는 없다."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "온 마음을 다해 당기고, <#0.2#> 결과는 더 큰 흐름에 맡기세요.",
+    "caption": "온 마음을 다해 당기고, 결과는 더 큰 흐름에 맡기세요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "당신의 꿈도, <#0.3#> 놓는 순간 날아가기 시작해요.",
+    "caption": "당신의 꿈도, 놓는 순간 날아가기 시작해요."
+   }
+  ],
+  "images": [
+   "an archer on a misty mountain at night drawing a glowing bow with all their strength, a distant star as the target",
+   "close-up of fingers tightly gripping a golden glowing arrow on the bowstring, trembling with tension",
+   "the golden arrow flying through the night sky leaving a trail of light toward a bright star",
+   "the archer standing peacefully with lowered bow under a sky full of stars, the distant star now glowing brightly, hit"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the archer slowly draws the glowing bow tighter, mist swirls around them, the distant star twinkles"
+   }
+  ]
+ }
+}

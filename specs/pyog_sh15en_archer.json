@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh15en_archer",
+ "status": "hold-sh-ep007-en",
+ "lang": "English",
+ "hook": "The Arrow Only Flies When You Let Go",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh15_archer",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "An archer looks at the target, <#0.2#> and draws the bow with all their strength.",
+    "caption": "An archer looks at the target, and draws the bow with all their strength."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "But <#0.3#> for the arrow to fly, at the very end, they have to let go.",
+    "caption": "But for the arrow to fly, at the very end, they have to let go."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Hold on to the arrow, <#0.2#> and it will never reach the target.",
+    "caption": "Hold on to the arrow, and it will never reach the target."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "The Bhagavad Gita says: <#0.2#> you have a right to your actions, but never to their fruits.",
+    "caption": "The Bhagavad Gita says: you have a right to your actions, but never to their fruits."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Draw with your whole heart. <#0.2#> Then trust the result to a larger flow.",
+    "caption": "Draw with your whole heart. Then trust the result to a larger flow."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Your dream, too, <#0.3#> begins to fly the moment you let go.",
+    "caption": "Your dream, too, begins to fly the moment you let go."
+   }
+  ]
+ }
+}

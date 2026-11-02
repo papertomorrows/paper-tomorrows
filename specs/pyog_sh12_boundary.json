@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh12_boundary",
- "status": "ready-sh-ep006b",
+ "status": "done-sh-ep006b",
  "hook": "이런 사람, 당장 거리 두세요",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "그게 바로, 나를 사랑하는 사람이 세우는 경계예요."
    }
   ],
-  "images": [
+  "images_done": [
    "a smiling well-dressed figure offering a glowing flower, while behind them a dark shadow with a cold grin stretches across the wall, eerie violet light",
    "a person pausing with a hand on their chest, sensing a faint dark smoky aura around someone in front of them, intuition glowing softly in their heart",
    "a calm person standing inside a radiant circle of golden light, dark shadowy figures stopped just outside the circle",
    "a person warmly embracing glowing kind friends in a sunlit room, soft golden light, safe and loved"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the dark shadow behind the smiling figure slowly grows and shifts across the wall, the flower glows, candle light flickers"

@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh13_vessel",
- "status": "ready-sh-ep006b",
+ "status": "done-sh-ep006b",
  "hook": "남만 챙기다 텅 빈 당신에게",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "오늘은, 나부터 채워 주세요."
    }
   ],
-  "images": [
+  "images_done": [
    "an exhausted person kneeling and pouring the last drops from an almost empty clay vessel into many outstretched hands reaching from the darkness",
    "a radiant water bearer figure holding a large glowing vessel under a starry sky, constellations shimmering above",
    "an empty cracked clay vessel standing alone on a stone floor in the dark, a single beam of light falling on it",
    "a peaceful person holding a vessel overflowing with streams of golden light that pour down and spread across the land"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the last drops fall slowly from the vessel, the outstretched hands reach closer, dust drifts in the dim light"

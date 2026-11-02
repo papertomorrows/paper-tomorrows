@@ -95,6 +95,21 @@ Why? Because you're no longer resisting. A mind that pushes things away separate
 
 Of course, accepting doesn't mean enduring what harms you. It means, instead of hating and resisting, first seeing things as they are. And then choosing wisely. Leaving what you need to leave, in peace. Protecting what you need to protect, in peace.
 
+<!-- section: remember | visuals: starry sky person silhouette, cinema screen light, mountain summit sunrise, woman meditation lake, light rays forest | title: The More You Remember, the More You Create -->
+And all of this leads to one question. Who am I? Who are we?
+
+We're not only this body, this name, or the roles we play right now. We're a consciousness that existed long before all of that. A single light that came from the whole. Many spiritual traditions say we simply forgot this when we were born. So the spiritual path isn't so much about learning something new. It's about remembering who you've always been.
+
+The better you know who you are, the more deeply you remember, the more something remarkable happens. In any situation, you can take a step back and see it from the seat of the observer.
+
+Even when something makes you angry, you know there's the part of you swept up in the anger, and the part of you quietly watching it. Like being the main character in a movie, laughing and crying, while at the same time sitting outside the screen, watching the film.
+
+From the observer's seat, you can choose from somewhere other than fear. Not from other people's opinions, not from anxiety, but from what brings your soul the most joy.
+
+And as you follow those choices, one by one, at some point you realize that the wish you longed for has been coming true on that very path.
+
+A wish coming true isn't a gift that falls out of the sky. It's a creation, made by the one who remembered who they are, walking the path of their soul's joy. You are the creator of your life.
+
 <!-- section: notgiveup | visuals: woman thinking window, mountain climber, sunrise road, river rocks, steady walking | title: Letting Go Is Not Giving Up -->
 But there's something important to be clear about.
 

@@ -181,8 +181,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             d = dur(s["file"])
             events.append((t, t + d, s["text"]))
             inputs.append((s["file"], t))
-            t += d + (0.9 if s["para_end"] else 0.35)
-        t += 0.8
+            t += d + (float(spec.get("para_gap", 0.9)) if s["para_end"] else float(spec.get("sentence_gap", 0.35)))
+        t += float(spec.get("section_gap", 0.8))
         sec["end"] = t
     total = t + 2.0
 

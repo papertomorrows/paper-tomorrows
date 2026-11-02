@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh13en_vessel",
+ "status": "hold-sh-ep006b-en",
+ "lang": "English",
+ "hook": "For Everyone Running on Empty",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh13_vessel",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Taking care of everyone else, <#0.2#> are you running on empty?",
+    "caption": "Taking care of everyone else, are you running on empty?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Picture Aquarius. <#0.2#> The water bearer, pouring water onto the world.",
+    "caption": "Picture Aquarius. The water bearer, pouring water onto the world."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "But <#0.3#> if the vessel is empty, <#0.2#> there's nothing left to pour.",
+    "caption": "But if the vessel is empty, there's nothing left to pour."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Loving yourself isn't selfish. <#0.2#> It's filling your own vessel first.",
+    "caption": "Loving yourself isn't selfish. It's filling your own vessel first."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Because only then can your love overflow, <#0.2#> and reach the world.",
+    "caption": "Because only then can your love overflow, and reach the world."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Today, <#0.3#> fill yourself first.",
+    "caption": "Today, fill yourself first."
+   }
+  ]
+ }
+}

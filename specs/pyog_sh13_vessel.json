@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh13_vessel",
+ "status": "ready-sh-ep006b",
+ "hook": "남만 챙기다 텅 빈 당신에게",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "남들 다 챙기느라, <#0.2#> 정작 나는 텅 비어 있지 않나요?",
+    "caption": "남들 다 챙기느라, 정작 나는 텅 비어 있지 않나요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "물병자리를 떠올려 보세요. <#0.2#> 물병을 든 사람이, 세상에 물을 붓고 있어요.",
+    "caption": "물병자리를 떠올려 보세요. 물병을 든 사람이, 세상에 물을 붓고 있어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그런데, <#0.3#> 물병이 비어 있으면, <#0.2#> 아무것도 부을 수 없어요.",
+    "caption": "그런데, 물병이 비어 있으면, 아무것도 부을 수 없어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "나를 사랑하는 건 이기적인 게 아니에요. <#0.2#> 내 물병을 먼저 채우는 거예요.",
+    "caption": "나를 사랑하는 건 이기적인 게 아니에요. 내 물병을 먼저 채우는 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그래야 넘쳐흐르는 사랑을, <#0.2#> 세상에 나눌 수 있으니까요.",
+    "caption": "그래야 넘쳐흐르는 사랑을, 세상에 나눌 수 있으니까요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "오늘은, <#0.3#> 나부터 채워 주세요.",
+    "caption": "오늘은, 나부터 채워 주세요."
+   }
+  ],
+  "images": [
+   "an exhausted person kneeling and pouring the last drops from an almost empty clay vessel into many outstretched hands reaching from the darkness",
+   "a radiant water bearer figure holding a large glowing vessel under a starry sky, constellations shimmering above",
+   "an empty cracked clay vessel standing alone on a stone floor in the dark, a single beam of light falling on it",
+   "a peaceful person holding a vessel overflowing with streams of golden light that pour down and spread across the land"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the last drops fall slowly from the vessel, the outstretched hands reach closer, dust drifts in the dim light"
+   }
+  ]
+ }
+}

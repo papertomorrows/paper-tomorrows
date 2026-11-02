@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh12_boundary",
+ "status": "ready-sh-ep006b",
+ "hook": "이런 사람, 당장 거리 두세요",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "말은 달콤한데, <#0.2#> 이상하게 만나고 나면 지치는 사람 있죠?",
+    "caption": "말은 달콤한데, 이상하게 만나고 나면 지치는 사람 있죠?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그 불편함, <#0.3#> 기분 탓이 아니에요.",
+    "caption": "그 불편함, 기분 탓이 아니에요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그건 당신의 영혼이 보내는, <#0.2#> 분명한 신호예요.",
+    "caption": "그건 당신의 영혼이 보내는, 분명한 신호예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "나를 깊이 아는 사람은, <#0.2#> 이 신호를 절대 무시하지 않아요.",
+    "caption": "나를 깊이 아는 사람은, 이 신호를 절대 무시하지 않아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "나를 함부로 대하는 사람에게는 문을 닫고, <#0.2#> 나를 존중하는 사람에게만 마음을 열어요.",
+    "caption": "나를 함부로 대하는 사람에게는 문을 닫고, 나를 존중하는 사람에게만 마음을 열어요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.1,
+    "lang": "Korean",
+    "text": "그게 바로, <#0.2#> 나를 사랑하는 사람이 세우는 경계예요.",
+    "caption": "그게 바로, 나를 사랑하는 사람이 세우는 경계예요."
+   }
+  ],
+  "images": [
+   "a smiling well-dressed figure offering a glowing flower, while behind them a dark shadow with a cold grin stretches across the wall, eerie violet light",
+   "a person pausing with a hand on their chest, sensing a faint dark smoky aura around someone in front of them, intuition glowing softly in their heart",
+   "a calm person standing inside a radiant circle of golden light, dark shadowy figures stopped just outside the circle",
+   "a person warmly embracing glowing kind friends in a sunlit room, soft golden light, safe and loved"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the dark shadow behind the smiling figure slowly grows and shifts across the wall, the flower glows, candle light flickers"
+   }
+  ]
+ }
+}

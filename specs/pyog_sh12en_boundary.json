@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh12en_boundary",
+ "status": "hold-sh-ep006b-en",
+ "lang": "English",
+ "hook": "Distance Yourself From These People",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh12_boundary",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "Their words are sweet, <#0.2#> but somehow you always feel drained after seeing them?",
+    "caption": "Their words are sweet, but somehow you always feel drained after seeing them?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "That uneasy feeling <#0.3#> isn't just in your head.",
+    "caption": "That uneasy feeling isn't just in your head."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "It's a clear signal <#0.2#> from your soul.",
+    "caption": "It's a clear signal from your soul."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "People who truly know themselves <#0.2#> never ignore that signal.",
+    "caption": "People who truly know themselves never ignore that signal."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "They close the door on people who treat them carelessly, <#0.2#> and open their hearts only to those who respect them.",
+    "caption": "They close the door on people who treat them carelessly, and open their hearts only to those who respect them."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_CaptivatingStoryteller",
+    "speed": 1.1,
+    "lang": "English",
+    "text": "That's the boundary <#0.2#> people who love themselves draw.",
+    "caption": "That's the boundary people who love themselves draw."
+   }
+  ]
+ }
+}

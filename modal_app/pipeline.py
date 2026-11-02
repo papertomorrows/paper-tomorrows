@@ -821,7 +821,9 @@ def main(spec: str):
                 calls[f"voice_{v['name']}.mp3"] = minimax_tts.spawn(v.get("text", a.get("text", "")), v["voice_id"],
                                                                      v.get("speed", 1.0), v.get("lang", "Korean"))
             else:
-                calls[f"voice_{v['name']}.mp3"] = narrate.spawn(a["text"], v["voice_id"],
+                import re as _re
+                el_text = _re.sub(r"<#([\d.]+)#>", lambda m: f'<break time="{m.group(1)}s" />', v.get("text", a.get("text", "")))
+                calls[f"voice_{v['name']}.mp3"] = narrate.spawn(el_text, v["voice_id"],
                                                                   v.get("model", "eleven_multilingual_v2"),
                                                                   v.get("settings", DEFAULTS["voice_settings"]))
         if a.get("music"):

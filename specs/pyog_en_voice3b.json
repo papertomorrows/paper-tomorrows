@@ -1,0 +1,29 @@
+{
+ "id": "pyog_en_voice3b",
+ "status": "ready-en-voice3b",
+ "assets": {
+  "text": "For years, a nurse in Australia sat beside people in the final weeks of their lives. <#0.3#> And the number one regret she heard wasn't about money, <#0.2#> or success. <#0.4#> It was this. <#0.3#> I wish I'd had the courage to live a life true to myself, <#0.2#> not the life others expected of me. <#0.5#> The life you're living right now. <#0.3#> Did you really choose it?",
+  "voices": [
+   {
+    "name": "N_eleven_brian",
+    "provider": "eleven",
+    "voice_id": "nPczCjzI2devNBz1zQrb"
+   },
+   {
+    "name": "O_eleven_george",
+    "provider": "eleven",
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb"
+   },
+   {
+    "name": "P_eleven_daniel",
+    "provider": "eleven",
+    "voice_id": "onwK4e9ZLuTAKqWW03F9"
+   },
+   {
+    "name": "Q_eleven_lily",
+    "provider": "eleven",
+    "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+   }
+  ]
+ }
+}

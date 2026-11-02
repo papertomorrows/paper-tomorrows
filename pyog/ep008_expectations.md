@@ -11,7 +11,7 @@
 
 좋은 대학, 안정적인 직장, 적당한 나이에 결혼, 부모님이 자랑할 만한 자식. 우리는 태어나는 순간부터, 누군가의 기대라는 게임 위에 올려져요.
 
-오늘은 그 기대의 게임이 어떻게 우리를 묶어 두는지, 그리고 부모님을 미워하지 않으면서도, 그 게임에서 걸어 나오는 법을 이야기할게요. 영상 마지막에는, 남의 기대를 사랑으로 돌려드리는 짧은 연습도 함께할 거예요.
+오늘은 그 기대의 게임이 어떻게 우리를 묶어 두는지, 그리고 부모님도, 가족도, 친구도 미워하지 않으면서, 그 게임에서 걸어 나오는 법을 이야기할게요. 영상 마지막에는, 남의 기대를 사랑으로 돌려드리는 짧은 연습도 함께할 거예요.
 
 <!-- section: game | visuals: students exam hall, office workers city, wedding couple, graduation ceremony, crowded subway | title: 기대의 게임 -->
 이 게임의 규칙은, 대부분 이렇게 생겼어요.
@@ -21,6 +21,21 @@
 이 규칙을 지키면 칭찬을 받아요. 어긋나면, 걱정과 잔소리, 때로는 실망한 눈빛이 돌아오죠.
 
 그런데 문제는요. 이 게임의 점수판이, 내 안이 아니라 남의 눈 속에 있다는 거예요. 그래서 아무리 높은 점수를 받아도, 이상하게 공허해요. 그 점수가, 내가 원한 점수가 아니니까요.
+
+<!-- section: faces | visuals: family holiday dinner, teacher classroom, friends group talking, office meeting, couple arguing, social media phone scrolling | title: 기대는 한 사람에게서만 오지 않아요 | ai: a person standing still in the center while many translucent glowing hands reach toward them from every direction, each hand holding a small heavy stone, soft violet light >> the translucent hands slowly reach closer from all sides, the stones glow faintly, the person stands still breathing, dust drifts -->
+그리고 이 기대는, 한 사람에게서만 오지 않아요.
+
+부모님의 기대가 있어요. 우리 애는, 이런 사람이 되어야 해.
+
+가족과 친척의 기대도 있죠. 명절마다 돌아오는 질문들. 취업은 했니, 결혼은 언제 하니, 아이는 언제 낳니.
+
+선생님의 기대도 있었어요. 너는 이 길이 맞아, 너는 이 정도는 해야지. 학교에서 붙여 준 이름표가, 어른이 된 지금까지 따라다니기도 해요.
+
+친구들의 기대도 있어요. 무리에서 튀지 않기를, 늘 하던 대로 웃고 맞춰 주기를. 내가 달라지려고 하면, 너 변했다, 라는 말이 돌아오죠.
+
+직장 상사와 동료의 기대, 연인과 배우자의 기대도 있어요. 그리고 요즘은, 얼굴도 모르는 수많은 사람들의 기대까지 있어요. 화면 속 남들의 삶이, 이 정도는 살아야 한다는 보이지 않는 기준이 되니까요.
+
+이렇게 우리는, 수많은 사람의 기대가 겹겹이 쌓인 옷을 입고 살아요. 그 옷이 너무 무거워서, 정작 그 안에 있는 내가 누구인지 잊어버릴 만큼요.
 
 <!-- section: why | visuals: child with parents, little girl drawing, boy holding mother hand, family dinner, old photos | title: 우리는 왜 이 게임을 하게 됐을까 -->
 그럼 우리는 왜, 이 게임을 시작하게 됐을까요?
@@ -56,7 +71,7 @@
 <!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: 남의 기대 게임 속에 있다는 다섯 가지 신호 -->
 그럼 혹시, 나는 지금 이 게임 속에 있을까요? 다섯 가지만 확인해 보세요.
 
-하나. 중요한 결정을 할 때, 내 마음보다 엄마가 뭐라고 할까가 먼저 떠올라요.
+하나. 중요한 결정을 할 때, 내 마음보다 부모님이나 주변 사람들이 뭐라고 할까가 먼저 떠올라요.
 
 둘. 하고 싶어서보다, 해야 해서 하는 일이 훨씬 많아요.
 
@@ -71,7 +86,7 @@
 <!-- section: notrebel | visuals: mother daughter hug, father son walking, family dinner warm, elderly parents smiling, holding hands | title: 탈출은 반항이 아니에요 | ai: a grown adult gently holding the hands of their elderly parents in a warm softly lit room, a glowing ribbon of golden light connecting their hearts, peaceful and loving >> the golden ribbon between their hearts glows softly and pulses, warm light flickers, they smile gently -->
 그런데 여기서 꼭 짚고 싶은 게 있어요.
 
-남의 기대 게임에서 걸어 나온다는 건, 부모님을 미워하거나 등을 돌린다는 뜻이 아니에요.
+남의 기대 게임에서 걸어 나온다는 건, 부모님이나 가족, 친구들을 미워하거나 등을 돌린다는 뜻이 아니에요.
 
 대부분의 기대는, 사랑에서 나왔어요. 내가 고생하지 않기를, 상처받지 않기를, 안전하게 살기를 바라는 마음이요. 다만 그 사랑이, 그분들이 아는 방식, 그분들이 두려워하는 것의 모양을 하고 있을 뿐이에요.
 
@@ -80,7 +95,7 @@
 <!-- section: how | visuals: person journaling morning, walking nature path, woman looking mirror, sunrise window, open road | title: 남의 기대 게임에서 걸어 나오는 다섯 걸음 -->
 그럼 어떻게 걸어 나올 수 있을까요? 다섯 걸음으로 정리해 볼게요.
 
-첫째, 목소리를 구분하세요. 머릿속에 해야 해, 라는 말이 들릴 때마다 물어보세요. 이건, 누구의 목소리지? 엄마의 목소리인지, 사회의 목소리인지, 아니면 진짜 내 목소리인지요. 종이에 적어 보면, 생각보다 내 목소리가 적다는 걸 알게 될 거예요.
+첫째, 목소리를 구분하세요. 머릿속에 해야 해, 라는 말이 들릴 때마다 물어보세요. 이건, 누구의 목소리지? 부모님의 목소리인지, 선생님의 목소리인지, 친구들의 목소리인지, 사회의 목소리인지, 아니면 진짜 내 목소리인지요. 종이에 적어 보면, 생각보다 내 목소리가 적다는 걸 알게 될 거예요.
 
 둘째, 작은 선택부터 내 것으로 바꾸세요. 오늘 입을 옷, 주말에 할 일, 점심 메뉴. 아주 작은 것부터, 남의 눈이 아니라 내 마음으로 골라 보세요. 작은 선택이 쌓여야, 큰 선택도 할 수 있어요.
 
@@ -104,7 +119,7 @@
 
 편하게 앉아서, 눈을 감아 보세요. 숨을 천천히 들이쉬고… 길게 내쉬어요.
 
-이제, 당신에게 가장 큰 기대를 걸었던 사람을 떠올려 보세요. 부모님일 수도, 선생님일 수도, 혹은 세상일 수도 있어요.
+이제, 당신에게 가장 큰 기대를 걸었던 사람을 떠올려 보세요. 부모님일 수도, 가족이나 친구일 수도, 선생님일 수도, 혹은 세상일 수도 있어요.
 
 그분이 당신 앞에 서 있어요. 그분의 눈을 바라보며, 마음속으로 말해 보세요.
 

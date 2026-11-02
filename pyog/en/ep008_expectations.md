@@ -11,7 +11,7 @@ The life you're living right now. Did you really choose it?
 
 A good university. A stable job. Married by the right age. A child your parents can be proud of. From the moment we're born, we're placed onto a game called other people's expectations.
 
-Today, we'll look at how that game keeps us tied down, and how to walk away from it without hating your parents. And at the end, we'll do a short practice together: lovingly handing other people's expectations back to them.
+Today, we'll look at how that game keeps us tied down, and how to walk away from it without hating your parents, your family, or your friends. And at the end, we'll do a short practice together: lovingly handing other people's expectations back to them.
 
 <!-- section: game | visuals: students exam hall, office workers city, wedding couple, graduation ceremony, crowded subway | title: The Expectations Game -->
 The rules of this game usually look something like this.
@@ -21,6 +21,21 @@ Get good grades. Get a respectable job. Get married by thirty. Earn as much as e
 Follow the rules, and you get praise. Break them, and you get worry, lectures, and sometimes that look of disappointment.
 
 But here's the problem. The scoreboard of this game isn't inside you. It's in other people's eyes. So no matter how high you score, it strangely feels empty. Because it was never the score you wanted.
+
+<!-- section: faces | visuals: family holiday dinner, teacher classroom, friends group talking, office meeting, couple arguing, social media phone scrolling | title: Expectations Come From Everywhere | ai: a person standing still in the center while many translucent glowing hands reach toward them from every direction, each hand holding a small heavy stone, soft violet light >> the translucent hands slowly reach closer from all sides, the stones glow faintly, the person stands still breathing, dust drifts -->
+And these expectations don't come from just one person.
+
+There are your parents' expectations. Our child should become this kind of person.
+
+There are your family's and relatives' expectations. The same questions at every holiday. Did you get a job yet? When are you getting married? When are you having kids?
+
+There were your teachers' expectations. This path is right for you. You should at least achieve this. The labels you were given at school can follow you all the way into adulthood.
+
+There are your friends' expectations. Don't stand out from the group. Keep laughing along the way you always have. And the moment you try to change, you hear: you've changed.
+
+There are the expectations of your boss and coworkers, your partner or spouse. And these days, even the expectations of countless people you've never met. Other people's lives on a screen quietly become the standard of how you're supposed to live.
+
+So we live wearing a coat stitched together from layer after layer of other people's expectations. So heavy that we forget who's actually inside it.
 
 <!-- section: why | visuals: child with parents, little girl drawing, boy holding mother hand, family dinner, old photos | title: Why We Started Playing -->
 So why did we start playing this game in the first place?
@@ -56,7 +71,7 @@ So living only by other people's expectations means returning home without ever 
 <!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: Five Signs You're Still Playing -->
 So, are you still playing this game? Check these five signs.
 
-One. When you make a big decision, what your mom would say comes to mind before what you feel.
+One. When you make a big decision, what your parents or the people around you would say comes to mind before what you feel.
 
 Two. You do far more things because you have to than because you want to.
 
@@ -71,7 +86,7 @@ How many fit you? Leave the number in the comments. If even one does, this video
 <!-- section: notrebel | visuals: mother daughter hug, father son walking, family dinner warm, elderly parents smiling, holding hands | title: Escaping Isn't Rebelling | ai: a grown adult gently holding the hands of their elderly parents in a warm softly lit room, a glowing ribbon of golden light connecting their hearts, peaceful and loving >> the golden ribbon between their hearts glows softly and pulses, warm light flickers, they smile gently -->
 But there's something important I want to be clear about.
 
-Walking away from the expectations game doesn't mean hating your parents or turning your back on them.
+Walking away from the expectations game doesn't mean hating your parents, your family, or your friends, or turning your back on them.
 
 Most expectations come from love. A wish that you won't struggle, won't get hurt, will be safe. It's just that the love takes the shape of what they know, and what they fear.
 
@@ -80,7 +95,7 @@ So escaping isn't rebellion. It's separation. You gratefully receive their love,
 <!-- section: how | visuals: person journaling morning, walking nature path, woman looking mirror, sunrise window, open road | title: Five Steps Out of the Expectations Game -->
 So how do you walk out? Here are five steps.
 
-First, separate the voices. Every time you hear "I should" in your head, ask: whose voice is this? Your mother's? Society's? Or truly your own? Write them down, and you'll find your own voice is quieter than you thought.
+First, separate the voices. Every time you hear "I should" in your head, ask: whose voice is this? Your parents'? A teacher's? Your friends'? Society's? Or truly your own? Write them down, and you'll find your own voice is quieter than you thought.
 
 Second, start making small choices your own. What you wear today. What you do this weekend. What you eat for lunch. Start tiny, choosing from your heart instead of other people's eyes. Small choices build the strength for big ones.
 
@@ -104,7 +119,7 @@ So let's take three minutes together, right now.
 
 Sit comfortably and close your eyes. Breathe in slowly… and breathe out, long.
 
-Now, picture the person who placed the biggest expectations on you. It might be a parent, a teacher, or even the world.
+Now, picture the person who placed the biggest expectations on you. It might be a parent, a family member, a friend, a teacher, or even the world.
 
 They're standing in front of you. Look into their eyes, and silently say:
 

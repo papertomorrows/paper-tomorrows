@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh17_agent",
- "status": "hold-sh-ep008",
+ "status": "ready-sh-ep008",
  "hook": "가족이 스미스 요원이 될 때",
  "gap": 0.15,
  "assets": {

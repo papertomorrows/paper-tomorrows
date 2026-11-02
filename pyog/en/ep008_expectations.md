@@ -66,7 +66,22 @@ In The Prophet, the poet Kahlil Gibran wrote: your children are not your childre
 
 Many spiritual traditions say that each soul comes to this Earth carrying its own unique experiences it wants to live in this lifetime. Our parents are the beloved doorway that brought that soul into the world. But which path the soul walks belongs to the soul itself.
 
+Some spiritual teachings go even deeper. They say that before we're born, our souls choose what we want to learn in this lifetime. And that the weight of other people's expectations may be part of that lesson.
+
+So that weight may not be a punishment meant to trap you. It may be homework, meant to help you remember who you really are. Only someone who has been crushed under other people's expectations can know the joy of finding themselves within it.
+
 So living only by other people's expectations means returning home without ever living the experience your soul came here for. And that's exactly why it becomes the deepest regret at the end of life.
+
+<!-- section: lamp | visuals: candle light dark, monks meditation, temple at night, lantern, stars night sky | title: Who Am I? -->
+It's said that before the Buddha passed away, he told his disciples: be a lamp unto yourselves. Make the truth your lamp.
+
+Don't walk by someone else's light. Walk by the light within you.
+
+The Indian sage Ramana Maharshi taught just one question his whole life. Who am I?
+
+When other people's expectations start speaking, bring this question to mind. Who is it that's hearing these expectations?
+
+I'm not just someone's daughter, someone's son, someone's student, or someone's friend. I'm the awareness quietly watching all of those roles. And at the end of that question, we meet something. The real self, quiet and free, that no expectation can ever reach.
 
 <!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: Five Signs You're Still Playing -->
 So, are you still playing this game? Check these five signs.
@@ -91,6 +106,19 @@ Walking away from the expectations game doesn't mean hating your parents, your f
 Most expectations come from love. A wish that you won't struggle, won't get hurt, will be safe. It's just that the love takes the shape of what they know, and what they fear.
 
 So escaping isn't rebellion. It's separation. You gratefully receive their love, and you respectfully hand back their fears and their unlived dreams.
+
+<!-- section: chain | visuals: old family photos, generations hands, grandmother child, sunrise family, river flowing | title: The One Who Breaks the Chain | ai: a long chain of softly glowing figures holding hands stretching back into the distant past across a starry sky, one figure in the present gently letting go and stepping forward, a wave of golden light flowing back along the whole chain >> the figure in front gently releases and steps forward, a wave of golden light ripples back along the chain of figures, each one glowing brighter, stars shimmer -->
+And there's one more thing I really want you to remember.
+
+The people who placed their expectations on you were also living inside someone else's expectations. Your parents carried their parents' expectations. Your teachers carried society's. Expectations have been handed down this way, generation after generation.
+
+So the moment you walk out of other people's expectations and live as your true self, something remarkable happens. That long chain breaks, right there, with you.
+
+Many spiritual traditions say that when one person awakens to who they truly are, the generations before and after them are healed too. Because when you're free, your children can grow up free from the very beginning.
+
+And in the end, we are all one. When you shine with your own light, the people watching you are given permission, somewhere deep inside: I can live as myself too.
+
+That one step you take to walk away is, in truth, the greatest gift you can give the people you love.
 
 <!-- section: how | visuals: person journaling morning, walking nature path, woman looking mirror, sunrise window, open road | title: Five Steps Out of the Expectations Game -->
 So how do you walk out? Here are five steps.
@@ -128,6 +156,8 @@ Thank you for loving me.
 Now imagine the expectations you've been carrying as a small box of light. With both hands, respectfully hand that box back to them.
 
 This is your dream. From now on, I'll live mine.
+
+And remembering that they, too, lived inside someone else's expectations, silently wish this for them: may you be free now, too.
 
 They smile and take the box. And in front of you, your own path opens up, glowing.
 

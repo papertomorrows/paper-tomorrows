@@ -66,7 +66,22 @@
 
 많은 영적 전통에서는 이렇게 말해요. 우리의 영혼은, 이번 생에서 겪고 싶은 고유한 경험을 품고 이 땅에 왔다고요. 부모님은 그 영혼이 이 세상에 오도록 문을 열어 준, 고마운 존재예요. 하지만 그 영혼이 어떤 길을 걸을지는, 영혼 스스로의 몫이에요.
 
+어떤 영적 가르침에서는, 더 깊은 이야기를 해요. 우리 영혼은 태어나기 전에, 이번 생에서 배우고 싶은 것을 스스로 골라 온다고요. 그리고 남의 기대라는 무게도, 그 배움의 일부일 수 있다고요.
+
+그러니까 그 무게는, 나를 가두려는 벌이 아니라, 진짜 나를 기억해 내기 위한 숙제일지도 몰라요. 남의 기대에 눌려 본 사람만이, 그 속에서 나를 찾아내는 기쁨을 알 수 있으니까요.
+
 그러니까 남의 기대대로만 사는 건, 내 영혼이 이번 생에 오면서 품고 온 그 경험을, 끝내 해 보지 못하고 돌아가는 거예요. 그게 바로, 죽기 전에 가장 크게 후회하게 되는 이유예요.
+
+<!-- section: lamp | visuals: candle light dark, monks meditation, temple at night, lantern, stars night sky | title: 나는 누구인가 -->
+붓다는 세상을 떠나기 전, 제자들에게 이렇게 말했다고 전해져요. 너 자신을 등불로 삼고, 진리를 등불로 삼아라.
+
+남의 불빛을 따라 걷지 말고, 내 안의 불빛을 따라 걸으라는 뜻이에요.
+
+인도의 성자 라마나 마하르시는, 평생 단 하나의 질문을 가르쳤어요. 나는, 누구인가?
+
+남의 기대가 들려올 때, 이 질문을 떠올려 보세요. 이 기대를 듣고 있는 나는, 누구지?
+
+나는 누군가의 딸도, 누군가의 아들도, 누군가의 학생도, 누군가의 친구도 아니에요. 그 모든 역할을 조용히 바라보는 의식이에요. 그 질문 끝에서 우리는 만나게 돼요. 어떤 기대도 닿지 않는, 고요하고 자유로운 진짜 나를요.
 
 <!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: 남의 기대 게임 속에 있다는 다섯 가지 신호 -->
 그럼 혹시, 나는 지금 이 게임 속에 있을까요? 다섯 가지만 확인해 보세요.
@@ -91,6 +106,19 @@
 대부분의 기대는, 사랑에서 나왔어요. 내가 고생하지 않기를, 상처받지 않기를, 안전하게 살기를 바라는 마음이요. 다만 그 사랑이, 그분들이 아는 방식, 그분들이 두려워하는 것의 모양을 하고 있을 뿐이에요.
 
 그래서 탈출은, 반항이 아니라 분리예요. 그분들의 사랑은 감사히 받고, 그분들의 두려움과 이루지 못한 꿈은, 정중하게 돌려드리는 거예요.
+
+<!-- section: chain | visuals: old family photos, generations hands, grandmother child, sunrise family, river flowing | title: 대물림을 끊는 사람 | ai: a long chain of softly glowing figures holding hands stretching back into the distant past across a starry sky, one figure in the present gently letting go and stepping forward, a wave of golden light flowing back along the whole chain >> the figure in front gently releases and steps forward, a wave of golden light ripples back along the chain of figures, each one glowing brighter, stars shimmer -->
+그리고 하나 더, 꼭 기억해 주셨으면 하는 게 있어요.
+
+당신에게 기대를 건 그 사람들도, 사실은 누군가의 기대 속에서 살아왔어요. 부모님은 그 부모님의 기대를, 선생님은 사회의 기대를 짊어지고요. 기대는 그렇게, 세대를 건너 대물림돼 왔어요.
+
+그래서 당신이 남의 기대에서 걸어 나와 진짜 나로 사는 순간, 놀라운 일이 일어나요. 그 오랜 사슬이, 바로 당신에게서 끊어지는 거예요.
+
+많은 영적 전통에서는, 한 사람이 자기 자신으로 깨어나면, 그 앞의 세대와 뒤의 세대까지 함께 치유된다고 말해요. 당신이 자유로워지면, 당신의 아이는 처음부터 자유롭게 자랄 수 있으니까요.
+
+그리고 결국, 우리는 모두 하나예요. 당신이 당신의 빛으로 빛날 때, 당신을 바라보는 사람들도 마음 깊은 곳에서 허락을 얻어요. 나도, 나답게 살아도 되는구나.
+
+당신이 걸어 나오는 그 한 걸음이, 사실은 당신이 사랑하는 사람들에게 줄 수 있는, 가장 큰 선물이에요.
 
 <!-- section: how | visuals: person journaling morning, walking nature path, woman looking mirror, sunrise window, open road | title: 남의 기대 게임에서 걸어 나오는 다섯 걸음 -->
 그럼 어떻게 걸어 나올 수 있을까요? 다섯 걸음으로 정리해 볼게요.
@@ -128,6 +156,8 @@
 그리고 당신이 품고 있던 그 기대를, 작은 빛의 상자라고 상상해 보세요. 그 상자를 두 손으로, 정중하게 그분께 돌려드려요.
 
 이건 당신의 꿈이에요. 저는 이제, 제 꿈을 살게요.
+
+그리고 그분 역시 누군가의 기대 속에서 살아왔다는 걸 떠올리며, 마음속으로 빌어 주세요. 당신도, 이제 자유로워지기를.
 
 그분이 미소 지으며 상자를 받아요. 그리고 당신의 앞에는, 당신만의 길이 환하게 열려 있어요.
 

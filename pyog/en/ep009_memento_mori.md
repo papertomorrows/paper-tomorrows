@@ -44,6 +44,21 @@ The things they usually took for granted, the morning light, the voice of someon
 
 Thinking about death doesn't make us depressed. It makes us see, sharply and clearly, how precious the things in our hands right now really are.
 
+<!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, candle flame | title: Because Death Exists, Life Is Beautiful | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
+That's why the old wisdom teaches us to think of death not now and then, but every day.
+
+The Stoics reminded themselves each morning that today might be their last. And in Bhutan, a country known for its happiness, there's said to be a saying: think about death five times a day.
+
+Why? Because it's death that gives life its value.
+
+Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that thrill standing beneath them. It's because we know they'll fall in a few days that the moment is so beautiful.
+
+Sunsets. Fireworks. The years a child grows up. It's because they end that we look, we cherish, we love.
+
+If we lived forever, today would mean nothing. Tomorrow would come the same, and the day after, and a thousand years from now. But our days are numbered. So today is a single day that will never come again.
+
+Death isn't the enemy of life. Death is the background that makes life shine.
+
 <!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, cherry blossoms, candle light | title: Even What We Love Most Can Be Lost | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
 But let's go a little deeper.
 
@@ -56,6 +71,40 @@ The ancient Greek philosopher Epictetus said that when you kiss your child, remi
 That may sound cold. But it's the opposite. Only someone who accepts that they could lose anything at any time can love this moment with their whole heart. You hug them today. You say thank you today. You say sorry today. Because you know tomorrow isn't guaranteed.
 
 And your love becomes love held in an open palm, not a clenched fist. Not love that clings out of fear of losing, but love that celebrates being together right now.
+
+<!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, black and white contrast, sunrise over darkness | title: A World of Duality: We Know One Through the Other | ai: a single small candle flame burning in vast velvet darkness, the darkness around it making the flame shine brighter and warmer, faint stars appearing far away >> the candle flame flickers gently and grows warmer, the surrounding darkness deepens, distant stars slowly appear and twinkle -->
+Let's go a little deeper, spiritually.
+
+The Earth we live on is a world built on duality. Light and darkness. Being and not-being. Like and dislike. Right and wrong. Good and evil. Cold and hot. Life and death.
+
+Now imagine for a moment. What if there were only cold in this world?
+
+We wouldn't even know what cold is. With no heat to compare it to, cold would just be the way things are. There'd be no name for it, no feeling of it at all.
+
+Light is the same. Without darkness, we couldn't recognize light as light. A single candle in the dark looks so warm precisely because everything around it is dark.
+
+Lao Tzu said: when everyone in the world knows beauty as beauty, ugliness is already there. Being and non-being give birth to each other. Difficult and easy complete each other.
+
+Life and death are the same. Without death, we wouldn't know what it means to be alive. Life becomes life because death stands on the other side.
+
+So darkness, sorrow, and parting are the half this world needs. Because of that half, we can recognize light, joy, and meeting.
+
+<!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: Good and Bad Are Something We Choose -->
+And this points to something very important.
+
+Whether something is good or bad, whether it has value or not, isn't a fixed answer that exists out there.
+
+There's an old Chinese story. An old farmer's horse ran away, and the villagers said, what bad luck. Then the horse came back with a wild horse, and they said, what good luck. His son rode the wild horse, fell, and broke his leg. Bad luck, they said. Then soldiers came to take young men to war, and his son was spared.
+
+So which was good, and which was bad?
+
+Shakespeare wrote in Hamlet: there is nothing either good or bad, but thinking makes it so.
+
+On this stage of duality called Earth, we, the ones experiencing life, are choosing to think and to feel that this is good, that is bad, this has value, that means nothing.
+
+Viktor Frankl, a psychiatrist who survived the Nazi camps, said that even when everything is taken from you, one freedom remains: the freedom to choose your attitude toward whatever happens.
+
+So whatever has happened to you, you can choose what it means. That's the greatest power we have in this game.
 
 <!-- section: dream | visuals: misty forest dream, light rays clouds, reflection lake, milky way, soap bubble light | title: All of This Is Real, and Also a Dream | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
 And the spiritual traditions take one more step.
@@ -83,10 +132,10 @@ You start the things you've been putting off. Not someday. Today. Just like Vero
 
 And above all, you live each day more as yourself. Someone who knows their time is limited has no time to live someone else's life.
 
-<!-- section: practice5 | visuals: morning journal, sunrise window, hugging family, walking nature, calm night bedroom | title: Five Ways to Live Today Like the Last, but Lightly -->
+<!-- section: practice5 | visuals: morning journal, sunrise window, hugging family, walking nature, calm night bedroom | title: Six Ways to Live Today Like the Last, but Lightly -->
 So starting today, try this.
 
-First, look in the mirror each morning and ask: if today were the last day of my life, would I want to do what I'm about to do? If the answer is no for too many days in a row, it's time to change something.
+First, every morning, think of death once. Then look in the mirror and ask: if today were the last day of my life, would I want to do what I'm about to do? If the answer is no for too many days in a row, it's time to change something.
 
 Second, tell the people who matter, today. Thank you. I love you. I'm sorry. Don't wait. Tomorrow isn't promised.
 
@@ -94,7 +143,9 @@ Third, be grateful by remembering you could lose it. The people beside you, your
 
 Fourth, do one thing a day like Veronika. One small thing you've always wanted to do but held back because of other people's eyes. Sing. Dance. Say the thing you've been wanting to say.
 
-Fifth, before you sleep, tell yourself: today, I lived fully. And when you open your eyes tomorrow, remember it isn't an ordinary morning. It's a day you've been given as a gift.
+Fifth, give one thing that happened today the meaning you choose. If it was hard, ask: what is this trying to teach me?
+
+Sixth, before you sleep, tell yourself: today, I lived fully. And when you open your eyes tomorrow, remember it isn't an ordinary morning. It's a day you've been given as a gift.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take three minutes together, right now.

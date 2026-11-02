@@ -44,6 +44,21 @@
 
 죽음을 생각하는 건, 우리를 우울하게 만드는 게 아니에요. 오히려 지금 내 손에 있는 것들의 소중함을, 선명하게 보게 해 줘요.
 
+<!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, candle flame | title: 죽음이 있기에, 삶은 아름다워요 | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
+그래서 옛 지혜들은, 죽음을 가끔이 아니라 매일 생각하라고 가르쳐요.
+
+스토아 철학자들은 매일 아침, 오늘이 마지막 날일 수 있다는 걸 떠올렸어요. 행복한 나라로 알려진 부탄에는, 하루에 다섯 번 죽음을 생각하라는 말이 전해진다고 해요.
+
+왜 그럴까요? 죽음이 있기 때문에, 삶이 가치를 가지기 때문이에요.
+
+벚꽃을 떠올려 보세요. 벚꽃이 일 년 내내 피어 있다면, 우리는 그 아래에서 그렇게 설레지 않을 거예요. 며칠 만에 진다는 걸 알기 때문에, 그 순간이 그토록 아름다운 거예요.
+
+노을도, 불꽃놀이도, 아이가 자라는 시간도 그래요. 끝이 있기 때문에, 우리는 그것을 바라보고, 아끼고, 사랑해요.
+
+만약 우리가 영원히 산다면, 오늘 하루는 아무 의미가 없을 거예요. 내일도, 모레도, 천 년 뒤에도 똑같이 올 테니까요. 하지만 우리의 날은 정해져 있어요. 그래서 오늘 하루는, 다시 오지 않는 단 한 번의 하루예요.
+
+죽음은 삶의 적이 아니에요. 죽음은, 삶을 빛나게 해 주는 배경이에요.
+
 <!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, cherry blossoms, candle light | title: 가장 소중한 것도, 언제든 잃을 수 있다는 것 | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
 그런데 여기서, 조금 더 깊이 들어가 볼게요.
 
@@ -56,6 +71,40 @@
 차갑게 들릴 수도 있어요. 하지만 반대예요. 언제든 잃을 수 있다는 걸 받아들이는 사람만이, 지금 이 순간을 온 마음으로 사랑할 수 있어요. 오늘 안아 주고, 오늘 고맙다고 말하고, 오늘 미안하다고 말하는 거예요. 내일이 당연하지 않다는 걸 아니까요.
 
 그리고 꽉 움켜쥔 사랑이 아니라, 활짝 편 손바닥 위의 사랑을 하게 돼요. 잃을까 봐 붙잡는 사랑이 아니라, 함께 있는 지금을 축복하는 사랑이요.
+
+<!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, black and white contrast, sunrise over darkness | title: 이원성의 세계, 둘이 있어야 하나를 알아요 | ai: a single small candle flame burning in vast velvet darkness, the darkness around it making the flame shine brighter and warmer, faint stars appearing far away >> the candle flame flickers gently and grows warmer, the surrounding darkness deepens, distant stars slowly appear and twinkle -->
+여기서 조금 더, 영적인 이야기를 해 볼게요.
+
+우리가 사는 지구는, 이원성의 바탕 위에서 이루어진 세계예요. 빛과 어둠. 있음과 없음. 좋음과 싫음. 옳음과 그름. 선과 악. 차가움과 뜨거움. 삶과 죽음.
+
+그런데 한번 상상해 보세요. 만약 이 세상에 차가움만 있다면 어떨까요?
+
+우리는 차갑다는 게 무엇인지조차 몰랐을 거예요. 비교할 뜨거움이 없으니, 차가움은 그냥 당연한 무엇일 뿐, 차가움이라는 이름도, 느낌도 존재하지 않았을 거예요.
+
+빛도 마찬가지예요. 어둠이 없다면, 우리는 빛을 빛이라고 알아볼 수 없어요. 어둠 속에 켜진 촛불 하나가 그토록 따뜻해 보이는 건, 그 주변이 어둡기 때문이에요.
+
+노자는 이렇게 말했어요. 세상 사람들이 모두 아름다움을 아름답다고 알면, 거기엔 이미 추함이 있다. 있음과 없음은 서로를 낳고, 어려움과 쉬움은 서로를 이룬다.
+
+삶과 죽음도 그래요. 죽음이 없다면, 우리는 살아 있다는 게 무엇인지 몰랐을 거예요. 삶은, 죽음이라는 반대편이 있기에 비로소 삶이 되는 거예요.
+
+그러니까 어둠도, 슬픔도, 이별도, 이 세상에 꼭 필요한 반쪽이에요. 그 반쪽이 있기에, 우리는 빛과 기쁨과 만남을 알아볼 수 있으니까요.
+
+<!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: 좋고 나쁨은, 우리가 선택하는 거예요 -->
+그리고 이건, 아주 중요한 사실을 알려 줘요.
+
+어떤 일이 좋은 일인지, 나쁜 일인지. 가치가 있는지, 없는지. 사실 그건, 정해진 정답으로 존재하지 않아요.
+
+새옹지마라는 이야기를 아시죠? 변방에 사는 노인의 말이 도망가자, 사람들은 불행이라고 했어요. 그런데 그 말이 좋은 말을 데리고 돌아오자, 행운이라고 했죠. 그 말을 타던 아들이 떨어져 다리를 다치자 또 불행이라고 했고, 그 덕분에 아들은 전쟁에 끌려가지 않았어요.
+
+무엇이 좋은 일이었고, 무엇이 나쁜 일이었을까요?
+
+셰익스피어는 『햄릿』에서 이렇게 썼어요. 세상에 좋은 것도 나쁜 것도 없다. 생각이 그렇게 만들 뿐이다.
+
+지구라는 이원성의 무대 위에서 삶을 경험하는 우리가, 이건 좋다, 이건 나쁘다, 이건 가치 있다, 이건 의미 없다, 라고 생각하기를, 느끼기를 선택하고 있는 거예요.
+
+나치 수용소에서 살아남은 정신과 의사 빅터 프랭클은, 모든 것을 빼앗긴 자리에서도 단 하나 빼앗을 수 없는 자유가 있다고 말했어요. 주어진 상황에 대해, 어떤 태도를 가질지 선택하는 자유요.
+
+그러니까 지금 당신에게 일어난 일이 무엇이든, 그 일에 어떤 의미를 줄지는 당신이 고를 수 있어요. 그게 바로, 이 게임에서 우리가 가진 가장 큰 힘이에요.
 
 <!-- section: dream | visuals: misty forest dream, light rays clouds, reflection lake, milky way, soap bubble light | title: 이 모든 것은 진짜이면서, 동시에 꿈이에요 | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
 그리고 영적인 전통들은, 여기서 한 걸음 더 나아가요.
@@ -83,10 +132,10 @@
 
 그리고 무엇보다, 하루하루를 더 나 자신으로 살게 돼요. 남은 시간이 정해져 있다는 걸 아는 사람은, 남의 인생을 살 시간이 없거든요.
 
-<!-- section: practice5 | visuals: morning journal, sunrise window, hugging family, walking nature, calm night bedroom | title: 오늘을 마지막처럼, 그러나 가볍게 사는 다섯 가지 -->
+<!-- section: practice5 | visuals: morning journal, sunrise window, hugging family, walking nature, calm night bedroom | title: 오늘을 마지막처럼, 그러나 가볍게 사는 여섯 가지 -->
 그럼 오늘부터, 이렇게 해 보세요.
 
-첫째, 아침에 거울을 보며 물어보세요. 오늘이 내 생의 마지막 날이라면, 지금 하려는 일을 하고 싶을까? 아니라는 대답이 며칠씩 계속된다면, 무언가를 바꿀 때예요.
+첫째, 매일 아침, 죽음을 한 번 떠올리세요. 그리고 거울을 보며 물어보세요. 오늘이 내 생의 마지막 날이라면, 지금 하려는 일을 하고 싶을까? 아니라는 대답이 며칠씩 계속된다면, 무언가를 바꿀 때예요.
 
 둘째, 소중한 사람에게, 오늘 말하세요. 고마워, 사랑해, 미안해. 미루지 마세요. 내일은 약속된 게 아니니까요.
 
@@ -94,7 +143,9 @@
 
 넷째, 하루에 하나, 베로니카처럼 해 보세요. 늘 하고 싶었지만 남의 눈 때문에 참았던 작은 일 하나를요. 노래를 부르든, 춤을 추든, 하고 싶었던 말을 하든요.
 
-다섯째, 잠들기 전에 이렇게 말해 주세요. 오늘 하루, 나는 충분히 살았다. 그리고 내일 눈을 뜨면, 그건 당연한 아침이 아니라, 선물로 받은 하루라는 걸 기억하세요.
+다섯째, 오늘 일어난 일 하나에, 내가 원하는 의미를 붙여 보세요. 힘든 일이었다면, 이 일은 나에게 무엇을 가르쳐 주려는 걸까, 하고요.
+
+여섯째, 잠들기 전에 이렇게 말해 주세요. 오늘 하루, 나는 충분히 살았다. 그리고 내일 눈을 뜨면, 그건 당연한 아침이 아니라, 선물로 받은 하루라는 걸 기억하세요.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: 지금, 함께 해 볼까요 -->
 그럼 지금, 삼 분만 함께 해 볼게요.

@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh15_archer",
- "status": "ready-sh-ep007",
+ "status": "done-sh-ep007",
  "hook": "화살은 놓아야 날아간다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "당신의 꿈도, 놓는 순간 날아가기 시작해요."
    }
   ],
-  "images": [
+  "images_done": [
    "an archer on a misty mountain at night drawing a glowing bow with all their strength, a distant star as the target",
    "close-up of fingers tightly gripping a golden glowing arrow on the bowstring, trembling with tension",
    "the golden arrow flying through the night sky leaving a trail of light toward a bright star",
    "the archer standing peacefully with lowered bow under a sky full of stars, the distant star now glowing brightly, hit"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the archer slowly draws the glowing bow tighter, mist swirls around them, the distant star twinkles"

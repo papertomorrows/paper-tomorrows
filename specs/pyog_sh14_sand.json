@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh14_sand",
- "status": "ready-sh-ep007",
+ "status": "done-sh-ep007",
  "hook": "간절할수록 멀어지는 이유",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "생생하게 꿈꾸고, 행동하고, 그리고 가볍게 내려놓으세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person clutching a fistful of glowing golden sand that streams out between their fingers into the dark night",
    "a person staring anxiously at a silent glowing phone in a dark room, waiting, tension in the air",
    "two open palms holding a small mound of glowing golden sand that rests peacefully, soft light",
    "a calm person standing in a starry desert at dawn with open arms, golden sand swirling gently around them like stardust"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "golden sand slowly streams out between the clenched fingers and drifts away into the dark, particles glitter"

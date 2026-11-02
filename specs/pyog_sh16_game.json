@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh16_game",
- "status": "ready-sh-ep007",
+ "status": "done-sh-ep007",
  "hook": "역경은 게임 오버가 아니다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "이 게임의 규칙을 정하는 건, 당신이에요. 당신만의 게임을 플레이하세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a lone glowing figure standing before a giant shadowy boss creature on a misty fantasy battlefield at night, mystical game-like atmosphere",
    "a person sitting on the ground in the rain looking up at a towering dark wall, then noticing a glowing path around it",
    "the same figure leveling up, surrounded by a rising spiral of golden light, growing stronger and calmer",
    "the figure stepping through a radiant golden gateway into a bright new world, a new stage beginning"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the giant shadow boss looms and breathes slowly, mist swirls, the lone figure's glow steadies and brightens"

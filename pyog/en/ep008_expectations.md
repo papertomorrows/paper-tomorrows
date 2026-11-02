@@ -1,0 +1,130 @@
+# EP008 (EN) The #1 Regret of the Dying | How to Escape the Game of Other People's Expectations
+
+<!-- section: hook | visuals: old woman window, hospital window light, sunset ocean, person walking alone, family photo old | ai: a person standing at a crossroads at dusk, one road lit by the warm lights of many watching faces in the windows of a town, the other road a quiet golden path leading toward a glowing horizon >> the faces in the town windows slowly turn to watch, the golden path softly brightens, wind moves the person's coat, dusk light deepens -->
+For years, a nurse in Australia sat beside people in the final weeks of their lives. Her name is Bronnie Ware.
+
+She wrote down the regrets people shared most often before they died. And the number one regret wasn't that they didn't earn more money. It wasn't that they weren't more successful.
+
+It was this: I wish I'd had the courage to live a life true to myself, not the life others expected of me.
+
+The life you're living right now. Did you really choose it?
+
+A good university. A stable job. Married by the right age. A child your parents can be proud of. From the moment we're born, we're placed onto a game called other people's expectations.
+
+Today, we'll look at how that game keeps us tied down, and how to walk away from it without hating your parents. And at the end, we'll do a short practice together: lovingly handing other people's expectations back to them.
+
+<!-- section: game | visuals: students exam hall, office workers city, wedding couple, graduation ceremony, crowded subway | title: The Expectations Game -->
+The rules of this game usually look something like this.
+
+Get good grades. Get a respectable job. Get married by thirty. Earn as much as everyone else. And never, ever disappoint your parents.
+
+Follow the rules, and you get praise. Break them, and you get worry, lectures, and sometimes that look of disappointment.
+
+But here's the problem. The scoreboard of this game isn't inside you. It's in other people's eyes. So no matter how high you score, it strangely feels empty. Because it was never the score you wanted.
+
+<!-- section: why | visuals: child with parents, little girl drawing, boy holding mother hand, family dinner, old photos | title: Why We Started Playing -->
+So why did we start playing this game in the first place?
+
+When we were very young, our parents were our whole world. Losing their love felt, to a small child, like a matter of survival.
+
+So we learned early. Meet their expectations, and you're loved. Step away from them, and you might lose that love.
+
+That wasn't a mistake. It was the wisest choice that younger you could make to stay safe. But now that we're grown, we may not need those rules anymore.
+
+<!-- section: science | visuals: scientist lab, university campus, library books, person journaling, calm office window | title: What Psychology Says About the Weight of Expectations -->
+Psychology has been saying this for a long time.
+
+There's a well-known theory called self-determination theory. It says that to be happy and stay motivated, people need a sense that they chose for themselves. In other words, autonomy.
+
+Even doing the exact same thing, doing it because you want to and doing it because you have to are completely different. What you do because you have to runs on guilt and pressure. So it wears you out, and even when you finish, there's no joy.
+
+And research by psychologists Tim Kasser and Richard Ryan found that people who centered their lives on outside goals, like money, fame, and how they look to others, tended to report lower well-being. People whose goals came from within, like growth, relationships, and giving, were happier.
+
+And the psychologist Carl Jung wrote: nothing has a stronger influence psychologically on children than the unlived life of the parent.
+
+Maybe the expectations you carry right now are the weight of your parents' dreams that never came true.
+
+<!-- section: spirit | visuals: ancient temple, candle light, sunrise mountain, stars night sky, lotus | title: Your Children Are Not Your Children | ai: a glowing child of light walking out of a gentle golden archway formed by two loving parent figures made of soft light, stepping onto a path that leads toward the stars >> the child of light slowly walks forward through the archway toward the stars, the parent figures glow warmly and let go, stars shimmer -->
+From a spiritual point of view, this goes even deeper.
+
+In The Prophet, the poet Kahlil Gibran wrote: your children are not your children. They are the sons and daughters of Life's longing for itself. They come through you but not from you.
+
+Many spiritual traditions say that each soul comes to this Earth carrying its own unique experiences it wants to live in this lifetime. Our parents are the beloved doorway that brought that soul into the world. But which path the soul walks belongs to the soul itself.
+
+So living only by other people's expectations means returning home without ever living the experience your soul came here for. And that's exactly why it becomes the deepest regret at the end of life.
+
+<!-- section: signs | visuals: woman thinking window, man tired office, phone night, rain window, crowded city | title: Five Signs You're Still Playing -->
+So, are you still playing this game? Check these five signs.
+
+One. When you make a big decision, what your mom would say comes to mind before what you feel.
+
+Two. You do far more things because you have to than because you want to.
+
+Three. When you achieve something, you feel relief before joy. Relief that you won't be criticized.
+
+Four. Other people's age milestones keep making you anxious. By this age, I should have done this.
+
+Five. You hide your real dream, afraid it will sound embarrassing or naive.
+
+How many fit you? Leave the number in the comments. If even one does, this video is for you.
+
+<!-- section: notrebel | visuals: mother daughter hug, father son walking, family dinner warm, elderly parents smiling, holding hands | title: Escaping Isn't Rebelling | ai: a grown adult gently holding the hands of their elderly parents in a warm softly lit room, a glowing ribbon of golden light connecting their hearts, peaceful and loving >> the golden ribbon between their hearts glows softly and pulses, warm light flickers, they smile gently -->
+But there's something important I want to be clear about.
+
+Walking away from the expectations game doesn't mean hating your parents or turning your back on them.
+
+Most expectations come from love. A wish that you won't struggle, won't get hurt, will be safe. It's just that the love takes the shape of what they know, and what they fear.
+
+So escaping isn't rebellion. It's separation. You gratefully receive their love, and you respectfully hand back their fears and their unlived dreams.
+
+<!-- section: how | visuals: person journaling morning, walking nature path, woman looking mirror, sunrise window, open road | title: Five Steps Out of the Expectations Game -->
+So how do you walk out? Here are five steps.
+
+First, separate the voices. Every time you hear "I should" in your head, ask: whose voice is this? Your mother's? Society's? Or truly your own? Write them down, and you'll find your own voice is quieter than you thought.
+
+Second, start making small choices your own. What you wear today. What you do this weekend. What you eat for lunch. Start tiny, choosing from your heart instead of other people's eyes. Small choices build the strength for big ones.
+
+Third, find the courage to disappoint. Someone being disappointed in you doesn't mean you failed. It just means their expectations were different from you. And that disappointment is theirs to work through.
+
+Fourth, set boundaries with love. I love you, and thank you for caring. But this one, I'm going to choose for myself. Not coldly. But clearly.
+
+Fifth, ask about your soul's mood. When you imagine this path, does your soul feel lighter, or heavier? That answer is your map to your own game.
+
+<!-- section: aquarius | visuals: night sky stars, milky way, constellation, sunrise ocean, river flowing | title: The Age of Aquarius: Everyone Walks Their Own Path -->
+And this connects to the age we're living in.
+
+The Age of Pisces was an age of duty and obedience. Following the will of the family, the elders, and society was the highest virtue.
+
+But the Age of Aquarius is an age where each person shines with their own light. Not everyone walking the same path, but each walking their own, and all those paths together forming a bigger picture.
+
+Walking your own path isn't selfish. It's what this age, and your soul, are asking of you.
+
+<!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Handing Expectations Back With Love | ai: a person in soft light holding out a small glowing box with both hands, gently offering it back to two softly glowing figures, then turning toward an open golden path >> the glowing box slowly floats from the person's hands toward the two figures, who receive it with warmth, the golden path ahead brightens -->
+So let's take three minutes together, right now.
+
+Sit comfortably and close your eyes. Breathe in slowly… and breathe out, long.
+
+Now, picture the person who placed the biggest expectations on you. It might be a parent, a teacher, or even the world.
+
+They're standing in front of you. Look into their eyes, and silently say:
+
+Thank you for loving me.
+
+Now imagine the expectations you've been carrying as a small box of light. With both hands, respectfully hand that box back to them.
+
+This is your dream. From now on, I'll live mine.
+
+They smile and take the box. And in front of you, your own path opens up, glowing.
+
+Take a deep breath in… and as you breathe out, take one step onto that path.
+
+Slowly, open your eyes. Do you feel a little lighter?
+
+<!-- section: outro | visuals: sunrise ocean, open road sunrise, mountain sunrise, milky way, golden field -->
+You didn't come into this world to fulfill someone else's expectations. You came to live your life.
+
+So that on the last day of your life, you can say you lived the life you wanted, not the one others wanted for you. Starting today, make even one small choice truly your own.
+
+Write one expectation you want to hand back today in the comments. The moment you write it, the weight will feel a little lighter.
+
+Stop playing their game. Play your own.

@@ -1,6 +1,10 @@
-# EP009 (EN) She Was Told She Had One Week. Then She Finally Started Living | Why Remembering Death Sets You Free
+# EP009 (EN) Why People Who Think About Death Every Day Live the Most Freely | Death Saved My Life
 
 <!-- section: hook | visuals: city old town night, woman window rain, hospital corridor light, piano keys, snow falling night | ai: a young woman sitting alone at a grand piano in a dim old hall at night, moonlight falling through tall windows, her fingers resting on the keys as soft golden light begins to rise from the piano >> soft golden light slowly rises from the piano keys and swirls around her, moonlight shifts, snow falls outside the tall windows -->
+Death saved my life.
+
+Sounds strange, doesn't it? This starts with a story from a novel. But maybe, it's your story too.
+
 What if someone told you, today: you have exactly one week left.
 
 What would you do tomorrow?
@@ -11,6 +15,8 @@ Exhausted by life, she wakes up in a psychiatric hospital. And a doctor tells he
 
 And from that very moment, Veronika truly starts to live, for the first time.
 
+And there's a secret the doctor kept in this story. I'll tell you at the end of this video.
+
 Let me say this first. This isn't a story that encourages death. It's the opposite. It's about how remembering death is what finally lets us live. And if you're going through something really hard right now, I've put places you can reach out to in the description.
 
 <!-- section: veronika | visuals: piano playing hands, woman laughing, woman walking snow, moonlit window, candle light | title: What She Did When Time Ran Short -->
@@ -19,8 +25,6 @@ Once Veronika believed she had only days left, she stopped caring what anyone th
 She played the piano in the middle of the night, a childhood dream she had put away. When she was angry, she showed it. When she loved something, she said so. And for the first time in her life, she truly fell in love.
 
 With nothing left to lose, her fear was gone.
-
-And at the end, a surprising truth comes out. Her heart was fine. The doctor told her that on purpose, so she would finally live.
 
 This story is asking us something. Do we really need death right in front of us before we start to live?
 
@@ -39,6 +43,8 @@ That's why the old wisdom says: think of death every day. In Bhutan, a country k
 Because death is what gives life its value.
 
 Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that thrill beneath them. It's because we know they'll fall in a few days that this moment is so beautiful.
+
+Think of a morning on the train to work, staring blankly at your phone. If that had been the last morning of your life, would you have spent it that way?
 
 If we lived forever, today would mean nothing. But our days are numbered. So today is a single day that will never come again.
 
@@ -65,7 +71,6 @@ Without what you are not, you can't experience who you are.
 
 So don't hate the darkness. Darkness isn't a supporting role for light. It's another experience, just as precious as light.
 
-<!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: Good and Bad Are Something We Choose -->
 At the source this world came from, everything simply is. There's no good and no bad. The labels good and bad are what we, experiencing this world of duality, put on things.
 
 There's an old Chinese story. An old farmer's horse ran away, and the villagers said, what bad luck. The horse came back with a wild horse, and they said, what good luck. His son fell from it and broke his leg. Bad luck. Then soldiers came to take young men to war, and his son was spared.
@@ -87,9 +92,9 @@ Gaining, being together, is wonderful. But losing is another experience of the v
 
 But little by little, you step out of the fear of losing. Not love that clings tight out of fear, but love held in an open palm. That's the deepest love, and the freest.
 
-<!-- section: energy | visuals: ocean waves, milky way, light rays clouds, stars night sky, aurora | title: We Are Energy That Never Disappears | ai: a glowing ocean wave made of golden light rising from a vast sea of light under a starry sky, then gently returning and dissolving back into the shining sea >> the golden wave slowly rises and curls, then gently melts back into the glowing sea, ripples of light spread outward, stars shimmer -->
-So why don't we need to fear losing so much?
+But here's what's truly remarkable. Losing isn't really an ending.
 
+<!-- section: energy | visuals: ocean waves, milky way, light rays clouds, stars night sky, aurora | title: We Are Energy That Never Disappears | ai: a glowing ocean wave made of golden light rising from a vast sea of light under a starry sky, then gently returning and dissolving back into the shining sea >> the golden wave slowly rises and curls, then gently melts back into the glowing sea, ripples of light spread outward, stars shimmer -->
 Because we're not just a body that lives this one life.
 
 Science tells us energy doesn't disappear. It only changes form. Spiritual traditions say the same of us. The body is clothing we wear for a while. The real us is energy, consciousness, that never disappears.
@@ -113,8 +118,7 @@ Picture a player completely absorbed in a game. They laugh, cry, take on every c
 
 Someone who knows it's real and also a dream lives the most freely, the most as themselves.
 
-<!-- section: freedom | visuals: woman dancing field, open road sunrise, bird flying sky, person arms open mountain, ocean waves | title: When Fear Is Gone, You Live as Yourself -->
-So when you no longer fear death, or losing, what changes?
+And when you no longer fear death, or losing, what changes?
 
 Other people's opinions get smaller. On a stage that will one day disappear, there's no reason to cling to anyone's judgment.
 
@@ -135,7 +139,9 @@ And whatever it is, accepting it. Sadness, fear, anger, it's all okay. You don't
 
 We are everything that exists. Positive and negative, light and dark, it's all us.
 
-So look at it like this. Ah, I'm experiencing this thought right now. I'm experiencing this feeling right now. Whatever it is, you watch it, you feel it, and you let it move through you.
+There are nights when you're alone and your heart sinks for no reason. Usually we try to get rid of that feeling fast. We pick up the phone, we think about something else.
+
+Instead, look at it like this. Ah, I'm experiencing this feeling right now. I'm experiencing this thought right now. Whatever it is, you watch it, you feel it, and you let it move through you.
 
 Someone who accepts every feeling as part of themselves becomes almost absurdly free, even while living in a body on this Earth. Because they're no longer at war with their own feelings. Even here on Earth, experiencing life in a body, they remember who they are, who we are. And little by little, they become more and more themselves.
 
@@ -176,7 +182,13 @@ And whatever it is, accept it. That's who you are right now, too.
 Now, take a deep breath in… and as you slowly breathe out, open your eyes.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, golden field, milky way -->
-When Veronika believed death was near, she finally began to live. We don't have to wait for that. Remembering death, right now, is enough.
+Now, here's the secret I promised at the beginning.
+
+At the end of the novel, a surprising truth comes out. Veronika's heart was fine. The doctor told her she was dying on purpose, so she would truly live every moment.
+
+The moment she believed death was near, she finally began to live. Death saved her life.
+
+But we don't have to wait to hear words like that. Remembering death, right now, is enough.
 
 It's beautiful because it ends. It shines because there is darkness. Everything is real, and also a dream. So love more, fear less, accept every feeling as yours, and live more as yourself. On the path prepared for you, doing what your soul wants to do.
 

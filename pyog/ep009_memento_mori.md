@@ -1,6 +1,10 @@
-# EP009 의사가 일주일 남았다고 말한 순간, 그녀는 처음으로 살기 시작했다 | 죽음을 기억하는 사람이 가장 자유롭다
+# EP009 매일 죽음을 생각하는 사람이 가장 자유로운 이유 | 죽음이 나를 살렸다
 
 <!-- section: hook | visuals: city old town night, woman window rain, hospital corridor light, piano keys, snow falling night | ai: a young woman sitting alone at a grand piano in a dim old hall at night, moonlight falling through tall windows, her fingers resting on the keys as soft golden light begins to rise from the piano >> soft golden light slowly rises from the piano keys and swirls around her, moonlight shifts, snow falls outside the tall windows -->
+죽음이, 나를 살렸다.
+
+이상하게 들리죠? 이건 한 소설 속 이야기에서 시작돼요. 그런데 어쩌면, 당신의 이야기일지도 몰라요.
+
 만약 오늘, 누군가 당신에게 이렇게 말한다면요. 남은 시간은, 딱 일주일입니다.
 
 당신은 내일, 무엇을 하겠어요?
@@ -11,6 +15,8 @@
 
 그런데 바로 그 순간부터, 베로니카는 처음으로 진짜 살기 시작해요.
 
+그리고 이 이야기에는, 의사가 숨긴 비밀이 하나 있어요. 그 비밀은, 영상 마지막에 알려 드릴게요.
+
 먼저 꼭 말씀드릴게요. 이 영상은 죽음을 권하는 이야기가 아니에요. 정반대예요. 죽음을 기억할 때, 비로소 진짜로 살 수 있다는 이야기예요. 혹시 지금 마음이 많이 힘든 분이 계시다면, 설명란에 도움받을 수 있는 곳을 적어 두었어요.
 
 <!-- section: veronika | visuals: piano playing hands, woman laughing, woman walking snow, moonlit window, candle light | title: 남은 시간이 정해지자, 그녀가 한 일 -->
@@ -19,8 +25,6 @@
 어릴 적 꿈이었지만 접어 두었던 피아노를, 한밤중에 마음껏 쳤어요. 화가 나면 화를 냈고, 좋으면 좋다고 말했어요. 그리고 생애 처음으로, 누군가를 진심으로 사랑했어요.
 
 잃을 게 없어지자, 두려움도 사라진 거예요.
-
-그리고 마지막에, 놀라운 사실이 밝혀져요. 그녀의 심장은 멀쩡했어요. 의사는 그녀가 진짜로 살게 하려고, 일부러 그렇게 말했던 거예요.
 
 이 이야기는 우리에게 묻고 있어요. 꼭 죽음이 눈앞에 와야만, 우리는 진짜로 살 수 있을까요?
 
@@ -39,6 +43,8 @@
 죽음이 있기에, 삶이 가치를 가지니까요.
 
 벚꽃을 떠올려 보세요. 벚꽃이 일 년 내내 피어 있다면, 우리는 그 아래에서 그렇게 설레지 않을 거예요. 며칠 뒤면 진다는 걸 알기 때문에, 지금 이 순간이 그토록 아름다운 거예요.
+
+출근길 지하철에서, 무표정하게 휴대폰만 내려다보던 아침을 떠올려 보세요. 만약 그게 내 생의 마지막 아침이었다면, 나는 그렇게 보냈을까요?
 
 영원히 산다면, 오늘은 아무 의미가 없을 거예요. 하지만 우리의 날은 정해져 있어요. 그래서 오늘은, 다시 오지 않는 단 한 번의 하루예요.
 
@@ -65,7 +71,6 @@
 
 그러니 어둠을 미워하지 마세요. 어둠은 빛을 위한 조연이 아니라, 빛과 똑같이 소중한, 또 하나의 경험이에요.
 
-<!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: 좋고 나쁨은, 우리가 고르는 거예요 -->
 이 세상이 생겨난 근원에서는, 모든 것이 그냥 있을 뿐이에요. 좋은 것도, 나쁜 것도 없이요. 좋고 나쁨이라는 이름표는, 이원성의 세계에서 경험하는 우리가 붙이는 거예요.
 
 새옹지마 이야기, 아시죠? 노인의 말이 도망가자 사람들은 불행이라고 했어요. 말이 좋은 말을 데리고 돌아오자 행운이라고 했죠. 아들이 그 말에서 떨어져 다리를 다치자 또 불행이라고 했고, 그 덕분에 아들은 전쟁에 끌려가지 않았어요.
@@ -87,10 +92,10 @@
 
 다만, 잃는 것에 대한 두려움에서는 조금씩 벗어나는 거예요. 잃을까 봐 꽉 움켜쥐는 사랑이 아니라, 활짝 편 손바닥 위의 사랑. 그 사랑이 가장 깊고, 가장 자유로운 사랑이에요.
 
-<!-- section: energy | visuals: ocean waves, milky way, light rays clouds, stars night sky, aurora | title: 우리는, 사라지지 않는 에너지예요 | ai: a glowing ocean wave made of golden light rising from a vast sea of light under a starry sky, then gently returning and dissolving back into the shining sea >> the golden wave slowly rises and curls, then gently melts back into the glowing sea, ripples of light spread outward, stars shimmer -->
-그런데 왜, 잃는 걸 그렇게까지 두려워하지 않아도 될까요?
+그런데 정말 놀라운 건, 잃는다는 게 사실은 끝이 아니라는 거예요.
 
-우리는, 이번 생 한 번만 사는 몸이 전부가 아니기 때문이에요.
+<!-- section: energy | visuals: ocean waves, milky way, light rays clouds, stars night sky, aurora | title: 우리는, 사라지지 않는 에너지예요 | ai: a glowing ocean wave made of golden light rising from a vast sea of light under a starry sky, then gently returning and dissolving back into the shining sea >> the golden wave slowly rises and curls, then gently melts back into the glowing sea, ripples of light spread outward, stars shimmer -->
+왜냐하면, 우리는 이번 생 한 번만 사는 몸이 전부가 아니기 때문이에요.
 
 과학은 에너지가 사라지지 않고, 형태만 바뀐다고 말해요. 영적 전통은 우리도 그렇다고 말해요. 몸은 잠시 입은 옷이고, 진짜 우리는 사라지지 않는 에너지, 의식이라고요.
 
@@ -111,8 +116,7 @@
 
 진짜이면서 꿈이라는 걸 아는 사람. 그 사람이 가장 자유롭게, 가장 나답게 살아요.
 
-<!-- section: freedom | visuals: woman dancing field, open road sunrise, bird flying sky, person arms open mountain, ocean waves | title: 두려움이 사라지면, 나로 살게 돼요 -->
-그럼 죽음도, 잃는 것도 두려워하지 않게 되면, 무엇이 달라질까요?
+그렇게 죽음도, 잃는 것도 두려워하지 않게 되면, 무엇이 달라질까요?
 
 남의 시선이 작아져요. 언젠가 사라질 무대 위에서, 남의 평가에 매달릴 이유가 없으니까요.
 
@@ -133,7 +137,9 @@
 
 우리는, 존재하는 모든 것이에요. 긍정도 부정도, 빛도 어둠도, 모두 우리예요.
 
-그러니 이렇게 바라봐 주세요. 아, 내가 지금 이런 생각을 경험하고 있구나. 내가 지금 이런 감정을 경험하고 있구나. 그게 무엇이든, 바라보고, 느끼고, 소화하는 거예요.
+밤에 혼자 있을 때, 이유 없이 마음이 가라앉는 날이 있죠. 우리는 보통 그 감정을 얼른 없애려고 애써요. 휴대폰을 켜고, 다른 생각을 하고요.
+
+그 대신, 이렇게 바라봐 주세요. 아, 내가 지금 이런 감정을 경험하고 있구나. 내가 지금 이런 생각을 경험하고 있구나. 그게 무엇이든, 바라보고, 느끼고, 소화하는 거예요.
 
 모든 감정을 나로 받아들이는 사람은, 몸을 가지고 이 땅에 살면서도, 말도 안 되게 자유로워져요. 더 이상 감정과 싸우지 않으니까요. 그렇게 몸을 가지고 경험하는 이 지구에서도, 나를, 그리고 우리를 기억하게 돼요. 그렇게 점점 더, 내가 돼요.
 
@@ -174,7 +180,13 @@
 이제, 숨을 크게 들이쉬고… 천천히 내쉬면서, 눈을 떠 보세요.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, golden field, milky way -->
-베로니카는 죽음이 가까이 왔다고 믿었을 때, 비로소 살기 시작했어요. 우리는 그걸 기다릴 필요가 없어요. 지금, 죽음을 기억하는 것만으로 충분해요.
+이제, 처음에 약속한 비밀을 알려 드릴게요.
+
+소설의 마지막에서, 놀라운 사실이 밝혀져요. 베로니카의 심장은, 멀쩡했어요. 의사는 그녀가 매 순간을 진짜로 살게 하려고, 일부러 그렇게 말했던 거예요.
+
+죽음이 가까이 왔다고 믿은 순간, 그녀는 비로소 살기 시작했어요. 죽음이, 그녀를 살린 거예요.
+
+그런데 우리는, 그런 말을 들을 때까지 기다릴 필요가 없어요. 지금, 죽음을 기억하는 것만으로 충분해요.
 
 끝이 있기에 아름답고, 어둠이 있기에 빛나요. 모든 것은 진짜이면서, 동시에 꿈이에요. 그러니 더 사랑하고, 덜 두려워하고, 어떤 감정이든 나로 받아들이면서, 더 나답게 사세요. 나를 위해 준비된 길 위에서, 내 영혼이 원하는 일을 하면서요.
 

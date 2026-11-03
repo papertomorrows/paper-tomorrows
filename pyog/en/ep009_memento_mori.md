@@ -34,7 +34,9 @@ Steve Jobs gave the answer. Remembering that he would be dead soon was the most 
 In one psychology study, people who imagined their own death became noticeably more grateful for life. The morning light they took for granted, the voices of their family, suddenly felt like gifts.
 
 <!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, child laughing | title: Because It Ends, It's Beautiful | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
-That's why the old wisdom says: think of death not now and then, but every day.
+That's why the old wisdom says: think of death not now and then, but every day. The Stoics reminded themselves each morning that today might be their last. And in Bhutan, a country known for its happiness, there's said to be a saying: think about death five times a day.
+
+Because it's death that gives life its value.
 
 Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that thrill beneath them. It's because we know they'll fall in a few days that this moment is so beautiful.
 
@@ -55,7 +57,9 @@ There's a story like this. Long ago, in a place made entirely of light, there wa
 
 So the little light made a wish. I want to truly experience that I am light. And for that, it needed something that was not light. It needed darkness.
 
-Many spiritual teachings say this is exactly why our souls came to Earth. Earth is a world split in two, a world of duality. Light and darkness. Warm and cold. Meeting and parting. Life and death.
+Many spiritual teachings say this is exactly why our souls came to Earth. Earth is a world split in two, a world of duality. Light and darkness. Being and not-being. Like and dislike. Right and wrong. Good and evil. Cold and hot. Meeting and parting. And life and death.
+
+If only one of each pair existed, it couldn't have the value and meaning we know. With only light, we wouldn't know light. With only good, we wouldn't know what good is. With only life, we wouldn't know what it means to be alive.
 
 Knowing something and experiencing it are different. So we meet parting to experience love. We get bound to experience freedom. We come to a place with death to experience life.
 
@@ -109,14 +113,27 @@ And finally, there's one truth that ties all of this together.
 
 The joy, the tears, the love you feel right now are all real. Feel them for real. Live them for real.
 
-But at the same time, all of this is a dream. From the eyes of your eternal self, this lifetime is a vivid dream we've stepped into for a while. A game.
+But at the same time, all of this is a dream. The Diamond Sutra says: all conditioned things are like a dream, an illusion, a bubble, a shadow. Indian traditions call this world maya, a beautiful illusion that looks real.
+
+From the eyes of your eternal self, this lifetime is a vivid dream we've stepped into for a while. A game.
 
 Picture a player completely absorbed in a game. They laugh, cry, take on every challenge with their whole heart. But they know: this is a game. So when they lose, they don't collapse. When they fall, they get back up.
 
-Someone who knows it's real and also a dream lives the most freely, the most as themselves. Other people's opinions, failure, it's all happening on a stage that will one day disappear.
+Someone who knows it's real and also a dream lives the most freely, the most as themselves.
+
+<!-- section: freedom | visuals: woman dancing field, open road sunrise, bird flying sky, person arms open mountain, ocean waves | title: When Fear Is Gone, You Live as Yourself -->
+So when you no longer fear death, or losing, what changes?
+
+Other people's opinions get smaller. On a stage that will one day disappear, there's no reason to cling to anyone's judgment.
+
+Failure stops being scary. The only thing you can truly lose in this game is never having lived as yourself.
+
+You start what you've been putting off. Not someday. Today. Just like Veronika playing the piano in the middle of the night.
+
+And above all, you live each day more as yourself, and more freely. Someone who knows their time is limited has no time to live someone else's life.
 
 <!-- section: practice | visuals: morning journal, sunrise window, hugging family, woman dancing field, calm night bedroom | title: Live Today Like the Last, but Lightly -->
-So starting today, try just four things.
+So starting today, try just five things.
 
 First, once each morning, think of death. Then ask: if today were my last day, would I want to do what I'm about to do?
 
@@ -125,6 +142,8 @@ Second, tell the people who matter, today. Thank you. I love you. I'm sorry. Don
 Third, do one thing a day like Veronika. One small thing you've held back because of other people's eyes. Do it today.
 
 Fourth, when something hard happens, ask: what light of mine did this darkness come to show?
+
+Fifth, before you sleep, tell yourself: today, I lived fully. And when you open your eyes tomorrow, remember it isn't an ordinary morning. It's a day you've been given as a gift.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take three minutes together, right now.

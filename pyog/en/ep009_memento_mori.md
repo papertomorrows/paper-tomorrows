@@ -29,29 +29,27 @@ In ancient Rome, it's said that when a victorious general paraded through the st
 
 Why remind someone of death at their most glorious moment?
 
-Steve Jobs gave the answer. Remembering that he would be dead soon was the most important tool he'd found for making the big choices in life. In the face of death, other people's expectations, pride, and the fear of failure all fall away. Only what truly matters is left.
+Steve Jobs gave the answer. Remembering he'd be dead soon was his most important tool for big choices. In the face of death, expectations, pride, and fear of failure fall away. Only what matters is left.
 
-In one psychology study, people who imagined their own death became noticeably more grateful for life. The morning light they took for granted, the voices of their family, suddenly felt like gifts.
+Research even shows that people who imagine their own death become more grateful for life. The morning light they took for granted suddenly becomes a gift.
 
 <!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, child laughing | title: Because It Ends, It's Beautiful | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
-That's why the old wisdom says: think of death not now and then, but every day. The Stoics reminded themselves each morning that today might be their last. And in Bhutan, a country known for its happiness, there's said to be a saying: think about death five times a day.
+That's why the old wisdom says: think of death every day. In Bhutan, a country known for its happiness, there's even said to be a saying: think about death five times a day.
 
-Because it's death that gives life its value.
+Because death is what gives life its value.
 
 Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that thrill beneath them. It's because we know they'll fall in a few days that this moment is so beautiful.
 
-If we lived forever, today would mean nothing. Tomorrow would come the same, and a thousand years from now.
-
-But our days are numbered. So today is a single day that will never come again.
+If we lived forever, today would mean nothing. But our days are numbered. So today is a single day that will never come again.
 
 Death isn't the enemy of life. It's the background that makes life shine.
 
 <!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, sunrise over darkness, stars night sky | title: Where There's Only Light, Light Can't Be Known | ai: a single small glowing light floating in a vast world made entirely of bright white light, barely visible, then a soft darkness gently opening around it so the small light suddenly shines warm and clear >> soft darkness slowly opens around the small light, the little light begins to shine brighter and warmer, faint stars appear in the new darkness -->
-But why does there have to be an end at all? Here's something really important.
+But why does there have to be an end at all?
 
 Imagine a world with only cold. In that world, could we know what cold is?
 
-We couldn't. There'd be no warmth to compare it to. The word cold, the feeling of cold, wouldn't even exist.
+We couldn't. With no warmth to compare, the word cold, the feeling of cold, wouldn't exist.
 
 There's a story like this. Long ago, in a place made entirely of light, there was a little light. The little light knew it was light. But it had never once felt it. Because everything around it was light too. Light inside light can't be seen.
 
@@ -59,7 +57,7 @@ So the little light made a wish. I want to truly experience that I am light. And
 
 Many spiritual teachings say this is exactly why our souls came to Earth. Earth is a world split in two, a world of duality. Light and darkness. Being and not-being. Like and dislike. Right and wrong. Good and evil. Cold and hot. Meeting and parting. And life and death.
 
-If only one of each pair existed, it couldn't have the value and meaning we know. With only light, we wouldn't know light. With only good, we wouldn't know what good is. With only life, we wouldn't know what it means to be alive.
+If only one of each pair existed, it couldn't have the value and meaning we know. With only good, we wouldn't know good. With only life, we wouldn't know what it means to be alive.
 
 Knowing something and experiencing it are different. So we meet parting to experience love. We get bound to experience freedom. We come to a place with death to experience life.
 
@@ -68,21 +66,15 @@ Without what you are not, you can't experience who you are.
 So don't hate the darkness. The darkness came so your light could be seen.
 
 <!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: Good and Bad Are Something We Choose -->
-And this shows us one more thing.
-
 At the source this world came from, everything simply is. There's no good and no bad. The labels good and bad are what we, experiencing this world of duality, put on things.
 
 There's an old Chinese story. An old farmer's horse ran away, and the villagers said, what bad luck. The horse came back with a wild horse, and they said, what good luck. His son fell from it and broke his leg. Bad luck. Then soldiers came to take young men to war, and his son was spared.
 
 So which was good? There's no right answer.
 
-Whether something is good or bad, whether it has value or not, isn't fixed. We, the ones living this life on Earth, are choosing to think and feel that way.
-
-So whatever has happened to you, you can choose what it means. That's the greatest power we have in this game.
+Good or bad, valuable or not, isn't fixed. We, living this life on Earth, are choosing to feel it that way. So whatever has happened, you can choose what it means. That's the greatest power we have in this game.
 
 <!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: Love More, Because You Will Lose It | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
-Now, this part takes a little more courage.
-
 Everything we love will one day leave us. The people we love, our health, our youth, this very moment.
 
 That doesn't mean don't love. It doesn't mean keep a cold distance so you won't get hurt. It's the opposite.
@@ -98,7 +90,7 @@ So why don't we need to fear losing so much?
 
 Because we're not just a body that lives this one life.
 
-Science tells us energy doesn't disappear. It only changes form. And many spiritual traditions say the same is true of us. The body is clothing we put on to experience this life. The real us inside is energy, consciousness, that never disappears.
+Science tells us energy doesn't disappear. It only changes form. Spiritual traditions say the same of us. The body is clothing we wear for a while. The real us is energy, consciousness, that never disappears.
 
 The deeper teachings go further. Time is just a frame we use to experience this world. At the source, everything exists at once. The past, the present, the future. The people who've left, and the people beside us now.
 
@@ -109,11 +101,9 @@ So losing isn't really an ending. It's a change of form. Even when someone we lo
 Someone who knows this doesn't fear losing. And so they can love more freely, and more deeply.
 
 <!-- section: dream | visuals: misty forest dream, reflection lake, light rays clouds, milky way, soap bubble light | title: Real, and Also a Dream | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
-And finally, there's one truth that ties all of this together.
-
 The joy, the tears, the love you feel right now are all real. Feel them for real. Live them for real.
 
-But at the same time, all of this is a dream. The Diamond Sutra says: all conditioned things are like a dream, an illusion, a bubble, a shadow. Indian traditions call this world maya, a beautiful illusion that looks real.
+But at the same time, all of this is a dream. The Diamond Sutra says: all conditioned things are like a dream, an illusion, a bubble, a shadow.
 
 From the eyes of your eternal self, this lifetime is a vivid dream we've stepped into for a while. A game.
 
@@ -143,7 +133,7 @@ Third, do one thing a day like Veronika. One small thing you've held back becaus
 
 Fourth, when something hard happens, ask: what light of mine did this darkness come to show?
 
-Fifth, before you sleep, tell yourself: today, I lived fully. And when you open your eyes tomorrow, remember it isn't an ordinary morning. It's a day you've been given as a gift.
+Fifth, before you sleep, tell yourself: today, I lived fully.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take three minutes together, right now.

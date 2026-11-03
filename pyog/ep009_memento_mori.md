@@ -29,29 +29,27 @@
 
 가장 빛나는 순간에, 왜 굳이 죽음을 떠올리게 했을까요?
 
-스티브 잡스가 그 답을 말해 줬어요. 곧 죽는다는 걸 기억하는 게, 인생의 큰 선택을 할 때 가장 중요한 도구였다고요. 죽음 앞에서는 남의 기대도, 체면도, 실패에 대한 두려움도 다 사라지고, 정말 중요한 것만 남으니까요.
+스티브 잡스가 답해 줬어요. 곧 죽는다는 걸 기억하는 게, 큰 선택 앞에서 가장 중요한 도구였다고요. 죽음 앞에서는 남의 기대도, 체면도, 실패의 두려움도 사라지고, 정말 중요한 것만 남으니까요.
 
-실제로 한 심리학 연구에서, 자신의 죽음을 떠올려 본 사람들은 삶에 대한 감사함이 크게 늘었어요. 당연하던 아침 햇살이, 가족의 목소리가, 갑자기 선물처럼 느껴진 거예요.
+실제로 자신의 죽음을 떠올려 본 사람들은, 삶에 대한 감사함이 크게 늘었다는 연구도 있어요. 당연하던 아침 햇살이, 갑자기 선물이 되는 거예요.
 
 <!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, child laughing | title: 끝이 있기에, 아름다워요 | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
-그래서 옛 지혜들은, 죽음을 가끔이 아니라 매일 떠올리라고 했어요. 스토아 철학자들은 매일 아침, 오늘이 마지막 날일 수 있다는 걸 떠올렸고, 행복한 나라로 알려진 부탄에는 하루에 다섯 번 죽음을 생각하라는 말이 전해진다고 해요.
+그래서 옛 지혜들은, 죽음을 매일 떠올리라고 했어요. 행복한 나라로 알려진 부탄에는, 하루에 다섯 번 죽음을 생각하라는 말까지 있다고 해요.
 
-죽음이 있기에, 삶이 가치를 가지기 때문이에요.
+죽음이 있기에, 삶이 가치를 가지니까요.
 
 벚꽃을 떠올려 보세요. 벚꽃이 일 년 내내 피어 있다면, 우리는 그 아래에서 그렇게 설레지 않을 거예요. 며칠 뒤면 진다는 걸 알기 때문에, 지금 이 순간이 그토록 아름다운 거예요.
 
-만약 우리가 영원히 산다면, 오늘은 아무 의미가 없을 거예요. 내일도, 천 년 뒤에도 똑같이 올 테니까요.
-
-하지만 우리의 날은 정해져 있어요. 그래서 오늘은, 다시 오지 않는 단 한 번의 하루예요.
+영원히 산다면, 오늘은 아무 의미가 없을 거예요. 하지만 우리의 날은 정해져 있어요. 그래서 오늘은, 다시 오지 않는 단 한 번의 하루예요.
 
 죽음은 삶의 적이 아니에요. 삶을 빛나게 해 주는, 배경이에요.
 
 <!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, sunrise over darkness, stars night sky | title: 빛만 있는 곳에서는, 빛을 알 수 없어요 | ai: a single small glowing light floating in a vast world made entirely of bright white light, barely visible, then a soft darkness gently opening around it so the small light suddenly shines warm and clear >> soft darkness slowly opens around the small light, the little light begins to shine brighter and warmer, faint stars appear in the new darkness -->
-그런데, 왜 꼭 끝이 있어야 할까요? 여기서 아주 중요한 이야기를 하나 할게요.
+그런데, 왜 꼭 끝이 있어야 할까요?
 
 차가움만 있는 세상을 상상해 보세요. 그 세상에서 우리는, 차갑다는 게 무엇인지 알 수 있을까요?
 
-알 수 없어요. 비교할 따뜻함이 없으니까요. 차가움이라는 말도, 그 느낌도 존재하지 않았을 거예요.
+알 수 없어요. 비교할 따뜻함이 없으니, 차가움이라는 말도, 느낌도 없었을 거예요.
 
 이런 이야기가 있어요. 아주 오래전, 온통 빛뿐인 곳에 작은 빛 하나가 있었어요. 작은 빛은 자기가 빛이라는 걸 알았어요. 그런데 단 한 번도, 그걸 느껴 본 적이 없었어요. 주위가 모두 빛이었으니까요. 빛 속의 빛은, 보이지 않아요.
 
@@ -59,7 +57,7 @@
 
 많은 영적 가르침은, 우리 영혼이 이 지구에 온 이유가 바로 이것이라고 말해요. 지구는 둘로 나뉜 세계, 이원성의 세계예요. 빛과 어둠. 있음과 없음. 좋음과 싫음. 옳음과 그름. 선과 악. 차가움과 뜨거움. 만남과 이별. 그리고 삶과 죽음.
 
-둘 중 하나만 있다면, 그 하나는 지금 우리가 알고 있는 가치와 의미를 가질 수 없어요. 빛만 있다면 빛을 모르고, 선만 있다면 선이 무엇인지 모르고, 삶만 있다면 산다는 게 무엇인지 몰랐을 거예요.
+둘 중 하나만 있다면, 그 하나는 지금의 가치와 의미를 가질 수 없어요. 선만 있다면 선을 모르고, 삶만 있다면 산다는 게 무엇인지 몰랐을 거예요.
 
 아는 것과, 경험하는 것은 달라요. 그래서 우리는 사랑을 경험하려고 이별을 만나고, 자유를 경험하려고 묶여 보고, 삶을 경험하려고 죽음이 있는 이곳에 왔어요.
 
@@ -68,21 +66,15 @@
 그러니 어둠을 미워하지 마세요. 어둠은, 당신의 빛이 보이도록 와 준 거예요.
 
 <!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: 좋고 나쁨은, 우리가 고르는 거예요 -->
-그리고 이건, 또 하나를 알려 줘요.
-
 이 세상이 생겨난 근원에서는, 모든 것이 그냥 있을 뿐이에요. 좋은 것도, 나쁜 것도 없이요. 좋고 나쁨이라는 이름표는, 이원성의 세계에서 경험하는 우리가 붙이는 거예요.
 
 새옹지마 이야기, 아시죠? 노인의 말이 도망가자 사람들은 불행이라고 했어요. 말이 좋은 말을 데리고 돌아오자 행운이라고 했죠. 아들이 그 말에서 떨어져 다리를 다치자 또 불행이라고 했고, 그 덕분에 아들은 전쟁에 끌려가지 않았어요.
 
 무엇이 좋은 일이었을까요? 정답은 없어요.
 
-어떤 일이 좋은지 나쁜지, 가치가 있는지 없는지는, 정해져 있지 않아요. 지구에서 삶을 경험하는 우리가, 그렇게 생각하고 느끼기를 선택하고 있는 거예요.
-
-그러니까 지금 당신에게 어떤 일이 일어났든, 그 일에 어떤 의미를 줄지는, 당신이 고를 수 있어요. 그게 이 게임에서, 우리가 가진 가장 큰 힘이에요.
+좋은지 나쁜지, 가치가 있는지 없는지는, 정해져 있지 않아요. 지구에서 삶을 경험하는 우리가, 그렇게 느끼기를 선택하고 있는 거예요. 그러니 어떤 일이 일어났든, 그 의미는 당신이 고를 수 있어요. 그게 이 게임에서 우리가 가진, 가장 큰 힘이에요.
 
 <!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: 머지않아 잃을 것이기에, 더 사랑해요 | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
-이제, 조금 더 용기가 필요한 이야기예요.
-
 우리가 사랑하는 모든 것은, 언젠가 우리 곁을 떠나요. 사랑하는 사람도, 건강도, 젊음도, 지금 이 순간도요.
 
 그렇다고 사랑하지 말라는 게 아니에요. 상처받지 않으려고 차갑게 거리를 두라는 것도 아니에요. 정반대예요.
@@ -98,7 +90,7 @@
 
 우리는, 이번 생 한 번만 사는 몸이 전부가 아니기 때문이에요.
 
-과학은 에너지가 사라지지 않고, 형태만 바뀐다고 말해요. 그리고 많은 영적 전통은, 우리도 그렇다고 말해요. 몸은 이번 생을 경험하기 위해 잠시 입은 옷이고, 그 안의 진짜 우리는, 사라지지 않는 에너지이자 의식이라고요.
+과학은 에너지가 사라지지 않고, 형태만 바뀐다고 말해요. 영적 전통은 우리도 그렇다고 말해요. 몸은 잠시 입은 옷이고, 진짜 우리는 사라지지 않는 에너지, 의식이라고요.
 
 더 깊은 가르침은 이렇게 말해요. 시간은 우리가 이 세상을 경험하기 위한 틀일 뿐이고, 근원에서는 모든 것이 동시에 존재한다고요. 과거도, 지금도, 미래도. 떠나간 사람도, 지금 곁에 있는 사람도요.
 
@@ -109,13 +101,9 @@
 이걸 아는 사람은, 잃는 걸 두려워하지 않아요. 그래서 오히려, 더 자유롭게, 더 깊이 사랑할 수 있어요.
 
 <!-- section: dream | visuals: misty forest dream, reflection lake, light rays clouds, milky way, soap bubble light | title: 진짜이면서, 동시에 꿈이에요 | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
-그리고 마지막으로, 이 모든 걸 하나로 묶는 진실이 있어요.
-
 지금 당신이 느끼는 기쁨도, 눈물도, 사랑도, 모두 진짜예요. 진짜로 느끼고, 진짜로 살아야 해요.
 
-하지만 동시에, 이 모든 것은 꿈이에요. 금강경에는 이런 말이 있어요. 모든 만들어진 것은, 꿈과 같고, 환상과 같고, 물거품과 같고, 그림자와 같다. 인도의 전통은 이 세상을 마야, 실재처럼 보이는 아름다운 환영이라고 불러요.
-
-영원한 나의 눈으로 보면, 이번 생은 우리가 잠시 들어와 있는 아주 생생한 꿈이고, 게임이에요.
+하지만 동시에, 이 모든 것은 꿈이에요. 금강경에는 이런 말이 있어요. 모든 만들어진 것은, 꿈과 같고, 환상과 같고, 물거품과 같고, 그림자와 같다. 영원한 나의 눈으로 보면, 이번 생은 우리가 잠시 들어와 있는 아주 생생한 꿈이고, 게임이에요.
 
 게임에 푹 빠진 플레이어를 떠올려 보세요. 진심으로 웃고, 울고, 도전해요. 하지만 알고 있어요. 이건 게임이라는 걸. 그래서 져도 무너지지 않고, 잃어도 다시 일어나요.
 
@@ -143,7 +131,7 @@
 
 넷째, 힘든 일이 생기면 물어보세요. 이 어둠은, 나의 어떤 빛을 보여 주려고 온 걸까?
 
-다섯째, 잠들기 전에 말해 주세요. 오늘 하루, 나는 충분히 살았다. 그리고 내일 눈을 뜨면, 그건 당연한 아침이 아니라 선물로 받은 하루라는 걸 기억하세요.
+다섯째, 잠들기 전에 말해 주세요. 오늘 하루, 나는 충분히 살았다.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: 지금, 함께 해 볼까요 -->
 그럼 지금, 삼 분만 함께 해 볼게요.

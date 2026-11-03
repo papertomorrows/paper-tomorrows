@@ -31,7 +31,7 @@
 
 스티브 잡스가 답해 줬어요. 곧 죽는다는 걸 기억하는 게, 큰 선택 앞에서 가장 중요한 도구였다고요. 죽음 앞에서는 남의 기대도, 체면도, 실패의 두려움도 사라지고, 정말 중요한 것만 남으니까요.
 
-실제로 자신의 죽음을 떠올려 본 사람들은, 삶에 대한 감사함이 크게 늘었다는 연구도 있어요. 당연하던 아침 햇살이, 갑자기 선물이 되는 거예요.
+실제로 자신의 죽음을 떠올려 본 사람들은, 삶에 대한 감사함이 크게 늘었다는 연구도 있어요. 당연하던 것들이, 다시 보이기 시작하는 거예요.
 
 <!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, child laughing | title: 끝이 있기에, 아름다워요 | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
 그래서 옛 지혜들은, 죽음을 매일 떠올리라고 했어요. 행복한 나라로 알려진 부탄에는, 하루에 다섯 번 죽음을 생각하라는 말까지 있다고 해요.
@@ -120,6 +120,21 @@
 
 그리고 무엇보다, 하루하루를 더 나 자신으로, 더 자유롭게 살게 돼요. 남은 시간이 정해져 있다는 걸 아는 사람은, 남의 인생을 살 시간이 없거든요.
 
+<!-- section: accept | visuals: woman sitting quietly window, rain on window, calm lake, person walking forest path, sunrise field | title: 어떤 감정이든, 그것도 나예요 | ai: a person sitting peacefully in the middle of swirling ribbons of many colors of light, some bright gold, some deep blue and violet, letting all of them flow around them without pushing any away >> the colored ribbons of light slowly swirl and flow around the calm seated figure, none pushed away, soft glow pulses gently -->
+그런데 여기서, 꼭 하고 싶은 말이 있어요.
+
+죽음을 기억하라는 건, 억지로 좋게 생각하라는 말이 아니에요. 아직 살아 있으니 감사해야지, 무조건 긍정적이어야지. 그런 마음가짐은, 또 하나의 남의 게임일 수 있어요.
+
+가장 중요한 건, 지금 올라온 감정과 생각을 알아차리는 거예요. 그리고 물어보는 거예요. 이건 진짜 내 것일까? 아니면 누군가에게서 물려받은 생각일까?
+
+그리고 그게 무엇이든, 받아들이는 거예요. 슬픔이어도, 두려움이어도, 화여도 괜찮아요. 좋은 감정으로 바꾸지 않아도 돼요. 그것도 나니까요.
+
+모든 감정을 나로 받아들이는 사람은, 몸을 가지고 이 땅에 살면서도, 말도 안 되게 자유로워져요. 더 이상 감정과 싸우지 않으니까요. 그렇게 점점 더, 내가 돼요.
+
+그렇게 나로 존재할 때, 우리는 비로소 나를 위해 준비된 길 위를 걷게 돼요. 내 영혼이 이번 생에서 하고 싶었던 일을 하면서, 나만이 만들 수 있는 가치를 이 세상에 만들어 내요.
+
+그리고 이건, 나 한 사람만의 이야기가 아니에요. 한 사람 한 사람이 그렇게 자기 자신으로 존재할 때, 이 세상은 전혀 다른 곳이 될 거예요. 인류 모두가, 그렇게 존재하게 되는 날을 꿈꿔요.
+
 <!-- section: practice | visuals: morning journal, sunrise window, hugging family, woman dancing field, calm night bedroom | title: 오늘을 마지막처럼, 그러나 가볍게 -->
 그럼 오늘부터, 다섯 가지만 해 보세요.
 
@@ -129,9 +144,9 @@
 
 셋째, 하루에 하나, 베로니카처럼. 남의 눈 때문에 참았던 작은 일 하나를, 오늘 해 보세요.
 
-넷째, 힘든 일이 생기면 물어보세요. 이 어둠은, 나의 어떤 빛을 보여 주려고 온 걸까?
+넷째, 어떤 감정이나 생각이 올라오면, 먼저 물어보세요. 이건 진짜 내 것일까? 그리고 무엇이든, 밀어내지 말고 받아들여 주세요.
 
-다섯째, 잠들기 전에 말해 주세요. 오늘 하루, 나는 충분히 살았다.
+다섯째, 잠들기 전에, 오늘 올라왔던 감정 하나를 떠올리고 말해 주세요. 그래, 그것도 나야.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: 지금, 함께 해 볼까요 -->
 그럼 지금, 삼 분만 함께 해 볼게요.
@@ -142,18 +157,20 @@
 
 누구의 얼굴이 떠오르나요? 그 사람에게 마음속으로 말해 주세요. 고마워요. 사랑해요.
 
-그리고 지금까지 걸어온 당신의 삶을 바라봐 주세요. 웃었던 날도, 넘어졌던 날도, 모두 당신의 빛을 보여 준 날들이에요. 그 모든 날에게 말해 주세요. 수고했어.
+그리고 지금까지 걸어온 당신의 삶을 바라봐 주세요. 웃었던 날도, 넘어졌던 날도, 모두 당신이 살아낸 날들이에요.
+
+지금, 어떤 감정이 올라오나요? 슬픔이든, 두려움이든, 고요함이든, 그대로 두세요. 바꾸려 하지 않아도 돼요.
+
+그저 물어보세요. 이 감정은, 진짜 내 것일까?
+
+그리고 무엇이든, 받아들여 주세요. 그것도, 지금의 나니까요.
 
 이제, 숨을 크게 들이쉬고… 천천히 내쉬면서, 눈을 떠 보세요.
-
-당신은, 아직 살아 있어요.
-
-오늘은 마지막 날이 아니라, 다시 받은 선물 같은 하루예요.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, golden field, milky way -->
 베로니카는 죽음이 가까이 왔다고 믿었을 때, 비로소 살기 시작했어요. 우리는 그걸 기다릴 필요가 없어요. 지금, 죽음을 기억하는 것만으로 충분해요.
 
-끝이 있기에 아름답고, 어둠이 있기에 빛나요. 모든 것은 진짜이면서, 동시에 꿈이에요. 그러니 더 사랑하고, 덜 두려워하고, 더 나답게 사세요.
+끝이 있기에 아름답고, 어둠이 있기에 빛나요. 모든 것은 진짜이면서, 동시에 꿈이에요. 그러니 더 사랑하고, 덜 두려워하고, 어떤 감정이든 나로 받아들이면서, 더 나답게 사세요. 나를 위해 준비된 길 위에서, 내 영혼이 원하는 일을 하면서요.
 
 오늘이 마지막 날이라면 꼭 하고 싶은 한 가지를, 댓글에 적어 주세요. 그리고 그걸, 오늘 해 보세요.
 

@@ -31,7 +31,7 @@ Why remind someone of death at their most glorious moment?
 
 Steve Jobs gave the answer. Remembering he'd be dead soon was his most important tool for big choices. In the face of death, expectations, pride, and fear of failure fall away. Only what matters is left.
 
-Research even shows that people who imagine their own death become more grateful for life. The morning light they took for granted suddenly becomes a gift.
+Research even shows that people who imagine their own death become more grateful for life. Things they took for granted start to come back into view.
 
 <!-- section: beauty | visuals: cherry blossoms falling, sunset ocean, fireworks night, autumn leaves, child laughing | title: Because It Ends, It's Beautiful | ai: cherry blossom petals glowing softly as they fall through warm evening light over a quiet river, each petal shimmering like a tiny lantern before it touches the water >> glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens -->
 That's why the old wisdom says: think of death every day. In Bhutan, a country known for its happiness, there's even said to be a saying: think about death five times a day.
@@ -122,6 +122,21 @@ You start what you've been putting off. Not someday. Today. Just like Veronika p
 
 And above all, you live each day more as yourself, and more freely. Someone who knows their time is limited has no time to live someone else's life.
 
+<!-- section: accept | visuals: woman sitting quietly window, rain on window, calm lake, person walking forest path, sunrise field | title: Whatever You Feel, That's You Too | ai: a person sitting peacefully in the middle of swirling ribbons of many colors of light, some bright gold, some deep blue and violet, letting all of them flow around them without pushing any away >> the colored ribbons of light slowly swirl and flow around the calm seated figure, none pushed away, soft glow pulses gently -->
+But there's something I really want to say here.
+
+Remembering death doesn't mean forcing yourself to think positively. You're still alive, so be grateful. Always stay positive. That mindset can be just another game someone else made.
+
+What matters most is noticing the feelings and thoughts that come up. And asking: is this truly mine? Or is it a thought I inherited from someone else?
+
+And whatever it is, accepting it. Sadness, fear, anger, it's all okay. You don't have to turn it into something nicer. That's you too.
+
+Someone who accepts every feeling as part of themselves becomes almost absurdly free, even while living in a body on this Earth. Because they're no longer at war with their own feelings. And little by little, they become more and more themselves.
+
+When you exist as yourself like that, you start walking the path that was prepared for you. Doing what your soul came into this life to do, and creating the value only you can bring into this world.
+
+And this isn't just about one person. When each of us exists as ourselves like that, this world will become a completely different place. I dream of the day all of humanity lives that way.
+
 <!-- section: practice | visuals: morning journal, sunrise window, hugging family, woman dancing field, calm night bedroom | title: Live Today Like the Last, but Lightly -->
 So starting today, try just five things.
 
@@ -131,9 +146,9 @@ Second, tell the people who matter, today. Thank you. I love you. I'm sorry. Don
 
 Third, do one thing a day like Veronika. One small thing you've held back because of other people's eyes. Do it today.
 
-Fourth, when something hard happens, ask: what light of mine did this darkness come to show?
+Fourth, when a feeling or thought comes up, first ask: is this truly mine? And whatever it is, don't push it away. Accept it.
 
-Fifth, before you sleep, tell yourself: today, I lived fully.
+Fifth, before you sleep, bring to mind one feeling that came up today, and tell it: yes, that's me too.
 
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take three minutes together, right now.
@@ -144,18 +159,20 @@ Imagine that today is the last day of your life.
 
 Whose face comes to mind? Silently tell them: thank you. I love you.
 
-Now look back at the life you've walked so far. The days you laughed and the days you fell. Every one of them showed your light. Tell all of them: you did well.
+Now look back at the life you've walked so far. The days you laughed and the days you fell. All of them are days you lived.
+
+What feeling is coming up right now? Sadness, fear, stillness, just let it be. You don't have to change it.
+
+Simply ask: is this feeling truly mine?
+
+And whatever it is, accept it. That's who you are right now, too.
 
 Now, take a deep breath in… and as you slowly breathe out, open your eyes.
-
-You are still alive.
-
-Today isn't your last day. It's a day you've been given again, like a gift.
 
 <!-- section: outro | visuals: sunrise ocean, bird flying sky, mountain sunrise, golden field, milky way -->
 When Veronika believed death was near, she finally began to live. We don't have to wait for that. Remembering death, right now, is enough.
 
-It's beautiful because it ends. It shines because there is darkness. Everything is real, and also a dream. So love more, fear less, and live more as yourself.
+It's beautiful because it ends. It shines because there is darkness. Everything is real, and also a dream. So love more, fear less, accept every feeling as yours, and live more as yourself. On the path prepared for you, doing what your soul wants to do.
 
 If today were your last day, write the one thing you'd most want to do in the comments. And then, do it today.
 

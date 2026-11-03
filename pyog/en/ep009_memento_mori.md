@@ -76,16 +76,33 @@ Whether something is good or bad, whether it has value or not, isn't fixed. We, 
 
 So whatever has happened to you, you can choose what it means. That's the greatest power we have in this game.
 
-<!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: Even What We Love Most Can Be Lost | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
+<!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: Love More, Because You Will Lose It | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
 Now, this part takes a little more courage.
 
 Everything we love will one day leave us. The people we love, our health, our youth, this very moment.
 
-Does that sound cold? It's actually the opposite.
+That doesn't mean don't love. It doesn't mean keep a cold distance so you won't get hurt. It's the opposite.
 
-Only someone who accepts they could lose anything at any time can love right now with their whole heart. You hug them today. You say thank you today. You say sorry today. Because you know tomorrow isn't guaranteed.
+In one of his sonnets, Shakespeare wrote to a lover watching him grow old: This thou perceiv'st, which makes thy love more strong, to love that well which thou must leave ere long.
 
-Not love that clings out of fear of losing, but love that celebrates being together now. Love held in an open palm.
+Knowing you'll lose it soon, no, because you know, you love it even more. You hug them today. You say thank you today. You say sorry today.
+
+But little by little, you step out of the fear of losing. Not love that clings tight out of fear, but love held in an open palm. That's the deepest love, and the freest.
+
+<!-- section: energy | visuals: ocean waves, milky way, light rays clouds, stars night sky, aurora | title: We Are Energy That Never Disappears | ai: a glowing ocean wave made of golden light rising from a vast sea of light under a starry sky, then gently returning and dissolving back into the shining sea >> the golden wave slowly rises and curls, then gently melts back into the glowing sea, ripples of light spread outward, stars shimmer -->
+So why don't we need to fear losing so much?
+
+Because we're not just a body that lives this one life.
+
+Science tells us energy doesn't disappear. It only changes form. And many spiritual traditions say the same is true of us. The body is clothing we put on to experience this life. The real us inside is energy, consciousness, that never disappears.
+
+The deeper teachings go further. Time is just a frame we use to experience this world. At the source, everything exists at once. The past, the present, the future. The people who've left, and the people beside us now.
+
+Picture the ocean. A wave rises, then returns to the sea. The wave didn't disappear. It simply went back to the ocean it always was.
+
+So losing isn't really an ending. It's a change of form. Even when someone we love leaves, the energy of that love doesn't disappear. It's still here, in us, and in this universe.
+
+Someone who knows this doesn't fear losing. And so they can love more freely, and more deeply.
 
 <!-- section: dream | visuals: misty forest dream, reflection lake, light rays clouds, milky way, soap bubble light | title: Real, and Also a Dream | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
 And finally, there's one truth that ties all of this together.

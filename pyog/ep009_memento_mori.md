@@ -76,16 +76,33 @@
 
 그러니까 지금 당신에게 어떤 일이 일어났든, 그 일에 어떤 의미를 줄지는, 당신이 고를 수 있어요. 그게 이 게임에서, 우리가 가진 가장 큰 힘이에요.
 
-<!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: 가장 소중한 것도, 언제든 잃을 수 있어요 | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
+<!-- section: loss | visuals: mother child hug, old couple holding hands, autumn leaves falling, candle light, hands holding | title: 머지않아 잃을 것이기에, 더 사랑해요 | ai: two hands gently holding a glowing golden flower in the dark, some of its petals slowly drifting away into the air as soft light, the flower still shining warmly >> a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly, the hands hold it gently -->
 이제, 조금 더 용기가 필요한 이야기예요.
 
-우리가 사랑하는 모든 것은, 언젠가 우리를 떠나요. 사랑하는 사람도, 건강도, 젊음도, 지금 이 순간도요.
+우리가 사랑하는 모든 것은, 언젠가 우리 곁을 떠나요. 사랑하는 사람도, 건강도, 젊음도, 지금 이 순간도요.
 
-차갑게 들리나요? 사실은 반대예요.
+그렇다고 사랑하지 말라는 게 아니에요. 상처받지 않으려고 차갑게 거리를 두라는 것도 아니에요. 정반대예요.
 
-언제든 잃을 수 있다는 걸 받아들인 사람만이, 지금을 온 마음으로 사랑할 수 있어요. 오늘 안아 주고, 오늘 고맙다고 말하고, 오늘 미안하다고 말해요. 내일이 당연하지 않다는 걸 아니까요.
+셰익스피어는 소네트에서, 늙어 가는 자신을 바라보는 연인에게 이렇게 노래했어요. 그대는 이것을 알기에, 그대의 사랑은 더 강해진다. 머지않아 떠나보내야 할 것을, 더 깊이 사랑하게 된다.
 
-잃을까 봐 꽉 움켜쥐는 사랑이 아니라, 함께 있는 지금을 축복하는 사랑. 활짝 편 손바닥 위의 사랑이에요.
+머지않아 잃을 것을 알면서도, 아니, 알기 때문에 더 사랑하는 거예요. 오늘 안아 주고, 오늘 고맙다고 말하고, 오늘 미안하다고 말하면서요.
+
+다만, 잃는 것에 대한 두려움에서는 조금씩 벗어나는 거예요. 잃을까 봐 꽉 움켜쥐는 사랑이 아니라, 활짝 편 손바닥 위의 사랑. 그 사랑이 가장 깊고, 가장 자유로운 사랑이에요.
+
+<!-- section: energy | visuals: ocean waves, milky way, light rays clouds, stars night sky, aurora | title: 우리는, 사라지지 않는 에너지예요 | ai: a glowing ocean wave made of golden light rising from a vast sea of light under a starry sky, then gently returning and dissolving back into the shining sea >> the golden wave slowly rises and curls, then gently melts back into the glowing sea, ripples of light spread outward, stars shimmer -->
+그런데 왜, 잃는 걸 그렇게까지 두려워하지 않아도 될까요?
+
+우리는, 이번 생 한 번만 사는 몸이 전부가 아니기 때문이에요.
+
+과학은 에너지가 사라지지 않고, 형태만 바뀐다고 말해요. 그리고 많은 영적 전통은, 우리도 그렇다고 말해요. 몸은 이번 생을 경험하기 위해 잠시 입은 옷이고, 그 안의 진짜 우리는, 사라지지 않는 에너지이자 의식이라고요.
+
+더 깊은 가르침은 이렇게 말해요. 시간은 우리가 이 세상을 경험하기 위한 틀일 뿐이고, 근원에서는 모든 것이 동시에 존재한다고요. 과거도, 지금도, 미래도. 떠나간 사람도, 지금 곁에 있는 사람도요.
+
+바다를 떠올려 보세요. 파도는 솟아올랐다가, 다시 바다로 돌아가요. 파도는 사라진 게 아니에요. 원래의 바다로, 돌아간 것뿐이에요.
+
+그러니 잃는다는 건, 사실 끝이 아니라 형태가 바뀌는 거예요. 사랑했던 사람이 곁을 떠나도, 그 사랑의 에너지는 사라지지 않고, 우리 안에, 그리고 이 우주 안에 그대로 있어요.
+
+이걸 아는 사람은, 잃는 걸 두려워하지 않아요. 그래서 오히려, 더 자유롭게, 더 깊이 사랑할 수 있어요.
 
 <!-- section: dream | visuals: misty forest dream, reflection lake, light rays clouds, milky way, soap bubble light | title: 진짜이면서, 동시에 꿈이에요 | ai: a person standing on a mirror-still lake at dawn, the sky and its reflection merging so perfectly that the horizon disappears, soft floating bubbles of light drifting around them >> the bubbles of light slowly drift upward and some gently burst into sparkles, mist moves across the mirror lake, dawn light grows -->
 그리고 마지막으로, 이 모든 걸 하나로 묶는 진실이 있어요.

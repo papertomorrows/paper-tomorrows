@@ -42,7 +42,7 @@ Picture cherry blossoms. If they bloomed all year long, we wouldn't feel that th
 
 If we lived forever, today would mean nothing. But our days are numbered. So today is a single day that will never come again.
 
-Death isn't the enemy of life. It's the background that makes life shine.
+Death isn't the enemy of life. As precious and beautiful as life is, death is just as precious and beautiful, a part of life. So there's no need to fear it, and no need to rush toward it. It comes naturally, in its own time, as life's completion.
 
 <!-- section: duality | visuals: candle flame dark, day night timelapse, ice and fire, sunrise over darkness, stars night sky | title: Where There's Only Light, Light Can't Be Known | ai: a single small glowing light floating in a vast world made entirely of bright white light, barely visible, then a soft darkness gently opening around it so the small light suddenly shines warm and clear >> soft darkness slowly opens around the small light, the little light begins to shine brighter and warmer, faint stars appear in the new darkness -->
 But why does there have to be an end at all?
@@ -57,13 +57,13 @@ So the little light made a wish. I want to truly experience that I am light. And
 
 Many spiritual teachings say this is exactly why our souls came to Earth. Earth is a world split in two, a world of duality. Light and darkness. Being and not-being. Like and dislike. Right and wrong. Good and evil. Cold and hot. Meeting and parting. And life and death.
 
-If only one of each pair existed, it couldn't have the value and meaning we know. With only good, we wouldn't know good. With only life, we wouldn't know what it means to be alive.
+Because there is light, there is darkness. Because there is right, there is wrong. I can say I like something only because there are things I dislike. If only one of each pair existed, it couldn't have the value and meaning we know. With only good, we wouldn't know good. With only life, we wouldn't know what it means to be alive.
 
 Knowing something and experiencing it are different. So we meet parting to experience love. We get bound to experience freedom. We come to a place with death to experience life.
 
 Without what you are not, you can't experience who you are.
 
-So don't hate the darkness. The darkness came so your light could be seen.
+So don't hate the darkness. Darkness isn't a supporting role for light. It's another experience, just as precious as light.
 
 <!-- section: meaning | visuals: old farmer horse, mountain village, rain and sun, person thinking window, crossroads road | title: Good and Bad Are Something We Choose -->
 At the source this world came from, everything simply is. There's no good and no bad. The labels good and bad are what we, experiencing this world of duality, put on things.
@@ -82,6 +82,8 @@ That doesn't mean don't love. It doesn't mean keep a cold distance so you won't 
 In one of his sonnets, Shakespeare wrote to a lover watching him grow old: This thou perceiv'st, which makes thy love more strong, to love that well which thou must leave ere long.
 
 Knowing you'll lose it soon, no, because you know, you love it even more. You hug them today. You say thank you today. You say sorry today.
+
+Gaining, being together, is wonderful. But losing is another experience of the very same value. If there were only gaining, we'd never know how precious being together is.
 
 But little by little, you step out of the fear of losing. Not love that clings tight out of fear, but love held in an open palm. That's the deepest love, and the freest.
 
@@ -131,9 +133,13 @@ What matters most is noticing the feelings and thoughts that come up. And asking
 
 And whatever it is, accepting it. Sadness, fear, anger, it's all okay. You don't have to turn it into something nicer. That's you too.
 
-Someone who accepts every feeling as part of themselves becomes almost absurdly free, even while living in a body on this Earth. Because they're no longer at war with their own feelings. And little by little, they become more and more themselves.
+We are everything that exists. Positive and negative, light and dark, it's all us.
 
-When you exist as yourself like that, you start walking the path that was prepared for you. Doing what your soul came into this life to do, and creating the value only you can bring into this world.
+So look at it like this. Ah, I'm experiencing this thought right now. I'm experiencing this feeling right now. Whatever it is, you watch it, you feel it, and you let it move through you.
+
+Someone who accepts every feeling as part of themselves becomes almost absurdly free, even while living in a body on this Earth. Because they're no longer at war with their own feelings. Even here on Earth, experiencing life in a body, they remember who they are, who we are. And little by little, they become more and more themselves.
+
+When you exist as yourself like that, you start walking the path that was prepared for you. Existing with a happy soul, doing what your soul came into this life to do, and creating the value only you can bring. That's the life you get to experience, here on Earth.
 
 And this isn't just about one person. When each of us exists as ourselves like that, this world will become a completely different place. I dream of the day all of humanity lives that way.
 

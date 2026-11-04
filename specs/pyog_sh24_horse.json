@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh24_horse",
- "status": "ready-sh-ep0910",
+ "status": "done-sh-ep0910",
  "hook": "좋은 일, 나쁜 일은 없다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "지금 겪는 그 일도요."
    }
   ],
-  "images": [
+  "images_done": [
    "an old farmer in a misty mountain village watching his horse run away into the distance at dawn",
    "the horse returning over a golden hill leading a wild horse behind it, villagers watching",
    "a young man lying with a bandaged leg on a straw bed, his old father beside him, quiet room",
    "soldiers marching past a village gate in the distance while the father and son stay safely at home, soft light"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the horse gallops away across the misty valley, the old farmer watches calmly, mist drifts"

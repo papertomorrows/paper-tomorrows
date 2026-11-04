@@ -9,7 +9,7 @@
  "captions": true,
  "min_luma": 28,
  "max_ai_fallbacks": 3,
- "status": "hold-ep010_en-v1",
+ "status": "ready-ep010en-v1",
  "sentence_gap": 0.2,
  "para_gap": 0.55,
  "section_gap": 0.6

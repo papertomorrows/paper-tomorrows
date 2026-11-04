@@ -167,10 +167,19 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                                          "use_speaker_boost": True, "speed": 0.94})
         audios = tts_eleven.starmap([(s["text"], voice, vs) for s in todo])
     else:
-        audios = tts.starmap([(s["text"], voice, speed, lang) for s in todo])
+        audios = tts.starmap([(s["text"], voice, speed, lang) for s in todo], return_exceptions=True)
+    failed = []
     for s, audio in zip(todo, audios):
+        if isinstance(audio, Exception):
+            failed.append((s["text"], str(audio)[:160]))
+            continue
         s["file"].write_bytes(audio)
     CACHE.commit()
+    if failed:
+        for txt, err in failed:
+            print(f"TTS_FAILED: {txt} :: {err}")
+        raise RuntimeError(f"{len(failed)} sentence(s) failed TTS (saved the rest to cache); rephrase them: " +
+                           " | ".join(t for t, _ in failed))
     print(f"STEP voice: {len(todo)} new sentences, {len(allsent) - len(todo)} cached")
 
     # ---- timeline with calm pauses

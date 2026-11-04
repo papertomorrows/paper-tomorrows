@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh21_blossom",
- "status": "ready-sh-ep0910",
+ "status": "done-sh-ep0910",
  "hook": "일 년 내내 피는 벚꽃은 없다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "오늘, 진짜로 살아 보세요."
    }
   ],
-  "images": [
+  "images_done": [
    "cherry blossom petals glowing softly as they fall through warm evening light over a quiet river at dusk",
    "a person on a crowded subway train in the morning staring blankly at a phone, grey and tired light",
    "a person standing under a cherry tree at night looking up in wonder as glowing petals fall around them",
    "a sunrise over a quiet city seen from a window, warm gold light on an empty chair, a fresh new day"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens"

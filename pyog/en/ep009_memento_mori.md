@@ -29,7 +29,7 @@ With nothing left to lose, her fear was gone.
 This story is asking us something. Do we really need death right in front of us before we start to live?
 
 <!-- section: mementomori | visuals: ancient rome statue, sunset hourglass, old library books, stars night sky, candle light | title: Memento Mori: Remember You Will Die | ai: an hourglass glowing with golden sand on a wooden table by an open window at night, the starry sky outside, a single candle beside it >> the golden sand slowly falls through the hourglass, the candle flame flickers, stars twinkle through the open window -->
-In ancient Rome, it's said that when a victorious general paraded through the streets, someone behind him would whisper: memento mori. Remember that you, too, will die.
+In ancient Rome, it's said that when a victorious general paraded through the streets, someone behind him would whisper: memento mori. Remember that you, too, are mortal.
 
 Why remind someone of death at their most glorious moment?
 

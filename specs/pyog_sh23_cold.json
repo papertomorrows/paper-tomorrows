@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh23_cold",
- "status": "ready-sh-ep0910",
+ "status": "done-sh-ep0910",
  "hook": "기쁨만 있으면 불행한 이유",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "그러니 어둠도, 미워하지 마세요. 그것도 똑같이 소중한 경험이에요."
    }
   ],
-  "images": [
+  "images_done": [
    "a cold glowing blue crystal and a warm golden flame floating side by side in deep darkness, each making the other shine",
    "a single small light lost in a vast world of blinding white light, barely visible",
    "the same small light glowing warm and clear as soft darkness opens around it, stars appearing",
    "a person standing calmly where a golden dawn and a starry night meet in the sky, both halves beautiful"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the blue crystal and the golden flame slowly orbit each other, their light mixing and pulsing, sparks drift"

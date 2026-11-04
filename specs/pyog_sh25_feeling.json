@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh25_feeling",
- "status": "ready-sh-ep0910",
+ "status": "done-sh-ep0910",
  "hook": "가라앉는 밤, 없애려 하지 마세요",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "감정과 싸우지 않을 때, 우리는 말도 안 되게 자유로워져요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person sitting alone by a dark window at night with rain on the glass, a phone glowing in their hand, heavy quiet mood",
    "the same person setting the phone down and closing their eyes, soft blue and violet light around them",
    "ribbons of many colors of light, gold, blue and violet, swirling gently around a calm seated figure",
    "a person sitting peacefully by the window at dawn, rain stopped, soft golden light on their face"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "rain slides down the window glass, the phone light flickers on the face, the room stays dim and still"

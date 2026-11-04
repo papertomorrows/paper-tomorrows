@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh20_veronika",
- "status": "ready-sh-ep0910",
+ "status": "done-sh-ep0910",
  "hook": "일주일 남았다는 말에, 그녀는 살기 시작했다",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "당신은, 그 말을 듣기 전에 살 수 있나요?"
    }
   ],
-  "images": [
+  "images_done": [
    "a young woman sitting alone at a grand piano in a dim old hall at night, moonlight through tall windows, a single tear, soft golden light rising from the keys",
    "a doctor in a white coat standing in a dim hospital corridor at night looking back thoughtfully, a soft glow from a window",
    "a young woman laughing freely while dancing barefoot in falling snow under a streetlight at night, golden light around her",
    "a glowing human heart made of warm golden light beating steadily in the dark, healthy and strong"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "soft golden light slowly rises from the piano keys and swirls around her, moonlight shifts, snow falls outside"

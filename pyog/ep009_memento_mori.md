@@ -29,7 +29,7 @@
 이 이야기는 우리에게 묻고 있어요. 꼭 죽음이 눈앞에 와야만, 우리는 진짜로 살 수 있을까요?
 
 <!-- section: mementomori | visuals: ancient rome statue, sunset hourglass, old library books, stars night sky, candle light | title: 메멘토 모리, 죽음을 기억하라 | ai: an hourglass glowing with golden sand on a wooden table by an open window at night, the starry sky outside, a single candle beside it >> the golden sand slowly falls through the hourglass, the candle flame flickers, stars twinkle through the open window -->
-고대 로마에서는, 전쟁에서 이긴 장군이 행진할 때 뒤에서 누군가 이렇게 속삭였다고 해요. 메멘토 모리. 당신도 언젠가 죽는다는 걸 기억하라.
+고대 로마에서는, 전쟁에서 이긴 장군이 행진할 때 뒤에서 누군가 이렇게 속삭였다고 해요. 메멘토 모리. 당신도 영원히 살 수는 없다는 걸 기억하라.
 
 가장 빛나는 순간에, 왜 굳이 죽음을 떠올리게 했을까요?
 

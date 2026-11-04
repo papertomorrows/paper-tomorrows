@@ -2,7 +2,7 @@
  "id": "pyog_sh26en_sorted",
  "status": "done-sh-ep011-en",
  "lang": "English",
- "hook": "BEFORE YOUR|LUCK TURNS,|THIS HAPPENS",
+ "hook": "BEFORE YOU SUCCEED,|YOU'LL GO|THROUGH THIS",
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh26_sorted",
@@ -64,6 +64,6 @@
    }
   ]
  },
- "hook_size": 112,
+ "hook_size": 104,
  "hook_hi": 2
 }

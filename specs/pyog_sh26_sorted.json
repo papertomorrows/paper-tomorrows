@@ -1,7 +1,7 @@
 {
  "id": "pyog_sh26_sorted",
  "status": "done-ep011",
- "hook": "운이 터지기 직전|모두가 겪는 현상",
+ "hook": "성공하기 전,|반드시 이걸 겪게 됩니다",
  "gap": 0.15,
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -77,5 +77,7 @@
     "motion": "the fading silhouettes slowly walk away into the mist, the central figure stands calm as golden light grows around them"
    }
   ]
- }
+ },
+ "hook_size": 104,
+ "hook_hi": 1
 }

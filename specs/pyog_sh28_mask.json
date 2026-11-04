@@ -1,7 +1,7 @@
 {
  "id": "pyog_sh28_mask",
  "status": "done-ep011",
- "hook": "잘 풀리는 사람은|이것부터 한다",
+ "hook": "부자들은|이렇게 행동합니다",
  "gap": 0.15,
  "assets": {
   "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
@@ -77,5 +77,7 @@
     "motion": "the golden oxygen masks sway gently, the woman breathes in calmly, soft light fills the cabin"
    }
   ]
- }
+ },
+ "hook_size": 128,
+ "hook_hi": 1
 }

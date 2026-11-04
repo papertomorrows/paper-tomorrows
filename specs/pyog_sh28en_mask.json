@@ -2,7 +2,7 @@
  "id": "pyog_sh28en_mask",
  "status": "done-sh-ep011-en",
  "lang": "English",
- "hook": "LUCKY PEOPLE|DO THIS|FIRST",
+ "hook": "RICH PEOPLE|ACT LIKE THIS",
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh28_mask",
@@ -64,6 +64,6 @@
    }
   ]
  },
- "hook_size": 118,
- "hook_hi": 2
+ "hook_size": 120,
+ "hook_hi": 1
 }

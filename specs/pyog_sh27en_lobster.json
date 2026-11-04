@@ -2,7 +2,7 @@
  "id": "pyog_sh27en_lobster",
  "status": "done-sh-ep011-en",
  "lang": "English",
- "hook": "PEOPLE WHO RISE|ALWAYS HIDE|FIRST",
+ "hook": "SUCCESSFUL PEOPLE|ALL ENDURED|THIS",
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh27_lobster",
@@ -64,6 +64,6 @@
    }
   ]
  },
- "hook_size": 112,
+ "hook_size": 104,
  "hook_hi": 2
 }

@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh27_lobster",
- "status": "ready-ep011",
+ "status": "done-ep011",
  "hook": "랍스터가 숨는 이유",
  "gap": 0.15,
  "assets": {
@@ -65,13 +65,13 @@
     "caption": "지금은 숨어도 괜찮아요. 새 껍데기가 자라는 중이니까요."
    }
   ],
-  "images": [
+  "images_done": [
    "a lobster in a dark blue underwater cave, its hard shell tight and cracking, faint light leaking from the cracks",
    "a lobster hiding under a rock in deep blue water, slipping out of its old shell, the new body glowing softly",
    "an empty old lobster shell resting on the sea floor in a beam of light, a larger glowing lobster swimming away",
    "a person curled up inside a glowing cocoon of golden light in the dark, peaceful"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 1,
     "motion": "the lobster slowly slides out of its old shell, the old shell drifts aside, faint light pulses along the new body, bubbles rise"

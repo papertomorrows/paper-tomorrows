@@ -1,13 +1,13 @@
 {
  "id": "pyog_thumb_ep011",
- "status": "ready-ep011",
+ "status": "done-thumb11",
  "assets": {
   "style": "Cinematic semi-realistic digital painting, dramatic high-contrast lighting, warm golden window light on one side of the face and deep cool shadow on the other, emotional and intense, sharp focus on the eyes, one clear focal subject. The right half of the image is dark, calm, empty space for a title. No text, no letters, no numbers, no watermark, no signature.",
   "size": [
    1920,
    1080
   ],
-  "images": [
+  "images_done": [
    "On the left side, filling the left half: a close-up portrait of a young Korean woman in her twenties sitting alone by a rainy window at night, looking straight at the viewer with calm, quietly relieved eyes, a faint peaceful half-smile, soft golden glow on her face",
    "On the left side, filling the left half: a close-up portrait of a young American woman in her twenties sitting alone by a rainy window at night, looking straight at the viewer with calm, quietly relieved eyes, a faint peaceful half-smile, soft golden glow on her face"
   ]

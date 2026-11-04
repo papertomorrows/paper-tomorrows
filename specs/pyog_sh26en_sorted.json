@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh26en_sorted",
+ "status": "ready-sh-ep011-en",
+ "lang": "English",
+ "hook": "If People Are Falling Away From You",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh26_sorted",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Tired of every text, <#0.2#> and secretly relieved when plans get canceled?",
+    "caption": "Tired of every text, and secretly relieved when plans get canceled?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The gatherings you used to love, <#0.2#> now strangely empty?",
+    "caption": "The gatherings you used to love, now strangely empty?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Nothing's wrong with you. <#0.3#> Many people pass through this right before their life changes.",
+    "caption": "Nothing's wrong with you. Many people pass through this right before their life changes."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When your energy shifts, <#0.2#> you stop resonating with the old people.",
+    "caption": "When your energy shifts, you stop resonating with the old people."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Korean saju says, <#0.2#> when your fortune turns, people fall away first.",
+    "caption": "Korean saju says, when your fortune turns, people fall away first."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So don't hold on to who's leaving. <#0.2#> A new chapter is being set up.",
+    "caption": "So don't hold on to who's leaving. A new chapter is being set up."
+   }
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh27en_lobster",
+ "status": "ready-sh-ep011-en",
+ "lang": "English",
+ "hook": "Why the Lobster Hides",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh27_lobster",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When a lobster grows, <#0.2#> its shell squeezes, and it hurts.",
+    "caption": "When a lobster grows, its shell squeezes, and it hurts."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So it hides under a rock, <#0.2#> and sheds the shell.",
+    "caption": "So it hides under a rock, and sheds the shell."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Then it waits, alone, <#0.2#> until the new one hardens.",
+    "caption": "Then it waits, alone, until the new one hardens."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Does everything feel uncomfortable lately, <#0.2#> and you just want to hide?",
+    "caption": "Does everything feel uncomfortable lately, and you just want to hide?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You're not falling apart. <#0.3#> It's a sign that you've grown.",
+    "caption": "You're not falling apart. It's a sign that you've grown."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "It's okay to hide for now. <#0.2#> Your new shell is growing.",
+    "caption": "It's okay to hide for now. Your new shell is growing."
+   }
+  ]
+ }
+}

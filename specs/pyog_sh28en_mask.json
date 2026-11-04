@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh28en_mask",
+ "status": "ready-sh-ep011-en",
+ "lang": "English",
+ "hook": "Good People Need to Be More Selfish",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh28_mask",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "On a plane, they tell you <#0.2#> to put your own mask on first.",
+    "caption": "On a plane, they tell you to put your own mask on first."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You have to breathe, <#0.2#> before you can help the person next to you.",
+    "caption": "You have to breathe, before you can help the person next to you."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You didn't come to Earth <#0.2#> to please anyone.",
+    "caption": "You didn't come to Earth to please anyone."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So be a little more, <#0.3#> selfish.",
+    "caption": "So be a little more, selfish."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Not what others want to hear, <#0.2#> say what your soul wants to say.",
+    "caption": "Not what others want to hear, say what your soul wants to say."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When you're full, <#0.2#> real love can finally flow.",
+    "caption": "When you're full, real love can finally flow."
+   }
+  ]
+ }
+}

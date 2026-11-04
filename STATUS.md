@@ -124,3 +124,5 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 ## English voice (2026-11-03, user decision)
 - From EP009 on, Play Your Own Game (English) uses MiniMax `English_Gentle-voiced_man` (sample C), speed 1.1, for long-form and shorts. Previous voice English_CaptivatingStoryteller sounded too AI-like to the user. ElevenLabs Daniel was preferred but rejected for cost (needs Pro $99/mo for daily output).
 - Do not edit already-rendered specs with status "ready-*" (a diff re-triggers rendering); set the voice in new specs.
+
+- Titles: do NOT use the "~하는 이유 / Why X..." template (user finds it cliche). Lead with a story scene, a direct question to the viewer, a sharp statement, or a named person (e.g. EP009 KR "스티브 잡스가 매일 아침 거울 앞에서 던진 질문"). Never state the conclusion in the title.

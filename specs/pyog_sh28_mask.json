@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh28_mask",
+ "status": "ready-ep011",
+ "hook": "착한 사람일수록 이기적이 돼야 합니다",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "비행기에선 산소마스크를, <#0.2#> 나부터 쓰라고 하죠.",
+    "caption": "비행기에선 산소마스크를, 나부터 쓰라고 하죠."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내가 숨을 쉬어야, <#0.2#> 옆 사람도 도울 수 있으니까요.",
+    "caption": "내가 숨을 쉬어야, 옆 사람도 도울 수 있으니까요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당신은 누군가를 기쁘게 하려고, <#0.2#> 지구에 온 게 아니에요.",
+    "caption": "당신은 누군가를 기쁘게 하려고, 지구에 온 게 아니에요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 조금 더, <#0.3#> 이기적이 되세요.",
+    "caption": "그러니 조금 더, 이기적이 되세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "남이 듣고 싶은 말 말고, <#0.2#> 내 영혼이 하고 싶은 말을 하세요.",
+    "caption": "남이 듣고 싶은 말 말고, 내 영혼이 하고 싶은 말을 하세요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내가 채워져야, <#0.2#> 진짜 사랑도 흘러갈 수 있어요.",
+    "caption": "내가 채워져야, 진짜 사랑도 흘러갈 수 있어요."
+   }
+  ],
+  "images": [
+   "inside a dim airplane cabin, golden oxygen masks dropping from above, a calm woman putting her own mask on first",
+   "an empty glass pitcher in the dark, a single drop falling, and the same pitcher overflowing with golden light",
+   "a glowing soul of golden light standing on a hill above the earth at sunrise, choosing one path that shines brighter",
+   "a woman standing with open arms on a mountain top at dawn, light pouring through her"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the golden oxygen masks sway gently, the woman breathes in calmly, soft light fills the cabin"
+   }
+  ]
+ }
+}

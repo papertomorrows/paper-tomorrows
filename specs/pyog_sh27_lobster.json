@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh27_lobster",
+ "status": "ready-ep011",
+ "hook": "랍스터가 숨는 이유",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "랍스터는 몸이 자라면, <#0.2#> 껍데기가 몸을 조여 와서 아파요.",
+    "caption": "랍스터는 몸이 자라면, 껍데기가 몸을 조여 와서 아파요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러면 바위 밑에 숨어서, <#0.2#> 껍데기를 벗어요.",
+    "caption": "그러면 바위 밑에 숨어서, 껍데기를 벗어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 새 껍데기가 단단해질 때까지, <#0.2#> 혼자 기다려요.",
+    "caption": "그리고 새 껍데기가 단단해질 때까지, 혼자 기다려요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "요즘 모든 게 불편하고, <#0.2#> 혼자 숨고 싶나요?",
+    "caption": "요즘 모든 게 불편하고, 혼자 숨고 싶나요?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그건 무너지는 게 아니라, <#0.3#> 당신이 커졌다는 신호예요.",
+    "caption": "그건 무너지는 게 아니라, 당신이 커졌다는 신호예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금은 숨어도 괜찮아요. <#0.2#> 새 껍데기가 자라는 중이니까요.",
+    "caption": "지금은 숨어도 괜찮아요. 새 껍데기가 자라는 중이니까요."
+   }
+  ],
+  "images": [
+   "a lobster in a dark blue underwater cave, its hard shell tight and cracking, faint light leaking from the cracks",
+   "a lobster hiding under a rock in deep blue water, slipping out of its old shell, the new body glowing softly",
+   "an empty old lobster shell resting on the sea floor in a beam of light, a larger glowing lobster swimming away",
+   "a person curled up inside a glowing cocoon of golden light in the dark, peaceful"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the lobster slowly slides out of its old shell, the old shell drifts aside, faint light pulses along the new body, bubbles rise"
+   }
+  ]
+ }
+}

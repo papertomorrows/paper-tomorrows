@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh26_sorted",
+ "status": "ready-ep011",
+ "hook": "사람이 정리되기 시작했다면",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "카톡이 귀찮고, <#0.2#> 약속이 취소되면 오히려 기쁜가요?",
+    "caption": "카톡이 귀찮고, 약속이 취소되면 오히려 기쁜가요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "예전엔 즐겁던 모임이, <#0.2#> 이제는 이상하게 공허한가요?",
+    "caption": "예전엔 즐겁던 모임이, 이제는 이상하게 공허한가요?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이상한 게 아니에요. <#0.3#> 인생이 바뀌기 직전에 많은 사람이 지나는 시기예요.",
+    "caption": "이상한 게 아니에요. 인생이 바뀌기 직전에 많은 사람이 지나는 시기예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내 에너지가 바뀌면, <#0.2#> 예전 사람들과 더 이상 공명하지 않아요.",
+    "caption": "내 에너지가 바뀌면, 예전 사람들과 더 이상 공명하지 않아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사주에서는, <#0.2#> 운이 크게 바뀔 때 사람이 먼저 정리된다고 말해요.",
+    "caption": "사주에서는, 운이 크게 바뀔 때 사람이 먼저 정리된다고 말해요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 떠나는 인연을, <#0.2#> 붙잡지 마세요. 새 판이 깔리는 중이에요.",
+    "caption": "그러니 떠나는 인연을, 붙잡지 마세요. 새 판이 깔리는 중이에요."
+   }
+  ],
+  "images": [
+   "a young woman sitting alone by a rainy window at night, her phone face down, a faint golden glow beginning around her chest",
+   "many fading silhouettes of people slowly walking away down a misty path of light, one person standing calmly in the center",
+   "a lone figure beneath a great ancient tree under a starry sky, a soft circle of golden light forming around them",
+   "a glowing person standing at dawn on a hill, a new path of golden light opening before them"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the fading silhouettes slowly walk away into the mist, the central figure stands calm as golden light grows around them"
+   }
+  ]
+ }
+}

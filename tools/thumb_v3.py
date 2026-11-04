@@ -28,7 +28,7 @@ m = ImageChops.lighter(m, m2)
 im = Image.composite(Image.new('RGB', (W, H), (5, 6, 10)), im, m)
 d = ImageDraw.Draw(im)
 
-x_left, area_w = 545, 705
+x_left, area_w = 515, 745
 
 
 def fit(text, start, minimum, path=FONT, idx=1):
@@ -46,9 +46,12 @@ if quote:
     blocks.append((quote, *fit(quote, 54, 30, FONT_B, 1), WHT, 'q'))
 for ln in white.split('|'):
     if ln:
-        blocks.append((ln, *fit(ln, 150, 70), WHT, 'w'))
-blocks.append((yellow, *fit(yellow, 178, 80), YEL, 'y'))
-gaps = {'q': 26, 'w': 14, 'y': 0}
+        blocks.append((ln, *fit(ln, 108, 60), WHT, "w"))
+ys = [t for t in yellow.split('|') if t]
+ysz = min(fit(t, 178, 80)[1] for t in ys)  # one shared size for all punch lines
+for t in ys:
+    blocks.append((t, ImageFont.truetype(FONT, ysz, index=1), ysz, YEL, 'y'))
+gaps = {'q': 26, 'w': 14, 'y': 8}
 total = sum(s for _, _, s, _, _ in blocks) + sum(gaps[k] for *_, k in blocks[:-1])
 y = (H - total) // 2 + 30
 for text, f, s, col, kind in blocks:

@@ -2,7 +2,7 @@
  "id": "pyog_sh27en_lobster",
  "status": "ready-sh-ep011-en",
  "lang": "English",
- "hook": "Why the Lobster Hides",
+ "hook": "PEOPLE WHO RISE|ALWAYS HIDE|FIRST",
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh27_lobster",
@@ -63,5 +63,7 @@
     "caption": "It's okay to hide for now. Your new shell is growing."
    }
   ]
- }
+ },
+ "hook_size": 112,
+ "hook_hi": 2
 }

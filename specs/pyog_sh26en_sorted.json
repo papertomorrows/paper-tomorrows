@@ -2,7 +2,7 @@
  "id": "pyog_sh26en_sorted",
  "status": "ready-sh-ep011-en",
  "lang": "English",
- "hook": "If People Are Falling Away From You",
+ "hook": "BEFORE YOUR|LUCK TURNS,|THIS HAPPENS",
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh26_sorted",
@@ -63,5 +63,7 @@
     "caption": "So don't hold on to who's leaving. A new chapter is being set up."
    }
   ]
- }
+ },
+ "hook_size": 112,
+ "hook_hi": 2
 }

@@ -2,7 +2,7 @@
  "id": "pyog_sh28en_mask",
  "status": "ready-sh-ep011-en",
  "lang": "English",
- "hook": "Good People Need to Be More Selfish",
+ "hook": "LUCKY PEOPLE|DO THIS|FIRST",
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh28_mask",
@@ -63,5 +63,7 @@
     "caption": "When you're full, real love can finally flow."
    }
   ]
- }
+ },
+ "hook_size": 118,
+ "hook_hi": 2
 }

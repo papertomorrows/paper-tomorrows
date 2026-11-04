@@ -99,10 +99,18 @@ def main(spec_path, out, music=None):
            "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, "
            "MarginR, MarginV, Encoding",
            "Style: Hook,Noto Sans CJK KR,92,&H0040D0FF,&H0040D0FF,&H00000000,&HA0000000,1,0,0,0,100,100,0,0,1,6,4,8,60,60,230,1",
+           "Style: Hook2,Noto Sans CJK KR Black,124,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC0000000,1,0,0,0,100,100,-2,0,1,9,6,8,40,40,170,1",
            "Style: Cap,Noto Sans CJK KR,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,1,0,0,0,100,100,0,0,1,5,3,8,70,70,1180,1",
            "Style: Brand,Noto Sans CJK KR,40,&H90FFFFFF,&H90FFFFFF,&H90000000,&H00000000,1,0,0,0,100,100,2,0,1,2,0,2,60,60,110,1",
            "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
-    ass.append(f"Dialogue: 2,{at(0)},{at(total)},Hook,,0,0,0,,{{\\fad(0,300)}}{wrap(hook, 12)}")
+    if "|" in hook:  # punchy 2-3 line hook: heavy font, white lines + yellow punch line
+        hl = hook.split("|")
+        hi = int(spec.get("hook_hi", len(hl) - 1))
+        body = "\\N".join(("{\\c&H0000D6FF&}" if i == hi else "{\\c&H00FFFFFF&}") + t for i, t in enumerate(hl))
+        fs = int(spec.get("hook_size", 150))
+        ass.append(f"Dialogue: 2,{at(0)},{at(total)},Hook2,,0,0,0,,{{\\fad(0,200)\\fs{fs}}}{body}")
+    else:
+        ass.append(f"Dialogue: 2,{at(0)},{at(total)},Hook,,0,0,0,,{{\\fad(0,300)}}{wrap(hook, 12)}")
     ass.append(f"Dialogue: 1,{at(0)},{at(total)},Brand,,0,0,0,,{spec.get('brand', '당신만의 게임')}")
     for st, en, tx in events:
         ass.append(f"Dialogue: 0,{at(st)},{at(en + 0.1)},Cap,,0,0,0,,{{\\fad(80,80)}}{wrap(tx)}")

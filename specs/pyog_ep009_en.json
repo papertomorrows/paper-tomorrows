@@ -1,0 +1,16 @@
+{
+ "id": "pyog_ep009_en",
+ "script": "pyog/en/ep009_memento_mori.md",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "voice_id": "English_Gentle-voiced_man",
+ "speed": 1.15,
+ "lang": "English",
+ "seed": 125,
+ "captions": true,
+ "min_luma": 28,
+ "max_ai_fallbacks": 3,
+ "status": "hold-ep009_en-v1",
+ "sentence_gap": 0.2,
+ "para_gap": 0.55,
+ "section_gap": 0.6
+}

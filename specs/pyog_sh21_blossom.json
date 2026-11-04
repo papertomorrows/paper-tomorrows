@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh21_blossom",
+ "status": "ready-sh-ep0910",
+ "hook": "일 년 내내 피는 벚꽃은 없다",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "벚꽃이 일 년 내내 핀다면, <#0.2#> 우리는 그 아래에서 설렐까요?",
+    "caption": "벚꽃이 일 년 내내 핀다면, 우리는 그 아래에서 설렐까요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "며칠 뒤면 진다는 걸 알기에, <#0.2#> 지금이 아름다운 거예요.",
+    "caption": "며칠 뒤면 진다는 걸 알기에, 지금이 아름다운 거예요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "부탄에는 하루에 다섯 번, <#0.2#> 죽음을 생각하라는 말이 있다고 해요.",
+    "caption": "부탄에는 하루에 다섯 번, 죽음을 생각하라는 말이 있다고 해요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "출근길 지하철에서 휴대폰만 보던 아침. <#0.3#> 그게 마지막 아침이었다면, 그렇게 보냈을까요?",
+    "caption": "출근길 지하철에서 휴대폰만 보던 아침. 그게 마지막 아침이었다면, 그렇게 보냈을까요?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "끝이 있기에, <#0.2#> 오늘은 다시 오지 않는 단 한 번의 하루예요.",
+    "caption": "끝이 있기에, 오늘은 다시 오지 않는 단 한 번의 하루예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘, <#0.3#> 진짜로 살아 보세요.",
+    "caption": "오늘, 진짜로 살아 보세요."
+   }
+  ],
+  "images": [
+   "cherry blossom petals glowing softly as they fall through warm evening light over a quiet river at dusk",
+   "a person on a crowded subway train in the morning staring blankly at a phone, grey and tired light",
+   "a person standing under a cherry tree at night looking up in wonder as glowing petals fall around them",
+   "a sunrise over a quiet city seen from a window, warm gold light on an empty chair, a fresh new day"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "glowing petals drift slowly down and touch the river, ripples of golden light spread, the evening light deepens"
+   }
+  ]
+ }
+}

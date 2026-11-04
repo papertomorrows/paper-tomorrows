@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh25_feeling",
+ "status": "ready-sh-ep0910",
+ "hook": "가라앉는 밤, 없애려 하지 마세요",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "밤에 이유 없이, <#0.2#> 마음이 가라앉을 때 있죠?",
+    "caption": "밤에 이유 없이, 마음이 가라앉을 때 있죠?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리는 보통, <#0.2#> 얼른 없애려고 휴대폰을 켜요.",
+    "caption": "우리는 보통, 얼른 없애려고 휴대폰을 켜요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 대신, 이렇게 바라봐 주세요. <#0.3#> 아, 내가 지금 이런 감정을 경험하고 있구나.",
+    "caption": "그 대신, 이렇게 바라봐 주세요. 아, 내가 지금 이런 감정을 경험하고 있구나."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 물어보세요. <#0.2#> 이건, 진짜 내 것일까?",
+    "caption": "그리고 물어보세요. 이건, 진짜 내 것일까?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "무엇이든 받아들여 주세요. <#0.2#> 그것도 나니까요.",
+    "caption": "무엇이든 받아들여 주세요. 그것도 나니까요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "감정과 싸우지 않을 때, <#0.3#> 우리는 말도 안 되게 자유로워져요.",
+    "caption": "감정과 싸우지 않을 때, 우리는 말도 안 되게 자유로워져요."
+   }
+  ],
+  "images": [
+   "a person sitting alone by a dark window at night with rain on the glass, a phone glowing in their hand, heavy quiet mood",
+   "the same person setting the phone down and closing their eyes, soft blue and violet light around them",
+   "ribbons of many colors of light, gold, blue and violet, swirling gently around a calm seated figure",
+   "a person sitting peacefully by the window at dawn, rain stopped, soft golden light on their face"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "rain slides down the window glass, the phone light flickers on the face, the room stays dim and still"
+   }
+  ]
+ }
+}

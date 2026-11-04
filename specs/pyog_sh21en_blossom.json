@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh21en_blossom",
+ "status": "hold-sh-ep0910-en",
+ "lang": "English",
+ "hook": "No Cherry Blossom Blooms All Year",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh21_blossom",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "If cherry blossoms bloomed all year, <#0.2#> would they still move us?",
+    "caption": "If cherry blossoms bloomed all year, would they still move us?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Because they fall in a few days, <#0.2#> this moment is beautiful.",
+    "caption": "Because they fall in a few days, this moment is beautiful."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "In Bhutan, there's said to be a saying: <#0.2#> think about death five times a day.",
+    "caption": "In Bhutan, there's said to be a saying: think about death five times a day."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "That morning on the train, staring at your phone. <#0.3#> If it were your last morning, would you have spent it that way?",
+    "caption": "That morning on the train, staring at your phone. If it were your last morning, would you have spent it that way?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Because it ends, <#0.2#> today is a day that will never come again.",
+    "caption": "Because it ends, today is a day that will never come again."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Today, <#0.3#> really live it.",
+    "caption": "Today, really live it."
+   }
+  ]
+ }
+}

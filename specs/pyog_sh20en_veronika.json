@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh20en_veronika",
+ "status": "hold-sh-ep0910-en",
+ "lang": "English",
+ "hook": "Told She Had a Week, She Finally Lived",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh20_veronika",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The doctor told her: <#0.3#> you only have days left.",
+    "caption": "The doctor told her: you only have days left."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "From that moment, <#0.2#> she started to live for the first time.",
+    "caption": "From that moment, she started to live for the first time."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "She played piano in the middle of the night, <#0.2#> said what she felt, <#0.2#> and fell in love.",
+    "caption": "She played piano in the middle of the night, said what she felt, and fell in love."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "But <#0.4#> her heart was fine.",
+    "caption": "But her heart was fine."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The doctor said it on purpose, <#0.2#> so she would finally live.",
+    "caption": "The doctor said it on purpose, so she would finally live."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Can you start living <#0.3#> before someone tells you that?",
+    "caption": "Can you start living before someone tells you that?"
+   }
+  ]
+ }
+}

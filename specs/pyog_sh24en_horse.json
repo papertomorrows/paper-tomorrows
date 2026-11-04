@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh24en_horse",
+ "status": "hold-sh-ep0910-en",
+ "lang": "English",
+ "hook": "There's No Good or Bad Luck",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh24_horse",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When the old farmer's horse ran away, <#0.2#> the villagers said: bad luck.",
+    "caption": "When the old farmer's horse ran away, the villagers said: bad luck."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When it came back with a wild horse, <#0.2#> they said: good luck.",
+    "caption": "When it came back with a wild horse, they said: good luck."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "His son fell from it and broke his leg. Bad luck. <#0.3#> Then soldiers came, and his son was spared.",
+    "caption": "His son fell from it and broke his leg. Bad luck. Then soldiers came, and his son was spared."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So which was good?",
+    "caption": "So which was good?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "There's no right answer. <#0.2#> You choose what it means.",
+    "caption": "There's no right answer. You choose what it means."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Even what you're going through right now.",
+    "caption": "Even what you're going through right now."
+   }
+  ]
+ }
+}

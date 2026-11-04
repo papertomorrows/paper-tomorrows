@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh25en_feeling",
+ "status": "hold-sh-ep0910-en",
+ "lang": "English",
+ "hook": "On Heavy Nights, Don't Fight the Feeling",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh25_feeling",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Some nights, for no reason, <#0.2#> your heart just sinks.",
+    "caption": "Some nights, for no reason, your heart just sinks."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Usually we grab our phone <#0.2#> to make it go away.",
+    "caption": "Usually we grab our phone to make it go away."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Instead, just watch it. <#0.3#> Ah, I'm experiencing this feeling right now.",
+    "caption": "Instead, just watch it. Ah, I'm experiencing this feeling right now."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "And ask: <#0.2#> is this truly mine?",
+    "caption": "And ask: is this truly mine?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Whatever it is, accept it. <#0.2#> That's you too.",
+    "caption": "Whatever it is, accept it. That's you too."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When you stop fighting your feelings, <#0.3#> you become almost absurdly free.",
+    "caption": "When you stop fighting your feelings, you become almost absurdly free."
+   }
+  ]
+ }
+}

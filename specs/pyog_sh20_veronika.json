@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh20_veronika",
+ "status": "ready-sh-ep0910",
+ "hook": "일주일 남았다는 말에, 그녀는 살기 시작했다",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "의사가 그녀에게 말했어요. <#0.3#> 남은 시간은, 며칠뿐이라고.",
+    "caption": "의사가 그녀에게 말했어요. 남은 시간은, 며칠뿐이라고."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 순간부터, <#0.2#> 그녀는 처음으로 살기 시작했어요.",
+    "caption": "그 순간부터, 그녀는 처음으로 살기 시작했어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "한밤중에 피아노를 치고, <#0.2#> 하고 싶은 말을 하고, <#0.2#> 처음으로 사랑했어요.",
+    "caption": "한밤중에 피아노를 치고, 하고 싶은 말을 하고, 처음으로 사랑했어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데, <#0.4#> 그녀의 심장은 멀쩡했어요.",
+    "caption": "그런데, 그녀의 심장은 멀쩡했어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "의사는 그녀가 진짜로 살게 하려고, <#0.2#> 일부러 그렇게 말한 거예요.",
+    "caption": "의사는 그녀가 진짜로 살게 하려고, 일부러 그렇게 말한 거예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당신은, <#0.3#> 그 말을 듣기 전에 살 수 있나요?",
+    "caption": "당신은, 그 말을 듣기 전에 살 수 있나요?"
+   }
+  ],
+  "images": [
+   "a young woman sitting alone at a grand piano in a dim old hall at night, moonlight through tall windows, a single tear, soft golden light rising from the keys",
+   "a doctor in a white coat standing in a dim hospital corridor at night looking back thoughtfully, a soft glow from a window",
+   "a young woman laughing freely while dancing barefoot in falling snow under a streetlight at night, golden light around her",
+   "a glowing human heart made of warm golden light beating steadily in the dark, healthy and strong"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "soft golden light slowly rises from the piano keys and swirls around her, moonlight shifts, snow falls outside"
+   }
+  ]
+ }
+}

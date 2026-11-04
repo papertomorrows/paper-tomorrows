@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh24_horse",
+ "status": "ready-sh-ep0910",
+ "hook": "좋은 일, 나쁜 일은 없다",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "노인의 말이 도망가자, <#0.2#> 사람들은 불행이라고 했어요.",
+    "caption": "노인의 말이 도망가자, 사람들은 불행이라고 했어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "말이 좋은 말을 데리고 돌아오자, <#0.2#> 행운이라고 했죠.",
+    "caption": "말이 좋은 말을 데리고 돌아오자, 행운이라고 했죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아들이 그 말에서 떨어져 다리를 다치자, 또 불행. <#0.3#> 그런데 그 덕에, 아들은 전쟁에 끌려가지 않았어요.",
+    "caption": "아들이 그 말에서 떨어져 다리를 다치자, 또 불행. 그런데 그 덕에, 아들은 전쟁에 끌려가지 않았어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "무엇이 좋은 일이었을까요?",
+    "caption": "무엇이 좋은 일이었을까요?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "정답은 없어요. <#0.2#> 의미는, 당신이 고르는 거예요.",
+    "caption": "정답은 없어요. 의미는, 당신이 고르는 거예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 겪는 그 일도요.",
+    "caption": "지금 겪는 그 일도요."
+   }
+  ],
+  "images": [
+   "an old farmer in a misty mountain village watching his horse run away into the distance at dawn",
+   "the horse returning over a golden hill leading a wild horse behind it, villagers watching",
+   "a young man lying with a bandaged leg on a straw bed, his old father beside him, quiet room",
+   "soldiers marching past a village gate in the distance while the father and son stay safely at home, soft light"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the horse gallops away across the misty valley, the old farmer watches calmly, mist drifts"
+   }
+  ]
+ }
+}

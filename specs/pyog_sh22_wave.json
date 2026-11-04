@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh22_wave",
+ "status": "ready-sh-ep0910",
+ "hook": "잃는 게 두려운 사람만 보세요",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사랑하는 사람을 잃을까 봐, <#0.2#> 두려운가요?",
+    "caption": "사랑하는 사람을 잃을까 봐, 두려운가요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "셰익스피어는 노래했어요. <#0.2#> 머지않아 떠나보낼 것을, 더 깊이 사랑하게 된다고.",
+    "caption": "셰익스피어는 노래했어요. 머지않아 떠나보낼 것을, 더 깊이 사랑하게 된다고."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "잃을 걸 알기에, <#0.2#> 오늘 더 안아 주고, 오늘 더 말해 주는 거예요.",
+    "caption": "잃을 걸 알기에, 오늘 더 안아 주고, 오늘 더 말해 주는 거예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 파도를 떠올려 보세요. <#0.3#> 파도는 사라지지 않아요. 바다로 돌아갈 뿐이에요.",
+    "caption": "그리고 파도를 떠올려 보세요. 파도는 사라지지 않아요. 바다로 돌아갈 뿐이에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사랑의 에너지도, <#0.2#> 사라지지 않아요.",
+    "caption": "사랑의 에너지도, 사라지지 않아요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 더 사랑하세요. <#0.3#> 활짝 편 손바닥 위에서.",
+    "caption": "그러니 더 사랑하세요. 활짝 편 손바닥 위에서."
+   }
+  ],
+  "images": [
+   "two hands gently holding a glowing golden flower in the dark, a few petals drifting away as soft light",
+   "an elderly couple holding hands on a bench at sunset, warm golden light, quiet love",
+   "a glowing ocean wave of golden light rising from a vast sea of light under a starry sky",
+   "the golden wave dissolving gently back into the shining sea, ripples of light spreading to the horizon"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "a few glowing petals slowly drift away from the flower into the dark air, the flower keeps shining warmly"
+   }
+  ]
+ }
+}

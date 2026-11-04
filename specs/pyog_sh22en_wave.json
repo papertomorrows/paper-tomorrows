@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh22en_wave",
+ "status": "hold-sh-ep0910-en",
+ "lang": "English",
+ "hook": "Only for People Afraid of Losing",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh22_wave",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Are you afraid <#0.2#> of losing someone you love?",
+    "caption": "Are you afraid of losing someone you love?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Shakespeare wrote: <#0.2#> to love that well which thou must leave ere long.",
+    "caption": "Shakespeare wrote: to love that well which thou must leave ere long."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Because you know you'll lose it, <#0.2#> you hold them tighter today, and say it today.",
+    "caption": "Because you know you'll lose it, you hold them tighter today, and say it today."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "And think of a wave. <#0.3#> A wave doesn't disappear. It returns to the sea.",
+    "caption": "And think of a wave. A wave doesn't disappear. It returns to the sea."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The energy of love <#0.2#> doesn't disappear either.",
+    "caption": "The energy of love doesn't disappear either."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So love more. <#0.3#> With an open hand.",
+    "caption": "So love more. With an open hand."
+   }
+  ]
+ }
+}

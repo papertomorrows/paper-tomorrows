@@ -1,0 +1,81 @@
+{
+ "id": "pyog_sh23_cold",
+ "status": "ready-sh-ep0910",
+ "hook": "기쁨만 있으면 불행한 이유",
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "좋은 일만 있는 인생, <#0.2#> 정말 행복할까요?",
+    "caption": "좋은 일만 있는 인생, 정말 행복할까요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "차가움만 있는 세상에선, <#0.2#> 차갑다는 게 뭔지 알 수 없어요.",
+    "caption": "차가움만 있는 세상에선, 차갑다는 게 뭔지 알 수 없어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어둠이 없다면, <#0.2#> 빛도 알아볼 수 없어요.",
+    "caption": "어둠이 없다면, 빛도 알아볼 수 없어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내가 무언가를 좋아할 수 있는 건, <#0.2#> 싫어하는 것도 있기 때문이에요.",
+    "caption": "내가 무언가를 좋아할 수 있는 건, 싫어하는 것도 있기 때문이에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "슬픔이 있기에, <#0.3#> 우리는 기쁨을 알아요.",
+    "caption": "슬픔이 있기에, 우리는 기쁨을 알아요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 어둠도, <#0.2#> 미워하지 마세요. 그것도 똑같이 소중한 경험이에요.",
+    "caption": "그러니 어둠도, 미워하지 마세요. 그것도 똑같이 소중한 경험이에요."
+   }
+  ],
+  "images": [
+   "a cold glowing blue crystal and a warm golden flame floating side by side in deep darkness, each making the other shine",
+   "a single small light lost in a vast world of blinding white light, barely visible",
+   "the same small light glowing warm and clear as soft darkness opens around it, stars appearing",
+   "a person standing calmly where a golden dawn and a starry night meet in the sky, both halves beautiful"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the blue crystal and the golden flame slowly orbit each other, their light mixing and pulsing, sparks drift"
+   }
+  ]
+ }
+}

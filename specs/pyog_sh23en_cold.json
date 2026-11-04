@@ -1,0 +1,67 @@
+{
+ "id": "pyog_sh23en_cold",
+ "status": "hold-sh-ep0910-en",
+ "lang": "English",
+ "hook": "Why Only Joy Would Make You Unhappy",
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh23_cold",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "A life with only good things. <#0.2#> Would it really make you happy?",
+    "caption": "A life with only good things. Would it really make you happy?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "In a world of only cold, <#0.2#> you'd never know what cold is.",
+    "caption": "In a world of only cold, you'd never know what cold is."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Without darkness, <#0.2#> you couldn't recognize light.",
+    "caption": "Without darkness, you couldn't recognize light."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You can like something <#0.2#> only because there are things you dislike.",
+    "caption": "You can like something only because there are things you dislike."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Because there is sorrow, <#0.3#> we know joy.",
+    "caption": "Because there is sorrow, we know joy."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So don't hate the dark. <#0.2#> It's an experience just as precious.",
+    "caption": "So don't hate the dark. It's an experience just as precious."
+   }
+  ]
+ }
+}

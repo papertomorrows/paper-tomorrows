@@ -1,0 +1,17 @@
+{
+ "id": "pyog_sh27_fixvoice",
+ "status": "ready-fix",
+ "assets": {
+  "voices": [
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "요즘 모든 게 불편하고, <#0.2#> 혼자 숨고 싶나요?",
+    "caption": "요즘 모든 게 불편하고, 혼자 숨고 싶나요?"
+   }
+  ]
+ }
+}

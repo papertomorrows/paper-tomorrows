@@ -58,18 +58,20 @@
 그리고 상상이 끝나면, 여전히 내가 해야 할 일을 해요. 차분하고, 야무지게, 현생을 살아요. 억지로 믿는 사람과, 즐겁게 상상하는 사람의 차이는 여기에 있어요. 한 사람은 애쓰느라 지치고, 한 사람은 이미 충만한 채로 움직여요.
 
 <!-- section: fear | visuals: storm clouds, dark forest path, worried person night, rain on window, candle in dark | title: 원하지 않는 것은, 깊이 상상하지 마세요 | ai: a person sitting calmly in the dark holding a small candle, while a huge shadowy storm cloud swirls above them, the candle light keeping a warm circle around them >> the storm cloud swirls but slowly thins and fades, the candle flame stays steady, the warm circle of light grows wider -->
-물론, 두려울 수 있어요. 그 감정을 밀어낼 필요는 없어요. 두려움도, 그대로 맞아요.
+물론, 두려울 수 있어요. 그 감정도, 그대로 맞아요. 다만, 원하지 않는 일은, 그게 무엇이든, 너무 많이 생각하지 마세요.
 
-다만, 원하지 않는 일은, 그게 무엇이든, 너무 많이 생각하지 마세요.
-
-생각이 상상이 되고, 그 상상에 감정이 깊이 들어갈수록, 창조될 가능성이 커져요.
-
-걱정하던 일이 더 빨리, 더 자주 일어나는 것 같았던 적 있죠? 우리는 원하는 것보다, 두려운 것을 훨씬 더 생생하게, 더 자주 상상하거든요.
+생각이 상상이 되고, 그 상상에 감정이 깊이 들어갈수록, 창조될 가능성이 커져요. 걱정하던 일이 더 빨리 일어나는 것 같았던 적 있죠? 우리는 두려운 것을, 훨씬 더 생생하게 상상하거든요.
 
 두려움은 느끼되, 거기에 상상의 날개를 달아 주지는 마세요. 그 날개는, 원하는 것에 달아 주세요.
 
 <!-- section: lowpoint | visuals: person climbing mountain, storm at sea, seedling through crack, sunrise over darkness, hands helping up | title: 영혼이 바닥을 선택하는 시기 | ai: a small glowing seedling pushing up through a crack in dark cracked earth at the bottom of a deep canyon, a single beam of golden light falling on it from far above >> the seedling slowly grows taller toward the beam of light, the golden light widens, dust particles drift and shimmer -->
 그런데, 지금 정말 어려운 시기를 지나고 있다면, 이것도 알아 두세요.
+
+거의 모든 사람에게, 그런 힘든 시기는 있을 수 있어요. 그런데 우리는 이렇게 생각하죠. 나는 힘들면 안 되는데. 왜 다들 나를 좋아해 주지 않지. 왜 내 뜻대로 안 되지.
+
+하지만, 왜 나는 힘들면 안 될까요. 왜 모든 사람이 나를 좋아해야 하고, 모든 게 내 뜻대로만 되어야 할까요.
+
+영혼은, 다양한 경험을 하고 싶어 해요. 내가 누구인지를 어느 정도 기억하게 되면, 원하는 삶을 창조하는 게 훨씬 수월해져요. 하지만 그 전에, 영혼은 나를 더 기억하기 위해 여러 가지를 경험하고 싶어 해요. 그중에는, 어려운 시기도 있어요.
 
 물질적인 부는, 있다가도 없고, 없다가도 생겨요. 그건 내가 창조하는 법을 잘 몰라서, 잘못 쓰고 있어서일 수도 있어요.
 
@@ -87,12 +89,12 @@
 
 가장 어두운 시간은, 해 뜨기 직전이에요. 사주에서도, 가장 힘든 시기를 지나고 나서 대운이 들어온다고 말하죠. 그 시기를 그렇게 지나온 사람에게, 엄청난 성공과 대운이 찾아와요. 바닥에서 배운 것들이, 그 큰 운을 담을 그릇이 되어 주거든요.
 
+예전에는 이런 성장을 하려면, 지구에서 수많은 삶을 살며 익혀야 했다고 해요. 하지만 지금은 지구의 주파수가 올라가고 있어요. 그래서 요즘은 한 번의 삶 안에서도, 아주 다이내믹하게, 레벨이 훌쩍 올라갈 수 있어요.
+
 <!-- section: light | visuals: open palm sand, feather floating, calm lake, clouds sky timelapse, person walking field | title: 바탕에는 늘, 어떻게 돼도 괜찮다는 마음 -->
-그리고 가장 중요한 것. 바탕에는 늘, 가벼운 마음을 두세요.
+그리고 가장 중요한 것. 바탕에는 늘, 가벼운 마음을 두세요. 높고, 넓고, 깊은 관점에서 보면, 어떻게 되어도 좋아요. 궁극적으로 우리는, 존재하는 모든 것이고, 빛이에요.
 
-높고, 넓고, 깊은 관점에서 보면, 어떻게 되어도 좋아요. 모든 것은, 경험이니까요.
-
-모래를 꽉 쥐면, 빠져나가요. 손을 펴야, 머물러요. 간절하게 붙잡을 때가 아니라, 가벼울 때, 들어와요.
+좋은 경험과 나쁜 경험은, 우리가 사는 이 지구 현실에서는 분명히 존재해요. 하지만 동시에, 존재하지 않기도 해요. 그저 모든 것이, 경험이에요.
 
 어떻게 돼도 괜찮다는 마음을 바탕에 두고, 즐겁게 상상하고, 현생을 살고. 그렇게 계속, 실천하는 거예요.
 
@@ -108,6 +110,8 @@
 우연이라기엔 너무 딱 맞는 만남, 이상하게 자꾸 눈에 들어오는 이름, 갑자기 열리는 문. 신기하고 미스터리한 상황과 사건들을 통해, 내 앞에 길을 하나씩 보여 줘요.
 
 내가 할 일은, 그 길을 억지로 찾아다니는 게 아니라, 고요해져서, 알아차리는 거예요.
+
+내 영혼의 기분을 따라가면, 나만의 길, 나만의 부의 길이, 자동문처럼 열려요.
 
 <!-- section: habits | visuals: morning journal, hands holding coffee, gift box, person smiling mirror, sunrise window | title: 오늘부터 해 볼 세 가지 -->
 그럼 오늘부터, 세 가지만 해 보세요.

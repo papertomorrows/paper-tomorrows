@@ -21,7 +21,11 @@
 영적으로 보면, 그릇은 내가 받을 수 있다고 느끼는 만큼의 크기예요. 열심히 살아도 부자가 안 되는 사람들은, 이 그릇이 막혀 있어요. 무엇이 막고 있을까요.
 
 <!-- section: blocks | visuals: hands refusing gift, person counting coins worried, closed door, storm clouds, tight fist | title: 공통점 하나, 둘, 셋 | ai: a person standing in the dark holding a glowing golden thread of light with one hand while pushing it away with the other hand, the light flickering between them >> the golden thread of light flickers and tugs between the pulling hand and the pushing hand, small sparks fall into the dark -->
-첫 번째 공통점. 돈에 대한 죄책감이에요. 돈 밝히면 안 된다. 부자는 욕심쟁이다. 돈보다 마음이 중요하다. 어릴 때부터 들어 온 말들이죠. 돈을 원하면서, 동시에 돈을 나쁘게 여기면, 한 손으로 부르고 한 손으로 밀어내는 셈이에요. 가난도 부도, 영혼이 선택할 수 있는 경험일 뿐이에요. 원해도, 괜찮아요.
+첫 번째 공통점. 부족함을, 미덕이라고 여기는 마음이에요. 돈 밝히면 안 된다. 부자는 욕심쟁이다. 없이 살아도 마음만 편하면 된다. 어릴 때부터 들어 온 말들이죠.
+
+그러다 보니 우리는, 없이 사는 걸 당연하게 받아들이고, 부족한 걸 오히려 착하고 겸손한 거라고 여겨요. 원하는 걸 말하면, 욕심처럼 느껴지고요.
+
+돈을 원하면서, 동시에 돈을 나쁘게 여기면, 한 손으로 부르고 한 손으로 밀어내는 셈이에요. 부족함은 미덕이 아니에요. 그저 하나의 경험일 뿐이에요. 풍요를 원해도, 괜찮아요. 이제 그 생각부터, 바꿔야 해요.
 
 두 번째 공통점. 받을 줄 모르는 마음이에요. 칭찬을 들으면, 아니에요. 도움을 주면, 괜찮아요. 선물을 받으면, 괜히 미안해요. 주기만 하고 받지 못하면, 흐름이 막혀요. 에너지는 들어오고 나가야, 돌아요.
 
@@ -63,6 +67,19 @@
 걱정하던 일이 더 빨리, 더 자주 일어나는 것 같았던 적 있죠? 우리는 원하는 것보다, 두려운 것을 훨씬 더 생생하게, 더 자주 상상하거든요.
 
 두려움은 느끼되, 거기에 상상의 날개를 달아 주지는 마세요. 그 날개는, 원하는 것에 달아 주세요.
+
+<!-- section: lowpoint | visuals: person climbing mountain, storm at sea, seedling through crack, sunrise over darkness, hands helping up | title: 영혼이 바닥을 선택하는 시기 | ai: a small glowing seedling pushing up through a crack in dark cracked earth at the bottom of a deep canyon, a single beam of golden light falling on it from far above >> the seedling slowly grows taller toward the beam of light, the golden light widens, dust particles drift and shimmer -->
+그런데, 지금 정말 어려운 시기를 지나고 있다면, 이것도 알아 두세요.
+
+물질적인 부는, 있다가도 없고, 없다가도 생겨요. 그건 내가 창조하는 법을 잘 몰라서, 잘못 쓰고 있어서일 수도 있어요.
+
+하지만 어쩌면, 영혼이 그 시기를 선택한 걸 수도 있어요. 어떤 영혼들은 일부러, 더 험하고 힘든 환경에서 삶을 시작하죠. 그것처럼 영혼은, 부족함을, 어려움을, 바닥으로 떨어지는 경험을 해 보고 싶어 하는 때가 있어요. 그 안에서, 무언가를 배우려고요.
+
+그리고 바로 그런 시기에, 차이가 드러나요.
+
+누군가는 그 바닥에서 배우고, 성장하고, 무언가를 창조해요. 또 누군가는 세상을 비관하고, 남을 탓하고, 남을 해치려 들어요.
+
+힘들고 우울한 건, 누구나 그래요. 그 감정은 잘못이 아니에요. 다만 그 시기를 무엇으로 쓰느냐. 그게 바로 영혼의 차이고, 영혼의 품격이에요. 영혼의 품격은, 가장 낮은 곳에서 드러나요.
 
 <!-- section: light | visuals: open palm sand, feather floating, calm lake, clouds sky timelapse, person walking field | title: 바탕에는 늘, 어떻게 돼도 괜찮다는 마음 -->
 그리고 가장 중요한 것. 바탕에는 늘, 가벼운 마음을 두세요.

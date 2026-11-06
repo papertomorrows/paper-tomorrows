@@ -85,23 +85,23 @@ So let's take one minute together, right now.
 
 Sit comfortably and close your eyes. {pause:3}
 
-Breathe in slowly… {pause:3} and breathe out, long. {pause:4}
+Breathe in slowly… {pause:4} and breathe out, long. {pause:5}
 
-Once more. Breathe in slowly… {pause:3} and breathe out, long. {pause:4}
+Once more. Breathe in slowly… {pause:4} and breathe out, long. {pause:5}
 
-Think of one thing you want. {pause:4}
+Think of one thing you want. {pause:5}
 
-Now imagine a day where you already have it. {pause:4}
+Now imagine a day where you already have it. {pause:5}
 
-Where do you wake up? {pause:4}
+Where do you wake up? {pause:5}
 
-What do you see outside the window? {pause:4}
+What do you see outside the window? {pause:5}
 
-Who do you meet today, and what do you talk about? {pause:6}
+Who do you meet today, and what do you talk about? {pause:5}
 
 If a smile spreads across your face, that's enough. {pause:3}
 
-Now, take a deep breath in… {pause:3} and as you slowly breathe out, open your eyes. {pause:3}
+Now, take a deep breath in… {pause:4} and as you slowly breathe out, open your eyes. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, golden field, mountain sunrise, person walking sunrise, bird flying sky | ai: a glowing golden bowl of light floating above a calm sea at sunrise, slowly growing larger as warm light pours gently into it without spilling >> the glowing bowl slowly expands as light fills it, the sea shimmers with gold, the sun rises higher -->
 Working hard isn't enough on its own. But neither is imagining.

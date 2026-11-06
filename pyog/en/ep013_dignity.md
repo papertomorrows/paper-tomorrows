@@ -86,19 +86,19 @@ So let's take one minute together, right now.
 
 Sit comfortably and close your eyes. {pause:3}
 
-Breathe in slowly… {pause:3} and breathe out, long. {pause:4}
+Breathe in slowly… {pause:4} and breathe out, long. {pause:5}
 
-Once more. Breathe in slowly… {pause:3} and breathe out, long. {pause:4}
+Once more. Breathe in slowly… {pause:4} and breathe out, long. {pause:5}
 
 Think of one hardship you're going through right now. {pause:5}
 
-Now imagine yourself, a few years from now, when everything has worked out, looking back at you today. {pause:4}
+Now imagine yourself, a few years from now, when everything has worked out, looking back at you today. {pause:5}
 
 That future you says: thank you for holding on back then. {pause:2} Because of that time, I'm who I am now. {pause:4}
 
 Just receive those words. {pause:6}
 
-Now, take a deep breath in… {pause:3} and as you slowly breathe out, open your eyes. {pause:3}
+Now, take a deep breath in… {pause:4} and as you slowly breathe out, open your eyes. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, mountain sunrise, person walking sunrise, bird flying sky, golden field | ai: a lone figure climbing out of a deep dark canyon at dawn, reaching the rim as golden sunrise light floods over them and the wide open land ahead >> the figure steps onto the rim, golden sunlight washes over them, the vast landscape glows, birds take flight -->
 At the same bottom, some people fall apart, and some people rise. The difference isn't luck. It's the character of the soul.

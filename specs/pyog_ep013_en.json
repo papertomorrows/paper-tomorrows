@@ -9,7 +9,7 @@
  "captions": true,
  "min_luma": 28,
  "max_ai_fallbacks": 3,
- "status": "done-ep013_en-v1",
+ "status": "ready-ep013_en-v3-pauses",
  "sentence_gap": 0.2,
  "para_gap": 0.55,
  "section_gap": 0.6

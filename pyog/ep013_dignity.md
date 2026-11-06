@@ -86,19 +86,19 @@
 
 편하게 앉아서, 눈을 감아 보세요. {pause:3}
 
-숨을 천천히 들이쉬고… {pause:3} 길게 내쉬어요. {pause:4}
+숨을 천천히 들이쉬고… {pause:4} 길게 내쉬어요. {pause:5}
 
-한 번 더. 천천히 들이쉬고… {pause:3} 길게 내쉬어요. {pause:4}
+한 번 더. 천천히 들이쉬고… {pause:4} 길게 내쉬어요. {pause:5}
 
 지금 겪고 있는 어려움 하나를, 떠올려 보세요. {pause:5}
 
-이제 몇 년 뒤, 모든 게 잘 풀린 내가, 지금의 나를 돌아본다고 상상해요. {pause:4}
+이제 몇 년 뒤, 모든 게 잘 풀린 내가, 지금의 나를 돌아본다고 상상해요. {pause:5}
 
 그 내가, 지금의 나에게 이렇게 말해요. 그때, 잘 버텨 줘서 고마워. {pause:2} 그 시간 덕분에, 지금의 내가 있어. {pause:4}
 
 그 말을, 그대로 받아 보세요. {pause:6}
 
-이제, 숨을 크게 들이쉬고… {pause:3} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
+이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, mountain sunrise, person walking sunrise, bird flying sky, golden field | ai: a lone figure climbing out of a deep dark canyon at dawn, reaching the rim as golden sunrise light floods over them and the wide open land ahead >> the figure steps onto the rim, golden sunlight washes over them, the vast landscape glows, birds take flight -->
 같은 바닥에서, 누군가는 무너지고, 누군가는 크게 돼요. 그 차이는, 운이 아니라 영혼의 품격이에요.

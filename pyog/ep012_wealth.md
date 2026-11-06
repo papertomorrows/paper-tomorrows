@@ -85,23 +85,23 @@
 
 편하게 앉아서, 눈을 감아 보세요. {pause:3}
 
-숨을 천천히 들이쉬고… {pause:3} 길게 내쉬어요. {pause:4}
+숨을 천천히 들이쉬고… {pause:4} 길게 내쉬어요. {pause:5}
 
-한 번 더. 천천히 들이쉬고… {pause:3} 길게 내쉬어요. {pause:4}
+한 번 더. 천천히 들이쉬고… {pause:4} 길게 내쉬어요. {pause:5}
 
-지금 원하는 것 하나를 떠올려 보세요. {pause:4}
+지금 원하는 것 하나를 떠올려 보세요. {pause:5}
 
-그리고 그걸 이미 가진, 어느 하루를 상상해요. {pause:4}
+그리고 그걸 이미 가진, 어느 하루를 상상해요. {pause:5}
 
-아침에 눈을 뜬 곳은 어디인가요. {pause:4}
+아침에 눈을 뜬 곳은 어디인가요. {pause:5}
 
-창밖으로 무엇이 보이나요. {pause:4}
+창밖으로 무엇이 보이나요. {pause:5}
 
-오늘은 누구를 만나고, 무슨 이야기를 하나요. {pause:6}
+오늘은 누구를 만나고, 무슨 이야기를 하나요. {pause:5}
 
 입가에 미소가 번진다면, 그걸로 충분해요. {pause:3}
 
-이제, 숨을 크게 들이쉬고… {pause:3} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
+이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, golden field, mountain sunrise, person walking sunrise, bird flying sky | ai: a glowing golden bowl of light floating above a calm sea at sunrise, slowly growing larger as warm light pours gently into it without spilling >> the glowing bowl slowly expands as light fills it, the sea shimmers with gold, the sun rises higher -->
 열심히 사는 것만으로는 부족해요. 그렇다고 상상만으로도 부족해요.

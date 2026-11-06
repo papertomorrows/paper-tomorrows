@@ -83,15 +83,25 @@
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: 지금, 함께 해 볼까요 -->
 그럼 지금, 일 분만 함께 해 볼게요.
 
-편하게 앉아서, 눈을 감아 보세요. 숨을 천천히 들이쉬고… 길게 내쉬어요.
+편하게 앉아서, 눈을 감아 보세요. {pause:3}
 
-지금 원하는 것 하나를 떠올려 보세요. 그리고 그걸 이미 가진, 어느 하루를 상상해요.
+숨을 천천히 들이쉬고… {pause:3} 길게 내쉬어요. {pause:4}
 
-아침에 눈을 뜬 곳은 어디인가요. 창밖으로 무엇이 보이나요. 오늘은 누구를 만나고, 무슨 이야기를 하나요.
+한 번 더. 천천히 들이쉬고… {pause:3} 길게 내쉬어요. {pause:4}
 
-입가에 미소가 번진다면, 그걸로 충분해요.
+지금 원하는 것 하나를 떠올려 보세요. {pause:4}
 
-이제, 숨을 크게 들이쉬고… 천천히 내쉬면서, 눈을 떠 보세요.
+그리고 그걸 이미 가진, 어느 하루를 상상해요. {pause:4}
+
+아침에 눈을 뜬 곳은 어디인가요. {pause:4}
+
+창밖으로 무엇이 보이나요. {pause:4}
+
+오늘은 누구를 만나고, 무슨 이야기를 하나요. {pause:6}
+
+입가에 미소가 번진다면, 그걸로 충분해요. {pause:3}
+
+이제, 숨을 크게 들이쉬고… {pause:3} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, golden field, mountain sunrise, person walking sunrise, bird flying sky | ai: a glowing golden bowl of light floating above a calm sea at sunrise, slowly growing larger as warm light pours gently into it without spilling >> the glowing bowl slowly expands as light fills it, the sea shimmers with gold, the sun rises higher -->
 열심히 사는 것만으로는 부족해요. 그렇다고 상상만으로도 부족해요.

@@ -83,15 +83,25 @@ Three, whenever money comes in, and whenever it goes out, say thank you. Gratitu
 <!-- section: together | visuals: candle light, calm lake, stars night sky, light rays clouds, sunrise ocean | title: Let's Try It Together -->
 So let's take one minute together, right now.
 
-Sit comfortably and close your eyes. Breathe in slowly… and breathe out, long.
+Sit comfortably and close your eyes. {pause:3}
 
-Think of one thing you want. Now imagine a day where you already have it.
+Breathe in slowly… {pause:3} and breathe out, long. {pause:4}
 
-Where do you wake up? What do you see outside the window? Who do you meet today, and what do you talk about?
+Once more. Breathe in slowly… {pause:3} and breathe out, long. {pause:4}
 
-If a smile spreads across your face, that's enough.
+Think of one thing you want. {pause:4}
 
-Now, take a deep breath in… and as you slowly breathe out, open your eyes.
+Now imagine a day where you already have it. {pause:4}
+
+Where do you wake up? {pause:4}
+
+What do you see outside the window? {pause:4}
+
+Who do you meet today, and what do you talk about? {pause:6}
+
+If a smile spreads across your face, that's enough. {pause:3}
+
+Now, take a deep breath in… {pause:3} and as you slowly breathe out, open your eyes. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, golden field, mountain sunrise, person walking sunrise, bird flying sky | ai: a glowing golden bowl of light floating above a calm sea at sunrise, slowly growing larger as warm light pours gently into it without spilling >> the glowing bowl slowly expands as light fills it, the sea shimmers with gold, the sun rises higher -->
 Working hard isn't enough on its own. But neither is imagining.

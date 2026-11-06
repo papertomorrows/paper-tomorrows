@@ -98,9 +98,19 @@ def parse_script(md: str):
         sents = []
         for pi, p in enumerate(paras):
             p = p.replace("...", "…")
-            parts = [s.strip() for s in re.split(r"(?<=[.?!])\s+", p) if s.strip()]
+            parts = [s.strip() for s in re.split(r"(?<=[.?!…])\s+", p) if s.strip()]
             for si, s in enumerate(parts):
-                sents.append({"text": s, "para_end": si == len(parts) - 1})
+                # {pause:N} = hold N seconds of silence after the preceding sentence (guided breathing etc.)
+                holds = [float(x) for x in re.findall(r"\{pause:([\d.]+)\}", s)]
+                lead = re.match(r"^\s*\{pause:([\d.]+)\}", s)
+                s = re.sub(r"\s*\{pause:[\d.]+\}\s*", " ", s).strip()
+                if lead and sents:
+                    sents[-1]["hold"] = sents[-1].get("hold", 0) + float(lead.group(1)); holds = holds[1:]
+                if not s:
+                    if sents and holds: sents[-1]["hold"] = sents[-1].get("hold", 0) + sum(holds)
+                    if sents and si == len(parts) - 1: sents[-1]["para_end"] = True
+                    continue
+                sents.append({"text": s, "para_end": si == len(parts) - 1, "hold": sum(holds)})
         sections.append({"name": name.strip(), "visuals": [v.strip() for v in vis.split(",") if v.strip()],
                          "title": fields.get("title", ""),
                          "ai": [x.strip() for x in fields.get("ai", "").split(";") if x.strip()],
@@ -190,7 +200,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             d = dur(s["file"])
             events.append((t, t + d, s["text"]))
             inputs.append((s["file"], t))
-            t += d + (float(spec.get("para_gap", 0.9)) if s["para_end"] else float(spec.get("sentence_gap", 0.35)))
+            t += d + (float(spec.get("para_gap", 0.9)) if s["para_end"] else float(spec.get("sentence_gap", 0.35))) + float(s.get("hold", 0))
         t += float(spec.get("section_gap", 0.8))
         sec["end"] = t
     total = t + 2.0

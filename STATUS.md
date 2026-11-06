@@ -126,3 +126,5 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 - Do not edit already-rendered specs with status "ready-*" (a diff re-triggers rendering); set the voice in new specs.
 
 - Titles: do NOT use the "~하는 이유 / Why X..." template (user finds it cliche). Lead with a story scene, a direct question to the viewer, a sharp statement, or a named person (e.g. EP009 KR "스티브 잡스가 매일 아침 거울 앞에서 던진 질문"). Never state the conclusion in the title.
+
+- Guided "together" sections: use {pause:N} markers (seconds of silence, music continues) so viewers can actually breathe along; ~3s inhale, ~4s exhale, 4-6s after imagery prompts. Total hold ~40s.

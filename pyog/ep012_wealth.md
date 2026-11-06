@@ -1,4 +1,4 @@
-# EP012 열심히 살아도 부자가 안 되는 사람들의 공통점 | 억지로 믿으면 절대 안 됩니다
+# EP012 열심히 살아도 부자가 안 되는 사람들의 공통점 | 원하는 건 이렇게 이루어집니다
 
 <!-- section: hook | visuals: traditional market dawn, street vendor night, city commute morning, empty wallet, rain city night | ai: an elderly market vendor setting up a small stall alone in the blue darkness before dawn, a single warm bulb hanging above, steam rising from a pot, the empty street glistening >> steam slowly rises from the pot, the warm bulb sways gently, the first faint light of dawn spreads across the wet street -->
 열심히 사는 걸로 부자가 될 거라면, 새벽 시장에 제일 먼저 나와서, 밤늦게까지 열악한 곳에서 일하는 분들이, 세상에서 가장 부자여야 해요.

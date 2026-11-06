@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh34_huineng",
- "status": "ready-ep013",
+ "status": "done-ep1213",
  "hook": "글 모르는 나무꾼이|한순간에 깨달은 것",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "당신도, 이번 삶에서 훌쩍 도약할 수 있어요."
    }
   ],
-  "images": [
+  "images_done": [
    "a humble young woodcutter in simple old clothes in a busy ancient Chinese market, a bundle of firewood on his back",
    "an old monk reciting from an ancient sutra scroll in the market, golden characters of light floating in the air",
    "the woodcutter frozen still as golden light bursts softly from his chest while the crowd blurs around him",
    "a serene young monk meditating under a tree on a misty mountain at dawn"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 2,
     "motion": "golden light gently radiates outward from the woodcutter's chest, the crowd blurs and slows, petals of light drift upward"

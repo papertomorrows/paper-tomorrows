@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh29_market",
- "status": "ready-ep012",
+ "status": "done-ep1213",
  "hook": "열심히만 살면|절대 부자 못 됩니다",
  "hook_size": 108,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "열심히 사는 것만큼, 그릇을 여는 게 중요해요."
    }
   ],
-  "images": [
+  "images_done": [
    "an elderly market vendor setting up a small stall alone in the blue darkness before dawn, a single warm bulb above, steam rising",
    "a tired office worker on a crowded late night subway, eyes closed, city lights streaking past the window",
    "a small clay bowl under a beam of light, golden light pouring into it and overflowing, spilling into darkness",
    "a person standing calmly with open palms as golden light flows gently into their hands at dawn"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 2,
     "motion": "golden light keeps pouring into the small bowl and overflows, streams of light spill over the edges and fade"

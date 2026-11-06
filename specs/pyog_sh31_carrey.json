@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh31_carrey",
- "status": "ready-ep012",
+ "status": "done-ep1213",
  "hook": "부자들은|이렇게 상상했다",
  "hook_size": 128,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "즐겁게 상상하고, 오늘을 야무지게 사세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a young struggling actor parked alone on a hillside at night overlooking glittering city lights, eyes closed, smiling",
    "a hand writing on a paper check with a fountain pen under a warm desk lamp, no readable text",
    "a worn paper check tucked inside an old leather wallet glowing faintly with golden light",
    "a man standing on a film set under bright lights, arms open, joyful, golden confetti"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "city lights twinkle below, the man's smile slowly widens, a soft golden glow grows around him"

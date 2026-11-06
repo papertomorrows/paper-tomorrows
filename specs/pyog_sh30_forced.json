@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh30_forced",
- "status": "ready-ep012",
+ "status": "done-ep1213",
  "hook": "'나는 부자다'|외칠수록 멀어진다",
  "hook_size": 108,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "그리고 나서, 오늘을 야무지게 사는 거예요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person standing before a mirror at night repeating words, their reflection looking doubtful and tired",
    "a wall covered in sticky notes with glowing writing fading in the dark, a person sitting alone beneath them",
    "a woman sitting by a sunlit window with eyes closed, a soft smile, golden sparkles gathering around her chest",
    "a woman laughing with tears of joy in a warm cozy home at golden hour"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 2,
     "motion": "the golden light around her chest slowly brightens and expands, sparkles drift upward, her smile deepens"

@@ -21,7 +21,7 @@ The money came in. But the vessel stayed the same.
 Spiritually, your vessel is as big as what you feel you're able to receive. People who work hard but never get ahead have a blocked vessel. So what's blocking it?
 
 <!-- section: blocks | visuals: hands refusing gift, person counting coins worried, closed door, storm clouds, tight fist | title: The First Three Things They Share | ai: a person standing in the dark holding a glowing golden thread of light with one hand while pushing it away with the other hand, the light flickering between them >> the golden thread of light flickers and tugs between the pulling hand and the pushing hand, small sparks fall into the dark -->
-The first thing they share. Believing that having less is a virtue. Don't be greedy about money. Rich people are selfish. As long as you're at peace, it doesn't matter if you have little. We've heard these since we were kids.
+The first thing they share. Believing that having less is a virtue. Don't be greedy about money. Money changes people. As long as you're at peace, it doesn't matter if you have little. We've heard these since we were kids.
 
 So we accept going without as normal. We even think having less is humble, or good. And saying what we want starts to feel like greed.
 

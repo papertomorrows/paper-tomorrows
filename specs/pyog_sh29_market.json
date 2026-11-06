@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh29_market",
+ "status": "ready-ep012",
+ "hook": "열심히만 살면|절대 부자 못 됩니다",
+ "hook_size": 108,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "열심히 사는 걸로 부자가 된다면, <#0.2#> 새벽 시장 분들이 제일 부자여야 해요.",
+    "caption": "열심히 사는 걸로 부자가 된다면, 새벽 시장 분들이 제일 부자여야 해요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그분들의 노력이 부족해서가 아니에요. <#0.3#> 누구보다 성실하시죠.",
+    "caption": "그분들의 노력이 부족해서가 아니에요. 누구보다 성실하시죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "부는, <#0.2#> 노력의 양만으로 정해지지 않아요.",
+    "caption": "부는, 노력의 양만으로 정해지지 않아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "돈은, <#0.2#> 그릇만큼만 담겨요.",
+    "caption": "돈은, 그릇만큼만 담겨요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "부족함을 미덕이라 여기고, <#0.2#> 받을 줄 모르면, 그릇은 막혀요.",
+    "caption": "부족함을 미덕이라 여기고, 받을 줄 모르면, 그릇은 막혀요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "열심히 사는 것만큼, <#0.2#> 그릇을 여는 게 중요해요.",
+    "caption": "열심히 사는 것만큼, 그릇을 여는 게 중요해요."
+   }
+  ],
+  "images": [
+   "an elderly market vendor setting up a small stall alone in the blue darkness before dawn, a single warm bulb above, steam rising",
+   "a tired office worker on a crowded late night subway, eyes closed, city lights streaking past the window",
+   "a small clay bowl under a beam of light, golden light pouring into it and overflowing, spilling into darkness",
+   "a person standing calmly with open palms as golden light flows gently into their hands at dawn"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "golden light keeps pouring into the small bowl and overflows, streams of light spill over the edges and fade"
+   }
+  ]
+ }
+}

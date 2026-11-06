@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh30_forced",
+ "status": "ready-ep012",
+ "hook": "'나는 부자다'|외칠수록 멀어진다",
+ "hook_size": 108,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "나는 부자다. <#0.2#> 매일 입으로 외치나요?",
+    "caption": "나는 부자다. 매일 입으로 외치나요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "속으로는 하나도 안 믿으면서요?",
+    "caption": "속으로는 하나도 안 믿으면서요?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "억지로 믿을수록, <#0.2#> 오히려 더 허탈해져요. 바뀐 게 없으니까요.",
+    "caption": "억지로 믿을수록, 오히려 더 허탈해져요. 바뀐 게 없으니까요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "진짜 방법은, <#0.3#> 즐겁게 상상하는 거예요.",
+    "caption": "진짜 방법은, 즐겁게 상상하는 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그걸 가지면 어떤 기분일지, <#0.2#> 눈물 날 만큼 신나게요.",
+    "caption": "그걸 가지면 어떤 기분일지, 눈물 날 만큼 신나게요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 나서, <#0.2#> 오늘을 야무지게 사는 거예요.",
+    "caption": "그리고 나서, 오늘을 야무지게 사는 거예요."
+   }
+  ],
+  "images": [
+   "a person standing before a mirror at night repeating words, their reflection looking doubtful and tired",
+   "a wall covered in sticky notes with glowing writing fading in the dark, a person sitting alone beneath them",
+   "a woman sitting by a sunlit window with eyes closed, a soft smile, golden sparkles gathering around her chest",
+   "a woman laughing with tears of joy in a warm cozy home at golden hour"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "the golden light around her chest slowly brightens and expands, sparkles drift upward, her smile deepens"
+   }
+  ]
+ }
+}

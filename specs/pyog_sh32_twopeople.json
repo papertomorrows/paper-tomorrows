@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh32_twopeople",
+ "status": "ready-ep013",
+ "hook": "가장 힘들 때|이걸 한 사람만 성공한다",
+ "hook_size": 100,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "같은 해에, <#0.2#> 같은 일을 잃은 두 사람.",
+    "caption": "같은 해에, 같은 일을 잃은 두 사람."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "한 사람은 몇 년을, <#0.2#> 세상을 원망하며 보내요.",
+    "caption": "한 사람은 몇 년을, 세상을 원망하며 보내요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다른 한 사람은 그 시간에, <#0.2#> 배우고, 무언가를 만들기 시작해요.",
+    "caption": "다른 한 사람은 그 시간에, 배우고, 무언가를 만들기 시작해요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "몇 년 뒤, <#0.3#> 둘은 완전히 다른 삶을 살아요.",
+    "caption": "몇 년 뒤, 둘은 완전히 다른 삶을 살아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "같은 바닥이었어요. <#0.2#> 다른 건, 그 시간을 무엇으로 썼느냐예요.",
+    "caption": "같은 바닥이었어요. 다른 건, 그 시간을 무엇으로 썼느냐예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 바닥이라면, <#0.2#> 하나라도 더 배우세요.",
+    "caption": "지금 바닥이라면, 하나라도 더 배우세요."
+   }
+  ],
+  "images": [
+   "two silhouettes at the bottom of the same dark canyon, one slumped in shadow, the other looking up at a thin beam of golden light",
+   "a man sitting alone on a park bench in the rain at night, head down",
+   "a person studying at a small desk late at night under a warm lamp, notebooks open, determined",
+   "a lone figure climbing out of a dark canyon at dawn as golden sunrise floods over them"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the standing figure takes a step toward the beam of light, the golden light widens around them while the other stays in shadow"
+   }
+  ]
+ }
+}

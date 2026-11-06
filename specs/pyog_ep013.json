@@ -1,0 +1,18 @@
+{
+ "id": "pyog_ep013",
+ "script": "pyog/ep013_dignity.md",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "voice_id": "Korean_IntellectualMan",
+ "speed": 1.15,
+ "seed": 131,
+ "captions": true,
+ "min_luma": 28,
+ "max_ai_fallbacks": 3,
+ "brand_mark": true,
+ "mark_text": "당신만의 게임",
+ "kicker_text": "당신만의 게임",
+ "status": "ready-ep013-v1",
+ "sentence_gap": 0.2,
+ "para_gap": 0.55,
+ "section_gap": 0.6
+}

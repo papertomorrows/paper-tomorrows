@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh31_carrey",
+ "status": "ready-ep012",
+ "hook": "부자들은|이렇게 상상했다",
+ "hook_size": 128,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "무명 배우 짐 캐리는, <#0.2#> 밤마다 성공한 자신을 상상했대요.",
+    "caption": "무명 배우 짐 캐리는, 밤마다 성공한 자신을 상상했대요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 자기 앞으로, <#0.2#> 천만 달러짜리 수표를 썼어요.",
+    "caption": "그리고 자기 앞으로, 천만 달러짜리 수표를 썼어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "날짜는 몇 년 뒤. <#0.3#> 그걸 지갑에 넣고 다녔죠.",
+    "caption": "날짜는 몇 년 뒤. 그걸 지갑에 넣고 다녔죠."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 무렵, <#0.2#> 그는 천만 달러 출연료를 받게 됐다고 해요.",
+    "caption": "그 무렵, 그는 천만 달러 출연료를 받게 됐다고 해요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하지만 그는 말해요. <#0.2#> 상상만 하고 샌드위치 먹으러 가면 안 된다고.",
+    "caption": "하지만 그는 말해요. 상상만 하고 샌드위치 먹으러 가면 안 된다고."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "즐겁게 상상하고, <#0.2#> 오늘을 야무지게 사세요.",
+    "caption": "즐겁게 상상하고, 오늘을 야무지게 사세요."
+   }
+  ],
+  "images": [
+   "a young struggling actor parked alone on a hillside at night overlooking glittering city lights, eyes closed, smiling",
+   "a hand writing on a paper check with a fountain pen under a warm desk lamp, no readable text",
+   "a worn paper check tucked inside an old leather wallet glowing faintly with golden light",
+   "a man standing on a film set under bright lights, arms open, joyful, golden confetti"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "city lights twinkle below, the man's smile slowly widens, a soft golden glow grows around him"
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh33_dignity",
+ "status": "ready-ep013",
+ "hook": "영혼의 품격은|바닥에서 드러난다",
+ "hook_size": 112,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "잘나갈 때는, <#0.2#> 누구나 좋은 사람이에요.",
+    "caption": "잘나갈 때는, 누구나 좋은 사람이에요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하지만 바닥에서, <#0.3#> 진짜가 드러나요.",
+    "caption": "하지만 바닥에서, 진짜가 드러나요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "누군가는 남을 탓하고, <#0.2#> 남을 해치려 들어요.",
+    "caption": "누군가는 남을 탓하고, 남을 해치려 들어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "누군가는 배우고, <#0.2#> 성장하고, 무언가를 창조해요.",
+    "caption": "누군가는 배우고, 성장하고, 무언가를 창조해요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "힘들고 우울한 건, <#0.2#> 잘못이 아니에요. 다만 그 시간을 무엇으로 쓰느냐.",
+    "caption": "힘들고 우울한 건, 잘못이 아니에요. 다만 그 시간을 무엇으로 쓰느냐."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그게, <#0.2#> 영혼의 품격이에요.",
+    "caption": "그게, 영혼의 품격이에요."
+   }
+  ],
+  "images": [
+   "in a dark ruined street at night, one person kneeling to share a small glowing light with a stranger",
+   "a shadowy angry crowd turning away in the rain, one calm figure holding a candle among them",
+   "a small glowing seedling pushing up through cracked dark earth toward a beam of golden light",
+   "a person walking forward calmly through a storm, a warm light glowing from their chest"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the small light between their hands slowly grows brighter and warmer, spreading a soft glow across the dark street"
+   }
+  ]
+ }
+}

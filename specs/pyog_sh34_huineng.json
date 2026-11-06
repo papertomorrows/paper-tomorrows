@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh34_huineng",
+ "status": "ready-ep013",
+ "hook": "글 모르는 나무꾼이|한순간에 깨달은 것",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "글을 몰랐던 나무꾼, <#0.2#> 혜능.",
+    "caption": "글을 몰랐던 나무꾼, 혜능."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "장터에서 나무를 팔다가, <#0.2#> 누군가 읽는 금강경 한 구절을 들어요.",
+    "caption": "장터에서 나무를 팔다가, 누군가 읽는 금강경 한 구절을 들어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 순간, <#0.3#> 그는 깨달음을 얻었다고 해요.",
+    "caption": "그 순간, 그는 깨달음을 얻었다고 해요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "불교에서는 이걸, <#0.2#> 단번에 깨닫는다는 뜻의 돈오라고 해요.",
+    "caption": "불교에서는 이걸, 단번에 깨닫는다는 뜻의 돈오라고 해요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "수많은 삶이 필요하다던 깨어남이, <#0.2#> 지금은 훨씬 빨라졌어요.",
+    "caption": "수많은 삶이 필요하다던 깨어남이, 지금은 훨씬 빨라졌어요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당신도, <#0.2#> 이번 삶에서 훌쩍 도약할 수 있어요.",
+    "caption": "당신도, 이번 삶에서 훌쩍 도약할 수 있어요."
+   }
+  ],
+  "images": [
+   "a humble young woodcutter in simple old clothes in a busy ancient Chinese market, a bundle of firewood on his back",
+   "an old monk reciting from an ancient sutra scroll in the market, golden characters of light floating in the air",
+   "the woodcutter frozen still as golden light bursts softly from his chest while the crowd blurs around him",
+   "a serene young monk meditating under a tree on a misty mountain at dawn"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "golden light gently radiates outward from the woodcutter's chest, the crowd blurs and slows, petals of light drift upward"
+   }
+  ]
+ }
+}

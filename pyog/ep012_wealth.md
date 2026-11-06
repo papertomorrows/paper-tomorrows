@@ -90,10 +90,23 @@
 
 어떻게 돼도 괜찮다는 마음을 바탕에 두고, 즐겁게 상상하고, 현생을 살고. 그렇게 계속, 실천하는 거예요.
 
+<!-- section: guided | visuals: forest path light, person breathing calm morning, door opening light, two people meeting cafe, road sign crossroads | title: 길은, 신의 손길처럼 보여진다 | ai: a person standing calmly at a misty crossroads at dawn, one path ahead gently lighting up with soft golden footprints of light appearing one by one, as if an unseen hand were showing the way >> golden footprints of light appear one by one along the path, the mist parts softly, warm dawn light grows -->
+그럼 그 길은, 어떻게 찾을 수 있을까요.
+
+더 깊게 숨 쉬고, 차분하고 고요한 시간을, 더 많이 가져 보세요. 그리고 조금씩, 내 영혼이 기뻐하는 선택을 하면서 살아가 보세요. 큰 결심이 아니어도 돼요. 오늘 점심 메뉴 하나, 오늘 걷는 길 하나부터요.
+
+그렇게 살다 보면, 마치 신의 손길처럼, 길이 보여지기 시작해요.
+
+어디로 가면 좋을지. 무엇을 배우고, 무엇을 만들어 볼지. 누구를 만나게 될지. 무엇을 시작하고, 어디에 도전할지.
+
+우연이라기엔 너무 딱 맞는 만남, 이상하게 자꾸 눈에 들어오는 이름, 갑자기 열리는 문. 신기하고 미스터리한 상황과 사건들을 통해, 내 앞에 길을 하나씩 보여 줘요.
+
+내가 할 일은, 그 길을 억지로 찾아다니는 게 아니라, 고요해져서, 알아차리는 거예요.
+
 <!-- section: habits | visuals: morning journal, hands holding coffee, gift box, person smiling mirror, sunrise window | title: 오늘부터 해 볼 세 가지 -->
 그럼 오늘부터, 세 가지만 해 보세요.
 
-하나, 잠들기 전 오 분, 원하는 것을 이미 가진 하루를 즐겁게 상상하기. 미소가 지어지면, 그걸로 충분해요.
+하나, 잠들기 전 오 분. 깊게 숨 쉬며 고요해진 다음, 원하는 것을 이미 가진 하루를 즐겁게 상상하기. 미소가 지어지면, 그걸로 충분해요.
 
 둘, 칭찬을 들으면, 아니라고 하지 말고, 고마워요, 한마디만 하기. 받는 그릇이 열려요.
 

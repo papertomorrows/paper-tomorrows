@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh34en_huineng",
+ "status": "hold-sh-ep1213-en",
+ "lang": "English",
+ "hook": "A WOODCUTTER|WHO COULDN'T READ|AWAKENED IN A MOMENT",
+ "hook_size": 96,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh34_huineng",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "A woodcutter <#0.2#> who couldn't read. Huineng.",
+    "caption": "A woodcutter who couldn't read. Huineng."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Selling firewood in the market, <#0.2#> he heard one line of the Diamond Sutra.",
+    "caption": "Selling firewood in the market, he heard one line of the Diamond Sutra."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "In that moment, <#0.3#> it's said, he awakened.",
+    "caption": "In that moment, it's said, he awakened."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Buddhism calls this <#0.2#> sudden awakening.",
+    "caption": "Buddhism calls this sudden awakening."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Awakening once said to take countless lives <#0.2#> is much faster now.",
+    "caption": "Awakening once said to take countless lives is much faster now."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You can leap forward <#0.2#> in this life too.",
+    "caption": "You can leap forward in this life too."
+   }
+  ]
+ }
+}

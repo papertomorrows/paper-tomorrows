@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh33en_dignity",
+ "status": "hold-sh-ep1213-en",
+ "lang": "English",
+ "hook": "A SOUL'S CHARACTER|SHOWS AT|THE BOTTOM",
+ "hook_size": 104,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh33_dignity",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When things go well, <#0.2#> anyone can be a good person.",
+    "caption": "When things go well, anyone can be a good person."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "But at the bottom, <#0.3#> the truth shows.",
+    "caption": "But at the bottom, the truth shows."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Some blame others, <#0.2#> and try to hurt them.",
+    "caption": "Some blame others, and try to hurt them."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Some learn, <#0.2#> grow, and create something.",
+    "caption": "Some learn, grow, and create something."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Feeling low isn't wrong. <#0.2#> What matters is what you do with that time.",
+    "caption": "Feeling low isn't wrong. What matters is what you do with that time."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "That's <#0.2#> a soul's true character.",
+    "caption": "That's a soul's true character."
+   }
+  ]
+ }
+}

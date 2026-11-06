@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh29en_market",
+ "status": "hold-sh-ep1213-en",
+ "lang": "English",
+ "hook": "HARD WORK ALONE|WILL NEVER|MAKE YOU RICH",
+ "hook_size": 104,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh29_market",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "If hard work made you rich, <#0.2#> the people at the market before dawn would be the richest.",
+    "caption": "If hard work made you rich, the people at the market before dawn would be the richest."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "It's not that they don't work hard. <#0.3#> They work harder than anyone.",
+    "caption": "It's not that they don't work hard. They work harder than anyone."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Wealth isn't decided <#0.2#> by effort alone.",
+    "caption": "Wealth isn't decided by effort alone."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Money only fills <#0.2#> the vessel you have.",
+    "caption": "Money only fills the vessel you have."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Call lack a virtue, <#0.2#> refuse to receive, and the vessel stays blocked.",
+    "caption": "Call lack a virtue, refuse to receive, and the vessel stays blocked."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "As much as working hard, <#0.2#> you need to open your vessel.",
+    "caption": "As much as working hard, you need to open your vessel."
+   }
+  ]
+ }
+}

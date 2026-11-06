@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh31en_carrey",
+ "status": "hold-sh-ep1213-en",
+ "lang": "English",
+ "hook": "RICH PEOPLE|IMAGINED|LIKE THIS",
+ "hook_size": 120,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh31_carrey",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "As an unknown actor, Jim Carrey <#0.2#> reportedly imagined his success at night.",
+    "caption": "As an unknown actor, Jim Carrey reportedly imagined his success at night."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Then he wrote himself <#0.2#> a ten million dollar check.",
+    "caption": "Then he wrote himself a ten million dollar check."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Dated years ahead. <#0.3#> He kept it in his wallet.",
+    "caption": "Dated years ahead. He kept it in his wallet."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Around that date, <#0.2#> he learned he'd be paid ten million for a movie.",
+    "caption": "Around that date, he learned he'd be paid ten million for a movie."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "But he says, <#0.2#> you can't just visualize and go eat a sandwich.",
+    "caption": "But he says, you can't just visualize and go eat a sandwich."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Imagine joyfully, <#0.2#> then live today well.",
+    "caption": "Imagine joyfully, then live today well."
+   }
+  ]
+ }
+}

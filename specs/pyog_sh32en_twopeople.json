@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh32en_twopeople",
+ "status": "hold-sh-ep1213-en",
+ "lang": "English",
+ "hook": "AT YOUR LOWEST,|ONLY THOSE WHO|DO THIS RISE",
+ "hook_size": 104,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh32_twopeople",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Two people lose <#0.2#> the same job in the same year.",
+    "caption": "Two people lose the same job in the same year."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "One spends years <#0.2#> resenting the world.",
+    "caption": "One spends years resenting the world."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The other spends that time <#0.2#> learning, and building something.",
+    "caption": "The other spends that time learning, and building something."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Years later, <#0.3#> they live completely different lives.",
+    "caption": "Years later, they live completely different lives."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Same bottom. <#0.2#> The difference was what they did with that time.",
+    "caption": "Same bottom. The difference was what they did with that time."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "If you're at the bottom, <#0.2#> learn one more thing.",
+    "caption": "If you're at the bottom, learn one more thing."
+   }
+  ]
+ }
+}

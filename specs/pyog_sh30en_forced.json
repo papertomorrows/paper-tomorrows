@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh30en_forced",
+ "status": "hold-sh-ep1213-en",
+ "lang": "English",
+ "hook": "\"I AM RICH\"|THE MORE YOU SAY IT|THE FURTHER IT GOES",
+ "hook_size": 96,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh30_forced",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "I am rich. <#0.2#> Do you say it every day?",
+    "caption": "I am rich. Do you say it every day?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "While not believing a word inside?",
+    "caption": "While not believing a word inside?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The more you force it, <#0.2#> the emptier you feel. Nothing changed.",
+    "caption": "The more you force it, the emptier you feel. Nothing changed."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The real way <#0.3#> is to imagine joyfully.",
+    "caption": "The real way is to imagine joyfully."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "How it would feel to have it, <#0.2#> so good you could cry.",
+    "caption": "How it would feel to have it, so good you could cry."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "And then, <#0.2#> go live today well.",
+    "caption": "And then, go live today well."
+   }
+  ]
+ }
+}

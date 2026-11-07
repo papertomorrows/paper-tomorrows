@@ -1,11 +1,13 @@
-# EP014 명상이 안 되는 사람은, 이것부터 하세요 | 생각이 멈춘 틈에 원하는 걸 넣어라
+# EP014 명상이 처음이라면, 앉지 말고 이것부터 하세요 | 생각이 멈춘 틈에 원하는 걸 넣어라
 
 <!-- section: hook | visuals: woman meditating frustrated, person sitting floor eyes closed, busy mind city lights, woman dancing alone room, sweat running face | ai: a young woman sitting cross-legged in meditation in a dim room, eyes closed, while dozens of glowing tangled thought threads swirl chaotically around her head like a storm >> the glowing thought threads swirl faster around her head, flickering, her brow tightens slightly, the room stays dim -->
-명상하려고 눈을 감고 앉으면, 오히려 생각이 더 많아지죠.
+명상, 해 보고 싶은데 막상 해 보면 잘 안 되죠.
 
-내일 할 일, 아까 들은 말, 괜히 떠오르는 옛날 일. 그러다 결국, 나는 명상이 안 맞나 봐, 하고 포기해요.
+눈을 감고 앉으면, 오히려 생각이 더 많아져요. 내일 할 일, 아까 들은 말, 괜히 떠오르는 옛날 일. 그러다 결국, 나는 명상이 안 맞나 봐, 하고 포기해요.
 
-그건 당신이 못해서가 아니에요. 순서가 틀렸기 때문이에요.
+명상이 처음이라면, 그게 당연해요. 당신이 못해서가 아니라, 순서가 틀렸기 때문이에요. 처음부터 가만히 앉아서 생각을 멈추는 건, 오래 수련한 사람에게도 어려운 일이거든요.
+
+그래서 처음엔, 앉지 마세요. 먼저, 움직이세요.
 
 깨달음은, 머리가 아니라 몸으로 와요. 오늘은 몸을 써서 생각을 멈추는 법, 그리고 생각이 멈춘 그 틈에, 원하는 것을 넣는 법을 이야기할게요. 마지막엔, 지금 바로 일어나서 함께 해 볼 거예요.
 
@@ -50,7 +52,7 @@
 지난 영상에서, 즐겁게 상상하라고 했죠. 그 상상이 가장 깊이 들어가는 때가, 바로 이 틈이에요. 문지기가 쉬는 동안, 그 장면은 막힘 없이 안으로 들어가요.
 
 <!-- section: practice | visuals: woman dancing alone room, person running sweat, person shaking hands, person resting after workout, morning stretch | title: 오늘부터 해 볼 세 가지 -->
-그럼 오늘부터, 세 가지만 해 보세요.
+명상이 처음인 분이라면, 오늘부터 이 세 가지만 해 보세요. 앉아서 하는 명상은, 이게 익숙해진 다음에 해도 늦지 않아요.
 
 하나, 하루 한 곡. 아무도 안 볼 때, 마음대로 춤추기. 잘 출 필요는 전혀 없어요.
 
@@ -84,7 +86,7 @@
 그 느낌을 그대로 안고, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: people dancing together festival, sunrise ocean, woman arms open mountain, bird flying sky, golden field | ai: a group of people dancing together in a circle around a fire under a starry sky, golden light rising from all of them and joining into one bright column toward the stars >> the people dance in rhythm, the golden light from each of them rises and merges into one glowing column reaching up to the stars -->
-깨달음은, 머리로 이해하는 게 아니에요. 몸으로, 기억하는 거예요.
+명상이 어렵게 느껴졌다면, 앉는 것부터가 아니라, 움직이는 것부터 시작하세요. 깨달음은, 머리로 이해하는 게 아니에요. 몸으로, 기억하는 거예요.
 
 몸으로 털어 내고, 생각이 멈춘 틈에, 원하는 장면을, 큰 감정과 함께 넣으세요.
 

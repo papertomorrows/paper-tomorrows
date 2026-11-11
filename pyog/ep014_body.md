@@ -45,9 +45,11 @@
 <!-- section: plant | visuals: woman eyes closed smiling tears, sunrise window, dream home interior, people hugging joy, golden light rays | title: 그 틈에, 원하는 장면을 넣으세요 | ai: a woman standing still after dancing, breathing deeply with eyes closed, a vivid glowing scene of her dream life appearing like a soft golden film projected in the air in front of her chest >> the glowing dream scene gently brightens and comes alive in front of her, her face softens into a tearful smile, golden particles drift upward -->
 사실, 우리가 명상을 왜 할까요.
 
-이 세상에서 지내는 동안, 행복하고 싶어서잖아요. 건강하고, 풍요롭고, 마음이 평화롭고 싶어서요.
+대부분은, 이 세상에서 지내는 동안 행복하고 싶어서예요. 건강하고, 풍요롭고, 마음이 평화롭고 싶어서요.
 
-그러니까 명상은, 이 세상을 떠나는 게 아니라, 이 세상에서 더 잘 살기 위한 거예요. 생각을 멈추고, 그 고요 속에서, 내가 원하는 삶을 그려 보는 거예요.
+물론 누군가는, 다시 지구로 돌아오지 않아도 될 만큼, 의식을 크게 확장하고 싶어서 명상을 하기도 해요. 그것도, 아름다운 길이에요.
+
+다만 오늘은, 대부분의 사람들이 원하는 명상 이야기를 할게요. 이 세상에서, 더 잘 살기 위한 명상이요. 생각을 멈추고, 그 고요 속에서, 내가 원하는 삶을 그려 보는 거예요.
 
 그 틈에, 원하는 것을, 생생한 장면 하나로 떠올려 보세요.
 

@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh35en_firstmed",
+ "status": "hold-sh-ep014-en",
+ "lang": "English",
+ "hook": "NEW TO MEDITATION?|DON'T SIT.|MOVE FIRST",
+ "hook_size": 104,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh35_firstmed",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When you sit to meditate, <#0.2#> do your thoughts get louder?",
+    "caption": "When you sit to meditate, do your thoughts get louder?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You're not bad at it. <#0.3#> The order is just wrong.",
+    "caption": "You're not bad at it. The order is just wrong."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "At first, don't sit. <#0.2#> Move first.",
+    "caption": "At first, don't sit. Move first."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Hands, shoulders, whole body. <#0.2#> Shake it out for one minute.",
+    "caption": "Hands, shoulders, whole body. Shake it out for one minute."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Then the moment you stop, <#0.3#> a quiet gap opens.",
+    "caption": "Then the moment you stop, a quiet gap opens."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "In that gap, <#0.2#> picture one scene you want.",
+    "caption": "In that gap, picture one scene you want."
+   }
+  ]
+ }
+}

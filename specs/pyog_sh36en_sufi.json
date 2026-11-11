@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh36en_sufi",
+ "status": "hold-sh-ep014-en",
+ "lang": "English",
+ "hook": "SUFIS SPUN|TO MEET GOD",
+ "hook_size": 124,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh36_sufi",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Sufis dress in white, <#0.2#> and spin.",
+    "caption": "Sufis dress in white, and spin."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "One palm to the sky, <#0.2#> one to the earth.",
+    "caption": "One palm to the sky, one to the earth."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "They turn, and turn, <#0.3#> until thought stops.",
+    "caption": "They turn, and turn, until thought stops."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The self disappears, <#0.2#> and it's said they become one with God.",
+    "caption": "The self disappears, and it's said they become one with God."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Awakening comes <#0.2#> through the body, not the head.",
+    "caption": "Awakening comes through the body, not the head."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Today, <#0.2#> dance to just one song.",
+    "caption": "Today, dance to just one song."
+   }
+  ]
+ }
+}

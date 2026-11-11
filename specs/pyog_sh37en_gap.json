@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh37en_gap",
+ "status": "hold-sh-ep014-en",
+ "lang": "English",
+ "hook": "3 SECONDS|WHEN THOUGHT STOPS|PLANT YOUR WISH",
+ "hook_size": 100,
+ "hook_hi": 2,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh37_gap",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Thought <#0.2#> is like a gatekeeper.",
+    "caption": "Thought is like a gatekeeper."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When it's awake, <#0.2#> it blocks the way. That'll never work.",
+    "caption": "When it's awake, it blocks the way. That'll never work."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "But move until you're out of breath, then stop, <#0.3#> and the gatekeeper dozes.",
+    "caption": "But move until you're out of breath, then stop, and the gatekeeper dozes."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "A gap of just a few seconds. <#0.3#> That's your chance.",
+    "caption": "A gap of just a few seconds. That's your chance."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Plant one scene you want, <#0.2#> with big emotion.",
+    "caption": "Plant one scene you want, with big emotion."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "It goes in, <#0.2#> unblocked.",
+    "caption": "It goes in, unblocked."
+   }
+  ]
+ }
+}

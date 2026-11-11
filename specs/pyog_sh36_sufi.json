@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh36_sufi",
+ "status": "ready-ep014",
+ "hook": "수피들은|빙빙 돌며 신을 만났다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "수피들은 하얀 옷을 입고, <#0.2#> 빙빙 돌아요.",
+    "caption": "수피들은 하얀 옷을 입고, 빙빙 돌아요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "한 손은 하늘로, <#0.2#> 한 손은 땅으로.",
+    "caption": "한 손은 하늘로, 한 손은 땅으로."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "돌고, 또 돌다 보면, <#0.3#> 생각이 멈추는 순간이 와요.",
+    "caption": "돌고, 또 돌다 보면, 생각이 멈추는 순간이 와요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "나는 사라지고, <#0.2#> 신과 하나가 된다고 해요.",
+    "caption": "나는 사라지고, 신과 하나가 된다고 해요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "깨달음은, <#0.2#> 머리가 아니라 몸으로 와요.",
+    "caption": "깨달음은, 머리가 아니라 몸으로 와요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘, <#0.2#> 한 곡만 춤춰 보세요.",
+    "caption": "오늘, 한 곡만 춤춰 보세요."
+   }
+  ],
+  "images": [
+   "a lone whirling dervish in a white flowing robe spinning in a dark stone hall, one palm raised to the sky and one turned to the earth",
+   "many whirling dervishes spinning in a circle under a domed ceiling with golden light streaming down",
+   "a close-up of a dervish's serene face, eyes closed, lost in bliss as golden light spirals around him",
+   "a spiral of golden light rising from a spinning figure up into a starry night sky"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the dervish spins steadily, his white robe flares outward, a spiral of golden light rises around him"
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh35_firstmed",
+ "status": "ready-ep014",
+ "hook": "명상이 처음이라면|앉지 말고 이것부터",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "명상하려고 앉으면, <#0.2#> 오히려 생각이 더 많아지죠?",
+    "caption": "명상하려고 앉으면, 오히려 생각이 더 많아지죠?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "못해서가 아니에요. <#0.3#> 순서가 틀렸을 뿐이에요.",
+    "caption": "못해서가 아니에요. 순서가 틀렸을 뿐이에요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "처음엔 앉지 말고, <#0.2#> 먼저 움직이세요.",
+    "caption": "처음엔 앉지 말고, 먼저 움직이세요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "손, 어깨, 온몸을, <#0.2#> 일 분만 털어 보세요.",
+    "caption": "손, 어깨, 온몸을, 일 분만 털어 보세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 멈추는 순간, <#0.3#> 생각이 조용해지는 틈이 와요.",
+    "caption": "그리고 멈추는 순간, 생각이 조용해지는 틈이 와요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 틈에, <#0.2#> 원하는 장면 하나를 떠올리세요.",
+    "caption": "그 틈에, 원하는 장면 하나를 떠올리세요."
+   }
+  ],
+  "images": [
+   "a young woman sitting cross-legged in a dim room, eyes closed, glowing tangled thought threads swirling chaotically around her head",
+   "a young woman standing in her room at night shaking her hands and shoulders loosely, grey dust falling away from her",
+   "the same woman standing still after moving, eyes closed, breathing, a calm pool of soft golden light glowing at her chest",
+   "a woman with eyes closed smiling softly, a glowing golden scene of her dream life floating in the air before her"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "she shakes her hands and shoulders loosely, grey dust falls away and drifts down, warm light grows around her"
+   }
+  ]
+ }
+}

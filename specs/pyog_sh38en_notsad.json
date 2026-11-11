@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh38en_notsad",
+ "status": "hold-sh-ep015-en",
+ "lang": "English",
+ "hook": "YOU ARE NOT|YOUR SADNESS",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh38_notsad",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "If your heart feels heavy, <#0.2#> let me ask you one thing.",
+    "caption": "If your heart feels heavy, let me ask you one thing."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Are you sadness? <#0.3#> Or someone feeling sadness?",
+    "caption": "Are you sadness? Or someone feeling sadness?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "No matter how dark the clouds get, <#0.2#> the sky is never stained.",
+    "caption": "No matter how dark the clouds get, the sky is never stained."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Feelings are the clouds. <#0.3#> You are the sky.",
+    "caption": "Feelings are the clouds. You are the sky."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Don't push it away. <#0.2#> Just say, oh, I'm sad right now.",
+    "caption": "Don't push it away. Just say, oh, I'm sad right now."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The clouds pass. <#0.3#> The sky stays.",
+    "caption": "The clouds pass. The sky stays."
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh38_notsad",
+ "status": "ready-ep015",
+ "hook": "당신은 슬픔이 아니다|슬픔을 느끼는 존재다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 마음이 무겁다면, <#0.2#> 하나만 물어볼게요.",
+    "caption": "지금 마음이 무겁다면, 하나만 물어볼게요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당신은 슬픔인가요? <#0.3#> 아니면, 슬픔을 느끼는 누군가인가요?",
+    "caption": "당신은 슬픔인가요? 아니면, 슬픔을 느끼는 누군가인가요?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "먹구름이 아무리 짙어도, <#0.2#> 하늘은 더러워지지 않아요.",
+    "caption": "먹구름이 아무리 짙어도, 하늘은 더러워지지 않아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "감정은 구름이고, <#0.3#> 당신은 하늘이에요.",
+    "caption": "감정은 구름이고, 당신은 하늘이에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "밀어내지 말고, <#0.2#> 아, 지금 슬프구나, 하고 받아들이세요.",
+    "caption": "밀어내지 말고, 아, 지금 슬프구나, 하고 받아들이세요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "구름은 지나가고, <#0.3#> 하늘은 그대로예요.",
+    "caption": "구름은 지나가고, 하늘은 그대로예요."
+   }
+  ],
+  "images": [
+   "a woman sitting by a rain-streaked window at night, a dark grey cloud of sorrow hovering around her shoulders, a calm soft golden light glowing at the center of her chest",
+   "a vast glowing sky at dawn with dark storm clouds drifting through it, the sky behind them clean, luminous and endless",
+   "the same woman with her hand on her heart, eyes closed, the grey cloud around her softening and thinning into mist",
+   "dark clouds parting over a calm sea, a clear golden sky opening wide behind them"
+  ],
+  "animate": [
+   {
+    "image": 3,
+    "motion": "the dark clouds slowly part and drift away, golden light pours across the calm sea"
+   }
+  ]
+ }
+}

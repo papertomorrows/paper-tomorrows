@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh39_actor",
+ "status": "ready-ep015",
+ "hook": "좋은 배우는 진짜로 운다|그리고 컷 하면 돌아온다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "좋은 배우는, <#0.2#> 슬픈 장면에서 진짜로 울어요.",
+    "caption": "좋은 배우는, 슬픈 장면에서 진짜로 울어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하지만 컷 소리가 나면, <#0.3#> 자기 자신으로 돌아와요.",
+    "caption": "하지만 컷 소리가 나면, 자기 자신으로 돌아와요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "배역을 경험한 거지, <#0.2#> 배역이 된 게 아니니까요.",
+    "caption": "배역을 경험한 거지, 배역이 된 게 아니니까요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "화가 날 때, <#0.2#> 나는 화났어, 대신 이렇게 말해 보세요.",
+    "caption": "화가 날 때, 나는 화났어, 대신 이렇게 말해 보세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 내 안에 분노가, <#0.2#> 지나가고 있구나.",
+    "caption": "지금 내 안에 분노가, 지나가고 있구나."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 순간이 바로, <#0.3#> 컷이에요.",
+    "caption": "그 순간이 바로, 컷이에요."
+   }
+  ],
+  "images": [
+   "an actress on a dark theater stage under a single spotlight, tears on her face as she performs a grief-stricken scene",
+   "the same actress backstage wiping her tears, a calm peaceful smile, soft warm light around her",
+   "a person in a dark room with a red storm of anger swirling around them, while their calm golden true self stands one step behind, watching",
+   "a calm person standing in soft golden light, the red storm dissolving into drifting sparks"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the actress weeps in the spotlight, tears run down her face, the spotlight slowly widens into warm light"
+   }
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh40en_masters",
+ "status": "hold-sh-ep015-en",
+ "lang": "English",
+ "hook": "THE PEOPLE WHO ROSE HIGHEST|ALL DID THIS",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh40_masters",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The people who rose the highest <#0.2#> all knew how to do this.",
+    "caption": "The people who rose the highest all knew how to do this."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Watch your feelings and thoughts <#0.2#> as separate from you.",
+    "caption": "Watch your feelings and thoughts as separate from you."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Marcus Aurelius wrote notes to himself, <#0.2#> even on military campaigns.",
+    "caption": "Marcus Aurelius wrote notes to himself, even on military campaigns."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Phil Jackson <#0.2#> taught Michael Jordan to meditate.",
+    "caption": "Phil Jackson taught Michael Jordan to meditate."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "People swept up by emotion <#0.3#> get dragged around.",
+    "caption": "People swept up by emotion get dragged around."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "People who can step back <#0.2#> choose their next move.",
+    "caption": "People who can step back choose their next move."
+   }
+  ]
+ }
+}

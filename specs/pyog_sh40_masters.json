@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh40_masters",
+ "status": "ready-ep015",
+ "hook": "가장 높이 간 사람들은|이걸 할 줄 알았다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "가장 높은 곳까지 간 사람들은, <#0.2#> 이걸 할 줄 알았어요.",
+    "caption": "가장 높은 곳까지 간 사람들은, 이걸 할 줄 알았어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "감정과 생각을, <#0.2#> 나와 분리해서 바라보는 것.",
+    "caption": "감정과 생각을, 나와 분리해서 바라보는 것."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "마르쿠스 아우렐리우스는, <#0.2#> 전쟁터에서도 자신에게 글을 썼고,",
+    "caption": "마르쿠스 아우렐리우스는, 전쟁터에서도 자신에게 글을 썼고,"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "필 잭슨은, <#0.2#> 조던에게 명상을 가르쳤어요.",
+    "caption": "필 잭슨은, 조던에게 명상을 가르쳤어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "휩쓸리는 사람은, <#0.3#> 끌려다녀요.",
+    "caption": "휩쓸리는 사람은, 끌려다녀요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "분리할 줄 아는 사람은, <#0.2#> 다음 수를 고를 수 있어요.",
+    "caption": "분리할 줄 아는 사람은, 다음 수를 고를 수 있어요."
+   }
+  ],
+  "images": [
+   "a lone figure standing on a high mountain summit above a sea of storm clouds, calm and still in golden sunlight",
+   "a Roman emperor in a simple cloak writing by candlelight in a military tent at night, calm and focused",
+   "a basketball arena at night with a calm coach standing still on the sideline while the crowd roars, a soft golden glow around him",
+   "a person standing calmly above swirling storm clouds, looking ahead toward a golden horizon"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "storm clouds swirl and flash far below the summit, the calm figure stands still in golden light, wind moves gently"
+   }
+  ]
+ }
+}

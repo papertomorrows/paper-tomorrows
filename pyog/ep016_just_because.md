@@ -9,7 +9,7 @@
 
 그런데, 사실 그냥은 없어요. 오늘은 이 작은 단어 하나에 숨어 있는, 아주 큰 비밀을 이야기할게요.
 
-그리고 끝까지 들어 주세요. 자기가 고르지도 않은 선택을, 아주 자신 있게 설명한 사람들의 실험 이야기도 있거든요.
+그리고, 이유도 모른 채 마음이 가라앉곤 하던 한 사람이, 그 그냥의 진짜 이유를 찾은 이야기도 들려드릴게요.
 
 <!-- section: noreason | visuals: domino falling, tree roots underground, river source mountain, seed sprouting soil, clock gears | title: 그냥은, 없다 | ai: a single small leaf floating on the surface of a dark pond, and beneath the surface a vast glowing root system stretching deep into the darkness, connected to the leaf >> the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface -->
 모든 것에는, 이유가 있어요. 내가 느끼는 감정도, 떠오르는 생각도, 무심코 하는 말도, 행동도요.
@@ -20,14 +20,16 @@
 
 그러니까 그냥이라는 말은, 사실 이런 뜻이에요. 아직, 이유를 모르겠어.
 
-<!-- section: science | visuals: two photos woman faces, scientist laboratory, brain illustration, woman confused thinking, magnifying glass | title: 고르지도 않은 선택을, 설명하는 사람들 | ai: a man at a table holding up a photograph of a woman's face, confidently explaining something, while a faint ghostly second photograph of a different face hovers unseen behind him in the shadows >> the man gestures confidently with the photograph, the ghostly second photo behind him glows faintly and fades, soft lamp light flickers -->
-스웨덴의 한 연구팀이, 이런 실험을 했어요. 사람들에게 두 사람의 얼굴 사진을 보여 주고, 더 매력적인 쪽을 고르게 했죠.
+<!-- section: smell | visuals: hospital corridor, rainy window memory, woman walking past hospital, child hospital bed, woman eyes closed remembering | title: 소독약 냄새와, 그냥 | ai: a woman standing still in a bright modern hallway with her eyes closed, while a faint translucent memory of a small child alone in an old hospital bed at night appears beside her in soft blue light >> the translucent memory of the child in the hospital bed slowly glows and fades in and out beside her, her face softens, light flickers gently -->
+이런 사람이 있다고 해 볼게요.
 
-그런데 연구자가 몰래, 고르지 않은 쪽 사진을 건네주고, 왜 이 사람을 골랐나요, 하고 물었어요.
+이 사람은 병원 앞을 지나거나, 어디선가 소독약 냄새만 맡으면, 그냥 마음이 가라앉았어요. 이유는 몰랐어요. 그냥, 기분 탓이겠지, 하고 넘겼죠.
 
-대부분은, 바뀐 걸 눈치채지 못했어요. 그리고 자기가 고르지도 않은 얼굴을 두고, 이 사람의 미소가 좋아서요, 하고 이유를 술술 설명했어요.
+그러던 어느 날, 조용히 앉아서 물어봤어요. 나는 왜, 이 냄새만 맡으면 마음이 무거워질까.
 
-우리는 생각보다, 내가 왜 그렇게 하는지 잘 몰라요. 진짜 이유는 더 깊은 곳에 있고, 머리는 그럴듯한 이유를 만들거나, 그냥, 이라고 덮어 버려요.
+그러자, 잊고 있던 장면 하나가 떠올랐어요. 아주 어릴 때, 오래 입원했던 병실. 엄마가 집에 돌아가고, 혼자 남겨졌던 밤. 무섭고, 외로웠던 그 아이.
+
+그 냄새가, 그 밤의 마음을 데려오고 있었던 거예요. 그건, 그냥이 아니었어요.
 
 <!-- section: story | visuals: old family photos, child sitting alone, woman looking old photo, rain window memory, little girl crying | title: 그냥 뒤에 숨은, 이야기 | ai: a grown woman standing in a dim hallway, and behind her a soft glowing doorway showing a small child sitting alone in an old room, the same feeling on both of their faces >> the glowing doorway behind her brightens gently, the child inside slowly looks up, dust drifts in warm light -->
 그냥 짜증 나. 사실은, 몸이 너무 지쳐 있거나, 내 마음을 알아주길 바라는 거예요.
@@ -53,6 +55,8 @@
 이유를 모르면, 바꿀 수가 없어요. 그냥 그런 거니까요. 그래서 같은 상처, 같은 반응, 같은 선택이 계속 되풀이돼요.
 
 하지만 이유를 알면, 달라져요. 내가 원한다면, 그 상처를 치유할 수 있고, 그 오래된 이야기를, 새로 쓸 수 있어요.
+
+소독약 냄새에 마음이 가라앉던 그 사람도, 이유를 알고 나서야, 그 밤의 어린 나에게 말해 줄 수 있었어요. 많이 무서웠지. 이제 괜찮아. 그 뒤로 그 냄새는, 더 이상 마음을 끌어내리지 못했어요.
 
 흔히 칼 융의 말로 알려진, 이런 문장이 있어요. 무의식을 의식으로 만들지 않으면, 그것이 삶을 이끌게 되고, 우리는 그걸 운명이라고 부른다.
 

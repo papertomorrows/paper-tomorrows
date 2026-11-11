@@ -11,8 +11,10 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "done-ep014-v1",
+ "status": "ready-ep014-v2-freshstock",
  "sentence_gap": 0.2,
  "para_gap": 0.55,
- "section_gap": 0.6
+ "section_gap": 0.6,
+ "fresh_before": 1794384545.0464392,
+ "tag_match": 2
 }

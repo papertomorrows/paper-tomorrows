@@ -271,6 +271,12 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     tags = (h.get("tags") or "").lower()
                     if any(w in tags for w in BLOCK_TAGS):  # never show smoking, drinking, weapons etc.
                         continue
+                    need_tags = int(spec.get("tag_match", 0))  # relevance: keyword words must appear in the clip's tags
+                    if need_tags:
+                        words = [w[:4] for w in re.findall(r"[a-z]+", kw.lower()) if len(w) >= 4]
+                        hit = sum(1 for w in words if w in tags)
+                        if hit < min(need_tags, len(words)):
+                            continue
                     if v and v.get("url") and h["duration"] >= clip_s + 2 and v.get("width", 1920) >= 1280:
                         hits.append((h["id"], v["url"], kw))
                         credits[h["id"]] = h.get("pageURL", f"https://pixabay.com/videos/id-{h['id']}/")
@@ -286,6 +292,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     if cid in used:
                         continue
                     f = cache / "stock" / f"px_{cid}.mp4"
+                    fb = float(spec.get("fresh_before", 0))  # only clips never used in earlier videos
+                    if fb and f.exists() and f.stat().st_mtime < fb:
+                        used.add(cid)
+                        continue
                     if not f.exists():
                         try:
                             f.write_bytes(requests.get(url, timeout=300).content)

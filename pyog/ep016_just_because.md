@@ -5,7 +5,9 @@
 
 왜 기분이 안 좋아? 그냥.
 
-우리는 하루에도 몇 번씩, 이 말을 해요. 그냥.
+왜 그 사람 연락, 안 받았어? 그냥.
+
+냉장고 문을 열었다가, 아무것도 안 꺼내고 닫을 때. 휴대폰을 켰다가, 뭘 하려고 했는지도 모른 채 화면만 넘길 때. 이유 없이 마음이 가라앉는 저녁. 우리는 이 모든 순간을, 한 단어로 덮어요. 그냥.
 
 그런데, 사실 그냥은 없어요. 오늘은 이 작은 단어 하나에 숨어 있는, 아주 큰 비밀을 이야기할게요.
 
@@ -14,9 +16,9 @@
 <!-- section: noreason | visuals: domino falling, tree roots underground, river source mountain, seed sprouting soil, clock gears | title: 그냥은, 없다 | ai: a single small leaf floating on the surface of a dark pond, and beneath the surface a vast glowing root system stretching deep into the darkness, connected to the leaf >> the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface -->
 모든 것에는, 이유가 있어요. 내가 느끼는 감정도, 떠오르는 생각도, 무심코 하는 말도, 행동도요.
 
-아무 이유 없이 생기는 건, 하나도 없어요.
+아무 이유 없이 생기는 건, 하나도 없어요. 연못 위에 뜬 잎 하나도, 물 아래로는 길게 뿌리가 이어져 있는 것처럼요.
 
-다만, 그 이유를 내가 모를 뿐이에요. 그래서 우리는, 그냥, 이라고 말해요.
+다만, 그 뿌리가 내 눈에 보이지 않을 뿐이에요. 그래서 우리는, 그냥, 이라고 말해요.
 
 그러니까 그냥이라는 말은, 사실 이런 뜻이에요. 아직, 이유를 모르겠어.
 
@@ -25,25 +27,41 @@
 
 이 사람은 병원 앞을 지나거나, 어디선가 소독약 냄새만 맡으면, 그냥 마음이 가라앉았어요. 이유는 몰랐어요. 그냥, 기분 탓이겠지, 하고 넘겼죠.
 
-그러던 어느 날, 조용히 앉아서 물어봤어요. 나는 왜, 이 냄새만 맡으면 마음이 무거워질까.
+그러던 어느 날, 이번에는 그냥, 하고 넘기지 않기로 했어요.
 
-그러자, 잊고 있던 장면 하나가 떠올랐어요. 아주 어릴 때, 오래 입원했던 병실. 엄마가 집에 돌아가고, 혼자 남겨졌던 밤. 무섭고, 외로웠던 그 아이.
+조용한 방에 앉아서, 눈을 감고, 숨을 몇 번 깊게 쉬었어요. 그리고 내 안의 나에게, 다정하게 물어봤어요.
 
-그 냄새가, 그 밤의 마음을 데려오고 있었던 거예요. 그건, 그냥이 아니었어요.
+있잖아. 너는 왜, 이 냄새만 맡으면 마음이 무거워지니.
+
+처음엔, 아무 대답이 없었어요. 그래도 재촉하지 않고, 가만히 기다렸어요.
+
+그러자 가슴 한쪽이, 살짝 조여 왔어요. 그 느낌에게, 다시 물었어요. 이 느낌은, 언제부터 거기 있었니.
+
+그러자, 잊고 있던 장면 하나가, 천천히 떠올랐어요. 하얀 벽, 차가운 침대, 복도 끝의 희미한 불빛. 아주 어릴 때, 오래 입원했던 병실이었어요.
+
+엄마가 집에 돌아가고, 혼자 남겨졌던 밤. 그 아이는 무섭고 외로웠지만, 울면 안 된다고 생각했어요. 그래서 그 마음을, 꾹 삼켜 버렸죠.
+
+그 냄새가, 그 밤에 삼켜 버린 마음을, 데려오고 있었던 거예요. 그건, 그냥이 아니었어요.
 
 <!-- section: story | visuals: old family photos, child sitting alone, woman looking old photo, rain window memory, little girl crying | title: 그냥 뒤에 숨은, 이야기 | ai: a grown woman standing in a dim hallway, and behind her a soft glowing doorway showing a small child sitting alone in an old room, the same feeling on both of their faces >> the glowing doorway behind her brightens gently, the child inside slowly looks up, dust drifts in warm light -->
-그냥 짜증 나. 사실은, 몸이 너무 지쳐 있거나, 내 마음을 알아주길 바라는 거예요.
+우리의 그냥도, 마찬가지예요.
 
-그 사람이, 그냥 싫어. 사실은, 예전에 나를 아프게 했던 누군가와 닮아 있어서일 수도 있어요.
+퇴근길에, 그냥 짜증이 나요. 가만히 들여다보면, 점심도 제대로 못 먹었고, 회의에서 내 말이 아무렇지 않게 묻혀 버린 순간이 있었어요. 사실은 지쳤고, 내 마음을 누군가 알아주길 바랐던 거예요.
 
-그냥 불안해. 사실은, 아주 어릴 때부터 내 안에서 반복되어 온, 오래된 이야기 하나가 있는 거예요.
+처음 만난 사람인데, 그냥 싫어요. 가만히 들여다보면, 그 사람의 말투가, 예전에 나를 아프게 했던 누군가와 닮아 있을 수 있어요.
 
-그냥 뒤에는, 언제나 이야기가 있어요. 내가 겪었던 일, 그때 내렸던 결론, 그리고 그 결론이 만든 믿음들. 그 이야기가, 지금의 내 감정과 생각과 행동을 움직이고 있어요.
+일이 잘되고 있는데도, 그냥 불안해요. 가만히 들여다보면, 잘해야만 사랑받는다고 믿었던, 아주 어린 날의 내가 있을 수 있어요.
+
+그냥 뒤에는, 언제나 이야기가 있어요. 내가 겪었던 일, 그때 내렸던 결론, 그리고 그 결론이 만든 믿음들. 그 이야기가, 지금의 내 감정과 생각과 행동을, 조용히 움직이고 있어요.
 
 <!-- section: inward | visuals: woman looking inward closed eyes, crowd city rush hour, phone screen scrolling night, woman meditating light, door light dark room | title: 시선을, 안으로 | ai: a person standing in a vast grid-like city of glowing green code and endless screens, turning away from it with eyes closed, a soft golden doorway opening at the center of their own chest >> the glowing code city flickers and slowly dissolves around them, the golden doorway in their chest opens wider and pours out warm light -->
+그런데 우리는, 이 이야기를 잘 들여다보지 않아요.
+
 우리는 보통, 바깥에 훨씬 예민해요. 남의 표정, 남의 말, 세상의 소식. 하루 종일, 시선이 밖으로만 향해 있죠.
 
-그런데 정작, 내 안에서 무슨 일이 일어나고 있는지에는, 무뎌요. 그래서, 그냥이 생겨요.
+하루에, 남의 소식은 수십 번씩 확인하면서, 내 마음에게, 오늘 어땠어, 하고 물어본 건, 몇 번인가요.
+
+정작, 내 안에서 무슨 일이 일어나고 있는지에는, 무뎌요. 그래서, 그냥이 생겨요.
 
 이제는 순서를 바꿔야 해요. 바깥보다, 안을 먼저. 그리고, 더 많이. 나를 아는 일에, 더 예민하고, 더 까다로워지는 거예요. 이 감정은 어디서 왔지. 이 말은, 왜 나왔지. 그냥, 하고 넘기지 않는 거예요.
 
@@ -52,11 +70,17 @@
 그런데 그 매트릭스의 문은, 바깥에 있지 않아요. 밖으로 나가는 유일한 길은, 안으로 들어가는 거예요. 나를 알아 갈수록, 그냥이 하나씩 줄어들고, 그만큼, 매트릭스 밖으로 걸어 나오게 돼요.
 
 <!-- section: aware | visuals: woman journaling night, lantern dark forest, woman eyes closed calm, flashlight dark cave, sunrise window | title: 왜, 하고 다정하게 물어보기 | ai: a person holding a small glowing lantern, walking calmly down a stone staircase into a dark inner cave, the lantern light revealing old glowing words and memories carved into the walls >> the lantern light slowly reveals more glowing memories on the cave walls as the person descends calmly, warm light spreads -->
-그럼, 그 이야기는 어떻게 찾을 수 있을까요.
+그럼, 안으로 어떻게 들어갈 수 있을까요. 소독약 냄새의 그 사람이 했던 것처럼 하면 돼요.
 
 그냥, 이라는 말이 나올 때, 한 번 멈춰서 물어보는 거예요. 왜 그럴까.
 
 혼내듯이가 아니라, 궁금한 친구에게 묻듯이, 다정하게요. 그리고 답이 나오면, 한 번 더 물어보세요. 그건, 또 왜 그럴까.
+
+예를 들면 이래요. 그냥 휴대폰을 봤어. 왜? 심심해서. 그건 왜? 사실은, 해야 할 일이 막막해서. 그건 또 왜? 잘 못할까 봐, 두려워서.
+
+세 번만 물어도, 그냥 뒤에 숨어 있던 진짜 마음이 모습을 드러내요.
+
+답이 바로 오지 않아도, 재촉하지 말고 기다려 주세요. 때로는 생각보다, 몸의 느낌이 먼저 대답해요. 가슴이 조여 오거나, 목이 메거나, 어깨가 굳는 것처럼요.
 
 이게 바로, 자기 알아차림이에요. 나를 들여다보는 만큼, 그냥이 하나씩 줄어들어요.
 
@@ -67,7 +91,7 @@
 
 하지만 이유를 알면, 달라져요. 내가 원한다면, 그 상처를 치유할 수 있고, 그 오래된 이야기를, 새로 쓸 수 있어요.
 
-소독약 냄새에 마음이 가라앉던 그 사람도, 이유를 알고 나서야, 그 밤의 어린 나에게 말해 줄 수 있었어요. 많이 무서웠지. 이제 괜찮아. 그 뒤로 그 냄새는, 더 이상 마음을 끌어내리지 못했어요.
+소독약 냄새에 마음이 가라앉던 그 사람도, 이유를 알고 나서야, 그 밤에 울지도 못했던 어린 나에게, 말해 줄 수 있었어요. 많이 무서웠지. 이제 울어도 괜찮아. 내가 여기 있어. 그 뒤로 그 냄새는, 더 이상 마음을 끌어내리지 못했어요.
 
 흔히 칼 융의 말로 알려진, 이런 문장이 있어요. 무의식을 의식으로 만들지 않으면, 그것이 삶을 이끌게 되고, 우리는 그걸 운명이라고 부른다.
 
@@ -83,6 +107,8 @@
 나를 사랑하게 되면, 마음이 평화로워지고, 행복해지고, 영혼이 깊은 곳에서부터 충만해져요.
 
 그렇게 가득 차면, 사랑과 풍요는, 저절로 흘러넘쳐요. 억지로 짜내는 게 아니라, 넘쳐서 흐르는 거예요.
+
+그리고 신기하게도, 내 그냥의 이유를 알게 되면, 다른 사람의 그냥도 보이기 시작해요. 저 사람이 저러는 것도, 이유가 있겠구나.
 
 그때부터는, 다른 사람과 자연스럽게 나눌 수 있고, 진심으로 도울 수 있게 돼요. 나를 아는 것에서, 모든 게 시작돼요.
 
@@ -106,7 +132,9 @@
 
 요즘, 그냥, 이라고 넘겼던 감정이나 행동 하나를, 떠올려 보세요. {pause:5}
 
-그리고 다정하게 물어보세요. 왜, 그랬을까. {pause:8}
+그때의 느낌이, 몸의 어디에서 느껴지는지, 가만히 찾아보세요. {pause:6}
+
+그 느낌에게, 다정하게 물어보세요. 왜, 그랬니. {pause:8}
 
 떠오르는 답이 있다면, 한 번 더 물어보세요. 그건, 또 왜 그럴까. {pause:8}
 

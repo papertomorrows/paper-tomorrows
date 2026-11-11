@@ -62,7 +62,7 @@
 <!-- section: who | visuals: milky way night sky, aurora night, calm lake reflection, stars galaxy night, sunrise ocean | title: 그럼, 진짜 나는 누구인가 | ai: a luminous human silhouette made of soft starlight standing in a vast night sky, faint clouds of thoughts and feelings passing through and around it like mist, the starlight body remaining whole and serene >> mist of thoughts and feelings drifts through the starlight silhouette and disperses, the silhouette glows steadier and brighter, stars shimmer -->
 진짜 나는, 그 모든 것을 바라보고 있는 존재예요. 감정이 오고 가고, 생각이 오고 가는 걸, 고요하게 알아차리고 있는 의식.
 
-그 의식은, 빛이에요. 그리고 그 빛은, 존재하는 모든 것과 이어져 있어요. 감정과 생각은, 그 빛 위에 잠시 비치는 그림자일 뿐이에요.
+그 의식은, 빛이에요. 그리고 그 빛은, 우주 전체와 이어져 있어요. 감정과 생각은, 그 빛 위에 잠시 비치는 그림자일 뿐이에요.
 
 <!-- section: masters | visuals: ancient rome statue, old book writing desk, basketball arena lights, city skyline sunrise, mountain summit clouds | title: 가장 높이 간 사람들의 공통점 | ai: a lone figure standing on a high mountain summit above a sea of storm clouds, calm and still in golden sunlight, while the storms swirl far below without reaching them >> storm clouds swirl and flash far below the summit, the calm figure stands still in the golden light, wind moves gently through their clothes -->
 그리고 놀랍게도, 가장 높은 곳까지 간 사람들은, 바로 이걸 할 줄 알았어요. 감정과 생각을, 나와 분리해서 바라보는 것.

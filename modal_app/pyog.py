@@ -276,7 +276,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         offt = ["cat", "kitten", "dog", "puppy", "elephant", "cow", "cattle", "horse", "pet", "animal",
                                 "christmas", "santa", "xmas", "guitar", "turntable", "piano", "violin", "underwater",
                                 "swimming", "pool", "shower", "bathroom", "coffee", "food", "kitchen", "lipstick",
-                                "makeup", "keyboard", "laptop", "computer", "phone", "car", "traffic", "wedding"]
+                                "makeup", "keyboard", "laptop", "computer", "phone", "car", "traffic", "wedding",
+                                "drum", "drummer", "concert", "band", "musician", "goose", "geese", "duck", "chicken",
+                                "cross", "church", "jesus", "business", "meeting", "office"]
                         if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
                             continue
                         if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):

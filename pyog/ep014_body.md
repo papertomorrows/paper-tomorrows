@@ -1,4 +1,4 @@
-# EP014 명상이 처음이라면, 앉지 말고 이것부터 하세요 | 생각이 멈춘 틈에 원하는 걸 넣어라
+# EP014 명상이 처음이라면, 앉지 말고 이것부터 하세요 | 명상이 안 된다면 순서가 틀렸다
 
 <!-- section: hook | visuals: woman meditating frustrated, person sitting floor eyes closed, busy mind city lights, woman dancing alone room, sweat running face | ai: a young woman sitting cross-legged in meditation in a dim room, eyes closed, while dozens of glowing tangled thought threads swirl chaotically around her head like a storm >> the glowing thought threads swirl faster around her head, flickering, her brow tightens slightly, the room stays dim -->
 명상, 해 보고 싶은데 막상 해 보면 잘 안 되죠.

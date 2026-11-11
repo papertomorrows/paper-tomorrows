@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh39_actor",
- "status": "ready-ep015",
+ "status": "done-ep015",
  "hook": "좋은 배우는 진짜로 운다|그리고 컷 하면 돌아온다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "그 순간이 바로, 컷이에요."
    }
   ],
-  "images": [
+  "images_done": [
    "an actress on a dark theater stage under a single spotlight, tears on her face as she performs a grief-stricken scene",
    "the same actress backstage wiping her tears, a calm peaceful smile, soft warm light around her",
    "a person in a dark room with a red storm of anger swirling around them, while their calm golden true self stands one step behind, watching",
    "a calm person standing in soft golden light, the red storm dissolving into drifting sparks"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the actress weeps in the spotlight, tears run down her face, the spotlight slowly widens into warm light"

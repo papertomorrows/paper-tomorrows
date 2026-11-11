@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh37_gap",
- "status": "ready-ep014",
+ "status": "done-ep014",
  "hook": "생각이 멈춘 3초|그때 원하는 걸 넣어라",
  "hook_size": 100,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "그 장면은, 막힘 없이 안으로 들어가요."
    }
   ],
-  "images": [
+  "images_done": [
    "a dancer mid-leap in a dark space, all glowing thought threads around her suddenly falling still and fading",
    "a stern old gatekeeper dozing off beside a great glowing door that slowly swings open",
    "a woman standing still after dancing, eyes closed, a vivid glowing scene of her dream life projected before her chest",
    "a woman with tears of joy and a radiant smile in warm golden light"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 1,
     "motion": "the old gatekeeper's head nods as he dozes, the great glowing door slowly swings open, golden light spills out"

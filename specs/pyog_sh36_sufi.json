@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh36_sufi",
- "status": "ready-ep014",
+ "status": "done-ep014",
  "hook": "수피들은|빙빙 돌며 신을 만났다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "오늘, 한 곡만 춤춰 보세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a lone whirling dervish in a white flowing robe spinning in a dark stone hall, one palm raised to the sky and one turned to the earth",
    "many whirling dervishes spinning in a circle under a domed ceiling with golden light streaming down",
    "a close-up of a dervish's serene face, eyes closed, lost in bliss as golden light spirals around him",
    "a spiral of golden light rising from a spinning figure up into a starry night sky"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the dervish spins steadily, his white robe flares outward, a spiral of golden light rises around him"

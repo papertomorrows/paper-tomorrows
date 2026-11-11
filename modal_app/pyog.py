@@ -271,6 +271,17 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     tags = (h.get("tags") or "").lower()
                     if any(w in tags for w in BLOCK_TAGS):  # never show smoking, drinking, weapons etc.
                         continue
+                    if spec.get("strict_topic"):  # off-topic subjects unless the keyword asks for them
+                        kl = kw.lower()
+                        offt = ["cat", "kitten", "dog", "puppy", "elephant", "cow", "cattle", "horse", "pet", "animal",
+                                "christmas", "santa", "xmas", "guitar", "turntable", "piano", "violin", "underwater",
+                                "swimming", "pool", "shower", "bathroom", "coffee", "food", "kitchen", "lipstick",
+                                "makeup", "keyboard", "laptop", "computer", "phone", "car", "traffic", "wedding"]
+                        if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
+                            continue
+                        if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):
+                            if not re.search(r"\b(woman|women|man|men|people|person|girl|boy|silhouette|dancer|dancing|dance|human|crowd|family|monk|lady|female|male|adult)\b", tags):
+                                continue
                     need_tags = int(spec.get("tag_match", 0))  # relevance: keyword words must appear in the clip's tags
                     if need_tags:
                         words = [w[:4] for w in re.findall(r"[a-z]+", kw.lower()) if len(w) >= 4]

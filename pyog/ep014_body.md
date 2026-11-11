@@ -44,7 +44,7 @@
 
 생각은, 문지기 같아요. 문지기가 깨어 있으면, 그게 되겠어, 하고 막아서요. 하지만 문지기가 잠깐 조는 그 틈. 그때가, 원하는 것을 들여보낼 시간이에요.
 
-<!-- section: plant | visuals: woman smiling sunlight, happy family sunset, beautiful house interior, happy woman tears, sunrise window | title: 그 틈에, 원하는 장면을 넣으세요 | ai: a woman standing still after dancing, breathing deeply with eyes closed, a vivid glowing scene of her dream life appearing like a soft golden film projected in the air in front of her chest >> the glowing dream scene gently brightens and comes alive in front of her, her face softens into a tearful smile, golden particles drift upward -->
+<!-- section: plant | visuals: woman smiling sunlight, happy woman sunset, woman eyes closed smiling, happy woman tears, sunrise window | title: 그 틈에, 원하는 장면을 넣으세요 | ai: a woman standing still after dancing, breathing deeply with eyes closed, a vivid glowing scene of her dream life appearing like a soft golden film projected in the air in front of her chest >> the glowing dream scene gently brightens and comes alive in front of her, her face softens into a tearful smile, golden particles drift upward -->
 사실, 우리가 명상을 왜 할까요.
 
 대부분은, 이 세상에서 지내는 동안 행복하고 싶어서예요. 건강하고, 풍요롭고, 마음이 평화롭고 싶어서요.
@@ -97,7 +97,7 @@
 
 그 느낌을 그대로 안고, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
-<!-- section: outro | visuals: people dancing together, concert crowd hands, sunrise ocean, birds flying sunset, woman arms open mountain | ai: a group of people dancing together in a circle around a fire under a starry sky, golden light rising from all of them and joining into one bright column toward the stars >> the people dance in rhythm, the golden light from each of them rises and merges into one glowing column reaching up to the stars -->
+<!-- section: outro | visuals: people dancing sunset, dancing silhouette sunset, sunrise ocean, birds flying sunset, woman arms open mountain | ai: a group of people dancing together in a circle around a fire under a starry sky, golden light rising from all of them and joining into one bright column toward the stars >> the people dance in rhythm, the golden light from each of them rises and merges into one glowing column reaching up to the stars -->
 명상이 어렵게 느껴졌다면, 앉는 것부터가 아니라, 움직이는 것부터 시작하세요. 깨달음은, 머리로 이해하는 게 아니에요. 몸으로, 기억하는 거예요.
 
 몸으로 털어 내고, 생각이 멈춘 틈에, 원하는 장면을, 큰 감정과 함께 넣으세요.

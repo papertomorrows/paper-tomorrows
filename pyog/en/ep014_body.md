@@ -44,7 +44,7 @@ The body works the same way. Dance until you're out of breath, move until the sw
 
 Thought is like a gatekeeper. When it's awake, it blocks the way: that'll never work. But in the moment the gatekeeper dozes off, that's your chance to let what you want slip through.
 
-<!-- section: plant | visuals: woman smiling sunlight, happy family sunset, beautiful house interior, happy woman tears, sunrise window | title: In That Gap, Plant the Scene You Want | ai: a woman standing still after dancing, breathing deeply with eyes closed, a vivid glowing scene of her dream life appearing like a soft golden film projected in the air in front of her chest >> the glowing dream scene gently brightens and comes alive in front of her, her face softens into a tearful smile, golden particles drift upward -->
+<!-- section: plant | visuals: woman smiling sunlight, happy woman sunset, woman eyes closed smiling, happy woman tears, sunrise window | title: In That Gap, Plant the Scene You Want | ai: a woman standing still after dancing, breathing deeply with eyes closed, a vivid glowing scene of her dream life appearing like a soft golden film projected in the air in front of her chest >> the glowing dream scene gently brightens and comes alive in front of her, her face softens into a tearful smile, golden particles drift upward -->
 So why do we meditate, really?
 
 For most people, it's because they want to be happy while they're here in this world. Healthy, abundant, at peace.
@@ -97,7 +97,7 @@ What feeling is rising in your chest? {pause:8}
 
 Hold that feeling, take a deep breath in… {pause:4} and as you slowly breathe out, open your eyes. {pause:3}
 
-<!-- section: outro | visuals: people dancing together, concert crowd hands, sunrise ocean, birds flying sunset, woman arms open mountain | ai: a group of people dancing together in a circle around a fire under a starry sky, golden light rising from all of them and joining into one bright column toward the stars >> the people dance in rhythm, the golden light from each of them rises and merges into one glowing column reaching up to the stars -->
+<!-- section: outro | visuals: people dancing sunset, dancing silhouette sunset, sunrise ocean, birds flying sunset, woman arms open mountain | ai: a group of people dancing together in a circle around a fire under a starry sky, golden light rising from all of them and joining into one bright column toward the stars >> the people dance in rhythm, the golden light from each of them rises and merges into one glowing column reaching up to the stars -->
 If meditation has felt hard, don't start by sitting. Start by moving. Awakening isn't something you understand with your head. It's something you remember with your body.
 
 Shake it out through the body, and in the gap when thought stops, plant the scene you want, with big emotion.

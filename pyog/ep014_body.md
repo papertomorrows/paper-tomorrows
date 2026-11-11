@@ -9,6 +9,8 @@
 
 그래서 처음엔, 앉지 마세요. 먼저, 움직이세요.
 
+그런데, 그냥 움직이기만 하는 게 아니에요. 움직이고 난 직후에 찾아오는, 단 몇 초의 틈. 그 틈을 어떻게 쓰느냐가, 오늘 이야기의 핵심이에요.
+
 깨달음은, 머리가 아니라 몸으로 와요. 오늘은 몸을 써서 생각을 멈추는 법, 그리고 생각이 멈춘 그 틈에, 원하는 것을 넣는 법을 이야기할게요. 마지막엔, 지금 바로 일어나서 함께 해 볼 거예요.
 
 <!-- section: body | visuals: hands on chest breathing, person shaking body outdoors, feet on grass, heartbeat close up, woman stretching sunrise | title: 왜, 몸일까 | ai: a translucent human silhouette standing in darkness, with soft golden light flowing through its body like rivers, dark heavy knots of shadow lodged in the shoulders and chest slowly loosening >> the dark knots in the shoulders and chest slowly loosen and dissolve into golden light flowing freely through the body -->
@@ -81,7 +83,7 @@
 
 이제 온몸을. 무릎도, 발도, 마음대로 흔들어요. 무거운 기운이, 바닥으로 다 빠져나간다고 느끼면서. {pause:20}
 
-자, 멈추세요. 가만히 서서, 숨만 느껴 보세요. {pause:8}
+자, 멈추세요. 가만히 서서, 눈을 감고, 숨만 느껴 보세요. {pause:8}
 
 지금, 생각이 조용하죠. {pause:3}
 

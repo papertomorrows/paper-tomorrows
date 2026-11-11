@@ -1,10 +1,10 @@
 {
  "id": "pyog_sh40en_masters",
- "status": "ready-sh-ep015-en-c",
+ "status": "done-sh-ep015-en",
  "lang": "English",
- "hook": "THE PEOPLE WHO ROSE HIGHEST|ALL DID THIS",
+ "hook": "THOSE WHO ROSE|THE HIGHEST|ALL DID THIS",
  "hook_size": 104,
- "hook_hi": 1,
+ "hook_hi": 2,
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh40_masters",

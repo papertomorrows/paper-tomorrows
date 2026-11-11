@@ -4,7 +4,7 @@
  "voice_id": "English_Gentle-voiced_man",
  "lang": "English",
  "seed": 152,
- "status": "ready-ep015_en-v2",
+ "status": "done-ep015_en-v2",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.15,
  "captions": true,

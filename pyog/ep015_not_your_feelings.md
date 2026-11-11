@@ -1,4 +1,4 @@
-# EP015 지금 그 감정, 당신이 아닙니다 | 그 감정은 당신이 아니다
+# EP015 이 영상이 보였다면, 이제 그 감정에서 나올 때입니다 | 그 감정은 당신이 아니다
 
 <!-- section: hook | visuals: woman crying window rain, man sitting alone dark, storm clouds sky, person looking at mirror, candle in dark | ai: a woman sitting by a rain-streaked window at night, a dark grey cloud of sorrow hovering around her shoulders, while a calm, soft golden light glows quietly at the center of her chest, untouched >> the grey cloud of sorrow drifts slowly around her shoulders, rain runs down the glass, the golden light in her chest glows steady and calm -->
 지금, 슬픔을 느끼고 있다면, 하나만 물어볼게요.
@@ -73,7 +73,7 @@
 <!-- section: masters | visuals: ancient rome statue, old book writing, basketball arena lights, business skyline, mountain summit | title: 가장 높이 간 사람들의 공통점 | ai: a lone figure standing on a high mountain summit above a sea of storm clouds, calm and still in golden sunlight, while the storms swirl far below without reaching them >> storm clouds swirl and flash far below the summit, the calm figure stands still in the golden light, wind moves gently through their clothes -->
 그런데 놀라운 건, 가장 높은 곳까지 간 사람들이, 바로 이걸 할 줄 알았다는 거예요.
 
-로마 황제 마르쿠스 아우렐리우스는, 전쟁터에서도 매일 밤 자기 자신에게 편지를 썼어요. 화가 난 나를, 한 걸음 떨어져서 바라보는 연습이었죠. 그 글이, 지금까지 읽히는 명상록이에요.
+로마 황제 마르쿠스 아우렐리우스는, 전쟁터에서도 틈틈이, 오직 자기 자신에게 보내는 글을 썼어요. 화가 난 나를, 한 걸음 떨어져서 바라보는 연습이었죠. 그 글이, 지금까지 읽히는 명상록이에요.
 
 농구 감독 필 잭슨은, 마이클 조던과 선수들에게 명상을 가르쳤어요. 가장 뜨거운 경기 속에서도, 감정에 휩쓸리지 않고 지금을 바라보게 하려고요. 그리고 그 팀은, 우승을 거듭했어요.
 

@@ -29,6 +29,16 @@
 
 나는, 존재하는 모든 것이에요. 빛도, 어둠도, 기쁨도, 슬픔도.
 
+그럼, 왜 받아들여야 할까요. 모든 것이, 정말 모든 것이, 나이고, 우주이기 때문이에요.
+
+떠오르는 생각과 느껴지는 감정 하나하나를, 이렇게 받아들여 보세요. 아, 내가 이걸 느끼고 있구나. 이걸 원하고 있구나. 이게 싫구나. 지금, 슬프구나.
+
+그렇게 하나씩 받아들일 수 있게 되면, 그건 곧 나를 받아들이는 거고, 우주를 받아들이는 거예요. 그리고 결국, 나를, 우주를, 사랑하게 돼요.
+
+이렇게 되면, 삶에서 정말 어려운 일을 겪을 때도 달라져요. 힘들고, 고통스러워요. 그런데 동시에, 내면 깊은 곳에 있는 사랑과 평화는, 단 한순간도 사라지지 않아요.
+
+너무 힘들어서 소리치고, 울고, 때로는 욕을 할 수도 있어요. 그래도, 감사해요. 그 너무 고통스러운 순간들에도, 감사해요. 결국, 그것도 똑같이 소중한 경험이니까요.
+
 그래서 감정이 내가 아니라는 말은, 그 감정을 버리라는 뜻이 아니에요. 그 감정도 나의 일부이지만, 나는 그 감정 하나로 정해지지 않는다는 뜻이에요. 나는 그 하나가 아니라, 그 모든 것을 품은, 전체이니까요.
 
 <!-- section: actor | visuals: theater stage spotlight, actress crying stage, film set clapperboard, actor backstage mirror, empty theater seats | title: 배우와 배역 | ai: an actress on a dark theater stage under a single spotlight, tears on her face as she performs a grief-stricken scene, while a soft golden silhouette of her calm true self stands quietly beside her in the light, watching with peace >> the actress weeps in the spotlight, the calm golden silhouette beside her glows steadily, the spotlight slowly widens into warm light -->

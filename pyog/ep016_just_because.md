@@ -40,6 +40,17 @@
 
 그냥 뒤에는, 언제나 이야기가 있어요. 내가 겪었던 일, 그때 내렸던 결론, 그리고 그 결론이 만든 믿음들. 그 이야기가, 지금의 내 감정과 생각과 행동을 움직이고 있어요.
 
+<!-- section: inward | visuals: woman looking inward closed eyes, crowd city rush hour, phone screen scrolling night, woman meditating light, door light dark room | title: 시선을, 안으로 | ai: a person standing in a vast grid-like city of glowing green code and endless screens, turning away from it with eyes closed, a soft golden doorway opening at the center of their own chest >> the glowing code city flickers and slowly dissolves around them, the golden doorway in their chest opens wider and pours out warm light -->
+우리는 보통, 바깥에 훨씬 예민해요. 남의 표정, 남의 말, 세상의 소식. 하루 종일, 시선이 밖으로만 향해 있죠.
+
+그런데 정작, 내 안에서 무슨 일이 일어나고 있는지에는, 무뎌요. 그래서, 그냥이 생겨요.
+
+이제는 순서를 바꿔야 해요. 바깥보다, 안을 먼저. 그리고, 더 많이. 나를 아는 일에, 더 예민하고, 더 까다로워지는 거예요. 이 감정은 어디서 왔지. 이 말은, 왜 나왔지. 그냥, 하고 넘기지 않는 거예요.
+
+영적인 길을 걷는 사람들은, 이걸 매트릭스에서 탈출한다고 말하기도 해요. 세상이 정해 준 생각, 남들이 심어 준 믿음, 나도 모르게 반복되는 반응들. 그 안에서, 이유도 모른 채, 그냥 살아가는 것. 그게 바로 매트릭스예요.
+
+그런데 그 매트릭스의 문은, 바깥에 있지 않아요. 밖으로 나가는 유일한 길은, 안으로 들어가는 거예요. 나를 알아 갈수록, 그냥이 하나씩 줄어들고, 그만큼, 매트릭스 밖으로 걸어 나오게 돼요.
+
 <!-- section: aware | visuals: woman journaling night, lantern dark forest, woman eyes closed calm, flashlight dark cave, sunrise window | title: 왜, 하고 다정하게 물어보기 | ai: a person holding a small glowing lantern, walking calmly down a stone staircase into a dark inner cave, the lantern light revealing old glowing words and memories carved into the walls >> the lantern light slowly reveals more glowing memories on the cave walls as the person descends calmly, warm light spreads -->
 그럼, 그 이야기는 어떻게 찾을 수 있을까요.
 

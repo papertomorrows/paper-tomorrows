@@ -75,8 +75,6 @@
 
 그리고 나치 수용소에서 모든 것을 빼앗겼던 정신과 의사 빅터 프랭클은, 이렇게 남겼어요. 인간에게서 모든 것을 빼앗을 수 있어도, 단 하나, 어떤 태도를 선택할지의 자유만은 빼앗을 수 없다고.
 
-게임으로 치면, 감정은 삶의 사건 때문에 캐릭터에게 걸리는 상태 이상 같은 거예요. 화면에 공포 아이콘이 떠도, 컨트롤러를 쥔 당신까지 겁에 질릴 필요는 없어요.
-
 감정과 생각에 휩쓸리는 사람은, 그것들에 끌려다녀요. 하지만 그것들을 나와 분리할 줄 아는 사람은, 그 위에서, 다음 수를 고를 수 있어요. 의식이 높다는 건, 바로 이런 거예요.
 
 <!-- section: practice | visuals: morning journal writing, woman calm window, woman hand on heart, person walking slowly park, calm night bedroom | title: 오늘부터 해 볼 세 가지 -->

@@ -16,6 +16,8 @@
 <!-- section: noreason | visuals: domino falling, tree roots underground, river source mountain, seed sprouting soil, clock gears | title: 그냥은, 없다 | ai: a single small leaf floating on the surface of a dark pond, and beneath the surface a vast glowing root system stretching deep into the darkness, connected to the leaf >> the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface -->
 모든 것에는, 이유가 있어요. 내가 느끼는 감정도, 떠오르는 생각도, 무심코 하는 말도, 행동도요.
 
+무엇이 왜 좋은지, 왜 싫은지. 무엇을 하고 싶고, 무엇을 고르고 싶은지. 내가 원하는 것과, 원하지 않는 것까지. 정말 삶의 모든 것에서, 우리 영혼은 이유를 갖고 있어요.
+
 아무 이유 없이 생기는 건, 하나도 없어요. 연못 위에 뜬 잎 하나도, 물 아래로는 길게 뿌리가 이어져 있는 것처럼요.
 
 다만, 그 뿌리가 내 눈에 보이지 않을 뿐이에요. 그래서 우리는, 그냥, 이라고 말해요.
@@ -96,6 +98,10 @@
 흔히 칼 융의 말로 알려진, 이런 문장이 있어요. 무의식을 의식으로 만들지 않으면, 그것이 삶을 이끌게 되고, 우리는 그걸 운명이라고 부른다.
 
 그냥 속에 갇혀 있던 이야기를 알아차리는 순간, 그건 더 이상 운명이 아니에요. 내가 고를 수 있는, 선택이 돼요.
+
+그리고 이유는, 상처에만 있는 게 아니에요. 그냥 좋은 것, 그냥 끌리는 것, 그냥 하고 싶은 것에도, 이유가 있어요. 그건 영혼이 이번 삶에서 경험하고 싶은 것을, 조용히 알려 주는 신호일 수 있어요.
+
+그 이유를 알면, 내가 진짜 원하는 게 무엇인지 선명해지고, 그만큼, 원하는 삶을 더 분명하게 고를 수 있어요.
 
 알아차림은, 깨달음이 되고, 깨달음은, 창조가 돼요. 그렇게 우리는, 이 지구에서, 나의 삶을 창조해 나가요.
 

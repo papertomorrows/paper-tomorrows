@@ -18,6 +18,19 @@
 
 감정은 구름이고, 당신은, 하늘이에요.
 
+<!-- section: accept | visuals: light and shadow forest, yin yang nature, night and day timelapse, waves dark ocean, galaxy | title: 먼저, 받아들이기 | ai: a figure standing at the meeting point of day and night, one half of the sky bright gold and the other deep starry indigo, both halves flowing into the figure's open arms and merging into one soft radiant light >> gold daylight and starry night slowly flow into the figure's open arms from both sides and merge into a soft radiant glow -->
+그런데 여기서, 꼭 먼저 해야 할 것이 있어요. 받아들이는 거예요.
+
+어떤 감정이든, 어떤 생각이든, 밀어내지 말고, 먼저 받아들일 수 있어야 해요.
+
+빛이 소중한 만큼, 어둠도 소중해요. 기쁨이 소중한 만큼, 슬픔도, 분노도, 두려움도 소중해요. 어떤 감정이든, 그건 곧 에너지이고, 우주 전체이고, 그리고 나예요.
+
+우리가 사는 물질 세상에서는, 긍정적이라고 인정받는 것들만 좋은 거라고 배워요. 하지만 그건, 반쪽이에요. 그 반쪽만이 나인 것도, 그 반쪽만이 우주인 것도 아니에요.
+
+나는, 존재하는 모든 것이에요. 빛도, 어둠도, 기쁨도, 슬픔도.
+
+그래서 감정이 내가 아니라는 말은, 그 감정을 버리라는 뜻이 아니에요. 그 감정도 나의 일부이지만, 나는 그 감정 하나로 정해지지 않는다는 뜻이에요. 나는 그 하나가 아니라, 그 모든 것을 품은, 전체이니까요.
+
 <!-- section: actor | visuals: theater stage spotlight, actress crying stage, film set clapperboard, actor backstage mirror, empty theater seats | title: 배우와 배역 | ai: an actress on a dark theater stage under a single spotlight, tears on her face as she performs a grief-stricken scene, while a soft golden silhouette of her calm true self stands quietly beside her in the light, watching with peace >> the actress weeps in the spotlight, the calm golden silhouette beside her glows steadily, the spotlight slowly widens into warm light -->
 좋은 배우는, 슬픈 장면에서 진짜로 울어요. 그 슬픔을, 온몸으로 느끼죠.
 
@@ -89,6 +102,8 @@
 
 요즘 자주 느끼는 감정 하나를, 떠올려 보세요. {pause:5}
 
+밀어내지 말고, 먼저 그대로 받아들여 보세요. 이것도 에너지야. 이것도, 나의 일부야. {pause:6}
+
 이제, 그 감정을 느끼고 있는 나를, 느껴 보세요. {pause:6}
 
 그리고 마음속으로, 조용히 말해 보세요. 컷. {pause:3}
@@ -104,9 +119,9 @@
 이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, clouds sky timelapse, mountain sunrise, bird flying sky, golden field | ai: dark storm clouds slowly parting over a calm sea at sunrise, revealing an endless clear golden sky behind them that had been there all along >> the storm clouds slowly part and drift away, the clear golden sky opens wide, sunlight pours across the calm sea -->
-당신은, 그 감정이 아니에요. 그 생각도 아니에요.
+어떤 감정이든, 어떤 생각이든, 먼저 받아들이세요. 빛만큼, 어둠도 소중하니까요.
 
-당신은 그 모든 것을 경험하고 있는, 영원한 존재예요. 깊이 느끼되, 언제든 컷을 외치고, 하늘로 돌아올 수 있어요.
+그리고 기억하세요. 당신은, 그 감정 하나가 아니에요. 그 생각 하나도 아니에요. 당신은 그 모든 것을 품고, 경험하고 있는, 존재하는 모든 것이에요. 깊이 느끼되, 언제든 컷을 외치고, 하늘로 돌아올 수 있어요.
 
 오늘, 어떤 감정에게 컷을 외치고 싶은지, 댓글에 적어 주세요.
 

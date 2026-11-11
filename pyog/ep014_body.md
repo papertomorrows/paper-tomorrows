@@ -43,6 +43,12 @@
 생각은, 문지기 같아요. 문지기가 깨어 있으면, 그게 되겠어, 하고 막아서요. 하지만 문지기가 잠깐 조는 그 틈. 그때가, 원하는 것을 들여보낼 시간이에요.
 
 <!-- section: plant | visuals: woman eyes closed smiling tears, sunrise window, dream home interior, people hugging joy, golden light rays | title: 그 틈에, 원하는 장면을 넣으세요 | ai: a woman standing still after dancing, breathing deeply with eyes closed, a vivid glowing scene of her dream life appearing like a soft golden film projected in the air in front of her chest >> the glowing dream scene gently brightens and comes alive in front of her, her face softens into a tearful smile, golden particles drift upward -->
+사실, 우리가 명상을 왜 할까요.
+
+이 세상에서 지내는 동안, 행복하고 싶어서잖아요. 건강하고, 풍요롭고, 마음이 평화롭고 싶어서요.
+
+그러니까 명상은, 이 세상을 떠나는 게 아니라, 이 세상에서 더 잘 살기 위한 거예요. 생각을 멈추고, 그 고요 속에서, 내가 원하는 삶을 그려 보는 거예요.
+
 그 틈에, 원하는 것을, 생생한 장면 하나로 떠올려 보세요.
 
 목표나 문장이 아니라, 영화의 한 장면처럼요. 어디에 있는지, 누구와 있는지, 무엇이 보이고, 무엇이 들리는지.
@@ -50,6 +56,8 @@
 그리고 그 장면에, 큰 감정을 함께 실어요. 벅참, 감사, 눈물이 날 만큼의 기쁨.
 
 지난 영상에서, 즐겁게 상상하라고 했죠. 그 상상이 가장 깊이 들어가는 때가, 바로 이 틈이에요. 문지기가 쉬는 동안, 그 장면은 막힘 없이 안으로 들어가요.
+
+물론, 아무것도 그리지 않고, 그 고요 속에 그냥 머물러도 좋아요. 그 고요 속에 오래 머무를수록, 더 깊은 우주와 이어지는 느낌이 찾아와요. 그것도, 너무나 좋은 시간이에요.
 
 <!-- section: practice | visuals: woman dancing alone room, person running sweat, person shaking hands, person resting after workout, morning stretch | title: 오늘부터 해 볼 세 가지 -->
 명상이 처음인 분이라면, 오늘부터 이 세 가지만 해 보세요. 앉아서 하는 명상은, 이게 익숙해진 다음에 해도 늦지 않아요.

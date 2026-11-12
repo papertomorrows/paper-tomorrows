@@ -9,18 +9,14 @@
 
 냉장고 문을 열었다가, 아무것도 안 꺼내고 닫을 때. 휴대폰을 켰다가, 뭘 하려고 했는지도 모른 채 화면만 넘길 때. 이유 없이 마음이 가라앉는 저녁. 우리는 이 모든 순간을, 한 단어로 덮어요. 그냥.
 
-그런데, 사실 그냥은 없어요. 이 지구에서, 영혼이 하는 모든 생각과 말과 행동과 감정에는, 이유가 있어요. 오늘은 이 작은 단어 하나에 숨어 있는, 아주 큰 비밀을 이야기할게요.
+그런데, 사실 그냥은 없어요. 오늘은 이 작은 단어 하나에 숨어 있는, 아주 큰 비밀을 이야기할게요.
 
 그리고, 이유도 모른 채 마음이 가라앉곤 하던 한 사람이, 그 그냥의 진짜 이유를 찾은 이야기도 들려드릴게요.
 
 <!-- section: noreason | visuals: domino falling, tree roots underground, river source mountain, seed sprouting soil, clock gears | title: 그냥은, 없다 | ai: a single small leaf floating on the surface of a dark pond, and beneath the surface a vast glowing root system stretching deep into the darkness, connected to the leaf >> the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface -->
-우리는, 이 지구에 경험하러 온 영혼이에요. 그래서 이곳에서 우리가 하는 모든 것에는, 이유가 있어요.
+우리는, 이 지구에 경험하러 온 영혼이에요. 그리고 이 지구에서, 영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요.
 
-내가 느끼는 감정도, 떠오르는 생각도, 무심코 하는 말도, 행동도요. 무엇이 왜 좋은지, 왜 싫은지. 무엇을 하고 싶고, 무엇을 고르고 싶은지. 내가 원하는 것과, 원하지 않는 것까지.
-
-이 지구에서, 영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요.
-
-아무 이유 없이 생기는 건, 하나도 없어요. 연못 위에 뜬 잎 하나도, 물 아래로는 길게 뿌리가 이어져 있는 것처럼요.
+무엇이 왜 좋은지, 왜 싫은지. 무엇을 하고 싶고, 무엇을 고르고 싶은지. 내가 원하는 것과, 원하지 않는 것까지요. 연못 위에 뜬 잎 하나에도, 물 아래로 길게 이어진 뿌리가 있듯이요.
 
 다만, 그 뿌리가 내 눈에 보이지 않을 뿐이에요. 그래서 우리는, 그냥, 이라고 말해요.
 
@@ -71,7 +67,7 @@
 
 영적인 길을 걷는 사람들은, 이걸 매트릭스에서 탈출한다고 말하기도 해요. 세상이 정해 준 생각, 남들이 심어 준 믿음, 나도 모르게 반복되는 반응들. 그 안에서, 이유도 모른 채, 그냥 살아가는 것. 그게 바로 매트릭스예요.
 
-그런데 그 매트릭스의 문은, 바깥에 있지 않아요. 밖으로 나가는 유일한 길은, 안으로 들어가는 거예요. 나를 알아 갈수록, 그냥이 하나씩 줄어들고, 그만큼, 매트릭스 밖으로 걸어 나오게 돼요.
+그런데 그 매트릭스의 문은, 바깥에 있지 않아요. 밖으로 나가는 유일한 길은, 안으로 들어가는 거예요. 나를 알아 갈수록, 그만큼, 매트릭스 밖으로 걸어 나오게 돼요.
 
 <!-- section: aware | visuals: woman journaling night, lantern dark forest, woman eyes closed calm, flashlight dark cave, sunrise window | title: 왜, 하고 다정하게 물어보기 | ai: a person holding a small glowing lantern, walking calmly down a stone staircase into a dark inner cave, the lantern light revealing old glowing words and memories carved into the walls >> the lantern light slowly reveals more glowing memories on the cave walls as the person descends calmly, warm light spreads -->
 그럼, 안으로 어떻게 들어갈 수 있을까요. 소독약 냄새의 그 사람이 했던 것처럼 하면 돼요.
@@ -92,9 +88,7 @@
 
 아, 내가 지금 이런 생각을 하고 있구나. 아, 내가 지금 이런 말을 하려고 하는구나. 아, 내 손이 또, 휴대폰으로 가고 있구나.
 
-완벽할 필요는 없어요. 어제보다 오늘, 딱 한 번만 더 알아차리면 돼요. 그렇게 깨어 있는 순간이 하나씩 늘어날수록, 그냥은 하나씩 줄어들어요.
-
-그리고 그냥이 줄어드는 만큼, 내 안이 환하게 밝아져요. 깨달음이란, 어딘가 멀리 있는 게 아니에요. 몰랐던 나를, 하나씩 알아 가는 거예요.
+완벽할 필요는 없어요. 어제보다 오늘, 딱 한 번만 더 알아차리면 돼요. 그렇게 깨어 있는 순간이 늘어날수록, 그냥은 줄어들고, 내 안은 환하게 밝아져요. 깨달음이란, 어딘가 멀리 있는 게 아니에요. 몰랐던 나를, 하나씩 알아 가는 거예요.
 
 <!-- section: create | visuals: hands writing book, woman painting canvas, sunrise road, seedling growing timelapse, woman walking sunrise | title: 이유를 알면, 바꿀 수 있다 | ai: a woman sitting at a desk in warm light, gently rewriting the pages of a glowing book of her own life, old dark lines fading as new golden words appear >> old dark lines on the glowing pages slowly fade, new golden words appear one by one under her pen, warm light grows -->
 이유를 모르면, 바꿀 수가 없어요. 그냥 그런 거니까요. 그래서 같은 상처, 같은 반응, 같은 선택이 계속 되풀이돼요.
@@ -163,7 +157,7 @@
 이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, golden field sunset, mountain sunrise, birds flying sunset, light rays clouds | ai: a person standing at the edge of a cliff at sunrise, a golden map of glowing threads spreading out from their heart across the landscape ahead, like paths they are now choosing >> the glowing golden threads spread outward from their heart across the land, the sun rises higher, light fills the valley -->
-그냥은, 없어요. 이 지구에서, 영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요. 다만 아직, 그 이유를 모를 뿐이에요.
+그냥은, 없어요. 다만 아직, 그 이유를 모를 뿐이에요.
 
 그 이유를 하나씩 알아 갈수록, 나는 나를 더 이해하고, 더 사랑하게 되고, 내 삶을, 내가 창조하게 돼요.
 

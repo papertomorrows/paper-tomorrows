@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh45_sensitive",
- "status": "ready-ep017",
+ "status": "done-ep017",
  "hook": "예민한 게 아니라|섬세한 재능입니다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "예민한 게 아니라, 섬세한 재능이에요."
    }
   ],
-  "images": [
+  "images_done": [
    "a woman standing in a quiet forest with her eyes closed, delicate glowing threads of light reaching out from her toward every leaf and raindrop around her",
    "a woman sitting alone after a crowded party, eyes closed, soft waves of colored light still swirling around her",
    "the woman listening gently to a friend, a soft golden light connecting their hearts",
    "the woman sitting peacefully by a window at dawn, a calm glow around her"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the delicate threads of light gently touch each leaf and raindrop around her, tiny lights ripple outward"

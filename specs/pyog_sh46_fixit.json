@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh46_fixit",
- "status": "ready-ep017",
+ "status": "done-ep017",
  "hook": "고치라던 그 모습이|세상을 바꿨다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "남들과 다른 그 부분이, 바로 그들의 힘이었어요."
    }
   ],
-  "images": [
+  "images_done": [
    "a quiet woman sitting alone in a warm library at night, writing in a notebook, soft golden light glowing from her pages",
    "a woman in a business suit in a busy glass office, forcing a smile, her quiet inner light dimmed",
    "a woman with short hair kneeling calmly beside cattle in a sunlit field, seeing the world as glowing pictures",
    "a quiet woman standing on a stage in soft light, a warm audience glowing in the dark before her"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "golden light rises gently from her pages and drifts upward, the library lamps glow warmly"

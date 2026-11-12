@@ -173,14 +173,17 @@ def resync_lips(video: bytes, audio: bytes, model: str = "lipsync-2") -> bytes:
 
 
 @app.function(image=image, timeout=900, secrets=[KEYS])
-def minimax_tts(text: str, voice_id: str, speed: float = 1.0, lang: str = "Korean") -> bytes:
+def minimax_tts(text: str, voice_id: str, speed: float = 1.0, lang: str = "Korean",
+                pitch: int = 0, voice_modify: dict | None = None) -> bytes:
     """MiniMax Speech 2.8 HD via fal ($0.1 per 1,000 characters)."""
     import fal_client
     import requests
 
-    res = fal_client.subscribe("fal-ai/minimax/speech-2.8-hd", arguments={
-        "prompt": text, "language_boost": lang, "output_format": "url",
-        "voice_setting": {"voice_id": voice_id, "speed": speed, "vol": 1, "pitch": 0}})
+    args = {"prompt": text, "language_boost": lang, "output_format": "url",
+            "voice_setting": {"voice_id": voice_id, "speed": speed, "vol": 1, "pitch": pitch}}
+    if voice_modify:
+        args["voice_modify"] = voice_modify
+    res = fal_client.subscribe("fal-ai/minimax/speech-2.8-hd", arguments=args)
     return requests.get(res["audio"]["url"], timeout=300).content
 
 
@@ -819,7 +822,8 @@ def main(spec: str):
         for v in a.get("voices", []):
             if v["provider"] == "minimax":
                 calls[f"voice_{v['name']}.mp3"] = minimax_tts.spawn(v.get("text", a.get("text", "")), v["voice_id"],
-                                                                     v.get("speed", 1.0), v.get("lang", "Korean"))
+                                                                     v.get("speed", 1.0), v.get("lang", "Korean"),
+                                                                     int(v.get("pitch", 0)), v.get("voice_modify"))
             else:
                 import re as _re
                 el_text = _re.sub(r"<#([\d.]+)#>", lambda m: f'<break time="{m.group(1)}s" />', v.get("text", a.get("text", "")))

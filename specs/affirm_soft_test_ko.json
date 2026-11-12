@@ -1,0 +1,35 @@
+{
+ "id": "affirm_soft_test_ko",
+ "status": "ready-affirm",
+ "assets": {
+  "voices": [
+   {
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.9,
+    "lang": "Korean",
+    "text": "나는 있는 그대로 충분합니다. <#3.5#> 나는 나의 몸을 사랑합니다. <#3.5#> 나는 나를 믿습니다.",
+    "name": "soft1",
+    "voice_modify": {
+     "pitch": -15,
+     "intensity": 40,
+     "timbre": -15
+    }
+   },
+   {
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 0.9,
+    "lang": "Korean",
+    "text": "나는 있는 그대로 충분합니다. <#3.5#> 나는 나의 몸을 사랑합니다. <#3.5#> 나는 나를 믿습니다.",
+    "name": "soft2",
+    "pitch": -1,
+    "voice_modify": {
+     "pitch": -25,
+     "intensity": 70,
+     "timbre": -25
+    }
+   }
+  ]
+ }
+}

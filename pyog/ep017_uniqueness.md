@@ -23,7 +23,7 @@
 <!-- section: sensitive | visuals: woman hand on heart, raindrop on leaf macro, woman listening friend, sunlight through leaves, ripple water surface | title: 예민함이라는, 재능 | ai: a woman standing in a quiet forest with her eyes closed, delicate glowing threads of light reaching out from her toward every leaf, raindrop and bird around her, sensing everything >> the delicate threads of light from her body gently touch each leaf and raindrop around her, tiny lights ripple outward -->
 특히, 스스로를 예민하다고 탓해 왔다면, 이 이야기를 꼭 들어 주세요.
 
-심리학자 일레인 아론은, 오랜 연구 끝에, 사람들 가운데 열다섯에서 스무 퍼센트 정도가, 남들보다 훨씬 섬세하게 느끼고, 깊이 처리하는 기질을 타고난다고 말했어요. 결함이 아니라, 타고난 결이라는 거예요.
+심리학자 일레인 아론은, 오랜 연구 끝에, 대여섯 명 중 한 명꼴로, 남들보다 훨씬 섬세하게 느끼고, 깊이 처리하는 기질을 타고난다고 말했어요. 결함이 아니라, 타고난 결이라는 거예요.
 
 이런 사람들은, 남들이 못 보는 작은 변화를 알아채요. 말하지 않은 마음을 읽고, 아름다운 것에 더 깊이 감동하고, 아픈 사람 곁에 오래 머물 줄 알아요.
 

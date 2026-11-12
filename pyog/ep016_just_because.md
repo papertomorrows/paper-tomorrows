@@ -11,7 +11,7 @@
 
 그런데, 사실 그냥은 없어요. 오늘은 이 작은 단어 하나를 알아차리는 것만으로, 삶이 바뀌기 시작하는 이야기를 할게요.
 
-그리고, 어떤 냄새만 맡으면 마음이 가라앉던 한 사람이, 그 그냥의 진짜 이유를 찾은 이야기도 들려드릴게요.
+그리고, 어떤 냄새 앞에서 늘 마음이 무거워지던 한 사람이, 그 그냥의 진짜 이유를 찾은 이야기도 들려드릴게요.
 
 <!-- section: noreason | visuals: domino falling, tree roots underground, river source mountain, seed sprouting soil, clock gears | title: 그냥은, 없다 | ai: a single small leaf floating on the surface of a dark pond, and beneath the surface a vast glowing root system stretching deep into the darkness, connected to the leaf >> the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface -->
 우리는, 이 지구에 경험하러 온 영혼이에요. 그리고 이 지구에서, 영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요.

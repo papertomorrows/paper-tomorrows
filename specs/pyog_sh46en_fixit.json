@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh46en_fixit",
- "status": "done-sh-ep017-en",
+ "status": "ready-sh-ep017-en-fix1",
  "lang": "English",
  "hook": "THE PART THEY|SAID TO FIX|CHANGED THE WORLD",
  "hook_size": 104,
@@ -34,8 +34,8 @@
     "voice_id": "English_Gentle-voiced_man",
     "speed": 1.15,
     "lang": "English",
-    "text": "Then she explored the quiet she'd tried to fix, <#0.2#> and wrote a book.",
-    "caption": "Then she explored the quiet she'd tried to fix, and wrote a book."
+    "text": "Then she explored the quiet she'd tried to fix, <#0.2#> and wrote the worldwide bestseller, Quiet.",
+    "caption": "Then she explored the quiet she'd tried to fix, and wrote the worldwide bestseller, Quiet."
    },
    {
     "name": "l03",
@@ -43,8 +43,8 @@
     "voice_id": "English_Gentle-voiced_man",
     "speed": 1.15,
     "lang": "English",
-    "text": "Temple Grandin is autistic, <#0.2#> and she thinks in pictures.",
-    "caption": "Temple Grandin is autistic, and she thinks in pictures."
+    "text": "Temple Grandin is autistic, <#0.2#> and thinks in pictures, like animals do.",
+    "caption": "Temple Grandin is autistic, and thinks in pictures, like animals do."
    },
    {
     "name": "l04",
@@ -52,8 +52,8 @@
     "voice_id": "English_Gentle-voiced_man",
     "speed": 1.15,
     "lang": "English",
-    "text": "With that difference, <#0.2#> she changed how countless farms work.",
-    "caption": "With that difference, she changed how countless farms work."
+    "text": "The livestock systems she designed <#0.2#> now handle nearly half the cattle in America.",
+    "caption": "The livestock systems she designed now handle nearly half the cattle in America."
    },
    {
     "name": "l05",

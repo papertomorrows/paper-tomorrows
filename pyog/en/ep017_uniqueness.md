@@ -47,7 +47,7 @@ Then she turned toward the very quietness she'd tried so hard to fix, and explor
 
 Animal scientist Temple Grandin is autistic. As a child, she was late to speak, and being different made life very hard.
 
-But she thought in pictures, not words. So she could see what frightened animals before anyone else could. With that difference, she designed facilities where animals suffer less, and changed the way countless farms work.
+But she thought in pictures, not words. So she could see what frightened animals before anyone else could. With that difference, she designed facilities where animals suffer less, and today, nearly half the cattle in America pass through them.
 
 The part of them that was different was exactly their power.
 

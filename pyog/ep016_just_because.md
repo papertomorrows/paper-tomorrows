@@ -9,14 +9,16 @@
 
 냉장고 문을 열었다가, 아무것도 안 꺼내고 닫을 때. 휴대폰을 켰다가, 뭘 하려고 했는지도 모른 채 화면만 넘길 때. 이유 없이 마음이 가라앉는 저녁. 우리는 이 모든 순간을, 한 단어로 덮어요. 그냥.
 
-그런데, 사실 그냥은 없어요. 오늘은 이 작은 단어 하나에 숨어 있는, 아주 큰 비밀을 이야기할게요.
+그런데, 사실 그냥은 없어요. 이 지구에서, 영혼이 하는 모든 생각과 말과 행동과 감정에는, 이유가 있어요. 오늘은 이 작은 단어 하나에 숨어 있는, 아주 큰 비밀을 이야기할게요.
 
 그리고, 이유도 모른 채 마음이 가라앉곤 하던 한 사람이, 그 그냥의 진짜 이유를 찾은 이야기도 들려드릴게요.
 
 <!-- section: noreason | visuals: domino falling, tree roots underground, river source mountain, seed sprouting soil, clock gears | title: 그냥은, 없다 | ai: a single small leaf floating on the surface of a dark pond, and beneath the surface a vast glowing root system stretching deep into the darkness, connected to the leaf >> the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface -->
-모든 것에는, 이유가 있어요. 내가 느끼는 감정도, 떠오르는 생각도, 무심코 하는 말도, 행동도요.
+우리는, 이 지구에 경험하러 온 영혼이에요. 그래서 이곳에서 우리가 하는 모든 것에는, 이유가 있어요.
 
-무엇이 왜 좋은지, 왜 싫은지. 무엇을 하고 싶고, 무엇을 고르고 싶은지. 내가 원하는 것과, 원하지 않는 것까지. 정말 삶의 모든 것에서, 우리 영혼은 이유를 갖고 있어요.
+내가 느끼는 감정도, 떠오르는 생각도, 무심코 하는 말도, 행동도요. 무엇이 왜 좋은지, 왜 싫은지. 무엇을 하고 싶고, 무엇을 고르고 싶은지. 내가 원하는 것과, 원하지 않는 것까지.
+
+이 지구에서, 영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요. 하나도 빠짐없이요.
 
 아무 이유 없이 생기는 건, 하나도 없어요. 연못 위에 뜬 잎 하나도, 물 아래로는 길게 뿌리가 이어져 있는 것처럼요.
 
@@ -161,7 +163,7 @@
 이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
 <!-- section: outro | visuals: sunrise ocean, golden field sunset, mountain sunrise, birds flying sunset, light rays clouds | ai: a person standing at the edge of a cliff at sunrise, a golden map of glowing threads spreading out from their heart across the landscape ahead, like paths they are now choosing >> the glowing golden threads spread outward from their heart across the land, the sun rises higher, light fills the valley -->
-그냥은, 없어요. 아직 모르는 이유가, 있을 뿐이에요.
+그냥은, 없어요. 이 지구에서, 영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요. 다만 아직, 그 이유를 모를 뿐이에요.
 
 그 이유를 하나씩 알아 갈수록, 나는 나를 더 이해하고, 더 사랑하게 되고, 내 삶을, 내가 창조하게 돼요.
 

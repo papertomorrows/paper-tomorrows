@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh46en_fixit",
+ "status": "hold-sh-ep017-en",
+ "lang": "English",
+ "hook": "THE PART THEY SAID TO FIX|CHANGED THE WORLD",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh46_fixit",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "People told her <#0.2#> to be more outgoing.",
+    "caption": "People told her to be more outgoing."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Susan Cain played the extrovert <#0.2#> as a lawyer for seven years.",
+    "caption": "Susan Cain played the extrovert as a lawyer for seven years."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Then she explored the quiet she'd tried to fix, <#0.2#> and wrote a book.",
+    "caption": "Then she explored the quiet she'd tried to fix, and wrote a book."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Temple Grandin is autistic, <#0.2#> and she thinks in pictures.",
+    "caption": "Temple Grandin is autistic, and she thinks in pictures."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "With that difference, <#0.2#> she changed how countless farms work.",
+    "caption": "With that difference, she changed how countless farms work."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "What made them different <#0.3#> was their power.",
+    "caption": "What made them different was their power."
+   }
+  ]
+ }
+}

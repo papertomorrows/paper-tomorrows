@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh45_sensitive",
+ "status": "ready-ep017",
+ "hook": "예민한 게 아니라|섬세한 재능입니다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다들 웃고 넘기는 한마디가, <#0.2#> 며칠씩 마음에 남나요?",
+    "caption": "다들 웃고 넘기는 한마디가, 며칠씩 마음에 남나요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사람 많은 곳에 다녀오면, <#0.2#> 녹초가 되나요?",
+    "caption": "사람 많은 곳에 다녀오면, 녹초가 되나요?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사람은 대여섯 명 중 한 명꼴로, <#0.2#> 더 섬세하게 느끼는 기질을 타고나요.",
+    "caption": "사람은 대여섯 명 중 한 명꼴로, 더 섬세하게 느끼는 기질을 타고나요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "남들이 못 보는 변화를 알아채고, <#0.2#> 말하지 않은 마음을 읽죠.",
+    "caption": "남들이 못 보는 변화를 알아채고, 말하지 않은 마음을 읽죠."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "쉽게 지치는 건 약해서가 아니라, <#0.2#> 그만큼 많이 받아들이기 때문이에요.",
+    "caption": "쉽게 지치는 건 약해서가 아니라, 그만큼 많이 받아들이기 때문이에요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "예민한 게 아니라, <#0.3#> 섬세한 재능이에요.",
+    "caption": "예민한 게 아니라, 섬세한 재능이에요."
+   }
+  ],
+  "images": [
+   "a woman standing in a quiet forest with her eyes closed, delicate glowing threads of light reaching out from her toward every leaf and raindrop around her",
+   "a woman sitting alone after a crowded party, eyes closed, soft waves of colored light still swirling around her",
+   "the woman listening gently to a friend, a soft golden light connecting their hearts",
+   "the woman sitting peacefully by a window at dawn, a calm glow around her"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the delicate threads of light gently touch each leaf and raindrop around her, tiny lights ripple outward"
+   }
+  ]
+ }
+}

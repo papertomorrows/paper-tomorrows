@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh44en_different",
+ "status": "hold-sh-ep017-en",
+ "lang": "English",
+ "hook": "YOU'RE NOT STRANGE|YOUR DIFFERENCE IS POWER",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh44_different",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Ever since you were little, <#0.2#> did you feel a bit different?",
+    "caption": "Ever since you were little, did you feel a bit different?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "So you shrank back. <#0.2#> Am I strange?",
+    "caption": "So you shrank back. Am I strange?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "No two souls <#0.3#> are the same.",
+    "caption": "No two souls are the same."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "The part of you that felt out of place <#0.2#> isn't broken.",
+    "caption": "The part of you that felt out of place isn't broken."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "It's a gift your soul <#0.2#> brought for this life.",
+    "caption": "It's a gift your soul brought for this life."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "That difference <#0.3#> is your greatest strength.",
+    "caption": "That difference is your greatest strength."
+   }
+  ]
+ }
+}

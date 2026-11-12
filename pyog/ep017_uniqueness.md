@@ -14,7 +14,7 @@
 <!-- section: soul | visuals: stars galaxy night, glowing light hands, unique snowflake macro, single flower field, sunrise light rays | title: 이상한 게, 아니었다 | ai: a glowing soul descending from a starry sky toward the Earth, carrying a small unique crystal of colored light in its hands, unlike any other light around it >> the glowing soul slowly descends toward the Earth, the unique crystal of light in its hands pulses with its own colors -->
 똑같은 영혼은, 하나도 없어요.
 
-우리는 저마다, 이번 생에서 겪고 싶은 경험과, 이 지구에서 창조하고 싶은 것을 품고 왔어요. 그리고 그걸 위해 필요한 것을, 특별히 기억하고, 간직한 채 태어났어요.
+우리는 저마다, 이번 생에서 꼭 해 보고 싶은 경험과, 이 지구에서 창조하고 싶은 것을 품고 왔어요. 그리고 그걸 위해 필요한 것을, 잊지 않고 기억하고, 간직한 채 태어났어요.
 
 남들과 달라서 불편했던 나의 특성들. 괜히 숨기고 싶었던 모습들. 그건 고장 난 부분이 아니에요.
 
@@ -23,7 +23,7 @@
 <!-- section: sensitive | visuals: woman hand on heart, raindrop on leaf macro, woman listening friend, sunlight through leaves, ripple water surface | title: 예민함이라는, 재능 | ai: a woman standing in a quiet forest with her eyes closed, delicate glowing threads of light reaching out from her toward every leaf, raindrop and bird around her, sensing everything >> the delicate threads of light from her body gently touch each leaf and raindrop around her, tiny lights ripple outward -->
 특히, 스스로를 예민하다고 탓해 왔다면, 이 이야기를 꼭 들어 주세요.
 
-심리학자 일레인 아론은, 오랜 연구 끝에, 대여섯 명 중 한 명꼴로, 남들보다 훨씬 섬세하게 느끼고, 깊이 처리하는 기질을 타고난다고 말했어요. 결함이 아니라, 타고난 결이라는 거예요.
+심리학자 일레인 아론은, 오랜 연구 끝에, 사람은 대여섯 명 중 한 명꼴로, 남들보다 훨씬 섬세하게 느끼고, 깊이 처리하는 기질을 타고난다고 말했어요. 결함이 아니라, 타고난 결이라는 거예요.
 
 이런 사람들은, 남들이 못 보는 작은 변화를 알아채요. 말하지 않은 마음을 읽고, 아름다운 것에 더 깊이 감동하고, 아픈 사람 곁에 오래 머물 줄 알아요.
 

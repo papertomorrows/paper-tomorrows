@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh46_fixit",
+ "status": "ready-ep017",
+ "hook": "고치라던 그 모습이|세상을 바꿨다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사람들은 그녀에게, <#0.2#> 좀 더 활발해지라고 했어요.",
+    "caption": "사람들은 그녀에게, 좀 더 활발해지라고 했어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "수전 케인은 외향적인 척하며, <#0.2#> 칠 년간 변호사로 일했죠.",
+    "caption": "수전 케인은 외향적인 척하며, 칠 년간 변호사로 일했죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러다 고치려던 그 조용함을, <#0.2#> 깊이 파고들어 책을 썼어요.",
+    "caption": "그러다 고치려던 그 조용함을, 깊이 파고들어 책을 썼어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "템플 그랜딘은 자폐가 있었지만, <#0.2#> 그림으로 생각했어요.",
+    "caption": "템플 그랜딘은 자폐가 있었지만, 그림으로 생각했어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 다름으로, <#0.2#> 수많은 농장의 방식을 바꿨죠.",
+    "caption": "그 다름으로, 수많은 농장의 방식을 바꿨죠."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "남들과 다른 그 부분이, <#0.3#> 바로 그들의 힘이었어요.",
+    "caption": "남들과 다른 그 부분이, 바로 그들의 힘이었어요."
+   }
+  ],
+  "images": [
+   "a quiet woman sitting alone in a warm library at night, writing in a notebook, soft golden light glowing from her pages",
+   "a woman in a business suit in a busy glass office, forcing a smile, her quiet inner light dimmed",
+   "a woman with short hair kneeling calmly beside cattle in a sunlit field, seeing the world as glowing pictures",
+   "a quiet woman standing on a stage in soft light, a warm audience glowing in the dark before her"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "golden light rises gently from her pages and drifts upward, the library lamps glow warmly"
+   }
+  ]
+ }
+}

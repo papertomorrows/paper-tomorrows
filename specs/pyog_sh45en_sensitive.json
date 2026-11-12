@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh45en_sensitive",
+ "status": "hold-sh-ep017-en",
+ "lang": "English",
+ "hook": "NOT TOO SENSITIVE|DEEPLY GIFTED",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh45_sensitive",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Does one comment stay with you <#0.2#> for days?",
+    "caption": "Does one comment stay with you for days?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Do crowds leave you <#0.2#> completely drained?",
+    "caption": "Do crowds leave you completely drained?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "About one in five people <#0.2#> is born feeling far more finely.",
+    "caption": "About one in five people is born feeling far more finely."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "They notice what others miss, <#0.2#> and read what isn't said.",
+    "caption": "They notice what others miss, and read what isn't said."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You tire easily not because you're weak, <#0.2#> but because you take in so much.",
+    "caption": "You tire easily not because you're weak, but because you take in so much."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "You're not too sensitive. <#0.3#> You're deeply gifted.",
+    "caption": "You're not too sensitive. You're deeply gifted."
+   }
+  ]
+ }
+}

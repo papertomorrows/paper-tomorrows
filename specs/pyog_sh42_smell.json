@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh42_smell",
- "status": "done-ep016",
+ "status": "ready-ep016-fix1",
  "hook": "그 냄새가|데려온 기억",
  "hook_size": 104,
  "hook_hi": 1,
@@ -27,8 +27,8 @@
     "voice_id": "Korean_IntellectualMan",
     "speed": 1.15,
     "lang": "Korean",
-    "text": "어느 날, <#0.2#> 조용히 물어봤어요. 너는 왜, 이 냄새가 무겁니.",
-    "caption": "어느 날, 조용히 물어봤어요. 너는 왜, 이 냄새가 무겁니."
+    "text": "어느 날, <#0.2#> 조용히 물어봤어요. 너는 왜, 이 냄새만 맡으면 마음이 무거워지니.",
+    "caption": "어느 날, 조용히 물어봤어요. 너는 왜, 이 냄새만 맡으면 마음이 무거워지니."
    },
    {
     "name": "l02",
@@ -45,8 +45,8 @@
     "voice_id": "Korean_IntellectualMan",
     "speed": 1.15,
     "lang": "Korean",
-    "text": "엄마가 돌아가고 혼자 남은 밤, <#0.2#> 울지 못한 아이.",
-    "caption": "엄마가 돌아가고 혼자 남은 밤, 울지 못한 아이."
+    "text": "엄마가 집으로 가신 뒤, 혼자 남은 밤, <#0.2#> 울지 못한 아이.",
+    "caption": "엄마가 집으로 가신 뒤, 혼자 남은 밤, 울지 못한 아이."
    },
    {
     "name": "l04",

@@ -9,6 +9,8 @@
 
 오늘은, 그 마음에 답을 드리고 싶어요. 당신은 이상한 게 아니에요. 그 다름 안에, 당신만의 힘이 숨어 있어요.
 
+그리고, 남들이 고치라고 했던 바로 그 모습으로, 세상을 바꾼 두 사람의 이야기도 들려드릴게요.
+
 <!-- section: soul | visuals: stars galaxy night, glowing light hands, unique snowflake macro, single flower field, sunrise light rays | title: 이상한 게, 아니었다 | ai: a glowing soul descending from a starry sky toward the Earth, carrying a small unique crystal of colored light in its hands, unlike any other light around it >> the glowing soul slowly descends toward the Earth, the unique crystal of light in its hands pulses with its own colors -->
 똑같은 영혼은, 하나도 없어요.
 
@@ -36,10 +38,12 @@
 
 아니에요. 누구나 하는 게 아니에요. 당신의 영혼이, 일부러 챙겨 온 거예요.
 
-<!-- section: proof | visuals: old typewriter letters, calligraphy pen ink, vintage computer, cattle farm sunrise, woman reading library | title: 약점처럼 보였던 것이, 힘이 된 사람들 | ai: a young man alone in a quiet college classroom at night, carefully drawing beautiful calligraphy letters with ink, golden light rising from the letters on the page >> golden light rises gently from the calligraphy letters as his pen moves, the letters float upward and glow -->
-스티브 잡스는, 대학을 그만둔 뒤에도 캠퍼스에 남아, 아무 쓸모없어 보이던 서체 수업을 들었어요. 그 아름다움에, 그냥 끌렸기 때문이에요.
+<!-- section: proof | visuals: woman reading library, quiet woman writing notebook, woman alone bookstore, cattle farm sunrise, woman speaking stage light | title: 남들과 달라서 힘들었던 것이, 힘이 된 사람들 | ai: a quiet woman sitting alone in a warm library at night, writing in a notebook, a soft golden light glowing from her pages and drifting out into the dark city beyond the window >> golden light rises gently from her pages and drifts out the window over the city, lighting small windows one by one -->
+수전 케인은, 어릴 때부터 조용하고 내향적인 아이였어요. 사람들은 좀 더 활발해지라고 했고, 그녀도 그래야 하는 줄 알았죠.
 
-십 년 뒤, 그 수업이 매킨토시의 아름다운 글꼴이 됐다고, 그는 직접 말했어요.
+그래서 외향적인 척하며, 칠 년 동안 월스트리트에서 변호사로 일했어요.
+
+그러다 그녀는, 고치려고 애썼던 그 조용함을, 오히려 깊이 파고들었어요. 그렇게 쓴 책, 콰이어트는, 전 세계의 수많은 내향적인 사람들에게 위로가 됐고, 그녀의 강연은 수천만 명이 봤어요.
 
 동물학자 템플 그랜딘은, 자폐가 있었어요. 어릴 때는 말이 늦었고, 남들과 달라서 많이 힘들었죠.
 
@@ -108,7 +112,7 @@
 
 불편했던 그 다름, 감추고 싶었던 그 모습. 그 안에, 당신의 영혼이 간직해 온 힘이 있어요.
 
-그게 바로, 당신의 가장 큰 강점이에요.
+그게 바로, 당신의 가장 큰 강점이에요. 그리고 오직 당신이기에, 이 지구에 창조할 수 있는 것이 있어요.
 
 이제, 움츠러들지 말고, 당신의 빛으로 피어나세요.
 

@@ -1,10 +1,10 @@
 {
  "id": "pyog_sh44en_different",
- "status": "ready-sh-ep017-en-b",
+ "status": "done-sh-ep017-en",
  "lang": "English",
- "hook": "YOU'RE NOT STRANGE|YOUR DIFFERENCE IS POWER",
+ "hook": "YOU'RE NOT STRANGE|YOUR DIFFERENCE|IS YOUR POWER",
  "hook_size": 104,
- "hook_hi": 1,
+ "hook_hi": 2,
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh44_different",

@@ -1,10 +1,10 @@
 {
  "id": "pyog_sh46en_fixit",
- "status": "ready-sh-ep017-en-b",
+ "status": "done-sh-ep017-en",
  "lang": "English",
- "hook": "THE PART THEY SAID TO FIX|CHANGED THE WORLD",
+ "hook": "THE PART THEY|SAID TO FIX|CHANGED THE WORLD",
  "hook_size": 104,
- "hook_hi": 1,
+ "hook_hi": 2,
  "brand": "Play Your Own Game",
  "gap": 0.15,
  "reuse_images_from": "pyog_sh46_fixit",

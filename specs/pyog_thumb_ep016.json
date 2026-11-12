@@ -1,13 +1,13 @@
 {
  "id": "pyog_thumb_ep016",
- "status": "ready-thumb16",
+ "status": "done-thumb16",
  "assets": {
   "style": "Photorealistic cinematic photograph, shot on 85mm, dramatic low-key lighting, deep black shadows, a single warm light source on the face, film grain, intense raw emotion, documentary realism. The subject is in the upper-left two thirds of the frame; the lower half and right side fall off into near-black darkness. No text, no letters, no numbers, no watermark, no logo.",
   "size": [
    1920,
    1080
   ],
-  "images": [
+  "images_done": [
    "a Korean woman in her thirties in a dark room, hand resting lightly on her chest, eyes wide and glistening as if she has just realized something deep about herself, warm light from one side",
    "a Korean man in his thirties in a dark room, looking slightly upward with a stunned, moved expression, eyes glistening, as if a long-hidden memory just came back, warm light from one side",
    "an American woman in her thirties in a dark room, hand resting lightly on her chest, eyes wide and glistening as if she has just realized something deep about herself, warm light from one side",

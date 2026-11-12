@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh41_justbecause",
- "status": "ready-ep016",
+ "status": "done-ep016",
  "hook": "그냥은 없다|아직 이유를 모를 뿐",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "아직, 이유를 모르겠어."
    }
   ],
-  "images": [
+  "images_done": [
    "a woman sitting alone at a cafe table shrugging softly, behind her a vast glowing web of golden threads stretching back into darkness",
    "a single small leaf floating on a dark pond, beneath the surface a vast glowing root system stretching deep into the darkness",
    "a translucent woman figure with glowing golden threads of thoughts, words and feelings flowing out from her heart, each thread rooted to a small light deep below",
    "a woman sitting quietly with eyes closed, a small lantern of golden light glowing in her open hands"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 1,
     "motion": "the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface"

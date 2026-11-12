@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh43_threewhys",
- "status": "ready-ep016",
+ "status": "done-ep016",
  "hook": "세 번만 물어보세요|진짜 마음이 나옵니다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "혼내지 말고, 다정하게 물어보세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a person holding a small glowing lantern, walking calmly down a stone staircase into a dark inner cave",
    "the lantern light revealing old glowing words and memories carved into the cave walls",
    "deep in the cave, the lantern lighting up a small frightened child sitting quietly, looking up",
    "the person gently taking the child's hand, warm golden light filling the whole cave"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the person descends the staircase calmly, the lantern light sways and reveals glowing memories on the walls"

@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh42_smell",
- "status": "ready-ep016",
+ "status": "done-ep016",
  "hook": "그 냄새가|데려온 기억",
  "hook_size": 104,
  "hook_hi": 1,
@@ -67,13 +67,13 @@
     "caption": "그건, 그냥이 아니었어요."
    }
   ],
-  "images": [
+  "images_done": [
    "a woman standing still in a bright modern hallway with her eyes closed, a faint translucent memory of a small child alone in an old hospital bed beside her in soft blue light",
    "a small child sitting alone in an old hospital bed at night, white walls, a faint light at the end of the hallway, holding back tears",
    "the grown woman kneeling beside the translucent child in the hospital bed, gently embracing her, warm golden light surrounding them",
    "the woman walking out of the hospital into warm morning sunlight, peaceful and light"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the translucent memory of the child slowly glows and fades beside her, her face softens, light flickers gently"

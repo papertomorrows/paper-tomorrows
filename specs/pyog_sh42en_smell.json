@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh42en_smell",
+ "status": "hold-sh-ep016-en",
+ "lang": "English",
+ "hook": "WHAT THAT SMELL|BROUGHT BACK",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh42_smell",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Someone's heart always sank <#0.2#> at the smell of disinfectant.",
+    "caption": "Someone's heart always sank at the smell of disinfectant."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "One day, they quietly asked. <#0.2#> Why does this smell feel so heavy?",
+    "caption": "One day, they quietly asked. Why does this smell feel so heavy?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Then, <#0.3#> a forgotten hospital room came back.",
+    "caption": "Then, a forgotten hospital room came back."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Left alone the night their mother went home, <#0.2#> a child who couldn't cry.",
+    "caption": "Left alone the night their mother went home, a child who couldn't cry."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "That smell was bringing back <#0.2#> the feeling they swallowed.",
+    "caption": "That smell was bringing back the feeling they swallowed."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "It was never <#0.3#> just because.",
+    "caption": "It was never just because."
+   }
+  ]
+ }
+}

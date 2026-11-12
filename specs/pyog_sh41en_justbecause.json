@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh41en_justbecause",
+ "status": "hold-sh-ep016-en",
+ "lang": "English",
+ "hook": "THERE IS NO|JUST BECAUSE",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh41_justbecause",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Why did you do that? <#0.3#> Just because.",
+    "caption": "Why did you do that? Just because."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "But the truth is, <#0.2#> there is no just because.",
+    "caption": "But the truth is, there is no just because."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Every thought, word, action and feeling of the soul <#0.2#> has a reason.",
+    "caption": "Every thought, word, action and feeling of the soul has a reason."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Even a leaf on a pond <#0.2#> has roots beneath the water.",
+    "caption": "Even a leaf on a pond has roots beneath the water."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Just because <#0.3#> really means this.",
+    "caption": "Just because really means this."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "I don't know the reason, <#0.2#> yet.",
+    "caption": "I don't know the reason, yet."
+   }
+  ]
+ }
+}

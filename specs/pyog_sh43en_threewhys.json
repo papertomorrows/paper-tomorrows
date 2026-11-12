@@ -1,0 +1,69 @@
+{
+ "id": "pyog_sh43en_threewhys",
+ "status": "hold-sh-ep016-en",
+ "lang": "English",
+ "hook": "ASK WHY THREE TIMES|THE TRUTH COMES OUT",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "brand": "Play Your Own Game",
+ "gap": 0.15,
+ "reuse_images_from": "pyog_sh43_threewhys",
+ "assets": {
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "When you hear yourself say just because, <#0.2#> ask why three times.",
+    "caption": "When you hear yourself say just because, ask why three times."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "I just put it off. <#0.3#> Why? I didn't want to.",
+    "caption": "I just put it off. Why? I didn't want to."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Why? <#0.3#> Honestly, it felt overwhelming.",
+    "caption": "Why? Honestly, it felt overwhelming."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "And why is that? <#0.3#> I was afraid I'd fail.",
+    "caption": "And why is that? I was afraid I'd fail."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Ask just three times, <#0.2#> and the real feeling shows itself.",
+    "caption": "Ask just three times, and the real feeling shows itself."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "English_Gentle-voiced_man",
+    "speed": 1.15,
+    "lang": "English",
+    "text": "Don't scold yourself. <#0.2#> Ask gently.",
+    "caption": "Don't scold yourself. Ask gently."
+   }
+  ]
+ }
+}

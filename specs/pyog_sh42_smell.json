@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh42_smell",
+ "status": "ready-ep016",
+ "hook": "그 냄새가|데려온 기억",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "소독약 냄새만 맡으면, <#0.2#> 그냥 마음이 가라앉는 사람이 있었어요.",
+    "caption": "소독약 냄새만 맡으면, 그냥 마음이 가라앉는 사람이 있었어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어느 날, <#0.2#> 조용히 물어봤어요. 너는 왜, 이 냄새가 무겁니.",
+    "caption": "어느 날, 조용히 물어봤어요. 너는 왜, 이 냄새가 무겁니."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그때, <#0.3#> 잊고 있던 병실이 떠올랐어요.",
+    "caption": "그때, 잊고 있던 병실이 떠올랐어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "엄마가 돌아가고 혼자 남은 밤, <#0.2#> 울지 못한 아이.",
+    "caption": "엄마가 돌아가고 혼자 남은 밤, 울지 못한 아이."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 냄새가, <#0.2#> 삼켜 버린 마음을 데려오고 있었어요.",
+    "caption": "그 냄새가, 삼켜 버린 마음을 데려오고 있었어요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그건, <#0.3#> 그냥이 아니었어요.",
+    "caption": "그건, 그냥이 아니었어요."
+   }
+  ],
+  "images": [
+   "a woman standing still in a bright modern hallway with her eyes closed, a faint translucent memory of a small child alone in an old hospital bed beside her in soft blue light",
+   "a small child sitting alone in an old hospital bed at night, white walls, a faint light at the end of the hallway, holding back tears",
+   "the grown woman kneeling beside the translucent child in the hospital bed, gently embracing her, warm golden light surrounding them",
+   "the woman walking out of the hospital into warm morning sunlight, peaceful and light"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the translucent memory of the child slowly glows and fades beside her, her face softens, light flickers gently"
+   }
+  ]
+ }
+}

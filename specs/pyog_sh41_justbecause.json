@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh41_justbecause",
+ "status": "ready-ep016",
+ "hook": "그냥은 없다|아직 이유를 모를 뿐",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "왜 그랬어? <#0.3#> 그냥.",
+    "caption": "왜 그랬어? 그냥."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데, <#0.2#> 사실 그냥은 없어요.",
+    "caption": "그런데, 사실 그냥은 없어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "영혼의 모든 생각과 말과 행동과 감정에는, <#0.2#> 이유가 있어요.",
+    "caption": "영혼의 모든 생각과 말과 행동과 감정에는, 이유가 있어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "연못 위에 뜬 잎 하나에도, <#0.2#> 물 아래 뿌리가 있듯이요.",
+    "caption": "연못 위에 뜬 잎 하나에도, 물 아래 뿌리가 있듯이요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그냥이라는 말은, <#0.3#> 이런 뜻이에요.",
+    "caption": "그냥이라는 말은, 이런 뜻이에요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아직, <#0.2#> 이유를 모르겠어.",
+    "caption": "아직, 이유를 모르겠어."
+   }
+  ],
+  "images": [
+   "a woman sitting alone at a cafe table shrugging softly, behind her a vast glowing web of golden threads stretching back into darkness",
+   "a single small leaf floating on a dark pond, beneath the surface a vast glowing root system stretching deep into the darkness",
+   "a translucent woman figure with glowing golden threads of thoughts, words and feelings flowing out from her heart, each thread rooted to a small light deep below",
+   "a woman sitting quietly with eyes closed, a small lantern of golden light glowing in her open hands"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the glowing roots beneath the dark water pulse softly with light, the small leaf drifts gently on the surface"
+   }
+  ]
+ }
+}

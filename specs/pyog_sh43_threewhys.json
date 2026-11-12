@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh43_threewhys",
+ "status": "ready-ep016",
+ "hook": "세 번만 물어보세요|진짜 마음이 나옵니다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그냥, <#0.2#> 이라는 말이 나올 때, 세 번만 물어보세요.",
+    "caption": "그냥, 이라는 말이 나올 때, 세 번만 물어보세요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그냥 미뤘어. <#0.3#> 왜? 하기 싫어서.",
+    "caption": "그냥 미뤘어. 왜? 하기 싫어서."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그건 왜? <#0.3#> 사실은, 막막해서.",
+    "caption": "그건 왜? 사실은, 막막해서."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그건 또 왜? <#0.3#> 잘 못할까 봐, 두려워서.",
+    "caption": "그건 또 왜? 잘 못할까 봐, 두려워서."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "세 번만 물어도, <#0.2#> 진짜 마음이 모습을 드러내요.",
+    "caption": "세 번만 물어도, 진짜 마음이 모습을 드러내요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "혼내지 말고, <#0.2#> 다정하게 물어보세요.",
+    "caption": "혼내지 말고, 다정하게 물어보세요."
+   }
+  ],
+  "images": [
+   "a person holding a small glowing lantern, walking calmly down a stone staircase into a dark inner cave",
+   "the lantern light revealing old glowing words and memories carved into the cave walls",
+   "deep in the cave, the lantern lighting up a small frightened child sitting quietly, looking up",
+   "the person gently taking the child's hand, warm golden light filling the whole cave"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the person descends the staircase calmly, the lantern light sways and reveals glowing memories on the walls"
+   }
+  ]
+ }
+}

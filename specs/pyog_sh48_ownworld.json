@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh48_ownworld",
+ "status": "ready-ep018",
+ "hook": "내 말만 맞다는 사람|사실 틀린 게 아니다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내 방법만 정답이야, <#0.2#> 이렇게 말하는 사람 있죠.",
+    "caption": "내 방법만 정답이야, 이렇게 말하는 사람 있죠."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데 그 사람, <#0.3#> 사실 틀린 게 아니에요.",
+    "caption": "그런데 그 사람, 사실 틀린 게 아니에요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리는 모두, <#0.2#> 내가 믿는 것이 정답이 되는 세상에 살아요.",
+    "caption": "우리는 모두, 내가 믿는 것이 정답이 되는 세상에 살아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 사람의 세상에서는, <#0.2#> 그게 정답이에요.",
+    "caption": "그 사람의 세상에서는, 그게 정답이에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하지만 다른 누군가의 세상에서는, <#0.2#> 완전하지 않아요.",
+    "caption": "하지만 다른 누군가의 세상에서는, 완전하지 않아요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "모두를 만족시키는 정답은, <#0.3#> 하나도 없어요.",
+    "caption": "모두를 만족시키는 정답은, 하나도 없어요."
+   }
+  ],
+  "images": [
+   "two people standing face to face in a dark room, each holding a glowing lantern that lights only their own half of the room in a different color",
+   "a man pointing confidently inside his own glowing bubble world of golden light, other people nodding inside it",
+   "countless glowing transparent bubbles floating in starry space, inside each a person in their own small world of a different color",
+   "two bubbles of different colors gently touching in the stars, their colors softly blending"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "each lantern glows brighter in its own color, the two halves of light press against each other"
+   }
+  ]
+ }
+}

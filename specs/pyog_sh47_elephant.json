@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh47_elephant",
+ "status": "ready-ep018",
+ "hook": "코끼리를 만진 사람들|누가 틀렸을까",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "앞을 보지 못하는 사람들이, <#0.2#> 코끼리를 처음 만져 봤어요.",
+    "caption": "앞을 보지 못하는 사람들이, 코끼리를 처음 만져 봤어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다리를 만진 사람은, <#0.2#> 기둥 같다고 했고,",
+    "caption": "다리를 만진 사람은, 기둥 같다고 했고,"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "귀를 만진 사람은 부채 같다고, <#0.2#> 코를 만진 사람은 뱀 같다고 했어요.",
+    "caption": "귀를 만진 사람은 부채 같다고, 코를 만진 사람은 뱀 같다고 했어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "누가 틀렸을까요? <#0.3#> 아무도 틀리지 않았어요.",
+    "caption": "누가 틀렸을까요? 아무도 틀리지 않았어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다만, <#0.2#> 아무도 코끼리 전체를 보지는 못했어요.",
+    "caption": "다만, 아무도 코끼리 전체를 보지는 못했어요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리도, <#0.3#> 자기가 선 자리만큼 세상을 봐요.",
+    "caption": "우리도, 자기가 선 자리만큼 세상을 봐요."
+   }
+  ],
+  "images": [
+   "several people in old robes with their eyes closed, each touching a different part of a huge gentle elephant in soft golden light",
+   "a close view of a hand gently touching a huge elephant's leg like a pillar, golden light, ancient village",
+   "a hand feeling a large elephant ear like a fan, another hand on the long trunk, soft golden dust",
+   "the whole elephant glowing softly in golden light, the people around it smiling, seeing only their own part"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the elephant stands calmly as each person feels a different part, soft dust floats in golden light"
+   }
+  ]
+ }
+}

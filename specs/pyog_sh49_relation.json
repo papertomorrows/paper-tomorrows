@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh49_relation",
+ "status": "ready-ep018",
+ "hook": "나다울 수 없는 관계라면|멀어져도 괜찮다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "좋은 관계는, <#0.2#> 내가 최대한 나로 존재할 수 있는 관계예요.",
+    "caption": "좋은 관계는, 내가 최대한 나로 존재할 수 있는 관계예요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "숨 쉬듯 가볍게, <#0.2#> 그저 존재하는 것만으로 빛날 수 있게요.",
+    "caption": "숨 쉬듯 가볍게, 그저 존재하는 것만으로 빛날 수 있게요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런 나를 좋아해 주는 사람들과, <#0.2#> 깊이 이어 가면 돼요.",
+    "caption": "그런 나를 좋아해 주는 사람들과, 깊이 이어 가면 돼요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "반대로, 내가 나로 존재하지 못하게 하는 관계라면,",
+    "caption": "반대로, 내가 나로 존재하지 못하게 하는 관계라면,"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "조금 멀어져도, <#0.3#> 괜찮아요.",
+    "caption": "조금 멀어져도, 괜찮아요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리는 허락받을 필요도, <#0.2#> 인정받을 필요도 없어요.",
+    "caption": "우리는 허락받을 필요도, 인정받을 필요도 없어요."
+   }
+  ],
+  "images": [
+   "a woman glowing softly with her own warm light at a sunlit table with friends whose faces light up as they lean in toward her glow",
+   "a woman breathing lightly in a sunny field, a soft golden glow radiating from her",
+   "a woman in a dim room whose light is fading as shadowy figures press around her",
+   "the woman walking away calmly into warm sunlight, her own light shining brighter again"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the woman's soft light grows warmer, her friends' faces brighten as they laugh together"
+   }
+  ]
+ }
+}

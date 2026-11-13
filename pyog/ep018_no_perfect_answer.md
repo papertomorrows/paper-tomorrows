@@ -38,16 +38,18 @@
 
 하지만 당시 의사들 대부분은, 그 말을 받아들이지 않았어요. 자기들이 알던 의학이, 정답이었으니까요. 손 씻기가 당연한 상식이 된 건, 그가 세상을 떠나고 나서였어요.
 
-사람이 만든 정답은, 시간이 지나면 바뀌어요. 지금 우리가 확신하는 많은 것들도, 언젠가는 그렇게 될 거예요.
+지금 우리가 확신하는 많은 것들도, 언젠가는 그렇게 될지 몰라요.
 
 <!-- section: earth | visuals: earth from space, diverse people crowd, hands of different people, world map lights night, sunrise over earth | title: 지구에, 완벽은 없다 | ai: a glowing Earth floating in space, countless tiny lights of different colors shining from its surface, each light unique, together forming one beautiful shimmering whole >> the tiny colored lights across the Earth's surface twinkle one by one, the planet slowly turns, a soft glow surrounds it -->
 영적으로 보면, 이건 당연한 일이에요.
 
-이 지구는, 서로 다른 영혼들이 서로 다른 경험을 하러 모인 곳이에요. 저마다 고른 경험이 다르니, 보이는 세상도, 옳다고 느끼는 것도 다를 수밖에 없어요.
+우리는 본래, 존재하는 모든 것이고, 에너지예요. 하지만 이 지구에서는, 육체를 가진 사람으로 살고 있어요.
 
-그래서 이 지구에서, 사람이 관여된 것에는 완벽함이 없어요. 어떤 생각도, 어떤 방법도, 어떤 제도도요.
+그래서 이 지구에서, 사람과 관련된 것에는 백 퍼센트 완벽한 게 없어요. 사람이든, 아이디어든, 이론이든, 물건이든요.
 
-그건 실패가 아니에요. 그렇게 다른 것들이 부딪히고 섞이면서, 우리가 더 넓어지도록 만들어진 곳이에요.
+완벽하다고 느낄 수는 있어요. 하지만 그건 지금 이 순간 그렇게 보이거나, 누군가에게 그렇게 느껴지는 거지, 절대적인 건 아니에요. 완벽해 보이던 것도 언제든 부족해 보일 수 있고, 그걸 완벽하다고 믿던 사람의 생각도, 시간이 지나면 바뀌어요.
+
+그건 실패가 아니에요. 서로 다른 영혼들이, 서로 다른 경험을 하러 모인 이 지구에서, 그렇게 다른 것들이 부딪히고 섞이면서, 우리가 더 넓어지도록 만들어진 거예요.
 
 완벽한 정답은, 사람 하나가 쥐고 있는 게 아니에요. 서로 다른 모든 시선을 다 품고 있는, 우주 전체에만 있어요.
 

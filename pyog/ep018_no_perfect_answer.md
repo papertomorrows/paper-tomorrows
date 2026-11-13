@@ -46,12 +46,14 @@
 
 사랑이면서 그 반대이기도 하고, 빛이면서 어둠이기도 한 것처럼요.
 
-그러니 불완전함은, 고쳐야 할 결함이 아니에요. 완전함과 함께, 우리를 이루고 있는 한쪽 면일 뿐이에요.
+그러니 이 지구에서, 백 퍼센트 완벽을 좇을 필요가 없어요. 불완전함은 고쳐야 할 결함이 아니라, 완전함과 함께 우리를 이루는 한쪽 면이니까요.
+
+그리고 내 세상 안에서, 나는 언제나 완전하고, 옳아요.
+
+우리는 바로 그렇게, 저마다 개성 있는 삶을 경험하려고, 이 지구에 사람으로 왔어요.
 
 <!-- section: worlds | visuals: soap bubbles light, people walking city crowd, glowing lanterns night, different houses windows night, galaxy stars | title: 각자의 세상에서는, 모두 옳다 | ai: countless glowing transparent bubbles floating in a vast starry space, inside each bubble a person standing in their own small world of a different color, some bubbles touching and sharing the same color >> the glowing bubbles drift slowly through the stars, where two bubbles touch their colors gently blend together -->
-그렇다고, 내가 옳다고 믿는 게 잘못된 건 아니에요.
-
-우리는 모두, 저마다의 세상에서 살고 있어요. 그리고 그 세상은, 무엇이든 내가 믿는 것이 곧 정답이 되는 세상이에요. 그래서 자기 세상 속에서, 내가 옳다, 이게 정답이다, 하고 믿는 것. 그것 또한 정답이고, 옳아요.
+이건 나만이 아니라, 모든 사람이 마찬가지예요. 우리는 모두, 저마다의 세상에서 살고 있어요. 그리고 그 세상은, 무엇이든 내가 믿는 것이 곧 정답이 되는 세상이에요.
 
 누군가 그 믿음에 함께 동의하면, 그 사람의 세상에서도, 그 생각이, 그 이론이, 그 물건이, 정답이 되고 옳은 것이 돼요.
 

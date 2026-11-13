@@ -40,9 +40,13 @@
 
 완벽하다고 느낄 수는 있어요. 하지만 그건 지금 이 순간 그렇게 보이거나, 누군가에게 그렇게 느껴지는 거지, 절대적인 건 아니에요. 완벽해 보이던 것도 언제든 부족해 보일 수 있고, 그걸 완벽하다고 믿던 사람의 생각도, 시간이 지나면 바뀌어요.
 
-그건 실패가 아니에요. 서로 다른 영혼들이, 서로 다른 경험을 하러 모인 이 지구에서, 그렇게 다른 것들이 부딪히고 섞이면서, 우리가 더 넓어지도록 만들어진 거예요.
+그런데, 여기에는 하나의 역설이 있어요.
 
-완벽한 정답은, 사람 하나가 쥐고 있는 게 아니에요. 서로 다른 모든 시선을 다 품고 있는, 우주 전체에만 있어요.
+우리는 존재하는 모든 것이기에, 사실은 이미 모든 것이에요. 그래서 우리는 완전하면서, 동시에 불완전해요. 둘 중 하나가 아니라, 둘 다예요.
+
+사랑이면서 그 반대이기도 하고, 빛이면서 어둠이기도 한 것처럼요.
+
+그러니 불완전함은, 고쳐야 할 결함이 아니에요. 완전함과 함께, 우리를 이루고 있는 한쪽 면일 뿐이에요.
 
 <!-- section: worlds | visuals: soap bubbles light, people walking city crowd, glowing lanterns night, different houses windows night, galaxy stars | title: 각자의 세상에서는, 모두 옳다 | ai: countless glowing transparent bubbles floating in a vast starry space, inside each bubble a person standing in their own small world of a different color, some bubbles touching and sharing the same color >> the glowing bubbles drift slowly through the stars, where two bubbles touch their colors gently blend together -->
 그렇다고, 내가 옳다고 믿는 게 잘못된 건 아니에요.

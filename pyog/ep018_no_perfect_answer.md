@@ -5,7 +5,7 @@
 
 이렇게 확신하는 사람, 주변에 꼭 한 명씩 있죠. 어쩌면, 나도 그럴 때가 있고요.
 
-그런데 그 사람들은, 사실 늘 옳아요. 자기의 세상 안에서는요. 그리고 그 사람에게 동의하는 사람들의 세상 안에서도요.
+그런데 그 사람들이, 꼭 틀린 건 아니에요.
 
 다만, 이 세상 모두를 만족시키고, 모두에게 동의를 받는 생각이나 방법은, 단 하나도 없어요.
 
@@ -31,15 +31,6 @@
 
 결국 우리는 모두, 각자의 창문으로 세상을 보고 있어요. 그 창문 밖으로 보이는 풍경은 진짜지만, 그게 세상의 전부는 아니에요.
 
-<!-- section: history | visuals: old hospital ward, vintage doctor portrait, washing hands water, old science books, stars telescope night | title: 모두가 확신했던 정답도 | ai: a lone doctor in a 19th century hospital washing his hands in a basin under a single lamp, while a crowd of doctors in dark coats behind him turn away shaking their heads >> water drips slowly from his hands, the lamp flickers, the crowd behind him fades into shadow -->
-한 시대 전체가 확신했던 정답도, 그랬어요.
-
-19세기 중반, 헝가리 출신 의사 이그나즈 제멜바이스는, 의사가 손을 씻기만 해도 산모들의 죽음을 크게 줄일 수 있다는 걸 알아냈어요.
-
-하지만 당시 의사들 대부분은, 그 말을 받아들이지 않았어요. 자기들이 알던 의학이, 정답이었으니까요. 손 씻기가 당연한 상식이 된 건, 그가 세상을 떠나고 나서였어요.
-
-지금 우리가 확신하는 많은 것들도, 언젠가는 그렇게 될지 몰라요.
-
 <!-- section: earth | visuals: earth from space, diverse people crowd, hands of different people, world map lights night, sunrise over earth | title: 지구에, 완벽은 없다 | ai: a glowing Earth floating in space, countless tiny lights of different colors shining from its surface, each light unique, together forming one beautiful shimmering whole >> the tiny colored lights across the Earth's surface twinkle one by one, the planet slowly turns, a soft glow surrounds it -->
 영적으로 보면, 이건 당연한 일이에요.
 
@@ -52,6 +43,17 @@
 그건 실패가 아니에요. 서로 다른 영혼들이, 서로 다른 경험을 하러 모인 이 지구에서, 그렇게 다른 것들이 부딪히고 섞이면서, 우리가 더 넓어지도록 만들어진 거예요.
 
 완벽한 정답은, 사람 하나가 쥐고 있는 게 아니에요. 서로 다른 모든 시선을 다 품고 있는, 우주 전체에만 있어요.
+
+<!-- section: worlds | visuals: soap bubbles light, people walking city crowd, glowing lanterns night, different houses windows night, galaxy stars | title: 각자의 세상에서는, 모두 옳다 | ai: countless glowing transparent bubbles floating in a vast starry space, inside each bubble a person standing in their own small world of a different color, some bubbles touching and sharing the same color >> the glowing bubbles drift slowly through the stars, where two bubbles touch their colors gently blend together -->
+그렇다고, 내가 옳다고 믿는 게 잘못된 건 아니에요.
+
+우리는 모두, 저마다의 세상에서 살고 있어요. 그리고 그 세상은, 무엇이든 내가 믿는 것이 곧 정답이 되는 세상이에요. 그래서 자기 세상 속에서, 내가 옳다, 이게 정답이다, 하고 믿는 것. 그것 또한 정답이고, 옳아요.
+
+누군가 그 믿음에 함께 동의하면, 그 사람의 세상에서도, 그 생각이, 그 이론이, 그 물건이, 정답이 되고 옳은 것이 돼요.
+
+그러니 내 방법만이, 내 것만이 정답이고, 다른 건 틀렸거나 가치 없다고 말하는 사람도, 자기 세상에서는 옳아요. 자기에게 동의하는 사람들의 세상에서도요.
+
+하지만 다른 누군가의 세상에서는, 그건 틀렸고, 완전하지 않아요.
 
 <!-- section: free | visuals: woman breathing relief, open hands sunlight, bird flying free, woman smiling calm, light through clouds | title: 이걸 알면, 자유로워진다 | ai: a woman standing in a wide open field releasing a heavy glowing stone from her hands, the stone dissolving into light as her shoulders relax and the wind moves through her hair >> the heavy stone dissolves into floating light as it leaves her hands, her shoulders drop, wind gently moves the grass -->
 이걸 알면, 두 가지가 자유로워져요.
@@ -86,7 +88,7 @@
 
 그 자리에서는, 세상이 어떻게 보일까요. {pause:8}
 
-그 사람도, 자기 세상에서는 최선을 다하고 있었을지 몰라요. {pause:6}
+그 사람도, 그 자리에서는 최선을 다하고 있었을지 몰라요. {pause:6}
 
 이제, 그 사람과 나를 함께 품고 있는, 아주 넓은 하늘을 떠올려 보세요. {pause:8}
 

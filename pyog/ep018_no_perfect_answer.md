@@ -76,11 +76,24 @@
 <!-- section: free | visuals: woman breathing relief, open hands sunlight, bird flying free, woman smiling calm, light through clouds | title: 이걸 알면, 자유로워진다 | ai: a woman standing in a wide open field releasing a heavy glowing stone from her hands, the stone dissolving into light as her shoulders relax and the wind moves through her hair >> the heavy stone dissolves into floating light as it leaves her hands, her shoulders drop, wind gently moves the grass -->
 이걸 알면, 두 가지가 자유로워져요.
 
-하나. 남을 바꾸려는 마음에서 자유로워져요. 저 사람은 저 사람의 창문으로 보고 있구나. 그걸 알면, 굳이 이기려고 애쓰지 않아도 돼요. 그런 시선도 있구나, 한마디면 충분해요.
+하나. 남을 바꾸려는 마음에서 자유로워져요. 저 사람은 저 사람의 창문으로 보고 있구나. 그걸 알면, 굳이 이기려고 애쓰지 않아도 돼요. 그런 시선도 있구나, 하고 그냥 놓아주면 돼요.
 
 둘. 모두에게 인정받으려는 마음에서 자유로워져요. 모두가 동의하는 정답은 원래 없으니까요. 누군가 내 방식에 고개를 젓는다고 해서, 내가 틀린 게 아니에요.
 
-내 정답을 소중히 여기되, 그게 유일한 정답이라고 붙잡지만 않으면 돼요.
+<!-- section: relation | visuals: friends laughing together, couple walking beach, friends hugging sunset, women talking cafe, family dinner laughing | title: 나로 존재할 수 있는 관계 | ai: a woman glowing softly with her own warm light, sitting at a sunlit table with a few friends whose faces light up as they lean in toward her glow, everyone relaxed and laughing >> the woman's soft light grows warmer, her friends' faces brighten as they laugh together, sunlight flickers through the window -->
+그래서 좋은 인간관계도, 여기서 시작돼요.
+
+먼저, 내가 최대한 나로 존재하는 거예요. 애쓰지 않고, 숨 쉬듯 가볍게, 그저 존재하는 것만으로 빛날 수 있게요.
+
+그리고 그런 나를 좋아해 주고, 함께하고 싶어 하는 사람들과, 깊은 관계를 이어 가면 돼요. 내가 편안하고 기쁜 그 모습과, 잘 맞는 사람들이요.
+
+물론, 서로 불편한 점이나 고칠 점은 얼마든지 이야기할 수 있어요. 다만 그건 작은 조율이고, 제가 말하는 건 관계의 기본적인 결이에요.
+
+반대로, 내가 나로 존재하지 못하게 하는 관계라면, 조금 멀어져도 괜찮아요.
+
+이게 기본이 되면, 누구에게 인정받으려고 애쓸 일이 거의 없어져요. 일터에서 받는 평가처럼, 사회생활에서의 인정은 조금 다른 이야기지만요.
+
+삶의 대부분에서, 우리는 허락받을 필요도, 인정받을 필요도 없어요. 그저 자유롭게, 나 자신으로 살면 돼요.
 
 <!-- section: practice | visuals: morning journal writing, woman calm window, two friends talking cafe, person walking slowly park, calm night bedroom | title: 오늘부터 해 볼 세 가지 -->
 그럼 오늘부터, 세 가지만 해 보세요.

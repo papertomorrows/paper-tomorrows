@@ -130,3 +130,4 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 - Guided "together" sections: use {pause:N} markers (seconds of silence, music continues) so viewers can actually breathe along; ~3s inhale, ~4s exhale, 4-6s after imagery prompts. Total hold ~40s.
 
 - Upload notes: ALWAYS include for every short (KR+EN) a description (2-3 lines + "▶ 전체 영상: <long title>" + hashtags, top 3 first, include #shorts) and 15-25 search-keyword tags (real search phrasing, mix broad/narrow, people/book names). See EP015-017 *_쇼츠_설명_태그.txt.
+- 2026-11-13: 사용자 결정 — 영어(Play Your Own Game) 영상은 앞으로 만들지 않음. 한국어만 제작.

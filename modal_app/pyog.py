@@ -67,7 +67,9 @@ def animate(img: bytes, motion: str) -> bytes:
     import fal_client
     import requests
 
-    url = fal_client.upload(img, "image/jpeg")
+    import base64
+    # fal storage upload started failing ("Invalid storage type"); send the image inline instead
+    url = "data:image/jpeg;base64," + base64.b64encode(img).decode()
     res = fal_client.subscribe("fal-ai/minimax/hailuo-2.3-fast/standard/image-to-video",
                                arguments={"image_url": url, "prompt": motion, "duration": "6",
                                           "prompt_optimizer": False})

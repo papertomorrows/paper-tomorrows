@@ -139,9 +139,15 @@ def ass_time(t: float) -> str:
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
 
-@app.function(image=image, timeout=3000, secrets=[KEYS], volumes={"/cache": CACHE}, cpu=4, memory=8192)
+@app.function(image=image, timeout=6000, secrets=[KEYS], volumes={"/cache": CACHE}, cpu=4, memory=8192)
 def produce(spec: dict, script_md: str, music: bytes) -> dict:
     import os
+    import time as _t
+    _T0 = _t.time()
+    import builtins
+    _print = builtins.print
+    def print(*a, **k):  # timestamp every log line so slow steps show up
+        _print(f"[{_t.time() - _T0:5.0f}s]", *a, **k, flush=True)
     import subprocess
 
     import requests

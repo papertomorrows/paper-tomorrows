@@ -22,7 +22,7 @@ concurrency:
 jobs:
   produce:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 130
     steps:
       - uses: actions/checkout@v4
         with:
@@ -79,7 +79,7 @@ jobs:
               for TRY in 1 2 3; do
                 APP=modal_app/pipeline.py
                 case "$NAME" in pyog_ep*|lf_*) APP=modal_app/pyog.py;; esac
-                timeout 2700 modal run "$APP" --spec "$SPEC" > "log_$NAME.txt" 2>&1 && exit 0
+                T=2700; [ "$APP" = modal_app/pyog.py ] && T=6200; timeout $T modal run "$APP" --spec "$SPEC" > "log_$NAME.txt" 2>&1 && exit 0
                 grep -qi "rate limit" "log_$NAME.txt" || exit 1
                 echo "rate limited, retrying $NAME (try $TRY)"; sleep $((30 * TRY))
               done
@@ -97,6 +97,14 @@ jobs:
               echo "::error title=Failure::${L}: ${E}"; fi
           done
           [ "$FAILS" -eq 0 ]
+      - name: Keep run logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs
+          path: log_*.txt
+          if-no-files-found: ignore
+          retention-days: 7
       - name: Report error
         if: failure()
         run: |

@@ -97,26 +97,14 @@ jobs:
               echo "::error title=Failure::${L}: ${E}"; fi
           done
           [ "$FAILS" -eq 0 ]
-      - name: Keep run logs
+      - name: Show run logs
         if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: logs
-          path: log_*.txt
-          if-no-files-found: ignore
-          retention-days: 7
+        run: |
+          for f in log_*.txt; do [ -f "$f" ] || continue; echo "== $f"; grep -aE "STEP|FAILED|OK|Error" "$f" | tail -60; tail -15 "$f"; done
       - name: Report error
         if: failure()
         run: |
           echo "see per-short errors above"
-      - name: Keep long-form videos as a download
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: longform
-          path: outputs/longform
-          if-no-files-found: ignore
-          retention-days: 14
       - name: Deliver long-form videos (kept per episode on the 'deliveries' branch)
         if: always()
         run: |

@@ -1,6 +1,6 @@
 # EP017 (제목 미정) | (썸네일 미정)
 
-<!-- section: hook | visuals: woman silhouette window, woman alone crowd, woman walking alone night city, woman looking window rain, hands light close up | ai: a crowd of identical grey figures walking in the same direction on a city street, and one woman among them glowing with a soft colorful light, hunched slightly as if trying to hide her own glow >> the grey crowd keeps walking past, the woman's colorful glow flickers as she shrinks slightly, then slowly brightens; a lone woman standing still in a fast-moving crowd at a night train station, motion blurred people streaming past her, warm light falling only on her -->
+<!-- section: hook | visuals: woman silhouette window, woman alone crowd, woman walking alone night city, woman looking window rain, hands holding candle | ai: a crowd of identical grey figures walking in the same direction on a city street, and one woman among them glowing with a soft colorful light, hunched slightly as if trying to hide her own glow >> the grey crowd keeps walking past, the woman's colorful glow flickers as she shrinks slightly, then slowly brightens; a lone woman standing still in a fast-moving crowd at a night train station, motion blurred people streaming past her, warm light falling only on her -->
 어릴 때부터, 나만 조금 다른 것 같았나요.
 
 다들 웃고 넘기는 한마디가, 나에게는 며칠씩 마음에 남고. 사람 많은 곳에 다녀오면, 이유 없이 녹초가 되고. 모두가 좋다는 길이, 이상하게 나에게는 끌리지 않았죠.

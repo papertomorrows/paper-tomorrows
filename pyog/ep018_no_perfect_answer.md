@@ -36,9 +36,9 @@
 
 우리는 본래, 존재하는 모든 것이고, 에너지예요. 하지만 이 지구에서는, 육체를 가진 사람으로 살고 있어요.
 
-그래서 이 지구에서, 사람과 관련된 것에는 백 퍼센트 완벽한 게 없어요. 사람이든, 아이디어든, 이론이든, 물건이든요.
+그래서 이 지구에서는, 사람이 만들고 겪는 것 중에 백 퍼센트 완벽한 게 없어요. 사람이든, 아이디어든, 이론이든, 물건이든요.
 
-완벽하다고 느낄 수는 있어요. 하지만 그건 지금 이 순간 그렇게 보이거나, 누군가에게 그렇게 느껴지는 거지, 절대적인 건 아니에요. 완벽해 보이던 것도 언제든 부족해 보일 수 있고, 그걸 완벽하다고 믿던 사람의 생각도, 시간이 지나면 바뀌어요.
+완벽하다고 느낄 수는 있어요. 하지만 그건 지금 이 순간, 누군가에게 그렇게 보이는 것일 뿐이에요. 완벽해 보이던 것도, 언제든 부족해 보일 수 있어요. 그걸 완벽하다고 믿던 사람의 생각도, 시간이 지나면 바뀌고요.
 
 우리가 세우는 여러 목표들도, 살면서 계속 바뀌죠.
 
@@ -46,19 +46,9 @@
 
 그런데, 여기에는 하나의 역설이 있어요.
 
-우리는 존재하는 모든 것이기에, 사실은 이미 모든 것이에요. 그래서 우리는 완전하면서, 동시에 불완전해요. 둘 중 하나가 아니라, 둘 다예요.
+우리는 본래 모든 것이기에, 이미 완전해요. 그런데 이 지구에서는, 불완전하기도 해요. 둘 중 하나가 아니라, 둘 다예요.
 
 사랑이면서 그 반대이기도 하고, 빛이면서 어둠이기도 한 것처럼요.
-
-그러니 이 지구에서, 백 퍼센트 완벽을 좇아야만 하는 건 아니에요. 불완전함은 고쳐야 할 결함이 아니라, 완전함과 함께 우리를 이루는 한쪽 면이니까요.
-
-물론, 완벽을 추구하는 것 자체가 나쁜 건 아니에요. 저는 개인적으로, 완벽을 추구하는 걸 좋아해요.
-
-다만, 모두가 인정하는 절대적인 완벽에 닿겠다, 하면서 쫓는 게 아니에요. 그런 백 퍼센트의 완벽은 없다는 걸 알면서, 추구해요.
-
-그러니까 제가 말하는 완벽은, 끝에 도착하는 어떤 지점이 아니에요. 나 자신도, 내가 잘하고 싶은 일들도, 모든 것에서 계속해서 베스트 버전이 되어 가는 거예요.
-
-저는 이게, 가장 크게 성장할 수 있는 방법이라고 생각해요.
 
 그리고 내 세상 안에서, 나는 언제나 완전하고, 옳아요.
 
@@ -74,26 +64,34 @@
 하지만 다른 누군가의 세상에서는, 그건 틀렸고, 완전하지 않아요.
 
 <!-- section: free | visuals: woman breathing relief, open hands sunlight, bird flying free, woman smiling calm, light through clouds | title: 이걸 알면, 자유로워진다 | ai: a woman standing in a wide open field releasing a heavy glowing stone from her hands, the stone dissolving into light as her shoulders relax and the wind moves through her hair >> the heavy stone dissolves into floating light as it leaves her hands, her shoulders drop, wind gently moves the grass; a woman with eyes closed letting go of a paper lantern that rises into a soft dawn sky, her face peaceful -->
-이걸 알면, 두 가지가 자유로워져요.
+이걸 알면, 세 가지가 자유로워져요.
 
 하나. 남을 바꾸려는 마음에서 자유로워져요. 저 사람은 저 사람의 창문으로 보고 있구나. 그걸 알면, 굳이 이기려고 애쓰지 않아도 돼요. 그런 시선도 있구나, 하고 그냥 놓아주면 돼요.
 
 둘. 모두에게 인정받으려는 마음에서 자유로워져요. 모두가 동의하는 정답은 원래 없으니까요. 누군가 내 방식에 고개를 젓는다고 해서, 내가 틀린 게 아니에요.
 
+셋. 나를 몰아붙이는 마음에서 자유로워져요. 이 지구에서, 백 퍼센트 완벽을 좇아야만 하는 건 아니에요. 불완전함은 고쳐야 할 결함이 아니라, 완전함과 함께 우리를 이루는 한쪽 면이니까요.
+
+물론, 완벽을 추구하는 것 자체가 나쁜 건 아니에요. 저는 개인적으로, 완벽을 추구하는 걸 좋아해요.
+
+다만, 모두가 인정하는 절대적인 완벽에 닿겠다, 하면서 쫓는 게 아니에요. 그런 백 퍼센트의 완벽은 없다는 걸 알면서, 추구해요.
+
+그러니까 제가 말하는 완벽은, 끝에 도착하는 어떤 지점이 아니에요. 나 자신도, 내가 잘하고 싶은 일들도, 모든 것에서 계속해서 베스트 버전이 되어 가는 거예요.
+
+저는 이게, 가장 크게 성장할 수 있는 방법이라고 생각해요.
+
 <!-- section: relation | visuals: friends laughing together, couple walking beach, friends hugging sunset, women talking cafe, family dinner laughing | title: 나로 존재할 수 있는 관계 | ai: a woman glowing softly with her own warm light, sitting at a sunlit table with a few friends whose faces light up as they lean in toward her glow, everyone relaxed and laughing >> the woman's soft light grows warmer, her friends' faces brighten as they laugh together, sunlight flickers through the window; two friends sitting on a wooden bench at sunset, one telling a story and the other laughing freely, warm golden light -->
-그래서 좋은 인간관계도, 여기서 시작돼요.
+그리고 이 앎은, 좋은 인간관계의 시작이기도 해요.
 
 먼저, 내가 최대한 나로 존재하는 거예요. 애쓰지 않고, 숨 쉬듯 가볍게, 그저 존재하는 것만으로 빛날 수 있게요.
 
 그리고 그런 나를 좋아해 주고, 함께하고 싶어 하는 사람들과, 깊은 관계를 이어 가면 돼요. 내가 편안하고 기쁜 그 모습과, 잘 맞는 사람들이요.
 
-물론, 서로 불편한 점이나 고칠 점은 얼마든지 이야기할 수 있어요. 다만 그건 작은 조율이고, 제가 말하는 건 관계의 기본적인 결이에요.
+서로 불편한 점이나 고칠 점은, 얼마든지 이야기할 수 있어요. 다만 그건 작은 조율이고, 제가 말하는 건 관계의 기본적인 결이에요.
 
 반대로, 내가 나로 존재하지 못하게 하는 관계라면, 조금 멀어져도 괜찮아요.
 
-이게 기본이 되면, 누구에게 인정받으려고 애쓸 일이 거의 없어져요. 일터에서 받는 평가처럼, 사회생활에서의 인정은 조금 다른 이야기지만요.
-
-삶의 대부분에서, 우리는 허락받을 필요도, 인정받을 필요도 없어요. 그저 자유롭게, 나 자신으로 살면 돼요.
+이게 기본이 되면, 삶의 대부분에서 우리는 허락받을 필요도, 인정받을 필요도 없어요. 일터에서 받는 평가처럼, 사회생활은 조금 다른 이야기지만요. 그저 자유롭게, 나 자신으로 살면 돼요.
 
 <!-- section: practice | visuals: morning journal writing, woman calm window, two friends talking cafe, walking forest path, bedroom lamp night | title: 오늘부터 해 볼 세 가지 | ai: an open journal with a pen on a wooden table at dawn, a cup of tea steaming, soft window light -->
 그럼 오늘부터, 세 가지만 해 보세요.
@@ -130,7 +128,7 @@
 <!-- section: outro | visuals: sunrise ocean, earth from space, mountain sunrise, birds flying sunset, golden field sunset | ai: many different people standing together on a hilltop at sunrise, each holding a small lantern of a different color, all the colors blending into one warm light over the valley below >> the different colored lanterns glow brighter and their light blends into one warm wave across the valley, the sun rises; a winding path through a golden field toward a glowing sunrise, many different footprints on the path -->
 백 퍼센트 정답인 사람은 없어요. 나도, 저 사람도요.
 
-모두 자기가 선 자리에서는 옳지만, 그 누구도 세상 전체를 보지는 못해요.
+모두 자기 자리에서는 옳아요. 다만, 거기서 보이는 게 세상의 전부는 아닐 뿐이에요.
 
 그러니 내 정답은 소중히 지키되, 다른 사람의 정답 앞에서는, 한 걸음만 물러서 보세요. 그 한 걸음만큼, 내 세상이 넓어져요.
 

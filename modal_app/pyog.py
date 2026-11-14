@@ -153,7 +153,18 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     import requests
 
     def run(cmd):
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+        # a broken input (e.g. a corrupt still with -loop 1) can make ffmpeg spin forever: cap each call
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=900)
+
+    def bad_image(p):
+        """True if a cached still is missing, tiny or can't be decoded (then it is regenerated)."""
+        if not p.exists():
+            return True
+        if p.stat().st_size < 20000:
+            return True
+        r = subprocess.run(["ffmpeg", "-v", "error", "-i", str(p), "-frames:v", "1", "-f", "null", "-"],
+                           capture_output=True, text=True, timeout=60)
+        return r.returncode != 0 or bool(r.stderr.strip())
 
     def dur(p):
         return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of",
@@ -344,6 +355,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             prompt, _, motion = (x.strip() for x in item.partition(">>"))
             full = f"{prompt}, {spec.get('ai_style', 'cinematic, dreamy, soft volumetric light, deep blue and warm gold, no text, no watermark')}"
             f = cache / "stock" / f"own_{key(full)}.jpg"
+            if f.exists() and bad_image(f):
+                print(f"OWN IMAGE CORRUPT, regenerating '{prompt[:60]}'")
+                f.unlink()
             if not f.exists():
                 img = None
                 for attempt, seed in enumerate((500 + k, 900 + k)):
@@ -355,6 +369,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 if img is None:
                     continue
                 f.write_bytes(img)
+                if bad_image(f):
+                    print(f"OWN IMAGE UNREADABLE, skipped '{prompt[:60]}'")
+                    f.unlink()
+                    continue
                 own_new.append(prompt)
                 CACHE.commit()
             if motion:
@@ -386,6 +404,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                       + spec.get("ai_style", "cinematic, dreamy, soft volumetric light, peaceful spiritual "
                                              "atmosphere, no text, no watermark"))
             f = cache / "stock" / f"ai_{key(prompt + ('' if k < len(pool_p) else str(k)))}.jpg"
+            if f.exists() and bad_image(f):
+                f.unlink()
             if not f.exists():
                 if fallbacks >= int(spec.get("max_ai_fallbacks", 99)):
                     pool = sec["clips"] or clip_files  # budget reached: reuse a clip instead of paying

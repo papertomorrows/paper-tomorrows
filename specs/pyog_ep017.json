@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep017-v4",
+ "status": "ready-ep017-v-pix",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.15,
  "captions": true,
@@ -17,5 +17,5 @@
  "section_gap": 0.6,
  "tag_match": 2,
  "strict_topic": true,
- "fresh_before": 1794451557.9328341
+ "fresh_before": 1794635781.843756
 }

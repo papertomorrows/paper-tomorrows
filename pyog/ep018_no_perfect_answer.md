@@ -1,6 +1,6 @@
 # EP018 (제목 미정) | (썸네일 미정)
 
-<!-- section: hook | visuals: people arguing table, man pointing finger, two people debating, crowd protest signs, woman shaking head | ai: two people standing face to face in a dark room, each holding up a glowing lantern that lights only their own half of the room in a different color, both certain they see the whole room >> each lantern glows brighter in its own color, the two halves of light press against each other, the center of the room stays in shadow -->
+<!-- section: hook | visuals: people arguing table, man pointing finger, two people debating, woman shaking head, crowd city street | ai: two people standing face to face in a dark room, each holding up a glowing lantern that lights only their own half of the room in a different color, both certain they see the whole room >> each lantern glows brighter in its own color, the two halves of light press against each other, the center of the room stays in shadow; two chairs facing each other in an empty dark room, one lit in cool blue light and one in warm orange light, a thin line of light on the floor between them -->
 내 말이 맞아. 내 방법이 정답이야.
 
 이렇게 확신하는 사람, 주변에 꼭 한 명씩 있죠. 어쩌면, 나도 그럴 때가 있고요.
@@ -11,7 +11,7 @@
 
 오늘은, 백 퍼센트 정답인 사람은 없다는 이야기를 해 볼게요. 이걸 알면, 남과 부딪히는 일도, 나를 몰아붙이는 일도 훨씬 줄어들어요.
 
-<!-- section: elephant | visuals: elephant walking savanna, hands touching tree bark, blindfolded person, old temple india, elephant trunk close up | title: 코끼리를 만진 사람들 | ai: several people in old robes with their eyes closed, each touching a different part of a huge gentle elephant in soft golden light, the trunk, the ear, the leg, the tail, each face certain and peaceful >> the elephant stands calmly as each person feels a different part, soft dust floats in the golden light -->
+<!-- section: elephant | visuals: elephant walking savanna, elephant close up, hands touching tree bark, elephant herd sunset, ancient temple light | title: 코끼리를 만진 사람들 | ai: several people in old robes with their eyes closed, each touching a different part of a huge gentle elephant in soft golden light, the trunk, the ear, the leg, the tail, each face certain and peaceful >> the elephant stands calmly as each person feels a different part, soft dust floats in the golden light; an old hand gently resting on the wrinkled skin of an elephant, extreme close up, warm golden light and floating dust -->
 아주 오래된 이야기가 있어요. 앞을 보지 못하는 사람들이, 코끼리를 처음 만져 봤어요.
 
 다리를 만진 사람은 말했어요. 코끼리는 기둥 같아. 귀를 만진 사람은, 아니야, 부채 같아. 코를 만진 사람은, 무슨 소리야, 굵은 뱀 같아.
@@ -22,7 +22,7 @@
 
 우리도 마찬가지예요. 저마다 자기가 겪은 만큼, 자기가 서 있는 자리만큼, 세상을 봐요.
 
-<!-- section: naive | visuals: person looking through window, eye close up reflection, city from different angles, glasses on book, mirror reflection woman | title: 나만 제대로 본다는 착각 | ai: a person standing inside a small glowing window frame floating in a vast dark space, looking out at a tiny slice of a huge colorful landscape that stretches far beyond the frame on every side >> the person gazes through the small frame, slowly the huge landscape beyond the frame glows into view around them, they remain unaware -->
+<!-- section: naive | visuals: person looking through window, eye close up, city different angles, glasses on book, mirror reflection woman | title: 나만 제대로 본다는 착각 | ai: a person standing inside a small glowing window frame floating in a vast dark space, looking out at a tiny slice of a huge colorful landscape that stretches far beyond the frame on every side >> the person gazes through the small frame, slowly the huge landscape beyond the frame glows into view around them, they remain unaware; a person looking through a small round window in a dark wall, beyond it only a tiny part of a vast glowing landscape is visible -->
 심리학에는, 소박한 실재론이라는 말이 있어요. 미국 스탠퍼드 대학의 심리학자 리 로스가 연구한 거예요.
 
 사람은 누구나, 내가 세상을 있는 그대로 본다고 믿는다는 거예요. 그래서 나와 생각이 다른 사람을 보면, 저 사람은 뭘 잘 모르거나, 뭔가에 치우쳐 있다고 여기게 된대요.
@@ -31,7 +31,7 @@
 
 결국 우리는 모두, 각자의 창문으로 세상을 보고 있어요. 그 창문 밖으로 보이는 풍경은 진짜지만, 그게 세상의 전부는 아니에요.
 
-<!-- section: earth | visuals: earth from space, diverse people crowd, hands of different people, world map lights night, sunrise over earth | title: 지구에, 완벽은 없다 | ai: a glowing Earth floating in space, countless tiny lights of different colors shining from its surface, each light unique, together forming one beautiful shimmering whole >> the tiny colored lights across the Earth's surface twinkle one by one, the planet slowly turns, a soft glow surrounds it -->
+<!-- section: earth | visuals: earth from space, diverse people crowd, hands different people, city lights night aerial, sunrise over earth | title: 지구에, 완벽은 없다 | ai: a glowing Earth floating in space, countless tiny lights of different colors shining from its surface, each light unique, together forming one beautiful shimmering whole >> the tiny colored lights across the Earth's surface twinkle one by one, the planet slowly turns, a soft glow surrounds it; many different hands of all ages and skin tones reaching toward one shared warm light in the center, dark background -->
 영적으로 보면, 이건 당연한 일이에요.
 
 우리는 본래, 존재하는 모든 것이고, 에너지예요. 하지만 이 지구에서는, 육체를 가진 사람으로 살고 있어요.
@@ -64,7 +64,7 @@
 
 우리는 바로 그렇게, 저마다 개성 있는 삶을 경험하려고, 이 지구에 사람으로 왔어요.
 
-<!-- section: worlds | visuals: soap bubbles light, people walking city crowd, glowing lanterns night, different houses windows night, galaxy stars | title: 각자의 세상에서는, 모두 옳다 | ai: countless glowing transparent bubbles floating in a vast starry space, inside each bubble a person standing in their own small world of a different color, some bubbles touching and sharing the same color >> the glowing bubbles drift slowly through the stars, where two bubbles touch their colors gently blend together -->
+<!-- section: worlds | visuals: soap bubbles light, people walking city crowd, glowing lanterns night, houses windows night, galaxy stars | title: 각자의 세상에서는, 모두 옳다 | ai: countless glowing transparent bubbles floating in a vast starry space, inside each bubble a person standing in their own small world of a different color, some bubbles touching and sharing the same color >> the glowing bubbles drift slowly through the stars, where two bubbles touch their colors gently blend together; an apartment building at night seen from outside, every window glowing in a different color, a different small life visible in each -->
 이건 나만이 아니라, 모든 사람이 마찬가지예요. 우리는 모두, 저마다의 세상에서 살고 있어요. 그리고 그 세상은, 무엇이든 내가 믿는 것이 곧 정답이 되는 세상이에요.
 
 누군가 그 믿음에 함께 동의하면, 그 사람의 세상에서도, 그 생각이, 그 이론이, 그 물건이, 정답이 되고 옳은 것이 돼요.
@@ -73,14 +73,14 @@
 
 하지만 다른 누군가의 세상에서는, 그건 틀렸고, 완전하지 않아요.
 
-<!-- section: free | visuals: woman breathing relief, open hands sunlight, bird flying free, woman smiling calm, light through clouds | title: 이걸 알면, 자유로워진다 | ai: a woman standing in a wide open field releasing a heavy glowing stone from her hands, the stone dissolving into light as her shoulders relax and the wind moves through her hair >> the heavy stone dissolves into floating light as it leaves her hands, her shoulders drop, wind gently moves the grass -->
+<!-- section: free | visuals: woman breathing relief, open hands sunlight, bird flying free, woman smiling calm, light through clouds | title: 이걸 알면, 자유로워진다 | ai: a woman standing in a wide open field releasing a heavy glowing stone from her hands, the stone dissolving into light as her shoulders relax and the wind moves through her hair >> the heavy stone dissolves into floating light as it leaves her hands, her shoulders drop, wind gently moves the grass; a woman with eyes closed letting go of a paper lantern that rises into a soft dawn sky, her face peaceful -->
 이걸 알면, 두 가지가 자유로워져요.
 
 하나. 남을 바꾸려는 마음에서 자유로워져요. 저 사람은 저 사람의 창문으로 보고 있구나. 그걸 알면, 굳이 이기려고 애쓰지 않아도 돼요. 그런 시선도 있구나, 하고 그냥 놓아주면 돼요.
 
 둘. 모두에게 인정받으려는 마음에서 자유로워져요. 모두가 동의하는 정답은 원래 없으니까요. 누군가 내 방식에 고개를 젓는다고 해서, 내가 틀린 게 아니에요.
 
-<!-- section: relation | visuals: friends laughing together, couple walking beach, friends hugging sunset, women talking cafe, family dinner laughing | title: 나로 존재할 수 있는 관계 | ai: a woman glowing softly with her own warm light, sitting at a sunlit table with a few friends whose faces light up as they lean in toward her glow, everyone relaxed and laughing >> the woman's soft light grows warmer, her friends' faces brighten as they laugh together, sunlight flickers through the window -->
+<!-- section: relation | visuals: friends laughing together, couple walking beach, friends hugging sunset, women talking cafe, family dinner laughing | title: 나로 존재할 수 있는 관계 | ai: a woman glowing softly with her own warm light, sitting at a sunlit table with a few friends whose faces light up as they lean in toward her glow, everyone relaxed and laughing >> the woman's soft light grows warmer, her friends' faces brighten as they laugh together, sunlight flickers through the window; two friends sitting on a wooden bench at sunset, one telling a story and the other laughing freely, warm golden light -->
 그래서 좋은 인간관계도, 여기서 시작돼요.
 
 먼저, 내가 최대한 나로 존재하는 거예요. 애쓰지 않고, 숨 쉬듯 가볍게, 그저 존재하는 것만으로 빛날 수 있게요.
@@ -95,7 +95,7 @@
 
 삶의 대부분에서, 우리는 허락받을 필요도, 인정받을 필요도 없어요. 그저 자유롭게, 나 자신으로 살면 돼요.
 
-<!-- section: practice | visuals: morning journal writing, woman calm window, two friends talking cafe, person walking slowly park, calm night bedroom | title: 오늘부터 해 볼 세 가지 -->
+<!-- section: practice | visuals: morning journal writing, woman calm window, two friends talking cafe, walking forest path, bedroom lamp night | title: 오늘부터 해 볼 세 가지 | ai: an open journal with a pen on a wooden table at dawn, a cup of tea steaming, soft window light -->
 그럼 오늘부터, 세 가지만 해 보세요.
 
 하나, 누군가와 생각이 부딪힐 때, 속으로 한 번 말해 보기. 저 사람은, 코끼리의 어디를 만지고 있을까.
@@ -104,7 +104,7 @@
 
 셋, 하루에 한 번, 그럴 수도 있겠다, 하고 말해 보기.
 
-<!-- section: together | visuals: candle light dark, calm lake sunrise, stars night sky, light rays clouds, sunrise ocean | title: 지금, 함께 해 볼까요 -->
+<!-- section: together | visuals: candle light dark, calm lake sunrise, stars night sky, light rays clouds, ocean waves sunset | title: 지금, 함께 해 볼까요 | ai: a calm lake at dawn reflecting a sky of many soft colors, mist rising, perfect stillness -->
 그럼 지금, 함께 해 볼게요.
 
 편하게 앉아서, 눈을 감아 보세요. {pause:3}
@@ -127,7 +127,7 @@
 
 이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
 
-<!-- section: outro | visuals: sunrise ocean, earth from space, mountain sunrise, birds flying sunset, golden field sunset | ai: many different people standing together on a hilltop at sunrise, each holding a small lantern of a different color, all the colors blending into one warm light over the valley below >> the different colored lanterns glow brighter and their light blends into one warm wave across the valley, the sun rises -->
+<!-- section: outro | visuals: sunrise ocean, earth from space, mountain sunrise, birds flying sunset, golden field sunset | ai: many different people standing together on a hilltop at sunrise, each holding a small lantern of a different color, all the colors blending into one warm light over the valley below >> the different colored lanterns glow brighter and their light blends into one warm wave across the valley, the sun rises; a winding path through a golden field toward a glowing sunrise, many different footprints on the path -->
 백 퍼센트 정답인 사람은 없어요. 나도, 저 사람도요.
 
 모두 자기가 선 자리에서는 옳지만, 그 누구도 세상 전체를 보지는 못해요.

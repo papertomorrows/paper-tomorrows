@@ -271,10 +271,16 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         for kw in (sec["visuals"] or ["calm nature"]) if sec.get("stock", True) else []:
             hits = []
             try:
-                r = requests.get("https://pixabay.com/api/videos/", timeout=30, params={
-                    "key": pkey, "q": kw, "per_page": 30, "safesearch": "true", "video_type": "film",
-                    "order": "popular"}).json()
-                for h in r.get("hits", []):
+                # editors' choice clips first (hand-picked, better looking), then the rest
+                seen_ids, all_hits = set(), []
+                for ec in (["true", "false"] if spec.get("editors_first", True) else ["false"]):
+                    r = requests.get("https://pixabay.com/api/videos/", timeout=30, params={
+                        "key": pkey, "q": kw, "per_page": 30, "safesearch": "true", "video_type": "film",
+                        "editors_choice": ec, "order": "popular"}).json()
+                    for h in r.get("hits", []):
+                        if h["id"] not in seen_ids:
+                            seen_ids.add(h["id"]); all_hits.append(h)
+                for h in all_hits:
                     v = h["videos"].get("large") or h["videos"].get("medium")
                     tags = (h.get("tags") or "").lower()
                     if any(w in tags for w in BLOCK_TAGS):  # never show smoking, drinking, weapons etc.

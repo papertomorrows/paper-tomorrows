@@ -102,29 +102,6 @@
 
 셋, 하루에 한 번, 그럴 수도 있겠다, 하고 말해 보기.
 
-<!-- section: together | visuals: candle light dark, calm lake sunrise, stars night sky, light rays clouds, ocean waves sunset | title: 지금, 함께 해 볼까요 | ai: a calm lake at dawn reflecting a sky of many soft colors, mist rising, perfect stillness -->
-그럼 지금, 함께 해 볼게요.
-
-편하게 앉아서, 눈을 감아 보세요. {pause:3}
-
-숨을 천천히 들이쉬고… {pause:4} 길게 내쉬어요. {pause:5}
-
-한 번 더. 천천히 들이쉬고… {pause:4} 길게 내쉬어요. {pause:5}
-
-요즘, 생각이 부딪혔던 사람 한 명을 떠올려 보세요. {pause:5}
-
-그 사람이 서 있는 자리에, 잠깐 서 본다고 상상해 보세요. {pause:6}
-
-그 자리에서는, 세상이 어떻게 보일까요. {pause:8}
-
-그 사람도, 그 자리에서는 최선을 다하고 있었을지 몰라요. {pause:6}
-
-이제, 그 사람과 나를 함께 품고 있는, 아주 넓은 하늘을 떠올려 보세요. {pause:8}
-
-그 하늘에서는, 둘 다 괜찮아요. {pause:6}
-
-이제, 숨을 크게 들이쉬고… {pause:4} 천천히 내쉬면서, 눈을 떠 보세요. {pause:3}
-
 <!-- section: outro | visuals: sunrise ocean, earth from space, mountain sunrise, birds flying sunset, golden field sunset | ai: many different people standing together on a hilltop at sunrise, each holding a small lantern of a different color, all the colors blending into one warm light over the valley below >> the different colored lanterns glow brighter and their light blends into one warm wave across the valley, the sun rises; a winding path through a golden field toward a glowing sunrise, many different footprints on the path -->
 백 퍼센트 정답인 사람은 없어요. 나도, 저 사람도요.
 

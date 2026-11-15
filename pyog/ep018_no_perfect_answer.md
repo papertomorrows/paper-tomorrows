@@ -81,7 +81,7 @@
 저는 이게, 가장 크게 성장할 수 있는 방법이라고 생각해요.
 
 <!-- section: relation | visuals: friends laughing together, couple walking beach, friends hugging sunset, women talking cafe, family dinner laughing | title: 나로 존재할 수 있는 관계 | ai: a woman glowing softly with her own warm light, sitting at a sunlit table with a few friends whose faces light up as they lean in toward her glow, everyone relaxed and laughing >> the woman's soft light grows warmer, her friends' faces brighten as they laugh together, sunlight flickers through the window; two friends sitting on a wooden bench at sunset, one telling a story and the other laughing freely, warm golden light -->
-그리고 이 앎은, 좋은 인간관계의 시작이기도 해요.
+그리고 이 깨달음은, 좋은 인간관계의 시작이기도 해요.
 
 먼저, 내가 최대한 나로 존재하는 거예요. 애쓰지 않고, 숨 쉬듯 가볍게, 그저 존재하는 것만으로 빛날 수 있게요.
 

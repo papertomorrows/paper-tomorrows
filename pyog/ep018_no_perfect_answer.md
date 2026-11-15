@@ -22,7 +22,7 @@
 
 우리도 마찬가지예요. 저마다 자기가 겪은 만큼, 자기가 서 있는 자리만큼, 세상을 봐요.
 
-<!-- section: naive | visuals: person looking through window, eye close up, city different angles, glasses on book, mirror reflection woman | title: 나만 제대로 본다는 착각 | ai: a person standing inside a small glowing window frame floating in a vast dark space, looking out at a tiny slice of a huge colorful landscape that stretches far beyond the frame on every side >> the person gazes through the small frame, slowly the huge landscape beyond the frame glows into view around them, they remain unaware; a person looking through a small round window in a dark wall, beyond it only a tiny part of a vast glowing landscape is visible -->
+<!-- section: naive | visuals: person looking through window, eye close up, sky clouds window, glasses on book, mirror reflection woman | title: 나만 제대로 본다는 착각 | ai: a person standing inside a small glowing window frame floating in a vast dark space, looking out at a tiny slice of a huge colorful landscape that stretches far beyond the frame on every side >> the person gazes through the small frame, slowly the huge landscape beyond the frame glows into view around them, they remain unaware; a person looking through a small round window in a dark wall, beyond it only a tiny part of a vast glowing landscape is visible -->
 심리학에는, 소박한 실재론이라는 말이 있어요. 미국 스탠퍼드 대학의 심리학자 리 로스가 연구한 거예요.
 
 사람은 누구나, 내가 세상을 있는 그대로 본다고 믿는다는 거예요. 그래서 나와 생각이 다른 사람을 보면, 저 사람은 뭘 잘 모르거나, 뭔가에 치우쳐 있다고 여기게 된대요.
@@ -31,7 +31,7 @@
 
 결국 우리는 모두, 각자의 창문으로 세상을 보고 있어요. 그 창문 밖으로 보이는 풍경은 진짜지만, 그게 세상의 전부는 아니에요.
 
-<!-- section: earth | visuals: earth from space, diverse people crowd, hands different people, city lights night aerial, sunrise over earth | title: 지구에, 완벽은 없다 | ai: a glowing Earth floating in space, countless tiny lights of different colors shining from its surface, each light unique, together forming one beautiful shimmering whole >> the tiny colored lights across the Earth's surface twinkle one by one, the planet slowly turns, a soft glow surrounds it; many different hands of all ages and skin tones reaching toward one shared warm light in the center, dark background -->
+<!-- section: earth | visuals: earth from space, diverse people crowd, hands different people, earth night space, sunrise over earth | title: 지구에, 완벽은 없다 | ai: a glowing Earth floating in space, countless tiny lights of different colors shining from its surface, each light unique, together forming one beautiful shimmering whole >> the tiny colored lights across the Earth's surface twinkle one by one, the planet slowly turns, a soft glow surrounds it; many different hands of all ages and skin tones reaching toward one shared warm light in the center, dark background -->
 영적으로 보면, 이건 당연한 일이에요.
 
 우리는 본래, 존재하는 모든 것이고, 에너지예요. 하지만 이 지구에서는, 육체를 가진 사람으로 살고 있어요.

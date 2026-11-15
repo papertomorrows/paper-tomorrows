@@ -307,7 +307,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                                 "mask", "masks", "carnival", "halloween", "bikini", "swimsuit", "incubator", "newborn",
                                 "laboratory", "pharmacy", "scientist", "network", "internet", "technology", "digital",
                                 "caterpillar", "snake", "insect", "worm", "spider", "bug", "larva", "reptile",
-                                "plug", "socket", "outlet", "electric", "electricity", "power", "origami", "airplane", "plane"]
+                                "plug", "socket", "outlet", "electric", "electricity", "power", "origami", "airplane", "plane",
+                                "carpentry", "carpenter", "woodwork", "woodworking", "lava", "ruler", "measure", "measuring", "tool", "tools"]
                         if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
                             continue
                         if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):

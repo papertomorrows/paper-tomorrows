@@ -21,8 +21,6 @@
 
 걸을 때는, 걷는 거예요. 발바닥에 닿는 땅의 감촉, 볼을 스치는 바람, 코로 들어오는 공기의 온도를 느끼면서요.
 
-일을 할 때는, 최대한 그 일에만 마음을 모으는 거예요. 걱정은 잠시 옆에 내려놓고요.
-
 이렇게 하면, 똑같은 하루가 전혀 다르게 느껴져요. 늘 지나치던 순간들이, 하나하나 살아나요.
 
 <!-- section: choose | visuals: woman deciding calm, hands closing laptop, woman resting hammock, man focused workshop, candle single flame | title: 선택했다면, 온전히 | ai: a woman standing at a crossroads of glowing paths, choosing one, and as she steps onto it the path lights up brightly beneath her feet while the others softly fade -->
@@ -51,6 +49,8 @@
 
 하지만 이 한 걸음이 바로 꿈으로 가는 길이라는 걸 알면, 달라져요. 지금 이 아르바이트도, 지금 이 공부도, 꿈의 일부예요.
 
+만약 지금 하는 아르바이트가 너무 힘들다면, 여기서도 세 가지 중에 고르면 돼요. 꿈을 위한 한 걸음으로 받아들이거나, 더 나은 자리로 바꿔 보거나, 아니면 떠나거나요. 다만 그 자리에 있기로 했다면, 그 시간만큼은 온전히 머무는 거예요.
+
 꿈과 전혀 상관없어 보이는 일도 마찬가지예요. 하찮아 보이는 일, 엉뚱해 보이는 경험들도, 나중에 보면 이리저리 이어져서 꿈을 이루는 데 큰 힘이 되곤 해요.
 
 애플을 만든 스티브 잡스는, 열일곱 살에 미국 오리건주의 리드 대학에 들어갔어요. 하지만 여섯 달 만에 그만뒀어요. 평범한 노동자였던 양부모님이 평생 모은 돈이 비싼 학비로 다 들어가는데, 그만한 가치를 찾지 못했거든요.
@@ -72,10 +72,12 @@
 
 그런데 경험은, 오직 지금 이 순간에만 일어나요. 과거는 기억으로만 남아 있고, 미래는 아직 상상 속에만 있어요.
 
+그리고 영혼의 눈으로 보면, 잡스가 말한 그 점들은 우연히 이어지는 게 아니에요. 지금 이 순간에 온전히 머물 때, 내면의 끌림이 또렷하게 느껴지고, 그 끌림을 따라 다음 점이 자연스럽게 찍혀요. 잡스가 그냥 끌려서 서체 수업을 들었던 것처럼요.
+
 그러니 지금에 머무른다는 건, 이번 생에 온 이유를 제대로 누린다는 뜻이기도 해요. 밥 한 끼, 바람 한 줄기, 오늘의 작은 걸음 하나까지, 모두 영혼이 겪고 싶었던 경험이니까요.
 
-<!-- section: practice | visuals: meal table phone face down, person walking slowly park, hands writing note, morning light desk, woman breathing calm | title: 오늘부터 해 볼 세 가지 -->
-그럼 오늘부터, 세 가지만 해 보세요.
+<!-- section: practice | visuals: meal table phone face down, person walking slowly park, hands writing note, morning light desk, woman breathing calm | title: 오늘부터, 지금 여기에 -->
+그럼 오늘부터, 이렇게 해 보세요.
 
 하나, 하루에 한 끼는, 휴대폰을 내려놓고 먹어 보기. 첫 세 숟가락만이라도, 맛에만 집중해 보세요.
 

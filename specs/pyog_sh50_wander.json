@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh50_wander",
- "status": "done-ep019",
+ "status": "ready-sh50-fix1",
  "hook": "깨어 있는 시간의 절반|마음은 딴 데 있다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -63,17 +63,17 @@
     "voice_id": "Korean_IntellectualMan",
     "speed": 1.15,
     "lang": "Korean",
-    "text": "밥을 먹을 때는, <#0.2#> 밥을 먹어 보세요.",
-    "caption": "밥을 먹을 때는, 밥을 먹어 보세요."
+    "text": "지금 하고 있는 일에, <#0.2#> 온전히 집중하세요.",
+    "caption": "지금 하고 있는 일에, 온전히 집중하세요."
    }
   ],
-  "images": [
+  "images_done": [
    "a woman at a dinner table in warm light, her body present but a glowing ghostly copy of her drifting out the window toward distant worries",
    "a man on a train staring out the window, the glass showing scenes of his past and imagined future instead of the landscape",
    "a woman at a cafe with a cup of tea, eyes far away, glowing threads drifting from her head toward floating worries",
    "a woman eating a simple meal by a sunlit window, eyes softly closed, savoring one bite, calm golden light"
   ],
-  "animate": [
+  "animate_done": [
    {
     "image": 0,
     "motion": "the ghostly glowing copy drifts slowly out the window while her body stays still at the table"

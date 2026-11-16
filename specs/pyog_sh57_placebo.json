@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh57_placebo",
+ "status": "ready-ep021",
+ "hook": "가짜 약인 걸 알고|먹었는데",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "약병에 큼지막하게 적혀 있어요. 가짜 약.",
+    "caption": "약병에 큼지막하게 적혀 있어요. 가짜 약."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "의사도 분명히 말해요. 아무 성분도 없는 약입니다.",
+    "caption": "의사도 분명히 말해요. 아무 성분도 없는 약입니다."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "2010년 하버드 의대, 환자들은 그 약을 하루 두 번 먹었어요.",
+    "caption": "2010년 하버드 의대, 환자들은 그 약을 하루 두 번 먹었어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "삼 주 뒤, 결과는요?",
+    "caption": "삼 주 뒤, 결과는요?"
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아무것도 안 먹은 사람들보다, 증상이 훨씬 좋아졌어요.",
+    "caption": "아무것도 안 먹은 사람들보다, 증상이 훨씬 좋아졌어요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "몸은 지금도, 우리가 믿는 이야기를 듣고 있어요.",
+    "caption": "몸은 지금도, 우리가 믿는 이야기를 듣고 있어요."
+   }
+  ],
+  "images": [
+   "a small pharmacy bottle with a plain white label on a wooden table, soft window light, a few white pills beside it",
+   "a doctor in a white coat gently handing a pill bottle to a patient across a desk, warm clinic light",
+   "a woman holding a white pill in her palm, looking at it thoughtfully, soft light",
+   "the same woman walking outside in morning sunlight, relaxed and smiling"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "soft window light slowly shifts across the pill bottle and pills, dust floating"
+   }
+  ]
+ }
+}

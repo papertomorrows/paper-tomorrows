@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh56_truck",
+ "status": "ready-ep021",
+ "hook": "트럭에 치인 그날|그가 선택한 것",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "1986년, 트럭에 치인 한 청년. 척추뼈 여섯 개가 부서졌어요.",
+    "caption": "1986년, 트럭에 치인 한 청년. 척추뼈 여섯 개가 부서졌어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "의사 네 명은 모두 큰 수술을 권했어요. 그런데 그는, 수술을 거부해요.",
+    "caption": "의사 네 명은 모두 큰 수술을 권했어요. 그런데 그는, 수술을 거부해요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 매일 몇 시간씩, 머릿속에서 척추뼈를 하나하나 다시 쌓아 올렸대요.",
+    "caption": "그리고 매일 몇 시간씩, 머릿속에서 척추뼈를 하나하나 다시 쌓아 올렸대요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그가 바로, 명상가 조 디스펜자예요.",
+    "caption": "그가 바로, 명상가 조 디스펜자예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그는 말해요. 열 주쯤 지나 다시 걸었다고.",
+    "caption": "그는 말해요. 열 주쯤 지나 다시 걸었다고."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당신은 오늘, 몸에 어떤 이야기를 들려주고 있나요?",
+    "caption": "당신은 오늘, 몸에 어떤 이야기를 들려주고 있나요?"
+   }
+  ],
+  "images": [
+   "a lone cyclist racing on an empty desert road at dawn, cinematic, a truck far behind, tense golden light",
+   "a man lying still in a dim hospital bed at night, eyes closed, faint golden light tracing the shape of his spine",
+   "a glowing human spine made of soft golden light being gently reassembled piece by piece in darkness",
+   "a man walking slowly but steadily on a sunlit path, recovering, warm hopeful light"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "the glowing vertebrae slowly assemble one by one into a full spine of light"
+   }
+  ]
+ }
+}

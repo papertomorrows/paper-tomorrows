@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh58_dark",
+ "status": "ready-ep021",
+ "hook": "어둠까지 받아들일 때|선택할 힘이 생긴다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "감사하고 기뻐하라는 말, 밝은 척하라는 게 아니에요.",
+    "caption": "감사하고 기뻐하라는 말, 밝은 척하라는 게 아니에요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이 지구에는 빛과 어둠이 함께 있어요.",
+    "caption": "이 지구에는 빛과 어둠이 함께 있어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어둠이 있어서 빛을 알아보고, 차가움을 겪어 봤기에 따뜻함이 소중해지죠.",
+    "caption": "어둠이 있어서 빛을 알아보고, 차가움을 겪어 봤기에 따뜻함이 소중해지죠."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어떤 감정이 올라와도, 밀어내지 말고 충분히 느껴 주세요.",
+    "caption": "어떤 감정이 올라와도, 밀어내지 말고 충분히 느껴 주세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내 안의 어둠까지 받아들일 때, 그때가 되어서야,",
+    "caption": "내 안의 어둠까지 받아들일 때, 그때가 되어서야,"
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "감사와 기쁨을, 스스로 고를 힘이 생겨요.",
+    "caption": "감사와 기쁨을, 스스로 고를 힘이 생겨요."
+   }
+  ],
+  "images": [
+   "a landscape half in deep night and half in golden sunrise, light and darkness meeting softly, a person standing calmly at the border",
+   "a woman sitting quietly in a dark room with a single candle, tears on her cheek, accepting, soft warm light",
+   "a woman with eyes closed and hands on her heart, glowing warm light radiating from her chest",
+   "the woman walking out into a bright golden morning, calm and free"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the line between night and sunrise slowly shifts as warm light spreads across the landscape"
+   }
+  ]
+ }
+}

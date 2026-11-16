@@ -28,9 +28,13 @@
 <!-- section: choose | visuals: woman deciding calm, hands closing laptop, woman resting hammock, man focused workshop, candle single flame | title: 선택했다면, 온전히 | ai: a woman standing at a crossroads of glowing paths, choosing one, and as she steps onto it the path lights up brightly beneath her feet while the others softly fade -->
 여기서 중요한 건, 선택이에요.
 
-내가 지금 이것을 하기로 선택했다면, 일단은 그것에 온전히 집중하는 거예요.
+어떤 순간에 있든, 우리에게는 언제나 세 가지 선택이 있어요. 지금 이 상황을 그대로 받아들이거나, 내가 원하는 쪽으로 바꿔 보려고 시도하거나, 아니면 그 자리를 떠나는 거예요.
 
-쉬기로 했다면, 마음 편히 쉬어요. 쉬면서 해야 할 일을 걱정하면, 쉰 것도 아니고 일한 것도 아니게 돼요.
+셋 중 무엇을 골라도 괜찮아요. 힘든 건, 아무것도 고르지 않은 채 머무는 거예요. 몸은 그 자리에 있는데, 마음은 불평하면서 이미 떠나 있는 상태요.
+
+받아들이기로 했다면, 온전히 받아들이고 그 순간에 머물러요. 바꾸기로 했다면, 바꾸는 일에 마음을 다하고요. 떠나기로 했다면, 미련 없이 떠나면 돼요.
+
+일상의 작은 순간도 마찬가지예요. 쉬기로 했다면, 마음 편히 쉬어요. 쉬면서 해야 할 일을 걱정하면, 쉰 것도 아니고 일한 것도 아니게 돼요.
 
 일하기로 했다면, 그 시간만큼은 일에 마음을 다해요. 그렇게 하면 같은 시간에 훨씬 많은 걸 해내고, 끝났을 때 개운하게 놓을 수 있어요.
 

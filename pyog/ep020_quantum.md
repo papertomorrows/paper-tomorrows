@@ -18,7 +18,7 @@
 
 그러니까 창조의 첫걸음은, 그중 내가 뭘 원하는지 분명하게 정하는 거예요. 그냥 행복하고 싶다, 부자가 되고 싶다, 이 정도로는 부족해요. 어떤 아침을 맞고, 누구와 하루를 보내고, 무슨 일을 하고 있는지. 한 장면으로 그려질 만큼, 구체적으로요.
 
-<!-- section: observe | visuals: basketball players passing, crowd walking city, eye close up, magnifying glass, woman looking surprised | title: 둘, 무엇을 바라보느냐가 경험을 정한다 | ai: a dark laboratory with a glowing barrier with two thin vertical slits, a beam of light passing through and forming a striped interference pattern of bright bands on a screen; a person in a gorilla costume standing calmly in the middle of a busy basketball practice in a gym, players passing balls around it without noticing, cinematic; a woman walking through a busy street noticing a single softly glowing door among ordinary shops -->
+<!-- section: observe | visuals: basketball players passing, crowd walking city, eye close up, eye iris close up, woman looking surprised | title: 둘, 무엇을 바라보느냐가 경험을 정한다 | ai: a dark laboratory with a glowing barrier with two thin vertical slits, a beam of light passing through and forming a striped interference pattern of bright bands on a screen; a person in a gorilla costume standing calmly in the middle of a busy basketball practice in a gym, players passing balls around it without noticing, cinematic; a woman walking through a busy street noticing a single softly glowing door among ordinary shops -->
 두 번째 장면은, 그 유명한 이중 슬릿 실험이에요. 입자가 어느 길로 지나가는지 측정하면, 결과가 달라져요. 그런데 여기서 말하는 측정은 사람의 마음이 아니라, 장치가 입자를 건드리는 거라고 대부분의 물리학자들은 설명해요.
 
 그럼 사람의 마음 쪽은 어떨까요? 여기, 아주 재밌는 실험이 하나 있어요.
@@ -44,7 +44,7 @@
 
 생생하게 그린 상상은, 그냥 공상이 아니에요. 뇌는 그걸 진짜 경험처럼 준비해요.
 
-<!-- section: imagine | visuals: student studying desk, woman daydreaming window, man writing plan notebook, runner tying shoes, woman climbing stairs | title: 넷, 어떤 상상이 현실이 될까 | ai: a young man lying on a sofa daydreaming of a stage with applause, a glowing dream bubble above him, the room around him dim and still; a university student studying at a desk at night with a lamp, focused, warm light, books open; a person standing before a tall glowing wall at dawn, a small ladder of light forming step by step in front of them; a woman writing one clear sentence in a notebook at a sunrise table, determined calm expression -->
+<!-- section: imagine | visuals: woman daydreaming window, man writing plan notebook, runner tying shoes, woman climbing stairs, woman meditating sunrise, writing journal morning, man working laptop night, woman reading cafe, person jogging park, notebook pen close up, mountain hiking trail, woman smiling confident | title: 넷, 어떤 상상이 현실이 될까 | ai: a young man lying on a sofa daydreaming of a stage with applause, a glowing dream bubble above him, the room around him dim and still; a university student studying at a desk at night with a lamp, focused, warm light, books open; a person standing before a tall glowing wall at dawn, a small ladder of light forming step by step in front of them; a woman writing one clear sentence in a notebook at a sunrise table, determined calm expression -->
 그런데요, 여기서 반전이 하나 있어요. 상상이라고 다 같은 상상이 아니거든요.
 
 뉴욕 대학의 심리학자 가브리엘레 외팅겐은, 이십 년 넘게 소망과 목표를 연구했어요. 그런데 원하는 미래를 즐겁게 상상하기만 한 사람들이, 오히려 목표를 덜 이뤘어요. 시험을 잘 보는 장면만 즐겁게 그린 학생들은 성적이 더 나빴고, 짝사랑하는 사람과 잘되는 장면만 그린 사람들은, 실제로 이어질 가능성이 더 낮았어요.

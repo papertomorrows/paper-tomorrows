@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh54_piano",
+ "status": "ready-ep020",
+ "hook": "상상만 했는데|뇌가 바뀌었다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "피아노를 처음 배우는 사람들을 두 그룹으로 나눴어요.",
+    "caption": "피아노를 처음 배우는 사람들을 두 그룹으로 나눴어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "한 그룹은 닷새 동안 실제로 연습했고, 다른 그룹은, 상상만 했어요.",
+    "caption": "한 그룹은 닷새 동안 실제로 연습했고, 다른 그룹은, 상상만 했어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "닷새 뒤, 뇌를 들여다봤더니 어땠을까요? <#0.5#>",
+    "caption": "닷새 뒤, 뇌를 들여다봤더니 어땠을까요?"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "상상만 한 그룹도, 손가락을 담당하는 뇌 영역이 비슷하게 넓어져 있었어요.",
+    "caption": "상상만 한 그룹도, 손가락을 담당하는 뇌 영역이 비슷하게 넓어져 있었어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "생생하게 그린 상상은, 그냥 공상이 아니에요.",
+    "caption": "생생하게 그린 상상은, 그냥 공상이 아니에요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "뇌는 그걸, 진짜 경험처럼 준비해요.",
+    "caption": "뇌는 그걸, 진짜 경험처럼 준비해요."
+   }
+  ],
+  "images": [
+   "a young woman sitting still at a piano with her hands resting in her lap and eyes closed, faint glowing ghost hands playing the keys above her real hands",
+   "close up of hands playing piano keys in warm golden light",
+   "a glowing human brain made of light with one region brightening and spreading like warm golden roots",
+   "the young woman now playing the piano with real hands, smiling, soft light"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the faint glowing ghost hands play the keys softly while the woman sits still with eyes closed"
+   }
+  ]
+ }
+}

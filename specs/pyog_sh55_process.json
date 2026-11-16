@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh55_process",
+ "status": "ready-ep020",
+ "hook": "결과만 상상하면|오히려 안 된다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "시험을 잘 보는 장면만 즐겁게 상상한 학생들, 성적이 오히려 더 나빴어요.",
+    "caption": "시험을 잘 보는 장면만 즐겁게 상상한 학생들, 성적이 오히려 더 나빴어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이미 이룬 기분에, 마음이 먼저 만족해 버리거든요.",
+    "caption": "이미 이룬 기분에, 마음이 먼저 만족해 버리거든요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "반대로 책상에 앉아 공부하는 자기 모습을 그린 학생들은, 공부를 더 했고 성적도 더 좋았어요.",
+    "caption": "반대로 책상에 앉아 공부하는 자기 모습을 그린 학생들은, 공부를 더 했고 성적도 더 좋았어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "결과에서 살라는 말, 반쪽만 전해진 거예요.",
+    "caption": "결과에서 살라는 말, 반쪽만 전해진 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이룬 장면에 빠지는 게 아니라, 이미 그 사람으로 오늘을 사는 거예요.",
+    "caption": "이룬 장면에 빠지는 게 아니라, 이미 그 사람으로 오늘을 사는 거예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내가 이미 그 사람이라면, 오늘 뭘 할까요?",
+    "caption": "내가 이미 그 사람이라면, 오늘 뭘 할까요?"
+   }
+  ],
+  "images": [
+   "a young man lying on a sofa daydreaming of a stage with applause, a glowing dream bubble above him, the room around him dim and still",
+   "a university student studying at a desk at night with a lamp, focused, warm light, books open",
+   "a person standing before a tall glowing wall at dawn, a small ladder of light forming step by step in front of them",
+   "a woman walking forward on a glowing path that forms beneath each step into a sunrise"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the glowing dream bubble slowly fades while the man stays still on the sofa"
+   }
+  ]
+ }
+}

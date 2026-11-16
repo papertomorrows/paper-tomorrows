@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh53_gorilla",
+ "status": "ready-ep020",
+ "hook": "고릴라를 못 본|절반의 사람들",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "1999년 하버드, 사람들에게 농구 영상을 보여 줬어요. 할 일은 패스 횟수 세기, 딱 하나.",
+    "caption": "1999년 하버드, 사람들에게 농구 영상을 보여 줬어요. 할 일은 패스 횟수 세기, 딱 하나."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데 중간에, 고릴라 옷을 입은 사람이 화면 한가운데로 걸어 들어와요.",
+    "caption": "그런데 중간에, 고릴라 옷을 입은 사람이 화면 한가운데로 걸어 들어와요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "과연, 몇 명이 봤을까요? <#0.5#>",
+    "caption": "과연, 몇 명이 봤을까요?"
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "절반이요. 나머지 절반은, 아예 보지 못했어요.",
+    "caption": "절반이요. 나머지 절반은, 아예 보지 못했어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리는 세상을 다 보는 게 아니라, 보기로 한 것만 봐요.",
+    "caption": "우리는 세상을 다 보는 게 아니라, 보기로 한 것만 봐요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "원하는 삶을 분명히 정하면, 안 보이던 기회가 보이기 시작해요.",
+    "caption": "원하는 삶을 분명히 정하면, 안 보이던 기회가 보이기 시작해요."
+   }
+  ],
+  "images": [
+   "a person in a gorilla costume standing calmly in the middle of a busy basketball practice in a gym, players passing balls around it without noticing, cinematic",
+   "close up of a woman's focused eyes counting, reflections of moving basketballs in her pupils",
+   "a surprised woman covering her mouth while watching a screen in a dark room, blue light on her face",
+   "a woman walking through a busy street noticing a single softly glowing door among ordinary shops"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the players pass basketballs around while the gorilla slowly beats its chest in the middle, nobody notices"
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh50_wander",
+ "status": "ready-ep019",
+ "hook": "깨어 있는 시간의 절반|마음은 딴 데 있다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하버드 연구진이, <#0.2#> 2천 명이 넘는 사람들에게 물었어요.",
+    "caption": "하버드 연구진이, 2천 명이 넘는 사람들에게 물었어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 하는 일 말고, <#0.2#> 다른 생각을 하고 있나요?",
+    "caption": "지금 하는 일 말고, 다른 생각을 하고 있나요?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사람들은 깨어 있는 시간의 거의 절반을, <#0.2#> 딴생각으로 보내고 있었어요.",
+    "caption": "사람들은 깨어 있는 시간의 거의 절반을, 딴생각으로 보내고 있었어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 그럴 때, <#0.2#> 대체로 덜 행복했어요.",
+    "caption": "그리고 그럴 때, 대체로 덜 행복했어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "무엇을 하느냐보다, <#0.3#> 마음이 거기 있느냐가 중요했던 거예요.",
+    "caption": "무엇을 하느냐보다, 마음이 거기 있느냐가 중요했던 거예요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "밥을 먹을 때는, <#0.2#> 밥을 먹어 보세요.",
+    "caption": "밥을 먹을 때는, 밥을 먹어 보세요."
+   }
+  ],
+  "images": [
+   "a woman at a dinner table in warm light, her body present but a glowing ghostly copy of her drifting out the window toward distant worries",
+   "a man on a train staring out the window, the glass showing scenes of his past and imagined future instead of the landscape",
+   "a woman at a cafe with a cup of tea, eyes far away, glowing threads drifting from her head toward floating worries",
+   "a woman eating a simple meal by a sunlit window, eyes softly closed, savoring one bite, calm golden light"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the ghostly glowing copy drifts slowly out the window while her body stays still at the table"
+   }
+  ]
+ }
+}

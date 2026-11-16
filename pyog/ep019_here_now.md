@@ -1,13 +1,13 @@
 # EP019 (제목 미정) | (썸네일 미정)
 
-<!-- section: hook | visuals: woman eating phone, man walking thinking, office worker distracted, woman staring window, busy street people | ai: a woman sitting at a dinner table in warm light, her body present but a ghostly glowing copy of her drifting away out the window toward a distant city of worries >> the ghostly copy of her drifts further away through the window while her body sits still at the table, warm light flickers -->
+<!-- section: hook | visuals: woman eating phone, man walking thinking, office worker distracted, woman staring window, busy street people | ai: a woman sitting at a dinner table in warm light, her body present but a ghostly glowing copy of her drifting away out the window toward a distant city of worries >> the ghostly copy of her drifts further away through the window while her body sits still at the table, warm light flickers; a man walking down a rainy city street at night looking at his phone, a soft glowing outline of him wandering off in the opposite direction -->
 밥을 먹으면서, 휴대폰을 봐요. 길을 걸으면서, 내일 일을 걱정해요. 일을 하면서는, 퇴근 후를 생각하고요.
 
 몸은 분명 여기에 있는데, 마음은 늘 다른 곳에 가 있어요.
 
 오늘은, 지금 이 순간에 온전히 머무른다는 게 무엇인지, 그리고 그게 왜 꿈을 이루는 가장 빠른 길인지, 이야기해 볼게요.
 
-<!-- section: wander | visuals: woman lost in thought, clock ticking close up, man daydreaming train, coffee cup steam, woman eyes unfocused | title: 마음은, 지금 어디에 있나요 | ai: a man sitting on a train, the window beside him showing not the passing landscape but scenes from his past and his imagined future, his face distant -->
+<!-- section: wander | visuals: woman lost in thought, clock ticking close up, man daydreaming train, coffee cup steam, woman eyes unfocused | title: 마음은, 지금 어디에 있나요 | ai: a man sitting on a train, the window beside him showing not the passing landscape but scenes from his past and his imagined future, his face distant; a woman at a cafe table holding a cup of tea, her eyes far away, thin glowing threads drifting from her head toward floating memories and worries in the air -->
 하버드 대학의 연구진이, 2천 명이 넘는 사람들에게 하루 중 아무 때나 연락해서 물어봤어요. 지금 무엇을 하고 있나요. 그리고, 지금 하는 일 말고 다른 생각을 하고 있나요.
 
 결과는 놀라웠어요. 사람들은 깨어 있는 시간의 거의 절반을, 지금 하는 일이 아닌 다른 생각을 하며 보내고 있었어요.
@@ -23,7 +23,7 @@
 
 이렇게 하면, 똑같은 하루가 전혀 다르게 느껴져요. 늘 지나치던 순간들이, 하나하나 살아나요.
 
-<!-- section: choose | visuals: woman deciding calm, hands closing laptop, woman resting hammock, man focused workshop, candle single flame | title: 선택했다면, 온전히 | ai: a woman standing at a crossroads of glowing paths, choosing one, and as she steps onto it the path lights up brightly beneath her feet while the others softly fade -->
+<!-- section: choose | visuals: woman deciding calm, hands closing laptop, woman resting hammock, man focused workshop, candle single flame | title: 선택했다면, 온전히 | ai: a woman standing at a crossroads of glowing paths, choosing one, and as she steps onto it the path lights up brightly beneath her feet while the others softly fade; three glowing paths branching from a single point in a misty dawn forest, one leading into warm light, one to an open door, one to a distant horizon; a woman resting peacefully in a hammock between trees in golden afternoon light, eyes closed, completely at ease -->
 여기서 중요한 건, 선택이에요.
 
 어떤 순간에 있든, 우리에게는 언제나 세 가지 선택이 있어요. 지금 이 상황을 그대로 받아들이거나, 내가 원하는 쪽으로 바꿔 보려고 시도하거나, 아니면 그 자리를 떠나는 거예요.
@@ -38,7 +38,7 @@
 
 마음이 두 군데로 나뉘면, 어느 쪽도 제대로 누리지 못해요. 하지만 하나를 고르고 거기에 머물면, 그 순간이 온전히 내 것이 돼요.
 
-<!-- section: dream | visuals: mountain climber step, stairs walking up, woman studying desk night, part time cafe worker smiling, saving coins jar | title: 원대한 꿈과, 지금 이 한 걸음 | ai: a tiny figure taking one glowing step on a long golden staircase that winds up toward a shining dream far above the clouds, each step behind them softly lit -->
+<!-- section: dream | visuals: mountain climber step, stairs walking up, woman studying desk night, part time cafe worker smiling, saving coins jar | title: 원대한 꿈과, 지금 이 한 걸음 | ai: a tiny figure taking one glowing step on a long golden staircase that winds up toward a shining dream far above the clouds, each step behind them softly lit; a young woman wiping a cafe counter at closing time, warm light, a faint golden vision of her future studio glowing in the window reflection; a 1970s college classroom, a young man with long hair carefully practicing calligraphy with an ink pen, elegant letters on paper, warm window light; an old wooden desk covered with scattered glowing dots of light slowly connecting into a constellation shaped like a path -->
 꿈도 마찬가지예요.
 
 꿈이 아무리 크고 멋져도, 그 꿈은 언제나 지금 이 순간의 작은 걸음으로 이루어져요. 천 리 길도 한 걸음부터라는 말처럼요.
@@ -67,7 +67,7 @@
 
 지금 하는 일이 꿈과 멀어 보여도, 그 순간에 온전히 머물러 보세요. 지금 이 순간이, 언젠가 꿈으로 이어지는 하나의 점이 될 테니까요.
 
-<!-- section: soul | visuals: sunrise light rays, hands open light, woman eyes closed peace, stars galaxy night, single leaf water drop | title: 영혼은, 지금 여기에서 경험해요 | ai: a glowing soul made of soft light standing in a field at dawn, touching a single dewdrop on a leaf, the whole world around it vivid and alive in that one moment -->
+<!-- section: soul | visuals: sunrise light rays, hands open light, woman eyes closed peace, stars galaxy night, single leaf water drop | title: 영혼은, 지금 여기에서 경험해요 | ai: a glowing soul made of soft light standing in a field at dawn, touching a single dewdrop on a leaf, the whole world around it vivid and alive in that one moment; a woman sitting by a window with an old photo album, tears and a gentle smile, soft healing light falling on the pages; a person drawing a large map of their dream on a wall at night, small sketches and arrows, a warm lamp, their face lit with quiet joy -->
 영적으로 보면, 우리는 경험하기 위해 이 지구에 왔어요. 그리고 경험은, 언제나 지금 이 순간에 일어나요.
 
 그렇다고 과거나 미래를 생각하지 말라는 뜻은 아니에요.
@@ -84,7 +84,7 @@
 
 그러니 지금에 머무른다는 건, 이번 생에 온 이유를 제대로 누린다는 뜻이기도 해요. 밥 한 끼, 바람 한 줄기, 오늘의 작은 걸음 하나까지, 모두 영혼이 겪고 싶었던 경험이니까요.
 
-<!-- section: practice | visuals: meal table phone face down, person walking slowly park, hands writing note, morning light desk, woman breathing calm | title: 오늘부터, 지금 여기에 -->
+<!-- section: practice | visuals: meal table phone face down, person walking slowly park, hands writing note, morning light desk, woman breathing calm | title: 오늘부터, 지금 여기에 | ai: a bowl of rice and a cup of tea on a wooden table, a phone placed face down beside it, soft morning light -->
 그럼 오늘부터, 이렇게 해 보세요.
 
 하나, 하루에 한 끼는, 휴대폰을 내려놓고 먹어 보기. 첫 세 숟가락만이라도, 맛에만 집중해 보세요.

@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh52_dots",
+ "status": "ready-ep019",
+ "hook": "잡스가 들은|쓸모없던 수업",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "스티브 잡스는 대학을 그만둔 뒤, <#0.2#> 그냥 끌려서 서체 수업을 청강했어요.",
+    "caption": "스티브 잡스는 대학을 그만둔 뒤, 그냥 끌려서 서체 수업을 청강했어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그때는, <#0.2#> 아무 쓸모가 없어 보였죠.",
+    "caption": "그때는, 아무 쓸모가 없어 보였죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데 십 년 뒤, <#0.2#> 첫 매킨토시를 만들 때 그 수업이 되살아났어요.",
+    "caption": "그런데 십 년 뒤, 첫 매킨토시를 만들 때 그 수업이 되살아났어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "잡스는 말했어요. <#0.2#> 점들은 뒤돌아볼 때에야 이어진다고.",
+    "caption": "잡스는 말했어요. 점들은 뒤돌아볼 때에야 이어진다고."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 하는 일이 꿈과 멀어 보여도,",
+    "caption": "지금 하는 일이 꿈과 멀어 보여도,"
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 순간에, <#0.3#> 온전히 머물러 보세요.",
+    "caption": "그 순간에, 온전히 머물러 보세요."
+   }
+  ],
+  "images": [
+   "a 1970s college classroom, a young man with long hair carefully practicing calligraphy with an ink pen, elegant letters, warm window light",
+   "close up of an ink pen drawing a beautiful curved letter on paper, golden light, ink glistening",
+   "a vintage beige personal computer from the early 1980s on a wooden desk, its small screen showing elegant text, warm lamp light",
+   "glowing dots of light on a dark desk slowly connecting into a constellation shaped like a path"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the young man slowly draws a curved letter with the ink pen, dust floating in the window light"
+   }
+  ]
+ }
+}

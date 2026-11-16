@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh51_three",
+ "status": "ready-ep019",
+ "hook": "매 순간 선택은|세 가지뿐이다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어떤 순간에 있든, <#0.2#> 선택은 세 가지예요.",
+    "caption": "어떤 순간에 있든, 선택은 세 가지예요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그대로 받아들이거나, <#0.2#> 원하는 쪽으로 바꿔 보거나, <#0.2#> 떠나거나.",
+    "caption": "그대로 받아들이거나, 원하는 쪽으로 바꿔 보거나, 떠나거나."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "셋 중 무엇을 골라도 괜찮아요.",
+    "caption": "셋 중 무엇을 골라도 괜찮아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "힘든 건, <#0.2#> 아무것도 고르지 않은 채 머무는 거예요.",
+    "caption": "힘든 건, 아무것도 고르지 않은 채 머무는 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "몸은 거기 있는데, <#0.2#> 마음은 불평하면서 이미 떠나 있는 상태요.",
+    "caption": "몸은 거기 있는데, 마음은 불평하면서 이미 떠나 있는 상태요."
+   },
+   {
+    "name": "l05",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "골랐다면, <#0.3#> 거기에 온전히 머무세요.",
+    "caption": "골랐다면, 거기에 온전히 머무세요."
+   }
+  ],
+  "images": [
+   "three glowing paths branching from a single point in a misty dawn forest, one into warm light, one to an open door, one to a distant horizon",
+   "a woman standing at a crossroads of glowing paths, stepping onto one as it lights up beneath her feet",
+   "a tired office worker slumped at a desk at night, his glowing silhouette already drifting toward the door",
+   "a woman resting peacefully in a hammock in golden afternoon light, eyes closed, completely at ease"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the three glowing paths slowly brighten one by one as mist drifts through the forest"
+   }
+  ]
+ }
+}

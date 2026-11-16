@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh50_wander",
- "status": "ready-sh50-fix1",
+ "status": "ready-sh50-fix2",
  "hook": "깨어 있는 시간의 절반|마음은 딴 데 있다",
  "hook_size": 104,
  "hook_hi": 1,
@@ -63,8 +63,8 @@
     "voice_id": "Korean_IntellectualMan",
     "speed": 1.15,
     "lang": "Korean",
-    "text": "지금 하고 있는 일에, <#0.2#> 온전히 집중하세요.",
-    "caption": "지금 하고 있는 일에, 온전히 집중하세요."
+    "text": "밥을 먹을 땐, <#0.2#> 밥을 먹는 일에만 집중해 보세요.",
+    "caption": "밥을 먹을 땐, 밥을 먹는 일에만 집중해 보세요."
    }
   ],
   "images_done": [

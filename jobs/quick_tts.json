@@ -1,0 +1,26 @@
+{
+ "out": "voice_samples_ep020",
+ "text": "생각이 현실을 만든다는 걸, <#0.4#> 양자물리학이 증명했다. <#1.0#> 이런 말, <#0.3#> 한 번쯤 들어 보셨죠. <#0.8#> 그런데 이 말은, <#0.5#> 반은 맞고, <#0.3#> 반은 틀려요. <#1.0#> 양자물리학이 사람의 생각으로 현실을 바꿀 수 있다고, <#0.3#> 증명한 적은 없어요. <#0.8#> 하지만 양자물리학의 원리를 거울삼아 보면, <#0.5#> 원하는 삶을 만드는 방법이, <#0.3#> 놀랍도록 선명하게 보여요.",
+ "samples": {
+  "A_지금목소리_천천히": {
+   "voice_id": "Korean_IntellectualMan",
+   "speed": 1.0
+  },
+  "B_차분한남성": {
+   "voice_id": "Korean_CalmGentleman",
+   "speed": 0.95
+  },
+  "C_지혜로운선생님": {
+   "voice_id": "Korean_WiseTeacher",
+   "speed": 0.95
+  },
+  "D_사려깊은여성": {
+   "voice_id": "Korean_ThoughtfulWoman",
+   "speed": 0.95
+  },
+  "E_부드러운여성": {
+   "voice_id": "Korean_SoothingLady",
+   "speed": 0.95
+  }
+ }
+}

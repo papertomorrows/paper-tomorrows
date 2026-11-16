@@ -38,7 +38,7 @@
 
 마음이 두 군데로 나뉘면, 어느 쪽도 제대로 누리지 못해요. 하지만 하나를 고르고 거기에 머물면, 그 순간이 온전히 내 것이 돼요.
 
-<!-- section: dream | visuals: mountain climber step, stairs walking up, woman studying desk night, part time cafe worker smiling, saving coins jar | title: 원대한 꿈과, 지금 이 한 걸음 | ai: a tiny figure taking one glowing step on a long golden staircase that winds up toward a shining dream far above the clouds, each step behind them softly lit; a young woman wiping a cafe counter at closing time, warm light, a faint golden vision of her future studio glowing in the window reflection; a 1970s college classroom, a young man with long hair carefully practicing calligraphy with an ink pen, elegant letters on paper, warm window light; an old wooden desk covered with scattered glowing dots of light slowly connecting into a constellation shaped like a path -->
+<!-- section: dream | visuals: mountain climber step, woman studying desk night, barista making coffee, calligraphy pen ink, fountain pen writing, college campus autumn, university library books, vintage typewriter, night sky stars, hiking trail sunrise, footsteps sand beach, city lights night | title: 원대한 꿈과, 지금 이 한 걸음 | ai: a tiny figure taking one glowing step on a long golden staircase that winds up toward a shining dream far above the clouds, each step behind them softly lit; a young woman wiping a cafe counter at closing time, warm light, a faint golden vision of her future studio glowing in the window reflection; a 1970s college classroom, a young man with long hair carefully practicing calligraphy with an ink pen, elegant letters on paper, warm window light; an old wooden desk covered with scattered glowing dots of light slowly connecting into a constellation shaped like a path -->
 꿈도 마찬가지예요.
 
 꿈이 아무리 크고 멋져도, 그 꿈은 언제나 지금 이 순간의 작은 걸음으로 이루어져요. 천 리 길도 한 걸음부터라는 말처럼요.
@@ -84,7 +84,7 @@
 
 그러니 지금에 머무른다는 건, 이번 생에 온 이유를 제대로 누린다는 뜻이기도 해요. 밥 한 끼, 바람 한 줄기, 오늘의 작은 걸음 하나까지, 모두 영혼이 겪고 싶었던 경험이니까요.
 
-<!-- section: practice | visuals: meal table phone face down, person walking slowly park, hands writing note, morning light desk, woman breathing calm | title: 오늘부터, 지금 여기에 | ai: a bowl of rice and a cup of tea on a wooden table, a phone placed face down beside it, soft morning light -->
+<!-- section: practice | visuals: breakfast table morning light, person walking slowly park, hands writing note, morning light desk, woman breathing calm | title: 오늘부터, 지금 여기에 | ai: a bowl of rice and a cup of tea on a wooden table, a phone placed face down beside it, soft morning light -->
 그럼 오늘부터, 이렇게 해 보세요.
 
 하나, 하루에 한 끼는, 휴대폰을 내려놓고 먹어 보기. 첫 세 숟가락만이라도, 맛에만 집중해 보세요.

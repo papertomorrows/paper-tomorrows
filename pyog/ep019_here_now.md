@@ -57,7 +57,7 @@
 
 잡스는 이렇게 말했어요. 앞을 내다보면서 점들을 이을 수는 없다고. 점들은 뒤돌아볼 때에야 이어진다고. 그러니 지금 찍는 점들이 언젠가 이어질 거라고 믿으라고요.
 
-그러니 지금 하는 일이 꿈과 멀어 보여도, 그 순간에 온전히 머물러 보세요. 지금 이 순간이, 언젠가 꿈으로 이어지는 하나의 점이 될 테니까요.
+지금 하는 일이 꿈과 멀어 보여도, 그 순간에 온전히 머물러 보세요. 지금 이 순간이, 언젠가 꿈으로 이어지는 하나의 점이 될 테니까요.
 
 <!-- section: soul | visuals: sunrise light rays, hands open light, woman eyes closed peace, stars galaxy night, single leaf water drop | title: 영혼은, 지금 여기에서 경험해요 | ai: a glowing soul made of soft light standing in a field at dawn, touching a single dewdrop on a leaf, the whole world around it vivid and alive in that one moment -->
 영적으로 보면, 우리는 경험하기 위해 이 지구에 왔어요.

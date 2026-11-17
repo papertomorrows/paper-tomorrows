@@ -1,6 +1,6 @@
 # EP021 조 디스펜자 (제목 미정)
 
-<!-- section: hook | visuals: cyclist road race, triathlon cycling, highway truck, hospital emergency light, man meditating sunrise | ai: a lone cyclist racing on an empty desert road at dawn in California, cinematic, a large truck far behind on the road, tense golden light >> the cyclist pedals forward along the empty road as dust drifts in the dawn light -->
+<!-- section: hook | visuals: cyclists road race professional, desert road sunrise, highway truck, hospital emergency light, man meditating sunrise | ai: a lone cyclist racing on an empty desert road at dawn in California, cinematic, a large truck far behind on the road, tense golden light >> the cyclist pedals forward along the empty road as dust drifts in the dawn light -->
 1986년, 미국 캘리포니아의 한 철인 3종 경기. 자전거를 타고 달리던 이십 대 청년을, 시속 90킬로미터에 가까운 속도로 달려온 트럭이 들이받아요.
 
 그는 공중으로 튕겨 나가 등으로 떨어졌어요. 척추뼈 여섯 개가 부서졌고, 뼛조각이 척수를 누르고 있었어요.
@@ -11,7 +11,7 @@
 
 오늘은 조 디스펜자가 직접 들려주는 그의 이야기와, 그가 말하는 마음으로 몸과 삶을 바꾸는 법을 따라가 볼게요.
 
-<!-- section: truck | visuals: cyclist road race, hospital corridor, spine x ray, doctor looking x ray, man lying hospital bed, man eyes closed bed | title: 트럭에 치인 날 | ai: a man lying still in a dim hospital bed at night, eyes closed, faint golden light tracing the shape of his spine as if rebuilding it vertebra by vertebra; a glowing human spine made of soft golden light being gently reassembled piece by piece in darkness; a man walking slowly but steadily on a sunlit path, recovering, warm hopeful light -->
+<!-- section: truck | visuals: hospital corridor, doctor looking x ray, hospital window light, man lying hospital bed, man eyes closed bed | title: 트럭에 치인 날 | ai: a man lying still in a dim hospital bed at night, eyes closed, faint golden light tracing the shape of his spine as if rebuilding it vertebra by vertebra; a glowing human spine made of soft golden light being gently reassembled piece by piece in darkness; a man walking slowly but steadily on a sunlit path, recovering, warm hopeful light -->
 디스펜자의 말에 따르면, 그날 진단은 이랬어요. 등 한가운데 척추뼈 여섯 개가 골절됐고, 그대로 두면 다시 걷지 못할 수도 있다.
 
 의사들이 권한 건, 해링턴 막대라는 금속 막대를 척추를 따라 길게 박아 넣는 큰 수술이었어요. 네 명의 외과의가 모두 같은 말을 했대요.

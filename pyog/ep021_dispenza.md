@@ -14,15 +14,15 @@
 <!-- section: truck | visuals: hospital corridor, doctor looking x ray, hospital window light, man lying hospital bed, man eyes closed bed | title: 트럭에 치인 날 | ai: a man lying still in a dim hospital bed at night, eyes closed, faint golden light tracing the shape of his spine as if rebuilding it vertebra by vertebra; a glowing human spine made of soft golden light being gently reassembled piece by piece in darkness; a man walking slowly but steadily on a sunlit path, recovering, warm hopeful light -->
 디스펜자의 말에 따르면, 그날 진단은 이랬어요. 등 한가운데 척추뼈 여섯 개가 골절됐고, 그대로 두면 다시 걷지 못할 수도 있다.
 
-의사들이 권한 건, 해링턴 막대라는 금속 막대를 척추를 따라 길게 박아 넣는 큰 수술이었어요. 네 명의 외과의가 모두 같은 말을 했대요.
+의사들이 권한 건, 해링턴 막대라는 금속 막대를 척추를 따라 길게 박아 넣는 큰 수술이었어요. 네 명의 외과의가 모두 같은 말을 했대요. 수술을 받아도, 평생 몸이 제한된 채 살아야 할 수 있었어요.
 
-그런데 그는 이렇게 생각했어요. 내 몸을 만든 그 지성이, 아직 내 안에 있다면. 그 지성에게, 내가 원하는 모습을 정확히 보여 줄 수 있다면.
+그런데 그는 이렇게 생각했어요. 작은 세포 하나에서 나를 빚어낸 그 힘이, 아직 내 안에 있다면. 그 힘에게, 내가 원하는 모습을 정확히 보여 줄 수 있다면.
 
 그날부터 그는 하루에 몇 시간씩 머릿속에서 척추뼈를 하나하나 다시 쌓아 올렸어요. 부정적인 생각이 끼어들면, 처음부터 다시 시작했대요.
 
 그리고 디스펜자는 말해요. 열 주쯤 지나 다시 걸었고, 열두 주 만에 다시 운동을 시작했다고요.
 
-영적으로 말하면, 그가 말한 그 지성은 우리 안의 영혼이에요. 몸이 다치고 무너져도, 그 몸을 다시 일으켜 세울 힘은 언제나 안쪽에 있다는 거죠.
+영적으로 말하면, 그가 말한 그 힘은 우리 안의 영혼이에요. 몸이 다치고 무너져도, 그 몸을 다시 일으켜 세울 힘은 언제나 안쪽에 있다는 거죠.
 
 <!-- section: placebo | visuals: pills bottle close up, doctor talking patient, knee walking stairs, hotel housekeeper cleaning, woman walking city | title: 그가 찾아낸 열쇠, 플라시보 | ai: a small pharmacy bottle labeled with a blank white label on a wooden table, soft window light, a few white pills beside it; a hotel housekeeper making a bed in a bright room, smiling, sunlight, strong and healthy -->
 이 경험 이후, 디스펜자는 묻기 시작해요. 마음은 대체 어떻게 몸을 바꾸는 걸까.
@@ -33,14 +33,14 @@
 
 2010년 하버드 의대 연구에서는, 가짜 약이라고 병에 큼지막하게 적힌 약을 먹은 환자들이, 아무것도 안 먹은 환자들보다 증상이 훨씬 좋아졌어요.
 
-2002년 미국에서는, 무릎 관절염 환자들 중 일부가 피부만 살짝 째는 가짜 수술을 받았어요. 그런데 이 년 동안 지켜봤더니, 진짜 수술을 받은 사람들이 나은 점이 하나도 없었어요.
+2002년 미국에서는, 무릎 관절염 환자들 중 일부가 피부만 살짝 째는 가짜 수술을 받았어요. 이 년 동안 지켜봤더니, 가짜 수술을 받은 사람들도 진짜 수술을 받은 사람들만큼 좋아졌어요.
 
 2007년 하버드의 한 실험에서는, 호텔 청소 직원들에게 여러분의 일은 그 자체로 훌륭한 운동이라고 알려 주기만 했어요. 일하는 양은 그대로였는데, 네 주 뒤 몸무게와 혈압이 내려갔어요.
 
 디스펜자는 말해요. 몸은 지금 이 순간에도, 우리가 믿는 이야기를 듣고 있다고요.
 
 <!-- section: loop | visuals: alarm clock morning, commuter crowd subway, man tired desk, rain window, clock ticking | title: 같은 생각, 같은 하루 | ai: a person walking in a circle on a glowing path in a dark empty space, the same footprints repeated over and over; a soul of soft light standing at the edge of a familiar small room, looking toward an open door to a vast bright landscape -->
-그렇다면 왜, 우리 삶은 잘 바뀌지 않을까요.
+그런데 우리는, 매일 몸에게 어떤 이야기를 들려주고 있을까요. 대부분은 어제와 똑같은 이야기예요. 그래서 삶도, 좀처럼 바뀌지 않아요.
 
 디스펜자는 이렇게 설명해요. 우리는 매일 같은 생각을 하고, 그 생각이 같은 선택을 만들고, 같은 선택이 같은 행동을, 같은 행동이 같은 경험을 만들어요. 그리고 그 경험은, 어제와 똑같은 감정을 남기죠.
 
@@ -55,7 +55,7 @@
 그리고 영혼이 원하던 그 경험들을 직접 겪어 낼 때, 우리는 비로소 다음 단계로 넘어갈 수 있어요. 같은 하루에 머물러 있으면, 영혼은 같은 자리에서 계속 기다릴 수밖에 없고요.
 
 <!-- section: future | visuals: woman smiling sunrise, hands on heart, sunlight through window, candle light dark, woman gratitude journal | title: 미래를, 먼저 느끼기 | ai: a woman with eyes closed and hands on her heart, glowing warm light radiating from her chest, a faint image of her future self smiling in the light; a landscape half in deep night and half in golden sunrise, light and darkness meeting softly, a person standing calmly at the border -->
-디스펜자가 말하는 변화의 핵심은 이거예요. 원하는 미래가 오기 전에, 그 미래의 감정을 먼저 느끼는 것.
+그렇다면 이 같은 하루에서, 어떻게 빠져나올 수 있을까요. 어제의 감정이 어제의 하루를 만든다면, 답은 하나예요. 아직 오지 않은 내일의 감정을, 오늘 먼저 느끼는 것. 디스펜자는 이것이 변화의 핵심이라고 말해요.
 
 감사는 보통, 좋은 일이 생긴 뒤에 느끼죠. 그런데 디스펜자는 순서를 거꾸로 하라고 해요. 아직 오지 않은 그 일에 대해, 지금 먼저 감사하고 기뻐하라고요. 그러면 몸은, 그 일이 이미 일어난 것처럼 반응하기 시작한다는 거예요.
 
@@ -76,12 +76,10 @@
 
 그의 수련회에는 해마다 세계 곳곳에서 사람들이 모여들어요. 그리고 그곳에서 만성 통증이 사라졌다, 오랜 병이 나았다는 경험담이 계속 나오고 있어요.
 
-<!-- section: views | visuals: doctor stethoscope, scientist laboratory, woman reading book, hospital hallway light, open book pages | title: 그를 바라보는 두 개의 시선 | ai: two paths of light, one warm golden and one cool blue, running side by side toward the same distant light -->
+<!-- section: views | visuals: woman reading book, forest path fork, open book pages | title: 그를 바라보는 두 개의 시선 | ai: two paths of light, one warm golden and one cool blue, running side by side toward the same distant light -->
 물론, 디스펜자를 바라보는 시선은 하나가 아니에요.
 
-많은 사람에게 그는 삶을 바꿔 준 스승이에요. 하지만 과학자들 중에는, 그의 회복담과 수련회의 경험담이 아직 엄격한 연구로 확인된 건 아니라고 말하는 사람들도 있어요. 명상이 스트레스와 통증, 혈압에 도움이 된다는 연구는 많지만, 큰 병을 고친다는 건 아직 밝혀지지 않았다는 거죠.
-
-디스펜자의 회사도, 명상이 암을 치료한다고 주장하지는 않는다고 밝혔어요. 그러니 지금 받고 있는 치료가 있다면, 그건 꼭 이어 가세요. 마음의 힘은, 치료를 대신할 때가 아니라 치료와 함께할 때 가장 크게 빛나요.
+많은 사람에게 그는 삶을 바꿔 준 스승이지만, 그의 이야기가 아직 과학으로 다 확인된 건 아니라고 말하는 사람들도 있어요.
 
 어떤 시선으로 보든, 디스펜자가 던지는 질문은 하나예요. 당신은 매일, 어떤 이야기를 몸에 들려주고 있나요.
 
@@ -97,7 +95,7 @@
 <!-- section: outro | visuals: sunrise ocean, man walking sunrise, golden field sunset, birds flying sunset, mountain sunrise -->
 트럭에 치인 그날, 디스펜자가 선택한 건 하나였어요. 지금까지와는 다른 이야기를, 자기 몸에 들려주는 것.
 
-우리는 몸이 아니라, 몸을 입은 영혼이에요. 그리고 영혼은, 언제든 새로운 이야기를 고를 수 있어요.
+우리는 몸만이 아니에요. 몸을 입고 이곳에 온 영혼이에요. 그리고 영혼은, 언제든 새로운 이야기를 고를 수 있어요.
 
 여러분은 오늘, 어떤 새로운 이야기를 들려주고 싶나요. 댓글로 나눠 주세요.
 

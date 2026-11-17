@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh59_christmas",
+ "status": "ready-ep022",
+ "hook": "크리스마스가 지나자|사람들이 쓰러졌다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "1944년 크리스마스, 수용소의 사망자가 갑자기 늘어났어요.",
+    "caption": "1944년 크리스마스, 수용소의 사망자가 갑자기 늘어났어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "먹을 것이 더 줄어든 것도, 일이 더 고된 것도 아니었어요.",
+    "caption": "먹을 것이 더 줄어든 것도, 일이 더 고된 것도 아니었어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "많은 사람이 크리스마스엔 집에 갈 거라고 믿고 있었대요. 그 기대가 꺾이자 몸도 함께 꺾였어요.",
+    "caption": "많은 사람이 크리스마스엔 집에 갈 거라고 믿고 있었대요. 그 기대가 꺾이자 몸도 함께 꺾였어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "빅터 프랭클은 고통을 외면하지 않았어요. 그곳에서 흘린 눈물은 고통을 견뎌 낼 용기가 있다는 증거였다고 그는 썼어요.",
+    "caption": "빅터 프랭클은 고통을 외면하지 않았어요. 그곳에서 흘린 눈물은 고통을 견뎌 낼 용기가 있다는 증거였다고 그는 썼어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘 아픈 마음이 있다면, 피하지 말고 그대로 느껴 보세요.",
+    "caption": "오늘 아픈 마음이 있다면, 피하지 말고 그대로 느껴 보세요."
+   }
+  ],
+  "images": [
+   "a small frosted window of a dark wooden barrack on christmas night, faint candle reflection on the glass, snow falling outside, lonely, no people",
+   "an old paper calendar on a rough wooden wall showing late december, a single candle stub below it, cold dim light",
+   "a single tear rolling down the cheek of a tired person in close up, soft gold side light, dark background",
+   "the first pale light of dawn breaking over a snowy field after a long night, quiet hope"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "snow keeps falling slowly outside the frosted window as the candle reflection flickers"
+   }
+  ]
+ }
+}

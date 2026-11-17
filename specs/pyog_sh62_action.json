@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh62_action",
+ "status": "ready-ep022",
+ "hook": "노력이라는 말 대신|행동",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "저는 노력이라는 말을 행동이라는 말로 바꿔 쓰는 편이에요.",
+    "caption": "저는 노력이라는 말을 행동이라는 말로 바꿔 쓰는 편이에요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "빅터 프랭클은 수용소에서도 유리 조각으로 매일 면도를 하고, 허리를 펴고 힘껏 걸었어요.",
+    "caption": "빅터 프랭클은 수용소에서도 유리 조각으로 매일 면도를 하고, 허리를 펴고 힘껏 걸었어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "마음으로는 절망을 다 느끼면서도 손은 멈추지 않았던 거예요.",
+    "caption": "마음으로는 절망을 다 느끼면서도 손은 멈추지 않았던 거예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "따뜻한 말 한마디, 명상 한 번, 운동 십 분, 외국어 공부 오 분이어도 좋아요.",
+    "caption": "따뜻한 말 한마디, 명상 한 번, 운동 십 분, 외국어 공부 오 분이어도 좋아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 시기에 할 수 있는 최선의 행동을 하나씩. 그게 삶을 조금씩 바꿔요.",
+    "caption": "그 시기에 할 수 있는 최선의 행동을 하나씩. 그게 삶을 조금씩 바꿔요."
+   }
+  ],
+  "images": [
+   "a gaunt man shaving carefully in front of a small cracked mirror using a shard of glass, cold morning light, dignified",
+   "a man in a thin coat walking upright with determination along a frozen path at dawn",
+   "a young woman studying at a desk late at night under a warm lamp, quiet determination",
+   "a person jogging alone along a riverside path at sunrise, golden light, small steady steps"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the steady hand slowly moves the glass shard as morning light grows"
+   }
+  ]
+ }
+}

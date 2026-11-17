@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh60_stay",
+ "status": "ready-ep022",
+ "hook": "탈출을 포기한 날|찾아온 평화",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "전쟁이 끝나 갈 무렵, 빅터 프랭클에게 수용소를 빠져나갈 기회가 와요.",
+    "caption": "전쟁이 끝나 갈 무렵, 빅터 프랭클에게 수용소를 빠져나갈 기회가 와요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "떠나기 직전, 죽어 가던 한 환자가 그를 보며 물었대요. 당신도 떠나는 거냐고.",
+    "caption": "떠나기 직전, 죽어 가던 한 환자가 그를 보며 물었대요. 당신도 떠나는 거냐고."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그는 탈출을 포기하고 환자들 곁에 남기로 해요.",
+    "caption": "그는 탈출을 포기하고 환자들 곁에 남기로 해요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 순간, 한 번도 느껴 본 적 없는 깊은 평화가 찾아왔대요. 앞으로 무슨 일이 일어날지 전혀 몰랐는데도요.",
+    "caption": "그 순간, 한 번도 느껴 본 적 없는 깊은 평화가 찾아왔대요. 앞으로 무슨 일이 일어날지 전혀 몰랐는데도요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "할 수 있는 건 다 하고, 결과는 놓아주기. 그때 마음은 비로소 편안해져요.",
+    "caption": "할 수 있는 건 다 하고, 결과는 놓아주기. 그때 마음은 비로소 편안해져요."
+   }
+  ],
+  "images": [
+   "a half open wooden gate in a barbed wire fence at night, a narrow path leading out into dark woods, tension, no people",
+   "a doctor in a worn coat standing beside rows of simple beds in a dim makeshift infirmary, looking down at a patient, soft warm light",
+   "a man in a worn coat sitting quietly by a small window at dusk, eyes closed, a deep calm on his face, warm golden light",
+   "an open hand slowly releasing glowing golden sand into the wind at sunset, letting go"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "warm golden light slowly fills the room around the calm man"
+   }
+  ]
+ }
+}

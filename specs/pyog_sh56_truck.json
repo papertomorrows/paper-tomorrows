@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh56_truck",
- "status": "ready-ep021",
+ "status": "done-ep021",
  "hook": "트럭에 치인 그날|그가 선택한 것",
  "hook_size": 104,
  "hook_hi": 1,

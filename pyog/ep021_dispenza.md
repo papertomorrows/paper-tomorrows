@@ -27,7 +27,7 @@
 <!-- section: placebo | visuals: pills bottle close up, doctor talking patient, knee walking stairs, hotel housekeeper cleaning, woman walking city | title: 그가 찾아낸 열쇠, 플라시보 | ai: a small pharmacy bottle labeled with a blank white label on a wooden table, soft window light, a few white pills beside it; a hotel housekeeper making a bed in a bright room, smiling, sunlight, strong and healthy -->
 이 경험 이후, 디스펜자는 묻기 시작해요. 마음은 대체 어떻게 몸을 바꾸는 걸까.
 
-그가 찾은 열쇠가, 플라시보였어요. 가짜 약인데, 진짜라고 믿고 먹으면 몸이 실제로 반응하는 현상이죠. 그래서 그는 2014년, '당신이 플라시보다'라는 뜻의 책을 써요. 약이 아니라, 당신의 믿음 자체가 플라시보라는 거예요.
+그가 찾은 열쇠가, 플라시보였어요. 가짜 약인데, 진짜라고 믿고 먹으면 몸이 실제로 반응하는 현상이죠. 그래서 그는 2014년, '당신이 플라시보다'라는 뜻의 책을 써요. 약이 아니라, 우리가 믿는 그 마음이 몸을 바꾼다는 뜻이에요.
 
 실제로 과학은, 놀라운 장면들을 보여 줘요.
 

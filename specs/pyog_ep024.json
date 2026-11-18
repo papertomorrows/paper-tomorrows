@@ -1,0 +1,81 @@
+{
+ "id": "pyog_ep024",
+ "script": "pyog/ep024_jung.md",
+ "voice_id": "Korean_IntellectualMan",
+ "seed": 241,
+ "brand_mark": true,
+ "mark_text": "당신만의 게임",
+ "kicker_text": "당신만의 게임",
+ "status": "ready-ep024-preview1",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "speed": 1.14,
+ "captions": true,
+ "min_luma": 28,
+ "max_ai_fallbacks": 3,
+ "sentence_gap": 0.2,
+ "para_gap": 0.55,
+ "section_gap": 0.6,
+ "tag_match": 2,
+ "strict_topic": true,
+ "fresh_before": 1795043346.1897342,
+ "ban_ids": [
+  8131,
+  20841,
+  23124,
+  24571,
+  28098,
+  36722,
+  72966,
+  79155,
+  84618,
+  143377,
+  143380,
+  144679,
+  145344,
+  167340,
+  247488,
+  266074,
+  266079,
+  266080,
+  328167
+ ],
+ "say": {
+  "1952년": "천구백오십이 년",
+  "20세기": "이십 세기"
+ },
+ "short_media": {
+  "hook": [
+   "outputs/shorts/pyog_sh68_scarab/img_00.jpg",
+   "outputs/shorts/pyog_sh68_scarab/anim_01.mp4",
+   "outputs/shorts/pyog_sh68_scarab/img_02.jpg"
+  ],
+  "jung": [
+   "outputs/shorts/pyog_sh68_scarab/img_03.jpg"
+  ],
+  "window": [
+   "outputs/shorts/pyog_sh71_root/img_00.jpg",
+   "outputs/shorts/pyog_sh71_root/anim_01.mp4",
+   "outputs/shorts/pyog_sh71_root/img_02.jpg",
+   "outputs/shorts/pyog_sh71_root/img_03.jpg"
+  ],
+  "guide1": [
+   "outputs/shorts/pyog_sh69_signal/img_00.jpg",
+   "outputs/shorts/pyog_sh69_signal/anim_01.mp4",
+   "outputs/shorts/pyog_sh69_signal/img_02.jpg",
+   "outputs/shorts/pyog_sh69_signal/img_03.jpg"
+  ],
+  "guide3": [
+   "outputs/shorts/pyog_sh70_bridge/img_00.jpg",
+   "outputs/shorts/pyog_sh70_bridge/anim_01.mp4",
+   "outputs/shorts/pyog_sh70_bridge/img_02.jpg",
+   "outputs/shorts/pyog_sh70_bridge/img_03.jpg"
+  ],
+  "play": [
+   "outputs/shorts/pyog_sh72_play/anim_00.mp4",
+   "outputs/shorts/pyog_sh72_play/img_01.jpg",
+   "outputs/shorts/pyog_sh72_play/img_02.jpg",
+   "outputs/shorts/pyog_sh72_play/img_03.jpg"
+  ]
+ },
+ "preview": true
+}

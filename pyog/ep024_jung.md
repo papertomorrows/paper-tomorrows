@@ -1,6 +1,6 @@
 # EP024 융과 황금 풍뎅이, 동시성 (제목 미정)
 
-<!-- section: hook | visuals: vintage study room lamp, old curtain window light, window raindrops dusk, old wooden desk lamp, antique room window, golden light window | ai: a young woman in 1920s clothing sitting in a dim wood-paneled study, an elderly doctor in a suit seen from behind listening, a tall window with half-drawn curtains, warm lamp light, cinematic >> the curtain moves gently; a shimmering gold and green rose chafer beetle tapping against a window pane at dusk, seen from inside, warm interior glow, macro, cinematic >> the beetle taps on the glass; a man's hand gently holding a shimmering gold-green beetle, offering it toward a woman's open palm, soft window light, cinematic, faces not visible >> the beetle slowly opens its wings -->
+<!-- section: hook | visuals: vintage study room lamp, old curtain window light, window raindrops dusk, old wooden desk lamp, antique room window, golden light window -->
 스위스 취리히의 한 진료실. 정신과 의사 칼 융 앞에, 한 젊은 여성이 앉아 있어요.
 
 그녀는 지난밤 꾼 꿈 이야기를 하고 있었어요. 누군가에게서, 값비싼 황금 풍뎅이 장신구를 선물 받는 꿈이었대요.
@@ -13,7 +13,7 @@
 
 그 순간, 꽉 막혀 있던 무언가가 열리기 시작해요.
 
-<!-- section: jung | visuals: old library bookshelf, old books stack, vintage portrait office, lake zurich, swiss lake mountains, sunrise over water | title: 풀리지 않던 환자 | ai: an ancient egyptian golden scarab amulet glowing above a desert at sunrise, symbol of rebirth, mystical, cinematic >> the sun slowly rises behind the scarab; a woman sitting alone behind a wall of glass covered in written formulas, light cracking through the glass, symbolic, cinematic >> cracks of light spread across the glass -->
+<!-- section: jung | visuals: old library bookshelf, old books stack, vintage portrait office, lake zurich, swiss lake mountains, sunrise over water | title: 풀리지 않던 환자 | ai: a woman sitting alone behind a wall of glass covered in written formulas, light cracking through the glass, symbolic, cinematic >> cracks of light spread across the glass -->
 칼 융은 한때 프로이트의 후계자로 불렸던, 20세기의 가장 유명한 정신의학자 중 한 사람이에요.
 
 그런데 이 여성은, 융에게도 쉽지 않은 환자였어요. 많이 배우고 똑똑한 사람이었지만, 모든 걸 머리로만 따지고 이성으로만 설명하려 했대요. 이미 두 명의 의사를 거쳐 왔고, 융과의 치료도 제자리를 맴돌고 있었어요.
@@ -24,7 +24,7 @@
 
 머리로는 도저히 설명할 수 없는 그 일 앞에서, 그녀를 단단히 감싸고 있던 이성의 벽에 금이 가요. 그날 이후 치료는 앞으로 나아가기 시작했고, 그녀는 꿈속의 풍뎅이처럼 조금씩 다시 태어났어요.
 
-<!-- section: synchronicity | visuals: clock gears close up, starry night sky, galaxy space, old book pages, open book light, chalkboard equations, ink drop water, two lights connecting | title: 동시성 | ai: two separate glowing threads of light, one from a dreaming mind and one from the outside world, meeting at a single bright point in a dark space, mystical, cinematic >> the threads meet and flash softly; two men in 1950s suits, a psychologist and a physicist, talking in a book-lined room with warm light, seen from behind, cinematic >> slow push in -->
+<!-- section: synchronicity | visuals: clock gears close up, starry night sky, galaxy space, old book pages, open book light, chalkboard equations, ink drop water, two lights connecting | title: 동시성 | ai: two separate glowing threads of light, one from a dreaming mind and one from the outside world, meeting at a single bright point in a dark space, mystical, cinematic >> the threads meet and flash softly; two men in 1950s suits, a psychologist and a physicist, talking in a book-lined room with warm light, seen from behind, cinematic -->
 융은 이런 일에 이름을 붙여요. 동시성.
 
 원인과 결과로는 이어지지 않는데, 마음속의 무언가와 바깥에서 일어나는 일이, 의미로 딱 맞아떨어지는 순간을 말해요.
@@ -37,7 +37,7 @@
 
 하지만 융에게 중요한 건, 그게 왜 일어났느냐가 아니었어요. 그 일이 지금 나에게 무엇을 말하고 있느냐였어요.
 
-<!-- section: everyday | visuals: woman looking phone smile, man reading book window, open book light, headphones music street, street walking city, clock numbers | title: 우리 일상의 동시성 | ai: a woman holding a phone that is just lighting up with a call, smiling in surprise, cozy evening room, cinematic, face partly turned away >> the phone screen glows brighter -->
+<!-- section: everyday | visuals: woman looking phone smile, man reading book window, open book light, headphones music street, street walking city, clock numbers | title: 우리 일상의 동시성 | ai: a woman holding a phone that is just lighting up with a call, smiling in surprise, cozy evening room, cinematic, face partly turned away -->
 생각해 보면, 우리도 이런 순간들을 겪어요.
 
 오랫동안 연락 없던 친구가 문득 떠올랐는데, 바로 그날 그 친구에게서 연락이 오는 일.
@@ -46,7 +46,7 @@
 
 자꾸만 같은 숫자가 눈에 띄고, 같은 이름이 여기저기서 들려오는 일.
 
-<!-- section: who | visuals: man thinking window, woman walking forest, crossroads path, person sitting bench park, calm lake morning, sunlight through leaves | title: 누구에게 일어날까 | ai: a person standing at a crossroads of forest paths at dawn, soft golden mist, gentle glowing signs along the paths, contemplative, cinematic >> mist drifts slowly between the paths -->
+<!-- section: who | visuals: man thinking window, woman walking forest, crossroads path, person sitting bench park, calm lake morning, sunlight through leaves | title: 누구에게 일어날까 | ai: a person standing at a crossroads of forest paths at dawn, soft golden mist, gentle glowing signs along the paths, contemplative, cinematic -->
 그런데 이런 일은, 특별한 사람에게만 일어나는 걸까요.
 
 그렇지 않아요. 동시성은 누구에게나 일어나요. 다만, 알아차리는 사람이 따로 있을 뿐이에요.
@@ -57,7 +57,7 @@
 
 정말 조금만 더 차분하고 고요하게 삶을 바라보면, 우리 삶은 이미 수많은 동시성으로 가득 차 있어요. 우리가 너무 바빠서, 그 창문 두드리는 소리를 듣지 못하고 지나칠 뿐이에요.
 
-<!-- section: inner | visuals: tree roots forest, river from above, galaxy universe, aurora sky, ocean waves calm, mountain reflection lake | title: 마음과 세상은 이어져 있다 | ai: a giant tree whose roots underground glow and connect into a single shining root system with the roots of the whole forest, mystical, cinematic >> light pulses through the roots; a person shedding an old shell of grey stone, a luminous new self stepping out, rebirth, cinematic >> the stone shell slowly falls away -->
+<!-- section: inner | visuals: tree roots forest, river from above, galaxy universe, aurora sky, ocean waves calm, mountain reflection lake | title: 마음과 세상은 이어져 있다 | ai: a giant tree whose roots underground glow and connect into a single shining root system with the roots of the whole forest, mystical, cinematic; a person shedding an old shell of grey stone, a luminous new self stepping out, rebirth, cinematic >> the stone shell slowly falls away -->
 융은 이렇게 생각했어요. 우리의 마음과 바깥 세상은, 사실 아주 깊은 곳에서 하나로 이어져 있다고요.
 
 겉으로는 내 마음 따로, 세상 따로인 것처럼 보여요. 하지만 그 아래로 내려가면, 둘은 같은 뿌리에서 나온 두 가지 얼굴이라는 거예요.
@@ -66,7 +66,7 @@
 
 그리고 그 신호는, 유독 삶의 갈림길에서 자주 찾아와요. 풍뎅이가 다시 태어남의 상징이었던 것처럼, 우리가 낡은 나를 벗고 다음 나로 건너가야 할 때요.
 
-<!-- section: clarity | visuals: woman morning window light, sunrise meditation, calm woman smiling, clear sky sunrise, curtains window morning, foggy window | title: 사랑과 맑음 | ai: a woman sitting on her bed in early morning light with eyes closed and a hand on her heart, a soft glow in her chest, peaceful, cinematic >> the glow gently brightens; a window half covered by heavy dark curtains while warm light knocks from outside, symbolic, cinematic >> the curtains slowly part -->
+<!-- section: clarity | visuals: woman morning window light, sunrise meditation, calm woman smiling, clear sky sunrise, curtains window morning, foggy window | title: 사랑과 맑음 | ai: a woman sitting on her bed in early morning light with eyes closed and a hand on her heart, a soft glow in her chest, peaceful, cinematic; a window half covered by heavy dark curtains while warm light knocks from outside, symbolic, cinematic >> the curtains slowly part -->
 그런데 동시성을 유난히 자주, 그리고 선명하게 겪는 사람들에게는 공통점이 있어요.
 
 마음속에 사랑과 맑음을 간직하고, 그걸 꾸준히 지켜 가는 사람들이에요.
@@ -83,7 +83,7 @@
 
 그래서 동시성을 잘 느끼고 싶다면, 신호를 찾기 전에 먼저 내 마음의 창을 맑게 닦는 게 시작이에요.
 
-<!-- section: window | visuals: breathing meditation, woman meditating, bus window city, eating meal slowly, walking barefoot grass, wind grass field, journal writing, cleaning window | title: 마음의 창 닦기 | ai: a person sitting on a bus by the window with eyes closed, breathing calmly, soft city lights passing, cinematic >> lights pass slowly outside the window; bare feet walking slowly on morning grass with dew, close up, warm sunlight, cinematic >> the feet step slowly forward; a person sitting quietly with a hand on the chest, a soft glowing path leading down into a small warm light deep inside, emotional healing, cinematic >> the light inside slowly brightens; a hand wiping a dusty window clean, bright morning light pouring through the cleared glass, cinematic >> the hand wipes and light pours in -->
+<!-- section: window | visuals: breathing meditation, woman meditating, bus window city, eating meal slowly, walking barefoot grass, wind grass field, journal writing, cleaning window | title: 마음의 창 닦기 | ai: a person sitting on a bus by the window with eyes closed, breathing calmly, soft city lights passing, cinematic; bare feet walking slowly on morning grass with dew, close up, warm sunlight, cinematic >> the feet step slowly forward -->
 그럼 그 창은 어떻게 닦을 수 있을까요.
 
 먼저, 매일 잠시라도 숨을 깊게 쉬며 그저 바라보는 시간을 가져요. 길 필요는 없어요. 출근길 버스 안이든, 잠들기 전 침대 위든, 숨이 들어오고 나가는 걸 느끼면서 지금 떠오르는 생각과 감정을 고치려 하지 않고 지켜보는 거예요. 하루 종일 바깥으로만 향해 있던 눈을, 잠시 안으로 돌려 주는 시간이에요.
@@ -98,7 +98,7 @@
 
 그리고 이건 한 번으로 끝나는 일이 아니에요. 방에 매일 먼지가 쌓이듯, 마음에도 매일 무언가가 쌓여요. 그래서 맑은 사람들은 이 정화를 하루하루의 습관처럼 이어 가요. 그렇게 닦인 창으로는, 아주 작은 두드림도 선명하게 들려와요.
 
-<!-- section: guide1 | visuals: woman deep breath nature, painting canvas studio, art gallery wall, cafe interior cozy, man anxious night, woman sleeping peacefully, calm lake morning | title: 진짜 신호, 억지 신호 | ai: a woman in a cozy cafe looking at a painting on the wall with quiet wonder, warm afternoon light, cinematic >> she slowly steps closer to the painting; a person lying awake at night with glowing numbers and symbols swirling anxiously around their head, cinematic >> the symbols swirl faster -->
+<!-- section: guide1 | visuals: woman deep breath nature, painting canvas studio, art gallery wall, cafe interior cozy, man anxious night, woman sleeping peacefully, calm lake morning | title: 진짜 신호, 억지 신호 -->
 그렇게 창이 맑아지면, 그다음은 찾아온 신호를 알아보고 삶에 쓰는 일이에요. 동시성을 잘 활용하는 사람들은 실제로 이렇게 살아요.
 
 첫 번째로, 그들은 진짜 신호와 억지 신호를 구분할 줄 알아요.
@@ -126,7 +126,7 @@
 
 그리고 그 질문을 붙잡고 조르지 않아요. 한 번 분명하게 품고, 내려놓아요. 대답은 대개, 질문을 잊고 지낼 때쯤 불쑥 찾아오거든요.
 
-<!-- section: guide3 | visuals: stone bridge river, old bridge mist, bridge sunset, mirror reflection, dream clouds, footbridge forest | title: 우연을 꿈처럼 읽기 | ai: a person walking across a bridge made of soft light above the clouds in a dream, golden dusk, cinematic >> the person slowly walks across the bridge; a still lake reflecting not the sky but a glowing inner landscape of a person standing at its shore, symbolic, cinematic >> ripples gently cross the reflection -->
+<!-- section: guide3 | visuals: stone bridge river, old bridge mist, bridge sunset, mirror reflection, dream clouds, footbridge forest | title: 우연을 꿈처럼 읽기 -->
 세 번째로, 그들은 우연을 한 편의 꿈처럼 읽어요.
 
 융이 풍뎅이를 다시 태어남의 상징으로 읽었듯이, 동시성은 글자 그대로보다 상징으로 말을 걸 때가 많아요.
@@ -146,7 +146,7 @@
 
 그렇게 한 걸음 응답하면, 놀랍게도 그 걸음 끝에서 또 다른 우연이 기다리고 있는 경우가 많아요. 그렇게 우연과 우연이 이어지며, 삶이 조금씩 새 방향으로 열려요.
 
-<!-- section: guide5 | visuals: journal writing desk, notebook pen night, old diary pages, map path drawn, person walking with friend sunset | title: 기록하기 | ai: an open journal on a desk at night, glowing dots on its pages connected by golden lines into one path, warm lamp, cinematic, no readable text >> golden lines slowly connect the dots -->
+<!-- section: guide5 | visuals: journal writing desk, notebook pen night, old diary pages, map path drawn, person walking with friend sunset | title: 기록하기 | ai: an open journal on a desk at night, glowing dots on its pages connected by golden lines into one path, warm lamp, cinematic, no readable text -->
 그리고 마지막으로, 그들은 기록해요.
 
 신기한 우연을 만나면, 그날 내 마음에 무엇이 있었는지, 무슨 일이 일어났는지, 그때 몸과 마음이 어떻게 반응했는지를 짧게 적어 두는 거예요.
@@ -155,7 +155,7 @@
 
 그리고 그걸 한 번 확인하고 나면, 삶을 대하는 태도가 달라져요. 혼자 애쓰며 버티는 삶이 아니라, 세상과 함께 걸어가는 삶이 되는 거예요.
 
-<!-- section: play | visuals: galaxy universe, children playing field, starry sky milky way, nebula space, laughing friends, light particles | title: 모든 건 놀이 | ai: a human silhouette dissolving into a sea of stars, becoming one with the universe, cosmic, serene, cinematic >> stars slowly swirl around the silhouette; many winding paths of light across a vast landscape all converging into one radiant point on the horizon, cinematic >> light flows along the paths; a child laughing and playing in a field of floating golden light particles at sunset, joyful, cinematic >> the particles drift around the child -->
+<!-- section: play | visuals: galaxy universe, children playing field, starry sky milky way, nebula space, laughing friends, light particles | title: 모든 건 놀이 -->
 그런데 이 모든 이야기를, 꼭 지켜야 할 규칙처럼 받아들이지는 않았으면 해요.
 
 삶에는 반드시 해야 하는 것도, 반드시 하지 말아야 하는 것도 사실은 없어요.

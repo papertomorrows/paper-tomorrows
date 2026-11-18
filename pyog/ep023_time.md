@@ -50,7 +50,7 @@
 
 그리고 이탈리아의 물리학자 카를로 로벨리는 이렇게 말해요. 우리가 아는 시간은 세상의 가장 깊은 곳에는 없을지도 모른다고. 세상은 시간 위를 흘러가는 물건들이 아니라, 서로 만나고 일어나는 사건들의 그물이라고요.
 
-<!-- section: motion | visuals: sunrise timelapse, sunset timelapse clouds, flower blooming timelapse, clock hands moving, heartbeat, breathing meditation, wind grass field, calm lake morning, woman meditating silence, still forest mist | title: 움직임이 시간을 만든다 | ai: a flower blooming and wilting in one continuous image, the sun rising and setting behind it, showing time as movement, cinematic >> the petals slowly open; a person meditating in perfect stillness on a mountain top while clouds and the sun freeze in the sky around them, time standing still, cinematic, serene >> everything stays perfectly still except a faint glow around the person -->
+<!-- section: motion | visuals: sunrise timelapse, sunset timelapse clouds, flower blooming timelapse, clock hands moving, breathing meditation, wind grass field, calm lake morning, woman meditating silence, still forest mist | title: 움직임이 시간을 만든다 | ai: a flower blooming and wilting in one continuous image, the sun rising and setting behind it, showing time as movement, cinematic >> the petals slowly open; a person meditating in perfect stillness on a mountain top while clouds and the sun freeze in the sky around them, time standing still, cinematic, serene >> everything stays perfectly still except a faint glow around the person -->
 이번엔 조금 더 가까이, 우리 일상에서 생각해 볼까요.
 
 우리가 시간을 이렇게 생생하게 느끼는 건, 이 지구의 모든 것이 끊임없이 움직이고 변하기 때문이에요.
@@ -69,7 +69,7 @@
 
 어쩌면 시간은 세상에 원래 있는 무언가가 아니라, 움직임이 만들어 내는 것인지도 몰라요.
 
-<!-- section: augustine | visuals: ancient stone columns, old monastery light, old manuscript candle, cathedral light rays, woman worried window, man thinking night, deep breath nature, sunlight through leaves | title: 1600년 전의 질문 | ai: an ancient scholar in a simple robe writing by candlelight in a stone room of the fourth century, seen from behind, warm candle glow, contemplative, cinematic >> the candle flickers as the quill moves; a person sitting calmly by a window in morning light, eyes closed, breathing, the room peaceful, cinematic >> soft light slowly brightens on their face -->
+<!-- section: augustine | visuals: ancient greek columns, old monastery light, old manuscript candle, cathedral light rays, woman worried window, man thinking night, deep breath nature, sunlight through leaves | title: 1600년 전의 질문 | ai: an ancient scholar in a simple robe writing by candlelight in a stone room of the fourth century, seen from behind, warm candle glow, contemplative, cinematic >> the candle flickers as the quill moves; a person sitting calmly by a window in morning light, eyes closed, breathing, the room peaceful, cinematic >> soft light slowly brightens on their face -->
 아리스토텔레스 이후에도 이 질문은 계속됐어요.
 
 1600년 전, 성 아우구스티누스는 이렇게 썼어요. 시간이란 무엇인가. 아무도 묻지 않으면 나는 안다. 그런데 누가 물어서 설명하려 하면, 나는 모른다.
@@ -115,7 +115,7 @@
 
 그 눈부신 아름다움과 기쁨, 그리고 상상조차 할 수 없는 슬픔까지. 그 모든 걸 알면서도 그 삶을 다시 한번 온전히 경험하기를 선택한 거예요.
 
-<!-- section: soul | visuals: light through clouds heaven, soul light abstract, starry sky milky way, bookshelf old library, golden threads light, baby hand holding finger, newborn baby mother, hug emotional, piano child playing, child drawing, violin playing, sunrise ocean, galaxy universe | title: 영혼의 눈으로 보면 | ai: a luminous soul figure made of soft golden light holding an open book of a human life, looking at all its pages at once, cosmic background, ethereal, cinematic >> the pages glow and turn slowly; a tall cosmic bookshelf floating in space filled with glowing books, each book connected to the others by fine threads of golden light, mystical, cinematic >> light pulses travel along the threads between books; a small child playing a grand piano naturally with closed eyes, a faint transparent image of an older musician from another era overlapping behind the child like a memory, warm light, cinematic >> the ghostly image slowly fades in and out; a human silhouette dissolving into a sea of stars, becoming one with the universe, cinematic, serene >> stars slowly swirl around the silhouette -->
+<!-- section: soul | visuals: sun rays through clouds, soul light abstract, starry sky milky way, bookshelf old library, golden threads light, baby hand holding finger, newborn baby mother, hug emotional, child playing piano, child drawing, violin playing, sunrise ocean, galaxy universe | title: 영혼의 눈으로 보면 | ai: a luminous soul figure made of soft golden light holding an open book of a human life, looking at all its pages at once, cosmic background, ethereal, cinematic >> the pages glow and turn slowly; a tall cosmic bookshelf floating in space filled with glowing books, each book connected to the others by fine threads of golden light, mystical, cinematic >> light pulses travel along the threads between books; a small child playing a grand piano naturally with closed eyes, a faint transparent image of an older musician from another era overlapping behind the child like a memory, warm light, cinematic >> the ghostly image slowly fades in and out; a human silhouette dissolving into a sea of stars, becoming one with the universe, cinematic, serene >> stars slowly swirl around the silhouette -->
 영혼의 눈으로 보면, 이 이야기는 이렇게 들려요.
 
 바깥에서 보면 멈춰 있는 우주, 안에서 보면 흐르는 시간. 어쩌면 영혼은 우리 삶을 바깥에서 한 권의 책처럼 통째로 보고 있는지도 몰라요. 그리고 지구에 온 우리는 그 책을 안에서 한 장씩 넘기며 직접 겪고 있는 거고요.
@@ -162,7 +162,7 @@
 
 결국 우리는 시간 속에 살지만, 시간이 우리의 전부는 아니에요.
 
-<!-- section: life | visuals: elderly woman painting, old woman smiling garden, senior woman learning, calendar pages flying, person running sunrise, woman writing journal, old photo memories, healing sunlight, forest path light, crossroads path, footsteps sand beach, small plant sprout | title: 늦은 인생은 없다 | ai: an elderly woman in her seventies painting a colorful country landscape on a canvas in a sunny farmhouse room, joyful and focused, cinematic >> her brush moves across the canvas; a person writing in a small notebook by a window at night, a soft glowing path of light appearing faintly outside the window leading forward, cinematic >> the path of light gently brightens -->
+<!-- section: life | visuals: elderly woman painting, old woman smiling garden, calendar pages flying, person running sunrise, woman writing journal, old photo memories, healing sunlight, forest path light, crossroads path, footsteps sand beach, small plant sprout | title: 늦은 인생은 없다 | ai: an elderly woman in her seventies painting a colorful country landscape on a canvas in a sunny farmhouse room, joyful and focused, cinematic >> her brush moves across the canvas; a person writing in a small notebook by a window at night, a soft glowing path of light appearing faintly outside the window leading forward, cinematic >> the path of light gently brightens -->
 이걸 알고 나면, 우리를 짓누르던 말들이 조금 다르게 들려요.
 
 이미 늦었다. 이 나이에 무슨. 시간이 없어.

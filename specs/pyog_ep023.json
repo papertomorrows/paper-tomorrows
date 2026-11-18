@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep023",
+ "status": "ready-ep023-v2",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -19,6 +19,15 @@
  "strict_topic": true,
  "fresh_before": 1794984188.4547057,
  "ban_ids": [
-  328167
+  328167,
+  145344,
+  23124,
+  84618,
+  20841,
+  36722,
+  28098,
+  8131,
+  143380,
+  143377
  ]
 }

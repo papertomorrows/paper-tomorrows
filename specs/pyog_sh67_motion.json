@@ -1,6 +1,6 @@
 {
  "id": "pyog_sh67_motion",
- "status": "ready-ep023-v3",
+ "status": "done",
  "hook": "움직임이 멈추면|시간도 사라진다",
  "hook_size": 104,
  "hook_hi": 1,

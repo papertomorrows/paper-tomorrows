@@ -340,7 +340,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             for l in lists:  # round-robin over keywords, best-ranked first
                 if depth < len(l) and len(picked) < need:
                     cid, url, kw = l[depth]
-                    if cid in used:
+                    if cid in used or cid in set(spec.get("ban_ids", [])):
                         continue
                     f = cache / "stock" / f"px_{cid}.mp4"
                     fb = float(spec.get("fresh_before", 0))  # only clips never used in earlier videos

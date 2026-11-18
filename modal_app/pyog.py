@@ -9,6 +9,7 @@ Pixabay stock videos found by the section keywords (AI image only as a fallback)
 """
 
 import hashlib
+import base64
 import json
 import math
 import pathlib
@@ -283,6 +284,14 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     for sec in sections:
         reuse = [("vshort", pathlib.Path("/cache") / c) for c in spec.get("short_clips", {}).get(sec["name"], [])
                  if (pathlib.Path("/cache") / c).exists()]
+        for n_, (fname, b64) in enumerate(spec.get("_short_media", {}).get(sec["name"], [])):
+            # images/clips already made for this episode's shorts: reuse them here instead of paying again
+            sf = work / f"sm_{sec['name']}_{n_}_{fname}"
+            sf.write_bytes(base64.b64decode(b64))
+            if sf.suffix == ".mp4":
+                reuse.append(("vshort", sf))
+            elif not bad_image(sf):
+                reuse.append(("vimage", sf))
         sec_clip = clip_s if sec.get("stock", True) else float(spec.get("paint_clip_seconds", 6))
         need = max(1, math.ceil((sec["end"] - sec["start"]) / sec_clip) - len(sec["ai"]) - len(reuse))
         reused_total[0] += len(reuse)
@@ -367,7 +376,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     print(f"PICK {sec['name']} {cid} [{kw}] {TAGMAP.get(cid, '')[:80]}")
             depth += 1
         if spec.get("preview"):  # preview pass: stock picks only, no paid images
-            sec["pv"] = [(cid, f) for cid, f in zip(picked_ids, picked)]
+            sec["pv"] = [("short", f) for _, f in reuse] + [(cid, f) for cid, f in zip(picked_ids, picked)]
             continue
         own = []
         for k, item in enumerate(sec["ai"]):  # the channel's own images (always paid, a few per video)
@@ -452,13 +461,14 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             for cid, f in sec.get("pv", []):
                 n += 1
                 fr = pvdir / f"pv_{n:04d}.jpg"
-                subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.5", "-i", str(f), "-frames:v", "1",
+                subprocess.run(["ffmpeg", "-v", "error", "-y"] + ([] if str(f).endswith(".jpg") else ["-ss", "1.5"])
+                               + ["-i", str(f), "-frames:v", "1",
                                 "-vf", "scale=320:180:force_original_aspect_ratio=increase,crop=320:180", str(fr)],
                                timeout=120)
                 if not fr.exists():
                     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "color=c=gray:s=320x180",
                                     "-frames:v", "1", str(fr)], timeout=60)
-                lines.append(f"{n}\t{sec['name']}\t{cid}\t{TAGMAP.get(cid, '')[:100]}")
+                lines.append(f"{n}\t{sec['name']}\t{cid}\t{f.name if cid == 'short' else TAGMAP.get(cid, '')[:100]}")
         cols = 10
         rows = max(1, (n + cols - 1) // cols)
         sheet = work / "preview.jpg"
@@ -521,6 +531,13 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                      f"[bg][fg]overlay=(W-w)/2:0,setsar=1,eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p[v]",
                      "-map", "[v]", "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                      str(out)])
+            elif kind == "vimage":  # vertical image from a short: full width, slow pan up or down
+                c0, r0 = float(spec.get("short_crop_y", 0.45)), float(spec.get("short_pan", 0.5))
+                y0, y1 = (c0 - r0 / 2, c0 + r0 / 2) if i % 2 else (c0 + r0 / 2, c0 - r0 / 2)
+                run(["ffmpeg", "-y", "-loop", "1", "-i", str(f), "-vf",
+                     f"scale={W}:-2,setsar=1,fps={FPS},crop={W}:{H}:0:'(ih-{H})*({y0:.3f}+({y1 - y0:.3f})*t/{D})',"
+                     f"eq=contrast=1.03:saturation=1.05,{fade},format=yuv420p",
+                     "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)])
             elif kind == "video":
                 run(["ffmpeg", "-y", "-ss", "1", "-i", str(f), "-an", "-vf",
                      f"setpts=1.15*PTS,tpad=stop_mode=clone:stop_duration=10,{base}", "-frames:v", str(fr),
@@ -601,6 +618,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
 def main(spec: str):
     s = json.loads(pathlib.Path(spec).read_text())
     md = pathlib.Path(s["script"]).read_text()
+    s["_short_media"] = {sec: [(pathlib.Path(p).parent.name + "_" + pathlib.Path(p).name,
+                                base64.b64encode(pathlib.Path(p).read_bytes()).decode())
+                               for p in paths if pathlib.Path(p).exists()]
+                         for sec, paths in s.get("short_media", {}).items()}
     music = pathlib.Path(s["music"]).read_bytes()
     r = produce.remote(s, md, music)
     out = pathlib.Path("outputs/longform") / s["id"]

@@ -113,7 +113,7 @@ jobs:
           git clone -q --depth 1 -b deliveries "$URL" /tmp/deliv 2>/dev/null || (mkdir -p /tmp/deliv && git -C /tmp/deliv init -q)
           for d in outputs/longform/*/; do
             id=$(basename "$d"); rm -rf "/tmp/deliv/$id"; cp -r "$d" "/tmp/deliv/$id"
-            for f in /tmp/deliv/$id/*.mp4; do split -b 90m -d "$f" "$f.part"; rm "$f"; done
+            for f in /tmp/deliv/$id/*.mp4; do [ -e "$f" ] || continue; split -b 90m -d "$f" "$f.part"; rm "$f"; done
           done
           cd /tmp/deliv
           git checkout -q --orphan fresh && git add -A

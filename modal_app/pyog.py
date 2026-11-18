@@ -320,7 +320,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                                 "dinosaur", "dino", "jurassic", "prehistoric", "trex", "monster", "dragon", "cartoon", "animation",
                                 "illustration", "clipart", "vector", "infographic", "skeleton", "toy", "toys", "robot", "lingerie", "underwear", "bra", "animated",
                                 "moose", "elk", "antler", "bearing", "gasket", "lens", "3d", "render", "rendering", "skyscraper", "petronas", "malaysia", "kuala", "clock", "alarm",
-                                "deer", "stag", "buck", "reindeer", "caribou", "wildlife", "mammal", "fauna", "bison", "bull"]
+                                "deer", "stag", "buck", "reindeer", "caribou", "wildlife", "mammal", "fauna", "bison", "bull",
+                                "jewelry", "jewellery", "ring", "rings", "diamond", "diamonds", "gem", "gems", "gemstone", "gemstones", "tiara", "crown", "cartier", "luxury", "product", "advertising", "advertisement", "commercial", "hospital", "clinic", "medical", "icu", "ecg", "nurse", "covid", "mask", "carousel", "fair", "amusement", "rooster", "hen", "chicken", "poultry", "easter island", "moai", "toothbrush"]
                         if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
                             continue
                         if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):
@@ -365,6 +366,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     picked_ids.append(cid)
                     print(f"PICK {sec['name']} {cid} [{kw}] {TAGMAP.get(cid, '')[:80]}")
             depth += 1
+        if spec.get("preview"):  # preview pass: stock picks only, no paid images
+            sec["pv"] = [(cid, f) for cid, f in zip(picked_ids, picked)]
+            continue
         own = []
         for k, item in enumerate(sec["ai"]):  # the channel's own images (always paid, a few per video)
             prompt, _, motion = (x.strip() for x in item.partition(">>"))
@@ -381,6 +385,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         break
                     except Exception as exc:
                         print(f"OWN IMAGE FAILED (try {attempt + 1}) '{prompt[:80]}': {str(exc)[:1500]}")
+                        if "balance" in str(exc).lower() or "locked" in str(exc).lower():
+                            raise RuntimeError("FAL_BALANCE_EXHAUSTED: top up fal.ai and re-run")
                 if img is None:
                     continue
                 f.write_bytes(img)
@@ -432,10 +438,35 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     f.write_bytes(fallback_image.remote(prompt, 100 + k))
                 except Exception as exc:
                     print(f"FALLBACK IMAGE FAILED '{prompt[:80]}': {str(exc)[:1500]}")
+                    if "balance" in str(exc).lower() or "locked" in str(exc).lower():
+                        raise RuntimeError("FAL_BALANCE_EXHAUSTED: top up fal.ai and re-run")
                     continue
                 fallbacks += 1
             clip_files.append(("image", f))
             sec["clips"].append(("image", f))
+    if spec.get("preview"):
+        pvdir = work / "pv"
+        pvdir.mkdir(exist_ok=True)
+        lines, n = [], 0
+        for sec in sections:
+            for cid, f in sec.get("pv", []):
+                n += 1
+                fr = pvdir / f"pv_{n:04d}.jpg"
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.5", "-i", str(f), "-frames:v", "1",
+                                "-vf", "scale=320:180:force_original_aspect_ratio=increase,crop=320:180", str(fr)],
+                               timeout=120)
+                if not fr.exists():
+                    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "color=c=gray:s=320x180",
+                                    "-frames:v", "1", str(fr)], timeout=60)
+                lines.append(f"{n}\t{sec['name']}\t{cid}\t{TAGMAP.get(cid, '')[:100]}")
+        cols = 10
+        rows = max(1, (n + cols - 1) // cols)
+        sheet = work / "preview.jpg"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", "1", "-i", str(pvdir / "pv_%04d.jpg"),
+                        "-vf", f"tile={cols}x{rows}:padding=4:color=black", "-frames:v", "1", "-q:v", "4", str(sheet)],
+                       timeout=300)
+        CACHE.commit()
+        return {"preview": sheet.read_bytes() if sheet.exists() else b"", "picks": "\n".join(lines)}
     for sec in sections:  # spread extra painted scenes between the moving shots
         base, extra = sec["clips"][:sec.get("n_base", 0)], sec["clips"][sec.get("n_base", 0):]
         if base and extra:
@@ -574,6 +605,11 @@ def main(spec: str):
     r = produce.remote(s, md, music)
     out = pathlib.Path("outputs/longform") / s["id"]
     out.mkdir(parents=True, exist_ok=True)
+    if "preview" in r:
+        (out / "preview.jpg").write_bytes(r["preview"])
+        (out / "picks.txt").write_text(r["picks"])
+        print(f"SHORT OK id={s['id']} preview picks={r['picks'].count(chr(10)) + 1}")
+        return
     (out / f"{s['id']}.mp4").write_bytes(r["video"])
     (out / f"{s['id']}.srt").write_text(r["srt"])
     (out / "report.json").write_text(json.dumps(r["report"], indent=1))

@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "done-ep022",
+ "status": "ready-ep022-v6",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -20,5 +20,10 @@
  "fresh_before": 1794958175.1776092,
  "ban_ids": [
   328167
- ]
+ ],
+ "say": {
+  "1944년": "천구백사십사 년",
+  "1942년": "천구백사십이 년",
+  "1945년": "천구백사십오 년"
+ }
 }

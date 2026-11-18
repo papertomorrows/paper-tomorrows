@@ -189,17 +189,22 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     # ---- voice: one clip per sentence (cached)
     allsent = [s for sec in sections for s in sec["sentences"]]
     todo = []
+    say_map = spec.get("say", {})  # spoken-only replacements; captions keep original text
     for s in allsent:
+        sp = s["text"]
+        for a, b in say_map.items():
+            sp = sp.replace(a, b)
+        s["say"] = sp
         tag = voice + str(speed) + (json.dumps(spec.get("voice_settings", {}), sort_keys=True) if provider == "eleven" else "")
-        s["file"] = cache / "tts" / f"{key(s['text'] + tag)}.mp3"
+        s["file"] = cache / "tts" / f"{key(s['say'] + tag)}.mp3"
         if not s["file"].exists():
             todo.append(s)
     if provider == "eleven":
         vs = spec.get("voice_settings", {"stability": 0.35, "similarity_boost": 0.8, "style": 0.4,
                                          "use_speaker_boost": True, "speed": 0.94})
-        audios = tts_eleven.starmap([(s["text"], voice, vs) for s in todo])
+        audios = tts_eleven.starmap([(s["say"], voice, vs) for s in todo])
     else:
-        audios = tts.starmap([(s["text"], voice, speed, lang) for s in todo], return_exceptions=True)
+        audios = tts.starmap([(s["say"], voice, speed, lang) for s in todo], return_exceptions=True)
     failed = []
     for s, audio in zip(todo, audios):
         if isinstance(audio, Exception):

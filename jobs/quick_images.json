@@ -1,11 +1,12 @@
 {
- "out": "pyog_thumb_ep022",
+ "out": "pyog_thumb_ep022b",
  "size": [
   1920,
   1080
  ],
  "images": {
-  "B_flame": "Cinematic, highly detailed, dramatic low-key lighting, deep black shadows, warm golden light, film grain, spiritual and mysterious mood. The main subject sits in the left half of the frame; the right half falls off into near-black darkness. No text, no letters, no numbers, no watermark, no logo, no symbols. Two weathered cupped hands of a man in a worn wool coat sleeve, holding a small steady golden flame in deep darkness, the flame lighting the hands and a few drifting embers, a faint winter mist around, close up, emotional and reverent.",
-  "B_flame2": "Cinematic, highly detailed, dramatic low-key lighting, deep black shadows, warm golden light, film grain, spiritual and mysterious mood. The main subject sits in the left half of the frame; the right half falls off into near-black darkness. No text, no letters, no numbers, no watermark, no logo, no symbols. A gaunt man in a worn 1940s wool coat seen in three-quarter profile in darkness, eyes closed, holding a small glowing flame close to his chest with both hands, warm golden light on his face and hands, snow flakes drifting, dignified and calm."
+  "C_bigflame": "Cinematic, highly detailed, dramatic low-key lighting, deep black shadows, warm golden light, film grain, spiritual and emotional mood. The main subject is large and placed in the left 45 percent of the frame; the right half falls off into near-black darkness for text. No text, no letters, no numbers, no watermark, no logo, no symbols. Close up of two weathered cupped hands held at chest height, cradling a large bright golden flame that clearly glows and lights the hands, the fingers and a worn wool coat sleeve, sparks and embers rising, the flame is the brightest point of the image, everything else dark.",
+  "D_innerlight": "Cinematic, highly detailed, dramatic low-key lighting, deep black shadows, warm golden light, film grain, spiritual and emotional mood. The main subject is large and placed in the left 45 percent of the frame; the right half falls off into near-black darkness for text. No text, no letters, no numbers, no watermark, no logo, no symbols. A thin man in a worn 1940s wool coat standing alone in an empty snowy yard at night, seen from the front at waist height, a warm golden light glowing from inside his chest through the coat like an inner flame, snow falling, dignified and calm face, eyes closed.",
+  "E_sprout": "Cinematic, highly detailed, dramatic low-key lighting, deep black shadows, warm golden light, film grain, spiritual and emotional mood. The main subject is large and placed in the left 45 percent of the frame; the right half falls off into near-black darkness for text. No text, no letters, no numbers, no watermark, no logo, no symbols. A single small green sprout growing out of cracked frozen gray ground covered with frost and barbed wire shadows, lit by a warm ray of golden light from above, extreme close up, macro, hope surviving in the harshest place."
  }
 }

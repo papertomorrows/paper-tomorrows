@@ -100,7 +100,7 @@ jobs:
       - name: Show run logs
         if: always()
         run: |
-          for f in log_*.txt; do [ -f "$f" ] || continue; echo "== $f"; grep -aE "STEP|FAILED|OK|Error" "$f" | tail -60; tail -15 "$f"; done
+          for f in log_*.txt; do [ -f "$f" ] || continue; echo "== $f"; grep -aE "STEP|FAILED|OK|Error|PICK" "$f" | tail -200; tail -15 "$f"; done
       - name: Report error
         if: failure()
         run: |

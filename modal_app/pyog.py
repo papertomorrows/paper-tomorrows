@@ -86,6 +86,9 @@ def fallback_image(prompt: str, seed: int) -> bytes:
     return requests.get(res["images"][0]["url"], timeout=120).content
 
 
+TAGMAP = {}
+
+
 def parse_script(md: str):
     sections = []
     for block in re.split(r"<!--\s*section:", md)[1:]:
@@ -311,7 +314,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                                 "carpentry", "carpenter", "woodwork", "woodworking", "lava", "ruler", "measure", "measuring", "tool", "tools",
                                 "dinosaur", "dino", "jurassic", "prehistoric", "trex", "monster", "dragon", "cartoon", "animation",
                                 "illustration", "clipart", "vector", "infographic", "skeleton", "toy", "toys", "robot", "lingerie", "underwear", "bra", "animated",
-                                "moose", "elk", "antler", "bearing", "gasket", "lens", "3d", "render", "rendering", "skyscraper", "petronas", "malaysia", "kuala", "clock", "alarm"]
+                                "moose", "elk", "antler", "bearing", "gasket", "lens", "3d", "render", "rendering", "skyscraper", "petronas", "malaysia", "kuala", "clock", "alarm",
+                                "deer", "stag", "buck", "reindeer", "caribou", "wildlife", "mammal", "fauna", "bison", "bull"]
                         if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
                             continue
                         if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):
@@ -326,6 +330,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     if v and v.get("url") and h["duration"] >= clip_s + 2 and v.get("width", 1920) >= 1280:
                         hits.append((h["id"], v["url"], kw))
                         credits[h["id"]] = h.get("pageURL", f"https://pixabay.com/videos/id-{h['id']}/")
+                        TAGMAP[h["id"]] = tags
             except Exception as exc:
                 print(f"PIXABAY FAILED '{kw}': {str(exc)[:200]}")
             lists.append(hits)
@@ -353,6 +358,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         continue
                     picked.append(f)
                     picked_ids.append(cid)
+                    print(f"PICK {sec['name']} {cid} [{kw}] {TAGMAP.get(cid, '')[:80]}")
             depth += 1
         own = []
         for k, item in enumerate(sec["ai"]):  # the channel's own images (always paid, a few per video)

@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh63_einstein",
+ "status": "ready-ep023",
+ "hook": "아인슈타인이 친구를 잃고|남긴 한 문장",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "1955년, 아인슈타인은 평생의 친구 베소를 잃어요.",
+    "caption": "1955년, 아인슈타인은 평생의 친구 베소를 잃어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 그의 가족에게 이런 편지를 써요. 그가 이 이상한 세상을 나보다 조금 먼저 떠났을 뿐이라고.",
+    "caption": "그리고 그의 가족에게 이런 편지를 써요. 그가 이 이상한 세상을 나보다 조금 먼저 떠났을 뿐이라고."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "과거와 현재와 미래의 구분은, 끈질기게 계속되는 환상일 뿐이라고요.",
+    "caption": "과거와 현재와 미래의 구분은, 끈질기게 계속되는 환상일 뿐이라고요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "한 달 뒤, 아인슈타인도 세상을 떠나요.",
+    "caption": "한 달 뒤, 아인슈타인도 세상을 떠나요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어쩌면 그는 이렇게 말하고 싶었는지도 몰라요. 떠난 사람은 사라진 게 아니라고. 우리가 아직 다음 장을 읽고 있을 뿐이라고.",
+    "caption": "어쩌면 그는 이렇게 말하고 싶었는지도 몰라요. 떠난 사람은 사라진 게 아니라고. 우리가 아직 다음 장을 읽고 있을 뿐이라고."
+   }
+  ],
+  "images": [
+   "an elderly man's wrinkled hand writing a letter with a fountain pen at a wooden desk in 1955, warm lamp light, spring blossoms in the window, no face",
+   "an old faded photograph of two young men in 1900s suits side by side on a desk next to a letter, faces softly blurred, nostalgic",
+   "two old friends walking side by side into a golden sunset, seen from behind, one slowly becoming translucent light",
+   "an open book glowing by a window at dawn, a breeze turning to the next page, hopeful"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "the two friends keep walking into the golden light"
+   }
+  ]
+ }
+}

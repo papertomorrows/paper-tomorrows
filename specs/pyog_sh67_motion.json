@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh67_motion",
+ "status": "ready-ep023",
+ "hook": "움직임이 멈추면|시간도 사라진다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리가 시간을 느끼는 건, 모든 것이 끊임없이 움직이기 때문이에요.",
+    "caption": "우리가 시간을 느끼는 건, 모든 것이 끊임없이 움직이기 때문이에요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "해가 뜨고 지고, 꽃이 피고 지고, 심장이 뛰고, 숨이 들어왔다 나가요.",
+    "caption": "해가 뜨고 지고, 꽃이 피고 지고, 심장이 뛰고, 숨이 들어왔다 나가요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아리스토텔레스는 말했어요. 시간은 움직임을 세는 것이라고.",
+    "caption": "아리스토텔레스는 말했어요. 시간은 움직임을 세는 것이라고."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그렇다면 생각마저 완전히 멈춘다면요? 그곳에는 앞도 뒤도 없어요.",
+    "caption": "그렇다면 생각마저 완전히 멈춘다면요? 그곳에는 앞도 뒤도 없어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "깊은 명상 속에서 몇십 분이 몇 초처럼 사라지는 건, 어쩌면 시간 밖을 잠깐 다녀온 거예요.",
+    "caption": "깊은 명상 속에서 몇십 분이 몇 초처럼 사라지는 건, 어쩌면 시간 밖을 잠깐 다녀온 거예요."
+   }
+  ],
+  "images": [
+   "a flower blooming with the sun rising and setting behind it, time as movement",
+   "a slow heartbeat glow inside a calm human silhouette breathing in soft light",
+   "a person meditating in perfect stillness on a mountain top while clouds and sun freeze in the sky, serene",
+   "a human silhouette dissolving into a calm sea of stars, timeless"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "everything stays still except a faint glow slowly growing around the person"
+   }
+  ]
+ }
+}

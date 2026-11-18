@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh65_talent",
+ "status": "ready-ep023",
+ "hook": "타고난 재능은|다른 생에서 왔다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어릴 때부터 이유 없이 음악에 끌리고, 숫자가 유난히 쉽고, 영적인 감각이 일찍 열리는 사람들이 있죠.",
+    "caption": "어릴 때부터 이유 없이 음악에 끌리고, 숫자가 유난히 쉽고, 영적인 감각이 일찍 열리는 사람들이 있죠."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어떤 영적 스승들은 말해요. 모든 생은 줄지어 오는 게 아니라, 동시에 펼쳐져 서로 이어져 있다고.",
+    "caption": "어떤 영적 스승들은 말해요. 모든 생은 줄지어 오는 게 아니라, 동시에 펼쳐져 서로 이어져 있다고."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이번 생과 특히 가깝게 이어진 다른 생에서 오래 익혀 온 것이, 타고난 재능처럼 나타난다고요.",
+    "caption": "이번 생과 특히 가깝게 이어진 다른 생에서 오래 익혀 온 것이, 타고난 재능처럼 나타난다고요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 지금 새로 시작해서 갈고닦는 실력도, 결코 헛되지 않아요.",
+    "caption": "그러니 지금 새로 시작해서 갈고닦는 실력도, 결코 헛되지 않아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "연결된 다른 생의 나는, 그걸 재능처럼 가지고 시작할지도 몰라요.",
+    "caption": "연결된 다른 생의 나는, 그걸 재능처럼 가지고 시작할지도 몰라요."
+   }
+  ],
+  "images": [
+   "a small child playing a grand piano with closed eyes, a faint transparent image of an older musician from another era overlapping behind like a memory, warm light",
+   "a tall cosmic bookshelf floating in space filled with glowing books connected by fine golden threads",
+   "a young girl solving math on a chalkboard with ease, glowing golden numbers floating around her, warm light",
+   "an adult beginner practicing violin alone in a sunlit room, focused and joyful"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the ghostly image of the older musician slowly fades in and out behind the child"
+   }
+  ]
+ }
+}

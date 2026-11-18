@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh66_late",
+ "status": "ready-ep023",
+ "hook": "늦었다는 건|누구의 시계일까",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이미 늦었다. 이 나이에 무슨. 이런 생각, 해 본 적 있으세요?",
+    "caption": "이미 늦었다. 이 나이에 무슨. 이런 생각, 해 본 적 있으세요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데 GPS 위성의 시계는 땅 위보다 하루에 38마이크로초씩 빨리 가요. 모두에게 똑같이 흐르는 시간은 없는 거예요.",
+    "caption": "그런데 GPS 위성의 시계는 땅 위보다 하루에 38마이크로초씩 빨리 가요. 모두에게 똑같이 흐르는 시간은 없는 거예요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그렇다면 남들보다 늦은 인생도 없어요. 각자의 시계가 있을 뿐이에요.",
+    "caption": "그렇다면 남들보다 늦은 인생도 없어요. 각자의 시계가 있을 뿐이에요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "화가 그랜마 모지스는 일흔이 넘어 본격적으로 그림을 시작했어요.",
+    "caption": "화가 그랜마 모지스는 일흔이 넘어 본격적으로 그림을 시작했어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "늦었다는 생각이 들 때 물어보세요. 나는 지금, 누구의 시계로 내 삶을 재고 있지?",
+    "caption": "늦었다는 생각이 들 때 물어보세요. 나는 지금, 누구의 시계로 내 삶을 재고 있지?"
+   }
+  ],
+  "images": [
+   "a gps satellite orbiting above the glowing blue earth with a faint golden clock overlay",
+   "many different antique clocks floating in the air each showing a different time, surreal, warm light",
+   "an elderly woman in her seventies painting a colorful country landscape in a sunny farmhouse room, joyful",
+   "a person standing at the start of a sunlit path in the morning, looking forward, hopeful"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "her brush moves across the canvas"
+   }
+  ]
+ }
+}

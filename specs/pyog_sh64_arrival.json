@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh64_arrival",
+ "status": "ready-ep023",
+ "hook": "결말을 알면서도|그 삶을 선택했다",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "영화 컨택트의 언어학자 루이스는, 시간을 원처럼 보는 외계의 언어를 배우며 미래를 보게 돼요.",
+    "caption": "영화 컨택트의 언어학자 루이스는, 시간을 원처럼 보는 외계의 언어를 배우며 미래를 보게 돼요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "사랑하는 딸이 태어나는 눈부신 날들, 그리고 그 딸을 일찍 떠나보내야 하는 날까지요.",
+    "caption": "사랑하는 딸이 태어나는 눈부신 날들, 그리고 그 딸을 일찍 떠나보내야 하는 날까지요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 모든 슬픔을 알면서도, 그녀는 그 삶을 선택해요.",
+    "caption": "그 모든 슬픔을 알면서도, 그녀는 그 삶을 선택해요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어쩌면 이게 영혼이 지구에서 원하는 경험이에요. 너무 사랑해서, 그 사랑에서 생겨나는 아픔까지 사랑하는 것.",
+    "caption": "어쩌면 이게 영혼이 지구에서 원하는 경험이에요. 너무 사랑해서, 그 사랑에서 생겨나는 아픔까지 사랑하는 것."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "결말을 알아도, 직접 살아 내는 삶은 진짜예요.",
+    "caption": "결말을 알아도, 직접 살아 내는 삶은 진짜예요."
+   }
+  ],
+  "images": [
+   "black ink spreading in a perfect circle on a glowing white surface forming an intricate circular symbol with no beginning and no end, mystical",
+   "a mother and a small daughter laughing together on a lakeside at golden hour, seen from behind, tender",
+   "a mother holding the hand of a young daughter in a sunlit room, bittersweet farewell feeling, soft light",
+   "a luminous soul figure of golden light holding an open book of a human life, looking at all its pages at once, cosmic"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the girl runs along the lakeside and the mother follows"
+   }
+  ]
+ }
+}

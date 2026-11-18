@@ -310,7 +310,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                                 "plug", "socket", "outlet", "electric", "electricity", "power", "origami", "airplane", "plane",
                                 "carpentry", "carpenter", "woodwork", "woodworking", "lava", "ruler", "measure", "measuring", "tool", "tools",
                                 "dinosaur", "dino", "jurassic", "prehistoric", "trex", "monster", "dragon", "cartoon", "animation",
-                                "illustration", "clipart", "vector", "infographic", "skeleton", "toy", "toys", "robot", "lingerie", "underwear", "bra", "animated"]
+                                "illustration", "clipart", "vector", "infographic", "skeleton", "toy", "toys", "robot", "lingerie", "underwear", "bra", "animated",
+                                "moose", "elk", "antler", "bearing", "gasket", "lens", "3d", "render", "rendering", "skyscraper", "petronas", "malaysia", "kuala", "clock", "alarm"]
                         if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
                             continue
                         if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):

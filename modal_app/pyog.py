@@ -330,7 +330,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                                 "illustration", "clipart", "vector", "infographic", "skeleton", "toy", "toys", "robot", "lingerie", "underwear", "bra", "animated",
                                 "moose", "elk", "antler", "bearing", "gasket", "lens", "3d", "render", "rendering", "skyscraper", "petronas", "malaysia", "kuala", "clock", "alarm",
                                 "deer", "stag", "buck", "reindeer", "caribou", "wildlife", "mammal", "fauna", "bison", "bull",
-                                "jewelry", "jewellery", "ring", "rings", "diamond", "diamonds", "gem", "gems", "gemstone", "gemstones", "tiara", "crown", "cartier", "luxury", "product", "advertising", "advertisement", "commercial", "hospital", "clinic", "medical", "icu", "ecg", "nurse", "covid", "mask", "carousel", "fair", "amusement", "rooster", "hen", "chicken", "poultry", "easter island", "moai", "toothbrush"]
+                                "jewelry", "jewellery", "ring", "rings", "diamond", "diamonds", "gem", "gems", "gemstone", "gemstones", "tiara", "crown", "cartier", "luxury", "product", "advertising", "advertisement", "commercial", "hospital", "clinic", "medical", "icu", "ecg", "nurse", "covid", "mask", "carousel", "fair", "amusement", "rooster", "hen", "chicken", "poultry", "easter island", "moai", "toothbrush", "chick", "dancer", "disco", "club", "soccer", "football", "venice", "castle", "palace", "classroom", "school", "students", "maid", "cleaner", "fishing", "carp", "model"]
                         if any(re.search(r"\b" + w + r"s?\b", tags) and w not in kl for w in offt):
                             continue
                         if re.search(r"\b(woman|man|people|person|girl|silhouette|dancer|crowd|family|monk)\b", kl):
@@ -472,9 +472,25 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         cols = 10
         rows = max(1, (n + cols - 1) // cols)
         sheet = work / "preview.jpg"
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", "1", "-i", str(pvdir / "pv_%04d.jpg"),
-                        "-vf", f"tile={cols}x{rows}:padding=4:color=black", "-frames:v", "1", "-q:v", "4", str(sheet)],
-                       timeout=300)
+        frames = [pvdir / f"pv_{k:04d}.jpg" for k in range(1, n + 1)]
+        blank = pvdir / "blank.jpg"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "color=c=black:s=320x180",
+                        "-frames:v", "1", str(blank)], timeout=60)
+        frames += [blank] * (rows * cols - n)
+        row_files = []
+        for r in range(rows):  # explicit hstack per row, then vstack (tile filter dropped frames on Modal)
+            rf = pvdir / f"row_{r:02d}.jpg"
+            ins = []
+            for fr_ in frames[r * cols:(r + 1) * cols]:
+                ins += ["-i", str(fr_)]
+            subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + ["-filter_complex", f"hstack=inputs={cols}",
+                            "-frames:v", "1", str(rf)], timeout=120)
+            row_files.append(rf)
+        ins = []
+        for rf in row_files:
+            ins += ["-i", str(rf)]
+        subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + (["-filter_complex", f"vstack=inputs={rows}"]
+                       if rows > 1 else []) + ["-frames:v", "1", "-q:v", "4", str(sheet)], timeout=300)
         CACHE.commit()
         return {"preview": sheet.read_bytes() if sheet.exists() else b"", "picks": "\n".join(lines)}
     for sec in sections:  # spread extra painted scenes between the moving shots

@@ -13,7 +13,7 @@
 
 그 순간, 꽉 막혀 있던 무언가가 열리기 시작해요.
 
-<!-- section: jung | visuals: old library bookshelf, old books stack, vintage portrait office, lake zurich, swiss lake mountains, sunrise over water | title: 풀리지 않던 환자 | ai: a woman sitting alone behind a wall of glass covered in written formulas, light cracking through the glass, symbolic, cinematic >> cracks of light spread across the glass -->
+<!-- section: jung | visuals: old library bookshelf, old books stack, lake zurich, swiss lake mountains, sunrise over water | title: 풀리지 않던 환자 | ai: a woman sitting alone behind a wall of glass covered in written formulas, light cracking through the glass, symbolic, cinematic >> cracks of light spread across the glass -->
 칼 융은 한때 프로이트의 후계자로 불렸던, 20세기의 가장 유명한 정신의학자 중 한 사람이에요.
 
 그런데 이 여성은, 융에게도 쉽지 않은 환자였어요. 많이 배우고 똑똑한 사람이었지만, 모든 걸 머리로만 따지고 이성으로만 설명하려 했대요. 이미 두 명의 의사를 거쳐 왔고, 융과의 치료도 제자리를 맴돌고 있었어요.
@@ -83,7 +83,7 @@
 
 그래서 동시성을 잘 느끼고 싶다면, 신호를 찾기 전에 먼저 내 마음의 창을 맑게 닦는 게 시작이에요.
 
-<!-- section: window | visuals: breathing meditation, woman meditating, bus window city, eating meal slowly, walking barefoot grass, wind grass field, journal writing, cleaning window | title: 마음의 창 닦기 | ai: a person sitting on a bus by the window with eyes closed, breathing calmly, soft city lights passing, cinematic; bare feet walking slowly on morning grass with dew, close up, warm sunlight, cinematic >> the feet step slowly forward -->
+<!-- section: window | visuals: breathing meditation, woman meditating, bus window rain, eating meal slowly, walking barefoot grass, wind grass field, journal writing, woman sad beach | title: 마음의 창 닦기 | ai: a person sitting on a bus by the window with eyes closed, breathing calmly, soft city lights passing, cinematic; bare feet walking slowly on morning grass with dew, close up, warm sunlight, cinematic >> the feet step slowly forward -->
 그럼 그 창은 어떻게 닦을 수 있을까요.
 
 먼저, 매일 잠시라도 숨을 깊게 쉬며 그저 바라보는 시간을 가져요. 길 필요는 없어요. 출근길 버스 안이든, 잠들기 전 침대 위든, 숨이 들어오고 나가는 걸 느끼면서 지금 떠오르는 생각과 감정을 고치려 하지 않고 지켜보는 거예요. 하루 종일 바깥으로만 향해 있던 눈을, 잠시 안으로 돌려 주는 시간이에요.
@@ -117,7 +117,7 @@
 
 그럴 땐 해석을 잠시 멈추고, 먼저 쉬어 주는 게 좋아요. 잠을 푹 자고, 숨을 고르고, 마음이 다시 잔잔해진 뒤에도 그 끌림이 조용히 남아 있다면, 그때 다시 바라봐도 늦지 않아요. 진짜 신호는 재촉하지 않고, 기다려 주거든요.
 
-<!-- section: guide2 | visuals: woman writing notebook, question thinking window, person walking alone beach, letting go balloon, open hands sky | title: 좋은 질문을 품기 | ai: a person releasing a small glowing lantern with a question written in light into the night sky, peaceful, cinematic, no readable text >> the lantern slowly floats upward -->
+<!-- section: guide2 | visuals: woman writing journal, woman thinking window, man walking beach alone, sky lanterns night, lantern release sky, hands releasing bird, open hands sky, woman looking sky | title: 좋은 질문을 품기 | ai: a person releasing a small glowing lantern with a question written in light into the night sky, peaceful, cinematic, no readable text >> the lantern slowly floats upward -->
 두 번째로, 그들은 좋은 질문을 품고 살아요.
 
 동시성은 늘 질문에 대한 대답처럼 찾아와요. 그 여성이 막혀 있던 그 시점에 풍뎅이가 날아온 것처럼요.
@@ -146,7 +146,7 @@
 
 그렇게 한 걸음 응답하면, 놀랍게도 그 걸음 끝에서 또 다른 우연이 기다리고 있는 경우가 많아요. 그렇게 우연과 우연이 이어지며, 삶이 조금씩 새 방향으로 열려요.
 
-<!-- section: guide5 | visuals: journal writing desk, notebook pen night, old diary pages, map path drawn, person walking with friend sunset | title: 기록하기 | ai: an open journal on a desk at night, glowing dots on its pages connected by golden lines into one path, warm lamp, cinematic, no readable text -->
+<!-- section: guide5 | visuals: writing journal desk, diary writing pen, notebook writing hand, journal pages, woman writing notebook, old diary, desk lamp night writing, couple walking sunset | title: 기록하기 | ai: an open journal on a desk at night, glowing dots on its pages connected by golden lines into one path, warm lamp, cinematic, no readable text -->
 그리고 마지막으로, 그들은 기록해요.
 
 신기한 우연을 만나면, 그날 내 마음에 무엇이 있었는지, 무슨 일이 일어났는지, 그때 몸과 마음이 어떻게 반응했는지를 짧게 적어 두는 거예요.

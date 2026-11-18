@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh68_scarab",
+ "status": "ready-ep024-shorts",
+ "hook": "창문을 두드린|풍뎅이 한 마리",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "정신과 의사 칼 융 앞에서, 한 여성이 황금 풍뎅이를 선물 받는 꿈 이야기를 하고 있었어요.",
+    "caption": "정신과 의사 칼 융 앞에서, 한 여성이 황금 풍뎅이를 선물 받는 꿈 이야기를 하고 있었어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "바로 그때, 누군가 창문을 톡톡 두드려요. 융이 창문을 열자, 풍뎅이를 꼭 닮은 딱정벌레 한 마리가 날아 들어와요.",
+    "caption": "바로 그때, 누군가 창문을 톡톡 두드려요. 융이 창문을 열자, 풍뎅이를 꼭 닮은 딱정벌레 한 마리가 날아 들어와요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "모든 걸 머리로만 따지던 그녀의 마음에, 그 순간 금이 가기 시작했어요. 풍뎅이는 다시 태어남의 상징이었거든요.",
+    "caption": "모든 걸 머리로만 따지던 그녀의 마음에, 그 순간 금이 가기 시작했어요. 풍뎅이는 다시 태어남의 상징이었거든요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "융은 이런 일을 동시성이라고 불렀어요. 마음속의 일과 바깥의 일이, 의미로 딱 맞아떨어지는 순간이요.",
+    "caption": "융은 이런 일을 동시성이라고 불렀어요. 마음속의 일과 바깥의 일이, 의미로 딱 맞아떨어지는 순간이요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "요즘 당신의 창문을 두드린 우연은 무엇인가요?",
+    "caption": "요즘 당신의 창문을 두드린 우연은 무엇인가요?"
+   }
+  ],
+  "images": [
+   "a young woman in 1920s clothing talking in a dim wood-paneled study, an elderly doctor seen from behind listening, a tall curtained window, warm lamp light",
+   "a shimmering gold and green beetle tapping against a window pane at dusk, seen from inside, warm interior glow, macro",
+   "a man's hand gently holding a shimmering gold-green beetle, offering it toward a woman's open palm, soft window light, faces not visible",
+   "a radiant golden scarab of light rising over the horizon like a sunrise, symbol of rebirth, mystical"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the beetle taps on the glass"
+   }
+  ]
+ }
+}

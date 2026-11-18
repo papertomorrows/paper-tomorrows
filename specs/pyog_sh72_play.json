@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh72_play",
+ "status": "ready-ep024-shorts",
+ "hook": "반드시 해야 할 건|사실 없어요",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "삶에는 반드시 해야 하는 것도, 반드시 하지 말아야 하는 것도 사실은 없어요.",
+    "caption": "삶에는 반드시 해야 하는 것도, 반드시 하지 말아야 하는 것도 사실은 없어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "영혼마다 경험하고 싶은 것이 있고 소명도 있겠지만, 그보다 위에 있는 진실은 우리가 결국 존재하는 모든 것이라는 거예요.",
+    "caption": "영혼마다 경험하고 싶은 것이 있고 소명도 있겠지만, 그보다 위에 있는 진실은 우리가 결국 존재하는 모든 것이라는 거예요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이름 붙이기 전의 에너지, 우주 그 자체요. 그래서 어떤 길로 돌아가든, 가는 곳은 결국 같아요.",
+    "caption": "이름 붙이기 전의 에너지, 우주 그 자체요. 그래서 어떤 길로 돌아가든, 가는 곳은 결국 같아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그렇게 보면 모든 경험은 놀이예요. 심각하고 엄청나게 느껴지지만, 동시에 아주 가볍고, 결국엔 아무것도 아니에요.",
+    "caption": "그렇게 보면 모든 경험은 놀이예요. 심각하고 엄청나게 느껴지지만, 동시에 아주 가볍고, 결국엔 아무것도 아니에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘 하루도, 놀이하듯 한번 해 보는 거예요.",
+    "caption": "오늘 하루도, 놀이하듯 한번 해 보는 거예요."
+   }
+  ],
+  "images": [
+   "a human silhouette dissolving into a sea of stars, becoming one with the universe, serene",
+   "many winding paths of light across a vast landscape all converging into one radiant point on the horizon",
+   "a child laughing and playing in a field of floating golden light particles at sunset, joyful",
+   "a person lying on a hill laughing lightly under a vast galaxy sky, carefree"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "stars slowly swirl around the silhouette"
+   }
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh71_root",
+ "status": "ready-ep024-shorts",
+ "hook": "감정이 올라올 때|왜를 따라가 보세요",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "맑은 마음이란 감정이 없는 마음이 아니에요. 화도 나고, 서운할 수 있어요.",
+    "caption": "맑은 마음이란 감정이 없는 마음이 아니에요. 화도 나고, 서운할 수 있어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "중요한 건 그 감정을 피하지도 내버려 두지도 않고, 순수한 궁금함으로 계속 묻는 거예요.",
+    "caption": "중요한 건 그 감정을 피하지도 내버려 두지도 않고, 순수한 궁금함으로 계속 묻는 거예요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "나는 왜 이 말에 화가 났을까. 무시당했다고 느껴서. 그럼 왜 그게 이렇게 아플까. 어릴 때 내 말이 늘 묻혀 버렸던 기억 때문에.",
+    "caption": "나는 왜 이 말에 화가 났을까. 무시당했다고 느껴서. 그럼 왜 그게 이렇게 아플까. 어릴 때 내 말이 늘 묻혀 버렸던 기억 때문에."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "뿌리가 보이면, 치유할 건 돌보고, 간직할 건 간직하고, 보낼 건 고맙다고 하며 보내 주면 돼요.",
+    "caption": "뿌리가 보이면, 치유할 건 돌보고, 간직할 건 간직하고, 보낼 건 고맙다고 하며 보내 주면 돼요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "매일 쌓이는 먼지를 닦듯 이 정화를 이어 가면, 마음의 창은 점점 맑아져요.",
+    "caption": "매일 쌓이는 먼지를 닦듯 이 정화를 이어 가면, 마음의 창은 점점 맑아져요."
+   }
+  ],
+  "images": [
+   "a person sitting with eyes closed while soft storm clouds of emotion swirl gently around them",
+   "glowing tree roots deep underground leading down to a small warm light holding the memory of a little child",
+   "two hands gently cupping a warm healing light against the chest",
+   "a hand wiping a dusty window clean, bright morning light pouring through the cleared glass"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "light travels slowly down the roots"
+   }
+  ]
+ }
+}

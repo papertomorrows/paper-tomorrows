@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh69_signal",
+ "status": "ready-ep024-shorts",
+ "hook": "그 우연은 신호일까|불안일까",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "신기한 우연을 만났을 때, 이게 신호인지 그냥 내 생각인지 헷갈린 적 있으세요?",
+    "caption": "신기한 우연을 만났을 때, 이게 신호인지 그냥 내 생각인지 헷갈린 적 있으세요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "진짜 신호를 만나면 설레면서도 이상하게 차분해요. 숨이 깊어지고, 어깨에 힘이 스르르 빠지죠.",
+    "caption": "진짜 신호를 만나면 설레면서도 이상하게 차분해요. 숨이 깊어지고, 어깨에 힘이 스르르 빠지죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "반대로 지금 안 하면 놓칠 것 같아 쫓기고, 자꾸 확인하고 싶어진다면, 그건 불안이 신호의 옷을 입고 찾아온 거예요.",
+    "caption": "반대로 지금 안 하면 놓칠 것 같아 쫓기고, 자꾸 확인하고 싶어진다면, 그건 불안이 신호의 옷을 입고 찾아온 거예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그럴 땐 해석을 멈추고 먼저 쉬어 주세요. 마음이 잔잔해진 뒤에도 그 끌림이 남아 있다면, 그때 따라가도 늦지 않아요.",
+    "caption": "그럴 땐 해석을 멈추고 먼저 쉬어 주세요. 마음이 잔잔해진 뒤에도 그 끌림이 남아 있다면, 그때 따라가도 늦지 않아요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "진짜 신호는 재촉하지 않고, 기다려 주거든요.",
+    "caption": "진짜 신호는 재촉하지 않고, 기다려 주거든요."
+   }
+  ],
+  "images": [
+   "a woman in a cozy cafe gazing at a painting on the wall with quiet wonder, warm afternoon light",
+   "a woman by a sunlit window taking a slow deep breath, shoulders relaxed, a soft glow in her chest",
+   "a person lying awake at night with glowing numbers and symbols swirling anxiously around their head",
+   "a gentle glowing path of light patiently waiting in a quiet moonlit forest"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "she breathes slowly as the light brightens"
+   }
+  ]
+ }
+}

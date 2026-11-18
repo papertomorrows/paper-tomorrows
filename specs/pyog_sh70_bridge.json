@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh70_bridge",
+ "status": "ready-ep024-shorts",
+ "hook": "같은 장면이|자꾸 보인다면",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이직을 고민하던 사람이 일주일 사이에 다리를 세 번 마주쳤어요. 사진 속 다리, 친구가 보낸 다리 풍경, 그리고 꿈속의 다리.",
+    "caption": "이직을 고민하던 사람이 일주일 사이에 다리를 세 번 마주쳤어요. 사진 속 다리, 친구가 보낸 다리 풍경, 그리고 꿈속의 다리."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이걸 이직하라는 명령으로 읽을 필요는 없어요.",
+    "caption": "이걸 이직하라는 명령으로 읽을 필요는 없어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "대신 이렇게 물어보는 거예요. 나는 지금 어디에서 어디로 건너가고 있지. 무엇을 뒤에 두고, 무엇을 향해 가고 있지.",
+    "caption": "대신 이렇게 물어보는 거예요. 나는 지금 어디에서 어디로 건너가고 있지. 무엇을 뒤에 두고, 무엇을 향해 가고 있지."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "융이 풍뎅이를 다시 태어남의 상징으로 읽었듯이, 우연은 상징으로 말을 걸어요.",
+    "caption": "융이 풍뎅이를 다시 태어남의 상징으로 읽었듯이, 우연은 상징으로 말을 걸어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "동시성은 정답이 아니라, 내가 미처 보지 못한 내 마음을 비춰 주는 거울이에요.",
+    "caption": "동시성은 정답이 아니라, 내가 미처 보지 못한 내 마음을 비춰 주는 거울이에요."
+   }
+  ],
+  "images": [
+   "an old stone bridge over a misty river at dawn, a lone person standing at its start",
+   "a person walking across a bridge made of soft light above the clouds in a dream, golden dusk",
+   "a person standing between two shores, looking back at an old dim town and forward to a bright new horizon",
+   "a still lake reflecting a glowing inner landscape of the person standing at its shore, symbolic"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the person slowly walks across the bridge of light"
+   }
+  ]
+ }
+}

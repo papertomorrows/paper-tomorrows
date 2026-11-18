@@ -1,0 +1,24 @@
+{
+ "id": "pyog_ep023",
+ "script": "pyog/ep023_time.md",
+ "voice_id": "Korean_IntellectualMan",
+ "seed": 231,
+ "brand_mark": true,
+ "mark_text": "당신만의 게임",
+ "kicker_text": "당신만의 게임",
+ "status": "ready-ep023",
+ "music": "outputs/shorts/pyog_test1/music.mp3",
+ "speed": 1.14,
+ "captions": true,
+ "min_luma": 28,
+ "max_ai_fallbacks": 3,
+ "sentence_gap": 0.2,
+ "para_gap": 0.55,
+ "section_gap": 0.6,
+ "tag_match": 2,
+ "strict_topic": true,
+ "fresh_before": 1794984188.4547057,
+ "ban_ids": [
+  328167
+ ]
+}

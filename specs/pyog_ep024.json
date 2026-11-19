@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep024-preview5",
+ "status": "ready-ep024-full",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -102,6 +102,5 @@
    "outputs/shorts/pyog_sh72_play/img_02.jpg",
    "outputs/shorts/pyog_sh72_play/img_03.jpg"
   ]
- },
- "preview": true
+ }
 }

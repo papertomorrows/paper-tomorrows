@@ -97,7 +97,7 @@
 
 목표를 잘 이루는 사람들은 의지력이 특별히 강한 사람들이 아니에요. 고민할 일을 줄이고, 지금을 사는 사람들이에요.
 
-<!-- section: guide1 | visuals: subway station people, gym entrance, gym bag, laptop desk lamp, washing dishes kitchen | title: 이미 하는 일에 붙이기 | ai: a person stepping off a subway train and walking straight toward a lit gym entrance in the evening, cinematic >> they walk forward with purpose; a packed gym bag placed by the front door at night, cozy apartment, cinematic -->
+<!-- section: guide1 | visuals: subway station people, gym bag, laptop desk lamp, washing dishes kitchen, subway train commute | title: 이미 하는 일에 붙이기 | ai: a person stepping off a subway train and walking straight toward a lit gym entrance in the evening, cinematic >> they walk forward with purpose; a packed gym bag placed by the front door at night, cozy apartment, cinematic -->
 그렇다면 생각을 줄이고 행동하는 사람들은, 실제로 어떻게 살고 있을까요.
 
 첫 번째로, 그들은 할 일을 이미 하고 있는 일에 붙여 둬요.

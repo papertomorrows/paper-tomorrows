@@ -22,7 +22,7 @@
 
 우리가 정말 이루고 싶은 일일수록, 이런 날이 더 많아요. 중요한 일이라서 더 많이 생각하고, 더 많이 생각해서 더 무거워지는 거예요.
 
-<!-- section: decision | visuals: business suit closet, businessman tie suit, wardrobe clothes hanging, tired businessman, man thinking office | title: 결정 피로 | ai: a wardrobe with identical grey and navy suits hanging neatly in a row, soft morning light, cinematic -->
+<!-- section: decision | visuals: businessman, office worker, man office desk, business meeting, woman office, man tie, tired businessman, man thinking office | title: 결정 피로 | ai: a wardrobe with identical grey and navy suits hanging neatly in a row, soft morning light, cinematic; a man in a suit calmly taking a grey suit from a closet of identical suits in the morning, no hesitation, cinematic; a tired office worker at a desk surrounded by many small floating paper notes, each a tiny decision, symbolic, soft light, cinematic -->
 이런 현상을 흔히 결정 피로라고 불러요. 하루에 너무 많은 걸 고르고 판단하다 보면, 뒤로 갈수록 좋은 결정을 내리기 어려워진다는 생각이에요.
 
 버락 오바마는 대통령 시절, 회색과 남색 정장만 입었다고 해요. 먹을 것과 입을 것까지 고민하고 싶지 않다고, 결정해야 할 더 중요한 일이 너무 많다고 말했죠.
@@ -68,7 +68,7 @@
 
 걸어 보면 길이 보여요. 생각보다 재밌어서 더 깊이 들어가게 되기도 하고, 해 보니 아니라서 방향을 틀게 되기도 하죠. 어느 쪽이든, 몇 달 동안 고민만 한 것보다 훨씬 많은 걸 알게 돼요.
 
-<!-- section: body | visuals: woman sleeping bed, tea cup rain window, woman resting blanket, cozy bedroom morning, man sleeping | title: 몸의 소리 | ai: a person resting on a sofa under a soft blanket with a cup of tea beside a rainy window, peaceful, cinematic >> rain streams gently down the window -->
+<!-- section: body | visuals: woman bed, sleeping, woman sleeping, bedroom, rest, blanket, rain window, woman tea, man bed | title: 몸의 소리 | ai: a person resting on a sofa under a soft blanket with a cup of tea beside a rainy window, peaceful, cinematic >> rain streams gently down the window; a person lying in bed in the morning with a hand on their forehead, quietly listening to their body, soft window light, cinematic; a person sitting on the edge of a bed at dusk with eyes closed, calmly sensing how their body feels, cinematic -->
 그렇다고 무슨 일이 있어도 무조건 해야 한다는 뜻은 아니에요.
 
 몸이 정말 안 좋은 날이 있어요. 열이 나거나, 어딘가 아프거나, 며칠째 잠을 제대로 못 잔 날이요. 그런 날은 쉬는 게 맞아요. 몸을 아끼는 것도 목표로 가는 길이니까요.
@@ -108,7 +108,7 @@
 
 그리고 전날 밤에 환경을 준비해 둬요. 운동 가방은 현관문 앞에, 노트북은 책상 위에 열어 둔 채로, 쓸 문서까지 띄워 두는 거예요. 다음 날의 내가 고민할 틈 없이, 그냥 집어 들기만 하면 되게요.
 
-<!-- section: guide2 | visuals: writing list notebook, planner calendar, sticky notes desk, dumbbells gym, notebook pen desk | title: 선택지 줄이기 | ai: a hand circling one item on a short handwritten list on paper under a desk lamp, no readable text, cinematic -->
+<!-- section: guide2 | visuals: notebook, writing, planning, calendar, notes, desk, woman writing, man writing, dumbbells gym, gym workout | title: 선택지 줄이기 | ai: a hand circling one item on a short handwritten list on paper under a desk lamp, no readable text, cinematic; a corkboard with a single card pinned in the center while the other cards are placed aside in a small box, warm desk light, no readable text, cinematic -->
 두 번째로, 그들은 선택지를 줄여요. 선택지를 줄이는 건 나를 가두는 게 아니라, 오히려 나를 자유롭게 하는 일이에요.
 
 하고 싶은 게 여러 개라면, 종이에 후보를 다 적어 봐요. 그리고 그중에 지금 당장 시작할 수 있고, 조금이라도 마음이 끌리는 것 하나를 골라요. 가장 완벽한 것 말고, 지금 할 수 있는 것으로요.

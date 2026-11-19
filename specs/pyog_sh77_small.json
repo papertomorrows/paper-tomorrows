@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh77_small",
+ "status": "ready-ep025-shorts",
+ "hook": "시작이 무겁다면|딱 이것만 하세요",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "한 시간 운동, 글 한 편. 해내야 한다고 생각하면, 그 무게가 미리 어깨를 눌러요.",
+    "caption": "한 시간 운동, 글 한 편. 해내야 한다고 생각하면, 그 무게가 미리 어깨를 눌러요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그래서 목표를 첫 동작 하나로 잡아요. 운동화를 신고 현관문을 나서는 것까지. 노트북을 열고 제목 한 줄 쓰는 것까지.",
+    "caption": "그래서 목표를 첫 동작 하나로 잡아요. 운동화를 신고 현관문을 나서는 것까지. 노트북을 열고 제목 한 줄 쓰는 것까지."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그리고 그것만 하고 돌아와도 된다고, 진심으로 허락해 주세요. 그래야 시작이 가벼워져요.",
+    "caption": "그리고 그것만 하고 돌아와도 된다고, 진심으로 허락해 주세요. 그래야 시작이 가벼워져요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "막상 시작하면, 대부분은 그다음이 자연스럽게 이어져요.",
+    "caption": "막상 시작하면, 대부분은 그다음이 자연스럽게 이어져요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "혹시 그것만 하고 돌아온 날도, 그날은 성공한 날이에요.",
+    "caption": "혹시 그것만 하고 돌아온 날도, 그날은 성공한 날이에요."
+   }
+  ],
+  "images": [
+   "a person in a dim hallway carrying a huge heavy boulder on their shoulders, symbolic",
+   "hands tying running shoes by the front door in soft morning light, close up",
+   "a laptop opening on a desk with a soft glow, a hand starting to type, no readable text",
+   "a person jogging lightly down a quiet street at sunrise, joyful"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the hands finish tying the laces"
+   }
+  ]
+ }
+}

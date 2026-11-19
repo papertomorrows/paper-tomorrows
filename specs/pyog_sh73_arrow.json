@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh73_arrow",
+ "status": "ready-ep025-shorts",
+ "hook": "당신을 지치게 하는|두 번째 화살",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "퇴근하고 운동 가야지. 오늘은 좀 피곤한데. 그래도 가야겠지. 오후 내내 이 생각을 하다 보면, 아무것도 안 했는데 이미 지쳐요.",
+    "caption": "퇴근하고 운동 가야지. 오늘은 좀 피곤한데. 그래도 가야겠지. 오후 내내 이 생각을 하다 보면, 아무것도 안 했는데 이미 지쳐요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "붓다는 이걸 두 번째 화살이라고 불렀어요. 화살에 맞아 아픈 건 첫 번째 화살이에요. 그 아픔을 붙잡고 괴로워하는 건, 스스로 쏘는 두 번째 화살이고요.",
+    "caption": "붓다는 이걸 두 번째 화살이라고 불렀어요. 화살에 맞아 아픈 건 첫 번째 화살이에요. 그 아픔을 붙잡고 괴로워하는 건, 스스로 쏘는 두 번째 화살이고요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하루 쌓인 피곤은 첫 번째 화살이에요. 하지만 갈까 말까 결정을 다시 열 때마다, 우리는 두 번째 화살을 한 대씩 더 쏘고 있어요.",
+    "caption": "하루 쌓인 피곤은 첫 번째 화살이에요. 하지만 갈까 말까 결정을 다시 열 때마다, 우리는 두 번째 화살을 한 대씩 더 쏘고 있어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "결정은 한 번이면 충분해요. 정했다면, 그 시간이 올 때까지 생각을 내려놓으세요.",
+    "caption": "결정은 한 번이면 충분해요. 정했다면, 그 시간이 올 때까지 생각을 내려놓으세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘 당신은 두 번째 화살을 몇 대나 쏘셨나요?",
+    "caption": "오늘 당신은 두 번째 화살을 몇 대나 쏘셨나요?"
+   }
+  ],
+  "images": [
+   "a tired office worker on an evening subway train staring blankly, lost in heavy thoughts, warm dim light",
+   "a single arrow of soft light flying through the mist of an ancient temple courtyard at dawn, symbolic, serene",
+   "a person sitting at an office desk with several faint glowing arrows hovering around them, symbolic, soft painterly",
+   "a calm person walking lightly out of a train station at dusk with a gym bag, peaceful, golden light"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "the glowing arrows slowly fade away"
+   }
+  ]
+ }
+}

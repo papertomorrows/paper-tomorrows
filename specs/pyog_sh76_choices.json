@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh76_choices",
+ "status": "ready-ep025-shorts",
+ "hook": "몇 달째 고민만|하고 있다면",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "부업을 해 볼까, 유튜브를 해 볼까, 자격증부터 딸까. 비교만 하다가, 몇 달이 지나 있지 않나요?",
+    "caption": "부업을 해 볼까, 유튜브를 해 볼까, 자격증부터 딸까. 비교만 하다가, 몇 달이 지나 있지 않나요?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "모든 길을 열어 두고 싶은 마음 밑에는 두려움이 있어요. 잘못 고르면 시간을 버릴까 봐서요.",
+    "caption": "모든 길을 열어 두고 싶은 마음 밑에는 두려움이 있어요. 잘못 고르면 시간을 버릴까 봐서요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하지만 모든 길을 열어 두면, 결국 어떤 길도 걷지 못해요. 나에게 맞는지는 걸어 봐야만 알 수 있거든요.",
+    "caption": "하지만 모든 길을 열어 두면, 결국 어떤 길도 걷지 못해요. 나에게 맞는지는 걸어 봐야만 알 수 있거든요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 시작할 수 있고 조금이라도 끌리는 것 하나만 골라서, 석 달짜리 실험이라고 생각하고 해 보세요.",
+    "caption": "지금 시작할 수 있고 조금이라도 끌리는 것 하나만 골라서, 석 달짜리 실험이라고 생각하고 해 보세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다른 아이디어는 나중 목록에 적어 두고, 덮어 두면 돼요.",
+    "caption": "다른 아이디어는 나중 목록에 적어 두고, 덮어 두면 돼요."
+   }
+  ],
+  "images": [
+   "a person standing before many branching glowing paths at night, overwhelmed by choices",
+   "a person at a desk late at night with a laptop and scattered notes, head in hands",
+   "a person stepping onto one brightly lit path among many dim ones, decisive",
+   "a person walking along a single path at sunrise, light and free"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "the chosen path lights up as they step forward"
+   }
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh75_justwent",
+ "status": "ready-ep025-shorts",
+ "hook": "같은 사람, 같은 운동|무엇이 달랐을까",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어떤 날은 운동 가기도 전에 지쳐 버리고, 어떤 날은 가볍게 해내요.",
+    "caption": "어떤 날은 운동 가기도 전에 지쳐 버리고, 어떤 날은 가볍게 해내요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "바빠서 운동 생각할 틈도 없던 날, 퇴근하고 그냥 가방 들고 갔던 날을 떠올려 보세요. 이상하게 몸이 가볍고, 끝나고 나면 개운하죠.",
+    "caption": "바빠서 운동 생각할 틈도 없던 날, 퇴근하고 그냥 가방 들고 갔던 날을 떠올려 보세요. 이상하게 몸이 가볍고, 끝나고 나면 개운하죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "같은 사람, 같은 운동인데, 달라진 건 딱 하나예요. 그 사이에 얼마나 많이 생각했느냐예요.",
+    "caption": "같은 사람, 같은 운동인데, 달라진 건 딱 하나예요. 그 사이에 얼마나 많이 생각했느냐예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그래서 언제, 어디서 할지를 한 번만 정해 두세요. 백 개 가까운 연구에서, 이렇게 정해 둔 사람들이 훨씬 잘 실천했어요.",
+    "caption": "그래서 언제, 어디서 할지를 한 번만 정해 두세요. 백 개 가까운 연구에서, 이렇게 정해 둔 사람들이 훨씬 잘 실천했어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "고민은 하루 종일 나를 따라다니지만, 정해 둔 결정은 한 번이면 끝나요.",
+    "caption": "고민은 하루 종일 나를 따라다니지만, 정해 둔 결정은 한 번이면 끝나요."
+   }
+  ],
+  "images": [
+   "a person slumped on a couch at dusk, running shoes untouched by the door, heavy gloomy atmosphere",
+   "the same person striding energetically into a bright gym in the evening, light on their face",
+   "a person lifting weights with calm focus, warm gym light, sense of ease",
+   "a wall calendar with one day gently circled in morning light, simple, no readable text"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the person strides forward into the light"
+   }
+  ]
+ }
+}

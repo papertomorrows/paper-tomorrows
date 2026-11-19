@@ -119,7 +119,7 @@
 
 작은 선택도 미리 줄여 둬요. 월요일은 하체, 목요일은 상체. 써야 할 글 주제는 미리 열 개쯤 적어 두고 위에서부터 하나씩. 그러면 시작하는 순간에 고를 게 하나도 없어요.
 
-<!-- section: guide3 | visuals: woman breathing calm, man meditating office, woman looking window calm, man walking calm, woman deep breath nature, man sitting bench thinking | title: 결정을 다시 열지 않기 | ai: a person at a desk calmly watching a small passing thought shaped like a little cloud drift by, gentle smile, painterly, cinematic >> the little cloud drifts past -->
+<!-- section: guide3 | visuals: woman meditation, man thinking, woman window, sky clouds, calm lake, sunset walk, woman relaxing, man walking calm | title: 결정을 다시 열지 않기 | ai: a person at a desk calmly watching a small passing thought shaped like a little cloud drift by, gentle smile, painterly, cinematic >> the little cloud drifts past -->
 세 번째로, 그들은 이미 내린 결정을 다시 열지 않아요.
 
 하루를 보내다 보면, 오늘은 하지 말까 하는 생각이 문득 올라와요. 이건 의지가 약해서가 아니라, 누구에게나 생기는 자연스러운 일이에요.

@@ -1,0 +1,9 @@
+hook: https://pixabay.com/videos/id-120556/, https://pixabay.com/videos/id-94821/, https://pixabay.com/videos/id-129085/, https://pixabay.com/videos/id-144015/, https://pixabay.com/videos/id-76618/
+truck: https://pixabay.com/videos/id-2325/
+placebo: https://pixabay.com/videos/id-143376/, https://pixabay.com/videos/id-229071/, https://pixabay.com/videos/id-143379/, https://pixabay.com/videos/id-229069/, https://pixabay.com/videos/id-143382/, https://pixabay.com/videos/id-143381/, https://pixabay.com/videos/id-426/, https://pixabay.com/videos/id-143378/, https://pixabay.com/videos/id-427/
+loop: https://pixabay.com/videos/id-151868/, https://pixabay.com/videos/id-224421/, https://pixabay.com/videos/id-132131/, https://pixabay.com/videos/id-3899/, https://pixabay.com/videos/id-32630/, https://pixabay.com/videos/id-84910/, https://pixabay.com/videos/id-84916/, https://pixabay.com/videos/id-85180/, https://pixabay.com/videos/id-100279/, https://pixabay.com/videos/id-11516/
+future: https://pixabay.com/videos/id-85874/, https://pixabay.com/videos/id-85875/
+meditate: https://pixabay.com/videos/id-206779/, https://pixabay.com/videos/id-230748/, https://pixabay.com/videos/id-137232/, https://pixabay.com/videos/id-54073/, https://pixabay.com/videos/id-181897/, https://pixabay.com/videos/id-218677/
+views: https://pixabay.com/videos/id-9037/, https://pixabay.com/videos/id-4878/, https://pixabay.com/videos/id-238825/
+practice: 
+outro: https://pixabay.com/videos/id-133115/, https://pixabay.com/videos/id-133116/, https://pixabay.com/videos/id-130987/, https://pixabay.com/videos/id-130985/

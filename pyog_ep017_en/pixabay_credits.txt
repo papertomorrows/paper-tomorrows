@@ -1,0 +1,10 @@
+hook: https://pixabay.com/videos/id-16459/, https://pixabay.com/videos/id-81269/, https://pixabay.com/videos/id-75258/, https://pixabay.com/videos/id-14244/, https://pixabay.com/videos/id-75254/
+soul: https://pixabay.com/videos/id-47886/, https://pixabay.com/videos/id-122/, https://pixabay.com/videos/id-43324/, https://pixabay.com/videos/id-16185/
+sensitive: https://pixabay.com/videos/id-221788/, https://pixabay.com/videos/id-161062/, https://pixabay.com/videos/id-52641/, https://pixabay.com/videos/id-26637/, https://pixabay.com/videos/id-136781/
+breath: https://pixabay.com/videos/id-41391/, https://pixabay.com/videos/id-41392/, https://pixabay.com/videos/id-41390/, https://pixabay.com/videos/id-41393/, https://pixabay.com/videos/id-41395/
+proof: https://pixabay.com/videos/id-818/, https://pixabay.com/videos/id-171116/, https://pixabay.com/videos/id-28976/, https://pixabay.com/videos/id-122231/, https://pixabay.com/videos/id-122230/, https://pixabay.com/videos/id-123514/, https://pixabay.com/videos/id-139802/, https://pixabay.com/videos/id-139804/
+compare: https://pixabay.com/videos/id-59483/, https://pixabay.com/videos/id-9798/, https://pixabay.com/videos/id-41528/, https://pixabay.com/videos/id-121873/
+find: https://pixabay.com/videos/id-85220/, https://pixabay.com/videos/id-227567/, https://pixabay.com/videos/id-41095/, https://pixabay.com/videos/id-1638/, https://pixabay.com/videos/id-322480/
+practice: 
+together: https://pixabay.com/videos/id-338814/, https://pixabay.com/videos/id-6513/, https://pixabay.com/videos/id-31876/
+outro: https://pixabay.com/videos/id-120009/, https://pixabay.com/videos/id-76624/, https://pixabay.com/videos/id-39832/, https://pixabay.com/videos/id-223039/, https://pixabay.com/videos/id-161099/

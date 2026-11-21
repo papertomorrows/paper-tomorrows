@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh79_jump",
+ "status": "ready-ep026-shorts",
+ "hook": "피할 수 없다면|뛰어드세요",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아무도 맡기 싫어하는 어려운 일이, 하필 나에게 떨어졌다고 해 볼게요.",
+    "caption": "아무도 맡기 싫어하는 어려운 일이, 하필 나에게 떨어졌다고 해 볼게요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "떠밀려 하면 하루하루가 고역이에요. 왜 하필 나야, 하는 원망 속에서 금방 지치죠.",
+    "caption": "떠밀려 하면 하루하루가 고역이에요. 왜 하필 나야, 하는 원망 속에서 금방 지치죠."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "신화학자 조지프 캠벨은 이렇게 말했어요. 세상의 슬픔에, 기쁘게 참여하라.",
+    "caption": "신화학자 조지프 캠벨은 이렇게 말했어요. 세상의 슬픔에, 기쁘게 참여하라."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "같은 물속이어도, 떠밀려 빠진 사람은 허우적대지만, 스스로 뛰어든 사람은 물살을 느끼며 헤엄쳐요.",
+    "caption": "같은 물속이어도, 떠밀려 빠진 사람은 허우적대지만, 스스로 뛰어든 사람은 물살을 느끼며 헤엄쳐요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "피할 수 없다면, 내가 고른 모험으로 받아들여 보세요. 무거웠던 삶이 놀라울 만큼 가벼워져요.",
+    "caption": "피할 수 없다면, 내가 고른 모험으로 받아들여 보세요. 무거웠던 삶이 놀라울 만큼 가벼워져요."
+   }
+  ],
+  "images": [
+   "an office worker at night staring at a huge stack of files dumped on their desk, overwhelmed, dim light",
+   "a person struggling and splashing in dark deep water, pushed in, panic",
+   "a person diving gracefully from a cliff into clear blue water by choice, arms open, sunlight",
+   "a swimmer gliding peacefully underwater through sunbeams, free and light"
+  ],
+  "animate": [
+   {
+    "image": 2,
+    "motion": "the person leaps and dives into the water"
+   }
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh78_restaurant",
+ "status": "ready-ep026-shorts",
+ "hook": "평생 하고 싶은 걸|한 번도 못 해 봤다면",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "미국의 한 식당. 아버지가 어린 아들에게 토마토 주스를 마시라고 해요. 아이는 싫다고 고개를 저어요.",
+    "caption": "미국의 한 식당. 아버지가 어린 아들에게 토마토 주스를 마시라고 해요. 아이는 싫다고 고개를 저어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "보다 못한 어머니가 말려요. 그러자 아버지가 이렇게 말해요. 하고 싶은 것만 하면서 살 수는 없어. 나를 봐. 나는 평생 단 한 번도, 하고 싶은 걸 해 본 적이 없어.",
+    "caption": "보다 못한 어머니가 말려요. 그러자 아버지가 이렇게 말해요. 하고 싶은 것만 하면서 살 수는 없어. 나를 봐. 나는 평생 단 한 번도, 하고 싶은 걸 해 본 적이 없어."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "옆 테이블에서 이 말을 들은 사람은, 신화학자 조지프 캠벨이었어요. 그리고 그는 평생, 이 아버지와 정반대의 말을 전했어요. 당신의 지복을 따르라.",
+    "caption": "옆 테이블에서 이 말을 들은 사람은, 신화학자 조지프 캠벨이었어요. 그리고 그는 평생, 이 아버지와 정반대의 말을 전했어요. 당신의 지복을 따르라."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지복이란, 누가 칭찬하지 않아도, 돈이 되지 않아도, 그걸 하고 있는 것 자체로 충분한 기쁨이에요.",
+    "caption": "지복이란, 누가 칭찬하지 않아도, 돈이 되지 않아도, 그걸 하고 있는 것 자체로 충분한 기쁨이에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당신은 지금, 하고 싶은 걸 하며 살고 있나요?",
+    "caption": "당신은 지금, 하고 싶은 걸 하며 살고 있나요?"
+   }
+  ],
+  "images": [
+   "a 1930s American diner, a stern father in a suit pushing a glass of tomato juice toward his reluctant young son, the mother frowning, warm vintage light, seen from a nearby table",
+   "a tired middle-aged man in a 1930s suit staring blankly out of a diner window, grey and lifeless mood, a sense of a life never lived",
+   "a young professor in a 1930s suit sitting alone at a diner table, quietly listening with a thoughtful look, books beside his plate, warm light",
+   "a person absorbed in cooking in a sunlit kitchen, calm joyful face, steam rising, time seems to stop"
+  ],
+  "animate": [
+   {
+    "image": 1,
+    "motion": "the man slowly lowers his gaze"
+   }
+  ]
+ }
+}

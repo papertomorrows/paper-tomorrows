@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh80_salt",
+ "status": "ready-ep026-shorts",
+ "hook": "보이지 않아도|어디에나 있는 것",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "인도의 오래된 경전 우파니샤드에 이런 이야기가 있어요. 한 아버지가 아들에게, 소금 한 덩이를 물에 넣으라고 해요.",
+    "caption": "인도의 오래된 경전 우파니샤드에 이런 이야기가 있어요. 한 아버지가 아들에게, 소금 한 덩이를 물에 넣으라고 해요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다음 날 아침, 소금을 꺼내 오라고 하지만, 아들은 찾을 수 없었어요. 다 녹아 버렸으니까요.",
+    "caption": "다음 날 아침, 소금을 꺼내 오라고 하지만, 아들은 찾을 수 없었어요. 다 녹아 버렸으니까요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아버지가 물 위쪽을 맛보라고 해요. 짜요. 가운데도, 바닥도, 모두 짜요.",
+    "caption": "아버지가 물 위쪽을 맛보라고 해요. 짜요. 가운데도, 바닥도, 모두 짜요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러자 아버지가 말해요. 보이지 않지만, 그것은 어디에나 있다. 세상 모든 것의 가장 깊은 곳에 있는 그것. 그대가 바로 그것이다.",
+    "caption": "그러자 아버지가 말해요. 보이지 않지만, 그것은 어디에나 있다. 세상 모든 것의 가장 깊은 곳에 있는 그것. 그대가 바로 그것이다."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리가 어느 길을 걷든, 그것에서 벗어날 수는 없어요. 그러니 길을 잃을까 너무 두려워하지 않아도 괜찮아요.",
+    "caption": "우리가 어느 길을 걷든, 그것에서 벗어날 수는 없어요. 그러니 길을 잃을까 너무 두려워하지 않아도 괜찮아요."
+   }
+  ],
+  "images": [
+   "an ancient Indian sage father and his young son by a clay bowl of water in a forest hermitage at dawn, the boy dropping a lump of salt into the water",
+   "the boy peering into the clear water of the clay bowl, searching for the dissolved salt, morning light",
+   "the boy tasting water from his palm while the father watches gently, soft golden light",
+   "a vast cosmos where a soft glowing essence flows through stars, oceans and a human silhouette alike, unity"
+  ],
+  "animate": [
+   {
+    "image": 3,
+    "motion": "the glowing essence slowly flows through everything"
+   }
+  ]
+ }
+}

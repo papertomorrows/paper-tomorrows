@@ -216,6 +216,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     if failed:
         for txt, err in failed:
             print(f"TTS_FAILED: {txt} :: {err}")
+        if any(("balance" in e.lower() or "locked" in e.lower()) for _, e in failed):
+            raise RuntimeError("FAL_BALANCE_EXHAUSTED: top up fal.ai and re-run (TTS)")
         raise RuntimeError(f"{len(failed)} sentence(s) failed TTS (saved the rest to cache); rephrase them: " +
                            " | ".join(t for t, _ in failed))
     print(f"STEP voice: {len(todo)} new sentences, {len(allsent) - len(todo)} cached")

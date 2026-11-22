@@ -35,7 +35,7 @@
 
 그 5년이, 이후 그가 걸어갈 모든 길의 뿌리가 되었어요.
 
-<!-- section: bliss | visuals: woman cooking kitchen, man painting canvas, potter hands clay, gardening hands soil, woman reading smile, sunrise meditation | title: 지복이란 | ai: a person painting at an easel by a window, face lit with quiet rapture, completely absorbed, painterly, cinematic -->
+<!-- section: bliss | visuals: woman cooking kitchen, man painting canvas, potter hands clay, gardening hands soil, woman reading smile, sunrise meditation, chef cooking, man playing guitar, woman dancing, artist drawing, baking bread | title: 지복이란 | ai: a person painting at an easel by a window, face lit with quiet rapture, completely absorbed, painterly, cinematic -->
 그럼 캠벨이 말한 지복이란, 정확히 뭘까요.
 
 지복은 더없이 큰 기쁨이라는 뜻이에요. 캠벨은 이 말을 인도의 오래된 경전, 우파니샤드에서 가져왔어요.

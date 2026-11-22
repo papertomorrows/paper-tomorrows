@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep027-preview3",
+ "status": "ready-ep027-full",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -49,6 +49,8 @@
   27784,
   28098,
   28420,
+  30901,
+  30904,
   31360,
   31662,
   32052,
@@ -86,6 +88,7 @@
   131258,
   132048,
   132300,
+  133601,
   134053,
   137603,
   138201,
@@ -204,5 +207,5 @@
    "outputs/shorts/pyog_sh87_play/img_00.jpg"
   ]
  },
- "preview": true
+ "preview": false
 }

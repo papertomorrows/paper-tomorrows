@@ -54,7 +54,7 @@
 
 그래서 지복은 욕심과도 달라요. 욕심은 결과만 바라봐요. 더 벌고, 더 인정받아야 만족하니까, 가져도 늘 허기가 져요. 지복은 하는 일 그 자체에 있어요. 캠벨은 중심에 머무르면, 설령 돈을 벌지 못해도 지복은 여전히 당신에게 있다고 했어요.
 
-<!-- section: refusal | visuals: tired office worker, city crowd commute, man window rain, woman office night, grey city street, empty office | title: 부름을 거절한 사람들 | ai: a young hero turning away from a glowing open door and walking back into a grey monotonous town, mythic, painterly, cinematic >> the glowing door slowly dims; a blooming garden slowly turning into a barren wasteland of dry stones, symbolic, painterly, cinematic >> the flowers wither into dry stone -->
+<!-- section: refusal | visuals: tired office worker, city crowd commute, man window rain, woman office night, grey city street, empty office, businessman walking, commuter train, man sitting alone, rainy street | title: 부름을 거절한 사람들 | ai: a young hero turning away from a glowing open door and walking back into a grey monotonous town, mythic, painterly, cinematic >> the glowing door slowly dims; a blooming garden slowly turning into a barren wasteland of dry stones, symbolic, painterly, cinematic >> the flowers wither into dry stone -->
 그런데 신화 속 영웅들이, 늘 부름에 응답하는 건 아니에요.
 
 캠벨은 영웅의 여정에서 아주 흔한 장면 하나를 짚어요. 바로 부름을 거절하는 장면이에요. 지금 이대로가 편해서, 두려워서, 남들이 반대해서. 주인공은 부름에 귀를 닫아요.
@@ -80,7 +80,7 @@
 
 신화 속에서도 부름은 한 번으로 끝나지 않아요. 거절해도, 모습을 바꿔 다시 찾아오죠. 우리 삶에서도 마찬가지예요.
 
-<!-- section: threshold | visuals: university campus autumn, old building door, open door light, handshake friends, teacher students classroom, forest path sunrise | title: 문턱을 넘으면 | ai: an old wise mentor handing a glowing lantern to a young traveler at the edge of a dark forest, mythic, painterly, cinematic >> the lantern glows brighter; a young professor in a 1930s coat arriving at the gate of a small college campus in autumn, hopeful, painterly, cinematic -->
+<!-- section: threshold | visuals: university campus autumn, old building door, open door light, handshake friends, teacher lecture, man walking path, sunrise road | title: 문턱을 넘으면 | ai: an old wise mentor handing a glowing lantern to a young traveler at the edge of a dark forest, mythic, painterly, cinematic >> the lantern glows brighter; a young professor in a 1930s coat arriving at the gate of a small college campus in autumn, hopeful, painterly, cinematic -->
 그렇다면 부름에 응답하면, 무슨 일이 일어날까요.
 
 캠벨은 영웅의 여정에서 또 하나의 장면을 짚어요. 주인공이 부름에 응답해 문턱을 넘으면, 거의 언제나 도와주는 존재가 나타나요. 길을 알려 주는 노인, 신비한 선물을 주는 스승, 위기에서 손을 내미는 낯선 이.
@@ -165,7 +165,7 @@
 
 그래서 그 느낌이 오면, 바로 판단하지 말고 조금 더 머물러 보는 거예요. 한 번 더 해 보고, 한 걸음 더 가 보는 거예요. 그리고 그 느낌이 충분히 자랄 때까지는, 아무에게나 꺼내 보이지 않고 소중히 지켜 주세요.
 
-<!-- section: guide5 | visuals: writing notebook, painting brush canvas, open door morning, first step path, laptop desk | title: 작은 문턱 넘기 | ai: a single foot stepping over a wooden doorway threshold into bright morning light, close up, painterly, cinematic -->
+<!-- section: guide5 | visuals: writing notebook, painting brush canvas, open door morning, first step path, laptop desk, woman writing, man drawing sketch, walking forward, morning walk | title: 작은 문턱 넘기 | ai: a single foot stepping over a wooden doorway threshold into bright morning light, close up, painterly, cinematic -->
 그리고 마지막으로, 현실 위에서 작은 문턱부터 넘어요.
 
 지복을 따르라는 말이, 내일 당장 모든 걸 버리라는 뜻은 아니에요.

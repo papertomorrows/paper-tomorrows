@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh85_breath",
+ "status": "ready-ep027-shorts",
+ "hook": "확실함을 찾을수록|불안해진다면",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "철학자 앨런 와츠는 이렇게 말했어요. 안전하고 싶은 마음과 불안한 마음은, 사실 같은 것이다.",
+    "caption": "철학자 앨런 와츠는 이렇게 말했어요. 안전하고 싶은 마음과 불안한 마음은, 사실 같은 것이다."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리가 뭔가를 확실하게 붙잡고 싶어지는 건, 바로 불안할 때예요. 편안할 때는 확인하고 또 확인할 필요가 없잖아요.",
+    "caption": "우리가 뭔가를 확실하게 붙잡고 싶어지는 건, 바로 불안할 때예요. 편안할 때는 확인하고 또 확인할 필요가 없잖아요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "와츠는 이걸 숨으로 설명해요. 숨을 잃지 않으려고 꽉 참을수록, 오히려 숨이 막혀요. 숨은 내쉬어야 다시 들어와요.",
+    "caption": "와츠는 이걸 숨으로 설명해요. 숨을 잃지 않으려고 꽉 참을수록, 오히려 숨이 막혀요. 숨은 내쉬어야 다시 들어와요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "불안할 때 몸을 보면, 어깨는 올라가 있고 숨은 짧아져 있어요. 그럴 땐 숨을 길게 내쉬면서, 어깨를 툭 떨어뜨려 보세요.",
+    "caption": "불안할 때 몸을 보면, 어깨는 올라가 있고 숨은 짧아져 있어요. 그럴 땐 숨을 길게 내쉬면서, 어깨를 툭 떨어뜨려 보세요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "꽉 쥔 손이 풀린 만큼, 다음 걸음을 내디딜 여유가 생겨요.",
+    "caption": "꽉 쥔 손이 풀린 만큼, 다음 걸음을 내디딜 여유가 생겨요."
+   }
+  ],
+  "images": [
+   "a woman in her thirties with shoulder-length wavy brown hair, wearing a cream knit sweater, sitting on the edge of her bed at night anxiously checking her phone again and again, cold blue screen light on her worried face, dark room",
+   {
+    "prompt": "a woman in her thirties with shoulder-length wavy brown hair, wearing a cream knit sweater, holding her breath with shoulders raised up to her ears and fists clenched, visibly tense, thin golden threads tightly wrapped around her chest",
+    "ref": 0
+   },
+   {
+    "prompt": "a woman in her thirties with shoulder-length wavy brown hair, wearing a cream knit sweater, standing by an open window at dawn with eyes closed, exhaling a long slow breath, shoulders dropped and relaxed, peaceful soft light",
+    "ref": 0
+   },
+   {
+    "prompt": "a woman in her thirties with shoulder-length wavy brown hair, wearing a cream knit sweater, walking forward on a quiet morning path with open relaxed hands, light and free, warm sunrise behind the trees",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "she nervously scrolls, then stops and holds her breath"
+   }
+  ]
+ }
+}

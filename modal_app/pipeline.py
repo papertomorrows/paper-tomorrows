@@ -78,11 +78,20 @@ def key(text: str) -> str:
 # ---------------------------------------------------------------- generators
 
 @app.function(image=image, timeout=900, secrets=[KEYS])
-def generate_image(prompt: str, seed: int, width: int = W, height: int = H) -> tuple[str, bytes]:
+def generate_image(prompt: str, seed: int, width: int = W, height: int = H,
+                   ref_urls: list | None = None) -> tuple[str, bytes]:
     import fal_client
     import requests
 
     args = {"prompt": prompt, "seed": seed, "output_format": "jpeg"}
+    if ref_urls:  # keep the same character: FLUX.2 [pro] edit with the earlier image as reference
+        try:
+            res = fal_client.subscribe("fal-ai/flux-2-pro/edit", arguments={
+                **args, "image_urls": ref_urls, "image_size": {"width": width, "height": height}})
+            url = res["images"][0]["url"]
+            return url, requests.get(url, timeout=120).content
+        except Exception as exc:
+            print(f"ref edit failed, plain generation: {str(exc)[:200]}")
     try:
         res = fal_client.subscribe(
             "fal-ai/flux-2-pro", arguments={**args, "image_size": {"width": width, "height": height}}
@@ -834,8 +843,11 @@ def main(spec: str):
             calls["music.mp3"] = generate_audio.spawn(a["music"], int(a.get("music_seconds", 45)))
         iw, ih = a.get("size", [1920, 1080])
         urls = {}
-        imgs = [generate_image.spawn(f"{p} {a.get('style', '')}", 3000 + i, iw, ih)
-                for i, p in enumerate(a.get("images", []))]
+        # an image may be {"prompt": ..., "ref": k}: drawn after image k, with image k as character reference
+        img_specs = [p if isinstance(p, dict) else {"prompt": p} for p in a.get("images", [])]
+        a["images"] = [d["prompt"] for d in img_specs]
+        imgs = [generate_image.spawn(f"{d['prompt']} {a.get('style', '')}", 3000 + i, iw, ih)
+                if "ref" not in d else None for i, d in enumerate(img_specs)]
         for name, c in calls.items():
             try:
                 r = c.get()
@@ -843,15 +855,29 @@ def main(spec: str):
             except Exception as exc:
                 print(f"ASSET FAILED {name}: {str(exc)[:300]}")
         for i, c in enumerate(imgs):
+            if c is None:
+                continue
             for attempt in range(3):
                 try:
-                    data = c.get()[1] if attempt == 0 else generate_image.remote(
-                        f"{a['images'][i]} {a.get('style', '')}", 3000 + i, iw, ih)[1]
+                    if attempt == 0:
+                        u, data = c.get()
+                    else:
+                        u, data = generate_image.remote(f"{a['images'][i]} {a.get('style', '')}", 3000 + i, iw, ih)
                     (out / f"img_{i:02d}.jpg").write_bytes(data)
-                    urls[i] = c.get()[0] if attempt == 0 else None
+                    urls[i] = u
                     break
                 except Exception as exc:
                     print(f"ASSET FAILED img {i} try {attempt}: {str(exc)[:300]}")
+        ref_calls = {i: generate_image.spawn(
+            f"The same person(s) as in the reference image, same face, hair and clothes. {d['prompt']} {a.get('style', '')}",
+            3000 + i, iw, ih, [urls[d["ref"]]]) for i, d in enumerate(img_specs) if "ref" in d and urls.get(d["ref"])}
+        for i, c in ref_calls.items():
+            try:
+                u, data = c.get()
+                (out / f"img_{i:02d}.jpg").write_bytes(data)
+                urls[i] = u
+            except Exception as exc:
+                print(f"ASSET FAILED ref img {i}: {str(exc)[:300]}")
         anim_calls = {}
         for k, an in enumerate(a.get("animate", [])):  # cheap motion clips (Hailuo 2.3 Fast, 6 s)
             u = urls.get(an["image"])

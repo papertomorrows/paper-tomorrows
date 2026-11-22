@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh84_sincere",
+ "status": "ready-ep027-shorts",
+ "hook": "진지함 말고|진심으로",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "철학자 앨런 와츠는 강연에서 이렇게 말했어요. 나는 지금 진지한 게 아니에요. 진심인 거예요.",
+    "caption": "철학자 앨런 와츠는 강연에서 이렇게 말했어요. 나는 지금 진지한 게 아니에요. 진심인 거예요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "와츠에게 진지함이란, 잘못되면 끝장이라고 믿는 마음이에요. 그 마음이 들면, 평소 실력도 잘 안 나와요.",
+    "caption": "와츠에게 진지함이란, 잘못되면 끝장이라고 믿는 마음이에요. 그 마음이 들면, 평소 실력도 잘 안 나와요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "진심은 달라요. 모래성을 쌓는 아이들을 보세요. 온 마음을 다해 쌓지만, 파도가 쓸어 가면 깔깔 웃으며 다시 쌓아요.",
+    "caption": "진심은 달라요. 모래성을 쌓는 아이들을 보세요. 온 마음을 다해 쌓지만, 파도가 쓸어 가면 깔깔 웃으며 다시 쌓아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 마음이 무거워질 때 물어보세요. 나는 지금, 이 일이 비극으로 끝날 거라고 미리 정해 놓고 있나.",
+    "caption": "그러니 마음이 무거워질 때 물어보세요. 나는 지금, 이 일이 비극으로 끝날 거라고 미리 정해 놓고 있나."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "깊이 몰입하되, 무겁지 않게. 그게 진심이에요.",
+    "caption": "깊이 몰입하되, 무겁지 않게. 그게 진심이에요."
+   }
+  ],
+  "images": [
+   "a tense middle-aged man in a grey suit gripping a wooden podium before a speech, shoulders raised, jaw clenched, dark auditorium, single spotlight",
+   "a little girl about seven years old in a yellow sundress with two braids, and a little boy about seven in a navy-and-white striped t-shirt, building a big sandcastle together on a sunny beach with total devotion, sandy hands, towers and a moat",
+   {
+    "prompt": "a little girl about seven years old in a yellow sundress with two braids, and a little boy about seven in a navy-and-white striped t-shirt, laughing joyfully as a wave washes away their sandcastle, water splashing around their feet",
+    "ref": 1
+   },
+   {
+    "prompt": "a little girl about seven years old in a yellow sundress with two braids, and a little boy about seven in a navy-and-white striped t-shirt, happily starting to build a new sandcastle together at sunset, warm golden light",
+    "ref": 1
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "his hands grip the podium tighter, the spotlight flickers slightly"
+   }
+  ]
+ }
+}

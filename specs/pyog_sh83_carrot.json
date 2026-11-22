@@ -1,0 +1,83 @@
+{
+ "id": "pyog_sh83_carrot",
+ "status": "ready-ep027-shorts",
+ "hook": "원하던 자리에 올랐는데|왜 허전할까",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "학교에 들어가면 다음 학년, 그다음은 좋은 대학, 좋은 직장, 그리고 승진. 우리는 평생 눈앞의 당근을 따라 걸어요.",
+    "caption": "학교에 들어가면 다음 학년, 그다음은 좋은 대학, 좋은 직장, 그리고 승진. 우리는 평생 눈앞의 당근을 따라 걸어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러다 마침내, 그토록 원하던 자리에 올라요. 그런데 이상하게도, 기분이 예전과 별로 다르지 않아요.",
+    "caption": "그러다 마침내, 그토록 원하던 자리에 올라요. 그런데 이상하게도, 기분이 예전과 별로 다르지 않아요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "철학자 앨런 와츠는 이걸 속임수라고 불렀어요. 진짜 삶은 늘 다음에 있다고 믿으면서, 지금을 한 번도 제대로 살지 않았으니까요.",
+    "caption": "철학자 앨런 와츠는 이걸 속임수라고 불렀어요. 진짜 삶은 늘 다음에 있다고 믿으면서, 지금을 한 번도 제대로 살지 않았으니까요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "목표를 버리라는 게 아니에요. 다만 목표에 닿기 전의 시간을, 대기실처럼 쓰지 말라는 거예요.",
+    "caption": "목표를 버리라는 게 아니에요. 다만 목표에 닿기 전의 시간을, 대기실처럼 쓰지 말라는 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "당근에 닿기 전인 지금, 이 길에도 즐길 만한 게 있지 않을까요?",
+    "caption": "당근에 닿기 전인 지금, 이 길에도 즐길 만한 게 있지 않을까요?"
+   }
+  ],
+  "images": [
+   "a man in his late thirties with short neat black hair, a slim clean-shaven face, wearing a navy suit and white shirt without a tie, walking up an endless surreal staircase made of school desks, office doors and trophies, chasing a glowing golden carrot that hangs on a stick always one step ahead of him",
+   {
+    "prompt": "a man in his late thirties with short neat black hair, a slim clean-shaven face, wearing a navy suit and white shirt without a tie, standing alone in a vast empty executive office at the top of a glass tower at night, city lights far below, his face quietly empty and puzzled, success that feels hollow",
+    "ref": 0
+   },
+   {
+    "prompt": "a man in his late thirties with short neat black hair, a slim clean-shaven face, wearing a navy suit and white shirt without a tie, sitting stiffly on a chair in a bare waiting room under a large wall clock, briefcase on his lap, waiting for life to begin, muted colors",
+    "ref": 0
+   },
+   {
+    "prompt": "a man in his late thirties with short neat black hair, a slim clean-shaven face, wearing a navy suit and white shirt without a tie, pausing on a city sidewalk at golden hour with his jacket over his shoulder, looking up at the glowing sky with a gentle surprised smile",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "he keeps climbing step by step, the golden carrot sways just ahead of him"
+   }
+  ]
+ }
+}

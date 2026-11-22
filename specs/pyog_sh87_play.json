@@ -1,0 +1,77 @@
+{
+ "id": "pyog_sh87_play",
+ "status": "ready-ep027-shorts",
+ "hook": "노래를 해치운다고|말하지 않잖아요",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "영어에서는 피아노를 칠 때 '플레이'라는 말을 써요. 노는 것과 같은 단어예요. 피아노를 '일한다'고 하는 사람은 없죠.",
+    "caption": "영어에서는 피아노를 칠 때 '플레이'라는 말을 써요. 노는 것과 같은 단어예요. 피아노를 '일한다'고 하는 사람은 없죠."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리말도 그래요. 노래는 부르고, 춤은 추지, 노래를 해치운다고 하지는 않잖아요.",
+    "caption": "우리말도 그래요. 노래는 부르고, 춤은 추지, 노래를 해치운다고 하지는 않잖아요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "철학자 앨런 와츠는 말했어요. 음악의 목적은 끝에 있지 않다고요. 춤의 목적은, 춤 그 자체라고요.",
+    "caption": "철학자 앨런 와츠는 말했어요. 음악의 목적은 끝에 있지 않다고요. 춤의 목적은, 춤 그 자체라고요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "일이냐 놀이냐는, 무엇을 하느냐보다 어떻게 하느냐에 달려 있어요. 똑같은 청소도 빨리 끝낼 숙제가 될 수도, 하나의 연주가 될 수도 있어요.",
+    "caption": "일이냐 놀이냐는, 무엇을 하느냐보다 어떻게 하느냐에 달려 있어요. 똑같은 청소도 빨리 끝낼 숙제가 될 수도, 하나의 연주가 될 수도 있어요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘 하기 싫은 일 하나를, 연주하듯 해 보면 어떨까요?",
+    "caption": "오늘 하기 싫은 일 하나를, 연주하듯 해 보면 어떨까요?"
+   }
+  ],
+  "images": [
+   "joyful hands playing a grand piano, glowing musical notes floating up like golden sparkles, playful energy",
+   "people of all ages dancing freely and joyfully in a moonlit old town square, going nowhere, pure joy",
+   "a man in his thirties with curly brown hair, wearing a grey t-shirt and rolled-up jeans, cleaning a sunlit room rhythmically as if dancing, sweeping with a broom like a violin bow, window open and curtains blowing",
+   {
+    "prompt": "a man in his thirties with curly brown hair, wearing a grey t-shirt and rolled-up jeans, opening a window wide after cleaning, fresh breeze on his face, a satisfied smile, the tidy room glowing",
+    "ref": 2
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "fingers dance across the keys as golden notes drift upward"
+   }
+  ]
+ }
+}

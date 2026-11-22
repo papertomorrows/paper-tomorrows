@@ -1,0 +1,77 @@
+{
+ "id": "pyog_sh86_tune",
+ "status": "ready-ep027-shorts",
+ "hook": "이유 없이 무거운|아침이라면",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "연주자들은 무대에 오르기 전에 꼭 조율을 해요. 같은 악기라도 날씨에 따라 소리가 달라지거든요.",
+    "caption": "연주자들은 무대에 오르기 전에 꼭 조율을 해요. 같은 악기라도 날씨에 따라 소리가 달라지거든요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리 마음도 그래요. 그러니 아침에 눈을 뜨면, 휴대폰을 보기 전에 물어보세요. 오늘 내 마음은 어떤 소리를 내고 있지.",
+    "caption": "우리 마음도 그래요. 그러니 아침에 눈을 뜨면, 휴대폰을 보기 전에 물어보세요. 오늘 내 마음은 어떤 소리를 내고 있지."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이유 없이 무거운 날이라면, 억지로 밝게 연주하지 마세요. 그런 날은 느린 악장이에요. 조용히, 겸손하게 보내도 괜찮아요.",
+    "caption": "이유 없이 무거운 날이라면, 억지로 밝게 연주하지 마세요. 그런 날은 느린 악장이에요. 조용히, 겸손하게 보내도 괜찮아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "마음이 맑게 울리는 날엔 신기한 일이 자주 일어나요. 같은 음으로 맞춘 기타 줄이, 손대지 않아도 따라 울리는 것처럼요.",
+    "caption": "마음이 맑게 울리는 날엔 신기한 일이 자주 일어나요. 같은 음으로 맞춘 기타 줄이, 손대지 않아도 따라 울리는 것처럼요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘 당신의 악기는, 어떤 소리를 내고 있나요?",
+    "caption": "오늘 당신의 악기는, 어떤 소리를 내고 있나요?"
+   }
+  ],
+  "images": [
+   "an elderly violinist backstage tuning his violin by ear with eyes closed, warm dim light before a concert",
+   "a woman in her late twenties with long straight black hair, wearing light blue pajamas, just woken up and sitting in bed in soft morning light, her phone lying face-down on the nightstand, one hand on her chest, quietly listening inward",
+   {
+    "prompt": "a woman in her late twenties with long straight black hair, wearing light blue pajamas, on a grey rainy morning wrapped in a blanket by the window holding a cup of tea, quiet and slow, gentle calm",
+    "ref": 1
+   },
+   "close-up of an acoustic guitar where one plucked string makes a neighboring string vibrate on its own, glowing golden resonance waves between the strings"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "he gently turns the tuning peg and draws the bow across a string"
+   }
+  ]
+ }
+}

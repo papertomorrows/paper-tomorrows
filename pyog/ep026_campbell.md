@@ -1,6 +1,6 @@
 # EP026 조지프 캠벨, 당신의 지복을 따르라
 
-<!-- section: hook | visuals: vintage diner, old restaurant, family dinner table, father son, old city street, retro cafe -->
+<!-- section: hook | visuals: vintage diner, old restaurant, family dinner table, father son, retro cafe, coffee cup table, vintage car -->
 미국의 한 식당. 젊은 교수 하나가 혼자 점심을 먹고 있었어요. 옆 테이블에는 아버지와 어머니, 그리고 어린 아들이 앉아 있었죠.
 
 아버지가 아들에게 토마토 주스를 마시라고 해요. 아이는 싫다고 고개를 저어요. 아버지는 목소리를 높여요. 마시라니까. 그러자 보다 못한 어머니가 말려요. 하기 싫다는 걸 왜 억지로 시켜요.
@@ -80,7 +80,7 @@
 
 신화 속에서도 부름은 한 번으로 끝나지 않아요. 거절해도, 모습을 바꿔 다시 찾아오죠. 우리 삶에서도 마찬가지예요.
 
-<!-- section: threshold | visuals: university campus autumn, old building door, open door light, handshake friends, teacher lecture, man walking path, sunrise road | title: 문턱을 넘으면 | ai: an old wise mentor handing a glowing lantern to a young traveler at the edge of a dark forest, mythic, painterly, cinematic >> the lantern glows brighter; a young professor in a 1930s coat arriving at the gate of a small college campus in autumn, hopeful, painterly, cinematic -->
+<!-- section: threshold | visuals: university campus autumn, old building door, open door light, handshake friends, teacher lecture, sunrise road, open gate, autumn leaves campus | title: 문턱을 넘으면 | ai: an old wise mentor handing a glowing lantern to a young traveler at the edge of a dark forest, mythic, painterly, cinematic >> the lantern glows brighter; a young professor in a 1930s coat arriving at the gate of a small college campus in autumn, hopeful, painterly, cinematic -->
 그렇다면 부름에 응답하면, 무슨 일이 일어날까요.
 
 캠벨은 영웅의 여정에서 또 하나의 장면을 짚어요. 주인공이 부름에 응답해 문턱을 넘으면, 거의 언제나 도와주는 존재가 나타나요. 길을 알려 주는 노인, 신비한 선물을 주는 스승, 위기에서 손을 내미는 낯선 이.

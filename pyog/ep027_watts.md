@@ -1,6 +1,6 @@
 # EP027 앨런 와츠, 삶은 음악이다
 
-<!-- section: hook | visuals: orchestra concert hall, symphony orchestra, violinist playing, cellist playing, piano concert, classical musician, concert audience applause, music sheet notes, conductor baton | ai: an orchestra conductor on a grand concert stage frantically rushing his baton, musicians blurring with speed, the audience puzzled, painterly, cinematic >> the conductor waves the baton faster and faster -->
+<!-- section: hook | visuals: orchestra, violin, cello, piano, concert, musician, orchestra concert hall, violinist playing, piano concert, concert audience applause | ai: an orchestra conductor on a grand concert stage frantically rushing his baton, musicians blurring with speed, the audience puzzled, painterly, cinematic >> the conductor waves the baton faster and faster -->
 
 한번 상상해 보세요. 어느 오케스트라 지휘자가 이렇게 생각한다고요. 좋은 연주란, 곡을 가장 빨리 끝내는 거다.
 

@@ -1,6 +1,6 @@
 # EP027 앨런 와츠, 삶은 음악이다
 
-<!-- section: hook | visuals: orchestra concert hall, conductor orchestra, symphony orchestra, violin orchestra, concert stage lights | ai: an orchestra conductor on a grand concert stage frantically rushing his baton, musicians blurring with speed, the audience puzzled, painterly, cinematic >> the conductor waves the baton faster and faster -->
+<!-- section: hook | visuals: orchestra concert hall, symphony orchestra, violinist playing, cellist playing, piano concert, classical musician, concert audience applause, music sheet notes, conductor baton | ai: an orchestra conductor on a grand concert stage frantically rushing his baton, musicians blurring with speed, the audience puzzled, painterly, cinematic >> the conductor waves the baton faster and faster -->
 
 한번 상상해 보세요. 어느 오케스트라 지휘자가 이렇게 생각한다고요. 좋은 연주란, 곡을 가장 빨리 끝내는 거다.
 
@@ -152,7 +152,7 @@
 
 반대로 마음이 맑게 울리는 날도 있어요. 그런 날엔 신기한 일이 자주 일어나요. 마침 생각하던 사람에게서 연락이 오고, 필요하던 것이 딱 맞는 때에 눈앞에 나타나요. 기타 줄 하나를 튕기면, 같은 음으로 맞춰진 옆의 줄이 손대지 않아도 저절로 따라 울리는 것처럼요. 마음을 맑게 조율해 두는 것, 어쩌면 그게 원하는 것과 함께 울리는 가장 쉬운 방법인지도 몰라요.
 
-<!-- section: guide3 | visuals: cleaning window sunlight, walking barefoot grass, open window curtains, hands piano close up, mindful walking | title: 한 음씩 연주하기 -->
+<!-- section: guide3 | visuals: sweeping floor, tidy room sunlight, watering plants, open window breeze, walking barefoot grass, mindful walking forest, hands piano close up | title: 한 음씩 연주하기 -->
 
 세 번째는, 한 음씩 연주하기예요.
 
@@ -166,7 +166,7 @@
 
 일터에서도 오늘 할 일 중에 딱 하나만 골라, 얼마나 빨리 끝내느냐가 아니라 얼마나 정성스럽게 연주하느냐에 마음을 둬 보세요.
 
-<!-- section: guide4 | visuals: woman thinking window, man thinking alone, old photographs, journal writing, rain window reflection | title: 불협화음 따라가기 | ai: a person gently following a single glowing thread down a spiral staircase into a quiet inner room where an old music box rests, curious and tender, symbolic, painterly, cinematic -->
+<!-- section: guide4 | visuals: woman thinking window, man thinking alone, old photographs, journal writing, rain window reflection, spiral staircase, music box, woman mirror reflection | title: 불협화음 따라가기 | ai: a person gently following a single glowing thread down a spiral staircase into a quiet inner room where an old music box rests, curious and tender, symbolic, painterly, cinematic -->
 
 네 번째는, 불협화음 따라가기예요.
 

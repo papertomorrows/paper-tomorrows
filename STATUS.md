@@ -131,3 +131,7 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 
 - Upload notes: ALWAYS include for every short (KR+EN) a description (2-3 lines + "▶ 전체 영상: <long title>" + hashtags, top 3 first, include #shorts) and 15-25 search-keyword tags (real search phrasing, mix broad/narrow, people/book names). See EP015-017 *_쇼츠_설명_태그.txt.
 - 2026-11-13: 사용자 결정 — 영어(Play Your Own Game) 영상은 앞으로 만들지 않음. 한국어만 제작.
+
+## PYOG visual QA rules (2026-11-22, user request after EP026)
+- Longform stock: write `visuals` keywords that carry the mood of the line (e.g. "woman calmly cooking at home kitchen"), never a bare broad noun ("chef cooking"). Food/commercial-kitchen words are blocklisted (meat, steak, grill, bbq, burger, chef...). In preview review, judge every clip by "does this feel odd while hearing this sentence?", not just keyword match.
+- Shorts characters: when one person appears in several images, define a fixed character sheet (age, hair, face, clothes) and paste the identical description into every prompt (consider reference-image editing — check cost first). Different people in the same setting must look clearly different (clothes/setting). After images are generated, view all 4 side by side and regenerate any image where the same person looks different, before rendering.

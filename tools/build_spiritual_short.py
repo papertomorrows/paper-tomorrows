@@ -67,7 +67,7 @@ def main(spec_path, out, music=None):
         if spec.get("even_pace", True) and med and n >= 5:
             if r > med * 1.06:
                 tp = max(0.86, med / r)
-            elif r < med * 0.88:
+            elif spec.get("pace_speedup", False) and r < med * 0.88:
                 tp = min(1.06, med / r)
         d = dur(f_) / tp
         text = v.get("caption") or re.sub(r"<#[\d.]+#>", "", v["text"]).replace("  ", " ").strip()

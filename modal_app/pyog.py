@@ -250,7 +250,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         if spec.get("even_pace", True) and med and c["chars"] >= 6:
             if c["rate"] > med * 1.06:
                 a_ = max(0.86, med / c["rate"])
-            elif c["rate"] < med * 0.88:
+            elif spec.get("pace_speedup", False) and c["rate"] < med * 0.88:  # slow, calm lines are left alone
                 a_ = min(1.06, med / c["rate"])
         c["tempo"] = round(a_, 3)
     voice_lines = [f"median {med:.2f} chars/s"] + [f"{c['rate']:.2f}\t{c['tempo']}\t{c['say'][:50]}" for c in chunks]

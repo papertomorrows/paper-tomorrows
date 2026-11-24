@@ -109,7 +109,7 @@
 
 물살과 싸운 사람은 지쳐서 가라앉아요. 물살을 읽고 함께 움직인 사람은, 노래를 부르며 걸어 나와요. 이게 바로 무위예요.
 
-<!-- section: empty | visuals: old wooden wheel, wagon wheel, empty room window light, two friends talking, walking alone park, woman daydreaming window, empty bench park | title: 빈 곳이 일을 한다 | ai: an ancient wooden cart wheel resting on a quiet road, the empty hub at its center glowing with soft golden light, symbolic, painterly, cinematic -->
+<!-- section: empty | visuals: old wooden wheel, wooden cart wheel, wheel, empty room window light, two friends talking, friends talking park, silence nature, walking alone park, woman daydreaming window, empty bench park | title: 빈 곳이 일을 한다 | ai: an ancient wooden cart wheel resting on a quiet road, the empty hub at its center glowing with soft golden light, symbolic, painterly, cinematic -->
 그리고 네 번째 생각은, 눈에 보이지 않는 빈 곳이 사실은 일을 하고 있다는 거예요.
 
 노자는 수레바퀴를 예로 들어요. 바퀴는 한가운데에 구멍이 뚫려 있어야, 거기에 축을 끼워서 굴러갈 수 있다. 방도 마찬가지예요. 벽을 세우고 문과 창을 뚫지만, 우리가 실제로 쓰는 건 벽이 아니라 그 안의 빈 공간이에요.
@@ -152,7 +152,7 @@
 
 물길을 알고 나면, 같은 노력도 훨씬 멀리 가요. 거슬러 오르느라 쓰던 힘을, 흐르는 쪽에 실어 줄 수 있으니까요.
 
-<!-- section: soften | visuals: reeds wind, couple talking, river flowing around rocks, calm conversation, deep breath woman, two people sofa talking | title: 힘 빼기 | ai: two people facing each other in a tense conversation in a softly lit living room, one of them takes a breath and speaks gently, the tension melting away like flowing water, painterly, cinematic -->
+<!-- section: soften | visuals: reeds wind, couple talking, two women talking, friends conversation, river flowing around rocks, calm conversation, deep breath woman, two people sofa talking | title: 힘 빼기 | ai: two people facing each other in a tense conversation in a softly lit living room, one of them takes a breath and speaks gently, the tension melting away like flowing water, painterly, cinematic -->
 세 번째 방법은, 힘 빼기예요.
 
 누군가와 부딪힐 때를 떠올려 보세요. 상대가 세게 나오면, 우리도 세게 맞서요. 그러면 둘 다 단단한 바위가 돼서 부딪히고, 결국 둘 다 깨져요.

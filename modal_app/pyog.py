@@ -228,19 +228,19 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                            " | ".join(t[:60] for t, _ in failed))
     print(f"STEP voice: {len(todo)} new clips ({unit}), {len(chunks) - len(todo)} cached")
 
-    def silences(f):
-        r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(f), "-af", "silencedetect=noise=-38dB:d=0.15",
+    def silences(f, mind=0.15):
+        r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(f), "-af", f"silencedetect=noise=-40dB:d={mind}",
                             "-f", "null", "-"], capture_output=True, text=True, timeout=120).stderr
         st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r)]
         en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r)]
         return list(zip(st, en))
 
-    # measure each clip's real speaking rate (characters per second of speech, pauses excluded)
+    # measure each clip's speaking pace (characters per second of speech between real pauses)
     for c in chunks:
         c["d"] = dur(c["file"])
         c["sil"] = silences(c["file"])
-        inner = [(x, y) for x, y in c["sil"] if x > 0.05 and y < c["d"] - 0.05]
-        speech = max(0.5, c["d"] - sum(y - x for x, y in inner))
+        real = silences(c["file"], 0.25)  # real pauses only; tiny dips between syllables are not pauses
+        speech = max(0.5, c["d"] - sum(y - x for x, y in real))
         c["chars"] = len(re.sub(r"\s", "", c["say"]))
         c["rate"] = c["chars"] / speech
     rates = sorted(c["rate"] for c in chunks if c["chars"] >= 12)
@@ -248,9 +248,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     for c in chunks:  # nudge clips that came out noticeably faster/slower than the rest back to the median
         a_ = 1.0
         if spec.get("even_pace", True) and med and c["chars"] >= 6:
-            if c["rate"] > med * 1.04:
+            if c["rate"] > med * 1.06:
                 a_ = max(0.86, med / c["rate"])
-            elif c["rate"] < med * 0.90:
+            elif c["rate"] < med * 0.88:
                 a_ = min(1.06, med / c["rate"])
         c["tempo"] = round(a_, 3)
     voice_lines = [f"median {med:.2f} chars/s"] + [f"{c['rate']:.2f}\t{c['tempo']}\t{c['say'][:50]}" for c in chunks]

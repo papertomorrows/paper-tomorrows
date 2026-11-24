@@ -47,12 +47,13 @@ def main(spec_path, out, music=None):
     gap, t, events, parts = spec.get("gap", 0.25), 0.3, [], []
 
     def speech_rate(f, txt):
-        r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(f), "-af", "silencedetect=noise=-38dB:d=0.15",
+        r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(f), "-af", "silencedetect=noise=-40dB:d=0.25",
                             "-f", "null", "-"], capture_output=True, text=True).stderr
         st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r)]
         en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r)]
         d = dur(f)
-        sil = sum(y - x for x, y in zip(st, en) if x > 0.05 and y < d - 0.05)
+        # speaking pace between real pauses (>= 0.25 s); tiny dips between syllables are not pauses
+        sil = sum(y - x for x, y in zip(st, en))
         n = len(re.sub(r"\s|<#[\d.]+#>", "", txt))
         return n / max(0.5, d - sil), n
 
@@ -64,9 +65,9 @@ def main(spec_path, out, music=None):
         r, n = rates[voices.index(v)]
         tp = 1.0
         if spec.get("even_pace", True) and med and n >= 5:
-            if r > med * 1.05:
+            if r > med * 1.06:
                 tp = max(0.86, med / r)
-            elif r < med * 0.90:
+            elif r < med * 0.88:
                 tp = min(1.06, med / r)
         d = dur(f_) / tp
         text = v.get("caption") or re.sub(r"<#[\d.]+#>", "", v["text"]).replace("  ", " ").strip()

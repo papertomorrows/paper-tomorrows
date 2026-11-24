@@ -187,50 +187,112 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     cap_size = 62 if lang == "English" else 70
     sections = parse_script(script_md)
 
-    # ---- voice: one clip per sentence (cached)
-    allsent = [s for sec in sections for s in sec["sentences"]]
-    todo = []
+    # ---- voice (cached). tts_unit "para": one clip per paragraph so the reading flows like one
+    # person speaking (no intonation reset every sentence); captions are split back per sentence.
+    unit = spec.get("tts_unit", "sentence")
     say_map = spec.get("say", {})  # spoken-only replacements; captions keep original text
-    for s in allsent:
-        sp = s["text"]
-        for a, b in say_map.items():
-            sp = sp.replace(a, b)
-        s["say"] = sp
-        tag = voice + str(speed) + (json.dumps(spec.get("voice_settings", {}), sort_keys=True) if provider == "eleven" else "")
-        s["file"] = cache / "tts" / f"{key(s['say'] + tag)}.mp3"
-        if not s["file"].exists():
-            todo.append(s)
+    tag = voice + str(speed) + (json.dumps(spec.get("voice_settings", {}), sort_keys=True) if provider == "eleven" else "")
+    chunks = []
+    for sec in sections:
+        sec["chunks"], cur = [], []
+        for s in sec["sentences"]:
+            sp = s["text"]
+            for a_, b_ in say_map.items():
+                sp = sp.replace(a_, b_)
+            s["say"] = sp
+            cur.append(s)
+            if unit == "sentence" or s["para_end"] or s.get("hold") or s is sec["sentences"][-1]:
+                say = " ".join(x["say"] for x in cur)
+                ch = {"sents": cur, "say": say, "file": cache / "tts" / f"{key(say + tag)}.mp3"}
+                sec["chunks"].append(ch); chunks.append(ch); cur = []
+    todo = [c for c in chunks if not c["file"].exists()]
     if provider == "eleven":
         vs = spec.get("voice_settings", {"stability": 0.35, "similarity_boost": 0.8, "style": 0.4,
                                          "use_speaker_boost": True, "speed": 0.94})
-        audios = tts_eleven.starmap([(s["say"], voice, vs) for s in todo])
+        audios = tts_eleven.starmap([(c["say"], voice, vs) for c in todo])
     else:
-        audios = tts.starmap([(s["say"], voice, speed, lang) for s in todo], return_exceptions=True)
+        audios = tts.starmap([(c["say"], voice, speed, lang) for c in todo], return_exceptions=True)
     failed = []
-    for s, audio in zip(todo, audios):
+    for c, audio in zip(todo, audios):
         if isinstance(audio, Exception):
-            failed.append((s["text"], str(audio)[:160]))
+            failed.append((c["say"], str(audio)[:160]))
             continue
-        s["file"].write_bytes(audio)
+        c["file"].write_bytes(audio)
     CACHE.commit()
     if failed:
         for txt, err in failed:
             print(f"TTS_FAILED: {txt} :: {err}")
         if any(("balance" in e.lower() or "locked" in e.lower()) for _, e in failed):
             raise RuntimeError("FAL_BALANCE_EXHAUSTED: top up fal.ai and re-run (TTS)")
-        raise RuntimeError(f"{len(failed)} sentence(s) failed TTS (saved the rest to cache); rephrase them: " +
-                           " | ".join(t for t, _ in failed))
-    print(f"STEP voice: {len(todo)} new sentences, {len(allsent) - len(todo)} cached")
+        raise RuntimeError(f"{len(failed)} chunk(s) failed TTS (saved the rest to cache); rephrase them: " +
+                           " | ".join(t[:60] for t, _ in failed))
+    print(f"STEP voice: {len(todo)} new clips ({unit}), {len(chunks) - len(todo)} cached")
+
+    def silences(f):
+        r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(f), "-af", "silencedetect=noise=-38dB:d=0.15",
+                            "-f", "null", "-"], capture_output=True, text=True, timeout=120).stderr
+        st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r)]
+        en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r)]
+        return list(zip(st, en))
+
+    # measure each clip's real speaking rate (characters per second of speech, pauses excluded)
+    for c in chunks:
+        c["d"] = dur(c["file"])
+        c["sil"] = silences(c["file"])
+        inner = [(x, y) for x, y in c["sil"] if x > 0.05 and y < c["d"] - 0.05]
+        speech = max(0.5, c["d"] - sum(y - x for x, y in inner))
+        c["chars"] = len(re.sub(r"\s", "", c["say"]))
+        c["rate"] = c["chars"] / speech
+    rates = sorted(c["rate"] for c in chunks if c["chars"] >= 12)
+    med = rates[len(rates) // 2] if rates else 0
+    for c in chunks:  # nudge clips that came out noticeably faster/slower than the rest back to the median
+        a_ = 1.0
+        if spec.get("even_pace", True) and med and c["chars"] >= 6:
+            if c["rate"] > med * 1.04:
+                a_ = max(0.86, med / c["rate"])
+            elif c["rate"] < med * 0.90:
+                a_ = min(1.06, med / c["rate"])
+        c["tempo"] = round(a_, 3)
+    voice_lines = [f"median {med:.2f} chars/s"] + [f"{c['rate']:.2f}\t{c['tempo']}\t{c['say'][:50]}" for c in chunks]
+    print(f"STEP pace: median {med:.2f} chars/s, adjusted {sum(1 for c in chunks if c['tempo'] != 1.0)}/{len(chunks)}")
+
+    def split_times(c):
+        """(start, end) of each sentence inside a clip, in the clip's own (un-stretched) time."""
+        n, d = len(c["sents"]), c["d"]
+        if n == 1:
+            return [(0.0, d)]
+        w = [len(re.sub(r"\s", "", x["say"])) + 3 for x in c["sents"]]
+        tot, cum, bounds = sum(w), 0, []
+        mids = [((x + y) / 2, x, y) for x, y in c["sil"] if 0.2 < x and y < d - 0.2]
+        last = 0.0
+        for k in range(n - 1):
+            cum += w[k]
+            est = d * cum / tot
+            cands = [m for m in mids if m[0] > last + 0.3 and abs(m[0] - est) < 1.6]
+            if cands:
+                m = min(cands, key=lambda m: abs(m[0] - est))
+                bounds.append((m[1], m[2])); last = m[0]
+            else:
+                bounds.append((est, est)); last = est
+        out, s0 = [], 0.0
+        for k in range(n):
+            e0 = bounds[k][0] if k < n - 1 else d
+            out.append((s0, e0))
+            if k < n - 1:
+                s0 = bounds[k][1]
+        return out
 
     # ---- timeline with calm pauses
     t, events, inputs = 1.0, [], []
     for si, sec in enumerate(sections):
         sec["start"] = t
-        for s in sec["sentences"]:
-            d = dur(s["file"])
-            events.append((t, t + d, s["text"]))
-            inputs.append((s["file"], t))
-            t += d + (float(spec.get("para_gap", 0.9)) if s["para_end"] else float(spec.get("sentence_gap", 0.35))) + float(s.get("hold", 0))
+        for c in sec["chunks"]:
+            tp = c["tempo"]
+            for s, (x, y) in zip(c["sents"], split_times(c)):
+                events.append((t + x / tp, t + y / tp, s["text"]))
+            inputs.append((c["file"], t, tp))
+            ls = c["sents"][-1]
+            t += c["d"] / tp + (float(spec.get("para_gap", 0.9)) if ls["para_end"] else float(spec.get("sentence_gap", 0.35))) + float(ls.get("hold", 0))
         t += float(spec.get("section_gap", 0.8))
         sec["end"] = t
     total = t + 2.0
@@ -241,9 +303,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     chunk_files = []
     for c in range(0, len(inputs), 40):
         sub_args, sub_fc, sub_lab = [], [], []
-        for j, (f, st) in enumerate(inputs[c:c + 40]):
+        for j, (f, st, tp) in enumerate(inputs[c:c + 40]):
             sub_args += ["-i", str(f)]
-            sub_fc.append(f"[{j}:a]aresample=48000,aformat=channel_layouts=stereo,"
+            sub_fc.append(f"[{j}:a]aresample=48000,aformat=channel_layouts=stereo," +
+                          (f"atempo={tp}," if tp != 1.0 else "") +
                           f"adelay={int(st * 1000)}|{int(st * 1000)}[a{j}]")
             sub_lab.append(f"[a{j}]")
         cf = work / f"nar_{c}.wav"
@@ -494,7 +557,11 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + (["-filter_complex", f"vstack=inputs={rows}"]
                        if rows > 1 else []) + ["-frames:v", "1", "-q:v", "4", str(sheet)], timeout=300)
         CACHE.commit()
-        return {"preview": sheet.read_bytes() if sheet.exists() else b"", "picks": "\n".join(lines)}
+        nmp3 = work / "narration.mp3"
+        run(["ffmpeg", "-y", "-i", str(nar), "-af", "loudnorm=I=-16:TP=-1.5", "-b:a", "96k", str(nmp3)])
+        return {"preview": sheet.read_bytes() if sheet.exists() else b"", "picks": "\n".join(lines),
+                "narration": nmp3.read_bytes(), "pace": "\n".join(voice_lines),
+                "srt": "\n".join(f"{st:.2f}\t{en:.2f}\t{tx}" for st, en, tx in events)}
     for sec in sections:  # spread extra painted scenes between the moving shots
         base, extra = sec["clips"][:sec.get("n_base", 0)], sec["clips"][sec.get("n_base", 0):]
         if base and extra:
@@ -647,6 +714,10 @@ def main(spec: str):
     if "preview" in r:
         (out / "preview.jpg").write_bytes(r["preview"])
         (out / "picks.txt").write_text(r["picks"])
+        for k_, fn in (("narration", "narration.mp3"), ):
+            if r.get(k_): (out / fn).write_bytes(r[k_])
+        for k_, fn in (("pace", "pace.txt"), ("srt", "timing.txt")):
+            if r.get(k_): (out / fn).write_text(r[k_])
         print(f"SHORT OK id={s['id']} preview picks={r['picks'].count(chr(10)) + 1}")
         return
     (out / f"{s['id']}.mp4").write_bytes(r["video"])

@@ -1,0 +1,74 @@
+{
+ "id": "pyog_sh89_water",
+ "status": "ready-ep028-shorts",
+ "hook": "가장 강한 사람이|꼽은 비결",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "누구보다 빠르고 강한 주먹으로 유명했던 무술 배우, 이소룡. 그가 꼽은 강해지는 비결은 뜻밖에도, 물이었어요.",
+    "caption": "누구보다 빠르고 강한 주먹으로 유명했던 무술 배우, 이소룡. 그가 꼽은 강해지는 비결은 뜻밖에도, 물이었어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그는 천구백칠십일년, 한 인터뷰에서 이렇게 말했어요. 마음을 비우세요. 형태 없이, 모양 없이, 물처럼.",
+    "caption": "그는 1971년, 한 인터뷰에서 이렇게 말했어요. 마음을 비우세요. 형태 없이, 모양 없이, 물처럼."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "물을 컵에 부으면 컵이 되고, 병에 부으면 병이 됩니다. 물은 흐를 수도 있고, 부술 수도 있어요. 물이 되세요, 친구여.",
+    "caption": "물을 컵에 부으면 컵이 되고, 병에 부으면 병이 됩니다. 물은 흐를 수도 있고, 부술 수도 있어요. 물이 되세요, 친구여."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "이천오백 년 전 노자도 비슷한 말을 남겼어요. 세상에 물보다 부드러운 건 없지만, 단단한 것을 이기는 데 물보다 나은 것도 없다고요.",
+    "caption": "이천오백 년 전 노자도 비슷한 말을 남겼어요. 세상에 물보다 부드러운 건 없지만, 단단한 것을 이기는 데 물보다 나은 것도 없다고요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "굳어 있으면 부러지고, 휘어질 줄 알면 다시 일어나요. 오늘, 조금 더 물처럼 살아 보면 어떨까요?",
+    "caption": "굳어 있으면 부러지고, 휘어질 줄 알면 다시 일어나요. 오늘, 조금 더 물처럼 살아 보면 어떨까요?"
+   }
+  ],
+  "images": [
+   "clear water being poured from above into a simple glass cup, the water swirling and taking the exact shape of the cup, glowing with golden light against a deep violet background",
+   "a lean martial artist seen only from behind as a dark silhouette, standing in a calm fighting stance in an empty wooden dojo at dawn, golden light through paper windows, his face is not visible",
+   "water being poured into a round clay teapot, the stream of water bending gracefully, soft steam, golden light, still life",
+   "tall reeds bending low and flat under a violent storm wind beside a broken fallen oak tree, rain, dramatic sky"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "water pours into the glass and swirls, gently filling the shape of the cup"
+   }
+  ]
+ }
+}

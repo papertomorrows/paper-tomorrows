@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh91_letgo",
+ "status": "ready-ep028-shorts",
+ "hook": "잠들기 전에|하나만 내려놓기",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하루를 마치고 누웠는데, 머릿속이 여전히 시끄러운 날이 있어요.",
+    "caption": "하루를 마치고 누웠는데, 머릿속이 여전히 시끄러운 날이 있어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "노자는 이렇게 말했어요. 배움은 날마다 더하는 것이고, 도는 날마다 덜어내는 것이다.",
+    "caption": "노자는 이렇게 말했어요. 배움은 날마다 더하는 것이고, 도는 날마다 덜어내는 것이다."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러니 오늘 밤엔 하나만 덜어 보세요. 서운했던 말 하나, 마음에 걸린 일 하나, 그리고 꼭 이래야 한다는 생각 하나.",
+    "caption": "그러니 오늘 밤엔 하나만 덜어 보세요. 서운했던 말 하나, 마음에 걸린 일 하나, 그리고 꼭 이래야 한다는 생각 하나."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 하나를 떠올리면서 마음속으로 말해요. 이건 내일의 나에게 맡길게. 이건 이제 흘려보낼게.",
+    "caption": "그 하나를 떠올리면서 마음속으로 말해요. 이건 내일의 나에게 맡길게. 이건 이제 흘려보낼게."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하나를 내려놓을 때마다, 흙탕물이 가라앉듯 마음이 맑아져요. 오늘 밤은, 조금 더 가볍게 잠드세요.",
+    "caption": "하나를 내려놓을 때마다, 흙탕물이 가라앉듯 마음이 맑아져요. 오늘 밤은, 조금 더 가볍게 잠드세요."
+   }
+  ],
+  "images": [
+   "a Korean woman in her mid forties with long wavy dark-brown hair loosely tied back, wearing a soft lavender long-sleeve pajama shirt, lying awake in bed at night staring at the ceiling, faint glowing tangled threads of thought swirling above her head, moonlight through the window",
+   {
+    "prompt": "a Korean woman in her mid forties with long wavy dark-brown hair loosely tied back, wearing a soft lavender long-sleeve pajama shirt, with a soft cardigan over her pajama shirt, kneeling at a moonlit stream and gently letting a small white paper boat float away on the water",
+    "ref": 0
+   },
+   "a clear glass of muddy water on a moonlit windowsill, the mud slowly settling to the bottom and the water above becoming crystal clear, calm night",
+   {
+    "prompt": "a Korean woman in her mid forties with long wavy dark-brown hair loosely tied back, wearing a soft lavender long-sleeve pajama shirt, sleeping peacefully in bed with a calm relaxed face, silver moonlight over the blanket, serene quiet bedroom",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "she turns restlessly in bed as faint glowing threads of thought drift above her"
+   }
+  ]
+ }
+}

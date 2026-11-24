@@ -45,18 +45,41 @@ def main(spec_path, out, music=None):
     voices = spec["assets"]["voices"]
     # --- narration: lines back to back with a short breath between them
     gap, t, events, parts = spec.get("gap", 0.25), 0.3, [], []
-    for v in voices:
-        f = src / f"voice_{v['name']}.mp3"
+
+    def speech_rate(f, txt):
+        r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(f), "-af", "silencedetect=noise=-38dB:d=0.15",
+                            "-f", "null", "-"], capture_output=True, text=True).stderr
+        st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r)]
+        en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r)]
         d = dur(f)
+        sil = sum(y - x for x, y in zip(st, en) if x > 0.05 and y < d - 0.05)
+        n = len(re.sub(r"\s|<#[\d.]+#>", "", txt))
+        return n / max(0.5, d - sil), n
+
+    # even pace: lines that came out noticeably faster or slower than the rest are nudged to the median
+    rates = [speech_rate(src / f"voice_{v['name']}.mp3", v["text"]) for v in voices]
+    rs = sorted(r for r, n in rates if n >= 8)
+    med = rs[len(rs) // 2] if rs else 0
+    for v, f_ in zip(voices, [src / f"voice_{v['name']}.mp3" for v in voices]):
+        r, n = rates[voices.index(v)]
+        tp = 1.0
+        if spec.get("even_pace", True) and med and n >= 5:
+            if r > med * 1.05:
+                tp = max(0.86, med / r)
+            elif r < med * 0.90:
+                tp = min(1.06, med / r)
+        d = dur(f_) / tp
         text = v.get("caption") or re.sub(r"<#[\d.]+#>", "", v["text"]).replace("  ", " ").strip()
         events.append((t, t + d, text))
-        parts.append((f, t))
+        parts.append((f_, t, round(tp, 3)))
         t += d + gap
+    print("pace median %.2f chars/s, tempos %s" % (med, [p_[2] for p_ in parts]))
     total = t + 0.6
     args, fc = [], []
-    for i, (f, st) in enumerate(parts):
+    for i, (f, st, tp) in enumerate(parts):
         args += ["-i", str(f)]
-        fc.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={int(st*1000)}|{int(st*1000)}[a{i}]")
+        fc.append(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo," + (f"atempo={tp}," if tp != 1.0 else "") +
+                  f"adelay={int(st*1000)}|{int(st*1000)}[a{i}]")
     run(["ffmpeg", "-y", *args, "-filter_complex",
          ";".join(fc) + ";" + "".join(f"[a{i}]" for i in range(len(parts))) +
          f"amix=inputs={len(parts)}:normalize=0,apad,atrim=0:{total:.2f}[m]", "-map", "[m]", str(work / "nar.wav")])

@@ -1,0 +1,77 @@
+{
+ "id": "pyog_sh88_stage",
+ "status": "ready-ep028-shorts",
+ "hook": "나만 멈춰 있는 것|같을 때",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "친구는 벌써 저만큼 갔는데, 나만 제자리에 멈춰 있는 것 같을 때가 있어요.",
+    "caption": "친구는 벌써 저만큼 갔는데, 나만 제자리에 멈춰 있는 것 같을 때가 있어요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그럴 때 물을 떠올려 보세요. 물은 하늘에선 구름이 되고, 땅에선 비가 되고, 겨울엔 얼음이 되어 가만히 멈춰 있어요.",
+    "caption": "그럴 때 물을 떠올려 보세요. 물은 하늘에선 구름이 되고, 땅에선 비가 되고, 겨울엔 얼음이 되어 가만히 멈춰 있어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "구름이 비보다 못한 게 아니고, 얼음이 강물보다 늦은 것도 아니에요. 그냥 그때의 모습일 뿐이에요.",
+    "caption": "구름이 비보다 못한 게 아니고, 얼음이 강물보다 늦은 것도 아니에요. 그냥 그때의 모습일 뿐이에요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "우리 삶도 그래요. 서툰 시기, 바쁜 시기, 꽁꽁 얼어붙은 시기. 어느 것도 틀린 시기가 아니에요.",
+    "caption": "우리 삶도 그래요. 서툰 시기, 바쁜 시기, 꽁꽁 얼어붙은 시기. 어느 것도 틀린 시기가 아니에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 모습으로, 지금 할 수 있는 것에 최선을 다하면 돼요. 때가 되면 물처럼, 다시 흐르게 되니까요.",
+    "caption": "지금 모습으로, 지금 할 수 있는 것에 최선을 다하면 돼요. 때가 되면 물처럼, 다시 흐르게 되니까요."
+   }
+  ],
+  "images": [
+   "a Korean woman in her late twenties with a short straight black bob haircut, wearing a mustard-yellow knit cardigan over a white t-shirt and light blue jeans, sitting perfectly still on a park bench at dusk while blurred crowds of people rush past her in streaks of light, she looks calm and thoughtful",
+   "a vast sky over a quiet green valley, a great glowing white cloud drifting above while silver rain falls from it onto the fields, no people",
+   "a frozen mountain lake under a winter moon, smooth ice glowing softly, everything perfectly still and peaceful, no people",
+   {
+    "prompt": "a Korean woman in her late twenties with a short straight black bob haircut, wearing a mustard-yellow knit cardigan over a white t-shirt and light blue jeans, walking happily along a spring stream where the ice has melted into rushing clear water, cherry blossoms and fresh green leaves, golden morning light",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the crowd streams past in blurred light while she stays perfectly still, breathing calmly"
+   }
+  ]
+ }
+}

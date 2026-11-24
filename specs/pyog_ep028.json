@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "done",
+ "status": "ready-ep028-preview4",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -217,7 +217,7 @@
    "outputs/shorts/pyog_sh91_letgo/img_03.jpg"
   ]
  },
- "preview": false,
+ "preview": true,
  "tts_unit": "para",
  "even_pace": true
 }

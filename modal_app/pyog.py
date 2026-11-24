@@ -252,7 +252,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 a_ = max(0.86, med / c["rate"])
             elif spec.get("pace_speedup", False) and c["rate"] < med * 0.88:  # slow, calm lines are left alone
                 a_ = min(1.06, med / c["rate"])
-        c["tempo"] = round(a_, 3)
+        c["tempo"] = round(a_ * float(spec.get("tempo", 0.93)), 3)  # longform reads a little slower overall
     voice_lines = [f"median {med:.2f} chars/s"] + [f"{c['rate']:.2f}\t{c['tempo']}\t{c['say'][:50]}" for c in chunks]
     print(f"STEP pace: median {med:.2f} chars/s, adjusted {sum(1 for c in chunks if c['tempo'] != 1.0)}/{len(chunks)}")
 

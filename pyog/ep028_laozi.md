@@ -109,7 +109,7 @@
 
 물살과 싸운 사람은 지쳐서 가라앉아요. 물살을 읽고 함께 움직인 사람은, 노래를 부르며 걸어 나와요. 이게 바로 무위예요.
 
-<!-- section: empty | visuals: old wooden wheel, wooden cart wheel, wheel, empty room window light, two friends talking, friends talking park, silence nature, walking alone park, woman daydreaming window, empty bench park | title: 빈 곳이 일을 한다 | ai: an ancient wooden cart wheel resting on a quiet road, the empty hub at its center glowing with soft golden light, symbolic, painterly, cinematic -->
+<!-- section: empty | visuals: old wooden wheel, wooden cart wheel, empty room window light, two friends talking, friends talking park, silence nature, walking alone park, woman daydreaming window, empty bench park | title: 빈 곳이 일을 한다 | ai: an ancient wooden cart wheel resting on a quiet road, the empty hub at its center glowing with soft golden light, symbolic, painterly, cinematic -->
 그리고 네 번째 생각은, 눈에 보이지 않는 빈 곳이 사실은 일을 하고 있다는 거예요.
 
 노자는 수레바퀴를 예로 들어요. 바퀴는 한가운데에 구멍이 뚫려 있어야, 거기에 축을 끼워서 굴러갈 수 있다. 방도 마찬가지예요. 벽을 세우고 문과 창을 뚫지만, 우리가 실제로 쓰는 건 벽이 아니라 그 안의 빈 공간이에요.
@@ -163,7 +163,7 @@
 
 물러선다고 내가 사라지는 게 아니에요. 갈대가 엎드렸다가 다시 일어나듯, 휘어질 줄 아는 사람이 끝까지 서 있어요.
 
-<!-- section: letgo | visuals: night moon window, bedroom night, paper boat water, starry night sky, candle night, woman sleeping | title: 잠들기 전 하나 내려놓기 -->
+<!-- section: letgo | visuals: night moon window, bedroom night, paper boat, starry night sky, candle night, woman sleeping | title: 잠들기 전 하나 내려놓기 -->
 마지막 네 번째 방법은, 잠들기 전 하나 내려놓기예요.
 
 노자는 이렇게 말했어요. 배움은 날마다 더하는 것이고, 도는 날마다 덜어내는 것이다.

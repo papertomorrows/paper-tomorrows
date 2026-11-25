@@ -135,3 +135,9 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 ## PYOG visual QA rules (2026-11-22, user request after EP026)
 - Longform stock: write `visuals` keywords that carry the mood of the line (e.g. "woman calmly cooking at home kitchen"), never a bare broad noun ("chef cooking"). Food/commercial-kitchen words are blocklisted (meat, steak, grill, bbq, burger, chef...). In preview review, judge every clip by "does this feel odd while hearing this sentence?", not just keyword match.
 - Shorts characters: when one person appears in several images, define a fixed character sheet (age, hair, face, clothes) and paste the identical description into every prompt (consider reference-image editing — check cost first). Different people in the same setting must look clearly different (clothes/setting). After images are generated, view all 4 side by side and regenerate any image where the same person looks different, before rendering.
+
+## Tags & search keywords (user request 2026-11-25)
+- From EP029 on, take extra care with tags: many tags, all phrased the way people actually search (Korean search phrasing, not literal translations).
+- Method: before writing tags, gather real searches: YouTube search-box autocomplete for the main keywords (via the built-in browser on the user's PC when available), plus related popular video titles. Mix broad (노자, 니체, 마음공부) + mid (노자 명언, 니체 아모르파티 뜻) + long-tail (자기 전 듣는 철학, 힘들 때 듣는 말).
+- Fill the tag box close to the 500-character limit, no unrelated/spam tags.
+- YouTube says title, thumbnail and description matter more than tags, so put the top 2-3 real search phrases in the title or first 2 lines of the description as well.

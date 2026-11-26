@@ -142,3 +142,15 @@ Owner rule: "think through the optimal, best direction FIRST, then make it" (no 
 - Fill the tag box close to the 500-character limit, no unrelated/spam tags.
 - YouTube says title, thumbnail and description matter more than tags, so put the top 2-3 real search phrases in the title or first 2 lines of the description as well.
 - Exposure checklist for every episode from EP029 (user: "use every method to maximize exposure"): real-search tags (autocomplete via built-in browser: suggestqueries.google.com client=firefox ds=yt hl=ko), top search phrase in title/description first 2 lines, chapters, 3 lead hashtags, upload SRT captions, shorts linked to longform via "관련 동영상", pinned comment with a question, playlist placement, end screen + cards to related episodes, consistent upload time.
+
+## Script-writing guide (user: "앞으로 대본 만들 때 참고해줘", learned on EP029 Nietzsche, 2026-11-26)
+Write the first draft this way so fewer revision rounds are needed:
+1. Hook (first ~60 s): open with a relatable moment the listener has had (e.g. "그때 그 선택만 안 했더라면"), then the central question; open a loop (why/how) that the next section answers; correct one common misconception early ("아, 그랬어?" moment); preview 1-2 vivid scenes coming later; close with a promise ("끝날 때쯤 이 질문이 다르게 들릴 거예요"). No clickbait.
+2. Person intro: detailed but easy and not boring - start from the familiar image (famous line/nickname), flip it ("알고 보니 여리고 아픈 사람"), use memorable verified facts (birth anecdote, unusual achievement, hardship, unrecognized in life). Don't repeat the hardships again in later sections/ending.
+3. Hard quotes/concepts: never leave a quote abstract. Split into concrete scenes ("두 가지 모습"), explain right after in one plain line, add an everyday example per stage ("우리 삶으로 치면…"), say the order clearly ("첫 번째는… 두 번째는…").
+4. Weave the user's core messages naturally (never preachy, phrased fresh each episode): every life stage is just a stage, do your best in each; no absolute must/must-not, life as play/"나만의 게임"; look at feelings with curiosity, sort heal/keep/let go; check the soul's mood; clear eyes -> synchronicity/creation; the more we remember who I/we are, the more we can choose in everything; we come from the same source and return to it, so no comparing.
+5. Practices: concrete, one per idea (each idea maps to a practice); make nuance explicit so nothing reads as avoidance/passivity (e.g. 눈 돌리기 = 먼저 보고 고르기, 풀 수 있는 일은 마주하기).
+6. Ending: one flowing close, not several endings; one easy metaphor (max two images), callback to the hook question, a short memorable last line that answers it.
+7. Interpretations not in the source are marked ("어쩌면 ~인지도 몰라요"); quotes stay faithful; check every fact.
+8. Self-check before showing: repetition inside the script and vs. past episodes, shorts and 영혼의 날씨; same word/phrase in consecutive lines; listening clarity (e.g. avoid "예라고" -> "그래, 라고"); length ~18-20 min at the slower pace.
+9. Years/numbers: numerals in captions, Hangul reading via `say`; read smoothly without breaks.

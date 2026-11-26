@@ -76,5 +76,12 @@
     "motion": "he breathes slowly and calmly as moonlight shifts across the blanket"
    }
   ]
- }
+ },
+ "line_vis": [
+  0,
+  0,
+  1,
+  2,
+  3
+ ]
 }

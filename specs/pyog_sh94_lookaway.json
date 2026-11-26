@@ -76,5 +76,12 @@
     "motion": "she scrolls her phone, frowning, the screen light flickering on her face"
    }
   ]
- }
+ },
+ "line_vis": [
+  0,
+  0,
+  1,
+  2,
+  3
+ ]
 }

@@ -76,5 +76,12 @@
     "motion": "the candle flame flickers as he writes slowly, deep in thought"
    }
   ]
- }
+ },
+ "line_vis": [
+  0,
+  0,
+  1,
+  2,
+  3
+ ]
 }

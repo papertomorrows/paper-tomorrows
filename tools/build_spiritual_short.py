@@ -91,11 +91,31 @@ def main(spec_path, out, music=None):
     if anim.exists():
         clips.append(("video", anim))
         imgs = imgs[1:]
-    for p in imgs:  # two different moves per painting so the picture changes every ~4 s
-        clips += [("image", p), ("image2", p)]
-    each = total / len(clips)
+    vis_list = ([("video", anim)] if anim.exists() else []) + [("image", p) for p in imgs]
+    lv = spec.get("line_vis")  # optional: which visual each spoken line shows, so pictures match the words
+    if lv and len(lv) == len(events):
+        bounds = [0.0] + [events[i][0] - gap / 2 for i in range(1, len(events))] + [total]
+        groups = []
+        for i, v in enumerate(lv):
+            if groups and groups[-1][0] == v:
+                groups[-1][2] = bounds[i + 1]
+            else:
+                groups.append([v, bounds[i], bounds[i + 1]])
+        clips, durs = [], []
+        for v, a0, a1 in groups:
+            kind, f = vis_list[v]
+            d = a1 - a0
+            if kind == "image" and d > 7:
+                clips += [("image", f), ("image2", f)]; durs += [d / 2, d / 2]
+            else:
+                clips.append((kind, f)); durs.append(d)
+    else:
+        for p in imgs:  # two different moves per painting so the picture changes every ~4 s
+            clips += [("image", p), ("image2", p)]
+        durs = [total / len(clips)] * len(clips)
     segs = []
     for k, (kind, f) in enumerate(clips):
+        each = durs[k]
         fr = int(round(each * FPS))
         o = work / f"c{k}.mp4"
         fade = f"fade=t=in:st=0:d=0.15,fade=t=out:st={each-0.15:.2f}:d=0.15"

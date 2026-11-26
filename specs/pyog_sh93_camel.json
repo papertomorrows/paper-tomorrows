@@ -73,5 +73,12 @@
     "motion": "the burdened camel slowly rises from its knees and begins to walk across the dunes"
    }
   ]
- }
+ },
+ "line_vis": [
+  0,
+  0,
+  1,
+  2,
+  3
+ ]
 }

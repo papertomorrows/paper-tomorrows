@@ -154,3 +154,5 @@ Write the first draft this way so fewer revision rounds are needed:
 7. Interpretations not in the source are marked ("어쩌면 ~인지도 몰라요"); quotes stay faithful; check every fact.
 8. Self-check before showing: repetition inside the script and vs. past episodes, shorts and 영혼의 날씨; same word/phrase in consecutive lines; listening clarity (e.g. avoid "예라고" -> "그래, 라고"); length ~18-20 min at the slower pace.
 9. Years/numbers: numerals in captions, Hangul reading via `say`; read smoothly without breaks.
+- Shorts: use `line_vis` (e.g. [0,0,1,2,3]) so each spoken line shows the matching picture. When editing a shorts spec after its assets exist, set status "done" in the SAME commit, or the workflow re-generates (and re-bills) all its assets.
+- gh CLI token may be invalid; repo is public, so poll runs with curl https://api.github.com/repos/papertomorrows/paper-tomorrows/actions/runs

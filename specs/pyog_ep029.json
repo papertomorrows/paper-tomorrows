@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep029-preview2",
+ "status": "ready-ep029-full",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -230,7 +230,7 @@
    "outputs/shorts/pyog_sh94_lookaway/img_03.jpg"
   ]
  },
- "preview": true,
+ "preview": false,
  "tts_unit": "para",
  "even_pace": true
 }

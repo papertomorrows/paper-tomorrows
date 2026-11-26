@@ -1,0 +1,77 @@
+{
+ "id": "pyog_sh93_camel",
+ "status": "ready-ep029-shorts",
+ "hook": "니체가 말한|세 번의 변신",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "니체는 사람의 마음이 살아가면서 세 번 모습을 바꾼다고 했어요. 낙타, 사자, 그리고 아이.",
+    "caption": "니체는 사람의 마음이 살아가면서 세 번 모습을 바꾼다고 했어요. 낙타, 사자, 그리고 아이."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "낙타는 무릎을 꿇고 짐을 실어 달라고 해요. 착한 딸이어야 한다, 남들만큼은 벌어야 한다. 그런 말들을 지고 사막을 건너요.",
+    "caption": "낙타는 무릎을 꿇고 짐을 실어 달라고 해요. 착한 딸이어야 한다, 남들만큼은 벌어야 한다. 그런 말들을 지고 사막을 건너요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그러다 문득 멈춰 서서 사자가 돼요. 너는 해야 한다고 적힌 용 앞에서, 처음으로 외치죠. 아니, 나는 원한다.",
+    "caption": "그러다 문득 멈춰 서서 사자가 돼요. 너는 해야 한다고 적힌 용 앞에서, 처음으로 외치죠. 아니, 나는 원한다."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하지만 싸우는 동안엔 새로운 걸 만들 수 없어요. 그래서 마지막에 사자는 아이가 돼요. 무너진 모래성 앞에서도 금방 웃으며 다시 쌓는 아이요.",
+    "caption": "하지만 싸우는 동안엔 새로운 걸 만들 수 없어요. 그래서 마지막에 사자는 아이가 돼요. 무너진 모래성 앞에서도 금방 웃으며 다시 쌓는 아이요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "지금 당신은 낙타인가요, 사자인가요. 어느 쪽이든 괜찮아요. 모두 아이에게 가는 길이니까요.",
+    "caption": "지금 당신은 낙타인가요, 사자인가요. 어느 쪽이든 괜찮아요. 모두 아이에게 가는 길이니까요."
+   }
+  ],
+  "images": [
+   "a camel kneeling in a vast golden desert at sunset, its back piled high with heavy bundles and sacks, patient and burdened",
+   "a powerful lion standing fearlessly before a colossal dragon whose every scale glows with ornate golden patterns, in a desert under a stormy violet sky",
+   "a cheerful Korean girl about six years old with a short black bob haircut, wearing a yellow sundress, happily building a sandcastle on a beach at sunset, a small wave rolling in",
+   {
+    "prompt": "a cheerful Korean girl about six years old with a short black bob haircut, wearing a yellow sundress, laughing joyfully and rebuilding her sandcastle after a wave washed half of it away, golden sunset light on the beach",
+    "ref": 2
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "the burdened camel slowly rises from its knees and begins to walk across the dunes"
+   }
+  ]
+ }
+}

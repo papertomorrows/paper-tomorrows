@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh95_onceagain",
+ "status": "ready-ep029-shorts",
+ "hook": "오늘 하루를|한 번 더 산다면",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "철학자 니체는 이런 질문을 던졌어요. 지금까지의 삶을, 똑같이 한 번 더 살아야 한다면?",
+    "caption": "철학자 니체는 이런 질문을 던졌어요. 지금까지의 삶을, 똑같이 한 번 더 살아야 한다면?"
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "평생을 묻는 건 너무 커요. 그래서 잠들기 전, 하루 크기로 물어봐요. 오늘 하루를 똑같이 한 번 더 산다면, 괜찮을까?",
+    "caption": "평생을 묻는 건 너무 커요. 그래서 잠들기 전, 하루 크기로 물어봐요. 오늘 하루를 똑같이 한 번 더 산다면, 괜찮을까?"
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "괜찮다는 대답이 나오면, 좋았던 순간 하나를 떠올려요. 그걸 알아 두면, 내일 그런 순간을 조금 더 만들 수 있어요.",
+    "caption": "괜찮다는 대답이 나오면, 좋았던 순간 하나를 떠올려요. 그걸 알아 두면, 내일 그런 순간을 조금 더 만들 수 있어요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "좀 곤란하다는 대답이 나오면, 어떤 장면 때문인지만 알아차려요. 나를 탓하는 게 아니라, 내일 다르게 해 볼 곳을 아는 거예요.",
+    "caption": "좀 곤란하다는 대답이 나오면, 어떤 장면 때문인지만 알아차려요. 나를 탓하는 게 아니라, 내일 다르게 해 볼 곳을 아는 거예요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "다시 만나도 반가울 하루가 하나씩 쌓이면, 언젠가 그 큰 질문에도 웃으며 대답할 수 있을 거예요. 그래, 한 번 더.",
+    "caption": "다시 만나도 반가울 하루가 하나씩 쌓이면, 언젠가 그 큰 질문에도 웃으며 대답할 수 있을 거예요. 그래, 한 번 더."
+   }
+  ],
+  "images": [
+   "a Korean man in his mid thirties with short black hair and light stubble, wearing a plain light gray sweatshirt, lying on his back in bed at night with eyes open, calm and thoughtful, silver moonlight from the window across the blanket",
+   {
+    "prompt": "a Korean man in his mid thirties with short black hair and light stubble, wearing a plain light gray sweatshirt, lying in bed at night smiling softly, a warm glowing memory of laughing with friends floating above him like a dream",
+    "ref": 0
+   },
+   "a small open notebook and a pen on a nightstand under a warm reading lamp, a quiet bedroom at night, still life",
+   {
+    "prompt": "a Korean man in his mid thirties with short black hair and light stubble, wearing a plain light gray sweatshirt, opening the bedroom curtains in the morning, bright golden sunrise light pouring in on his face, hopeful",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "he breathes slowly and calmly as moonlight shifts across the blanket"
+   }
+  ]
+ }
+}

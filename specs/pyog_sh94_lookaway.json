@@ -1,0 +1,80 @@
+{
+ "id": "pyog_sh94_lookaway",
+ "status": "ready-ep029-shorts",
+ "hook": "피하는 것과|눈 돌리는 것",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.15,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "무례한 댓글, 거슬리는 뉴스. 속으로 한참 말싸움하다 하루가 다 가는 날 있죠.",
+    "caption": "무례한 댓글, 거슬리는 뉴스. 속으로 한참 말싸움하다 하루가 다 가는 날 있죠."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "니체는 이렇게 썼어요. 눈을 돌리는 것, 그것이 나의 유일한 부정이 되기를.",
+    "caption": "니체는 이렇게 썼어요. 눈을 돌리는 것, 그것이 나의 유일한 부정이 되기를."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데 눈을 돌리는 건, 못 본 척 피하는 게 아니에요. 피하는 건 덮어 두는 거고, 덮어 둔 건 계속 신경을 건드려요.",
+    "caption": "그런데 눈을 돌리는 건, 못 본 척 피하는 게 아니에요. 피하는 건 덮어 두는 거고, 덮어 둔 건 계속 신경을 건드려요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "눈을 돌리는 건, 먼저 제대로 본 다음에 고르는 거예요. 내가 풀 수 있는 일이면 마주하고, 마음만 붙잡는 일이면 조용히 눈을 돌려요.",
+    "caption": "눈을 돌리는 건, 먼저 제대로 본 다음에 고르는 거예요. 내가 풀 수 있는 일이면 마주하고, 마음만 붙잡는 일이면 조용히 눈을 돌려요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "모른 척이 아니라, 알고서 고르는 것. 싫은 것에게 내 하루의 주인 자리를 내주지 마세요.",
+    "caption": "모른 척이 아니라, 알고서 고르는 것. 싫은 것에게 내 하루의 주인 자리를 내주지 마세요."
+   }
+  ],
+  "images": [
+   "a Korean woman in her mid fifties with short wavy gray-streaked hair and round tortoiseshell glasses, wearing an olive green knit cardigan, sitting on a sofa in the evening frowning at her phone, the cold screen light on her face, tense",
+   {
+    "prompt": "a Korean woman in her mid fifties with short wavy gray-streaked hair and round tortoiseshell glasses, wearing an olive green knit cardigan, setting her phone face down on the sofa and turning to look calmly out of a window at a big green tree, soft afternoon light",
+    "ref": 0
+   },
+   "a phone lying face down on a wooden table beside a steaming cup of tea, an open window with a gentle breeze and sunlight, still life",
+   {
+    "prompt": "a Korean woman in her mid fifties with short wavy gray-streaked hair and round tortoiseshell glasses, wearing an olive green knit cardigan, walking peacefully along a tree-lined street in golden light, relaxed and smiling",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "she scrolls her phone, frowning, the screen light flickering on her face"
+   }
+  ]
+ }
+}

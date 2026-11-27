@@ -52,7 +52,7 @@
 
 그러니 남들과 다른 내 방식을, 틀렸다고 먼저 단정할 필요는 없어요. 어쩌면 그건, 아직 아무도 시도해 보지 않은 방식일 뿐인지도 몰라요.
 
-<!-- section: gould | visuals: grand piano, piano playing, piano keys, pianist hands, old wooden chair, vintage microphone, sheet music, snow city night, winter window, classical music | title: 삐걱거리는 낮은 의자 -->
+<!-- section: gould | visuals: grand piano, piano playing, piano keys, pianist hands, piano concert, concert hall, vinyl record, sheet music, old wooden chair, snowy window | title: 삐걱거리는 낮은 의자 -->
 이번엔 캐나다로 가 볼게요. 글렌 굴드라는 피아니스트가 있었어요.
 
 전해지는 이야기로는, 굴드는 아기 때부터 울음 대신 흥얼거렸대요. 피아노 앞에 앉혀 주면, 다른 아이들처럼 건반을 마구 두드리지 않았어요. 음 하나를 누르고, 그 소리가 천천히 사라질 때까지 가만히 귀를 기울였대요.

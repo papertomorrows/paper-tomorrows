@@ -1,0 +1,85 @@
+{
+ "id": "pyog_sh96_lowchair",
+ "status": "ready-ep030-shorts",
+ "hook": "다리를 잘라 낸|의자 하나",
+ "hook_size": 104,
+ "hook_hi": 1,
+ "gap": 0.3,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "평생, 바닥에서 삼십육 센티미터밖에 안 되는 낮은 의자에서만 연주한 피아니스트가 있어요. 캐나다의 글렌 굴드예요.",
+    "caption": "평생, 바닥에서 36센티미터밖에 안 되는 낮은 의자에서만 연주한 피아니스트가 있어요. 캐나다의 글렌 굴드예요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "건반 가까이 낮게 앉아야 소리가 원하는 대로 나왔거든요. 그런 의자가 세상에 없자, 아버지가 접이식 의자의 다리를 톱으로 잘라 만들어 줬어요.",
+    "caption": "건반 가까이 낮게 앉아야 소리가 원하는 대로 나왔거든요. 그런 의자가 세상에 없자, 아버지가 접이식 의자의 다리를 톱으로 잘라 만들어 줬어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "굴드는 평생 그 의자를 들고 다녔어요. 삐걱대는 소리가 녹음에 섞여도 바꾸지 않았죠. 이 의자는 우리 가족이에요, 라면서요.",
+    "caption": "굴드는 평생 그 의자를 들고 다녔어요. 삐걱대는 소리가 녹음에 섞여도 바꾸지 않았죠. 이 의자는 우리 가족이에요, 라면서요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "어색한 자세라는 말도 들었지만, 그 의자에서 녹음한 바흐는 세계를 놀라게 했어요. 그는 알았던 거예요. 가장 편안할 때, 가장 나다운 소리가 난다는 걸.",
+    "caption": "어색한 자세라는 말도 들었지만, 그 의자에서 녹음한 바흐는 세계를 놀라게 했어요. 그는 알았던 거예요. 가장 편안할 때, 가장 나다운 소리가 난다는 걸."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "오늘 하루 중에, 어깨가 풀리고 시간 가는 줄 몰랐던 순간이 있었나요. 그게 당신만의 낮은 의자예요.",
+    "caption": "오늘 하루 중에, 어깨가 풀리고 시간 가는 줄 몰랐던 순간이 있었나요. 그게 당신만의 낮은 의자예요."
+   }
+  ],
+  "images": [
+   "a pianist in his twenties seen from behind and slightly to the side, his face turned away toward the keys, slicked-back dark hair, wearing a dark 1950s suit, sitting very low on a small worn wooden folding chair at a grand piano, knees higher than his hips, hunched close to the keys, a quiet dim recording studio with warm lamp light",
+   "a middle-aged father in a 1950s workshop sawing the legs off a small wooden folding chair, sawdust in warm window light, careful and loving",
+   "a small battered low wooden folding chair standing alone on an empty stage next to a grand piano under a single warm spotlight",
+   {
+    "prompt": "a pianist in his twenties seen from behind and slightly to the side, his face turned away toward the keys, slicked-back dark hair, wearing a dark 1950s suit, playing passionately on the same low wooden chair in a 1950s recording studio with vintage microphones, a glowing golden aura of music swirling around the piano",
+    "ref": 0
+   },
+   "a Korean woman in her early thirties with long straight black hair in a low ponytail, wearing a cream knit cardigan over a white shirt, sitting by a window on a sunny afternoon, completely absorbed in painting with watercolors, shoulders relaxed, a soft smile, golden light"
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "his hands move gently over the keys as the warm lamp light flickers softly"
+   }
+  ]
+ },
+ "line_vis": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ]
+}

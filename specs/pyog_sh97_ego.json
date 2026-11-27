@@ -1,0 +1,91 @@
+{
+ "id": "pyog_sh97_ego",
+ "status": "ready-ep030-shorts",
+ "hook": "에고를 버리라는 말|절반만 맞아요",
+ "hook_size": 92,
+ "hook_hi": 1,
+ "gap": 0.3,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "깨달으려면 에고를 버려야 한다. 이 말, 절반만 맞아요.",
+    "caption": "깨달으려면 에고를 버려야 한다. 이 말, 절반만 맞아요."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아주 넓은 자리에서 보면 우리는 하나예요. 내 경험이 곧 당신의 경험이고, 모든 것은 이어져 있어요.",
+    "caption": "아주 넓은 자리에서 보면 우리는 하나예요. 내 경험이 곧 당신의 경험이고, 모든 것은 이어져 있어요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그런데 우리는 굳이 몸을 입고 이 지구에 왔어요. 저마다 다른, 하나뿐인 경험을 하기 위해서요. 그래서 누구는 바다를, 누구는 산을 좋아하는 거예요.",
+    "caption": "그런데 우리는 굳이 몸을 입고 이 지구에 왔어요. 저마다 다른, 하나뿐인 경험을 하기 위해서요. 그래서 누구는 바다를, 누구는 산을 좋아하는 거예요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "나를 지우는 게 깨달음이 아니에요. 내가 원하는 걸 더 알아 가고, 나만의 기쁨과 슬픔을 온전히 느끼는 것. 그게 나머지 절반이에요.",
+    "caption": "나를 지우는 게 깨달음이 아니에요. 내가 원하는 걸 더 알아 가고, 나만의 기쁨과 슬픔을 온전히 느끼는 것. 그게 나머지 절반이에요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "더 선명하게 내가 되세요. 다만, 우리 사이에 정말로 갈라진 건 없다는 걸 알고 있는 채로요.",
+    "caption": "더 선명하게 내가 되세요. 다만, 우리 사이에 정말로 갈라진 건 없다는 걸 알고 있는 채로요."
+   }
+  ],
+  "images": [
+   "a Korean woman in her early thirties with long straight black hair in a low ponytail, wearing a cream knit cardigan over a white shirt, sitting cross-legged in meditation on a hilltop at night, eyes closed, faint starlight particles rising from her body into the cosmos",
+   "countless glowing human silhouettes made of starlight floating in a vast violet galaxy, all softly connected by fine threads of golden light",
+   {
+    "prompt": "a Korean woman in her early thirties with long straight black hair in a low ponytail, wearing a cream knit cardigan over a white shirt, standing barefoot at the edge of the sea at sunset, arms open wide, laughing with pure joy, waves around her feet",
+    "ref": 0
+   },
+   {
+    "prompt": "a Korean woman in her early thirties with long straight black hair in a low ponytail, wearing a cream knit cardigan over a white shirt, sitting by a window at dusk writing in a journal, smiling gently with a single tear on her cheek, warm lamp light",
+    "ref": 0
+   },
+   {
+    "prompt": "a Korean woman in her early thirties with long straight black hair in a low ponytail, wearing a cream knit cardigan over a white shirt, walking through a busy city street at golden hour, vivid and clearly herself, faint golden threads of light softly linking her to the people passing by",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "she breathes slowly as glowing starlight particles drift upward from her into the night sky"
+   }
+  ]
+ },
+ "line_vis": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ]
+}

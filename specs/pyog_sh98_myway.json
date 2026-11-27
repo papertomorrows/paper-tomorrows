@@ -1,0 +1,94 @@
+{
+ "id": "pyog_sh98_myway",
+ "status": "ready-ep030-shorts",
+ "hook": "일이 싫은 걸까|방식이 안 맞는 걸까",
+ "hook_size": 92,
+ "hook_hi": 1,
+ "gap": 0.3,
+ "assets": {
+  "style": "Painterly cinematic illustration, mystical and dramatic, deep violet and indigo night with radiant gold light, high contrast, vertical 9:16 composition with one clear subject in the center, no text, no letters, no watermark.",
+  "size": [
+   1080,
+   1920
+  ],
+  "voices": [
+   {
+    "name": "l00",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "하기 싫은 마음이 올라올 때, 게으르다고 나를 혼내기 전에 한 번만 물어보세요. 나는 이 일이 싫은 걸까, 이 방식이 안 맞는 걸까.",
+    "caption": "하기 싫은 마음이 올라올 때, 게으르다고 나를 혼내기 전에 한 번만 물어보세요. 나는 이 일이 싫은 걸까, 이 방식이 안 맞는 걸까."
+   },
+   {
+    "name": "l01",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "아침엔 한 줄도 안 써지던 글이, 밤에는 술술 써지기도 해요. 혼자 할 땐 지겹던 운동이, 누군가와 함께하면 즐거워지기도 하고요.",
+    "caption": "아침엔 한 줄도 안 써지던 글이, 밤에는 술술 써지기도 해요. 혼자 할 땐 지겹던 운동이, 누군가와 함께하면 즐거워지기도 하고요."
+   },
+   {
+    "name": "l02",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "일이 싫었던 게 아니라, 방식이 나한테 안 맞았던 경우가 생각보다 아주 많아요.",
+    "caption": "일이 싫었던 게 아니라, 방식이 나한테 안 맞았던 경우가 생각보다 아주 많아요."
+   },
+   {
+    "name": "l03",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "그 답답한 마음은, 궁금해하며 들여다봐 주세요. 오래된 상처라면 치유하고, 나를 지켜 주는 마음이면 간직하고, 이제 필요 없으면 고맙다고 하고 흘려보내면 돼요.",
+    "caption": "그 답답한 마음은, 궁금해하며 들여다봐 주세요. 오래된 상처라면 치유하고, 나를 지켜 주는 마음이면 간직하고, 이제 필요 없으면 고맙다고 하고 흘려보내면 돼요."
+   },
+   {
+    "name": "l04",
+    "provider": "minimax",
+    "voice_id": "Korean_IntellectualMan",
+    "speed": 1.15,
+    "lang": "Korean",
+    "text": "내가 어떤 사람인지 하나씩 기억해 낼수록, 같은 일 앞에서도 고를 수 있는 길이 늘어나요.",
+    "caption": "내가 어떤 사람인지 하나씩 기억해 낼수록, 같은 일 앞에서도 고를 수 있는 길이 늘어나요."
+   }
+  ],
+  "images": [
+   "a Korean man in his late twenties with short wavy black hair and round black-rimmed glasses, wearing a navy hoodie, slumped at a desk in the morning staring at a blank laptop screen, sighing, gray cool morning light, tired and stuck",
+   {
+    "prompt": "a Korean man in his late twenties with short wavy black hair and round black-rimmed glasses, wearing a navy hoodie, happily typing at the same desk late at night under a warm desk lamp, words flowing, glowing letters of light rising from the keyboard, moonlit window",
+    "ref": 0
+   },
+   {
+    "prompt": "a Korean man in his late twenties with short wavy black hair and round black-rimmed glasses, wearing a navy hoodie, jogging and laughing with a friend along a river path at sunset, light and joyful",
+    "ref": 0
+   },
+   {
+    "prompt": "a Korean man in his late twenties with short wavy black hair and round black-rimmed glasses, wearing a navy hoodie, sitting quietly with eyes closed and one hand on his chest, a small warm golden light glowing softly in his chest, calm and curious",
+    "ref": 0
+   },
+   {
+    "prompt": "a Korean man in his late twenties with short wavy black hair and round black-rimmed glasses, wearing a navy hoodie, standing at dawn where many glowing paths branch out across a wide green meadow, smiling as he looks at the choices before him",
+    "ref": 0
+   }
+  ],
+  "animate": [
+   {
+    "image": 0,
+    "motion": "he sighs and rubs his face as the cursor blinks on the blank screen"
+   }
+  ]
+ },
+ "line_vis": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ]
+}

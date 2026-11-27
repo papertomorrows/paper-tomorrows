@@ -256,8 +256,9 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     voice_lines = [f"median {med:.2f} chars/s"] + [f"{c['rate']:.2f}\t{c['tempo']}\t{c['say'][:50]}" for c in chunks]
     print(f"STEP pace: median {med:.2f} chars/s, adjusted {sum(1 for c in chunks if c['tempo'] != 1.0)}/{len(chunks)}")
 
-    def split_times(c):
-        """(start, end) of each sentence inside a clip, in the clip's own (un-stretched) time."""
+    def split_times(c, flags=None):
+        """(start, end) of each sentence inside a clip, in the clip's own (un-stretched) time.
+        If a list is passed as flags, it gets True for each boundary that sits on a real pause."""
         n, d = len(c["sents"]), c["d"]
         if n == 1:
             return [(0.0, d)]
@@ -272,8 +273,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
             if cands:
                 m = min(cands, key=lambda m: abs(m[0] - est))
                 bounds.append((m[1], m[2])); last = m[0]
+                if flags is not None: flags.append(True)
             else:
                 bounds.append((est, est)); last = est
+                if flags is not None: flags.append(False)
         out, s0 = [], 0.0
         for k in range(n):
             e0 = bounds[k][0] if k < n - 1 else d
@@ -288,11 +291,21 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
         sec["start"] = t
         for c in sec["chunks"]:
             tp = c["tempo"]
-            for s, (x, y) in zip(c["sents"], split_times(c)):
-                events.append((t + x / tp, t + y / tp, s["text"]))
-            inputs.append((c["file"], t, tp))
+            # sentence_pause: inside a paragraph clip, cut at the middle of each real pause between
+            # sentences and add a little extra breath there, like a person finishing a sentence
+            extra, flags = float(spec.get("sentence_pause", 0)), []
+            spans = split_times(c, flags)
+            ps, off = 0.0, t
+            for k, (s, (x, y)) in enumerate(zip(c["sents"], spans)):
+                events.append((off + (x - ps) / tp, off + (y - ps) / tp, s["text"]))
+                if extra and k < len(spans) - 1 and flags[k]:
+                    cut = (y + spans[k + 1][0]) / 2
+                    inputs.append((c["file"], off, tp, ps, cut))
+                    off += (cut - ps) / tp + extra
+                    ps = cut
+            inputs.append((c["file"], off, tp, ps, None))
             ls = c["sents"][-1]
-            t += c["d"] / tp + (float(spec.get("para_gap", 0.9)) if ls["para_end"] else float(spec.get("sentence_gap", 0.35))) + float(ls.get("hold", 0))
+            t = off + (c["d"] - ps) / tp + (float(spec.get("para_gap", 0.9)) if ls["para_end"] else float(spec.get("sentence_gap", 0.35))) + float(ls.get("hold", 0))
         t += float(spec.get("section_gap", 0.8))
         sec["end"] = t
     total = t + 2.0
@@ -303,9 +316,10 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     chunk_files = []
     for c in range(0, len(inputs), 40):
         sub_args, sub_fc, sub_lab = [], [], []
-        for j, (f, st, tp) in enumerate(inputs[c:c + 40]):
+        for j, (f, st, tp, a0, a1) in enumerate(inputs[c:c + 40]):
             sub_args += ["-i", str(f)]
-            sub_fc.append(f"[{j}:a]aresample=48000,aformat=channel_layouts=stereo," +
+            trim = "" if (not a0 and a1 is None) else (f"atrim=start={a0:.3f}" + (f":end={a1:.3f}" if a1 is not None else "") + ",asetpts=PTS-STARTPTS,")
+            sub_fc.append(f"[{j}:a]{trim}aresample=48000,aformat=channel_layouts=stereo," +
                           (f"atempo={tp}," if tp != 1.0 else "") +
                           f"adelay={int(st * 1000)}|{int(st * 1000)}[a{j}]")
             sub_lab.append(f"[a{j}]")

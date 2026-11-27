@@ -6,12 +6,12 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep030-preview4",
+ "status": "ready-ep030-full",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
  "min_luma": 28,
- "max_ai_fallbacks": 3,
+ "max_ai_fallbacks": 12,
  "sentence_gap": 0.5,
  "para_gap": 1.0,
  "section_gap": 1.0,
@@ -249,7 +249,7 @@
    "outputs/shorts/pyog_sh98_myway/img_04.jpg"
   ]
  },
- "preview": true,
+ "preview": false,
  "tts_unit": "para",
  "even_pace": true,
  "near_dupe": 25,

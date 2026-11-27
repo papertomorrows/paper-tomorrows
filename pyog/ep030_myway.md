@@ -1,4 +1,4 @@
-<!-- section: hook | visuals: writing letter pen, handwriting paper, old letters, woman writing, night window city, stadium lights night | ai: a faded handwritten note on old paper lying in an opened wooden drawer, warm afternoon light, nostalgic, painterly, cinematic -->
+<!-- section: hook | visuals: handwriting letter, writing pen paper, old letters envelope, woman reading letter, mother daughter, notebook writing school, rain window night, sunset city, piano keys | ai: a faded handwritten note on old paper lying in an opened wooden drawer, warm afternoon light, nostalgic, painterly, cinematic -->
 서랍을 정리하다가, 오래된 쪽지 한 장이 나왔다고 해 볼게요. 장 보러 다녀올게. 밥 챙겨 먹어. 이름은 어디에도 적혀 있지 않아요.
 
 그런데 첫 글자를 보는 순간, 우리는 알아요. 아, 엄마 글씨다. 혹은, 오래전 그 친구 글씨다.
@@ -21,7 +21,7 @@
 
 영상이 끝날 때쯤이면, 고쳐야 할 버릇처럼 보이던 내 방식이, 누군가 첫 글자만 봐도 알아보는 나만의 글씨처럼 보이기 시작할 거예요.
 
-<!-- section: fosbury | visuals: empty stadium, stadium crowd, athletics track, track and field, athlete stretching, stadium lights night, sports training sunset | title: 등을 돌려 넘은 소년 | ai: a tall lanky American teenage high jumper in a 1960s track uniform, seen from a distance, arching backward over the high jump bar head first, looking up at the sky, a small-town track at sunset, painterly, cinematic >> he arches gracefully over the bar and falls back onto the mat; a 1960s small-town newspaper lying on a wooden bench beside a running track, a grainy photo of an athlete arching backward over a bar, painterly, cinematic; a packed Olympic stadium at night in 1968 under bright floodlights, a lone athlete in mid-air arching backward over the high jump bar, the crowd silent in awe, painterly, cinematic >> the athlete clears the bar in slow motion as the crowd watches in silence; many modern high jumpers of different nations in a bright stadium, each arching backward over the bar in the same style, painterly, cinematic -->
+<!-- section: fosbury | visuals: athletics track, running track, stadium crowd, empty stadium, sports field sunset, young man running, athlete training, cheering crowd, clouds timelapse sky, boy looking sky | title: 등을 돌려 넘은 소년 | ai: a tall lanky American teenage high jumper in a 1960s track uniform, seen from a distance, arching backward over the high jump bar head first, looking up at the sky, a small-town track at sunset, painterly, cinematic >> he arches gracefully over the bar and falls back onto the mat; a 1960s small-town newspaper lying on a wooden bench beside a running track, a grainy photo of an athlete arching backward over a bar, painterly, cinematic; a packed Olympic stadium at night in 1968 under bright floodlights, a lone athlete in mid-air arching backward over the high jump bar, the crowd silent in awe, painterly, cinematic >> the athlete clears the bar in slow motion as the crowd watches in silence; many modern high jumpers of different nations in a bright stadium, each arching backward over the bar in the same style, painterly, cinematic -->
 1960년대, 미국 오리건의 작은 도시. 딕 포스베리라는 키 큰 고등학생이 있었어요. 높이뛰기를 좋아했지만, 잘하는 선수는 아니었어요.
 
 그때 높이뛰기에는 모두가 따르는 방식이 있었어요. 바를 향해 달려가서, 배를 바 쪽으로 향하고, 몸을 옆으로 굴리듯 넘어가는 방식이요. 잘하는 선수들은 다 그렇게 뛰었고, 코치도 포스베리에게 그 방식을 가르쳤어요.
@@ -52,7 +52,7 @@
 
 그러니 남들과 다른 내 방식을, 틀렸다고 먼저 단정할 필요는 없어요. 어쩌면 그건, 아직 아무도 시도해 보지 않은 방식일 뿐인지도 몰라요.
 
-<!-- section: gould | visuals: grand piano, piano hands, piano keys, old wooden chair, vintage microphone, sheet music, snowy city night | title: 삐걱거리는 낮은 의자 -->
+<!-- section: gould | visuals: grand piano, piano playing, piano keys, pianist hands, old wooden chair, vintage microphone, sheet music, snow city night, winter window, classical music | title: 삐걱거리는 낮은 의자 -->
 이번엔 캐나다로 가 볼게요. 글렌 굴드라는 피아니스트가 있었어요.
 
 전해지는 이야기로는, 굴드는 아기 때부터 울음 대신 흥얼거렸대요. 피아노 앞에 앉혀 주면, 다른 아이들처럼 건반을 마구 두드리지 않았어요. 음 하나를 누르고, 그 소리가 천천히 사라질 때까지 가만히 귀를 기울였대요.
@@ -85,7 +85,7 @@
 
 그 편안함과 답답함은, 그냥 기분이 아니에요. 내 영혼이 조용히 보내는 신호예요. 그래서 하루에 한 번쯤은 잠깐 멈추고, 내 영혼의 기분을 살펴봐 주세요. 지금 이 방식, 너는 편안하니, 하고요.
 
-<!-- section: day | visuals: coffee morning, woman cleaning, walking city morning, writing notebook, family dinner, sunrise city | title: 같은 하루, 다른 글씨 | ai: a tall lanky American teenage high jumper in a 1960s track uniform, seen from a distance, arching backward over the high jump bar head first, looking up at the sky, a small-town track at sunset, painterly, cinematic >> he arches gracefully over the bar and falls back onto the mat; a 1960s small-town newspaper lying on a wooden bench beside a running track, a grainy photo of an athlete arching backward over a bar, painterly, cinematic; a packed Olympic stadium at night in 1968 under bright floodlights, a lone athlete in mid-air arching backward over the high jump bar, the crowd silent in awe, painterly, cinematic >> the athlete clears the bar in slow motion as the crowd watches in silence; many modern high jumpers of different nations in a bright stadium, each arching backward over the bar in the same style, painterly, cinematic -->
+<!-- section: day | visuals: morning coffee, coffee cup window, cleaning house, walking street, writing notebook, woman reading book, family dinner, sunrise city, people walking street | title: 같은 하루, 다른 글씨 | ai: a tall lanky American teenage high jumper in a 1960s track uniform, seen from a distance, arching backward over the high jump bar head first, looking up at the sky, a small-town track at sunset, painterly, cinematic >> he arches gracefully over the bar and falls back onto the mat; a 1960s small-town newspaper lying on a wooden bench beside a running track, a grainy photo of an athlete arching backward over a bar, painterly, cinematic; a packed Olympic stadium at night in 1968 under bright floodlights, a lone athlete in mid-air arching backward over the high jump bar, the crowd silent in awe, painterly, cinematic >> the athlete clears the bar in slow motion as the crowd watches in silence; many modern high jumpers of different nations in a bright stadium, each arching backward over the bar in the same style, painterly, cinematic -->
 우리가 하루 동안 하는 일은 대부분 남들과 비슷해요. 일어나고, 씻고, 일하고, 밥을 먹고, 사람을 만나고, 잠들어요. 하루라는 글자는 모두 같아요.
 
 그런데 그 하루를 쓰는 글씨는, 사람마다 다 달라요.
@@ -102,7 +102,7 @@
 
 만약 삶에 정해진 정답이 있다면, 다들 같은 글씨로 살면 될 거예요. 하지만 삶은 정답을 맞히는 시험이 아니라, 저마다 자기 방식으로 즐기는 게임에 가까워요. 그리고 저마다 다른 방식이야말로, 이 게임을 재미있게 만드는 거예요.
 
-<!-- section: remember | visuals: woman thinking window, writing night lamp, jogging friends, forest path sunlight, sunrise field, door opening light | title: 나를 기억할수록, 길이 늘어난다 -->
+<!-- section: remember | visuals: woman thinking, woman window, writing night, friends running park, jogging park, sunrise field, door light, forest path, man thinking | title: 나를 기억할수록, 길이 늘어난다 -->
 살다 보면, 길이 하나뿐이라고 느껴질 때가 있어요. 그럴 때는 대개, 내가 누구인지 잠시 잊고 있을 때예요. 남들이 하는 방식이 유일한 방식인 줄 알면, 따라가거나 포기하는 것 말고는 아무것도 보이지 않거든요.
 
 이럴 때 도움이 되는 게 있어요. 답답하고 하기 싫은 마음을, 게으름이라고 혼내거나 그냥 넘기지 않는 거예요. 왜 이게 이렇게 답답하지, 하고 순수하게 궁금해하면서 들여다보는 거예요.
@@ -117,7 +117,7 @@
 
 포스베리가 대학에 들어갔을 때, 코치는 처음엔 그를 정석 자세로 되돌리려 했어요. 그런데 그 자세로 기록이 오르는 걸 보고는, 결국 그 방식을 믿어 주었어요. 굴드에게는 의자 다리를 잘라 준 아버지가 있었고요. 내가 나다워질수록, 삶도 그쪽으로 길을 열어 주는 거예요.
 
-<!-- section: ego | visuals: galaxy stars, ocean sunset, mountain sunrise, city crowd walking, people laughing, holding hands sunset | title: 에고를 버리라는 말의 절반 -->
+<!-- section: ego | visuals: starry sky, milky way, ocean waves, sunset ocean, mountain clouds, city crowd, people walking, friends laughing, holding hands, beach sunset | title: 에고를 버리라는 말의 절반 -->
 이제 조금 깊은 이야기를 해 볼게요. 나를 지우는 것이 깨달음은 아니라는 이야기예요.
 
 마음공부나 영성에 관심을 가지다 보면, 이런 말을 자주 듣게 돼요. 깨달으려면 에고를 버려야 한다. 나라는 생각을 내려놓아야 한다.

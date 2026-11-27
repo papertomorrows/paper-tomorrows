@@ -6,7 +6,7 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep030-preview2",
+ "status": "ready-ep030-preview3",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
@@ -234,5 +234,6 @@
  "preview": true,
  "tts_unit": "para",
  "even_pace": true,
- "near_dupe": 25
+ "near_dupe": 25,
+ "clip_seconds": 8
 }

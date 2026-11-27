@@ -156,3 +156,12 @@ Write the first draft this way so fewer revision rounds are needed:
 9. Years/numbers: numerals in captions, Hangul reading via `say`; read smoothly without breaks.
 - Shorts: use `line_vis` (e.g. [0,0,1,2,3]) so each spoken line shows the matching picture. When editing a shorts spec after its assets exist, set status "done" in the SAME commit, or the workflow re-generates (and re-bills) all its assets.
 - gh CLI token may be invalid; repo is public, so poll runs with curl https://api.github.com/repos/papertomorrows/paper-tomorrows/actions/runs
+
+## EP030 notes (2026-11-28)
+- User: "문장 끝나고 다음 문장 너무 빨리 시작하지 말고 약간 쉬고" -> longform spec keys now: `sentence_pause` 0.4 (extra breath cut into paragraph clips at real pauses between sentences), `para_gap` 1.0, `section_gap` 1.0. Measured: ~0.9 s between sentences, ~1.4 s between paragraphs.
+- After every longform render: check the whole narration (pause stats, pace outliers, mid-sentence breaks) AND scan the whole video at 1 frame / 2-8 s before delivering (user: narration/visual review belongs to production and post-production).
+- `near_dupe` (e.g. 25): skip Pixabay ids within N of an already shown id (same shoot = repetitive).
+- `spread_special` true: shorts images / own AI images are spread evenly through the section in script order (not all at the start). Split a long story section into two sections (second without title) so its AI images land in the right half.
+- Pixabay has almost no high-jump footage: for sports/history stories rely on own AI images + `paint` fallback prompts per section; `max_ai_fallbacks` caps new fallback images.
+- Hailuo motion on complex body action (high jump) came out wrong (jumper ends up standing / face down). Use stills for athletic motion.
+- Careful with regex edits of section headers: a non-greedy `.*?` with re.S once spanned several headers and copied Fosbury prompts into the `day` section. Edit headers per section, then print every section's ai list to verify.

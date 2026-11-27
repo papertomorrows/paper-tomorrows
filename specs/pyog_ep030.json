@@ -6,12 +6,12 @@
  "brand_mark": true,
  "mark_text": "당신만의 게임",
  "kicker_text": "당신만의 게임",
- "status": "ready-ep030-full",
+ "status": "ready-ep030-full2",
  "music": "outputs/shorts/pyog_test1/music.mp3",
  "speed": 1.14,
  "captions": true,
  "min_luma": 28,
- "max_ai_fallbacks": 12,
+ "max_ai_fallbacks": 6,
  "sentence_gap": 0.5,
  "para_gap": 1.0,
  "section_gap": 1.0,
@@ -231,8 +231,7 @@
    "outputs/shorts/pyog_sh96_lowchair/anim_00.mp4",
    "outputs/shorts/pyog_sh96_lowchair/img_01.jpg",
    "outputs/shorts/pyog_sh96_lowchair/img_02.jpg",
-   "outputs/shorts/pyog_sh96_lowchair/img_03.jpg",
-   "outputs/shorts/pyog_sh96_lowchair/img_04.jpg"
+   "outputs/shorts/pyog_sh96_lowchair/img_03.jpg"
   ],
   "ego": [
    "outputs/shorts/pyog_sh97_ego/anim_00.mp4",
@@ -247,11 +246,15 @@
    "outputs/shorts/pyog_sh98_myway/img_02.jpg",
    "outputs/shorts/pyog_sh98_myway/img_03.jpg",
    "outputs/shorts/pyog_sh98_myway/img_04.jpg"
+  ],
+  "day": [
+   "outputs/shorts/pyog_sh96_lowchair/img_04.jpg"
   ]
  },
  "preview": false,
  "tts_unit": "para",
  "even_pace": true,
  "near_dupe": 25,
- "clip_seconds": 8
+ "clip_seconds": 8,
+ "spread_special": true
 }

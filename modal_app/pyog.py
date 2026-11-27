@@ -509,6 +509,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     mixed.append(group[j])
         sec["clips"] = mixed
         sec["n_base"] = len(mixed)
+        sec["special"] = list(reuse) + list(own)  # the episode's own pictures, in script order
         clip_files += sec["clips"]
         sec["stock_ids"] = picked_ids
         for k in range(need - len(picked)):  # not enough stock: calm AI image instead
@@ -590,6 +591,21 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                 if j < len(extra):
                     merged.append(extra[j])
             sec["clips"] = merged
+        sp = sec.get("special", [])
+        if spec.get("spread_special") and sp:
+            # spread the own pictures evenly through the section, in script order, so each lands
+            # roughly where its line is spoken (instead of all at the start)
+            rest = [c for c in sec["clips"] if c not in sp]
+            n = len(rest) + len(sp)
+            pos = {min(n - 1, round(k * n / len(sp))): k for k in range(len(sp))}
+            out, ri = [], 0
+            for i in range(n):
+                if i in pos:
+                    out.append(sp[pos[i]])
+                elif ri < len(rest):
+                    out.append(rest[ri]); ri += 1
+            out += rest[ri:]
+            sec["clips"] = out
     print(f"STEP visuals: skipped {dark} dark/green-screen clips")
     CACHE.commit()
     print(f"STEP visuals: {len(clip_files)} clips ({fallbacks} AI fallbacks)")

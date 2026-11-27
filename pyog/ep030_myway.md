@@ -86,7 +86,7 @@
 
 그 편안함과 답답함은, 그냥 기분이 아니에요. 내 영혼이 조용히 보내는 신호예요. 그래서 하루에 한 번쯤은 잠깐 멈추고, 내 영혼의 기분을 살펴봐 주세요. 지금 이 방식, 너는 편안하니, 하고요.
 
-<!-- section: day | visuals: morning coffee, coffee cup window, cleaning house, walking street, writing notebook, woman reading book, family dinner, sunrise city, people walking street | title: 같은 하루, 다른 글씨 | ai: a tall lanky American teenage high jumper in a 1960s track uniform, seen from a distance, arching backward over the high jump bar head first, looking up at the sky, a small-town track at sunset, painterly, cinematic >> he arches gracefully over the bar and falls back onto the mat; a 1960s small-town newspaper lying on a wooden bench beside a running track, a grainy photo of an athlete arching backward over a bar, painterly, cinematic; a packed Olympic stadium at night in 1968 under bright floodlights, a lone athlete in mid-air arching backward over the high jump bar, the crowd silent in awe, painterly, cinematic >> the athlete clears the bar in slow motion as the crowd watches in silence; many modern high jumpers of different nations in a bright stadium, each arching backward over the bar in the same style, painterly, cinematic -->
+<!-- section: day | visuals: morning coffee, coffee cup window, cleaning house, walking street, writing notebook, woman reading book, family dinner, sunrise city, people walking street | title: 같은 하루, 다른 글씨 | ai: a row of different hands over cream paper, each holding a different tool, a pencil, a fountain pen, a brush and a crayon, warm light, symbolic, painterly, cinematic -->
 우리가 하루 동안 하는 일은 대부분 남들과 비슷해요. 일어나고, 씻고, 일하고, 밥을 먹고, 사람을 만나고, 잠들어요. 하루라는 글자는 모두 같아요.
 
 그런데 그 하루를 쓰는 글씨는, 사람마다 다 달라요.

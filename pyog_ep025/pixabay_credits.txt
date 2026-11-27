@@ -1,0 +1,15 @@
+hook: https://pixabay.com/videos/id-2303/, https://pixabay.com/videos/id-126990/, https://pixabay.com/videos/id-6400/, https://pixabay.com/videos/id-177314/
+everywhere: https://pixabay.com/videos/id-230851/, https://pixabay.com/videos/id-9400/, https://pixabay.com/videos/id-16224/
+decision: https://pixabay.com/videos/id-370571/, https://pixabay.com/videos/id-203251/, https://pixabay.com/videos/id-370570/, https://pixabay.com/videos/id-54162/
+rehearsal: https://pixabay.com/videos/id-208879/, https://pixabay.com/videos/id-147841/, https://pixabay.com/videos/id-86746/, https://pixabay.com/videos/id-112799/
+justwent: https://pixabay.com/videos/id-119140/, https://pixabay.com/videos/id-20422/, https://pixabay.com/videos/id-12697/, https://pixabay.com/videos/id-39475/, https://pixabay.com/videos/id-28607/, https://pixabay.com/videos/id-189730/
+choices: https://pixabay.com/videos/id-85812/, https://pixabay.com/videos/id-211641/, https://pixabay.com/videos/id-174677/, https://pixabay.com/videos/id-172818/
+body: https://pixabay.com/videos/id-176776/, https://pixabay.com/videos/id-50460/, https://pixabay.com/videos/id-132204/
+present: https://pixabay.com/videos/id-117/, https://pixabay.com/videos/id-33783/, https://pixabay.com/videos/id-33781/, https://pixabay.com/videos/id-119552/
+soul: https://pixabay.com/videos/id-129079/, https://pixabay.com/videos/id-82378/, https://pixabay.com/videos/id-118528/, https://pixabay.com/videos/id-82382/, https://pixabay.com/videos/id-130186/, https://pixabay.com/videos/id-146585/, https://pixabay.com/videos/id-130182/
+guide1: https://pixabay.com/videos/id-5629/, https://pixabay.com/videos/id-9520/, https://pixabay.com/videos/id-3142/, https://pixabay.com/videos/id-119826/, https://pixabay.com/videos/id-31115/
+guide2: https://pixabay.com/videos/id-58984/, https://pixabay.com/videos/id-128875/, https://pixabay.com/videos/id-58985/, https://pixabay.com/videos/id-127679/, https://pixabay.com/videos/id-128874/, https://pixabay.com/videos/id-127680/, https://pixabay.com/videos/id-127676/
+guide3: https://pixabay.com/videos/id-21943/, https://pixabay.com/videos/id-218686/, https://pixabay.com/videos/id-348928/, https://pixabay.com/videos/id-44289/, https://pixabay.com/videos/id-20557/, https://pixabay.com/videos/id-82130/, https://pixabay.com/videos/id-120033/, https://pixabay.com/videos/id-125900/, https://pixabay.com/videos/id-124390/, https://pixabay.com/videos/id-207669/, https://pixabay.com/videos/id-215882/, https://pixabay.com/videos/id-37620/, https://pixabay.com/videos/id-221180/
+guide4: https://pixabay.com/videos/id-40910/, https://pixabay.com/videos/id-168352/, https://pixabay.com/videos/id-21633/, https://pixabay.com/videos/id-4313/, https://pixabay.com/videos/id-8708/, https://pixabay.com/videos/id-111/, https://pixabay.com/videos/id-51784/, https://pixabay.com/videos/id-41063/
+guide5: 
+outro: https://pixabay.com/videos/id-24746/, https://pixabay.com/videos/id-56477/, https://pixabay.com/videos/id-56476/, https://pixabay.com/videos/id-231770/, https://pixabay.com/videos/id-366355/, https://pixabay.com/videos/id-381943/, https://pixabay.com/videos/id-215867/

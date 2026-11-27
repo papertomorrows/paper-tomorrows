@@ -338,6 +338,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
     # ---- stock clips per section (Pixabay): most relevant first, skip near-black clips
     pkey = os.environ.get("PIXABAY_API_KEY", "")
     used, clip_files, fallbacks, dark = set(), [], 0, 0
+    picked_all = set()  # every clip actually shown (for the near-duplicate check)
     own_new, credits = [], {}
     reused_total = [0]
     anims_new = [0]
@@ -436,6 +437,8 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                     cid, url, kw = l[depth]
                     if cid in used or cid in set(spec.get("ban_ids", [])):
                         continue
+                    if spec.get("near_dupe", 0) and any(abs(cid - u) <= int(spec["near_dupe"]) for u in picked_all):
+                        continue  # ids uploaded together are usually the same shoot: looks repetitive
                     f = cache / "stock" / f"px_{cid}.mp4"
                     fb = float(spec.get("fresh_before", 0))  # only clips never used in earlier videos
                     if fb and f.exists() and f.stat().st_mtime < fb:
@@ -452,6 +455,7 @@ def produce(spec: dict, script_md: str, music: bytes) -> dict:
                         continue
                     picked.append(f)
                     picked_ids.append(cid)
+                    picked_all.add(cid)
                     print(f"PICK {sec['name']} {cid} [{kw}] {TAGMAP.get(cid, '')[:80]}")
             depth += 1
         if spec.get("preview"):  # preview pass: stock picks only, no paid images
